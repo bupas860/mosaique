@@ -1,44 +1,40 @@
-import type { Situation } from "../types/game";
+import type { Situation } from "../types/situation";
 
 export const situations: Situation[] = [
   {
-    id: "intro",
-    title: "Première situation",
-    text:
-      "Vous arrivez dans une nouvelle entreprise. Deux collègues discutent et l'un d'eux vous demande votre avis.",
+    id: 1,
+    title: "La marge des privilèges",
+    description:
+      "En réunion, une personne est constamment interrompue alors qu'elle tente d'expliquer son idée.",
     choices: [
       {
-        id: "a",
-        label: "Je réponds immédiatement.",
+        text: "Ne rien dire",
         feedback:
-          "Vous choisissez de prendre la parole sans attendre.",
+          "Ne pas intervenir laisse la situation se reproduire sans remise en question."
       },
       {
-        id: "b",
-        label: "J'observe avant de parler.",
+        text: "Redonner la parole à cette personne",
         feedback:
-          "Vous préférez comprendre le contexte avant d'intervenir.",
-      },
-    ],
+          "Bonne réaction. Permettre à chacun de s'exprimer favorise une discussion plus équitable."
+      }
+    ]
   },
   {
-    id: "meeting",
-    title: "Deuxième situation",
-    text:
-      "Lors d'une réunion, une personne est régulièrement interrompue.",
+    id: 2,
+    title: "Une remarque déplacée",
+    description:
+      "Un collègue fait une blague stéréotypée devant tout le monde.",
     choices: [
       {
-        id: "a",
-        label: "Je laisse la discussion continuer.",
+        text: "Rire avec le groupe",
         feedback:
-          "Vous choisissez de ne pas intervenir.",
+          "Le rire peut être interprété comme une validation implicite de la remarque."
       },
       {
-        id: "b",
-        label: "Je propose de laisser cette personne terminer.",
+        text: "Exprimer calmement son désaccord",
         feedback:
-          "Vous intervenez pour rééquilibrer la parole.",
-      },
-    ],
-  },
+          "Exprimer son désaccord contribue à créer un climat plus respectueux."
+      }
+    ]
+  }
 ];
