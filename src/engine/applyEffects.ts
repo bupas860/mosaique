@@ -1,9 +1,5 @@
 import type { Character } from "../types/character";
-
-export interface CharacterEffect {
-  characterId: string;
-  delta: number;
-}
+import type { CharacterEffect } from "../types/situation";
 
 export function applyEffects(
   characters: Character[],
@@ -18,9 +14,14 @@ export function applyEffects(
       return character;
     }
 
+    const nextPosition = Math.min(
+      100,
+      Math.max(0, character.position + effect.displacement)
+    );
+
     return {
       ...character,
-      position: character.position + effect.delta,
+      position: nextPosition,
     };
   });
 }

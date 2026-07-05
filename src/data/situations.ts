@@ -5,35 +5,73 @@ export const situations: Situation[] = [
     id: 1,
     title: "La marge des privilèges",
     description:
-      "En réunion, une personne est constamment interrompue alors qu'elle tente d'expliquer son idée.",
+      "En réunion, une personne est régulièrement interrompue.",
+
     choices: [
       {
         text: "Ne rien dire",
+
         feedback:
-          "Ne pas intervenir laisse la situation se reproduire sans remise en question."
+          "La situation continue sans être remise en question.",
+
+        effects: [
+          {
+            characterId: "alex",
+            displacement: -8
+          }
+        ]
       },
+
       {
-        text: "Redonner la parole à cette personne",
+        text: "Redonner la parole",
+
         feedback:
-          "Bonne réaction. Permettre à chacun de s'exprimer favorise une discussion plus équitable."
+          "Le groupe prend conscience du problème.",
+
+        effects: [
+          {
+            characterId: "alex",
+            displacement: 8
+          }
+        ]
       }
     ]
   },
+
   {
     id: 2,
     title: "Une remarque déplacée",
+
     description:
-      "Un collègue fait une blague stéréotypée devant tout le monde.",
+      "Une plaisanterie stéréotypée est faite devant toute l'équipe.",
+
     choices: [
       {
-        text: "Rire avec le groupe",
+        text: "Laisser passer",
+
         feedback:
-          "Le rire peut être interprété comme une validation implicite de la remarque."
+          "Les stéréotypes restent banalisés.",
+
+        effects: [
+          {
+            characterId: "sam",
+            displacement: -6
+          }
+        ]
       },
+
       {
         text: "Exprimer calmement son désaccord",
+
         feedback:
-          "Exprimer son désaccord contribue à créer un climat plus respectueux."
+          "Le cadre de respect est réaffirmé.",
+
+        effects: [
+          {
+            characterId: "sam",
+            displacement: 6
+          }
+        ]
       }
     ]
   }
