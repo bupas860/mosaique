@@ -1,21 +1,23 @@
 import Button from "../components/Button";
 import Screen from "../components/Screen";
-import { firstSituation } from "../data/firstSituation";
+import { situations } from "../data/situations";
 
 export default function GamePage() {
+  const situation = situations[0];
+
   return (
     <Screen>
       <div className="mx-auto max-w-xl space-y-8 text-center">
         <h1 className="text-4xl font-bold">
-          {firstSituation.title}
+          {situation.title}
         </h1>
 
         <p className="text-lg text-slate-700">
-          {firstSituation.text}
+          {situation.text}
         </p>
 
         <div className="flex flex-col gap-4">
-          {firstSituation.choices.map((choice) => (
+          {situation.choices.map((choice) => (
             <Button key={choice.id}>
               {choice.label}
             </Button>
