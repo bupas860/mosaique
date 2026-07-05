@@ -1,11 +1,12 @@
 type ButtonProps = {
   children: React.ReactNode;
-  onClick?: () => void;
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
 };
 
 export default function Button({ children, onClick }: ButtonProps) {
   return (
     <button
+      type="button"
       onClick={onClick}
       className="
         rounded-lg

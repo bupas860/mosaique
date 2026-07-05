@@ -1,10 +1,14 @@
 import Button from "../components/Button";
 import Screen from "../components/Screen";
 
-export default function HomePage() {
+type HomePageProps = {
+  onStart: () => void;
+};
+
+export default function HomePage({ onStart }: HomePageProps) {
   return (
     <Screen>
-      <div className="text-center space-y-8">
+      <div className="space-y-8 text-center">
 
         <h1 className="text-5xl font-bold">
           La marge des privilèges
@@ -16,7 +20,7 @@ export default function HomePage() {
           privilèges et les inégalités.
         </p>
 
-        <Button>
+        <Button onClick={onStart}>
           Commencer
         </Button>
 
