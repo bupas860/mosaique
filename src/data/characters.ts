@@ -3,17 +3,20 @@ import type { Character } from "../types/character";
 export const characters: Character[] = [
   {
     id: "alex",
-    name: "Alex",
-    position: 30,
+    name: "Profil A",
+    color: "#10b981",
+    position: 20,
   },
   {
     id: "sam",
-    name: "Sam",
+    name: "Profil B",
+    color: "#8b5cf6",
     position: 50,
   },
   {
     id: "camille",
-    name: "Camille",
-    position: 70,
+    name: "Profil C",
+    color: "#3b82f6",
+    position: 80,
   },
 ];

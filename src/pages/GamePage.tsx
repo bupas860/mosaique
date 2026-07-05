@@ -3,6 +3,7 @@ import { useState } from "react";
 import SituationCard from "../components/SituationCard";
 import FeedbackCard from "../components/FeedbackCard";
 import PrivilegeMargin from "../components/PrivilegeMargin";
+import ProgressBar from "../components/ProgressBar";
 
 import { situations } from "../data/situations";
 import { characters as initialCharacters } from "../data/characters";
@@ -20,7 +21,6 @@ export default function GamePage({ onBackToHome }: Props) {
   const [phase, setPhase] = useState<Phase>("question");
   const [feedback, setFeedback] = useState("");
 
-  // Copie des personnages pour cette partie
   const [characters, setCharacters] = useState(() =>
     initialCharacters.map((character) => ({ ...character }))
   );
@@ -66,6 +66,11 @@ export default function GamePage({ onBackToHome }: Props) {
 
         <PrivilegeMargin characters={characters} />
 
+        <ProgressBar
+          current={situations.length}
+          total={situations.length}
+        />
+
         <h1 className="text-4xl font-bold">
           Fin de la partie
         </h1>
@@ -89,6 +94,11 @@ export default function GamePage({ onBackToHome }: Props) {
     <main className="mx-auto max-w-2xl p-8">
 
       <PrivilegeMargin characters={characters} />
+
+      <ProgressBar
+        current={currentIndex + 1}
+        total={situations.length}
+      />
 
       {phase === "question" && (
         <SituationCard
