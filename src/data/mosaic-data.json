@@ -1,0 +1,1114 @@
+{
+  "schemaVersion": "1.0.0",
+  "config": {
+    "gameId": "la-marge-des-privileges",
+    "title": "La Marge des privilèges",
+    "resultSemantics": {
+      "1": {
+        "label": "advance",
+        "description": "Le personnage avance d’une case ; la situation ne constitue pas un obstacle déterminant."
+      },
+      "0": {
+        "label": "blocked",
+        "description": "Le personnage reste sur place ; la situation constitue un obstacle."
+      }
+    },
+    "answerOptions": [
+      {
+        "id": "yes",
+        "label": "Oui"
+      },
+      {
+        "id": "no",
+        "label": "Non"
+      }
+    ],
+    "characterIds": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08"
+    ],
+    "situationIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16",
+      "S17",
+      "S18",
+      "S19",
+      "S20",
+      "S21",
+      "S22",
+      "S23",
+      "S24",
+      "S25",
+      "S26",
+      "S27",
+      "S28",
+      "S29",
+      "S30"
+    ]
+  },
+  "characters": [
+    {
+      "id": "P01",
+      "name": "Noé",
+      "age": 15,
+      "schoolLevel": "Seconde",
+      "identity": {
+        "gender": "garçon trans",
+        "usualFirstName": "Noé",
+        "administrativeFirstNameDifferent": true
+      },
+      "context": "Noé a commencé sa transition sociale il y a un an. Son entourage proche utilise son prénom d’usage, mais certains documents administratifs ne sont pas encore à jour.",
+      "traits": [
+        "usual_name_differs_from_administrative_name",
+        "social_transition",
+        "risk_of_involuntary_disclosure",
+        "gendered_spaces_may_create_obstacle"
+      ],
+      "protectiveFactors": [
+        "use_usual_name",
+        "administrative_confidentiality",
+        "trained_staff",
+        "inclusive_spaces"
+      ],
+      "mechanismIds": [
+        "M002",
+        "M003",
+        "M007"
+      ],
+      "pedagogicalRole": "Explorer les effets des procédures administratives et des espaces genrés."
+    },
+    {
+      "id": "P02",
+      "name": "Jade",
+      "age": 16,
+      "schoolLevel": "Première",
+      "identity": {
+        "sexualOrientation": "lesbienne"
+      },
+      "context": "Jade est out auprès d’une partie de son entourage mais pas auprès de toute sa famille. Elle choisit selon les contextes ce qu’elle souhaite révéler.",
+      "traits": [
+        "non_visible_sexual_orientation",
+        "disclosure_control",
+        "heterosexuality_assumption_exposure"
+      ],
+      "protectiveFactors": [
+        "open_questions",
+        "bystander_reaction",
+        "trusting_climate"
+      ],
+      "mechanismIds": [
+        "M001",
+        "M007",
+        "M010"
+      ],
+      "pedagogicalRole": "Illustrer les effets des présupposés sur la vie quotidienne."
+    },
+    {
+      "id": "P03",
+      "name": "Sam",
+      "age": 17,
+      "schoolLevel": "Terminale",
+      "identity": {
+        "gender": "non binaire",
+        "pronouns": [
+          "iel"
+        ]
+      },
+      "context": "Sam préfère que les personnes demandent son prénom et ses pronoms plutôt que de faire des suppositions.",
+      "traits": [
+        "non_binary_gender",
+        "specific_pronouns",
+        "binary_procedures_may_create_obstacle"
+      ],
+      "protectiveFactors": [
+        "inclusive_language",
+        "open_questions",
+        "display_name_choice",
+        "non_gendered_spaces"
+      ],
+      "mechanismIds": [
+        "M002",
+        "M003",
+        "M006"
+      ],
+      "pedagogicalRole": "Montrer les conséquences des organisations fondées sur une vision binaire du genre."
+    },
+    {
+      "id": "P04",
+      "name": "Arthur",
+      "age": 16,
+      "schoolLevel": "Première",
+      "identity": {
+        "gender": "garçon cisgenre",
+        "sexualOrientation": "hétérosexuel"
+      },
+      "context": "Arthur correspond aux attentes implicites de la plupart des procédures habituelles.",
+      "traits": [
+        "matches_majority_norms",
+        "no_identity_related_obstacle_in_current_scope"
+      ],
+      "protectiveFactors": [
+        "ordinary_procedures_match_situation"
+      ],
+      "mechanismIds": [],
+      "pedagogicalRole": "Servir de personnage de référence afin de mettre en évidence les différences de traitement."
+    },
+    {
+      "id": "P05",
+      "name": "Sofia",
+      "age": 15,
+      "schoolLevel": "Seconde",
+      "identity": {
+        "family": "deux mamans"
+      },
+      "context": "Sofia vit avec ses deux mamans depuis toujours.",
+      "traits": [
+        "same_sex_parent_family",
+        "family_configuration_underrepresented"
+      ],
+      "protectiveFactors": [
+        "inclusive_forms",
+        "neutral_language",
+        "diverse_family_representation"
+      ],
+      "mechanismIds": [
+        "M004",
+        "M005"
+      ],
+      "pedagogicalRole": "Questionner les représentations implicites de la famille."
+    },
+    {
+      "id": "P06",
+      "name": "Mehdi",
+      "age": 17,
+      "schoolLevel": "Terminale",
+      "identity": {
+        "sexualOrientation": "gay"
+      },
+      "context": "Mehdi choisit avec prudence les personnes auprès desquelles il parle de sa vie affective.",
+      "traits": [
+        "non_visible_sexual_orientation",
+        "disclosure_management",
+        "perceived_discrimination_risk"
+      ],
+      "protectiveFactors": [
+        "supportive_climate",
+        "bystander_reaction",
+        "open_questions"
+      ],
+      "mechanismIds": [
+        "M001",
+        "M007",
+        "M012"
+      ],
+      "pedagogicalRole": "Illustrer les stratégies d’adaptation développées face au risque de discrimination."
+    },
+    {
+      "id": "P07",
+      "name": "Camille",
+      "age": 15,
+      "schoolLevel": "Seconde",
+      "identity": {
+        "legalRepresentative": "grand-mère"
+      },
+      "context": "Camille vit chez sa grand-mère, qui est sa représentante légale.",
+      "traits": [
+        "family_configuration_differs_from_expected_model",
+        "legal_representative_is_not_parent"
+      ],
+      "protectiveFactors": [
+        "open_forms",
+        "non_presupposing_family_language"
+      ],
+      "mechanismIds": [
+        "M004",
+        "M005"
+      ],
+      "pedagogicalRole": "Montrer que les présupposés sur la famille concernent un public plus large que les seules personnes LGBT+."
+    },
+    {
+      "id": "P08",
+      "name": "Alex",
+      "age": 16,
+      "schoolLevel": "Première",
+      "identity": {
+        "gender": "garçon trans",
+        "disability": "handicap moteur",
+        "mobilityAid": "fauteuil roulant"
+      },
+      "context": "Alex rencontre selon les lieux des obstacles liés à la fois à l’accessibilité et à son identité de genre.",
+      "traits": [
+        "motor_disability",
+        "usual_name_differs_from_administrative_name",
+        "combined_obstacle_factors"
+      ],
+      "protectiveFactors": [
+        "accessible_buildings",
+        "trained_staff",
+        "use_usual_name",
+        "inclusive_organisation"
+      ],
+      "mechanismIds": [
+        "M002",
+        "M003",
+        "M007",
+        "M008"
+      ],
+      "pedagogicalRole": "Illustrer que plusieurs mécanismes sociaux peuvent se cumuler et produire des effets spécifiques."
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "M001",
+      "name": "Présomption d’hétérosexualité",
+      "category": "implicit_norms",
+      "definition": "Supposer qu’une personne est hétérosexuelle tant qu’elle n’a pas indiqué le contraire.",
+      "visibility": "low"
+    },
+    {
+      "id": "M002",
+      "name": "Binarité de genre",
+      "category": "implicit_norms",
+      "definition": "Considérer que toute personne appartient nécessairement à la catégorie « homme » ou « femme ».",
+      "visibility": "low"
+    },
+    {
+      "id": "M003",
+      "name": "Cisnormativité",
+      "category": "implicit_norms",
+      "definition": "Considérer qu’être cisgenre constitue la situation normale ou attendue.",
+      "visibility": "very_low"
+    },
+    {
+      "id": "M004",
+      "name": "Modèle familial implicite",
+      "category": "implicit_norms",
+      "definition": "Supposer qu’une famille est composée d’un père et d’une mère.",
+      "visibility": "low"
+    },
+    {
+      "id": "M005",
+      "name": "Absence de représentation",
+      "category": "invisibility",
+      "definition": "Ne jamais voir sa réalité représentée dans les exemples, ressources ou médias.",
+      "visibility": "very_low"
+    },
+    {
+      "id": "M006",
+      "name": "Langage excluant",
+      "category": "invisibility",
+      "definition": "Employer un vocabulaire qui oublie certaines personnes ou certaines réalités.",
+      "visibility": "low"
+    },
+    {
+      "id": "M007",
+      "name": "Outing involontaire",
+      "category": "institutional_processes",
+      "definition": "Révéler sans l’accord de la personne une information relevant de sa vie privée.",
+      "visibility": "medium"
+    },
+    {
+      "id": "M008",
+      "name": "Formulaires inadaptés",
+      "category": "institutional_processes",
+      "definition": "Utiliser des formulaires ou logiciels qui ne prévoient qu’un nombre limité de situations.",
+      "visibility": "medium"
+    },
+    {
+      "id": "M009",
+      "name": "Curiosité intrusive",
+      "category": "social_relations",
+      "definition": "Poser des questions personnelles qu’une personne n’a pas à justifier.",
+      "visibility": "medium"
+    },
+    {
+      "id": "M010",
+      "name": "Microagressions",
+      "category": "social_relations",
+      "definition": "Accumulation de remarques ou comportements apparemment anodins produisant un sentiment d’exclusion.",
+      "visibility": "very_low"
+    },
+    {
+      "id": "M011",
+      "name": "Assignation de rôle",
+      "category": "social_relations",
+      "definition": "Attribuer un rôle ou un comportement attendu en raison d’un stéréotype.",
+      "visibility": "low"
+    },
+    {
+      "id": "M012",
+      "name": "Isolement social",
+      "category": "social_relations",
+      "definition": "Mise à l’écart progressive ou renoncement à participer pleinement à la vie collective.",
+      "visibility": "medium"
+    },
+    {
+      "id": "M013",
+      "name": "Insulte",
+      "category": "explicit_discrimination",
+      "definition": "Employer un propos insultant visant une caractéristique réelle ou supposée.",
+      "visibility": "high"
+    },
+    {
+      "id": "M014",
+      "name": "Harcèlement",
+      "category": "explicit_discrimination",
+      "definition": "Répétition d’actes hostiles dégradant les conditions de vie d’une personne.",
+      "visibility": "high"
+    },
+    {
+      "id": "M015",
+      "name": "Exclusion",
+      "category": "explicit_discrimination",
+      "definition": "Empêcher une personne d’accéder à un lieu, une activité ou un droit.",
+      "visibility": "high"
+    },
+    {
+      "id": "M016",
+      "name": "Refus de service",
+      "category": "explicit_discrimination",
+      "definition": "Refuser un service ou un droit en raison d’une caractéristique réelle ou supposée.",
+      "visibility": "high"
+    },
+    {
+      "id": "M017",
+      "name": "Intervention d’un témoin",
+      "category": "protective_factor",
+      "definition": "Intervenir pour faire cesser une situation problématique.",
+      "visibility": "high"
+    },
+    {
+      "id": "M018",
+      "name": "Soutien des pairs",
+      "category": "protective_factor",
+      "definition": "Apporter un soutien explicite à la personne concernée.",
+      "visibility": "high"
+    },
+    {
+      "id": "M019",
+      "name": "Pratique inclusive",
+      "category": "protective_factor",
+      "definition": "Adapter le fonctionnement afin que chacun puisse participer dans les mêmes conditions.",
+      "visibility": "medium"
+    },
+    {
+      "id": "M020",
+      "name": "Représentation positive",
+      "category": "protective_factor",
+      "definition": "Permettre aux personnes de se reconnaître positivement dans les exemples et ressources.",
+      "visibility": "medium"
+    }
+  ],
+  "situations": [
+    {
+      "id": "S01",
+      "title": "Le premier appel",
+      "context": "École",
+      "text": "Le professeur distribue la liste de la classe et demande à chacun de vérifier que les informations sont correctes avant de l'afficher au fond de la salle.",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer qu'une information administrative peut révéler involontairement une information personnelle.",
+      "mechanismIds": [
+        "M007"
+      ],
+      "legacyMechanismLabel": "Outing involontaire",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S02",
+      "title": "Les toilettes",
+      "context": "École",
+      "text": "Pendant la récréation, un surveillant demande à ton personnage de changer de file pour rejoindre « la bonne ».",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Faire réfléchir à la manière dont des règles ordinaires peuvent placer certaines personnes dans une situation inconfortable.",
+      "mechanismIds": [
+        "M002"
+      ],
+      "legacyMechanismLabel": "Binarité de genre",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S03",
+      "title": "Le formulaire",
+      "context": "Administration",
+      "text": "En remplissant un formulaire, ton personnage découvre que seuls les champs « Père » et « Mère » sont proposés.",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer qu'un document peut refléter une seule vision de la famille et rendre invisibles d'autres réalités.",
+      "mechanismIds": [
+        "M004"
+      ],
+      "legacyMechanismLabel": "Modèle familial implicite",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S04",
+      "title": "Les vestiaires",
+      "context": "Éducation physique",
+      "text": "Avant le cours d'EPS, l'enseignant demande aux élèves de rejoindre rapidement le vestiaire qui leur correspond.",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Illustrer les effets de décisions prises sans tenir compte de la diversité des situations.",
+      "mechanismIds": [
+        "M002"
+      ],
+      "legacyMechanismLabel": "Assignation de genre",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S05",
+      "title": "Le voyage scolaire",
+      "context": "Voyage scolaire",
+      "text": "Les listes des chambres sont affichées. Elles sont réparties en deux catégories : « Garçons » et « Filles ».",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer qu'une organisation pratique peut avoir des conséquences différentes selon les personnes.",
+      "mechanismIds": [
+        "M002"
+      ],
+      "legacyMechanismLabel": "Organisation binaire",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S06",
+      "title": "La conversation",
+      "context": "Pause déjeuner",
+      "text": "En discutant, un camarade demande avec le sourire : « Alors, tu as enfin trouvé une petite copine ? »",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Faire réfléchir aux présupposés contenus dans certaines questions apparemment anodines.",
+      "mechanismIds": [
+        "M001"
+      ],
+      "legacyMechanismLabel": "Présomption d'hétérosexualité",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S07",
+      "title": "La blague",
+      "context": "Salle de classe",
+      "text": "Un élève lance : « C'est tellement gay ! » Plusieurs personnes rient. Le cours reprend immédiatement.",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer que le climat d'un groupe est aussi construit par les réactions... ou leur absence.",
+      "mechanismIds": [
+        "M010"
+      ],
+      "legacyMechanismLabel": "Microagression",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S08",
+      "title": "La consultation",
+      "context": "Santé",
+      "text": "Le professionnel de santé pose plusieurs questions sur la vie affective de ton personnage en faisant des suppositions, sans lui demander comment il ou elle souhaite en parler.",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer que les présupposés peuvent compliquer une relation pourtant destinée à aider.",
+      "mechanismIds": [
+        "M001"
+      ],
+      "legacyMechanismLabel": "Présupposés",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S09",
+      "title": "Le stage",
+      "context": "Entretien de stage",
+      "text": "En parcourant le dossier, la personne qui recrute s'arrête et demande : « Je préfère vérifier... c'est bien votre prénom officiel ? »",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Faire comprendre qu'une simple question peut avoir des conséquences très différentes selon les personnes.",
+      "mechanismIds": [
+        "M010"
+      ],
+      "legacyMechanismLabel": "Discrimination implicite",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S10",
+      "title": "L’intervention",
+      "context": "",
+      "text": "",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "",
+      "mechanismIds": [],
+      "legacyMechanismLabel": null,
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S11",
+      "title": "La photo de groupe",
+      "context": "Association",
+      "text": "Avant de publier une photo sur les réseaux sociaux, une personne propose : « On mettra seulement les couples sur la photo ! »",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer qu'une idée présentée comme conviviale peut exclure certaines personnes ou les obliger à révéler des informations personnelles.",
+      "mechanismIds": [
+        "M005"
+      ],
+      "legacyMechanismLabel": "Représentation des normes sociales",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S12",
+      "title": "La réservation",
+      "context": "Restaurant",
+      "text": "En apportant l'addition, le serveur la pose directement devant une seule personne du groupe, sans demander comment les convives souhaitent payer.",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Faire réfléchir aux attentes implicites sur les rôles et les relations entre les personnes.",
+      "mechanismIds": [
+        "M001"
+      ],
+      "legacyMechanismLabel": "Présupposés sur les relations affectives",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S13",
+      "title": "Le questionnaire",
+      "context": "Enquête en ligne",
+      "text": "Avant de commencer un questionnaire, ton personnage doit répondre à une question obligatoire : « Sexe : Homme / Femme ». Aucune autre possibilité n'est proposée.",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer que certaines catégories administratives peuvent ne pas correspondre à toutes les réalités.",
+      "mechanismIds": [
+        "M008"
+      ],
+      "legacyMechanismLabel": "Catégories administratives inadaptées",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S14",
+      "title": "Le badge",
+      "context": "Conférence",
+      "text": "À l'accueil, chaque participant peut écrire le prénom qu'il souhaite voir apparaître sur son badge.",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer qu'une pratique simple peut éviter des difficultés pour de nombreuses personnes.",
+      "mechanismIds": [
+        "M019"
+      ],
+      "legacyMechanismLabel": "Bonne pratique",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S15",
+      "title": "Le cadeau",
+      "context": "Famille",
+      "text": "Lors d'un anniversaire, un adulte dit : « Ça, ce n'est pas un cadeau pour les filles ! »",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Faire réfléchir à la manière dont les stéréotypes de genre influencent les attentes et les comportements.",
+      "mechanismIds": [
+        "M011"
+      ],
+      "legacyMechanismLabel": "Stéréotypes de genre",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S16",
+      "title": "Le bénévolat",
+      "context": "Recherche d'emploi",
+      "text": "Ton personnage hésite à mentionner une expérience de bénévolat dans une association LGBT de peur que cela influence le recrutement.",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer que certaines personnes peuvent renoncer à valoriser une expérience par crainte des réactions qu'elle pourrait susciter.",
+      "mechanismIds": [
+        "M005"
+      ],
+      "legacyMechanismLabel": "Invisibilisation",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S17",
+      "title": "Le premier cours",
+      "context": "École",
+      "text": "Avant de faire l'appel, l'enseignant distribue un papier sur lequel chaque élève peut indiquer le prénom et les pronoms qu'il souhaite voir utilisés en classe.",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer qu'une pratique simple peut éviter de nombreuses situations d'inconfort.",
+      "mechanismIds": [
+        "M019"
+      ],
+      "legacyMechanismLabel": "Pratique inclusive",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S18",
+      "title": "La consultation médicale",
+      "context": "Santé",
+      "text": "Au début de la consultation, le médecin demande : « Y a-t-il quelque chose que vous souhaitez me dire pour que je m'adresse à vous de la manière qui vous convient ? »",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer qu'une question ouverte permet d'éviter les présupposés.",
+      "mechanismIds": [
+        "M019"
+      ],
+      "legacyMechanismLabel": "Écoute active",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S19",
+      "title": "La réunion de famille",
+      "context": "Famille",
+      "text": "Pendant le repas, plusieurs personnes demandent régulièrement à ton personnage : « Alors, c'est pour quand les enfants ? »",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Faire réfléchir au fait que certaines questions, pourtant banales pour beaucoup, peuvent être pesantes ou excluantes selon les parcours de vie.",
+      "mechanismIds": [
+        "M005"
+      ],
+      "legacyMechanismLabel": "Invisibilisation",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S20",
+      "title": "Le tournoi",
+      "context": "Sport",
+      "text": "Pour constituer les équipes, l'animateur annonce : « Les garçons contre les filles, comme d'habitude ! »",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer qu'une organisation présentée comme habituelle peut exclure certaines personnes.",
+      "mechanismIds": [
+        "M015"
+      ],
+      "legacyMechanismLabel": "Exclusion implicite",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S21",
+      "title": "Le dossier administratif",
+      "context": "Administration",
+      "text": "Un agent lit à voix haute les informations personnelles figurant dans le dossier de ton personnage alors que plusieurs personnes attendent dans la salle.",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Faire comprendre que la confidentialité est un élément essentiel de l'accueil de toutes les personnes.",
+      "mechanismIds": [
+        "M007"
+      ],
+      "legacyMechanismLabel": "Confidentialité",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S22",
+      "title": "Le groupe de travail",
+      "context": "École",
+      "text": "Avant de commencer un travail de groupe, l'enseignant précise : « Si vous ne connaissez pas le prénom ou les pronoms d'une personne, demandez-lui simplement. »",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer qu'une règle simple peut créer un climat plus respectueux.",
+      "mechanismIds": [
+        "M019"
+      ],
+      "legacyMechanismLabel": "Langage inclusif",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S23",
+      "title": "Le remplacement",
+      "context": "École",
+      "text": "En arrivant dans une nouvelle classe, l'enseignante commence par demander : « Y a-t-il un prénom que vous préférez que j'utilise ? »",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer qu'une pratique inclusive bénéficie à l'ensemble de la classe.",
+      "mechanismIds": [
+        "M019"
+      ],
+      "legacyMechanismLabel": "Bonne pratique",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S24",
+      "title": "La présentation",
+      "context": "Formation",
+      "text": "Au début d'un atelier, chacun doit se présenter en expliquant qui il est et avec qui il vit.",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Faire réfléchir au fait qu'une activité de présentation peut conduire certaines personnes à révéler des informations personnelles qu'elles préféraient garder privées.",
+      "mechanismIds": [
+        "M007"
+      ],
+      "legacyMechanismLabel": "Révélation contrainte",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S25",
+      "title": "Le dossier de candidature",
+      "context": "Candidature",
+      "text": "Pour finaliser son inscription, ton personnage doit fournir une copie de sa pièce d'identité.",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer qu'une démarche administrative ordinaire peut avoir des conséquences différentes selon les personnes.",
+      "mechanismIds": [
+        "M007"
+      ],
+      "legacyMechanismLabel": "Divulgation d'information",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S26",
+      "title": "Le covoiturage",
+      "context": "Vie quotidienne",
+      "text": "Pendant le trajet, une personne demande : « Et ton mari, il travaille dans quoi ? »",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Faire réfléchir aux présupposés qui peuvent être contenus dans une conversation banale.",
+      "mechanismIds": [
+        "M001"
+      ],
+      "legacyMechanismLabel": "Présupposés",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S27",
+      "title": "Le vestiaire",
+      "context": "Sport",
+      "text": "Après le sport, plusieurs personnes insistent pour que tout le monde se change ensemble dans le vestiaire.",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer que la pression du groupe peut créer un inconfort pour certaines personnes, même sans intention malveillante.",
+      "mechanismIds": [
+        "M012"
+      ],
+      "legacyMechanismLabel": "Pression du groupe",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S28",
+      "title": "Le badge personnalisé",
+      "context": "Conférence",
+      "text": "À l'accueil, chaque participant peut écrire le prénom qu'il souhaite voir apparaître sur son badge.",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer qu'une pratique simple peut éviter des difficultés pour de nombreuses personnes.",
+      "mechanismIds": [
+        "M019"
+      ],
+      "legacyMechanismLabel": "Bonne pratique",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S29",
+      "title": "Le témoignage",
+      "context": "Réunion",
+      "text": "Une remarque discriminatoire est prononcée. Avant même que la personne concernée ne réagisse, quelqu'un intervient calmement pour rappeler les règles de respect.",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer que chacun peut contribuer à créer un environnement plus sûr et plus inclusif.",
+      "mechanismIds": [
+        "M017"
+      ],
+      "legacyMechanismLabel": "Intervention d'un allié",
+      "sourceStatus": "adapted_from_markdown"
+    },
+    {
+      "id": "S30",
+      "title": "La fiche d’inscription",
+      "context": "Inscription",
+      "text": "La fiche d’inscription permet d’indiquer librement le prénom utilisé, les pronoms et la personne responsable légale, sans imposer de modèle familial ou de catégorie de genre.",
+      "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
+      "pedagogicalIntent": "Montrer qu’un formulaire inclusif peut prévenir plusieurs obstacles sans compliquer la démarche.",
+      "mechanismIds": [
+        "M019"
+      ],
+      "legacyMechanismLabel": "Pratique inclusive",
+      "sourceStatus": "constructed"
+    }
+  ],
+  "matrix": {
+    "S01": {
+      "P01": 0,
+      "P02": 1,
+      "P03": 0,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 0
+    },
+    "S02": {
+      "P01": 0,
+      "P02": 1,
+      "P03": 0,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 0
+    },
+    "S03": {
+      "P01": 1,
+      "P02": 1,
+      "P03": 1,
+      "P04": 1,
+      "P05": 0,
+      "P06": 1,
+      "P07": 0,
+      "P08": 1
+    },
+    "S04": {
+      "P01": 0,
+      "P02": 1,
+      "P03": 0,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 0
+    },
+    "S05": {
+      "P01": 0,
+      "P02": 1,
+      "P03": 0,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 0
+    },
+    "S06": {
+      "P01": 1,
+      "P02": 0,
+      "P03": 1,
+      "P04": 1,
+      "P05": 1,
+      "P06": 0,
+      "P07": 1,
+      "P08": 1
+    },
+    "S07": {
+      "P01": 0,
+      "P02": 0,
+      "P03": 0,
+      "P04": 1,
+      "P05": 1,
+      "P06": 0,
+      "P07": 1,
+      "P08": 0
+    },
+    "S08": {
+      "P01": 0,
+      "P02": 0,
+      "P03": 0,
+      "P04": 1,
+      "P05": 1,
+      "P06": 0,
+      "P07": 1,
+      "P08": 0
+    },
+    "S09": {
+      "P01": 0,
+      "P02": 1,
+      "P03": 0,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 0
+    },
+    "S10": {
+      "P01": 1,
+      "P02": 1,
+      "P03": 1,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 1
+    },
+    "S11": {
+      "P01": 1,
+      "P02": 0,
+      "P03": 1,
+      "P04": 1,
+      "P05": 1,
+      "P06": 0,
+      "P07": 1,
+      "P08": 1
+    },
+    "S12": {
+      "P01": 1,
+      "P02": 1,
+      "P03": 1,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 1
+    },
+    "S13": {
+      "P01": 0,
+      "P02": 1,
+      "P03": 0,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 0
+    },
+    "S14": {
+      "P01": 0,
+      "P02": 1,
+      "P03": 0,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 0
+    },
+    "S15": {
+      "P01": 0,
+      "P02": 0,
+      "P03": 0,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 0
+    },
+    "S16": {
+      "P01": 1,
+      "P02": 1,
+      "P03": 1,
+      "P04": 1,
+      "P05": 1,
+      "P06": 0,
+      "P07": 1,
+      "P08": 1
+    },
+    "S17": {
+      "P01": 1,
+      "P02": 1,
+      "P03": 1,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 1
+    },
+    "S18": {
+      "P01": 1,
+      "P02": 1,
+      "P03": 1,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 1
+    },
+    "S19": {
+      "P01": 1,
+      "P02": 0,
+      "P03": 1,
+      "P04": 1,
+      "P05": 1,
+      "P06": 0,
+      "P07": 1,
+      "P08": 1
+    },
+    "S20": {
+      "P01": 0,
+      "P02": 1,
+      "P03": 0,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 0
+    },
+    "S21": {
+      "P01": 0,
+      "P02": 1,
+      "P03": 0,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 0
+    },
+    "S22": {
+      "P01": 1,
+      "P02": 1,
+      "P03": 1,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 1
+    },
+    "S23": {
+      "P01": 1,
+      "P02": 1,
+      "P03": 1,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 1
+    },
+    "S24": {
+      "P01": 1,
+      "P02": 0,
+      "P03": 1,
+      "P04": 1,
+      "P05": 1,
+      "P06": 0,
+      "P07": 0,
+      "P08": 1
+    },
+    "S25": {
+      "P01": 0,
+      "P02": 1,
+      "P03": 0,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 0
+    },
+    "S26": {
+      "P01": 1,
+      "P02": 0,
+      "P03": 1,
+      "P04": 1,
+      "P05": 1,
+      "P06": 0,
+      "P07": 1,
+      "P08": 1
+    },
+    "S27": {
+      "P01": 0,
+      "P02": 1,
+      "P03": 0,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 0
+    },
+    "S28": {
+      "P01": 1,
+      "P02": 1,
+      "P03": 1,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 1
+    },
+    "S29": {
+      "P01": 1,
+      "P02": 1,
+      "P03": 1,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 1
+    },
+    "S30": {
+      "P01": 1,
+      "P02": 1,
+      "P03": 1,
+      "P04": 1,
+      "P05": 1,
+      "P06": 1,
+      "P07": 1,
+      "P08": 1
+    }
+  }
+}

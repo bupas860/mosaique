@@ -1,12 +1,17 @@
-import type { Situation } from "../types/situation";
+import type { Choice, SituationContent } from "../types/situation";
+import { getChoiceContent } from "../engine/resolveSituationContent";
 
 interface Props {
-  situation: Situation;
-  onChoice: (choiceIndex: number) => void;
+  content: SituationContent;
+  choices: Choice[];
+  characterId: string;
+  onChoice: (choice: Choice) => void;
 }
 
 export default function SituationCard({
-  situation,
+  content,
+  choices,
+  characterId,
   onChoice,
 }: Props) {
   return (
@@ -14,22 +19,22 @@ export default function SituationCard({
 
       <div>
         <h2 className="text-2xl font-bold">
-          {situation.title}
+          {content.title}
         </h2>
 
         <p className="mt-4">
-          {situation.description}
+          {content.description}
         </p>
       </div>
 
       <div className="space-y-3">
-        {situation.choices.map((choice, index) => (
+        {choices.map((choice) => (
           <button
-            key={index}
-            onClick={() => onChoice(index)}
+            key={choice.id}
+            onClick={() => onChoice(choice)}
             className="w-full rounded-lg bg-blue-600 px-4 py-3 text-white hover:bg-blue-700"
           >
-            {choice.text}
+            {getChoiceContent(choice, characterId).text}
           </button>
         ))}
       </div>

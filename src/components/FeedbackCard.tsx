@@ -1,10 +1,12 @@
 interface Props {
   feedback: string;
+  characterName: string;
   onContinue: () => void;
 }
 
 export default function FeedbackCard({
   feedback,
+  characterName,
   onContinue,
 }: Props) {
   return (
@@ -12,6 +14,10 @@ export default function FeedbackCard({
 
       <p className="text-lg">
         {feedback}
+      </p>
+
+      <p className="text-sm text-slate-600">
+        Vous incarnez toujours {characterName}.
       </p>
 
       <button

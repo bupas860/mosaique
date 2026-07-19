@@ -1,0 +1,211 @@
+[
+  {
+    "id": "P01",
+    "name": "Noé",
+    "age": 15,
+    "schoolLevel": "Seconde",
+    "identity": {
+      "gender": "garçon trans",
+      "usualFirstName": "Noé",
+      "administrativeFirstNameDifferent": true
+    },
+    "context": "Noé a commencé sa transition sociale il y a un an. Son entourage proche utilise son prénom d’usage, mais certains documents administratifs ne sont pas encore à jour.",
+    "traits": [
+      "usual_name_differs_from_administrative_name",
+      "social_transition",
+      "risk_of_involuntary_disclosure",
+      "gendered_spaces_may_create_obstacle"
+    ],
+    "protectiveFactors": [
+      "use_usual_name",
+      "administrative_confidentiality",
+      "trained_staff",
+      "inclusive_spaces"
+    ],
+    "mechanismIds": [
+      "M002",
+      "M003",
+      "M007"
+    ],
+    "pedagogicalRole": "Explorer les effets des procédures administratives et des espaces genrés."
+  },
+  {
+    "id": "P02",
+    "name": "Jade",
+    "age": 16,
+    "schoolLevel": "Première",
+    "identity": {
+      "sexualOrientation": "lesbienne"
+    },
+    "context": "Jade est out auprès d’une partie de son entourage mais pas auprès de toute sa famille. Elle choisit selon les contextes ce qu’elle souhaite révéler.",
+    "traits": [
+      "non_visible_sexual_orientation",
+      "disclosure_control",
+      "heterosexuality_assumption_exposure"
+    ],
+    "protectiveFactors": [
+      "open_questions",
+      "bystander_reaction",
+      "trusting_climate"
+    ],
+    "mechanismIds": [
+      "M001",
+      "M007",
+      "M010"
+    ],
+    "pedagogicalRole": "Illustrer les effets des présupposés sur la vie quotidienne."
+  },
+  {
+    "id": "P03",
+    "name": "Sam",
+    "age": 17,
+    "schoolLevel": "Terminale",
+    "identity": {
+      "gender": "non binaire",
+      "pronouns": [
+        "iel"
+      ]
+    },
+    "context": "Sam préfère que les personnes demandent son prénom et ses pronoms plutôt que de faire des suppositions.",
+    "traits": [
+      "non_binary_gender",
+      "specific_pronouns",
+      "binary_procedures_may_create_obstacle"
+    ],
+    "protectiveFactors": [
+      "inclusive_language",
+      "open_questions",
+      "display_name_choice",
+      "non_gendered_spaces"
+    ],
+    "mechanismIds": [
+      "M002",
+      "M003",
+      "M006"
+    ],
+    "pedagogicalRole": "Montrer les conséquences des organisations fondées sur une vision binaire du genre."
+  },
+  {
+    "id": "P04",
+    "name": "Arthur",
+    "age": 16,
+    "schoolLevel": "Première",
+    "identity": {
+      "gender": "garçon cisgenre",
+      "sexualOrientation": "hétérosexuel"
+    },
+    "context": "Arthur correspond aux attentes implicites de la plupart des procédures habituelles.",
+    "traits": [
+      "matches_majority_norms",
+      "no_identity_related_obstacle_in_current_scope"
+    ],
+    "protectiveFactors": [
+      "ordinary_procedures_match_situation"
+    ],
+    "mechanismIds": [],
+    "pedagogicalRole": "Servir de personnage de référence afin de mettre en évidence les différences de traitement."
+  },
+  {
+    "id": "P05",
+    "name": "Sofia",
+    "age": 15,
+    "schoolLevel": "Seconde",
+    "identity": {
+      "family": "deux mamans"
+    },
+    "context": "Sofia vit avec ses deux mamans depuis toujours.",
+    "traits": [
+      "same_sex_parent_family",
+      "family_configuration_underrepresented"
+    ],
+    "protectiveFactors": [
+      "inclusive_forms",
+      "neutral_language",
+      "diverse_family_representation"
+    ],
+    "mechanismIds": [
+      "M004",
+      "M005"
+    ],
+    "pedagogicalRole": "Questionner les représentations implicites de la famille."
+  },
+  {
+    "id": "P06",
+    "name": "Mehdi",
+    "age": 17,
+    "schoolLevel": "Terminale",
+    "identity": {
+      "sexualOrientation": "gay"
+    },
+    "context": "Mehdi choisit avec prudence les personnes auprès desquelles il parle de sa vie affective.",
+    "traits": [
+      "non_visible_sexual_orientation",
+      "disclosure_management",
+      "perceived_discrimination_risk"
+    ],
+    "protectiveFactors": [
+      "supportive_climate",
+      "bystander_reaction",
+      "open_questions"
+    ],
+    "mechanismIds": [
+      "M001",
+      "M007",
+      "M012"
+    ],
+    "pedagogicalRole": "Illustrer les stratégies d’adaptation développées face au risque de discrimination."
+  },
+  {
+    "id": "P07",
+    "name": "Camille",
+    "age": 15,
+    "schoolLevel": "Seconde",
+    "identity": {
+      "legalRepresentative": "grand-mère"
+    },
+    "context": "Camille vit chez sa grand-mère, qui est sa représentante légale.",
+    "traits": [
+      "family_configuration_differs_from_expected_model",
+      "legal_representative_is_not_parent"
+    ],
+    "protectiveFactors": [
+      "open_forms",
+      "non_presupposing_family_language"
+    ],
+    "mechanismIds": [
+      "M004",
+      "M005"
+    ],
+    "pedagogicalRole": "Montrer que les présupposés sur la famille concernent un public plus large que les seules personnes LGBT+."
+  },
+  {
+    "id": "P08",
+    "name": "Alex",
+    "age": 16,
+    "schoolLevel": "Première",
+    "identity": {
+      "gender": "garçon trans",
+      "disability": "handicap moteur",
+      "mobilityAid": "fauteuil roulant"
+    },
+    "context": "Alex rencontre selon les lieux des obstacles liés à la fois à l’accessibilité et à son identité de genre.",
+    "traits": [
+      "motor_disability",
+      "usual_name_differs_from_administrative_name",
+      "combined_obstacle_factors"
+    ],
+    "protectiveFactors": [
+      "accessible_buildings",
+      "trained_staff",
+      "use_usual_name",
+      "inclusive_organisation"
+    ],
+    "mechanismIds": [
+      "M002",
+      "M003",
+      "M007",
+      "M008"
+    ],
+    "pedagogicalRole": "Illustrer que plusieurs mécanismes sociaux peuvent se cumuler et produire des effets spécifiques."
+  }
+]

@@ -3,15 +3,29 @@ export interface CharacterEffect {
   displacement: number;
 }
 
-export interface Choice {
+export type ContentByCharacter<T> = {
+  common: T;
+} & Partial<Record<string, T>>;
+
+export interface SituationContent {
+  title: string;
+  description: string;
+}
+
+export interface ChoiceContent {
   text: string;
   feedback: string;
+}
+
+export interface Choice {
+  id: string;
+  content: ContentByCharacter<ChoiceContent>;
   effects: CharacterEffect[];
 }
 
 export interface Situation {
-  id: number;
-  title: string;
-  description: string;
+  id: string;
+  availableFor?: string[];
+  content: ContentByCharacter<SituationContent>;
   choices: Choice[];
 }

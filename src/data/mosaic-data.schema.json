@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mosaïque game data",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "config",
+    "characters",
+    "mechanisms",
+    "situations",
+    "matrix"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "traits"
+        ],
+        "properties": {
+          "id": {
+            "pattern": "^P\\d{2}$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "traits": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "mechanisms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "category",
+          "definition"
+        ],
+        "properties": {
+          "id": {
+            "pattern": "^M\\d{3}$"
+          }
+        }
+      }
+    },
+    "situations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "text",
+          "question",
+          "mechanismIds"
+        ],
+        "properties": {
+          "id": {
+            "pattern": "^S\\d{2}$"
+          }
+        }
+      }
+    },
+    "matrix": {
+      "type": "object"
+    }
+  }
+}

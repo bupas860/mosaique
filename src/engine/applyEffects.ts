@@ -1,10 +1,10 @@
 import type { Character } from "../types/character";
 import type { CharacterEffect } from "../types/situation";
 
-export function applyEffects(
-  characters: Character[],
+export function applyEffects<T extends Character>(
+  characters: T[],
   effects: CharacterEffect[]
-): Character[] {
+): T[] {
   return characters.map((character) => {
     const effect = effects.find(
       (e) => e.characterId === character.id
@@ -14,10 +14,7 @@ export function applyEffects(
       return character;
     }
 
-    const nextPosition = Math.min(
-      100,
-      Math.max(0, character.position + effect.displacement)
-    );
+    const nextPosition = Math.max(0, character.position + effect.displacement);
 
     return {
       ...character,

@@ -1,0 +1,66 @@
+{
+  "gameId": "la-marge-des-privileges",
+  "title": "La Marge des privilèges",
+  "resultSemantics": {
+    "1": {
+      "label": "advance",
+      "description": "Le personnage avance d’une case ; la situation ne constitue pas un obstacle déterminant."
+    },
+    "0": {
+      "label": "blocked",
+      "description": "Le personnage reste sur place ; la situation constitue un obstacle."
+    }
+  },
+  "answerOptions": [
+    {
+      "id": "yes",
+      "label": "Oui"
+    },
+    {
+      "id": "no",
+      "label": "Non"
+    }
+  ],
+  "characterIds": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08"
+  ],
+  "situationIds": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18",
+    "S19",
+    "S20",
+    "S21",
+    "S22",
+    "S23",
+    "S24",
+    "S25",
+    "S26",
+    "S27",
+    "S28",
+    "S29",
+    "S30"
+  ]
+}

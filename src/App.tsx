@@ -1,39 +1,33 @@
 import { useState } from "react";
 
+import HomePage from "./pages/HomePage";
+import CharacterSelectionPage from "./pages/CharacterSelectionPage";
 import GamePage from "./pages/GamePage";
+import { playableCharacters } from "./content";
 
-type Screen = "home" | "game";
+type Screen = "home" | "character-selection" | "game";
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>("home");
+  const [selectedCharacterId, setSelectedCharacterId] = useState<string>();
 
-  if (screen === "game") {
+  function startGame(characterId: string) {
+    setSelectedCharacterId(characterId);
+    setScreen("game");
+  }
+
+  if (screen === "character-selection") {
+    return <CharacterSelectionPage characters={playableCharacters} onSelect={startGame} />;
+  }
+
+  if (screen === "game" && selectedCharacterId) {
     return (
       <GamePage
-        onBackToHome={() => setScreen("home")}
+        selectedCharacterId={selectedCharacterId}
+        onChooseAnotherCharacter={() => setScreen("character-selection")}
       />
     );
   }
 
-  return (
-    <main className="mx-auto flex min-h-screen max-w-2xl flex-col items-center justify-center p-8 text-center">
-
-      <h1 className="mb-6 text-5xl font-bold">
-        Mosaïque
-      </h1>
-
-      <p className="mb-10 text-lg">
-        Explorer les situations, réfléchir à ses choix,
-        apprendre autrement.
-      </p>
-
-      <button
-        onClick={() => setScreen("game")}
-        className="rounded-lg bg-blue-600 px-8 py-4 text-white hover:bg-blue-700"
-      >
-        Commencer
-      </button>
-
-    </main>
-  );
+  return <HomePage onStart={() => setScreen("character-selection")} />;
 }

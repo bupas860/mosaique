@@ -8,7 +8,7 @@ type HomePageProps = {
 export default function HomePage({ onStart }: HomePageProps) {
   return (
     <Screen>
-      <div className="space-y-8 text-center">
+      <div className="w-full max-w-3xl space-y-8 p-4 text-center sm:p-8">
 
         <h1 className="text-5xl font-bold">
           La marge des privilèges
