@@ -1,0 +1,142 @@
+{
+  "S02": {
+    "schoolGoodPractice": "Organiser l’accès aux toilettes sans demander publiquement à un élève de justifier son genre, et prévoir une solution individuelle accessible sans stigmatisation.",
+    "takeaway": "Une organisation binaire peut obliger certains élèves à se justifier.",
+    "characters": {
+      "P01": "Noé est un garçon trans. Lui demander de rejoindre « la bonne » file peut remettre publiquement en cause la file qu’il a choisie et l’exposer devant les autres élèves. Cette intervention constitue donc un obstacle pour lui.",
+      "P02": "Jade est une fille cisgenre et la file qu’on lui attribue correspond au genre sous lequel elle est habituellement reconnue. Dans cette scène, la demande du surveillant ne l’oblige pas à dévoiler une information personnelle ni à justifier sa place.",
+      "P03": "Sam est non binaire et aucune des deux files ne correspond pleinement à son identité. L’injonction à rejoindre « la bonne » file lui impose un choix binaire et peut l’obliger à s’expliquer devant les autres.",
+      "P04": "Arthur est un garçon cisgenre et la file indiquée par le surveillant correspond au genre qui lui est habituellement attribué. Cette organisation ne l’oblige donc pas ici à se justifier ni à changer de place.",
+      "P05": "La situation familiale de Sofia n’a pas d’incidence sur la file des toilettes qui lui est attribuée. Dans cette scène précise, elle n’a pas à révéler sa situation familiale ni à défendre sa place.",
+      "P06": "L’orientation sexuelle de Mehdi n’est pas visible et n’intervient pas dans la file que le surveillant lui demande de rejoindre. Cette demande ne constitue donc pas ici un obstacle lié à son parcours.",
+      "P07": "Le fait que Camille vive avec sa grand-mère n’a aucun lien avec l’organisation des files de toilettes. Elle peut suivre la consigne sans avoir à expliquer sa situation familiale.",
+      "P08": "Alex est un garçon trans et se déplace en fauteuil roulant. La remarque sur la « bonne » file peut remettre son genre en question publiquement, tandis qu’une organisation inaccessible peut encore compliquer son accès aux toilettes. Ces difficultés se cumulent dans cette scène."
+    }
+  },
+  "S10": {
+    "schoolGoodPractice": "Intervenir immédiatement, rappeler le cadre de respect, puis échanger discrètement avec la personne visée pour vérifier ses besoins sans lui demander de se justifier.",
+    "takeaway": "L’intervention rapide d’un adulte rend le cadre scolaire plus sûr.",
+    "characters": {
+      "P01": "Après la remarque blessante, l’adulte intervient sans laisser Noé gérer seul la situation. Le rappel des règles limite l’exposition et l’échange individuel lui permet d’exprimer ses besoins. Cette intervention réduit donc l’obstacle.",
+      "P02": "L’adulte ne laisse pas la remarque blessante s’installer et montre à Jade que le cadre de respect s’applique réellement. L’échange proposé ensuite lui permet de parler sans être contrainte de dévoiler sa vie personnelle.",
+      "P03": "L’intervention immédiate évite que Sam doive corriger seul la remarque ou défendre son identité devant le groupe. Le temps d’échange lui permet d’indiquer ce qui lui conviendrait pour la suite.",
+      "P04": "Même si la remarque ne vise pas une caractéristique qui expose habituellement Arthur, l’intervention de l’adulte lui garantit un cadre clair. Elle lui montre également que les témoins et les adultes ont un rôle dans le respect collectif.",
+      "P05": "L’adulte prend en charge la remarque sans demander à Sofia d’expliquer sa famille devant les autres. Le rappel des règles protège sa place dans le groupe et limite la répétition de la situation.",
+      "P06": "Mehdi n’a pas à choisir entre se taire et révéler son orientation pour faire cesser la remarque. L’intervention de l’adulte porte le cadre collectif et lui propose ensuite un espace de parole discret.",
+      "P07": "L’adulte intervient sans obliger Camille à expliquer sa situation familiale. Cette réponse rapide empêche que la remarque devienne un sujet de groupe et lui offre un soutien individuel.",
+      "P08": "L’intervention évite qu’Alex doive répondre seul à une remarque pouvant viser son genre ou son handicap. Le rappel public des règles, suivi d’un échange privé, réduit son exposition et soutient sa participation."
+    }
+  },
+  "S14": {
+    "schoolGoodPractice": "Pour les badges et documents internes, permettre à chacun d’indiquer le prénom utilisé et vérifier que ce choix est repris par les personnels sans exposer les données administratives.",
+    "takeaway": "Choisir le prénom affiché évite des révélations inutiles.",
+    "characters": {
+      "P01": "Noé peut inscrire directement son prénom d’usage sur le badge. Le document visible ne révèle donc pas un éventuel décalage avec son prénom administratif et ne crée pas d’obstacle.",
+      "P02": "Jade peut écrire le prénom qu’elle utilise comme tous les autres participants. Cette possibilité ne lui demande aucune information sur son orientation et ne l’expose pas.",
+      "P03": "Sam choisit le prénom qui sera lu par les autres participants, sans dépendre d’une donnée administrative. Cette pratique limite les suppositions et lui permet de se présenter comme iel le souhaite.",
+      "P04": "Arthur peut inscrire son prénom habituel sans démarche particulière. La pratique reste utile parce qu’elle laisse le même choix à tous au lieu de désigner uniquement les personnes qui en ont besoin.",
+      "P05": "Sofia choisit simplement son prénom sur le badge. Sa configuration familiale n’est ni demandée ni rendue visible par cette procédure.",
+      "P06": "Mehdi peut inscrire son prénom sans fournir d’information sur sa vie affective. Le badge ne crée donc pas de risque particulier de dévoilement.",
+      "P07": "Camille inscrit elle-même son prénom et n’a pas à préciser qui est sa représentante légale. La procédure reste indépendante de sa situation familiale.",
+      "P08": "Alex peut afficher son prénom d’usage sans présenter de document administratif. Cette possibilité évite un dévoilement lié à son parcours de transition et n’ajoute aucune difficulté d’accès."
+    }
+  },
+  "S15": {
+    "schoolGoodPractice": "Reprendre les remarques qui associent un objet ou une activité à un genre, rappeler que les choix sont ouverts à tous et veiller à ne pas répartir les activités selon des stéréotypes.",
+    "takeaway": "Les stéréotypes de genre peuvent limiter les choix des élèves.",
+    "characters": {
+      "P01": "Pour Noé, entendre qu’un cadeau ne serait pas « pour les filles » renforce l’idée que les goûts doivent confirmer le genre attribué. En tant que garçon trans, cette norme peut rendre ses choix plus exposés et son identité davantage surveillée. Elle constitue ici un obstacle.",
+      "P02": "La remarque impose à Jade, en tant que fille, une limite fondée sur le genre du cadeau plutôt que sur ses goûts. Elle peut restreindre ce qu’elle se sent autorisée à choisir et constitue donc un obstacle dans cette scène.",
+      "P03": "La phrase ne prévoit que les catégories « filles » et, implicitement, « garçons ». Sam, qui est non binaire, n’y trouve pas de place et voit ses choix soumis à une classification qui ne correspond pas à son identité.",
+      "P04": "La remarque repose sur un stéréotype de genre, mais elle ne vise pas directement Arthur dans la situation telle qu’elle est formulée. Elle ne constitue donc pas ici un obstacle personnel pour lui, même si elle installe une norme qui peut limiter d’autres élèves.",
+      "P05": "La remarque ne concerne pas la configuration familiale de Sofia et la matrice ne l’identifie pas ici comme un obstacle personnel. Elle reste néanmoins une règle arbitraire qui peut limiter les goûts des enfants présents.",
+      "P06": "La phrase porte sur le genre associé au cadeau, pas sur l’orientation sexuelle de Mehdi. Dans cette scène précise, elle ne l’oblige pas à parler de sa vie affective et ne constitue pas un obstacle personnel pour lui.",
+      "P07": "La situation ne sollicite ni les parents ni la représentante légale de Camille. La remarque genrée reste problématique pour le climat collectif, mais elle ne crée pas ici d’obstacle lié à son parcours familial.",
+      "P08": "Pour Alex, garçon trans, la remarque renforce le contrôle social des goûts selon le genre et peut exposer toute préférence jugée non conforme. Elle s’ajoute à un contexte où son identité peut déjà être questionnée et constitue ici un obstacle."
+    }
+  },
+  "S16": {
+    "schoolGoodPractice": "Cette scène relève du recrutement et doit être réécrite avant qu’une pratique d’établissement directement liée puisse être proposée.",
+    "takeaway": "La crainte d’un jugement peut conduire à cacher une expérience pourtant utile.",
+    "characters": {
+      "P01": "Rien dans la scène n’indique que l’engagement associatif de Noé révélerait directement son parcours de transition. La matrice considère donc qu’il peut mentionner cette expérience sans obstacle déterminant dans cette situation précise.",
+      "P02": "Même si Jade est lesbienne, la matrice ne considère pas ici que cette expérience associative l’empêche de poursuivre son parcours. La scène ne précise pas qu’elle serait personnellement identifiée par cet engagement, même si un risque de supposition demeure possible.",
+      "P03": "Le bénévolat mentionné ne révèle pas nécessairement l’identité non binaire de Sam. Dans cette situation telle qu’elle est écrite, la matrice n’identifie donc pas d’obstacle déterminant pour iel.",
+      "P04": "Arthur peut présenter une expérience bénévole dans une association LGBT sans que cela révèle une caractéristique personnelle stigmatisée dans son parcours. La crainte décrite ne constitue donc pas ici un obstacle pour lui.",
+      "P05": "L’engagement associatif ne révèle pas nécessairement que Sofia vit avec deux mamans. Dans la situation formulée, elle peut valoriser cette expérience sans devoir expliquer sa famille.",
+      "P06": "Mehdi craint que la mention d’une association LGBT conduise la personne qui recrute à faire des suppositions sur son orientation. Il risque donc de renoncer à présenter une expérience utile pour préserver une information personnelle. Cette autocensure constitue un obstacle.",
+      "P07": "Le bénévolat dans cette association ne dévoile pas la situation de Camille ni l’identité de sa représentante légale. La matrice ne retient donc pas d’obstacle personnel pour elle dans cette scène.",
+      "P08": "Cette expérience associative ne révèle pas nécessairement que Alex est trans ou en situation de handicap. Dans la scène telle qu’elle est formulée, la matrice considère qu’il peut la mentionner sans obstacle déterminant."
+    }
+  },
+  "S17": {
+    "schoolGoodPractice": "Recueillir discrètement le prénom et les pronoms souhaités avant l’appel, expliquer leur usage et sécuriser le traitement séparé des informations administratives.",
+    "takeaway": "Une pratique proposée à tous évite de désigner les élèves concernés.",
+    "characters": {
+      "P01": "Noé peut indiquer son prénom d’usage avant que l’enseignant lise la liste administrative. Il évite ainsi d’être appelé publiquement par un autre prénom et garde le contrôle des informations liées à sa transition.",
+      "P02": "Jade renseigne son prénom et ses pronoms comme tous les autres élèves. La fiche ne lui demande rien sur son orientation et lui permet de participer sans dévoilement particulier.",
+      "P03": "Sam peut indiquer le prénom et les pronoms qu’iel souhaite entendre en classe avant le premier appel. Cette démarche réduit le risque de mégenrage sans l’obliger à interrompre le cours pour corriger l’enseignant.",
+      "P04": "Arthur peut indiquer son prénom et ses pronoms comme tous les autres élèves. Cette proposition ne lui impose aucune démarche particulière et constitue une pratique inclusive même s’il n’en a pas directement besoin.",
+      "P05": "La fiche porte uniquement sur la manière de s’adresser à Sofia et ne lui demande rien sur ses deux mamans. Elle peut donc commencer le cours sans exposer sa famille.",
+      "P06": "Mehdi renseigne les informations nécessaires à la classe sans avoir à parler de son orientation sexuelle. La procédure ne crée donc pas de risque de dévoilement de sa vie affective.",
+      "P07": "Camille peut indiquer son prénom et ses pronoms sans mentionner que sa grand-mère est sa représentante légale. La pratique reste simple et sans conséquence sur sa situation familiale.",
+      "P08": "Alex peut transmettre son prénom d’usage avant l’appel et éviter que des données administratives révèlent son parcours. Le papier peut aussi lui permettre de signaler discrètement un besoin de communication ou d’accessibilité si l’établissement prévoit cet espace."
+    }
+  },
+  "S18": {
+    "schoolGoodPractice": "Cette scène relève d’une consultation médicale extérieure et doit être réécrite ou clairement située dans un service de santé scolaire avant de proposer une pratique d’établissement.",
+    "takeaway": "Demander comment s’adresser à une personne évite les suppositions.",
+    "characters": {
+      "P01": "Le médecin ouvre un espace où Noé peut préciser uniquement ce qui est utile à la consultation, notamment la manière de s’adresser à lui. Il n’est pas forcé de corriger une supposition ni de dévoiler son parcours devant un tiers.",
+      "P02": "Jade peut choisir si sa vie affective est pertinente pour la consultation et comment elle souhaite en parler. La question ouverte ne suppose ni partenaire masculin ni modèle de couple.",
+      "P03": "Sam peut indiquer ses pronoms et la manière dont iel souhaite être désigné avant que le médecin fasse une supposition. Cette ouverture prévient le mégenrage et facilite l’échange médical.",
+      "P04": "Arthur peut répondre qu’il n’a aucune précision particulière à apporter. La question ne complique pas sa consultation et contribue à établir un cadre respectueux pour tous les patients.",
+      "P05": "La question du médecin n’impose aucun modèle familial à Sofia et ne lui demande pas de présenter ses parents. Elle peut communiquer seulement les informations utiles à sa santé.",
+      "P06": "Mehdi peut décider si son orientation ou sa vie affective est pertinente pour les soins sans devoir d’abord corriger une présomption d’hétérosexualité. La formulation favorise donc un échange plus sûr.",
+      "P07": "Camille peut préciser les informations utiles sans que le médecin suppose automatiquement que ses parents l’accompagnent ou la représentent. La question lui laisse la maîtrise de sa situation familiale.",
+      "P08": "Alex peut indiquer son prénom, la manière de s’adresser à lui et les besoins liés à son handicap qui sont utiles à la consultation. La question ouverte permet d’aborder ces éléments sans supposition ni dévoilement forcé."
+    }
+  },
+  "S23": {
+    "schoolGoodPractice": "Les personnels remplaçants doivent disposer d’un moyen confidentiel de connaître le prénom utilisé, ou le demander à toute la classe avant l’appel sans commenter les écarts administratifs.",
+    "takeaway": "Demander le prénom utilisé prévient un dévoilement dès le début du cours.",
+    "characters": {
+      "P01": "Noé peut donner son prénom d’usage avant que l’enseignante consulte ou lise une liste administrative. Il évite ainsi un appel sous un autre prénom et un possible dévoilement devant la nouvelle classe.",
+      "P02": "Jade répond avec son prénom comme les autres élèves. La question ne porte pas sur sa vie affective et ne lui demande aucune justification particulière.",
+      "P03": "Sam peut préciser le prénom à utiliser dès l’arrivée de l’enseignante. Cette question évite une première supposition, même si demander aussi les pronoms renforcerait encore la pratique.",
+      "P04": "Arthur donne simplement le prénom qu’il utilise déjà. La question ne crée aucune difficulté pour lui et normalise une démarche utile à d’autres élèves.",
+      "P05": "Sofia peut indiquer son prénom sans que la nouvelle enseignante lui demande d’informations sur ses responsables légaux. Sa configuration familiale reste hors de la scène.",
+      "P06": "Mehdi donne son prénom sans avoir à évoquer son orientation. La question ouverte ne contient aucun présupposé sur sa vie personnelle.",
+      "P07": "Camille peut répondre sans expliquer qu’elle vit avec sa grand-mère. Le prénom utilisé en classe est traité séparément de sa représentation légale.",
+      "P08": "Alex peut annoncer son prénom d’usage avant tout appel administratif et réduire le risque de dévoilement. La formulation adressée à toute la classe évite de le désigner comme un cas particulier."
+    }
+  },
+  "S26": {
+    "schoolGoodPractice": "Cette scène de vie privée en covoiturage doit être réécrite dans un contexte scolaire avant qu’une pratique d’établissement directement liée puisse être proposée.",
+    "takeaway": "Une question ordinaire peut imposer un modèle de couple.",
+    "characters": {
+      "P01": "La question suppose que le personnage est une femme mariée à un homme, mais elle ne rencontre pas directement les éléments du parcours de Noé retenus par la matrice. Il peut corriger la formulation sans que son identité trans soit nécessairement révélée.",
+      "P02": "En parlant d’un « mari », la personne suppose que Jade vit avec un homme. Jade doit choisir entre laisser cette supposition s’installer ou révéler qu’elle est lesbienne. Cette obligation de correction constitue un obstacle.",
+      "P03": "La question porte sur le genre supposé d’un conjoint, mais elle ne demande pas directement à Sam de préciser son propre genre. Dans cette scène telle qu’elle est évaluée, la matrice ne retient pas d’obstacle personnel pour iel.",
+      "P04": "La présomption d’un couple hétérosexuel correspond à l’orientation d’Arthur. Même si la question peut être indiscrète, elle ne l’oblige pas ici à corriger une supposition sur son orientation.",
+      "P05": "La question concerne le couple supposé de Sofia et non celui de ses deux mamans. Dans cette situation telle qu’elle est formulée, elle n’a pas à expliquer sa configuration familiale.",
+      "P06": "La référence à un « mari » formulée comme une évidence impose à Mehdi un modèle hétérosexuel. Il doit soit corriger la personne et révéler qu’il est gay, soit laisser passer la supposition. Ce choix constitue un obstacle.",
+      "P07": "La question ne porte pas sur les personnes avec qui Camille vit ni sur sa grand-mère. Elle ne l’oblige donc pas à expliquer sa situation familiale dans cette scène.",
+      "P08": "La question sur un conjoint ne met pas directement en jeu le prénom administratif, le genre ou l’accessibilité d’Alex. La matrice ne retient donc pas ici d’obstacle déterminant pour lui."
+    }
+  },
+  "S27": {
+    "schoolGoodPractice": "Prévoir des possibilités de change préservant l’intimité, accessibles sans justification publique, et rappeler que personne ne doit être forcé à se changer devant le groupe.",
+    "takeaway": "Le respect de l’intimité doit être prévu dans l’organisation des vestiaires.",
+    "characters": {
+      "P01": "Noé est un garçon trans et le changement collectif peut exposer son corps ou susciter des questions sur son parcours. L’insistance du groupe lui retire la possibilité de préserver son intimité et constitue un obstacle.",
+      "P02": "L’orientation de Jade n’implique pas de besoin particulier de change dans cette scène. L’insistance du groupe peut être inconfortable, mais la matrice ne la considère pas ici comme un obstacle spécifique à son parcours.",
+      "P03": "Sam est non binaire et le vestiaire collectif est généralement organisé selon deux catégories de genre. L’obligation de se changer avec le groupe peut l’exposer, l’obliger à choisir une catégorie inadéquate et compromettre son intimité.",
+      "P04": "Arthur est un garçon cisgenre et le vestiaire attribué correspond au genre sous lequel il est reconnu. Dans l’évaluation actuelle, le changement collectif ne constitue pas un obstacle spécifique pour lui, même si chacun doit pouvoir préserver son intimité.",
+      "P05": "La configuration familiale de Sofia n’intervient pas dans l’usage du vestiaire. La matrice ne retient donc pas d’obstacle propre à son parcours dans cette scène.",
+      "P06": "L’orientation sexuelle de Mehdi ne détermine pas à elle seule un besoin de vestiaire distinct. Dans cette scène, la matrice considère qu’il peut utiliser l’espace prévu sans dévoiler sa vie affective.",
+      "P07": "Le fait que Camille vive avec sa grand-mère n’a pas d’effet sur le vestiaire qu’elle utilise. L’insistance reste contestable, mais elle ne crée pas ici d’obstacle lié à sa situation familiale.",
+      "P08": "Alex peut rencontrer simultanément un enjeu d’intimité lié à son parcours trans et un besoin d’espace accessible pour son fauteuil. L’obligation de se changer collectivement sans aménagement lui retire toute solution adaptée et constitue un obstacle."
+    }
+  }
+}

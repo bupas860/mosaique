@@ -1,24 +1,35 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import SituationCard from "../components/SituationCard";
-import FeedbackCard from "../components/FeedbackCard";
 import Button from "../components/Button";
 import PrivilegeMargin from "../components/PrivilegeMargin";
 import ProgressBar from "../components/ProgressBar";
 import FinalSummaryPage from "./FinalSummaryPage";
 
-import { playableCharacters as initialCharacters, situations } from "../content";
+import { playableCharacters as initialCharacters, situations } from "../data";
 
 import { applyEffects } from "../engine/applyEffects";
 import {
-  getChoiceContent,
   getSituationContent,
   getSituationsForCharacter,
 } from "../engine/resolveSituationContent";
 import type { ChoiceHistoryEntry } from "../types/choiceHistory";
 import type { Choice } from "../types/situation";
 
-type Phase = "question" | "feedback" | "end";
+type Phase = "question" | "transition" | "end";
+const MAX_SITUATIONS_PER_GAME = 10;
+const SITUATION_TRANSITION_DELAY_MS = 400;
+
+function selectSituationsForGame(allSituations: typeof situations) {
+  const shuffled = [...allSituations];
+
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[index]];
+  }
+
+  return shuffled.slice(0, MAX_SITUATIONS_PER_GAME);
+}
 
 interface Props {
   selectedCharacterId: string;
@@ -31,8 +42,14 @@ export default function GamePage({
 }: Props) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [phase, setPhase] = useState<Phase>("question");
-  const [feedback, setFeedback] = useState("");
   const [choiceHistory, setChoiceHistory] = useState<ChoiceHistoryEntry[]>([]);
+  const answerLockedRef = useRef(false);
+  const transitionTimerRef = useRef<ReturnType<typeof setTimeout>>(undefined);
+  const [characterSituations, setCharacterSituations] = useState(() =>
+    selectSituationsForGame(
+      getSituationsForCharacter(situations, selectedCharacterId),
+    )
+  );
 
   const [characters, setCharacters] = useState(() =>
     initialCharacters.map((character) => ({ ...character }))
@@ -41,44 +58,74 @@ export default function GamePage({
   const selectedCharacter = initialCharacters.find(
     (character) => character.id === selectedCharacterId,
   );
-  const characterSituations = getSituationsForCharacter(
-    situations,
-    selectedCharacterId,
-  );
   const situation = characterSituations[currentIndex];
 
+  useEffect(() => () => {
+    if (transitionTimerRef.current !== undefined) {
+      clearTimeout(transitionTimerRef.current);
+    }
+  }, []);
+
   function handleChoice(choice: Choice) {
+    if (answerLockedRef.current) {
+      return;
+    }
+
+    answerLockedRef.current = true;
+    const selectedEffect = choice.effects.find(
+      ({ characterId }) => characterId === selectedCharacterId,
+    );
+    const expectedAnswerId = selectedEffect?.displacement === 0 ? "yes" : "no";
+    const playerDisplacement = choice.id === "no" ? 1 : 0;
+    const playerEffects = choice.effects.map((effect) =>
+      effect.characterId === selectedCharacterId
+        ? { ...effect, displacement: playerDisplacement }
+        : effect
+    );
 
     setCharacters((currentCharacters) =>
-      applyEffects(currentCharacters, choice.effects)
+      applyEffects(currentCharacters, playerEffects)
     );
 
     setChoiceHistory((history) => [
       ...history,
-      { situation, choice },
+      {
+        situation,
+        choice,
+        expectedAnswerId,
+        isCorrect: choice.id === expectedAnswerId,
+      },
     ]);
-    setFeedback(getChoiceContent(choice, selectedCharacterId).feedback);
-    setPhase("feedback");
-  }
+    setPhase("transition");
+    transitionTimerRef.current = setTimeout(() => {
+      transitionTimerRef.current = undefined;
 
-  function handleContinue() {
-    if (currentIndex < characterSituations.length - 1) {
-      setCurrentIndex((index) => index + 1);
-      setPhase("question");
-      return;
-    }
+      if (currentIndex < characterSituations.length - 1) {
+        setCurrentIndex((index) => index + 1);
+        answerLockedRef.current = false;
+        setPhase("question");
+        return;
+      }
 
-    setPhase("end");
+      setPhase("end");
+    }, SITUATION_TRANSITION_DELAY_MS);
   }
 
   function restart() {
+    if (transitionTimerRef.current !== undefined) {
+      clearTimeout(transitionTimerRef.current);
+      transitionTimerRef.current = undefined;
+    }
+    answerLockedRef.current = false;
     setCharacters(
       initialCharacters.map((character) => ({ ...character }))
     );
 
     setCurrentIndex(0);
-    setFeedback("");
     setChoiceHistory([]);
+    setCharacterSituations(selectSituationsForGame(
+      getSituationsForCharacter(situations, selectedCharacterId),
+    ));
     setPhase("question");
   }
 
@@ -111,38 +158,33 @@ export default function GamePage({
   }
 
   return (
-    <main className="mx-auto w-full max-w-7xl p-4 sm:p-8 lg:p-12">
-
-      <PrivilegeMargin
-        characters={characters}
-        selectedCharacterId={selectedCharacterId}
-        totalExperiences={characterSituations.length}
-      />
-
-      <div className="mx-auto max-w-3xl">
-        <ProgressBar
-          current={currentIndex + 1}
-          total={characterSituations.length}
-        />
-
-        {phase === "question" && (
-          <SituationCard
-            content={getSituationContent(situation, selectedCharacterId)}
-            choices={situation.choices}
-            characterId={selectedCharacterId}
-            onChoice={handleChoice}
+    <main className="mx-auto w-full max-w-[100rem] p-4 sm:p-8 lg:p-8 xl:p-10">
+      <div className="grid min-w-0 items-start gap-8 lg:grid-cols-[minmax(0,2fr)_minmax(20rem,1fr)] xl:grid-cols-[minmax(0,7fr)_minmax(22rem,3fr)]">
+        <div className="min-w-0">
+          <PrivilegeMargin
+            characters={characters}
+            selectedCharacterId={selectedCharacterId}
+            totalExperiences={characterSituations.length}
           />
-        )}
+        </div>
 
-        {phase === "feedback" && (
-          <FeedbackCard
-            feedback={feedback}
-            characterName={selectedCharacter?.name ?? "ce personnage"}
-            onContinue={handleContinue}
+        <aside className="min-w-0 rounded-2xl border border-slate-300 bg-white p-5 shadow-sm sm:p-6 lg:sticky lg:top-6">
+          <ProgressBar
+            current={currentIndex + 1}
+            total={characterSituations.length}
           />
-        )}
+
+          {(phase === "question" || phase === "transition") && (
+            <SituationCard
+              content={getSituationContent(situation, selectedCharacterId)}
+              choices={situation.choices}
+              characterId={selectedCharacterId}
+              disabled={phase === "transition"}
+              onChoice={handleChoice}
+            />
+          )}
+        </aside>
       </div>
-
     </main>
   );
 }

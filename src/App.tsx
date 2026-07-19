@@ -3,7 +3,7 @@ import { useState } from "react";
 import HomePage from "./pages/HomePage";
 import CharacterSelectionPage from "./pages/CharacterSelectionPage";
 import GamePage from "./pages/GamePage";
-import { playableCharacters } from "./content";
+import { playableCharacters } from "./data";
 
 type Screen = "home" | "character-selection" | "game";
 

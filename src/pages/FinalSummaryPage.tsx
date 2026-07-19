@@ -9,7 +9,6 @@ import {
 
 import type { Character } from "../types/character";
 import type { ChoiceHistoryEntry } from "../types/choiceHistory";
-import type { Choice } from "../types/situation";
 
 interface Props {
   characters: Character[];
@@ -19,23 +18,6 @@ interface Props {
   totalExperiences: number;
   onRestart: () => void;
   onChooseAnotherCharacter: () => void;
-}
-
-function formatAdvancement(choice: Choice, characters: Character[]) {
-  const names = choice.effects
-    .filter((effect) => effect.displacement === 1)
-    .map((effect) => characters.find(({ id }) => id === effect.characterId)?.name)
-    .filter((name): name is string => name !== undefined);
-
-  if (names.length === 0) {
-    return "Aucun personnage n'avance lors de cette expérience.";
-  }
-
-  if (names.length === 1) {
-    return `${names[0]} avance d'un pas lors de cette expérience.`;
-  }
-
-  return `${names.slice(0, -1).join(", ")} et ${names.at(-1)} avancent chacun d'un pas lors de cette expérience.`;
 }
 
 export default function FinalSummaryPage({
@@ -50,6 +32,15 @@ export default function FinalSummaryPage({
   const choicesSectionRef = useRef<HTMLElement>(null);
   const selectedCharacter = initialCharacters.find(
     (character) => character.id === selectedCharacterId,
+  );
+  const realPositions = Object.fromEntries(
+    initialCharacters.map((character) => [
+      character.id,
+      choiceHistory.reduce((position, { choice }) => {
+        const effect = choice.effects.find(({ characterId }) => characterId === character.id);
+        return position + (effect?.displacement ?? 0);
+      }, 0),
+    ]),
   );
 
   function reviewChoices() {
@@ -83,6 +74,7 @@ export default function FinalSummaryPage({
         characters={characters}
         selectedCharacterId={selectedCharacterId}
         totalExperiences={totalExperiences}
+        realPositions={realPositions}
       />
 
       <section className="mx-auto max-w-3xl rounded-xl border border-slate-300 bg-white p-6 shadow">
@@ -92,13 +84,15 @@ export default function FinalSummaryPage({
         </p>
 
         <ul className="mt-5 grid gap-3 sm:grid-cols-3">
-          {characters.map((character) => (
+          {characters.filter(({ id }) => id === selectedCharacterId).map((character) => (
             <li key={character.id} className="rounded-lg bg-slate-100 p-4">
               <p className="font-semibold">{character.name}</p>
               <p className="mt-1 text-lg">
-                {character.position} / {totalExperiences}
+                {character.position} / {totalExperiences} selon vos réponses
               </p>
-              <p className="text-sm text-slate-600">pas effectués</p>
+              <p className="text-sm text-slate-600">
+                {realPositions[character.id]} / {totalExperiences} selon les situations
+              </p>
             </li>
           ))}
         </ul>
@@ -126,20 +120,66 @@ export default function FinalSummaryPage({
           Récapitulatif de vos choix
         </h2>
 
-        <ol className="mt-6 space-y-6">
-          {choiceHistory.map(({ situation, choice }, index) => (
-            <li key={situation.id} className="border-l-4 border-blue-600 pl-4">
-              <p className="font-semibold">
-                {index + 1}. {getSituationContent(situation, selectedCharacterId).title}
-              </p>
-              <p className="mt-2 text-slate-700">
-                Votre choix : {getChoiceContent(choice, selectedCharacterId).text}
-              </p>
-              <p className="mt-2 text-slate-700">
-                {formatAdvancement(choice, initialCharacters)}
-              </p>
-            </li>
-          ))}
+        <ol className="mt-6 space-y-4">
+          {choiceHistory.map(({ situation, choice, expectedAnswerId }, index) => {
+            const content = getSituationContent(situation, selectedCharacterId);
+            const feedback = content.pedagogicalFeedback;
+
+            return (
+              <li key={situation.id}>
+                <details open={index === 0} className="group rounded-xl border border-slate-300 bg-slate-50">
+                  <summary className="cursor-pointer list-none px-5 py-4 font-semibold marker:hidden">
+                    <span className="flex items-center justify-between gap-4">
+                      <span>{index + 1}. {content.title}</span>
+                      <span aria-hidden="true" className="text-xl group-open:rotate-45">+</span>
+                    </span>
+                  </summary>
+
+                  <div className="space-y-5 border-t border-slate-300 px-5 py-5 text-slate-700">
+                    <section>
+                      <h3 className="font-bold text-slate-900">Situation</h3>
+                      <p className="mt-1">{content.description}</p>
+                    </section>
+
+                    <section>
+                      <h3 className="font-bold text-slate-900">Votre réponse</h3>
+                      <p className="mt-1">{getChoiceContent(choice, selectedCharacterId).text}</p>
+                    </section>
+
+                    <section>
+                      <h3 className="font-bold text-slate-900">Pour ce personnage</h3>
+                      <p className="mt-1">
+                        {expectedAnswerId === "yes"
+                          ? "Oui, cette situation constitue un obstacle."
+                          : "Non, cette situation ne constitue pas un obstacle."}
+                      </p>
+                    </section>
+
+                    {feedback?.explanation && (
+                        <section>
+                          <h3 className="font-bold text-slate-900">Pourquoi&nbsp;?</h3>
+                          <p className="mt-1">{feedback.explanation}</p>
+                        </section>
+                    )}
+
+                    {feedback?.schoolGoodPractice && (
+                        <section>
+                          <h3 className="font-bold text-slate-900">Que peut faire l’établissement&nbsp;?</h3>
+                          <p className="mt-1">{feedback.schoolGoodPractice}</p>
+                        </section>
+                    )}
+
+                    {feedback?.takeaway && (
+                        <section className="rounded-lg bg-blue-50 p-4">
+                          <h3 className="font-bold text-slate-900">À retenir</h3>
+                          <p className="mt-1">{feedback.takeaway}</p>
+                        </section>
+                    )}
+                  </div>
+                </details>
+              </li>
+            );
+          })}
         </ol>
       </section>
 

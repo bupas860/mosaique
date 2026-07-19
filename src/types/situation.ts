@@ -10,11 +10,17 @@ export type ContentByCharacter<T> = {
 export interface SituationContent {
   title: string;
   description: string;
+  question?: string;
+  pedagogicalFeedback?: {
+    explanation?: string;
+    schoolGoodPractice?: string;
+    takeaway?: string;
+  };
 }
 
 export interface ChoiceContent {
   text: string;
-  feedback: string;
+  feedback?: string;
 }
 
 export interface Choice {

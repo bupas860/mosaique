@@ -6,6 +6,11 @@ export interface CharacterAvatar {
 export interface CharacterProfile {
   presentation: string;
   context: string;
+  age?: number;
+  schoolLevel?: string;
+  identity?: string;
+  traits?: string[];
+  protectiveFactors?: string[];
   avatar?: CharacterAvatar;
   additionalInformation?: Array<{
     label: string;

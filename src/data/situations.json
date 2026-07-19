@@ -119,12 +119,15 @@
   {
     "id": "S10",
     "title": "L’intervention",
-    "context": "",
-    "text": "",
+    "context": "École",
+    "text": "Après une remarque blessante, un adulte intervient immédiatement, rappelle les règles puis échange quelques minutes avec la personne concernée.",
     "question": "Cette situation constitue-t-elle un obstacle pour ton personnage ?",
-    "pedagogicalIntent": "",
-    "mechanismIds": [],
-    "legacyMechanismLabel": null,
+    "pedagogicalIntent": "Montrer qu'une intervention adaptée constitue un facteur de protection.",
+    "feedback": "L'intervention rapide d'un adulte contribue à limiter les effets de la remarque discriminatoire et à créer un environnement plus sûr pour l'ensemble du groupe.",
+    "mechanismIds": [
+      "M017"
+    ],
+    "legacyMechanismLabel": "Facteur de protection",
     "sourceStatus": "adapted_from_markdown"
   },
   {
