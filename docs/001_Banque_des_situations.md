@@ -1,898 +1,280 @@
-# Banque des situations
+# Banque des situations – Mosaïque
 
-## Objectif du document
+Chaque situation décrit une scène de la vie quotidienne.
 
-Cette banque constitue le référentiel officiel des situations utilisées dans **Mosaïque**.
-
-Chaque situation est indépendante et peut être utilisée avec n'importe quel personnage du jeu.
-
-Une situation n'a pas pour objectif de démontrer qu'une discrimination existe ou non. Elle décrit simplement un événement du quotidien susceptible d'être vécu différemment selon les caractéristiques sociales, administratives ou personnelles du personnage.
-
-Le joueur répond toujours à la même question :
-
-> **Cette situation constitue-t-elle un obstacle pour ton personnage ?**
-
-La réponse ne dépend jamais de la situation seule, mais de la rencontre entre la situation et le personnage.
-
----
-
-## Principes de conception
-
-Chaque situation doit respecter les règles suivantes :
-
-- mettre en évidence **un mécanisme principal** ;
-- rester réaliste et crédible ;
-- être formulée de manière neutre ;
-- éviter toute interprétation morale ;
-- pouvoir être comprise sans explication supplémentaire ;
-- être suffisamment courte pour être lue rapidement.
-
-Les conséquences de la situation ne sont jamais décrites dans ce document. Elles sont déterminées par la matrice de jeu.
+Les effets de chaque situation sur les personnages sont décrits dans le document `020_Feedbacks_pedagogiques.md`.
 
 ---
 
 # S01 — Le premier appel
 
-## Mécanisme principal
+**Mécanisme principal :** Outing involontaire
 
-Outing involontaire
+**Identifiant du mécanisme :** M007
 
-## Contexte
+**Contexte :** Salle de classe
 
-École
+**Situation :**
 
-## Situation
-
-Le professeur distribue la liste de la classe et demande à chacun de vérifier que les informations sont correctes avant de l'afficher au fond de la salle.
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer qu'une information administrative peut révéler involontairement une information personnelle.
+En début d’année, l’enseignant distribue la liste de la classe et demande à chacun de vérifier que les informations sont correctes avant de l’afficher au fond de la salle. Plusieurs élèves constatent que leur prénom ou certaines informations administratives apparaissent sur ce document.
 
 ---
 
-# S02 — Les toilettes
+# S02 — Les groupes de travail
 
-## Mécanisme principal
+**Mécanisme principal :** Exclusion sociale
 
-Binarité de genre
+**Identifiant du mécanisme :** M021
 
-## Contexte
+**Contexte :** Salle de classe
 
-École
+**Situation :**
 
-## Situation
-
-Pendant la récréation, un surveillant demande à ton personnage de rejoindre « la bonne file » pour accéder aux toilettes.
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer que certaines organisations présentées comme évidentes peuvent créer une difficulté pour une partie des personnes.
+L’enseignant annonce un travail en groupe et laisse les élèves choisir librement leurs partenaires. Certains groupes se constituent rapidement tandis que quelques élèves restent seuls en attendant qu’une place se libère.
 
 ---
 
 # S03 — Le formulaire
 
-## Mécanisme principal
+**Mécanisme principal :** Invisibilisation des familles
 
-Modèle familial implicite
+**Identifiant du mécanisme :** M004
 
-## Contexte
+**Contexte :** Inscription à une activité
 
-Administration
+**Situation :**
 
-## Situation
-
-En remplissant un formulaire administratif, ton personnage constate que seuls les champs « Père » et « Mère » sont proposés.
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Faire réfléchir aux effets d'un modèle familial présenté comme universel.
+Pour participer à une sortie, les élèves doivent remplir un formulaire demandant les informations sur le « père » et la « mère ». Aucune autre configuration familiale n’est proposée.
 
 ---
 
 # S04 — Les vestiaires
 
-## Mécanisme principal
+**Mécanisme principal :** Assignation de genre
 
-Assignation de genre
+**Identifiant du mécanisme :** M022
 
-## Contexte
+**Contexte :** Cours d’EPS
 
-Éducation physique
+**Situation :**
 
-## Situation
-
-Avant le cours d'EPS, l'enseignant demande aux élèves de rejoindre rapidement le vestiaire qui leur correspond.
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Illustrer les conséquences possibles d'une organisation qui ne prévoit qu'un fonctionnement binaire.
+Avant le cours d’EPS, les élèves sont invités à rejoindre les vestiaires « filles » ou « garçons » afin de se changer.
 
 ---
 
 # S05 — Le voyage scolaire
 
-## Mécanisme principal
+**Mécanisme principal :** Répartition binaire
 
-Organisation binaire
+**Identifiant du mécanisme :** M002
 
-## Contexte
+**Contexte :** Préparation d’un séjour
 
-Voyage scolaire
+**Situation :**
 
-## Situation
-
-Les listes des chambres sont affichées. Elles sont réparties en deux catégories : « Garçons » et « Filles ».
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer qu'une décision logistique peut produire des effets différents selon les personnes.
+Les chambres du voyage scolaire sont réparties entre « garçons » et « filles ». Les élèves découvrent leur chambre au moment de la préparation du séjour.
 
 ---
 
-# S06 — La conversation
+# S06 — Le cours d’EVARS
 
-## Mécanisme principal
+**Mécanisme principal :** Invisibilisation
 
-Présomption d'hétérosexualité
+**Identifiant du mécanisme :** M005
 
-## Contexte
+**Contexte :** Cours d’éducation à la vie affective et relationnelle
 
-Pause déjeuner
+**Situation :**
 
-## Situation
-
-Pendant une discussion, un camarade demande avec le sourire :
-
-« Alors, tu as enfin trouvé une petite copine ? »
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Faire apparaître les présupposés présents dans certaines conversations ordinaires.
+Pendant le cours, les exemples présentés concernent uniquement des couples hétérosexuels et des familles composées d’un père et d’une mère. Les autres réalités ne sont jamais évoquées.
 
 ---
 
 # S07 — La blague
 
-## Mécanisme principal
+**Mécanisme principal :** Microagression
 
-Microagression
+**Identifiant du mécanisme :** M010
 
-## Contexte
+**Contexte :** Salle de classe
 
-Salle de classe
+**Situation :**
 
-## Situation
-
-Un élève lance :
-
-« C'est tellement gay ! »
-
-Quelques personnes rient. Le cours reprend immédiatement.
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer que le climat d'un groupe se construit autant par les réactions que par leur absence.
+Au cours d’une activité, un élève lance en riant : « C’est tellement gay ! ». Plusieurs camarades rient, tandis que d’autres restent silencieux.
 
 ---
 
 # S08 — La consultation
 
-## Mécanisme principal
+**Mécanisme principal :** Présupposés
 
-Présupposés
+**Identifiant du mécanisme :** M023
 
-## Contexte
+**Contexte :** Infirmerie ou consultation
 
-Santé
+**Situation :**
 
-## Situation
-
-Le professionnel de santé pose plusieurs questions sur la vie affective de ton personnage en faisant des suppositions, sans lui demander comment il souhaite en parler.
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer que des présupposés peuvent compliquer une relation pourtant destinée à accompagner la personne.
+Lors d’un échange, le professionnel pose plusieurs questions en supposant l’identité de genre ou l’orientation affective de la personne, sans lui laisser la possibilité de présenter sa propre situation.
 
 ---
 
 # S09 — Le stage
 
-## Mécanisme principal
+**Mécanisme principal :** Révélation involontaire
 
-Discrimination implicite
+**Identifiant du mécanisme :** M007
 
-## Contexte
+**Contexte :** Entretien de stage
 
-Entretien de stage
+**Situation :**
 
-## Situation
-
-En consultant le dossier, la personne qui recrute s'arrête quelques instants puis demande :
-
-« Je préfère vérifier... c'est bien votre prénom officiel ? »
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Faire comprendre qu'une même question peut avoir des conséquences très différentes selon les personnes.
+Au début de l’entretien, le tuteur vérifie les informations administratives du dossier et demande pourquoi le prénom utilisé au quotidien est différent de celui figurant sur les documents officiels.
 
 ---
 
-# S10 — L'intervention
+# S10 — L’intervention
 
-## Mécanisme principal
+**Mécanisme principal :** Facteur de protection
 
-Facteur de protection
+**Identifiant du mécanisme :** M017
 
-## Contexte
+**Contexte :** Salle de classe
 
-École
+**Situation :**
 
-## Situation
+Après une remarque discriminatoire, un adulte intervient immédiatement. Il rappelle les règles de respect, met fin à la situation et prend ensuite le temps d’échanger avec la personne concernée.
 
-Après une remarque blessante, un adulte intervient immédiatement, rappelle les règles puis échange quelques minutes avec la personne concernée.
+# S11 — Le choix des chambres
 
-## Question
+**Mécanisme principal :** Injonction à la conformité
 
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
+**Identifiant du mécanisme :** M024
 
-□ Oui
+**Contexte :** Préparation d'un voyage scolaire
 
-□ Non
+**Situation :**
 
-## Intention pédagogique
+Lors de la préparation d’un voyage scolaire, les élèves doivent choisir leurs chambres. L’organisation prévoit des chambres de filles et des chambres de garçons. Certains élèves hésitent ou ne savent pas dans quel groupe s’inscrire, mais aucune autre possibilité n’est proposée.
 
-Montrer qu'une intervention adaptée constitue un facteur de protection.
 
----
+# S12 — Le repas de la cantine
 
-# S11 — La photo de groupe
+**Mécanisme principal :** Exclusion sociale
 
-## Mécanisme principal
+**Identifiant du mécanisme :** M021
 
-Normes sociales implicites
+**Contexte :** Cantine scolaire
 
-## Contexte
+**Situation :**
 
-Association
+Un élève arrive à la cantine avec son plateau.
 
-## Situation
+Personne ne lui dit qu’il ne peut pas s’asseoir.
 
-Avant de publier une photo sur les réseaux sociaux, une personne propose :
+Personne ne l’invite non plus à rejoindre une table.
 
-« On mettra seulement les couples sur la photo ! »
+Il mange seul.
 
-## Question
+# S13 — Le tour de présentation
 
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
+**Mécanisme principal :** Présupposés
 
-□ Oui
+**Identifiant du mécanisme :** M023
 
-□ Non
+**Contexte :** Début d'un nouvel atelier
 
-## Intention pédagogique
+**Situation :**
 
-Montrer qu'une activité présentée comme conviviale peut exclure certaines personnes ou les conduire à révéler des informations personnelles.
+Au début d’une activité, la personne qui anime demande à chacun de se présenter et d’indiquer, s’il le souhaite, « il » ou « elle » devant l’ensemble du groupe.
 
----
+Certaines personnes hésitent.
 
-# S12 — La réservation
+# S14 — Le groupe de discussion
 
-## Mécanisme principal
+**Mécanisme principal :** Outing involontaire
 
-Présupposés sur les relations affectives
+**Identifiant du mécanisme :** M007
 
-## Contexte
+**Contexte :** Groupe de messagerie de la classe
 
-Restaurant
+**Situation :**
 
-## Situation
+Pour préparer un exposé, un groupe d’élèves crée une conversation sur une application de messagerie. En ajoutant un nouveau participant, l’un d’eux utilise par habitude un prénom que cette personne n’utilise plus au sein de l’établissement. Plusieurs élèves découvrent alors une information personnelle qu’ils ne connaissaient pas.
 
-Au moment d'apporter l'addition, le serveur la dépose directement devant une seule personne du groupe, sans demander comment les convives souhaitent régler.
 
-## Question
+# S15 — Le rendez-vous d'orientation
 
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
+**Mécanisme principal :** Attentes liées au genre
 
-□ Oui
+**Identifiant du mécanisme :** M025
 
-□ Non
+**Contexte :** Entretien d'orientation
 
-## Intention pédagogique
+**Situation :**
 
-Faire réfléchir aux attentes implicites concernant les rôles au sein d'un couple ou d'un groupe.
+Lors d’un entretien d’orientation, un élève explique qu’il souhaite poursuivre des études dans un domaine où les personnes de son genre sont très peu représentées. L’adulte lui répond que ce choix est possible, mais qu’il sera sans doute plus difficile que pour d’autres élèves et lui propose également de réfléchir à des filières « plus classiques ».
 
----
 
-# S13 — Le questionnaire
+# S16 — Les livres du CDI
 
-## Mécanisme principal
+**Mécanisme principal :** Absence de représentation
 
-Catégories administratives inadaptées
+**Identifiant du mécanisme :** M005
 
-## Contexte
+**Contexte :** Centre de documentation et d'information (CDI)
 
-Enquête en ligne
+**Situation :**
 
-## Situation
+Au CDI, une élève cherche un roman dans lequel elle pourrait se reconnaître. Elle remarque que les ouvrages mis en avant racontent presque exclusivement des histoires de familles et de couples hétérosexuels. Les autres réalités sont très peu visibles dans les présentoirs et les sélections proposées.
 
-Avant de commencer un questionnaire, ton personnage doit répondre à une question obligatoire :
+# S17 — L'appel à la famille
 
-« Sexe : Homme / Femme »
+**Mécanisme principal :** Outing involontaire
 
-Aucune autre possibilité n'est proposée.
+**Identifiant du mécanisme :** M007
 
-## Question
+**Contexte :** Communication avec la famille
 
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
+**Situation :**
 
-□ Oui
+Un membre du personnel doit contacter la famille d’un élève pour un sujet lié à sa scolarité. Pendant l’échange, il utilise spontanément le prénom et les pronoms employés dans l’établissement, sans savoir si ces informations sont connues ou partagées dans le cadre familial.
 
-□ Non
+# S18 — Le prénom choisi
 
-## Intention pédagogique
+**Mécanisme principal :** Intervention d'un témoin (facteur de protection)
 
-Montrer que certaines catégories administratives ne permettent pas de représenter toutes les réalités.
+**Identifiant du mécanisme :** M017
 
----
+**Contexte :** Début d'un cours
 
-# S14 — Le badge
+**Situation :**
 
-## Mécanisme principal
+Au début d’un cours, un élève est appelé par un prénom qu’il n’utilise plus. Avant même que la situation ne devienne gênante, un autre membre de l’équipe éducative présent rappelle discrètement le prénom d’usage. L’enseignant s’excuse, corrige immédiatement son appel et poursuit le cours sans attirer davantage l’attention sur l’élève.
 
-Mégenrage administratif
+Cette situation est un **facteur de protection**.
 
-## Contexte
+# S19 — Le travail en groupe
 
-Événement
+**Mécanisme principal :** Intervention d'un témoin (facteur de protection)
 
-## Situation
+**Identifiant du mécanisme :** M017
 
-À son arrivée, ton personnage reçoit un badge portant un prénom qu'il ou elle n'utilise plus.
+**Contexte :** Activité en classe
 
-## Question
+**Situation :**
 
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
+La classe doit former des groupes pour réaliser un projet. Un élève remarque qu’une camarade est restée seule. Sans en faire un sujet particulier, il l’invite à rejoindre son groupe. Les autres membres l’accueillent naturellement et la répartition des groupes se poursuit.
 
-□ Oui
+Cette situation est un **facteur de protection**.
 
-□ Non
+# S20 — La liste des élèves
 
-## Intention pédagogique
+**Mécanisme principal :** Binarité de genre
 
-Illustrer les conséquences qu'une erreur administrative peut avoir selon les personnes concernées.
+**Identifiant du mécanisme :** M002
 
----
+**Contexte :** Préparation d'une activité scolaire
 
-# S15 — Le cadeau
+**Situation :**
 
-## Mécanisme principal
-
-Stéréotypes de genre
-
-## Contexte
-
-Famille
-
-## Situation
-
-Lors d'un anniversaire, un adulte déclare :
-
-« Ce n'est pas un cadeau pour les filles ! »
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer comment les stéréotypes de genre orientent les attentes et les comportements dès le plus jeune âge.
-
----
-
-# S16 — Le bénévolat
-
-## Mécanisme principal
-
-Auto-censure
-
-## Contexte
-
-Recherche d'emploi
-
-## Situation
-
-En préparant son CV, ton personnage hésite à mentionner son engagement dans une association LGBT, par crainte que cela influence le recrutement.
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer que la peur d'une discrimination peut conduire une personne à invisibiliser une partie de son parcours.
-
----
-
-# S17 — Le premier cours
-
-## Mécanisme principal
-
-Pratique inclusive
-
-## Contexte
-
-École
-
-## Situation
-
-Avant de faire l'appel, l'enseignant distribue une fiche sur laquelle chaque élève peut indiquer le prénom et les pronoms qu'il souhaite voir utilisés pendant l'année.
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer qu'une pratique simple peut prévenir de nombreuses situations d'inconfort.
-
----
-
-# S18 — La consultation médicale
-
-## Mécanisme principal
-
-Écoute active
-
-## Contexte
-
-Santé
-
-## Situation
-
-Au début de la consultation, le médecin demande :
-
-« Y a-t-il quelque chose que vous souhaitez me dire afin que je m'adresse à vous de la manière qui vous convient ? »
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer qu'une question ouverte permet d'éviter les présupposés.
-
----
-
-# S19 — La réunion de famille
-
-## Mécanisme principal
-
-Normes familiales
-
-## Contexte
-
-Famille
-
-## Situation
-
-Au cours d'un repas, plusieurs personnes demandent régulièrement à ton personnage :
-
-« Alors, c'est pour quand les enfants ? »
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Faire réfléchir au fait que certaines questions, banales pour beaucoup, peuvent être pesantes ou excluantes pour d'autres.
-
----
-
-# S20 — Le tournoi
-
-## Mécanisme principal
-
-Exclusion implicite
-
-## Contexte
-
-Sport
-
-## Situation
-
-Pour constituer les équipes, l'animateur annonce :
-
-« Les garçons contre les filles, comme d'habitude ! »
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer qu'une organisation considérée comme habituelle peut exclure certaines personnes.
-
----
-# S21 — Le dossier administratif
-
-## Mécanisme principal
-
-Confidentialité
-
-## Contexte
-
-Administration
-
-## Situation
-
-Un agent lit à voix haute les informations personnelles figurant dans le dossier de ton personnage alors que plusieurs personnes attendent dans la salle.
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer que le respect de la confidentialité constitue un élément essentiel d'un accueil de qualité.
-
----
-
-# S22 — Le groupe de travail
-
-## Mécanisme principal
-
-Langage inclusif
-
-## Contexte
-
-École
-
-## Situation
-
-Avant de commencer un travail de groupe, l'enseignant précise :
-
-« Si vous ne connaissez pas le prénom ou les pronoms d'une personne, demandez-lui simplement. »
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer qu'une règle simple peut contribuer à créer un climat plus respectueux.
-
----
-
-# S23 — Le remplacement
-
-## Mécanisme principal
-
-Bonne pratique
-
-## Contexte
-
-École
-
-## Situation
-
-En arrivant dans une nouvelle classe, l'enseignante commence le cours en demandant :
-
-« Y a-t-il un prénom que vous préférez que j'utilise ? »
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer qu'une pratique inclusive bénéficie à l'ensemble de la classe.
-
----
-
-# S24 — La présentation
-
-## Mécanisme principal
-
-Révélation contrainte
-
-## Contexte
-
-Formation
-
-## Situation
-
-Au début d'un atelier, chaque participant doit se présenter en expliquant avec qui il vit.
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Faire réfléchir au fait qu'une activité de présentation peut conduire certaines personnes à révéler des informations personnelles qu'elles préféraient garder privées.
-
----
-
-# S25 — Le dossier de candidature
-
-## Mécanisme principal
-
-Divulgation d'information
-
-## Contexte
-
-Candidature
-
-## Situation
-
-Pour finaliser son inscription, ton personnage doit fournir une copie de sa pièce d'identité.
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer qu'une démarche administrative ordinaire peut avoir des conséquences très différentes selon les personnes.
-
----
-
-# S26 — Le covoiturage
-
-## Mécanisme principal
-
-Présupposés
-
-## Contexte
-
-Vie quotidienne
-
-## Situation
-
-Pendant le trajet, une personne demande :
-
-« Et ton mari, il travaille dans quoi ? »
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Faire réfléchir aux présupposés qui peuvent être contenus dans une conversation ordinaire.
-
----
-
-# S27 — Le vestiaire
-
-## Mécanisme principal
-
-Pression du groupe
-
-## Contexte
-
-Sport
-
-## Situation
-
-Après l'activité sportive, plusieurs personnes insistent pour que tout le monde se change ensemble dans le vestiaire.
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer que la pression d'un groupe peut créer un inconfort, même en l'absence d'intention malveillante.
-
----
-
-# S28 — Le badge personnalisé
-
-## Mécanisme principal
-
-Bonne pratique
-
-## Contexte
-
-Conférence
-
-## Situation
-
-À l'accueil, chaque participant peut écrire lui-même le prénom qu'il souhaite voir apparaître sur son badge.
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer qu'une pratique simple permet d'éviter de nombreuses difficultés liées à l'identité administrative.
-
----
-
-# S29 — Le témoignage
-
-## Mécanisme principal
-
-Intervention d'un allié
-
-## Contexte
-
-Réunion
-
-## Situation
-
-Une remarque discriminatoire est prononcée. Avant même que la personne concernée ne réagisse, une autre personne intervient calmement pour rappeler les règles de respect.
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer que chacun peut contribuer à créer un environnement plus sûr en intervenant de manière appropriée.
-
----
-
-# S30 — La fiche d'inscription
-
-## Mécanisme principal
-
-Choix du prénom d'usage
-
-## Contexte
-
-Association
-
-## Situation
-
-Lors de son inscription, ton personnage découvre un champ distinct permettant d'indiquer son prénom d'usage, qui sera utilisé sur tous les documents internes de la structure.
-
-## Question
-
-Cette situation constitue-t-elle un obstacle pour ton personnage ?
-
-□ Oui
-
-□ Non
-
-## Intention pédagogique
-
-Montrer qu'une adaptation administrative simple peut éviter des situations d'inconfort et favoriser un accueil respectueux.
-
+Pour organiser une activité, un logiciel de gestion permet uniquement de répartir les élèves en deux catégories : « filles » et « garçons ». Un membre de l’équipe éducative constate que cette organisation ne correspond pas à la situation de tous les élèves et cherche une solution permettant à chacun de participer dans de bonnes conditions.

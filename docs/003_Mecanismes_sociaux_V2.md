@@ -313,6 +313,74 @@ Les personnes peuvent se reconnaître positivement dans les exemples et les ress
 
 ---
 
+## M021 — Exclusion sociale
+
+**Catégorie** : Relations sociales
+
+**Définition**
+L'organisation des interactions laisse une personne sans groupe ou à l'écart d'une activité collective.
+
+**Niveau de visibilité** : Moyen
+
+---
+
+## M022 — Assignation de genre
+
+**Catégorie** : Normes implicites
+
+**Définition**
+Imposer à une personne une catégorie ou un espace en fonction du genre qui lui est attribué, sans lui permettre de définir elle-même ce qui lui correspond.
+
+**Niveau de visibilité** : Faible
+
+---
+
+## M023 — Présupposés
+
+**Catégorie** : Normes implicites
+
+**Définition**
+Supposer l'identité de genre ou l'orientation affective d'une personne au lieu de lui permettre de présenter elle-même sa situation.
+
+**Niveau de visibilité** : Faible
+
+---
+
+## M024 — Injonction à la conformité
+
+**Catégorie** : Normes implicites
+
+**Définition**
+Présenter une norme majoritaire comme la seule manière attendue de participer, de se comporter ou de s'organiser.
+
+**Niveau de visibilité** : Faible
+
+---
+
+## M025 — Attentes liées au genre
+
+**Catégorie** : Normes implicites
+
+**Définition**
+Les attentes liées au genre correspondent aux idées, souvent implicites, selon lesquelles certains choix, comportements ou parcours seraient plus appropriés pour les filles, les garçons ou les personnes dont l’expression de genre s’écarte des normes.
+
+**Pourquoi est-ce problématique ?**
+Ces attentes peuvent influencer les conseils donnés aux élèves, limiter leurs ambitions ou les conduire à renoncer à certains projets.
+
+**Exemples**
+- Présenter une filière comme plus adaptée à un genre.
+- Suggérer qu’un métier sera plus difficile en raison du genre de l’élève.
+- Orienter vers des choix considérés comme plus « classiques ».
+- S’étonner qu’un élève choisisse une voie inhabituelle pour son genre.
+
+**Pistes d’action**
+- Partir des intérêts et des compétences de l’élève.
+- Présenter une diversité de parcours et de modèles.
+- Questionner ses propres représentations.
+- Encourager chaque élève à construire son projet sans présupposés liés au genre.
+
+---
+
 # Principes éditoriaux
 
 - Une situation illustre un ou plusieurs mécanismes sociaux.

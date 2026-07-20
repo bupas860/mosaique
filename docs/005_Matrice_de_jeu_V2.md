@@ -18,12 +18,27 @@ Le document ne contient pas les débriefs détaillés. Il expose la logique qui 
 
 | Situation | M001/M... | P01 | P02 | P03 | P04 | P05 | P06 | P07 | P08 |
 |-----------|-----------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| S01 – Le premier appel | M003, M007 | 0 | +1 | 0 | +1 | +1 | +1 | +1 | 0 |
-| S02 – Les toilettes | M002 | 0 | +1 | 0 | +1 | +1 | +1 | +1 | 0 |
-| S03 – Le formulaire | M004, M008 | +1 | +1 | +1 | +1 | 0 | +1 | 0 | +1 |
-| S04 – Les vestiaires | M002 | 0 | +1 | 0 | +1 | +1 | +1 | +1 | 0 |
-| S05 – Le voyage scolaire | M002 | 0 | +1 | 0 | +1 | +1 | +1 | +1 | 0 |
-| … | … | … | … | … | … | … | … | … | … |
+| S01 – Le premier appel | M007 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 0 |
+| S02 – Les groupes de travail | M021 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 0 |
+| S03 – Le formulaire | M004 | 1 | 1 | 1 | 1 | 0 | 1 | 0 | 1 |
+| S04 – Les vestiaires | M022 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 0 |
+| S05 – Le voyage scolaire | M002 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 0 |
+| S06 – Le cours d’EVARS | M005 | 0 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
+| S07 – La blague | M010 | 0 | 0 | 0 | 1 | 1 | 0 | 1 | 0 |
+| S08 – La consultation | M023 | 0 | 0 | 0 | 1 | 1 | 0 | 1 | 0 |
+| S09 – Le stage | M007 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 0 |
+| S10 – L’intervention | M017 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| S11 – Le choix des chambres | M024 | 0 | 1 | 0 | 1 | 0 | 1 | 1 | 0 |
+| S12 – Le repas de la cantine | M021 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 0 |
+| S13 – Le tour de présentation | M023 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 0 |
+| S14 – Le groupe de discussion | M007 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 0 |
+| S15 – Le rendez-vous d'orientation | M025 | 1 | 0 | 1 | 1 | 0 | 1 | 0 | 1 |
+| S16 – Les livres du CDI | M005 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 0 |
+| S17 – L'appel à la famille | M007 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 0 |
+| S18 – Le prénom choisi | M017 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| S19 – Le travail en groupe | M017 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| S20 – La liste des élèves | M002 | 0 | 1 | 0 | 1 | 1 | 1 | 0 | 0 |
+
 
 > **Remarque :** les mécanismes indiqués sont ceux qui expliquent le résultat. Ils devront être complétés et validés au fur et à mesure de la conception.
 

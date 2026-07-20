@@ -1,9 +1,9 @@
 [
   {
     "id": "M001",
-    "name": "Présomption d’hétérosexualité",
+    "name": "Présomption d'hétérosexualité",
     "category": "implicit_norms",
-    "definition": "Supposer qu’une personne est hétérosexuelle tant qu’elle n’a pas indiqué le contraire.",
+    "definition": "Supposer qu'une personne est hétérosexuelle tant qu'elle n'a pas indiqué le contraire.",
     "visibility": "low"
   },
   {
@@ -17,14 +17,14 @@
     "id": "M003",
     "name": "Cisnormativité",
     "category": "implicit_norms",
-    "definition": "Considérer qu’être cisgenre constitue la situation normale ou attendue.",
+    "definition": "Considérer qu'être cisgenre constitue la situation normale ou attendue.",
     "visibility": "very_low"
   },
   {
     "id": "M004",
     "name": "Modèle familial implicite",
     "category": "implicit_norms",
-    "definition": "Supposer qu’une famille est composée d’un père et d’une mère.",
+    "definition": "Supposer qu'une famille est composée d'un père et d'une mère.",
     "visibility": "low"
   },
   {
@@ -45,42 +45,42 @@
     "id": "M007",
     "name": "Outing involontaire",
     "category": "institutional_processes",
-    "definition": "Révéler sans l’accord de la personne une information relevant de sa vie privée.",
+    "definition": "Révéler sans le vouloir une information personnelle concernant une personne.",
     "visibility": "medium"
   },
   {
     "id": "M008",
     "name": "Formulaires inadaptés",
     "category": "institutional_processes",
-    "definition": "Utiliser des formulaires ou logiciels qui ne prévoient qu’un nombre limité de situations.",
+    "definition": "Des formulaires ne prévoient qu'un nombre limité de situations possibles.",
     "visibility": "medium"
   },
   {
     "id": "M009",
     "name": "Curiosité intrusive",
     "category": "social_relations",
-    "definition": "Poser des questions personnelles qu’une personne n’a pas à justifier.",
+    "definition": "Poser des questions personnelles qu'une personne n'a pas à justifier.",
     "visibility": "medium"
   },
   {
     "id": "M010",
     "name": "Microagressions",
     "category": "social_relations",
-    "definition": "Accumulation de remarques ou comportements apparemment anodins produisant un sentiment d’exclusion.",
+    "definition": "Accumulation de remarques apparemment anodines produisant progressivement un sentiment d'exclusion.",
     "visibility": "very_low"
   },
   {
     "id": "M011",
     "name": "Assignation de rôle",
     "category": "social_relations",
-    "definition": "Attribuer un rôle ou un comportement attendu en raison d’un stéréotype.",
+    "definition": "Attribuer un rôle ou un comportement attendu en raison d'un stéréotype.",
     "visibility": "low"
   },
   {
     "id": "M012",
     "name": "Isolement social",
     "category": "social_relations",
-    "definition": "Mise à l’écart progressive ou renoncement à participer pleinement à la vie collective.",
+    "definition": "Une personne se retrouve progressivement mise à l'écart ou renonce à participer.",
     "visibility": "medium"
   },
   {
@@ -94,49 +94,84 @@
     "id": "M014",
     "name": "Harcèlement",
     "category": "explicit_discrimination",
-    "definition": "Répétition d’actes hostiles dégradant les conditions de vie d’une personne.",
+    "definition": "Répétition d'actes hostiles ayant pour effet de dégrader les conditions de vie d'une personne.",
     "visibility": "high"
   },
   {
     "id": "M015",
     "name": "Exclusion",
     "category": "explicit_discrimination",
-    "definition": "Empêcher une personne d’accéder à un lieu, une activité ou un droit.",
+    "definition": "Empêcher une personne d'accéder à un lieu, une activité ou un droit.",
     "visibility": "high"
   },
   {
     "id": "M016",
     "name": "Refus de service",
     "category": "explicit_discrimination",
-    "definition": "Refuser un service ou un droit en raison d’une caractéristique réelle ou supposée.",
+    "definition": "Refuser un service ou un droit en raison d'une caractéristique réelle ou supposée.",
     "visibility": "high"
   },
   {
     "id": "M017",
-    "name": "Intervention d’un témoin",
+    "name": "Intervention d'un témoin",
     "category": "protective_factor",
-    "definition": "Intervenir pour faire cesser une situation problématique.",
+    "definition": "Une personne intervient pour faire cesser une situation problématique.",
     "visibility": "high"
   },
   {
     "id": "M018",
     "name": "Soutien des pairs",
     "category": "protective_factor",
-    "definition": "Apporter un soutien explicite à la personne concernée.",
+    "definition": "Le groupe apporte un soutien explicite à la personne concernée.",
     "visibility": "high"
   },
   {
     "id": "M019",
     "name": "Pratique inclusive",
     "category": "protective_factor",
-    "definition": "Adapter le fonctionnement afin que chacun puisse participer dans les mêmes conditions.",
+    "definition": "L'organisation adapte spontanément son fonctionnement afin que chacun puisse participer dans les mêmes conditions.",
     "visibility": "medium"
   },
   {
     "id": "M020",
     "name": "Représentation positive",
     "category": "protective_factor",
-    "definition": "Permettre aux personnes de se reconnaître positivement dans les exemples et ressources.",
+    "definition": "Les personnes peuvent se reconnaître positivement dans les exemples et les ressources proposées.",
     "visibility": "medium"
+  },
+  {
+    "id": "M021",
+    "name": "Exclusion sociale",
+    "category": "social_relations",
+    "definition": "L'organisation des interactions laisse une personne sans groupe ou à l'écart d'une activité collective.",
+    "visibility": "medium"
+  },
+  {
+    "id": "M022",
+    "name": "Assignation de genre",
+    "category": "implicit_norms",
+    "definition": "Imposer à une personne une catégorie ou un espace en fonction du genre qui lui est attribué, sans lui permettre de définir elle-même ce qui lui correspond.",
+    "visibility": "low"
+  },
+  {
+    "id": "M023",
+    "name": "Présupposés",
+    "category": "implicit_norms",
+    "definition": "Supposer l'identité de genre ou l'orientation affective d'une personne au lieu de lui permettre de présenter elle-même sa situation.",
+    "visibility": "low"
+  },
+  {
+    "id": "M024",
+    "name": "Injonction à la conformité",
+    "category": "implicit_norms",
+    "definition": "Présenter une norme majoritaire comme la seule manière attendue de participer, de se comporter ou de s'organiser.",
+    "visibility": "low"
+  },
+  {
+    "id": "M025",
+    "name": "Attentes liées au genre",
+    "category": "implicit_norms",
+    "definition": "Les attentes liées au genre correspondent aux idées, souvent implicites, selon lesquelles certains choix, comportements ou parcours seraient plus appropriés pour les filles, les garçons ou les personnes dont l’expression de genre s’écarte des normes.",
+    "visibility": "low"
   }
 ]
