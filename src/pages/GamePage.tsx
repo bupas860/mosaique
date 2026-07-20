@@ -18,10 +18,13 @@ import type { Choice } from "../types/situation";
 
 type Phase = "question" | "transition" | "end";
 const MAX_SITUATIONS_PER_GAME = 10;
+const AVAILABLE_SITUATION_IDS = new Set(
+  Array.from({ length: 20 }, (_, index) => `S${String(index + 1).padStart(2, "0")}`),
+);
 const SITUATION_TRANSITION_DELAY_MS = 400;
 
 function selectSituationsForGame(allSituations: typeof situations) {
-  const shuffled = [...allSituations];
+  const shuffled = allSituations.filter(({ id }) => AVAILABLE_SITUATION_IDS.has(id));
 
   for (let index = shuffled.length - 1; index > 0; index -= 1) {
     const randomIndex = Math.floor(Math.random() * (index + 1));
@@ -94,6 +97,7 @@ export default function GamePage({
         choice,
         expectedAnswerId,
         isCorrect: choice.id === expectedAnswerId,
+        displacement: playerDisplacement,
       },
     ]);
     setPhase("transition");

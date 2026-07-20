@@ -10,8 +10,10 @@ export type ContentByCharacter<T> = {
 export interface SituationContent {
   title: string;
   description: string;
+  image?: string;
   question?: string;
   pedagogicalFeedback?: {
+    obstacle?: boolean;
     explanation?: string;
     schoolGoodPractice?: string;
     takeaway?: string;

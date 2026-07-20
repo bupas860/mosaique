@@ -24,7 +24,7 @@ export const matrix = matrixJson as GameMatrix;
 export const gameConfig = gameConfigJson as GameConfigData;
 const situationCharacterFeedbacks = situationCharacterFeedbacksJson as Partial<Record<
   SituationData["id"],
-  SituationCharacterFeedbackData
+  Partial<Record<CharacterData["id"], SituationCharacterFeedbackData>>
 >>;
 
 const playerLabels: Record<string, string> = {
@@ -108,6 +108,17 @@ const characterColors = [
   "#0891b2",
 ];
 
+const characterImagePaths: Record<string, string> = {
+  P01: "/images/characters/noe.webp",
+  P02: "/images/characters/jade.webp",
+  P03: "/images/characters/sam.webp",
+  P04: "/images/characters/arthur.webp",
+  P05: "/images/characters/sofia.webp",
+  P06: "/images/characters/mehdi.webp",
+  P07: "/images/characters/camille.webp",
+  P08: "/images/characters/alex.webp",
+};
+
 function formatIdentity(identity: CharacterData["identity"]): string {
   const values = Object.entries(identity)
     .filter(([, value]) => typeof value === "string" || Array.isArray(value))
@@ -132,6 +143,10 @@ export const playableCharacters: Character[] = gameConfig.characterIds.map(
       color: characterColors[index % characterColors.length],
       position: 0,
       profile: {
+        avatar: {
+          src: character.image ?? characterImagePaths[character.id],
+          alt: `Portrait de ${character.name}`,
+        },
         age: character.age,
         schoolLevel: character.schoolLevel,
         identity,
@@ -168,10 +183,9 @@ function createPedagogicalFeedback(
   situation: SituationData,
   character: CharacterData,
 ): PedagogicalFeedback | undefined {
-  const situationFeedback = situationCharacterFeedbacks[situation.id];
-  const explanation = situationFeedback?.characters[character.id];
+  const feedback = situationCharacterFeedbacks[situation.id]?.[character.id];
 
-  if (!situationFeedback || !explanation) {
+  if (!feedback) {
     if (import.meta.env.DEV) {
       console.warn(`Feedback pédagogique spécifique manquant : ${situation.id}/${character.id}`);
     }
@@ -180,9 +194,10 @@ function createPedagogicalFeedback(
   }
 
   return {
-    explanation,
-    schoolGoodPractice: situationFeedback.schoolGoodPractice,
-    takeaway: situationFeedback.takeaway,
+    obstacle: feedback.obstacle,
+    explanation: feedback.explanation,
+    schoolGoodPractice: feedback.schoolGoodPractice,
+    takeaway: feedback.takeaway,
   };
 }
 
@@ -203,6 +218,7 @@ export const situations: Situation[] = gameConfig.situationIds.map(
           title: situation.title,
           description: situation.text,
           question: situation.question,
+          image: situation.image ?? `/images/situations/${situation.id.toLowerCase()}.webp`,
         },
         ...Object.fromEntries(gameConfig.characterIds.map((characterId) => {
           const character = characterData.find(({ id }) => id === characterId);
@@ -215,6 +231,7 @@ export const situations: Situation[] = gameConfig.situationIds.map(
             title: situation.title,
             description: situation.text,
             question: situation.question,
+            image: situation.image ?? `/images/situations/${situation.id.toLowerCase()}.webp`,
             pedagogicalFeedback: createPedagogicalFeedback(
               situation,
               character,

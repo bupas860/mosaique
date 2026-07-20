@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import type { Character } from "../types/character";
+import VisualMedia from "./VisualMedia";
 
 interface Props {
   characters: Character[];
@@ -96,7 +97,15 @@ export default function PrivilegeMargin({
               className={`rounded-xl p-3 transition-colors ${isSelected ? "bg-slate-100" : ""}`}
             >
               <div className="mb-3 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-                <div className="flex flex-wrap items-baseline gap-3">
+                <div className="flex flex-wrap items-center gap-3">
+                  {isSelected && (
+                    <VisualMedia
+                      src={character.profile.avatar?.src}
+                      alt={character.profile.avatar?.alt ?? `Portrait de ${character.name}`}
+                      fallbackLabel={character.name.charAt(0).toUpperCase()}
+                      className="h-10 w-10 shrink-0 rounded-full text-base"
+                    />
+                  )}
                   <p className="font-semibold">
                     {character.name}{isSelected ? " (personnage incarné)" : ""}
                   </p>
@@ -153,19 +162,27 @@ export default function PrivilegeMargin({
               </div>
 
               {visibleProfileId === character.id && (
-                <aside className="mt-5 max-w-2xl rounded-lg border border-slate-300 bg-white p-4 text-sm text-slate-700 shadow-lg">
-                  <p className="text-base font-bold text-slate-900">{character.name}</p>
-                  <p className="mt-1">
-                    {[character.profile.age && `${character.profile.age} ans`, character.profile.schoolLevel, character.profile.identity]
-                      .filter(Boolean).join(" · ")}
-                  </p>
-                  <p className="mt-2">{character.profile.context}</p>
-                  {character.profile.traits && (
-                    <p className="mt-2"><strong>Caractéristiques principales :</strong> {character.profile.traits.join(", ")}</p>
-                  )}
-                  {character.profile.protectiveFactors && (
-                    <p className="mt-2"><strong>Ce qui peut faciliter sa participation :</strong> {character.profile.protectiveFactors.join(", ")}</p>
-                  )}
+                <aside className="mt-5 flex max-w-2xl flex-col gap-4 rounded-lg border border-slate-300 bg-white p-4 text-sm text-slate-700 shadow-lg sm:flex-row">
+                  <VisualMedia
+                    src={character.profile.avatar?.src}
+                    alt={character.profile.avatar?.alt ?? `Portrait de ${character.name}`}
+                    fallbackLabel={character.name.charAt(0).toUpperCase()}
+                    className="h-24 w-24 shrink-0 self-center rounded-xl text-3xl sm:self-start"
+                  />
+                  <div>
+                    <p className="text-base font-bold text-slate-900">{character.name}</p>
+                    <p className="mt-1">
+                      {[character.profile.age && `${character.profile.age} ans`, character.profile.schoolLevel, character.profile.identity]
+                        .filter(Boolean).join(" · ")}
+                    </p>
+                    <p className="mt-2">{character.profile.context}</p>
+                    {character.profile.traits && (
+                      <p className="mt-2"><strong>Caractéristiques principales :</strong> {character.profile.traits.join(", ")}</p>
+                    )}
+                    {character.profile.protectiveFactors && (
+                      <p className="mt-2"><strong>Ce qui peut faciliter sa participation :</strong> {character.profile.protectiveFactors.join(", ")}</p>
+                    )}
+                  </div>
                 </aside>
               )}
             </div>

@@ -5,4 +5,5 @@ export interface ChoiceHistoryEntry {
   choice: Choice;
   expectedAnswerId: "yes" | "no";
   isCorrect: boolean;
+  displacement: number;
 }

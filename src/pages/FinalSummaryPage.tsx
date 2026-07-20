@@ -2,6 +2,7 @@ import { useRef } from "react";
 
 import Button from "../components/Button";
 import PrivilegeMargin from "../components/PrivilegeMargin";
+import VisualMedia from "../components/VisualMedia";
 import {
   getChoiceContent,
   getSituationContent,
@@ -64,9 +65,17 @@ export default function FinalSummaryPage({
         </p>
 
         {selectedCharacter && (
-          <p className="text-slate-700">
-            Vous avez incarné {selectedCharacter.name} pendant ce parcours.
-          </p>
+          <div className="mx-auto flex w-fit items-center gap-3 rounded-full border border-slate-300 bg-white py-2 pl-2 pr-5 text-left shadow-sm">
+            <VisualMedia
+              src={selectedCharacter.profile.avatar?.src}
+              alt={selectedCharacter.profile.avatar?.alt ?? `Portrait de ${selectedCharacter.name}`}
+              fallbackLabel={selectedCharacter.name.charAt(0).toUpperCase()}
+              className="h-12 w-12 shrink-0 rounded-full text-xl"
+            />
+            <p className="text-slate-700">
+              Vous avez incarné <strong className="text-slate-900">{selectedCharacter.name}</strong>.
+            </p>
+          </div>
         )}
       </header>
 
@@ -121,9 +130,19 @@ export default function FinalSummaryPage({
         </h2>
 
         <ol className="mt-6 space-y-4">
-          {choiceHistory.map(({ situation, choice, expectedAnswerId }, index) => {
+          {choiceHistory.map(({ situation, choice, expectedAnswerId, isCorrect, displacement }, index) => {
             const content = getSituationContent(situation, selectedCharacterId);
             const feedback = content.pedagogicalFeedback;
+            const movementLabel = displacement > 0
+              ? "Le personnage avance"
+              : displacement < 0
+                ? "Le personnage recule"
+                : "Le personnage reste sur place";
+            const movementClasses = displacement > 0
+              ? "border-teal-300 bg-teal-50 text-teal-900"
+              : displacement < 0
+                ? "border-red-300 bg-red-50 text-red-900"
+                : "border-amber-300 bg-amber-50 text-amber-950";
 
             return (
               <li key={situation.id}>
@@ -131,7 +150,12 @@ export default function FinalSummaryPage({
                   <summary className="cursor-pointer list-none px-5 py-4 font-semibold marker:hidden">
                     <span className="flex items-center justify-between gap-4">
                       <span>{index + 1}. {content.title}</span>
-                      <span aria-hidden="true" className="text-xl group-open:rotate-45">+</span>
+                      <span className="flex shrink-0 items-center gap-3">
+                        <span className={`rounded-full px-3 py-1 text-xs font-bold ${isCorrect ? "bg-green-100 text-green-900" : "bg-red-100 text-red-900"}`}>
+                          {isCorrect ? "✓ Réponse adaptée" : "! Réponse à questionner"}
+                        </span>
+                        <span aria-hidden="true" className="text-xl group-open:rotate-45">+</span>
+                      </span>
                     </span>
                   </summary>
 
@@ -141,17 +165,25 @@ export default function FinalSummaryPage({
                       <p className="mt-1">{content.description}</p>
                     </section>
 
-                    <section>
-                      <h3 className="font-bold text-slate-900">Votre réponse</h3>
-                      <p className="mt-1">{getChoiceContent(choice, selectedCharacterId).text}</p>
+                    <section className={`rounded-lg border p-4 ${isCorrect ? "border-green-300 bg-green-50 text-green-950" : "border-red-300 bg-red-50 text-red-950"}`}>
+                      <h3 className="font-bold">Votre réponse</h3>
+                      <p className="mt-1 text-lg font-semibold">{getChoiceContent(choice, selectedCharacterId).text}</p>
+                      <p className="mt-2 text-sm font-bold">
+                        {isCorrect ? "✓ Réponse adaptée" : "! Réponse à questionner"}
+                      </p>
+                    </section>
+
+                    <section className={`rounded-lg border p-4 ${movementClasses}`}>
+                      <h3 className="font-bold">Effet sur le déplacement</h3>
+                      <p className="mt-1 text-lg font-semibold">{movementLabel}</p>
                     </section>
 
                     <section>
-                      <h3 className="font-bold text-slate-900">Pour ce personnage</h3>
+                      <h3 className="font-bold text-slate-900">Feedback pédagogique</h3>
                       <p className="mt-1">
-                        {expectedAnswerId === "yes"
-                          ? "Oui, cette situation constitue un obstacle."
-                          : "Non, cette situation ne constitue pas un obstacle."}
+                        {(feedback?.obstacle ?? expectedAnswerId === "yes")
+                          ? "Cette situation constitue un obstacle pour ce personnage."
+                          : "Cette situation ne constitue pas un obstacle pour ce personnage."}
                       </p>
                     </section>
 

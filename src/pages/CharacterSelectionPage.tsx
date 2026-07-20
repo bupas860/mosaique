@@ -1,5 +1,6 @@
 import Button from "../components/Button";
 import Screen from "../components/Screen";
+import VisualMedia from "../components/VisualMedia";
 import type { Character } from "../types/character";
 
 interface Props {
@@ -28,21 +29,12 @@ export default function CharacterSelectionPage({ characters, onSelect }: Props) 
               className="min-w-[19rem] snap-start rounded-2xl border border-slate-300 bg-white p-6 shadow sm:min-w-[22rem] lg:min-w-0"
             >
               <div className="flex items-center gap-4">
-                {character.profile.avatar ? (
-                  <img
-                    src={character.profile.avatar.src}
-                    alt={character.profile.avatar.alt}
-                    className="h-16 w-16 rounded-full object-cover"
-                  />
-                ) : (
-                  <div
-                    aria-hidden="true"
-                    className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full text-2xl font-bold text-white"
-                    style={{ backgroundColor: character.color }}
-                  >
-                    {character.name.charAt(0).toUpperCase()}
-                  </div>
-                )}
+                <VisualMedia
+                  src={character.profile.avatar?.src}
+                  alt={character.profile.avatar?.alt ?? `Portrait de ${character.name}`}
+                  fallbackLabel={character.name.charAt(0).toUpperCase()}
+                  className="h-16 w-16 shrink-0 rounded-full text-2xl"
+                />
                 <h2 className="text-2xl font-bold">{character.name}</h2>
               </div>
 

@@ -25,6 +25,7 @@ export interface CharacterData {
   protectiveFactors: string[];
   mechanismIds: MechanismId[];
   pedagogicalRole: string;
+  image?: string;
 }
 
 export type MechanismCategory =
@@ -51,23 +52,25 @@ export interface SituationData {
   context: string;
   text: string;
   question: string;
-  pedagogicalIntent: string;
-  feedback?: string;
+  pedagogicalIntent?: string;
   mechanismIds: MechanismId[];
   legacyMechanismLabel: string | null;
   sourceStatus: string;
+  image?: string;
 }
 
 export interface PedagogicalFeedback {
+  obstacle?: boolean;
   explanation?: string;
   schoolGoodPractice?: string;
   takeaway?: string;
 }
 
 export interface SituationCharacterFeedbackData {
-  schoolGoodPractice?: string;
-  takeaway?: string;
-  characters: Partial<Record<CharacterId, string>>;
+  obstacle: boolean;
+  explanation: string;
+  schoolGoodPractice: string;
+  takeaway: string;
 }
 
 export type MatrixResult = 0 | 1;

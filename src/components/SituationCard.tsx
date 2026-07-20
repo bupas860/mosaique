@@ -1,5 +1,6 @@
 import type { Choice, SituationContent } from "../types/situation";
 import { getChoiceContent } from "../engine/resolveSituationContent";
+import VisualMedia from "./VisualMedia";
 
 interface Props {
   content: SituationContent;
@@ -18,6 +19,13 @@ export default function SituationCard({
 }: Props) {
   return (
     <div className="min-w-0 space-y-6">
+
+      <VisualMedia
+        src={content.image}
+        alt={`Décor de la situation : ${content.title}`}
+        fallbackLabel="Décor de la situation"
+        className="aspect-[16/7] w-full rounded-xl border border-slate-300"
+      />
 
       <div>
         <h2 className="text-2xl font-bold">
