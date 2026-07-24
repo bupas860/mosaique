@@ -21,6 +21,7 @@
         "required": [
           "id",
           "name",
+          "accentColor",
           "traits"
         ],
         "properties": {
@@ -29,6 +30,10 @@
           },
           "name": {
             "type": "string"
+          },
+          "accentColor": {
+            "type": "string",
+            "pattern": "^#[0-9A-Fa-f]{6}$"
           },
           "traits": {
             "type": "array",

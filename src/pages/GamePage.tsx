@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 import SituationCard from "../components/SituationCard";
+import AppBackground from "../components/AppBackground";
 import Button from "../components/Button";
 import PrivilegeMargin from "../components/PrivilegeMargin";
 import ProgressBar from "../components/ProgressBar";
@@ -22,26 +23,40 @@ const AVAILABLE_SITUATION_IDS = new Set(
   Array.from({ length: 20 }, (_, index) => `S${String(index + 1).padStart(2, "0")}`),
 );
 const SITUATION_TRANSITION_DELAY_MS = 400;
+// TEMPORARY: set to false to restore the fully random draw after the S01 illustration test.
+const FORCE_S01_FIRST_FOR_ILLUSTRATION_TEST = true;
 
 function selectSituationsForGame(allSituations: typeof situations) {
-  const shuffled = allSituations.filter(({ id }) => AVAILABLE_SITUATION_IDS.has(id));
+  const availableSituations = allSituations.filter(({ id }) =>
+    AVAILABLE_SITUATION_IDS.has(id)
+  );
+  const firstSituation = FORCE_S01_FIRST_FOR_ILLUSTRATION_TEST
+    ? availableSituations.find(({ id }) => id === "S01")
+    : undefined;
+  const shuffled = firstSituation
+    ? availableSituations.filter(({ id }) => id !== firstSituation.id)
+    : availableSituations;
 
   for (let index = shuffled.length - 1; index > 0; index -= 1) {
     const randomIndex = Math.floor(Math.random() * (index + 1));
     [shuffled[index], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[index]];
   }
 
-  return shuffled.slice(0, MAX_SITUATIONS_PER_GAME);
+  return firstSituation
+    ? [firstSituation, ...shuffled.slice(0, MAX_SITUATIONS_PER_GAME - 1)]
+    : shuffled.slice(0, MAX_SITUATIONS_PER_GAME);
 }
 
 interface Props {
   selectedCharacterId: string;
   onChooseAnotherCharacter: () => void;
+  onBackHome: () => void;
 }
 
 export default function GamePage({
   selectedCharacterId,
   onChooseAnotherCharacter,
+  onBackHome,
 }: Props) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [phase, setPhase] = useState<Phase>("question");
@@ -157,13 +172,19 @@ export default function GamePage({
         totalExperiences={characterSituations.length}
         onRestart={restart}
         onChooseAnotherCharacter={onChooseAnotherCharacter}
+        onBackHome={onBackHome}
       />
     );
   }
 
   return (
-    <main className="mx-auto w-full max-w-[100rem] p-4 sm:p-8 lg:p-8 xl:p-10">
-      <div className="grid min-w-0 items-start gap-8 lg:grid-cols-[minmax(0,2fr)_minmax(20rem,1fr)] xl:grid-cols-[minmax(0,7fr)_minmax(22rem,3fr)]">
+    <AppBackground
+      as="main"
+      className="game-background"
+      style={{ "--character-accent": selectedCharacter?.color } as React.CSSProperties}
+    >
+      <div className="mx-auto w-full max-w-[100rem] p-4 sm:p-8 lg:p-8 xl:p-10">
+        <div className="grid min-w-0 items-start gap-8 lg:grid-cols-[minmax(0,2fr)_minmax(20rem,1fr)] xl:grid-cols-[minmax(0,7fr)_minmax(22rem,3fr)]">
         <div className="min-w-0">
           <PrivilegeMargin
             characters={characters}
@@ -172,7 +193,7 @@ export default function GamePage({
           />
         </div>
 
-        <aside className="min-w-0 rounded-2xl border border-slate-300 bg-white p-5 shadow-sm sm:p-6 lg:sticky lg:top-6">
+        <aside className="app-surface situation-panel min-w-0 rounded-2xl border p-5 sm:p-6 lg:sticky lg:top-6">
           <ProgressBar
             current={currentIndex + 1}
             total={characterSituations.length}
@@ -181,6 +202,7 @@ export default function GamePage({
           {(phase === "question" || phase === "transition") && (
             <SituationCard
               content={getSituationContent(situation, selectedCharacterId)}
+              situationId={situation.id}
               choices={situation.choices}
               characterId={selectedCharacterId}
               disabled={phase === "transition"}
@@ -188,7 +210,8 @@ export default function GamePage({
             />
           )}
         </aside>
+        </div>
       </div>
-    </main>
+    </AppBackground>
   );
 }

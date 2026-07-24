@@ -10,92 +10,92 @@ Ce document constitue le référentiel des personnages du jeu **Mosaïque**. Les
 - Âge : 15 ans
 - Niveau : Seconde
 - Genre : Garçon trans
-- Prénom d'usage : Noé
+- Orientation affective et sexuelle : Hétérosexuel
 
 ## Contexte
-Noé a commencé sa transition sociale il y a un an. Son entourage proche utilise son prénom d'usage, mais certains documents administratifs ne sont pas encore à jour.
 
 ## Caractéristiques
-- Prénom d'usage différent du prénom administratif.
-- Transition sociale engagée.
-- Certaines informations personnelles peuvent être révélées involontairement.
-- Les espaces fortement genrés peuvent constituer un obstacle.
+- usual_name_differs_from_administrative_name
+- social_transition
+- risk_of_involuntary_disclosure
+- gendered_spaces_may_create_obstacle
 
 ## Facteurs de protection
-- Utilisation du prénom d'usage.
-- Confidentialité des informations administratives.
-- Personnel formé.
-- Espaces inclusifs.
+- use_usual_name
+- administrative_confidentiality
+- trained_staff
+- inclusive_spaces
 
 ## Mécanismes principalement explorés
-- Outing involontaire
-- Mégenrage
-- Binarité de genre
+- M002
+- M003
+- M007
 
 ## Rôle pédagogique
 Explorer les effets des procédures administratives et des espaces genrés.
 
 ---
 
-# P02 — Jade
-
-## Identité
-- Âge : 16 ans
-- Niveau : Première
-- Orientation : Lesbienne
-
-## Contexte
-Jade est out auprès d'une partie de son entourage mais pas auprès de toute sa famille. Elle choisit selon les contextes ce qu'elle souhaite révéler.
-
-## Caractéristiques
-- Orientation affective non visible.
-- Contrôle du dévoilement.
-- Exposition aux présupposés d'hétérosexualité.
-
-## Facteurs de protection
-- Questions ouvertes.
-- Réactions des témoins.
-- Climat de confiance.
-
-## Mécanismes principalement explorés
-- Présomption d'hétérosexualité
-- Outing
-- Auto-censure
-
-## Rôle pédagogique
-Illustrer les effets des présupposés sur la vie quotidienne.
-
----
-
-# P03 — Sam
+# P02 — Sam
 
 ## Identité
 - Âge : 17 ans
 - Niveau : Terminale
-- Genre : Non binaire
+- Genre : Personne non binaire
+- Orientation affective et sexuelle : Pansexuel·le
 - Pronoms : iel
 
 ## Contexte
-Sam préfère que les personnes demandent son prénom et ses pronoms plutôt que de faire des suppositions.
 
 ## Caractéristiques
-- Identité de genre non binaire.
-- Pronoms spécifiques.
-- Certaines procédures restent binaires.
+- non_binary_gender
+- specific_pronouns
+- binary_procedures_may_create_obstacle
 
 ## Facteurs de protection
-- Langage inclusif.
-- Questions ouvertes.
-- Choix du prénom affiché.
-- Espaces non genrés lorsque cela est possible.
+- inclusive_language
+- open_questions
+- display_name_choice
+- non_gendered_spaces
 
 ## Mécanismes principalement explorés
-- Binarité de genre
-- Mégenrage
-- Invisibilisation
+- M002
+- M003
+- M006
 
 ## Rôle pédagogique
 Montrer les conséquences des organisations fondées sur une vision binaire du genre.
+
+---
+
+# P03 — Camille
+
+## Identité
+- Âge : 15 ans
+- Niveau : Seconde
+- Genre : Fille cisgenre
+- Orientation affective et sexuelle : Asexuelle
+
+## Contexte
+Vit avec sa grand-mère (représentante légale)
+
+## Caractéristiques
+- non_visible_sexual_orientation
+- family_configuration_differs_from_expected_model
+- legal_representative_is_not_parent
+
+## Facteurs de protection
+- open_forms
+- open_questions
+- non_presupposing_family_language
+
+## Mécanismes principalement explorés
+- M001
+- M004
+- M005
+
+## Rôle pédagogique
+Montrer que les présupposés sur l’orientation et la famille concernent des réalités variées.
 
 ---
 
@@ -105,20 +105,18 @@ Montrer les conséquences des organisations fondées sur une vision binaire du g
 - Âge : 16 ans
 - Niveau : Première
 - Genre : Garçon cisgenre
-- Orientation : Hétérosexuel
+- Orientation affective et sexuelle : Hétérosexuel
 
 ## Contexte
-Arthur correspond aux attentes implicites de la plupart des procédures habituelles.
 
 ## Caractéristiques
-- Situation conforme aux normes majoritaires.
-- Aucune difficulté particulière liée à son identité.
+- matches_majority_norms
+- no_identity_related_obstacle_in_current_scope
 
 ## Facteurs de protection
-Les procédures ordinaires répondent naturellement à sa situation.
+- ordinary_procedures_match_situation
 
 ## Mécanismes principalement explorés
-- Point de comparaison
 
 ## Rôle pédagogique
 Servir de personnage de référence afin de mettre en évidence les différences de traitement.
@@ -130,22 +128,24 @@ Servir de personnage de référence afin de mettre en évidence les différences
 ## Identité
 - Âge : 15 ans
 - Niveau : Seconde
+- Genre : Fille cisgenre
+- Orientation affective et sexuelle : Bisexuelle
 
 ## Contexte
-Sofia vit avec ses deux mamans depuis toujours.
+Famille homoparentale : vit avec ses deux mamans
 
 ## Caractéristiques
-- Famille homoparentale.
-- Configuration familiale peu représentée dans certains supports.
+- same_sex_parent_family
+- family_configuration_underrepresented
 
 ## Facteurs de protection
-- Formulaires inclusifs.
-- Langage neutre.
-- Représentation de diverses configurations familiales.
+- inclusive_forms
+- neutral_language
+- diverse_family_representation
 
 ## Mécanismes principalement explorés
-- Invisibilisation
-- Modèle familial implicite
+- M004
+- M005
 
 ## Rôle pédagogique
 Questionner les représentations implicites de la famille.
@@ -157,54 +157,59 @@ Questionner les représentations implicites de la famille.
 ## Identité
 - Âge : 17 ans
 - Niveau : Terminale
-- Orientation : Gay
+- Genre : Garçon cisgenre
+- Orientation affective et sexuelle : Gay
 
 ## Contexte
-Mehdi choisit avec prudence les personnes auprès desquelles il parle de sa vie affective.
+Jeune racisé
 
 ## Caractéristiques
-- Orientation non visible.
-- Gestion permanente du dévoilement.
-- Risque perçu de discrimination.
+- non_visible_sexual_orientation
+- disclosure_management
+- perceived_discrimination_risk
 
 ## Facteurs de protection
-- Climat bienveillant.
-- Réactions des témoins.
-- Questions ouvertes.
+- supportive_climate
+- bystander_reaction
+- open_questions
 
 ## Mécanismes principalement explorés
-- Auto-censure
-- Présomption d'hétérosexualité
-- Outing
+- M001
+- M007
+- M012
 
 ## Rôle pédagogique
-Illustrer les stratégies d'adaptation développées face au risque de discrimination.
+Illustrer les stratégies d’adaptation développées face au risque de discrimination.
 
 ---
 
-# P07 — Camille
+# P07 — Jade
 
 ## Identité
-- Âge : 15 ans
-- Niveau : Seconde
+- Âge : 16 ans
+- Niveau : Première
+- Genre : Fille cisgenre
+- Orientation affective et sexuelle : Lesbienne
 
 ## Contexte
-Camille vit chez sa grand-mère, qui est sa représentante légale.
 
 ## Caractéristiques
-- Configuration familiale différente du modèle attendu.
-- Représentante légale différente des parents.
+- non_visible_sexual_orientation
+- disclosure_control
+- heterosexuality_assumption_exposure
 
 ## Facteurs de protection
-- Formulaires ouverts.
-- Langage qui ne présuppose pas la composition familiale.
+- open_questions
+- bystander_reaction
+- trusting_climate
 
 ## Mécanismes principalement explorés
-- Modèle familial implicite
-- Invisibilisation
+- M001
+- M007
+- M010
 
 ## Rôle pédagogique
-Montrer que les présupposés sur la famille concernent un public bien plus large que les seules personnes LGBT+.
+Illustrer les effets des présupposés sur la vie quotidienne.
 
 ---
 
@@ -213,28 +218,28 @@ Montrer que les présupposés sur la famille concernent un public bien plus larg
 ## Identité
 - Âge : 16 ans
 - Niveau : Première
-- Genre : Garçon trans
-- Handicap : Handicap moteur (fauteuil roulant)
+- Genre : Fille trans
+- Orientation affective et sexuelle : Hétérosexuelle
 
 ## Contexte
-Alex rencontre selon les lieux des obstacles liés à la fois à l'accessibilité et à son identité de genre.
+Situation de handicap : utilise un fauteuil roulant
 
 ## Caractéristiques
-- Handicap moteur.
-- Prénom d'usage différent du prénom administratif.
-- Cumul de plusieurs facteurs pouvant créer des obstacles.
+- motor_disability
+- usual_name_differs_from_administrative_name
+- combined_obstacle_factors
 
 ## Facteurs de protection
-- Accessibilité des locaux.
-- Personnel formé.
-- Utilisation du prénom d'usage.
-- Organisation inclusive.
+- accessible_buildings
+- trained_staff
+- use_usual_name
+- inclusive_organisation
 
 ## Mécanismes principalement explorés
-- Intersection des discriminations
-- Accessibilité
-- Outing involontaire
-- Binarité de genre
+- M002
+- M003
+- M007
+- M008
 
 ## Rôle pédagogique
 Illustrer que plusieurs mécanismes sociaux peuvent se cumuler et produire des effets spécifiques.

@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "config": {
     "gameId": "la-marge-des-privileges",
-    "title": "La Marge des privilèges",
+    "title": "La Marche des privilèges",
     "resultSemantics": {
       "0": {
         "label": "blocked",
@@ -72,12 +72,11 @@
       "name": "Noé",
       "age": 15,
       "schoolLevel": "Seconde",
-      "identity": {
-        "gender": "garçon trans",
-        "usualFirstName": "Noé",
-        "administrativeFirstNameDifferent": true
-      },
-      "context": "Noé a commencé sa transition sociale il y a un an. Son entourage proche utilise son prénom d’usage, mais certains documents administratifs ne sont pas encore à jour.",
+      "genderIdentity": "Garçon trans",
+      "affectiveAndSexualOrientation": "Hétérosexuel",
+      "pronouns": [],
+      "characteristics": [],
+      "accentColor": "#0F766E",
       "traits": [
         "usual_name_differs_from_administrative_name",
         "social_transition",
@@ -99,42 +98,16 @@
     },
     {
       "id": "P02",
-      "name": "Jade",
-      "age": 16,
-      "schoolLevel": "Première",
-      "identity": {
-        "sexualOrientation": "lesbienne"
-      },
-      "context": "Jade est out auprès d’une partie de son entourage mais pas auprès de toute sa famille. Elle choisit selon les contextes ce qu’elle souhaite révéler.",
-      "traits": [
-        "non_visible_sexual_orientation",
-        "disclosure_control",
-        "heterosexuality_assumption_exposure"
-      ],
-      "protectiveFactors": [
-        "open_questions",
-        "bystander_reaction",
-        "trusting_climate"
-      ],
-      "mechanismIds": [
-        "M001",
-        "M007",
-        "M010"
-      ],
-      "pedagogicalRole": "Illustrer les effets des présupposés sur la vie quotidienne."
-    },
-    {
-      "id": "P03",
       "name": "Sam",
       "age": 17,
       "schoolLevel": "Terminale",
-      "identity": {
-        "gender": "non binaire",
-        "pronouns": [
-          "iel"
-        ]
-      },
-      "context": "Sam préfère que les personnes demandent son prénom et ses pronoms plutôt que de faire des suppositions.",
+      "genderIdentity": "Personne non binaire",
+      "affectiveAndSexualOrientation": "Pansexuel·le",
+      "pronouns": [
+        "iel"
+      ],
+      "characteristics": [],
+      "accentColor": "#6D4CC3",
       "traits": [
         "non_binary_gender",
         "specific_pronouns",
@@ -154,15 +127,44 @@
       "pedagogicalRole": "Montrer les conséquences des organisations fondées sur une vision binaire du genre."
     },
     {
+      "id": "P03",
+      "name": "Camille",
+      "age": 15,
+      "schoolLevel": "Seconde",
+      "genderIdentity": "Fille cisgenre",
+      "affectiveAndSexualOrientation": "Asexuelle",
+      "pronouns": [],
+      "characteristics": [
+        "Vit avec sa grand-mère (représentante légale)"
+      ],
+      "accentColor": "#B85C7A",
+      "traits": [
+        "non_visible_sexual_orientation",
+        "family_configuration_differs_from_expected_model",
+        "legal_representative_is_not_parent"
+      ],
+      "protectiveFactors": [
+        "open_forms",
+        "open_questions",
+        "non_presupposing_family_language"
+      ],
+      "mechanismIds": [
+        "M001",
+        "M004",
+        "M005"
+      ],
+      "pedagogicalRole": "Montrer que les présupposés sur l’orientation et la famille concernent des réalités variées."
+    },
+    {
       "id": "P04",
       "name": "Arthur",
       "age": 16,
       "schoolLevel": "Première",
-      "identity": {
-        "gender": "garçon cisgenre",
-        "sexualOrientation": "hétérosexuel"
-      },
-      "context": "Arthur correspond aux attentes implicites de la plupart des procédures habituelles.",
+      "genderIdentity": "Garçon cisgenre",
+      "affectiveAndSexualOrientation": "Hétérosexuel",
+      "pronouns": [],
+      "characteristics": [],
+      "accentColor": "#2563A9",
       "traits": [
         "matches_majority_norms",
         "no_identity_related_obstacle_in_current_scope"
@@ -178,10 +180,13 @@
       "name": "Sofia",
       "age": 15,
       "schoolLevel": "Seconde",
-      "identity": {
-        "family": "deux mamans"
-      },
-      "context": "Sofia vit avec ses deux mamans depuis toujours.",
+      "genderIdentity": "Fille cisgenre",
+      "affectiveAndSexualOrientation": "Bisexuelle",
+      "pronouns": [],
+      "characteristics": [
+        "Famille homoparentale : vit avec ses deux mamans"
+      ],
+      "accentColor": "#A83E74",
       "traits": [
         "same_sex_parent_family",
         "family_configuration_underrepresented"
@@ -202,10 +207,13 @@
       "name": "Mehdi",
       "age": 17,
       "schoolLevel": "Terminale",
-      "identity": {
-        "sexualOrientation": "gay"
-      },
-      "context": "Mehdi choisit avec prudence les personnes auprès desquelles il parle de sa vie affective.",
+      "genderIdentity": "Garçon cisgenre",
+      "affectiveAndSexualOrientation": "Gay",
+      "pronouns": [],
+      "characteristics": [
+        "Jeune racisé"
+      ],
+      "accentColor": "#A65D20",
       "traits": [
         "non_visible_sexual_orientation",
         "disclosure_management",
@@ -225,38 +233,43 @@
     },
     {
       "id": "P07",
-      "name": "Camille",
-      "age": 15,
-      "schoolLevel": "Seconde",
-      "identity": {
-        "legalRepresentative": "grand-mère"
-      },
-      "context": "Camille vit chez sa grand-mère, qui est sa représentante légale.",
+      "name": "Jade",
+      "age": 16,
+      "schoolLevel": "Première",
+      "genderIdentity": "Fille cisgenre",
+      "affectiveAndSexualOrientation": "Lesbienne",
+      "pronouns": [],
+      "characteristics": [],
+      "accentColor": "#377A52",
       "traits": [
-        "family_configuration_differs_from_expected_model",
-        "legal_representative_is_not_parent"
+        "non_visible_sexual_orientation",
+        "disclosure_control",
+        "heterosexuality_assumption_exposure"
       ],
       "protectiveFactors": [
-        "open_forms",
-        "non_presupposing_family_language"
+        "open_questions",
+        "bystander_reaction",
+        "trusting_climate"
       ],
       "mechanismIds": [
-        "M004",
-        "M005"
+        "M001",
+        "M007",
+        "M010"
       ],
-      "pedagogicalRole": "Montrer que les présupposés sur la famille concernent un public plus large que les seules personnes LGBT+."
+      "pedagogicalRole": "Illustrer les effets des présupposés sur la vie quotidienne."
     },
     {
       "id": "P08",
       "name": "Alex",
       "age": 16,
       "schoolLevel": "Première",
-      "identity": {
-        "gender": "garçon trans",
-        "disability": "handicap moteur",
-        "mobilityAid": "fauteuil roulant"
-      },
-      "context": "Alex rencontre selon les lieux des obstacles liés à la fois à l’accessibilité et à son identité de genre.",
+      "genderIdentity": "Fille trans",
+      "affectiveAndSexualOrientation": "Hétérosexuelle",
+      "pronouns": [],
+      "characteristics": [
+        "Situation de handicap : utilise un fauteuil roulant"
+      ],
+      "accentColor": "#4F46A5",
       "traits": [
         "motor_disability",
         "usual_name_differs_from_administrative_name",
@@ -884,7 +897,7 @@
       "P04": 1,
       "P05": 0,
       "P06": 0,
-      "P07": 1,
+      "P07": 0,
       "P08": 0
     },
     "S07": {

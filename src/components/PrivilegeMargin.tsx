@@ -1,13 +1,16 @@
 import { useState } from "react";
 
 import type { Character } from "../types/character";
-import VisualMedia from "./VisualMedia";
+import CharacterInformation from "./CharacterInformation";
+import CharacterPortrait from "./CharacterPortrait";
 
 interface Props {
   characters: Character[];
   selectedCharacterId?: string;
   totalExperiences: number;
   realPositions?: Record<string, number>;
+  className?: string;
+  prominent?: boolean;
 }
 
 function getMarkerPosition(steps: number, totalExperiences: number) {
@@ -27,19 +30,33 @@ export default function PrivilegeMargin({
   selectedCharacterId,
   totalExperiences,
   realPositions,
+  className = "mb-8",
+  prominent = false,
 }: Props) {
   const [hoveredProfileId, setHoveredProfileId] = useState<string>();
   const [openProfileId, setOpenProfileId] = useState<string>();
   const visibleProfileId = hoveredProfileId ?? openProfileId;
   const labelInterval = getLabelInterval(totalExperiences);
   const steps = Array.from({ length: totalExperiences + 1 }, (_, index) => index);
+  const selectedCharacter = characters.find(({ id }) => id === selectedCharacterId);
+  const displayedCharacters = selectedCharacter
+    ? [
+        selectedCharacter,
+        ...characters.filter(({ id }) => id !== selectedCharacterId),
+      ]
+    : characters;
 
   return (
-    <section className="mb-8 rounded-2xl border border-slate-300 bg-white p-4 shadow sm:p-6 lg:p-8">
+    <section
+      className={`${className} app-surface privilege-margin rounded-2xl border p-4 sm:p-6 lg:p-8 ${prominent ? "border-slate-400" : "border-slate-300"}`}
+      style={{
+        "--character-accent": selectedCharacter?.color,
+      } as React.CSSProperties}
+    >
       <header className="mb-8 text-center">
-        <h2 className="text-2xl font-bold">Marge des privilèges</h2>
+        <h2 className="text-2xl font-bold">Marche des privilèges</h2>
         <p className="mt-2 text-sm text-slate-600">
-          Chaque expérience permet à un personnage d&apos;avancer d&apos;un pas, ou de rester sur place.
+          Chaque personnage part du même point. Selon les situations rencontrées, il avance d&apos;un pas ou reste sur place.
         </p>
         {realPositions && (
           <div className="mt-4 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-slate-700">
@@ -50,8 +67,8 @@ export default function PrivilegeMargin({
       </header>
 
       <div className="mb-3 flex justify-between text-sm text-slate-600">
-        <span>0 pas</span>
-        <span>{totalExperiences} expérience{totalExperiences > 1 ? "s" : ""}</span>
+        <span>Position sur la marche</span>
+        <span>0 à {totalExperiences} pas possibles</span>
       </div>
 
       <div className="relative mx-5 mb-8 h-7">
@@ -80,7 +97,7 @@ export default function PrivilegeMargin({
       </div>
 
       <div className="space-y-5">
-        {characters.map((character) => {
+        {displayedCharacters.map((character) => {
           const isSelected = character.id === selectedCharacterId;
           const markerPosition = getMarkerPosition(
             character.position,
@@ -94,25 +111,26 @@ export default function PrivilegeMargin({
           return (
             <div
               key={character.id}
-              className={`rounded-xl p-3 transition-colors ${isSelected ? "bg-slate-100" : ""}`}
+              className={`privilege-row rounded-xl border p-3 transition-colors ${
+                isSelected
+                  ? "privilege-row--selected"
+                  : "border-transparent"
+              }`}
             >
               <div className="mb-3 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
                 <div className="flex flex-wrap items-center gap-3">
-                  {isSelected && (
-                    <VisualMedia
-                      src={character.profile.avatar?.src}
-                      alt={character.profile.avatar?.alt ?? `Portrait de ${character.name}`}
-                      fallbackLabel={character.name.charAt(0).toUpperCase()}
-                      className="h-10 w-10 shrink-0 rounded-full text-base"
-                    />
-                  )}
                   <p className="font-semibold">
-                    {character.name}{isSelected ? " (personnage incarné)" : ""}
+                    {character.name}
                   </p>
+                  {isSelected && (
+                    <span className="selected-character-badge rounded-full border px-2.5 py-1 text-xs font-bold">
+                      Personnage incarné
+                    </span>
+                  )}
                   {isSelected && (
                     <button
                       type="button"
-                      className="text-sm font-medium text-blue-700 underline underline-offset-2"
+                      className="selected-character-link text-sm font-medium underline underline-offset-2"
                       aria-expanded={visibleProfileId === character.id}
                       onClick={() => setOpenProfileId((current) =>
                         current === character.id ? undefined : character.id
@@ -127,7 +145,26 @@ export default function PrivilegeMargin({
                 </p>
               </div>
 
-              <div className={`relative mx-5 rounded-full bg-slate-200 ${realPositions ? "mb-7 h-4" : "h-4"}`}>
+              {isSelected && (
+                <CharacterInformation
+                  character={character}
+                  compact
+                  className="selected-character-information mb-4 rounded-lg px-3 py-2"
+                />
+              )}
+
+              <div
+                className={`relative mx-5 mt-4 rounded-full ${
+                  isSelected ? "selected-character-track" : "bg-slate-200"
+                } ${realPositions ? "mb-7 h-4" : "h-4"}`}
+              >
+                {isSelected && (
+                  <div
+                    aria-hidden="true"
+                    className="selected-character-track__progress absolute inset-y-0 left-0 rounded-full"
+                    style={{ width: `${markerPosition}%` }}
+                  />
+                )}
                 <button
                   type="button"
                   aria-label={`Voir le personnage ${character.name}, ${character.position} pas sur ${totalExperiences}`}
@@ -137,14 +174,24 @@ export default function PrivilegeMargin({
                   onClick={() => setOpenProfileId((current) =>
                     current === character.id ? undefined : character.id
                   )}
-                  className={`absolute top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border-4 border-white text-sm font-bold text-white shadow-lg transition-all duration-700 ${isSelected ? "ring-4 ring-slate-900 ring-offset-2" : ""}`}
+                  className={`absolute top-1/2 flex -translate-y-1/2 items-center justify-center rounded-full focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-600 focus-visible:ring-offset-2 ${
+                    isSelected
+                      ? "selected-character-marker h-10 w-10 border-2 border-white"
+                      : "h-8 w-8 border border-slate-400 bg-white"
+                  }`}
                   style={{
                     left: `${markerPosition}%`,
                     transform: "translate(-50%, -50%)",
-                    backgroundColor: character.color,
                   }}
                 >
-                  {character.name.charAt(0).toUpperCase()}
+                  <CharacterPortrait
+                    characterId={character.id}
+                    characterName={character.name}
+                    size="progress"
+                    eager={isSelected}
+                    decorative
+                    className="h-full w-full"
+                  />
                 </button>
                 {realPositions && isSelected && (
                   <div
@@ -163,24 +210,21 @@ export default function PrivilegeMargin({
 
               {visibleProfileId === character.id && (
                 <aside className="mt-5 flex max-w-2xl flex-col gap-4 rounded-lg border border-slate-300 bg-white p-4 text-sm text-slate-700 shadow-lg sm:flex-row">
-                  <VisualMedia
-                    src={character.profile.avatar?.src}
-                    alt={character.profile.avatar?.alt ?? `Portrait de ${character.name}`}
-                    fallbackLabel={character.name.charAt(0).toUpperCase()}
-                    className="h-24 w-24 shrink-0 self-center rounded-xl text-3xl sm:self-start"
+                  <CharacterPortrait
+                    characterId={character.id}
+                    characterName={character.name}
+                    size="summary"
+                    eager={isSelected}
+                    className="shrink-0 self-center sm:self-start"
                   />
                   <div>
                     <p className="text-base font-bold text-slate-900">{character.name}</p>
-                    <p className="mt-1">
-                      {[character.profile.age && `${character.profile.age} ans`, character.profile.schoolLevel, character.profile.identity]
-                        .filter(Boolean).join(" · ")}
-                    </p>
-                    <p className="mt-2">{character.profile.context}</p>
-                    {character.profile.traits && (
-                      <p className="mt-2"><strong>Caractéristiques principales :</strong> {character.profile.traits.join(", ")}</p>
+                    <CharacterInformation character={character} className="mt-2" />
+                    {character.traits && (
+                      <p className="mt-3"><strong>Caractéristiques principales :</strong> {character.traits.join(", ")}</p>
                     )}
-                    {character.profile.protectiveFactors && (
-                      <p className="mt-2"><strong>Ce qui peut faciliter sa participation :</strong> {character.profile.protectiveFactors.join(", ")}</p>
+                    {character.protectiveFactors && (
+                      <p className="mt-2"><strong>Ce qui peut faciliter sa participation :</strong> {character.protectiveFactors.join(", ")}</p>
                     )}
                   </div>
                 </aside>

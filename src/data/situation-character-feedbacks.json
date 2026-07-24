@@ -44,7 +44,7 @@
     },
     "P08": {
       "obstacle": true,
-      "explanation": "Comme Noé, Alex utilise un prénom d'usage différent de son prénom administratif. L'affichage de la liste peut révéler involontairement qu'il est trans. Cette divulgation peut entraîner un sentiment d'insécurité ou des réactions négatives de la part d'autres élèves. Son handicap n'est pas en cause dans cette situation : c'est bien le risque d'outing qui constitue l'obstacle.",
+      "explanation": "Comme Noé, Alex utilise un prénom d’usage différent de celui qui peut encore figurer dans certains documents administratifs. L’affichage de la liste peut révéler involontairement qu’elle est trans. Cette divulgation peut entraîner un sentiment d’insécurité ou des réactions négatives de la part d’autres élèves. Son handicap n’est pas en cause dans cette situation : c’est bien le risque d’outing qui constitue l’obstacle.",
       "schoolGoodPractice": "- Employer systématiquement le prénom d'usage dans les usages internes.\n- Éviter les affichages publics comportant des informations sensibles.\n- Former les personnels aux enjeux liés au respect de l'identité de genre.",
       "takeaway": "Le respect de l'identité de genre fait partie des conditions d'un environnement scolaire sûr et inclusif."
     }
@@ -94,7 +94,7 @@
     },
     "P08": {
       "obstacle": true,
-      "explanation": "Alex hésite à rejoindre certains groupes par crainte d'être rejeté ou confronté à des remarques sur son identité de genre. Son fauteuil roulant peut également renforcer cette appréhension si les camarades pensent, à tort, qu'il sera plus difficile de travailler avec lui. Plusieurs facteurs peuvent donc se cumuler.",
+      "explanation": "Alex hésite à rejoindre certains groupes par crainte d’être rejetée ou confrontée à des remarques sur son identité de genre. Son fauteuil roulant peut également renforcer cette appréhension si des camarades pensent, à tort, qu’il sera plus difficile de travailler avec elle. Plusieurs facteurs peuvent donc se cumuler.",
       "schoolGoodPractice": "- Constituer des groupes favorisant la coopération.\n- Sensibiliser les élèves aux discriminations et aux préjugés.\n- Vérifier que les activités sont accessibles à tous.",
       "takeaway": "Certaines personnes peuvent cumuler plusieurs sources de discrimination. Les prendre en compte permet de construire un environnement réellement inclusif."
     }
@@ -194,9 +194,9 @@
     },
     "P08": {
       "obstacle": true,
-      "explanation": "Alex est concerné par les mêmes difficultés que Noé concernant l'assignation de genre. À cela peut s'ajouter la question de l'accessibilité ou de l'aménagement des vestiaires en raison de son fauteuil roulant. Plusieurs facteurs peuvent donc rendre ce moment particulièrement délicat.",
-      "schoolGoodPractice": "- Rechercher une solution construite avec l'élève.\n- Garantir à la fois le respect de son identité de genre et l'accessibilité des locaux.\n- Éviter toute décision prise dans l'urgence devant les autres élèves.",
-      "takeaway": "Certaines personnes cumulent plusieurs besoins d'adaptation. Les prendre en compte permet de garantir l'égalité d'accès aux activités scolaires."
+      "explanation": "Alex souhaite utiliser le vestiaire des filles, conformément à son identité. Elle peut néanmoins craindre que ce choix soit contesté, qu’on lui demande de se justifier ou que des informations personnelles soient révélées devant les autres élèves. À cela peut s’ajouter la question de l’accessibilité et de l’aménagement du vestiaire en raison de son fauteuil roulant.",
+      "schoolGoodPractice": "- Construire avec Alex une solution respectant son identité et ses choix.\n- Garantir l’accessibilité du vestiaire ou de l’espace utilisé.\n- Prévenir les contestations et éviter toute décision prise publiquement dans l’urgence.",
+      "takeaway": "Respecter l’identité d’une élève et garantir l’accessibilité des locaux sont deux conditions complémentaires de sa participation au cours."
     }
   },
   "S05": {
@@ -244,9 +244,9 @@
     },
     "P08": {
       "obstacle": true,
-      "explanation": "Pour Alex, la répartition des chambres peut poser une double difficulté. D'une part, la séparation strictement binaire peut ne pas correspondre à son identité de genre. D'autre part, son fauteuil roulant peut nécessiter une chambre accessible. Ces deux aspects doivent être pris en compte conjointement.",
-      "schoolGoodPractice": "- Prévoir une chambre accessible.\n- Construire la répartition avec l'élève concerné.\n- Garantir le respect de son identité et de sa vie privée tout au long de l'organisation.",
-      "takeaway": "Certaines situations nécessitent de prendre en compte plusieurs besoins simultanément afin de garantir une véritable égalité de participation."
+      "explanation": "Alex souhaite être hébergée avec les filles, conformément à son identité. Elle peut cependant craindre que cette affectation soit contestée, qu’un document administratif conduise à une autre décision ou qu’elle doive révéler qu’elle est trans pour obtenir une organisation adaptée. Son fauteuil roulant nécessite également de vérifier l’accessibilité de la chambre et des sanitaires.",
+      "schoolGoodPractice": "- Préparer la répartition avec l’élève concernée, en toute confidentialité.\n- Prévoir une chambre et des sanitaires accessibles.\n- Respecter son identité sans l’obliger à se justifier devant le groupe.",
+      "takeaway": "L’organisation doit prendre en compte simultanément le respect de l’identité, la vie privée et l’accessibilité."
     }
   },
   "S06": {
@@ -263,10 +263,10 @@
       "takeaway": "Être représenté dans les contenus d'enseignement contribue au sentiment d'inclusion."
     },
     "P03": {
-      "obstacle": true,
-      "explanation": "Le cours repose exclusivement sur une vision binaire du genre. Sam ne retrouve ni son identité ni son expérience dans les explications proposées. Cette absence de représentation peut renforcer un sentiment d'isolement.",
-      "schoolGoodPractice": "- Expliquer la différence entre sexe, genre et identité de genre lorsque le programme s'y prête.\n- Employer un langage respectueux de la diversité des identités.",
-      "takeaway": "Des contenus inclusifs permettent à tous les élèves de se sentir concernés."
+      "obstacle": false,
+      "explanation": "Camille peut suivre la séance sans rencontrer d’obstacle immédiat. Cependant, le cours présente les relations affectives uniquement à travers des couples hétérosexuels et semble supposer que toute personne éprouve nécessairement une attirance affective ou sexuelle. En tant que personne asexuelle, Camille peut constater que son expérience n’est pas représentée.",
+      "schoolGoodPractice": "- Ne pas présenter l’attirance sexuelle ou la mise en couple comme une expérience universelle.\n- Évoquer de manière factuelle la diversité des orientations, notamment l’asexualité.\n- Utiliser des exemples qui ne réduisent pas la vie affective à un modèle unique.",
+      "takeaway": "Même lorsqu’elle ne constitue pas un obstacle direct, l’absence de représentation peut faire apparaître certaines expériences comme inexistantes ou anormales."
     },
     "P04": {
       "obstacle": false,
@@ -276,9 +276,9 @@
     },
     "P05": {
       "obstacle": true,
-      "explanation": "Lorsque le professeur parle des familles, seules les configurations composées d'un père et d'une mère sont évoquées. La famille de Sofia, qui a deux mères, n'apparaît jamais. Elle peut avoir le sentiment que sa réalité familiale est considérée comme exceptionnelle ou inexistante.",
-      "schoolGoodPractice": "- Présenter différentes formes de familles.\n- Employer des formulations qui n'excluent aucune configuration familiale.",
-      "takeaway": "Les familles sont diverses et cette diversité mérite d'être représentée."
+      "explanation": "Le cours ne présente que des couples composés d’un homme et d’une femme et uniquement des familles avec un père et une mère. Sofia est concernée à deux titres : sa bisexualité n’apparaît jamais dans les exemples proposés et sa famille, composée de ses deux mères, est également invisibilisée. Elle peut avoir le sentiment que ni son orientation ni sa réalité familiale n’ont leur place dans le cours.",
+      "schoolGoodPractice": "- Présenter différentes orientations affectives et sexuelles sans les hiérarchiser.\n- Représenter plusieurs configurations familiales.\n- Choisir des exemples qui permettent à l’ensemble des élèves de se sentir concernés.",
+      "takeaway": "Plusieurs dimensions de l’expérience d’une même personne peuvent être simultanément invisibilisées par un contenu pédagogique trop uniforme."
     },
     "P06": {
       "obstacle": true,
@@ -294,7 +294,7 @@
     },
     "P08": {
       "obstacle": true,
-      "explanation": "Alex ne retrouve ni son identité de genre ni la diversité des parcours trans dans les contenus présentés. Cette absence de représentation peut donner l'impression que son vécu n'a pas sa place dans les apprentissages.",
+      "explanation": "Alex ne retrouve ni son identité de genre ni la diversité des parcours trans dans les contenus présentés. Cette absence de représentation peut donner l’impression que son vécu n’a pas sa place dans les apprentissages.",
       "schoolGoodPractice": "- Utiliser des ressources pédagogiques actualisées.\n- Représenter la diversité des identités de genre de manière factuelle et adaptée à l'âge des élèves.\n- Garantir un climat permettant aux élèves de poser des questions dans le respect de chacun.",
       "takeaway": "Une éducation inclusive aide chaque élève à comprendre le monde et à se sentir reconnu."
     }
@@ -363,10 +363,10 @@
       "takeaway": "Les questions ouvertes permettent à chacun de parler de sa situation sans avoir à corriger des présupposés."
     },
     "P03": {
-      "obstacle": true,
-      "explanation": "Le professionnel utilise spontanément des termes qui ne correspondent pas à l'identité de Sam ou fait des suppositions sur son genre. Sam peut avoir le sentiment que son identité est définie par d'autres plutôt que reconnue.",
-      "schoolGoodPractice": "- Demander quel prénom et quels pronoms utiliser.\n- Employer un langage respectueux et adaptable.\n- Éviter les suppositions fondées sur l'apparence.",
-      "takeaway": "Respecter la manière dont une personne se présente favorise une relation de confiance."
+      "obstacle": false,
+      "explanation": "Les questions posées ne créent pas nécessairement de difficulté immédiate pour Camille. Néanmoins, un professionnel peut supposer que toute personne éprouve une attirance sexuelle, recherche une relation de couple ou a une vie sexuelle. En tant que personne asexuelle, Camille pourrait alors devoir corriger des présupposés qui ne correspondent pas à son expérience.",
+      "schoolGoodPractice": "- Ne pas présenter l’attirance sexuelle ou la vie en couple comme universelles.\n- Poser uniquement les questions nécessaires, sans supposer les réponses.\n- Permettre à chaque personne de décrire librement sa situation.",
+      "takeaway": "Les présupposés ne concernent pas seulement le genre du partenaire : ils peuvent aussi porter sur l’existence même d’une attirance ou d’une vie sexuelle."
     },
     "P04": {
       "obstacle": false,
@@ -376,9 +376,9 @@
     },
     "P05": {
       "obstacle": false,
-      "explanation": "La consultation ne pose pas de difficulté particulière à Sofia. En revanche, elle rappelle qu'un professionnel ne connaît jamais à l'avance la situation familiale ou affective d'une personne.",
-      "schoolGoodPractice": "- Éviter les questions reposant sur des stéréotypes.\n- Privilégier une écoute individualisée.",
-      "takeaway": "La qualité de l'accompagnement repose sur la connaissance de la personne, pas sur des suppositions."
+      "explanation": "Dans cette consultation, les suppositions du professionnel ne créent pas nécessairement un obstacle immédiat pour Sofia. Cependant, sa bisexualité rappelle qu’on ne peut pas déduire l’orientation d’une personne à partir de son apparence, de son genre ou du genre de son éventuel partenaire. Une question trop orientée pourrait l’obliger à corriger le professionnel ou rendre invisible une partie de sa situation.",
+      "schoolGoodPractice": "- Employer des termes neutres comme “partenaire”.\n- Ne pas déduire l’orientation d’une personne à partir de son apparence ou de ses relations passées.\n- Poser des questions ouvertes et utiles à la consultation.",
+      "takeaway": "La bisexualité est souvent rendue invisible lorsque les professionnels supposent automatiquement qu’une personne est hétérosexuelle ou homosexuelle."
     },
     "P06": {
       "obstacle": true,
@@ -394,7 +394,7 @@
     },
     "P08": {
       "obstacle": true,
-      "explanation": "Alex peut être confronté à plusieurs présupposés : sur son identité de genre, sur son prénom ou encore sur sa situation personnelle. Avant même d'aborder le motif de la consultation, il peut devoir corriger ces suppositions, ce qui complique l'échange et réduit le sentiment d'être accueilli avec respect.",
+      "explanation": "Alex peut être confrontée à plusieurs présupposés : sur son identité de genre, sur son prénom ou encore sur sa situation personnelle. Avant même d’aborder le motif de la consultation, elle peut devoir corriger ces suppositions, ce qui complique l’échange et réduit son sentiment d’être accueillie avec respect.",
       "schoolGoodPractice": "- Demander à la personne comment elle souhaite être appelée.\n- Ne pas faire de suppositions sur son identité ou sa vie privée.\n- Placer l'écoute et le respect au cœur de la relation.",
       "takeaway": "Une consultation est plus efficace lorsque la personne se sent reconnue et écoutée dès les premiers échanges."
     }
@@ -444,7 +444,7 @@
     },
     "P08": {
       "obstacle": true,
-      "explanation": "Comme pour Noé, la vérification du prénom officiel peut révéler qu'Alex est trans. De plus, si l'entretien porte ensuite sur cette différence plutôt que sur ses compétences, il peut avoir le sentiment d'être évalué à travers son identité plutôt que son projet de stage.",
+      "explanation": "Comme pour Noé, la vérification du prénom officiel peut révéler qu’Alex est trans. Si l’entretien porte ensuite sur cette différence plutôt que sur ses compétences, elle peut avoir le sentiment d’être évaluée à travers son identité plutôt qu’à partir de son projet de stage.",
       "schoolGoodPractice": "- Utiliser le prénom d'usage dans tous les échanges.\n- Réserver les vérifications administratives aux situations où elles sont indispensables.\n- Former les tuteurs de stage au respect de la confidentialité.",
       "takeaway": "Les procédures administratives ne doivent jamais faire oublier l'objectif principal : évaluer les compétences de la personne."
     }
@@ -494,7 +494,7 @@
     },
     "P08": {
       "obstacle": false,
-      "explanation": "L'intervention est particulièrement importante pour Alex. Elle montre que les adultes sont prêts à agir pour protéger les élèves confrontés à des discriminations, quelles qu'elles soient. Cette attitude renforce le sentiment que l'établissement est un lieu où il peut évoluer en sécurité.",
+      "explanation": "L'intervention est particulièrement importante pour Alex. Elle montre que les adultes sont prêts à agir pour protéger les élèves confrontés à des discriminations, quelles qu'elles soient. Cette attitude renforce le sentiment que l'établissement est un lieu où elle peut évoluer en sécurité.",
       "schoolGoodPractice": "- Agir rapidement.\n- Écouter les besoins de la personne concernée.\n- Assurer un suivi après l'incident si nécessaire.",
       "takeaway": "Une intervention adaptée protège non seulement la personne directement visée, mais rassure également tous les élèves qui assistent à la scène."
     }
@@ -764,9 +764,9 @@
     },
     "P03": {
       "obstacle": true,
-      "explanation": "L'absence de personnages ou de parcours proches du mien peut donner le sentiment que certaines réalités n'ont pas leur place.",
-      "schoolGoodPractice": "Inclure des œuvres représentant une diversité d'identités, de familles et de parcours.",
-      "takeaway": "Être représenté contribue à se sentir légitime."
+      "explanation": "Camille ne trouve aucun personnage ou parcours évoquant l’asexualité. Cette absence de représentation peut lui donner le sentiment que son orientation est inconnue, incomprise ou considérée comme inexistante. Elle dispose également de peu de ressources pour mettre des mots sur son expérience ou découvrir des récits auxquels s’identifier.",
+      "schoolGoodPractice": "- Inclure dans les collections des œuvres représentant l’asexualité de manière juste et non stéréotypée.\n- Proposer des ressources reflétant une diversité d’orientations, d’identités, de familles et de parcours.\n- Veiller à ne pas limiter les sélections LGBT+ aux orientations les plus visibles.",
+      "takeaway": "L’absence de représentation peut rendre certaines orientations difficiles à identifier et à comprendre, y compris pour les personnes directement concernées."
     },
     "P04": {
       "obstacle": false,
@@ -944,7 +944,7 @@
     },
     "P08": {
       "obstacle": false,
-      "explanation": "Je suis accueilli sans que ma situation personnelle devienne un sujet de discussion.",
+      "explanation": "Je suis accueillie sans que ma situation personnelle devienne un sujet de discussion.",
       "schoolGoodPractice": "Encourager les élèves à adopter des comportements solidaires dans les activités quotidiennes.",
       "takeaway": "Inclure une personne, c'est souvent agir simplement et naturellement."
     }
@@ -994,9 +994,9 @@
     },
     "P08": {
       "obstacle": true,
-      "explanation": "Lorsque seules deux catégories sont proposées, je peux avoir le sentiment que ma réalité n'est pas prise en compte.",
-      "schoolGoodPractice": "Prévoir des solutions alternatives lorsque les procédures habituelles ne permettent pas de répondre à toutes les situations.",
-      "takeaway": "Une organisation inclusive consiste à adapter les règles lorsque cela est nécessaire."
+      "explanation": "Si la liste repose sur des informations administratives ou une catégorisation qui ne respecte pas mon identité, je peux être placée dans le mauvais groupe ou devoir révéler que je suis trans pour faire corriger la situation.",
+      "schoolGoodPractice": "- Vérifier que les listes et les outils utilisés respectent le prénom d’usage et l’identité de l’élève.\n- Traiter toute correction de manière confidentielle.",
+      "takeaway": "Une organisation en deux groupes n’est pas nécessairement excluante en elle-même ; elle le devient lorsque l’identité de l’élève n’est pas respectée."
     }
   }
 }

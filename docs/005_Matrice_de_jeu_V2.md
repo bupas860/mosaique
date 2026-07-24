@@ -23,7 +23,7 @@ Le document ne contient pas les débriefs détaillés. Il expose la logique qui 
 | S03 – Le formulaire | M004 | 1 | 1 | 1 | 1 | 0 | 1 | 0 | 1 |
 | S04 – Les vestiaires | M022 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 0 |
 | S05 – Le voyage scolaire | M002 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 0 |
-| S06 – Le cours d’EVARS | M005 | 0 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
+| S06 – Le cours d’EVARS | M005 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | S07 – La blague | M010 | 0 | 0 | 0 | 1 | 1 | 0 | 1 | 0 |
 | S08 – La consultation | M023 | 0 | 0 | 0 | 1 | 1 | 0 | 1 | 0 |
 | S09 – Le stage | M007 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 0 |

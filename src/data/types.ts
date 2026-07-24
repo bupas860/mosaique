@@ -2,25 +2,16 @@ export type CharacterId = `P${number}`;
 export type SituationId = `S${number}`;
 export type MechanismId = `M${number}`;
 
-export interface CharacterIdentity {
-  gender?: string;
-  usualFirstName?: string;
-  administrativeFirstNameDifferent?: boolean;
-  sexualOrientation?: string;
-  pronouns?: string[];
-  family?: string;
-  legalRepresentative?: string;
-  disability?: string;
-  mobilityAid?: string;
-}
-
 export interface CharacterData {
   id: CharacterId;
   name: string;
   age: number;
   schoolLevel: string;
-  identity: CharacterIdentity;
-  context: string;
+  genderIdentity: string;
+  affectiveAndSexualOrientation: string;
+  pronouns: string[];
+  characteristics: string[];
+  accentColor: string;
   traits: string[];
   protectiveFactors: string[];
   mechanismIds: MechanismId[];

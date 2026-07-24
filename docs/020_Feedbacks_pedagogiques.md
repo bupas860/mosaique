@@ -20,7 +20,7 @@ Une même procédure peut être neutre pour la majorité des élèves mais avoir
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Non
 
@@ -39,7 +39,7 @@ Une situation qui semble anodine pour certains peut représenter un obstacle imp
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Oui
 
@@ -116,7 +116,7 @@ L'inclusion consiste aussi à anticiper les difficultés que certaines personnes
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Non
 
@@ -141,7 +141,7 @@ Obstacle : Oui
 
 ### Pourquoi ?
 
-Comme Noé, Alex utilise un prénom d'usage différent de son prénom administratif. L'affichage de la liste peut révéler involontairement qu'il est trans. Cette divulgation peut entraîner un sentiment d'insécurité ou des réactions négatives de la part d'autres élèves. Son handicap n'est pas en cause dans cette situation : c'est bien le risque d'outing qui constitue l'obstacle.
+Comme Noé, Alex utilise un prénom d’usage différent de celui qui peut encore figurer dans certains documents administratifs. L’affichage de la liste peut révéler involontairement qu’elle est trans. Cette divulgation peut entraîner un sentiment d’insécurité ou des réactions négatives de la part d’autres élèves. Son handicap n’est pas en cause dans cette situation : c’est bien le risque d’outing qui constitue l’obstacle.
 
 ### Que peut faire l’établissement ?
 
@@ -175,7 +175,7 @@ Le libre choix des groupes peut renforcer le sentiment d'exclusion de certains �
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Non
 
@@ -194,7 +194,7 @@ L'inclusion passe aussi par une vigilance lors des activités de groupe.
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Oui
 
@@ -271,7 +271,7 @@ Les élèves ont eux aussi un rôle dans la construction d'un climat inclusif.
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Non
 
@@ -296,7 +296,7 @@ Obstacle : Oui
 
 ### Pourquoi ?
 
-Alex hésite à rejoindre certains groupes par crainte d'être rejeté ou confronté à des remarques sur son identité de genre. Son fauteuil roulant peut également renforcer cette appréhension si les camarades pensent, à tort, qu'il sera plus difficile de travailler avec lui. Plusieurs facteurs peuvent donc se cumuler.
+Alex hésite à rejoindre certains groupes par crainte d’être rejetée ou confrontée à des remarques sur son identité de genre. Son fauteuil roulant peut également renforcer cette appréhension si des camarades pensent, à tort, qu’il sera plus difficile de travailler avec elle. Plusieurs facteurs peuvent donc se cumuler.
 
 ### Que peut faire l’établissement ?
 
@@ -307,6 +307,7 @@ Alex hésite à rejoindre certains groupes par crainte d'être rejeté ou confro
 ### À retenir
 
 Certaines personnes peuvent cumuler plusieurs sources de discrimination. Les prendre en compte permet de construire un environnement réellement inclusif.
+
 # S03 — Le formulaire
 
 ## Noé
@@ -328,7 +329,7 @@ Un formulaire peut être simple à remplir pour certaines personnes et inadapté
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Non
 
@@ -347,7 +348,7 @@ Les documents administratifs transmettent aussi une représentation de la socié
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Non
 
@@ -420,7 +421,7 @@ Une procédure administrative peut sembler neutre tout en étant inadaptée à c
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Oui
 
@@ -477,7 +478,7 @@ Une règle identique pour tous peut produire une difficulté lorsqu'elle ne tien
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Non
 
@@ -496,7 +497,7 @@ Un fonctionnement majoritaire n'est pas toujours adapté à l'ensemble des élè
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Oui
 
@@ -573,7 +574,7 @@ Le climat des vestiaires dépend autant des règles que des comportements des é
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Non
 
@@ -598,18 +599,17 @@ Obstacle : Oui
 
 ### Pourquoi ?
 
-Alex est concerné par les mêmes difficultés que Noé concernant l'assignation de genre. À cela peut s'ajouter la question de l'accessibilité ou de l'aménagement des vestiaires en raison de son fauteuil roulant. Plusieurs facteurs peuvent donc rendre ce moment particulièrement délicat.
+Alex souhaite utiliser le vestiaire des filles, conformément à son identité. Elle peut néanmoins craindre que ce choix soit contesté, qu’on lui demande de se justifier ou que des informations personnelles soient révélées devant les autres élèves. À cela peut s’ajouter la question de l’accessibilité et de l’aménagement du vestiaire en raison de son fauteuil roulant.
 
 ### Que peut faire l’établissement ?
 
-- Rechercher une solution construite avec l'élève.
-- Garantir à la fois le respect de son identité de genre et l'accessibilité des locaux.
-- Éviter toute décision prise dans l'urgence devant les autres élèves.
+- Construire avec Alex une solution respectant son identité et ses choix.
+- Garantir l’accessibilité du vestiaire ou de l’espace utilisé.
+- Prévenir les contestations et éviter toute décision prise publiquement dans l’urgence.
 
 ### À retenir
 
-Certaines personnes cumulent plusieurs besoins d'adaptation. Les prendre en compte permet de garantir l'égalité d'accès aux activités scolaires.
-
+Respecter l’identité d’une élève et garantir l’accessibilité des locaux sont deux conditions complémentaires de sa participation au cours.
 
 # S05 — Le voyage scolaire
 
@@ -633,7 +633,7 @@ Une organisation logistique peut avoir des conséquences importantes lorsqu'elle
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Non
 
@@ -652,7 +652,7 @@ Un voyage scolaire est plus inclusif lorsque son organisation tient compte de la
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Oui
 
@@ -728,7 +728,7 @@ Le climat du groupe est aussi important que l'organisation matérielle.
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Non
 
@@ -753,17 +753,17 @@ Obstacle : Oui
 
 ### Pourquoi ?
 
-Pour Alex, la répartition des chambres peut poser une double difficulté. D'une part, la séparation strictement binaire peut ne pas correspondre à son identité de genre. D'autre part, son fauteuil roulant peut nécessiter une chambre accessible. Ces deux aspects doivent être pris en compte conjointement.
+Alex souhaite être hébergée avec les filles, conformément à son identité. Elle peut cependant craindre que cette affectation soit contestée, qu’un document administratif conduise à une autre décision ou qu’elle doive révéler qu’elle est trans pour obtenir une organisation adaptée. Son fauteuil roulant nécessite également de vérifier l’accessibilité de la chambre et des sanitaires.
 
 ### Que peut faire l’établissement ?
 
-- Prévoir une chambre accessible.
-- Construire la répartition avec l'élève concerné.
-- Garantir le respect de son identité et de sa vie privée tout au long de l'organisation.
+- Préparer la répartition avec l’élève concernée, en toute confidentialité.
+- Prévoir une chambre et des sanitaires accessibles.
+- Respecter son identité sans l’obliger à se justifier devant le groupe.
 
 ### À retenir
 
-Certaines situations nécessitent de prendre en compte plusieurs besoins simultanément afin de garantir une véritable égalité de participation.
+L’organisation doit prendre en compte simultanément le respect de l’identité, la vie privée et l’accessibilité.
 
 # S06 — Le cours d’EVARS
 
@@ -787,7 +787,7 @@ Une représentation unique peut invisibiliser une partie des élèves.
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Oui
 
@@ -807,22 +807,23 @@ Tous les exemples concernent des couples composés d'un homme et d'une femme. Le
 
 ---
 
-## Sam
+## Camille
 
-Obstacle : Oui
+Obstacle : Non
 
 ### Pourquoi ?
 
-Le cours repose exclusivement sur une vision binaire du genre. Sam ne retrouve ni son identité ni son expérience dans les explications proposées. Cette absence de représentation peut renforcer un sentiment d'isolement.
+Camille peut suivre la séance sans rencontrer d’obstacle immédiat. Cependant, le cours présente les relations affectives uniquement à travers des couples hétérosexuels et semble supposer que toute personne éprouve nécessairement une attirance affective ou sexuelle. En tant que personne asexuelle, Camille peut constater que son expérience n’est pas représentée.
 
 ### Que peut faire l’établissement ?
 
-- Expliquer la différence entre sexe, genre et identité de genre lorsque le programme s'y prête.
-- Employer un langage respectueux de la diversité des identités.
+- Ne pas présenter l’attirance sexuelle ou la mise en couple comme une expérience universelle.
+- Évoquer de manière factuelle la diversité des orientations, notamment l’asexualité.
+- Utiliser des exemples qui ne réduisent pas la vie affective à un modèle unique.
 
 ### À retenir
 
-Des contenus inclusifs permettent à tous les élèves de se sentir concernés.
+Même lorsqu’elle ne constitue pas un obstacle direct, l’absence de représentation peut faire apparaître certaines expériences comme inexistantes ou anormales.
 
 ---
 
@@ -850,16 +851,17 @@ Obstacle : Oui
 
 ### Pourquoi ?
 
-Lorsque le professeur parle des familles, seules les configurations composées d'un père et d'une mère sont évoquées. La famille de Sofia, qui a deux mères, n'apparaît jamais. Elle peut avoir le sentiment que sa réalité familiale est considérée comme exceptionnelle ou inexistante.
+Le cours ne présente que des couples composés d’un homme et d’une femme et uniquement des familles avec un père et une mère. Sofia est concernée à deux titres : sa bisexualité n’apparaît jamais dans les exemples proposés et sa famille, composée de ses deux mères, est également invisibilisée. Elle peut avoir le sentiment que ni son orientation ni sa réalité familiale n’ont leur place dans le cours.
 
 ### Que peut faire l’établissement ?
 
-- Présenter différentes formes de familles.
-- Employer des formulations qui n'excluent aucune configuration familiale.
+- Présenter différentes orientations affectives et sexuelles sans les hiérarchiser.
+- Représenter plusieurs configurations familiales.
+- Choisir des exemples qui permettent à l’ensemble des élèves de se sentir concernés.
 
 ### À retenir
 
-Les familles sont diverses et cette diversité mérite d'être représentée.
+Plusieurs dimensions de l’expérience d’une même personne peuvent être simultanément invisibilisées par un contenu pédagogique trop uniforme.
 
 ---
 
@@ -882,7 +884,7 @@ Parler de diversité affective contribue à la prévention des discriminations.
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Non
 
@@ -906,7 +908,7 @@ Obstacle : Oui
 
 ### Pourquoi ?
 
-Alex ne retrouve ni son identité de genre ni la diversité des parcours trans dans les contenus présentés. Cette absence de représentation peut donner l'impression que son vécu n'a pas sa place dans les apprentissages.
+Alex ne retrouve ni son identité de genre ni la diversité des parcours trans dans les contenus présentés. Cette absence de représentation peut donner l’impression que son vécu n’a pas sa place dans les apprentissages.
 
 ### Que peut faire l’établissement ?
 
@@ -940,7 +942,7 @@ Les microagressions contribuent à créer un climat d'insécurité, même lorsqu
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Oui
 
@@ -960,7 +962,7 @@ Les mots employés au quotidien participent à construire un environnement plus 
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Oui
 
@@ -1038,7 +1040,7 @@ Banaliser une insulte contribue à banaliser la discrimination.
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Non
 
@@ -1097,7 +1099,7 @@ Une relation de confiance commence par l'écoute, pas par les présupposés.
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Oui
 
@@ -1117,23 +1119,23 @@ Les questions ouvertes permettent à chacun de parler de sa situation sans avoir
 
 ---
 
-## Sam
+## Camille
 
-Obstacle : Oui
+Obstacle : Non
 
 ### Pourquoi ?
 
-Le professionnel utilise spontanément des termes qui ne correspondent pas à l'identité de Sam ou fait des suppositions sur son genre. Sam peut avoir le sentiment que son identité est définie par d'autres plutôt que reconnue.
+Les questions posées ne créent pas nécessairement de difficulté immédiate pour Camille. Néanmoins, un professionnel peut supposer que toute personne éprouve une attirance sexuelle, recherche une relation de couple ou a une vie sexuelle. En tant que personne asexuelle, Camille pourrait alors devoir corriger des présupposés qui ne correspondent pas à son expérience.
 
 ### Que peut faire l’établissement ?
 
-- Demander quel prénom et quels pronoms utiliser.
-- Employer un langage respectueux et adaptable.
-- Éviter les suppositions fondées sur l'apparence.
+- Ne pas présenter l’attirance sexuelle ou la vie en couple comme universelles.
+- Poser uniquement les questions nécessaires, sans supposer les réponses.
+- Permettre à chaque personne de décrire librement sa situation.
 
 ### À retenir
 
-Respecter la manière dont une personne se présente favorise une relation de confiance.
+Les présupposés ne concernent pas seulement le genre du partenaire : ils peuvent aussi porter sur l’existence même d’une attirance ou d’une vie sexuelle.
 
 ---
 
@@ -1162,16 +1164,17 @@ Obstacle : Non
 
 ### Pourquoi ?
 
-La consultation ne pose pas de difficulté particulière à Sofia. En revanche, elle rappelle qu'un professionnel ne connaît jamais à l'avance la situation familiale ou affective d'une personne.
+Dans cette consultation, les suppositions du professionnel ne créent pas nécessairement un obstacle immédiat pour Sofia. Cependant, sa bisexualité rappelle qu’on ne peut pas déduire l’orientation d’une personne à partir de son apparence, de son genre ou du genre de son éventuel partenaire. Une question trop orientée pourrait l’obliger à corriger le professionnel ou rendre invisible une partie de sa situation.
 
 ### Que peut faire l’établissement ?
 
-- Éviter les questions reposant sur des stéréotypes.
-- Privilégier une écoute individualisée.
+- Employer des termes neutres comme “partenaire”.
+- Ne pas déduire l’orientation d’une personne à partir de son apparence ou de ses relations passées.
+- Poser des questions ouvertes et utiles à la consultation.
 
 ### À retenir
 
-La qualité de l'accompagnement repose sur la connaissance de la personne, pas sur des suppositions.
+La bisexualité est souvent rendue invisible lorsque les professionnels supposent automatiquement qu’une personne est hétérosexuelle ou homosexuelle.
 
 ---
 
@@ -1195,7 +1198,7 @@ Les présupposés peuvent conduire une personne à se censurer ou à cacher une 
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Non
 
@@ -1220,7 +1223,7 @@ Obstacle : Oui
 
 ### Pourquoi ?
 
-Alex peut être confronté à plusieurs présupposés : sur son identité de genre, sur son prénom ou encore sur sa situation personnelle. Avant même d'aborder le motif de la consultation, il peut devoir corriger ces suppositions, ce qui complique l'échange et réduit le sentiment d'être accueilli avec respect.
+Alex peut être confrontée à plusieurs présupposés : sur son identité de genre, sur son prénom ou encore sur sa situation personnelle. Avant même d’aborder le motif de la consultation, elle peut devoir corriger ces suppositions, ce qui complique l’échange et réduit son sentiment d’être accueillie avec respect.
 
 ### Que peut faire l’établissement ?
 
@@ -1231,6 +1234,7 @@ Alex peut être confronté à plusieurs présupposés : sur son identité de gen
 ### À retenir
 
 Une consultation est plus efficace lorsque la personne se sent reconnue et écoutée dès les premiers échanges.
+
 # S09 — Le stage
 
 ## Noé
@@ -1253,7 +1257,7 @@ Une question administrative peut avoir des conséquences importantes lorsqu'elle
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Non
 
@@ -1271,7 +1275,7 @@ Les démarches administratives doivent toujours rester au service de l'évaluati
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Oui
 
@@ -1347,7 +1351,7 @@ Les intentions ne suffisent pas : ce sont aussi les effets d'une pratique qui co
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Non
 
@@ -1372,7 +1376,7 @@ Obstacle : Oui
 
 ### Pourquoi ?
 
-Comme pour Noé, la vérification du prénom officiel peut révéler qu'Alex est trans. De plus, si l'entretien porte ensuite sur cette différence plutôt que sur ses compétences, il peut avoir le sentiment d'être évalué à travers son identité plutôt que son projet de stage.
+Comme pour Noé, la vérification du prénom officiel peut révéler qu’Alex est trans. Si l’entretien porte ensuite sur cette différence plutôt que sur ses compétences, elle peut avoir le sentiment d’être évaluée à travers son identité plutôt qu’à partir de son projet de stage.
 
 ### Que peut faire l’établissement ?
 
@@ -1383,6 +1387,7 @@ Comme pour Noé, la vérification du prénom officiel peut révéler qu'Alex est
 ### À retenir
 
 Les procédures administratives ne doivent jamais faire oublier l'objectif principal : évaluer les compétences de la personne.
+
 # S10 — L’intervention
 
 ## Noé
@@ -1405,7 +1410,7 @@ Une intervention rapide constitue un facteur de protection et renforce le sentim
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Non
 
@@ -1425,7 +1430,7 @@ Les réactions des adultes donnent le ton du climat scolaire.
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Non
 
@@ -1502,7 +1507,7 @@ La confiance dans les adultes se construit par leurs actes.
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Non
 
@@ -1527,7 +1532,7 @@ Obstacle : Non
 
 ### Pourquoi ?
 
-L'intervention est particulièrement importante pour Alex. Elle montre que les adultes sont prêts à agir pour protéger les élèves confrontés à des discriminations, quelles qu'elles soient. Cette attitude renforce le sentiment que l'établissement est un lieu où il peut évoluer en sécurité.
+L'intervention est particulièrement importante pour Alex. Elle montre que les adultes sont prêts à agir pour protéger les élèves confrontés à des discriminations, quelles qu'elles soient. Cette attitude renforce le sentiment que l'établissement est un lieu où elle peut évoluer en sécurité.
 
 ### Que peut faire l’établissement ?
 
@@ -1538,8 +1543,6 @@ L'intervention est particulièrement importante pour Alex. Elle montre que les a
 ### À retenir
 
 Une intervention adaptée protège non seulement la personne directement visée, mais rassure également tous les élèves qui assistent à la scène.
-
-
 
 # S11 — Le choix des chambres
 
@@ -1561,7 +1564,7 @@ Une règle annoncée comme évidente peut placer certaines personnes dans une si
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Non
 
@@ -1579,7 +1582,7 @@ Une règle qui fonctionne pour la majorité peut nécessiter des adaptations pou
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Oui
 
@@ -1651,7 +1654,7 @@ Une organisation inclusive bénéficie à l'ensemble du groupe.
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Non
 
@@ -1685,7 +1688,6 @@ Prévoir une procédure claire, discrète et respectueuse pour traiter les situa
 
 L'inclusion se prépare en amont, avant que les difficultés n'apparaissent.
 
-
 # S12 — Le repas de la cantine
 
 ## Noé
@@ -1706,7 +1708,7 @@ L'exclusion ne résulte pas toujours d'un refus explicite. Elle peut naître de 
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Non
 
@@ -1724,7 +1726,7 @@ Un simple geste d'accueil peut faire une grande différence.
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Oui
 
@@ -1796,7 +1798,7 @@ Chacun peut contribuer à créer un climat plus inclusif.
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Oui
 
@@ -1850,7 +1852,7 @@ L'inclusion consiste aussi à laisser aux personnes le choix de ce qu'elles souh
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Non
 
@@ -1868,7 +1870,7 @@ Une même activité peut être vécue différemment selon les personnes.
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Oui
 
@@ -1940,7 +1942,7 @@ Le respect de la vie privée concerne tous les élèves.
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Non
 
@@ -1994,7 +1996,7 @@ Les outils numériques peuvent diffuser très rapidement des informations person
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Non
 
@@ -2012,7 +2014,7 @@ Le respect de la confidentialité concerne l'ensemble de la communauté scolaire
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Oui
 
@@ -2084,7 +2086,7 @@ Les conversations numériques doivent respecter les mêmes règles que les écha
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Non
 
@@ -2138,7 +2140,7 @@ L'orientation doit permettre à chacun de construire librement son parcours.
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Oui
 
@@ -2156,7 +2158,7 @@ Un conseil d'orientation doit ouvrir des possibilités, pas les restreindre.
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Non
 
@@ -2228,7 +2230,7 @@ Les biais sont souvent involontaires mais peuvent avoir des effets durables.
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Oui
 
@@ -2262,7 +2264,6 @@ Favoriser une culture de l'égalité dans les entretiens d'orientation.
 
 Les conseils les plus utiles sont ceux qui s'appuient sur les capacités et les envies des élèves, plutôt que sur des attentes liées au genre.
 
-
 # S16 — Les livres du CDI
 
 ## Noé
@@ -2283,7 +2284,7 @@ Se reconnaître dans les ressources de l'établissement favorise le sentiment d'
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Non
 
@@ -2301,21 +2302,23 @@ La diversité des collections bénéficie à l'ensemble des élèves.
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Oui
 
 ### Pourquoi ?
 
-L'absence de personnages ou de parcours proches du mien peut donner le sentiment que certaines réalités n'ont pas leur place.
+Camille ne trouve aucun personnage ou parcours évoquant l’asexualité. Cette absence de représentation peut lui donner le sentiment que son orientation est inconnue, incomprise ou considérée comme inexistante. Elle dispose également de peu de ressources pour mettre des mots sur son expérience ou découvrir des récits auxquels s’identifier.
 
 ### Que peut faire l'établissement ?
 
-Inclure des œuvres représentant une diversité d'identités, de familles et de parcours.
+- Inclure dans les collections des œuvres représentant l’asexualité de manière juste et non stéréotypée.
+- Proposer des ressources reflétant une diversité d’orientations, d’identités, de familles et de parcours.
+- Veiller à ne pas limiter les sélections LGBT+ aux orientations les plus visibles.
 
 ### À retenir
 
-Être représenté contribue à se sentir légitime.
+L’absence de représentation peut rendre certaines orientations difficiles à identifier et à comprendre, y compris pour les personnes directement concernées.
 
 ---
 
@@ -2373,7 +2376,7 @@ La diversité culturelle et sociale est une richesse pour tous les élèves.
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Oui
 
@@ -2407,7 +2410,6 @@ Construire des collections qui rendent visibles la diversité des vécus.
 
 Les ressources pédagogiques transmettent aussi des messages sur les personnes qui ont leur place dans l'établissement.
 
-
 # S17 — L'appel à la famille
 
 ## Noé
@@ -2428,7 +2430,7 @@ Les informations partagées à l'école ne peuvent pas être supposées connues 
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Non
 
@@ -2446,7 +2448,7 @@ La confidentialité est un élément essentiel de la relation de confiance avec 
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Oui
 
@@ -2518,7 +2520,7 @@ Une communication adaptée contribue à instaurer un climat de confiance.
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Non
 
@@ -2572,7 +2574,7 @@ Une correction discrète et bienveillante protège l'élève sans le mettre en a
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Non
 
@@ -2590,7 +2592,7 @@ Les bonnes pratiques profitent à toute la classe.
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Non
 
@@ -2662,7 +2664,7 @@ La coopération entre adultes bénéficie aux élèves.
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Non
 
@@ -2716,7 +2718,7 @@ L'inclusion commence souvent par un geste simple.
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Non
 
@@ -2734,7 +2736,7 @@ Un groupe accueillant bénéficie à l'ensemble de la classe.
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Non
 
@@ -2806,7 +2808,7 @@ Les comportements inclusifs renforcent la cohésion du groupe.
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Non
 
@@ -2830,7 +2832,7 @@ Obstacle : Non
 
 ### Pourquoi ?
 
-Je suis accueilli sans que ma situation personnelle devienne un sujet de discussion.
+Je suis accueillie sans que ma situation personnelle devienne un sujet de discussion.
 
 ### Que peut faire l'établissement ?
 
@@ -2860,7 +2862,7 @@ Les procédures doivent être au service des élèves, et non l'inverse.
 
 ---
 
-## Jade
+## Sam
 
 Obstacle : Non
 
@@ -2878,7 +2880,7 @@ Une règle apparemment neutre n'a pas toujours les mêmes effets pour tout le mo
 
 ---
 
-## Sam
+## Camille
 
 Obstacle : Oui
 
@@ -2950,7 +2952,7 @@ Les contraintes techniques peuvent évoluer lorsque les besoins sont identifiés
 
 ---
 
-## Camille
+## Jade
 
 Obstacle : Oui
 
@@ -2974,13 +2976,13 @@ Obstacle : Oui
 
 ### Pourquoi ?
 
-Lorsque seules deux catégories sont proposées, je peux avoir le sentiment que ma réalité n'est pas prise en compte.
+Si la liste repose sur des informations administratives ou une catégorisation qui ne respecte pas mon identité, je peux être placée dans le mauvais groupe ou devoir révéler que je suis trans pour faire corriger la situation.
 
 ### Que peut faire l'établissement ?
 
-Prévoir des solutions alternatives lorsque les procédures habituelles ne permettent pas de répondre à toutes les situations.
+- Vérifier que les listes et les outils utilisés respectent le prénom d’usage et l’identité de l’élève.
+- Traiter toute correction de manière confidentielle.
 
 ### À retenir
 
-Une organisation inclusive consiste à adapter les règles lorsque cela est nécessaire.
-
+Une organisation en deux groupes n’est pas nécessairement excluante en elle-même ; elle le devient lorsque l’identité de l’élève n’est pas respectée.

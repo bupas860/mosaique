@@ -1,6 +1,6 @@
-import Button from "../components/Button";
+import CharacterInformation from "../components/CharacterInformation";
+import CharacterPortrait from "../components/CharacterPortrait";
 import Screen from "../components/Screen";
-import VisualMedia from "../components/VisualMedia";
 import type { Character } from "../types/character";
 
 interface Props {
@@ -11,7 +11,7 @@ interface Props {
 export default function CharacterSelectionPage({ characters, onSelect }: Props) {
   return (
     <Screen>
-      <main className="w-full max-w-7xl space-y-8 p-4 sm:p-8 lg:p-12">
+      <main className="w-full max-w-[var(--ds-content-width)] space-y-8 p-4 sm:p-8 lg:p-12">
         <header className="space-y-3 text-center">
           <h1 className="text-4xl font-bold sm:text-5xl">Qui souhaitez-vous incarner&nbsp;?</h1>
           <p className="mx-auto max-w-2xl text-lg text-slate-700">
@@ -21,34 +21,45 @@ export default function CharacterSelectionPage({ characters, onSelect }: Props) 
 
         <div
           aria-label="Personnages à incarner"
-          className="flex snap-x gap-5 overflow-x-auto pb-4 lg:grid lg:grid-cols-3 lg:overflow-visible"
+          className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
         >
           {characters.map((character) => (
             <article
               key={character.id}
-              className="min-w-[19rem] snap-start rounded-2xl border border-slate-300 bg-white p-6 shadow sm:min-w-[22rem] lg:min-w-0"
+              className="character-card interactive-card group relative flex min-w-0 cursor-pointer flex-col overflow-hidden rounded-2xl border focus-within:ring-2 focus-within:ring-blue-600 focus-within:ring-offset-2"
+              style={{ "--character-accent": character.color } as React.CSSProperties}
             >
-              <div className="flex items-center gap-4">
-                <VisualMedia
-                  src={character.profile.avatar?.src}
-                  alt={character.profile.avatar?.alt ?? `Portrait de ${character.name}`}
-                  fallbackLabel={character.name.charAt(0).toUpperCase()}
-                  className="h-16 w-16 shrink-0 rounded-full text-2xl"
+              <button
+                type="button"
+                onClick={() => onSelect(character.id)}
+                className="absolute inset-0 z-10 cursor-pointer rounded-2xl focus:outline-none"
+                aria-label={`Incarner ${character.name}`}
+              >
+                <span className="sr-only">Incarner {character.name}</span>
+              </button>
+
+              <CharacterPortrait
+                characterId={character.id}
+                characterName={character.name}
+                size="card"
+                className="w-full border-b border-slate-200"
+              />
+
+              <div className="flex flex-1 flex-col p-5 sm:p-6">
+                <h2 className="character-card__name text-2xl font-bold">{character.name}</h2>
+                <CharacterInformation
+                  character={character}
+                  className="character-card__information mt-2 flex-1 border-l-4 pl-4"
                 />
-                <h2 className="text-2xl font-bold">{character.name}</h2>
-              </div>
 
-              <div className="mt-6 space-y-4">
-                <p className="text-slate-800">{character.profile.presentation}</p>
-                <p className="border-l-4 pl-4 text-sm text-slate-600" style={{ borderColor: character.color }}>
-                  {character.profile.context}
-                </p>
-              </div>
-
-              <div className="mt-6">
-                <Button onClick={() => onSelect(character.id)}>
-                  Incarner ce personnage
-                </Button>
+                <div className="mt-5">
+                  <span
+                    aria-hidden="true"
+                    className="inline-block rounded-lg bg-blue-600 px-6 py-3 text-lg font-semibold text-white shadow-sm transition group-hover:bg-blue-700"
+                  >
+                    Incarner ce personnage
+                  </span>
+                </div>
               </div>
             </article>
           ))}

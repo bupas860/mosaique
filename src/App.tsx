@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import HomePage from "./pages/HomePage";
 import CharacterSelectionPage from "./pages/CharacterSelectionPage";
@@ -10,6 +10,12 @@ type Screen = "home" | "character-selection" | "game";
 export default function App() {
   const [screen, setScreen] = useState<Screen>("home");
   const [selectedCharacterId, setSelectedCharacterId] = useState<string>();
+
+  useEffect(() => {
+    if (screen === "game" && selectedCharacterId) {
+      window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    }
+  }, [screen, selectedCharacterId]);
 
   function startGame(characterId: string) {
     setSelectedCharacterId(characterId);
@@ -25,6 +31,7 @@ export default function App() {
       <GamePage
         selectedCharacterId={selectedCharacterId}
         onChooseAnotherCharacter={() => setScreen("character-selection")}
+        onBackHome={() => setScreen("home")}
       />
     );
   }

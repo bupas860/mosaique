@@ -97,71 +97,27 @@ function validateSituations(data: SituationData[]) {
 
 validateSituations(situationData);
 
-const characterColors = [
-  "#0f766e",
-  "#7c3aed",
-  "#b45309",
-  "#2563eb",
-  "#db2777",
-  "#be123c",
-  "#9333ea",
-  "#0891b2",
-];
-
-const characterImagePaths: Record<string, string> = {
-  P01: "/images/characters/noe.webp",
-  P02: "/images/characters/jade.webp",
-  P03: "/images/characters/sam.webp",
-  P04: "/images/characters/arthur.webp",
-  P05: "/images/characters/sofia.webp",
-  P06: "/images/characters/mehdi.webp",
-  P07: "/images/characters/camille.webp",
-  P08: "/images/characters/alex.webp",
-};
-
-function formatIdentity(identity: CharacterData["identity"]): string {
-  const values = Object.entries(identity)
-    .filter(([, value]) => typeof value === "string" || Array.isArray(value))
-    .map(([, value]) => Array.isArray(value) ? value.join(", ") : value);
-
-  return values.join(" · ");
-}
-
 export const playableCharacters: Character[] = gameConfig.characterIds.map(
-  (characterId, index) => {
+  (characterId) => {
     const character = characterData.find(({ id }) => id === characterId);
 
     if (!character) {
       throw new Error(`Personnage absent de characters.json : ${characterId}`);
     }
 
-    const identity = formatIdentity(character.identity);
-
     return {
       id: character.id,
       name: character.name,
-      color: characterColors[index % characterColors.length],
+      age: character.age,
+      schoolLevel: character.schoolLevel,
+      genderIdentity: character.genderIdentity,
+      affectiveAndSexualOrientation: character.affectiveAndSexualOrientation,
+      pronouns: character.pronouns,
+      characteristics: character.characteristics,
+      traits: translatePlayerValues(character.traits, character.id),
+      protectiveFactors: translatePlayerValues(character.protectiveFactors, character.id),
+      color: character.accentColor,
       position: 0,
-      profile: {
-        avatar: {
-          src: character.image ?? characterImagePaths[character.id],
-          alt: `Portrait de ${character.name}`,
-        },
-        age: character.age,
-        schoolLevel: character.schoolLevel,
-        identity,
-        traits: translatePlayerValues(character.traits, character.id),
-        protectiveFactors: translatePlayerValues(character.protectiveFactors, character.id),
-        presentation: [
-          `${character.age} ans`,
-          character.schoolLevel,
-          identity,
-        ].filter(Boolean).join(" · "),
-        context: character.context,
-        additionalInformation: [
-          { label: "Rôle pédagogique", value: character.pedagogicalRole },
-        ],
-      },
     };
   },
 );
@@ -256,7 +212,6 @@ export type {
   AnswerOption,
   CharacterData,
   CharacterId,
-  CharacterIdentity,
   GameConfigData,
   GameMatrix,
   MatrixResult,

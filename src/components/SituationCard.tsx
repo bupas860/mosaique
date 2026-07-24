@@ -1,9 +1,10 @@
 import type { Choice, SituationContent } from "../types/situation";
 import { getChoiceContent } from "../engine/resolveSituationContent";
-import VisualMedia from "./VisualMedia";
+import Illustration from "./Illustration";
 
 interface Props {
   content: SituationContent;
+  situationId: string;
   choices: Choice[];
   characterId: string;
   disabled?: boolean;
@@ -12,22 +13,24 @@ interface Props {
 
 export default function SituationCard({
   content,
+  situationId,
   choices,
   characterId,
   disabled = false,
   onChoice,
 }: Props) {
   return (
-    <div className="min-w-0 space-y-6">
+    <div className="situation-card min-w-0 space-y-6">
 
-      <VisualMedia
-        src={content.image}
+      <Illustration
+        type="situation"
+        id={situationId}
         alt={`Décor de la situation : ${content.title}`}
         fallbackLabel="Décor de la situation"
-        className="aspect-[16/7] w-full rounded-xl border border-slate-300"
+        className="situation-card__illustration aspect-[5/4] w-full rounded-xl border border-slate-300 shadow-card"
       />
 
-      <div>
+      <div className="situation-card__body">
         <h2 className="text-2xl font-bold">
           {content.title}
         </h2>
