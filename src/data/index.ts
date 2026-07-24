@@ -174,7 +174,9 @@ export const situations: Situation[] = gameConfig.situationIds.map(
           title: situation.title,
           description: situation.text,
           question: situation.question,
-          image: situation.image ?? `/images/situations/${situation.id.toLowerCase()}.webp`,
+          image:
+            situation.image ??
+            `${import.meta.env.BASE_URL}images/situations/${situation.id.toLowerCase()}.webp`,
         },
         ...Object.fromEntries(gameConfig.characterIds.map((characterId) => {
           const character = characterData.find(({ id }) => id === characterId);
@@ -187,7 +189,9 @@ export const situations: Situation[] = gameConfig.situationIds.map(
             title: situation.title,
             description: situation.text,
             question: situation.question,
-            image: situation.image ?? `/images/situations/${situation.id.toLowerCase()}.webp`,
+            image:
+              situation.image ??
+              `${import.meta.env.BASE_URL}images/situations/${situation.id.toLowerCase()}.webp`,
             pedagogicalFeedback: createPedagogicalFeedback(
               situation,
               character,
