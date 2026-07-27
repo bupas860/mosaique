@@ -8,6 +8,7 @@ interface Props {
   characters: Character[];
   selectedCharacterId?: string;
   totalExperiences: number;
+  currentSituation?: number;
   realPositions?: Record<string, number>;
   className?: string;
   prominent?: boolean;
@@ -29,6 +30,7 @@ export default function PrivilegeMargin({
   characters,
   selectedCharacterId,
   totalExperiences,
+  currentSituation,
   realPositions,
   className = "mb-8",
   prominent = false,
@@ -73,6 +75,22 @@ export default function PrivilegeMargin({
 
       <div className="relative mx-5 mb-8 h-7">
         <div className="absolute top-0 h-2 w-full rounded-full bg-slate-200" />
+        {currentSituation !== undefined && (
+          <div
+            role="img"
+            aria-label={"Progression : situation " + currentSituation + " sur " + totalExperiences}
+            className="absolute top-[-2.25rem] z-10 flex flex-col items-center text-violet-950"
+            style={{
+              left: getMarkerPosition(currentSituation, totalExperiences) + "%",
+              transform: currentSituation === totalExperiences ? "translateX(-100%)" : "translateX(-50%)",
+            }}
+          >
+            <span className="whitespace-nowrap rounded-full border border-violet-300 bg-violet-50 px-2 py-1 text-xs font-bold shadow-sm">
+              Situation {currentSituation} / {totalExperiences}
+            </span>
+            <span aria-hidden="true" className="h-9 border-l-2 border-dashed border-violet-600" />
+          </div>
+        )}
         {steps.map((step) => {
           const isLabelVisible = step === 0 ||
             step === totalExperiences ||

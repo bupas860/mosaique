@@ -1,13 +1,13 @@
 import type { Choice, SituationContent } from "../types/situation";
-import { getChoiceContent } from "../engine/resolveSituationContent";
 import Illustration from "./Illustration";
 
 interface Props {
   content: SituationContent;
   situationId: string;
   choices: Choice[];
-  characterId: string;
+  characterName: string;
   disabled?: boolean;
+  showChoices?: boolean;
   onChoice: (choice: Choice) => void;
 }
 
@@ -15,8 +15,9 @@ export default function SituationCard({
   content,
   situationId,
   choices,
-  characterId,
+  characterName,
   disabled = false,
+  showChoices = true,
   onChoice,
 }: Props) {
   return (
@@ -40,22 +41,24 @@ export default function SituationCard({
         </p>
 
         <p className="mt-6 break-words text-lg font-semibold">
-          {content.question ?? "Cette situation constitue-t-elle un obstacle pour ton personnage ?"}
+          Dans cette situation, que se passe-t-il pour {characterName}&nbsp;?
         </p>
       </div>
 
-      <div className="space-y-3">
-        {choices.map((choice) => (
+      {showChoices && (
+        <div className="space-y-3">
+          {choices.map((choice) => (
           <button
             key={choice.id}
             disabled={disabled}
             onClick={() => onChoice(choice)}
             className="w-full rounded-lg bg-blue-600 px-4 py-3 text-white transition-opacity hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-50"
           >
-            {getChoiceContent(choice, characterId).text}
+            {choice.id === "yes" ? `${characterName} reste sur place` : `${characterName} avance`}
           </button>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
 
     </div>
   );

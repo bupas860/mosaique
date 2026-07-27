@@ -1,14 +1,16 @@
 import CharacterInformation from "../components/CharacterInformation";
 import CharacterPortrait from "../components/CharacterPortrait";
+import Button from "../components/Button";
 import Screen from "../components/Screen";
 import type { Character } from "../types/character";
 
 interface Props {
   characters: Character[];
   onSelect: (characterId: string) => void;
+  onBack: () => void;
 }
 
-export default function CharacterSelectionPage({ characters, onSelect }: Props) {
+export default function CharacterSelectionPage({ characters, onSelect, onBack }: Props) {
   return (
     <Screen>
       <main className="w-full max-w-[var(--ds-content-width)] space-y-8 p-4 sm:p-8 lg:p-12">
@@ -64,6 +66,8 @@ export default function CharacterSelectionPage({ characters, onSelect }: Props) 
             </article>
           ))}
         </div>
+
+        <div className="text-center"><Button variant="secondary" onClick={onBack}>Retour au choix du mode</Button></div>
       </main>
     </Screen>
   );

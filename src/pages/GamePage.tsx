@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 
 import SituationCard from "../components/SituationCard";
 import AppBackground from "../components/AppBackground";
@@ -16,13 +16,13 @@ import {
 } from "../engine/resolveSituationContent";
 import type { ChoiceHistoryEntry } from "../types/choiceHistory";
 import type { Choice } from "../types/situation";
+import type { GameModeId } from "../types/gameMode";
 
-type Phase = "question" | "transition" | "end";
+type Phase = "question" | "feedback" | "end";
 const MAX_SITUATIONS_PER_GAME = 10;
 const AVAILABLE_SITUATION_IDS = new Set(
   Array.from({ length: 20 }, (_, index) => `S${String(index + 1).padStart(2, "0")}`),
 );
-const SITUATION_TRANSITION_DELAY_MS = 400;
 // TEMPORARY: set to false to restore the fully random draw after the S01 illustration test.
 const FORCE_S01_FIRST_FOR_ILLUSTRATION_TEST = true;
 
@@ -49,12 +49,14 @@ function selectSituationsForGame(allSituations: typeof situations) {
 
 interface Props {
   selectedCharacterId: string;
+  selectedModeId: GameModeId;
   onChooseAnotherCharacter: () => void;
   onBackHome: () => void;
 }
 
 export default function GamePage({
   selectedCharacterId,
+  selectedModeId,
   onChooseAnotherCharacter,
   onBackHome,
 }: Props) {
@@ -62,7 +64,7 @@ export default function GamePage({
   const [phase, setPhase] = useState<Phase>("question");
   const [choiceHistory, setChoiceHistory] = useState<ChoiceHistoryEntry[]>([]);
   const answerLockedRef = useRef(false);
-  const transitionTimerRef = useRef<ReturnType<typeof setTimeout>>(undefined);
+  const continueLockedRef = useRef(false);
   const [characterSituations, setCharacterSituations] = useState(() =>
     selectSituationsForGame(
       getSituationsForCharacter(situations, selectedCharacterId),
@@ -78,18 +80,13 @@ export default function GamePage({
   );
   const situation = characterSituations[currentIndex];
 
-  useEffect(() => () => {
-    if (transitionTimerRef.current !== undefined) {
-      clearTimeout(transitionTimerRef.current);
-    }
-  }, []);
-
   function handleChoice(choice: Choice) {
     if (answerLockedRef.current) {
       return;
     }
 
     answerLockedRef.current = true;
+    continueLockedRef.current = false;
     const selectedEffect = choice.effects.find(
       ({ characterId }) => characterId === selectedCharacterId,
     );
@@ -115,27 +112,26 @@ export default function GamePage({
         displacement: playerDisplacement,
       },
     ]);
-    setPhase("transition");
-    transitionTimerRef.current = setTimeout(() => {
-      transitionTimerRef.current = undefined;
+    setPhase("feedback");
+  }
 
-      if (currentIndex < characterSituations.length - 1) {
-        setCurrentIndex((index) => index + 1);
-        answerLockedRef.current = false;
-        setPhase("question");
-        return;
-      }
+  function continueAfterFeedback() {
+    if (continueLockedRef.current) return;
+    continueLockedRef.current = true;
 
+    if (currentIndex === characterSituations.length - 1) {
       setPhase("end");
-    }, SITUATION_TRANSITION_DELAY_MS);
+      return;
+    }
+
+    setCurrentIndex((index) => index + 1);
+    answerLockedRef.current = false;
+    setPhase("question");
   }
 
   function restart() {
-    if (transitionTimerRef.current !== undefined) {
-      clearTimeout(transitionTimerRef.current);
-      transitionTimerRef.current = undefined;
-    }
     answerLockedRef.current = false;
+    continueLockedRef.current = false;
     setCharacters(
       initialCharacters.map((character) => ({ ...character }))
     );
@@ -169,6 +165,7 @@ export default function GamePage({
         initialCharacters={initialCharacters}
         choiceHistory={choiceHistory}
         selectedCharacterId={selectedCharacterId}
+        selectedModeId={selectedModeId}
         totalExperiences={characterSituations.length}
         onRestart={restart}
         onChooseAnotherCharacter={onChooseAnotherCharacter}
@@ -190,6 +187,7 @@ export default function GamePage({
             characters={characters}
             selectedCharacterId={selectedCharacterId}
             totalExperiences={characterSituations.length}
+            currentSituation={currentIndex + 1}
           />
         </div>
 
@@ -199,16 +197,30 @@ export default function GamePage({
             total={characterSituations.length}
           />
 
-          {(phase === "question" || phase === "transition") && (
-            <SituationCard
+          <SituationCard
               content={getSituationContent(situation, selectedCharacterId)}
               situationId={situation.id}
               choices={situation.choices}
-              characterId={selectedCharacterId}
-              disabled={phase === "transition"}
+              characterName={selectedCharacter?.name ?? "Le personnage"}
+              showChoices={phase === "question"}
               onChoice={handleChoice}
             />
-          )}
+          {phase === "feedback" && (() => {
+            const answer = choiceHistory.at(-1);
+            const playerAdvance = answer?.choice.id === "no";
+            const proposedAdvance = answer?.expectedAnswerId === "no";
+            const readingsMatch = playerAdvance === proposedAdvance;
+            const feedback = getSituationContent(situation, selectedCharacterId).pedagogicalFeedback;
+            const characterName = selectedCharacter?.name ?? "Le personnage";
+            return <section aria-live="polite" aria-atomic="true" className="mt-6 space-y-4">
+              <h2 className="text-2xl font-bold">Retour sur votre choix</h2>
+              <div className="rounded-xl border border-blue-200 bg-blue-50 p-4"><p className="font-bold text-blue-950">Votre choix : {characterName} {playerAdvance ? "avance" : "reste sur place"}.</p></div>
+              <div className="rounded-xl border border-teal-200 bg-teal-50 p-4"><p className="font-bold text-teal-950">Interprétation proposée : {characterName} {proposedAdvance ? "avance" : "reste sur place"}.</p></div>
+              <p className={"rounded-xl border-l-4 p-4 font-semibold " + (readingsMatch ? "border-violet-500 bg-violet-50 text-violet-950" : "border-amber-500 bg-amber-50 text-amber-950")}><span aria-hidden="true" className="mr-2">{readingsMatch ? "≈" : "↔"}</span>{readingsMatch ? "Votre lecture rejoint l’interprétation proposée." : "Votre lecture diffère de l’interprétation proposée."}</p>
+              {feedback?.explanation && <p className="leading-relaxed text-slate-700">{feedback.explanation}</p>}
+              <Button onClick={continueAfterFeedback}>{currentIndex === characterSituations.length - 1 ? "Voir le bilan" : "Situation suivante"}</Button>
+            </section>;
+          })()}
         </aside>
         </div>
       </div>

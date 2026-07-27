@@ -10,12 +10,14 @@ import { getSituationContent } from "../engine/resolveSituationContent";
 
 import type { Character } from "../types/character";
 import type { ChoiceHistoryEntry } from "../types/choiceHistory";
+import type { GameModeId } from "../types/gameMode";
 
 interface Props {
   characters: Character[];
   initialCharacters: Character[];
   choiceHistory: ChoiceHistoryEntry[];
   selectedCharacterId: string;
+  selectedModeId: GameModeId;
   totalExperiences: number;
   onRestart: () => void;
   onChooseAnotherCharacter: () => void;
@@ -27,6 +29,7 @@ export default function FinalSummaryPage({
   initialCharacters,
   choiceHistory,
   selectedCharacterId,
+  selectedModeId,
   totalExperiences,
   onRestart,
   onChooseAnotherCharacter,
@@ -70,6 +73,7 @@ export default function FinalSummaryPage({
           Ce bilan n&apos;est ni une note ni un jugement. Il propose de
           revenir sur les situations rencontrées et les choix effectués.
         </p>
+        <p className="text-sm font-semibold text-slate-600">Mode : {selectedModeId === "discovery" ? "Découverte" : selectedModeId}</p>
 
         {selectedCharacter && (
           <div className="app-surface selected-character-card mx-auto flex w-full max-w-[34rem] items-center gap-5 rounded-2xl border p-4 pr-6 text-left">
@@ -146,25 +150,23 @@ export default function FinalSummaryPage({
         </h2>
 
         <ol className="mt-7 space-y-5">
-          {choiceHistory.map(({ situation, choice, expectedAnswerId, isCorrect, displacement }, index) => {
+          {choiceHistory.map(({ situation, expectedAnswerId, isCorrect, displacement }, index) => {
             const content = getSituationContent(situation, selectedCharacterId);
             const feedback = content.pedagogicalFeedback;
-            const playerSaysObstacle = choice.id === "yes";
             const proposedObstacle = feedback?.obstacle ?? expectedAnswerId === "yes";
-            const playerInterpretation = playerSaysObstacle
-              ? "Oui, cette situation constitue un obstacle."
-              : "Non, cette situation ne constitue pas un obstacle.";
+            const characterName = selectedCharacter?.name ?? "Le personnage";
+            const playerInterpretation = displacement > 0 ? `${characterName} avance.` : `${characterName} reste sur place.`;
             const proposedInterpretation = proposedObstacle
-              ? "Cette situation constitue un obstacle pour ce personnage."
-              : "Cette situation ne constitue pas un obstacle pour ce personnage.";
+              ? `Interprétation proposée : ${characterName} reste sur place.`
+              : `Interprétation proposée : ${characterName} avance.`;
             const playerMovement = displacement > 0
-              ? "Le personnage avance"
+              ? `${characterName} avance`
               : displacement < 0
                 ? "Le personnage recule"
-                : "Le personnage reste sur place";
+                : `${characterName} reste sur place`;
             const proposedMovement = proposedObstacle
-              ? "Le personnage reste sur place"
-              : "Le personnage avance";
+              ? `${characterName} reste sur place`
+              : `${characterName} avance`;
 
             return (
               <li key={situation.id}>
@@ -191,7 +193,7 @@ export default function FinalSummaryPage({
                     <section>
                       <h3 className="font-bold text-slate-900">Question</h3>
                       <p className="mt-1 text-lg font-semibold text-slate-900">
-                        {content.question ?? "Cette situation constitue-t-elle un obstacle pour ce personnage ?"}
+                        Dans cette situation, que se passe-t-il pour {characterName}&nbsp;?
                       </p>
                     </section>
 

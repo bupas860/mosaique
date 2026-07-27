@@ -1,0 +1,13 @@
+import Button from "../components/Button";
+import AppBackground from "../components/AppBackground";
+import { gameModes } from "../data/gameModes";
+import type { GameModeId } from "../types/gameMode";
+interface Props { selectedModeId: GameModeId; onSelect: (id: GameModeId) => void; onContinue: () => void; onBack: () => void; }
+export default function ModeSelectionPage({ selectedModeId, onSelect, onContinue, onBack }: Props) {
+  const selectedMode = gameModes.find(({ id }) => id === selectedModeId);
+  return <AppBackground as="main"><div className="mx-auto w-full max-w-[var(--ds-content-width)] space-y-8 p-4 sm:p-8 lg:p-12">
+    <header className="mx-auto max-w-3xl space-y-3 text-center"><h1 className="text-4xl font-bold sm:text-5xl">Choisir un mode</h1><p className="text-lg leading-relaxed text-slate-700">Chaque mode propose un angle différent pour observer les mécanismes qui produisent des inégalités dans la vie scolaire.</p></header>
+    <fieldset><legend className="sr-only">Mode de jeu</legend><div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">{gameModes.map((mode) => { const selected = mode.id === selectedModeId; return <label key={mode.id} className={`relative flex min-h-48 rounded-2xl border-2 p-5 shadow-sm transition sm:p-6 ${mode.available ? "cursor-pointer hover:border-blue-400 hover:shadow-md focus-within:ring-2 focus-within:ring-blue-600 focus-within:ring-offset-2" : "cursor-not-allowed border-slate-300 bg-slate-100 text-slate-600"} ${selected ? "border-blue-600 bg-blue-50" : mode.available ? "border-slate-300 bg-white" : ""}`}><input type="radio" name="game-mode" value={mode.id} checked={selected} disabled={!mode.available} onChange={() => onSelect(mode.id)} className="sr-only" /><span className="flex min-w-0 flex-1 flex-col"><span className="flex flex-wrap items-start justify-between gap-2"><span className="text-xl font-bold text-slate-950">{mode.title}</span><span className={`rounded-full border px-2.5 py-1 text-xs font-bold ${mode.available ? "border-teal-300 bg-teal-50 text-teal-950" : "border-slate-300 bg-white text-slate-700"}`}>{mode.available ? "Disponible" : "Bientôt disponible"}</span></span><span className="mt-3 flex-1 leading-relaxed">{mode.description}</span>{(mode.recommended || selected) && <span className="mt-4 font-semibold text-blue-800"><span aria-hidden="true">{selected ? "✓ " : "★ "}</span>{selected ? "Sélectionné" : "Mode recommandé"}</span>}</span></label>; })}</div></fieldset>
+    <div className="flex flex-col-reverse items-stretch justify-center gap-3 sm:flex-row sm:items-center"><Button variant="secondary" onClick={onBack}>Retour</Button><Button onClick={onContinue} disabled={!selectedMode?.available}>Continuer</Button></div>
+  </div></AppBackground>;
+}
