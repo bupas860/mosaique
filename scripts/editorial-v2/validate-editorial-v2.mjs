@@ -43,7 +43,7 @@ export function validateEditorialV2(data, options = {}) {
   if (!sameSet(situationIds, SITUATION_IDS)) error(`Situations : identifiants attendus ${SITUATION_IDS.join(", ")}, trouvés ${situationIds.join(", ")}`);
   if (new Set(situationIds).size !== situationIds.length) error("Situations : identifiant dupliqué");
   for (const situation of situations) {
-    for (const [field, label] of [["title", "titre"], ["sceneType", "type de scène"], ["subfamily", "sous-famille"], ["text", "texte"], ["mechanism", "mécanisme"], ["caution", "point de vigilance"]]) if (!situation[field]?.trim()) error(`${situation.id} : ${label} absent`);
+    for (const [field, label] of [["title", "titre"], ["sceneType", "type de scène"], ["subfamily", "sous-famille"], ["text", "texte"], ["question", "question"], ["mechanism", "mécanisme"], ["caution", "point de vigilance"]]) if (!situation[field]?.trim()) error(`${situation.id} : ${label} absent`);
     const shouldBeMandatory = MANDATORY_IDS.includes(situation.id);
     if (situation.mandatory !== shouldBeMandatory) error(`${situation.id} : mandatory devrait valoir ${shouldBeMandatory}`);
   }

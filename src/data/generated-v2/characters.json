@@ -1,0 +1,164 @@
+[
+  {
+    "id": "P01",
+    "name": "Noé",
+    "age": 15,
+    "schoolLevel": "Seconde",
+    "genderIdentity": "Garçon trans",
+    "orientation": "hétérosexuel",
+    "pronouns": [],
+    "presentation": "Noé aime le basket et les jeux de stratégie. Sa famille connaît et soutient sa transition. Au lycée, son prénom d’usage est généralement respecté, mais son prénom administratif apparaît encore sur certains documents.\n\nIl ne souhaite pas que cette information soit révélée à ses camarades ou dans des contextes où elle n’est pas nécessaire.",
+    "gamePoints": [
+      "prénom administratif différent ;",
+      "confidentialité ;",
+      "espaces organisés entre filles et garçons ;",
+      "attentes liées à la masculinité ;",
+      "famille soutenante ;",
+      "prénom correctement utilisé par la plupart des adultes."
+    ]
+  },
+  {
+    "id": "P02",
+    "name": "Jade",
+    "age": 16,
+    "schoolLevel": "Première",
+    "genderIdentity": "Fille cisgenre",
+    "orientation": "lesbienne",
+    "pronouns": [],
+    "presentation": "Jade aime la photographie et participe au journal du lycée. Quelques amis connaissent son orientation, mais elle n’en a pas parlé à sa famille et ne souhaite pas être identifiée publiquement comme lesbienne.\n\nElle apprécie de pouvoir parler naturellement de sa vie, mais choisit les personnes auxquelles elle donne des informations personnelles.",
+    "gamePoints": [
+      "lesbianité non connue de tous ;",
+      "contrôle du dévoilement ;",
+      "présomption d’hétérosexualité ;",
+      "peur d’être considérée comme attirée par toutes les filles ;",
+      "absence ou stéréotypisation des personnages lesbiens ;",
+      "cercle amical protecteur."
+    ]
+  },
+  {
+    "id": "P03",
+    "name": "Sam",
+    "age": 17,
+    "schoolLevel": "Terminale",
+    "genderIdentity": "Personne non binaire",
+    "orientation": "pansexuel·le",
+    "pronouns": [
+      "iel"
+    ],
+    "presentation": "Sam aime la musique et réalise régulièrement des illustrations numériques. Ses amis proches connaissent son identité et utilisent son pronom. Sa famille connaît le prénom Sam, mais Sam n’a pas encore parlé avec elle de sa non-binarité.\n\nSon prénom administratif est également Sam : les difficultés ne viennent donc pas d’un ancien prénom, mais principalement des catégories et organisations binaires.",
+    "gamePoints": [
+      "non-binarité ;",
+      "pronom « iel » ;",
+      "catégories imposant de choisir entre fille et garçon ;",
+      "dévoilement familial non souhaité ;",
+      "injonction à expliquer ou justifier son identité ;",
+      "amis proches soutenants."
+    ]
+  },
+  {
+    "id": "P04",
+    "name": "Arthur",
+    "age": 16,
+    "schoolLevel": "Première",
+    "genderIdentity": "Garçon cisgenre",
+    "orientation": "hétérosexuel",
+    "pronouns": [],
+    "presentation": "Arthur pratique le théâtre et la danse contemporaine. Il porte parfois du vernis et ne correspond pas toujours à l’image virile attendue par certains garçons de son âge.\n\nIl n’est pas LGBT et les principales procédures scolaires correspondent à sa situation. Il peut néanmoins être visé par des remarques homophobes ou des attentes de genre en raison de son apparence et de ses activités.",
+    "gamePoints": [
+      "personnage globalement favorisé par les normes dominantes ;",
+      "pression à la virilité ;",
+      "orientation parfois supposée à partir de ses goûts ;",
+      "comparaison avec les autres parcours ;",
+      "famille et entourage soutenants."
+    ]
+  },
+  {
+    "id": "P05",
+    "name": "Sofia",
+    "age": 15,
+    "schoolLevel": "Seconde",
+    "genderIdentity": "Fille cisgenre",
+    "orientation": "hétérosexuelle",
+    "pronouns": [],
+    "presentation": "Sofia vit avec ses deux mères. Pour elle, sa famille est parfaitement ordinaire. Elle remarque cependant que les formulaires, les exercices et les exemples scolaires parlent presque toujours d’un père et d’une mère.\n\nElle n’est pas LGBT, mais elle peut être directement touchée par des propos homophobes ou par des débats qui remettent en cause la légitimité de sa famille.",
+    "gamePoints": [
+      "famille homoparentale ;",
+      "formulaires familiaux ;",
+      "absence de représentation ;",
+      "homophobie visant indirectement les enfants ;",
+      "distinction entre orientation de l’élève et structure familiale ;",
+      "environnement familial protecteur."
+    ]
+  },
+  {
+    "id": "P06",
+    "name": "Mehdi",
+    "age": 17,
+    "schoolLevel": "Terminale",
+    "genderIdentity": "Garçon cisgenre",
+    "orientation": "gay",
+    "pronouns": [],
+    "presentation": "Mehdi joue au football dans l’équipe du lycée. Ses parents et ses amis les plus proches connaissent son orientation et le soutiennent. Il n’en a pas parlé à ses coéquipiers, auprès desquels les insultes homophobes sont régulièrement présentées comme des plaisanteries ou du folklore sportif.\n\nIl ne souhaite pas cacher toute sa vie affective, mais il évalue les contextes avant d’en parler.",
+    "gamePoints": [
+      "homosexualité ;",
+      "football et normes de virilité ;",
+      "contrôle du dévoilement ;",
+      "insultes banalisées ;",
+      "famille soutenante ;",
+      "décalage entre sécurité familiale et vigilance dans le groupe sportif."
+    ]
+  },
+  {
+    "id": "P07",
+    "name": "Camille",
+    "age": 16,
+    "schoolLevel": "Première",
+    "genderIdentity": "Fille cisgenre",
+    "orientation": "aromantique et asexuelle",
+    "pronouns": [],
+    "presentation": "Camille accorde une grande importance à ses amitiés et ne souhaite pas former de couple. Elle ne ressent ni attirance romantique ni attirance sexuelle.\n\nSes amis proches acceptent sa situation. D’autres personnes considèrent qu’elle est trop jeune pour le savoir, qu’elle a peur des relations ou qu’elle changera lorsqu’elle rencontrera « la bonne personne ».",
+    "gamePoints": [
+      "aromantisme ;",
+      "asexualité ;",
+      "norme du couple ;",
+      "avenir systématiquement présenté avec un conjoint ;",
+      "identité interprétée comme une phase ;",
+      "amitiés comme relations importantes et protectrices."
+    ]
+  },
+  {
+    "id": "P08",
+    "name": "Lou",
+    "age": 16,
+    "schoolLevel": "Première",
+    "genderIdentity": "Fille cisgenre",
+    "pronouns": [],
+    "presentation": "Lou présente une variation intersexe. Elle se définit comme une fille. Cette caractéristique appartient à son histoire corporelle et médicale ; elle n’est connue que de sa famille, de l’infirmière scolaire et de quelques professionnels.\n\nLou ne souhaite pas qu’on transforme cette information en interrogation publique sur son corps, son sexe ou son identité de genre.",
+    "gamePoints": [
+      "intersexuation ;",
+      "confidentialité médicale ;",
+      "distinction entre caractéristiques sexuées et identité de genre ;",
+      "représentations biologiques strictement binaires ;",
+      "questions intrusives ;",
+      "identité de fille clairement affirmée."
+    ]
+  },
+  {
+    "id": "P09",
+    "name": "Inès",
+    "age": 17,
+    "schoolLevel": "Terminale",
+    "genderIdentity": "Fille cisgenre",
+    "orientation": "bisexuelle",
+    "pronouns": [],
+    "presentation": "Inès est actuellement en couple avec un garçon. La plupart des personnes la considèrent donc comme hétérosexuelle. Seule une amie proche connaît sa bisexualité.\n\nInès constate que son orientation est souvent effacée selon la personne avec laquelle elle est en couple, ou présentée comme une hésitation avant de « choisir ».",
+    "gamePoints": [
+      "bisexualité ;",
+      "effacement dans une relation hétérosexuelle apparente ;",
+      "injonction à choisir ;",
+      "sexualisation des filles bisexuelles ;",
+      "contrôle du dévoilement ;",
+      "amie proche soutenante."
+    ]
+  }
+]

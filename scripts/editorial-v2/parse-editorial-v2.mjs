@@ -119,6 +119,7 @@ function parseSituationsAndFeedbacks(markdown, matrix) {
       sceneType: required(detail, /^- Type de scène\s*:\s*(.+)$/m, `${id} / type de scène`),
       subfamily: required(detail, /^- Sous-famille\s*:\s*(.+)$/m, `${id} / sous-famille`),
       text: contentUnderHeading(detail, /^#### Texte affiché au joueur$/m, /^#### /m, `${id} / texte affiché`).split(/\n\n\*\*Question\s*:/)[0].trim(),
+      question: required(detail, /^\*\*Question\s*:\s*(.+?)\*\*$/m, `${id} / question`),
       mechanism: required(detail, /\*\*Mécanisme :\*\*\s*(.+)$/m, `${id} / mécanisme`),
       caution: required(detail, /\*\*Point de vigilance :\*\*\s*(.+)$/m, `${id} / point de vigilance`),
       mandatory: required(detail, /^- Situation obligatoire\s*:\s*(oui|non)$/mi, `${id} / caractère obligatoire`).toLowerCase() === "oui",
