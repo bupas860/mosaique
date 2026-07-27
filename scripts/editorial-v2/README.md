@@ -29,3 +29,15 @@ Cette commande génère :
 Le parseur charge en mémoire les personnages, les situations, la matrice, les feedbacks individualisés et les règles de sélection. Le validateur contrôle leur complétude, leur cohérence, les totaux attendus et les 1 123 combinaisons de tirage valides.
 
 Les JSON générés sont déterministes et ne doivent pas être édités manuellement. Ils ne sont pas encore consommés par l’application. Les JSON historiques et l’ancien pipeline `scripts/import-editorial-data.mjs` restent inchangés.
+
+## Moteur de sélection Obstacles visibles
+
+Le moteur sélectionne huit situations variables et ajoute les deux situations obligatoires V09 et V10. Il énumère les 3 003 combinaisons possibles, met en cache les 1 123 combinaisons valides, puis choisit et mélange un lot grâce à une fonction aléatoire injectable.
+
+Le vérifier avec :
+
+```bash
+npm run editorial:check-selection
+```
+
+Le moteur reste indépendant de React et n’est pas encore connecté à l’application.
