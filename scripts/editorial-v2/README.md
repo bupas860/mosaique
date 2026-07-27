@@ -41,3 +41,15 @@ npm run editorial:check-selection
 ```
 
 Le moteur reste indépendant de React et n’est pas encore connecté à l’application.
+
+## Banque runtime V2
+
+La banque runtime associe les données éditoriales validées à une configuration technique séparée pour les couleurs et les placeholders. Elle conserve les mouvements sous la forme explicite `advance`/`stay` et construit les lots de dix situations via le moteur de sélection existant.
+
+La vérifier avec :
+
+```bash
+npm run editorial:check-runtime
+```
+
+Cette banque n’est pas encore connectée aux pages React.

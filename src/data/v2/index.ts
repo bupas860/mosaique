@@ -15,6 +15,22 @@ export {
   visibleObstacleSituationsById,
   visibleObstaclesBank,
 } from "./generatedV2Data";
+export { characterPresentationConfigV2 } from "./presentationConfig";
+export {
+  createVisibleObstaclesGameSet,
+  getPlayableCharacterV2,
+  getPlayableVisibleObstacleFeedback,
+  getPlayableVisibleObstacleSituation,
+  getVisibleObstacleMovement,
+  movementDecisionToStep,
+  playableCharactersV2,
+  playableCharactersV2ById,
+  playableVisibleObstacleFeedbacks,
+  playableVisibleObstacleFeedbacksByKey,
+  playableVisibleObstacleSituations,
+  playableVisibleObstacleSituationsById,
+  visibleObstaclesRuntimeBank,
+} from "./runtimeV2";
 
 export type {
   CharacterIdV2,
@@ -32,3 +48,11 @@ export type {
   VisibleObstacleSituationId,
   VisibleObstaclesBank,
 } from "../../types/editorialV2";
+export type {
+  CharacterPresentationConfigV2,
+  PlayableCharacterV2,
+  PlayableVisibleObstacleFeedback,
+  PlayableVisibleObstacleSituation,
+  VisibleObstaclesGameSet,
+  VisibleObstaclesRuntimeBank,
+} from "../../types/runtimeV2";

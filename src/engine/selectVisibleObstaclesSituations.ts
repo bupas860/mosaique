@@ -1,7 +1,7 @@
 import {
   getVisibleObstacleSituation,
   visibleObstaclesBank,
-} from "../data/v2";
+} from "../data/v2/generatedV2Data";
 import type {
   VisibleObstacleSituation,
   VisibleObstacleSituationId,
