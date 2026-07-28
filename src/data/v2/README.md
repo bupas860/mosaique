@@ -9,3 +9,17 @@ La configuration technique de présentation est séparée dans `presentationConf
 `visibleObstaclesRuntimeBank` expose les personnages et situations jouables, leurs mouvements explicites `advance`/`stay`, les feedbacks et les règles. `createVisibleObstaclesGameSet()` utilise le moteur contraint existant pour produire un lot ordonné de dix situations.
 
 Les autres banques sont générées et validées mais ne sont pas encore reliées aux pages React. Découverte ne contient que ses règles et des références `{ id, originMode }` vers les trois banques générales.
+
+`runtimeIndexV2.ts` expose l’API commune `createGameSet()` et les générateurs
+spécialisés des cinq modes. Ce point d’entrée est séparé du barrel utilisé par
+l’application afin que les banques inactives ne soient pas encore intégrées au
+bundle joueur. Les situations communes conservent leur mode d’origine, leur
+décision proposée et leur feedback individualisé.
+
+Le moteur historique `createVisibleObstaclesGameSet()` reste inchangé pour
+l’interface active. `createCommonVisibleObstaclesGameSet()` fournit en parallèle
+la représentation runtime commune.
+
+La galerie générale utilise les personnages jouables P01 à P09 existants.
+Intersectionnalités expose séparément XP01 à XP08 avec leur profil canonique et
+une image `null`, sans enrichissement éditorial ni rapprochement par prénom.
