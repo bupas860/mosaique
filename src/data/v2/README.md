@@ -4,7 +4,7 @@ Les données éditoriales proviennent des JSON générés dans `src/data/generat
 
 `generatedV2Data.ts` continue de charger les fichiers historiques `characters.json` et `visible-obstacles.*.json`. Cette couche de compatibilité maintient la frontière runtime du seul mode actuellement activé.
 
-La configuration technique de présentation est séparée dans `presentationConfig.ts` : elle associe explicitement une couleur à chaque personnage et conserve toutes les images à `null`. Aucun portrait historique n’est importé.
+La configuration technique de présentation est séparée dans `presentationConfig.ts`. Les portraits validés sont associés explicitement aux identifiants éditoriaux par `characterPortraitsV2.ts` ; les autres images restent à `null`. Aucun portrait historique n’est importé.
 
 `visibleObstaclesRuntimeBank` expose les personnages et situations jouables, leurs mouvements explicites `advance`/`stay`, les feedbacks et les règles. `createVisibleObstaclesGameSet()` utilise le moteur contraint existant pour produire un lot ordonné de dix situations.
 
@@ -22,4 +22,4 @@ la représentation runtime commune.
 
 La galerie générale utilise les personnages jouables P01 à P09 existants.
 Intersectionnalités expose séparément XP01 à XP08 avec leur profil canonique et
-une image `null`, sans enrichissement éditorial ni rapprochement par prénom.
+une image explicitement associée à son identifiant lorsqu’elle existe, sinon `null`, sans enrichissement éditorial ni rapprochement par prénom.

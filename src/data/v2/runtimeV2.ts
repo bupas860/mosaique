@@ -25,12 +25,10 @@ if (presentationIds.length !== 9 || new Set(presentationIds).size !== 9) runtime
 if (characterIds.some((id) => !presentationIds.includes(id)) || presentationIds.some((id) => !characterIds.includes(id))) runtimeError("les configurations graphiques doivent correspondre exactement aux personnages P01 à P09");
 const colors = presentationIds.map((id) => characterPresentationConfigV2[id].accentColor);
 if (colors.some((color) => !/^#[0-9A-F]{6}$/i.test(color)) || new Set(colors.map((color) => color.toLowerCase())).size !== 9) runtimeError("neuf couleurs hexadécimales distinctes sont attendues");
-if (presentationIds.some((id) => characterPresentationConfigV2[id].image !== null)) runtimeError("toutes les images de personnages doivent valoir null");
-
 export const playableCharactersV2: readonly PlayableCharacterV2[] = Object.freeze(visibleObstaclesBank.characters.map((character) => Object.freeze({
   ...character,
   accentColor: characterPresentationConfigV2[character.id].accentColor,
-  image: null,
+  image: characterPresentationConfigV2[character.id].image,
 })));
 
 export const playableCharactersV2ById: Readonly<Record<CharacterIdV2, PlayableCharacterV2>> = Object.freeze(Object.fromEntries(playableCharactersV2.map((character) => [character.id, character])) as Record<CharacterIdV2, PlayableCharacterV2>);

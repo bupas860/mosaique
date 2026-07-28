@@ -30,3 +30,7 @@ If you are developing a production application, we recommend enabling type-aware
 ```
 
 See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+
+## Licence des contenus
+
+Les contenus pédagogiques, les données éditoriales et les illustrations originales de Mosaïque sont proposés sous licence CC BY 4.0. Consultez [LICENSE-CONTENT.md](LICENSE-CONTENT.md) pour le périmètre et l’attribution.

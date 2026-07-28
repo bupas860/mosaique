@@ -49,6 +49,11 @@ export default function HomePage({ onStart }: HomePageProps) {
             </p>
           </div>
         </aside>
+
+        <footer className="home-license">
+          © 2026 Pascal Busac — Contenus pédagogiques et illustrations sous licence{" "}
+          <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+        </footer>
       </AppBackground>
     </Screen>
   );

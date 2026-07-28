@@ -32,6 +32,7 @@ import type {
   StandaloneRuntimeModeId,
 } from "../../types/runtimeV2";
 import { playableCharactersV2 } from "./runtimeV2";
+import { getCharacterPortraitV2 } from "./characterPortraitsV2";
 
 function runtimeError(message: string): never {
   throw new Error(`Runtime V2 — ${message}`);
@@ -60,7 +61,10 @@ const generalCharacterIds = new Set((generalGalleryJson.characters as readonly {
 const intersectionalCharacterIds = new Set((intersectionalGalleryJson.characters as readonly { id: string }[]).map(({ id }) => id));
 
 export const intersectionalCharactersV2: readonly IntersectionalRuntimeCharacterV2[] = Object.freeze(
-  (intersectionalGalleryJson.characters as readonly IntersectionalCharacterV2[]).map((character) => Object.freeze({ ...character, image: null })),
+  (intersectionalGalleryJson.characters as readonly IntersectionalCharacterV2[]).map((character) => Object.freeze({
+    ...character,
+    image: getCharacterPortraitV2(character.id),
+  })),
 );
 
 export const intersectionalCharactersV2ById: Readonly<Record<IntersectionalCharacterIdV2, IntersectionalRuntimeCharacterV2>> = Object.freeze(

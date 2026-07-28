@@ -24,7 +24,7 @@ export interface RuntimeCharacterV2 {
   readonly schoolLevel: string;
   readonly pronouns: readonly string[];
   readonly profile?: string;
-  readonly image: null;
+  readonly image: string | null;
 }
 
 export interface NormalizedRuntimeFeedbackV2 {
@@ -120,21 +120,21 @@ export interface CreateGameSetOptionsV2 {
   readonly random?: RuntimeRandom;
 }
 
-export type IntersectionalRuntimeCharacterV2 = IntersectionalCharacterV2 & Readonly<{ image: null }>;
+export type IntersectionalRuntimeCharacterV2 = IntersectionalCharacterV2 & Readonly<{ image: string | null }>;
 
 export interface CharacterPresentationConfigV2 {
   readonly accentColor: string;
-  readonly image: null;
+  readonly image: string | null;
 }
 
 export interface PlayableCharacterV2 extends CharacterV2 {
   readonly accentColor: string;
-  readonly image: null;
+  readonly image: string | null;
 }
 
 export interface PlayableIntersectionalCharacterV2 extends IntersectionalCharacterV2 {
   readonly accentColor: string;
-  readonly image: null;
+  readonly image: string | null;
 }
 
 export type ActivePlayableCharacterV2 =

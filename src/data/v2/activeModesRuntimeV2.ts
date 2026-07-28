@@ -28,6 +28,7 @@ import {
 } from "./runtimeV2";
 import { createDiscoveryGameSet as createCommonDiscoveryGameSet } from "./allModesRuntimeV2";
 import type { ChoiceHistoryEntryV2 } from "../../types/choiceHistory";
+import { getCharacterPortraitV2 } from "./characterPortraitsV2";
 
 export type ActiveGameModeIdV2 =
   | "discovery"
@@ -89,7 +90,11 @@ const intersectionalCharactersForPlayers: readonly PlayableIntersectionalCharact
   INTERSECTIONAL_PLAYER_ORDER.map((id) => {
     const character = intersectionalCharactersById.get(id);
     if (!character) activeRuntimeError(`galerie intersectionnelle : personnage inconnu ${id}`);
-    return Object.freeze({ ...character, accentColor: INTERSECTIONAL_ACCENTS[id], image: null });
+    return Object.freeze({
+      ...character,
+      accentColor: INTERSECTIONAL_ACCENTS[id],
+      image: getCharacterPortraitV2(id),
+    });
   }),
 );
 

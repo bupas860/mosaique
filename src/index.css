@@ -265,6 +265,33 @@ a {
   border-left: 0.25rem solid #67c6cf;
 }
 
+.home-license {
+  padding: 1rem var(--ds-page-padding) 1.25rem;
+  background: rgb(250 252 253 / 0.88);
+  color: #475569;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.home-license a {
+  color: #334155;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+}
+
+.home-license a:hover {
+  color: #0f172a;
+}
+
+.home-license a:focus-visible {
+  border-radius: 0.2rem;
+  outline: 3px solid #2563eb;
+  outline-offset: 0.2rem;
+}
+
 @keyframes home-hero-image-in {
   from {
     opacity: 0;
