@@ -8,6 +8,8 @@ import {
   createActiveGameSet,
   getActiveCharacter,
   getActiveCharactersForMode,
+  getRevealedSituationFamilyLabel,
+  preparePlayerSituation,
   type ActiveGameModeIdV2,
 } from "../data/v2/activeModesRuntimeV2";
 import {
@@ -47,7 +49,7 @@ export default function GamePage({ initialGameSet, selectedCharacterId, selected
       if (!decision) throw new Error(`Décision proposée absente : ${situation.id}/${character.id}`);
       return { ...character, position: character.position + movementDecisionToStep(decision) };
     }));
-    setChoiceHistory((history) => [...history, { situationId: situation.id, playerDecision, proposedDecision, matchesProposedInterpretation: playerDecision === proposedDecision }]);
+    setChoiceHistory((history) => [...history, { situationId: situation.id, originMode: situation.originMode, playerDecision, proposedDecision, matchesProposedInterpretation: playerDecision === proposedDecision }]);
     setPhase("feedback");
   }
 
@@ -73,16 +75,21 @@ export default function GamePage({ initialGameSet, selectedCharacterId, selected
   if (phase === "end") return <FinalSummaryPage characters={characters} initialCharacters={initialGameCharacters(selectedModeId)} playedSituations={gameSet.situations} choiceHistory={choiceHistory} selectedCharacterId={selectedCharacterId} selectedModeId={selectedModeId} onRestart={restart} onChooseAnotherCharacter={onChooseAnotherCharacter} onBackHome={onBackHome} />;
   const latest = choiceHistory.at(-1);
   const feedback = phase === "feedback" ? situation.feedback : undefined;
+  const playerSituation = preparePlayerSituation(situation);
+  const revealedFamilyLabel = phase === "feedback"
+    ? getRevealedSituationFamilyLabel(selectedModeId, situation.originMode)
+    : undefined;
   return <AppBackground as="main" className="game-background" style={{ "--character-accent": selectedCharacter.accentColor } as React.CSSProperties}>
     <div className="mx-auto w-full max-w-[100rem] p-4 sm:p-8 lg:p-8 xl:p-10"><div className="grid min-w-0 items-start gap-8 lg:grid-cols-[minmax(0,2fr)_minmax(20rem,1fr)] xl:grid-cols-[minmax(0,7fr)_minmax(22rem,3fr)]">
       <div className="min-w-0"><PrivilegeMargin characters={characters} selectedCharacterId={selectedCharacterId} totalExperiences={gameSet.situations.length} currentSituation={currentIndex + 1} /></div>
-      <aside className="app-surface situation-panel min-w-0 rounded-2xl border p-5 sm:p-6 lg:sticky lg:top-6"><ProgressBar current={currentIndex + 1} total={gameSet.situations.length} /><SituationCard situation={situation} characterName={selectedCharacter.name} showChoices={phase === "question"} onDecision={handleDecision} />
+      <aside className="app-surface situation-panel min-w-0 rounded-2xl border p-5 sm:p-6 lg:sticky lg:top-6"><ProgressBar current={currentIndex + 1} total={gameSet.situations.length} /><SituationCard situation={playerSituation} illustrationKey={`situation-${currentIndex}`} characterName={selectedCharacter.name} showChoices={phase === "question"} onDecision={handleDecision} />
         {phase === "feedback" && latest && feedback && <section aria-live="polite" aria-atomic="true" className="mt-6 space-y-4">
           <h2 className="text-2xl font-bold">Retour sur votre réponse</h2>
           <div className="rounded-xl border border-blue-200 bg-blue-50 p-4"><p className="font-bold text-blue-950">Votre réponse : {decisionLabel(selectedCharacter.name, latest.playerDecision)}.</p></div>
           <div className="rounded-xl border border-teal-200 bg-teal-50 p-4"><p className="font-bold text-teal-950">Interprétation proposée : {decisionLabel(selectedCharacter.name, latest.proposedDecision)}.</p></div>
           <p className={`rounded-xl border-l-4 p-4 font-semibold ${latest.matchesProposedInterpretation ? "border-violet-500 bg-violet-50 text-violet-950" : "border-amber-500 bg-amber-50 text-amber-950"}`}><span aria-hidden="true" className="mr-2">{latest.matchesProposedInterpretation ? "≈" : "↔"}</span>{latest.matchesProposedInterpretation ? "Votre lecture rejoint l’interprétation proposée." : "Votre lecture diffère de l’interprétation proposée. Voici le mécanisme retenu pour ce personnage."}</p>
           <Button onClick={continueAfterFeedback}>{currentIndex === gameSet.situations.length - 1 ? "Voir le bilan" : "Situation suivante"}</Button>
+          {revealedFamilyLabel && <p className="rounded-xl border border-slate-300 bg-slate-50 p-4 font-semibold text-slate-800">Famille : {revealedFamilyLabel}</p>}
           <section><h3 className="font-bold text-slate-950">Pourquoi pour {selectedCharacter.name}&nbsp;?</h3><p className="mt-2 leading-relaxed text-slate-700">{personalizePlayerText(feedback.explanation, selectedCharacter.name)}</p></section>
           <section className="rounded-xl border border-indigo-200 bg-indigo-50/70 p-4"><h3 className="font-bold text-indigo-950">Mécanisme en jeu :</h3><p className="mt-2 leading-relaxed text-slate-700">{personalizePlayerText(situation.mechanism, selectedCharacter.name)}</p></section>
           {situation.interpretation && <section><h3 className="font-bold text-slate-950">Interprétation pédagogique</h3><p className="mt-2 leading-relaxed text-slate-700">{personalizePlayerText(situation.interpretation, selectedCharacter.name)}</p></section>}

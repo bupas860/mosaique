@@ -15,6 +15,7 @@ import type {
   ActivePlayableCharacterV2,
   NormalizedRuntimeBankV2,
   NormalizedRuntimeSituationV2,
+  PlayerSituationContentV2,
   PlayableIntersectionalCharacterV2,
   RuntimeGameSetV2,
   RuntimeRandom,
@@ -25,19 +26,41 @@ import {
   getPlayableVisibleObstacleFeedback,
   playableCharactersV2,
 } from "./runtimeV2";
+import { createDiscoveryGameSet as createCommonDiscoveryGameSet } from "./allModesRuntimeV2";
+import type { ChoiceHistoryEntryV2 } from "../../types/choiceHistory";
 
 export type ActiveGameModeIdV2 =
+  | "discovery"
   | "visible-obstacles"
   | "ordinary-norms"
   | "invisible-effects"
   | "intersectionalities";
 
 const ACTIVE_GAME_MODE_IDS: readonly ActiveGameModeIdV2[] = [
+  "discovery",
   "visible-obstacles",
   "ordinary-norms",
   "invisible-effects",
   "intersectionalities",
 ];
+
+export type DiscoveryOriginModeV2 =
+  | "visible-obstacles"
+  | "ordinary-norms"
+  | "invisible-effects";
+
+const DISCOVERY_FAMILY_LABELS: Readonly<Record<DiscoveryOriginModeV2, string>> = {
+  "visible-obstacles": "Obstacles visibles",
+  "ordinary-norms": "Normes ordinaires",
+  "invisible-effects": "Effets invisibles",
+};
+
+export interface DiscoveryFamilySummaryV2 {
+  readonly originMode: DiscoveryOriginModeV2;
+  readonly label: string;
+  readonly concordances: number;
+  readonly total: number;
+}
 
 const GENERAL_PLAYER_ORDER: readonly CharacterIdV2[] = [
   "P04", "P05", "P09", "P02", "P06", "P07", "P08", "P01", "P03",
@@ -101,6 +124,51 @@ function galleryForMode(modeId: ActiveGameModeIdV2): EditorialGalleryIdV2 {
   return modeId === "intersectionalities" ? "intersectional" : "general";
 }
 
+function isDiscoveryOriginMode(
+  modeId: RuntimeSituationV2["originMode"],
+): modeId is DiscoveryOriginModeV2 {
+  return modeId !== "intersectionalities";
+}
+
+export function getDiscoveryFamilyLabel(originMode: DiscoveryOriginModeV2): string {
+  return DISCOVERY_FAMILY_LABELS[originMode];
+}
+
+export function getRevealedSituationFamilyLabel(
+  modeId: ActiveGameModeIdV2,
+  originMode: RuntimeSituationV2["originMode"],
+): string | undefined {
+  if (modeId !== "discovery" || !isDiscoveryOriginMode(originMode)) return undefined;
+  return getDiscoveryFamilyLabel(originMode);
+}
+
+export function preparePlayerSituation(
+  situation: RuntimeSituationV2,
+): PlayerSituationContentV2 {
+  return Object.freeze({
+    title: situation.title,
+    text: situation.text,
+    question: situation.question,
+    image: situation.image,
+  });
+}
+
+export function summarizeDiscoveryChoices(
+  modeId: ActiveGameModeIdV2,
+  entries: readonly ChoiceHistoryEntryV2[],
+): readonly DiscoveryFamilySummaryV2[] {
+  if (modeId !== "discovery") return [];
+  return (Object.keys(DISCOVERY_FAMILY_LABELS) as DiscoveryOriginModeV2[]).map((originMode) => {
+    const familyEntries = entries.filter((entry) => entry.originMode === originMode);
+    return Object.freeze({
+      originMode,
+      label: getDiscoveryFamilyLabel(originMode),
+      concordances: familyEntries.filter(({ matchesProposedInterpretation }) => matchesProposedInterpretation).length,
+      total: familyEntries.length,
+    });
+  });
+}
+
 export function isActiveGameModeId(modeId: string): modeId is ActiveGameModeIdV2 {
   return ACTIVE_GAME_MODE_IDS.some((activeModeId) => activeModeId === modeId);
 }
@@ -130,7 +198,7 @@ function createGameSet(
 }
 
 function resolveNormalizedSituation(
-  modeId: Exclude<ActiveGameModeIdV2, "visible-obstacles">,
+  modeId: Exclude<ActiveGameModeIdV2, "visible-obstacles" | "discovery">,
   situation: NormalizedRuntimeSituationV2,
   characterId: EditorialCharacterIdV2,
 ): RuntimeSituationV2 {
@@ -237,6 +305,18 @@ export function createActiveIntersectionalitiesGameSet(
   }));
 }
 
+export function createActiveDiscoveryGameSet(
+  characterId: CharacterIdV2,
+  random: RuntimeRandom = Math.random,
+): RuntimeGameSetV2 {
+  assertCharacterForMode("discovery", characterId);
+  const gameSet = createCommonDiscoveryGameSet(characterId, random);
+  if (gameSet.modeId !== "discovery" || gameSet.galleryId !== "general") {
+    return activeRuntimeError(`discovery/${characterId} : lot ou galerie incohérent`);
+  }
+  return gameSet;
+}
+
 export function getActiveCharactersForMode(
   modeId: ActiveGameModeIdV2,
 ): readonly ActivePlayableCharacterV2[] {
@@ -265,6 +345,7 @@ export function createActiveGameSet(
     return createActiveIntersectionalitiesGameSet(characterId, random);
   }
   if (!isGeneralCharacterId(characterId)) return activeRuntimeError(`${modeId}/${characterId} : personnage général attendu`);
+  if (modeId === "discovery") return createActiveDiscoveryGameSet(characterId, random);
   if (modeId === "visible-obstacles") return createActiveVisibleObstaclesGameSet(characterId, random);
   if (modeId === "ordinary-norms") return createActiveOrdinaryNormsGameSet(characterId, random);
   if (modeId === "invisible-effects") return createActiveInvisibleEffectsGameSet(characterId, random);

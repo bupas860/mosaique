@@ -99,6 +99,13 @@ export interface RuntimeSituationV2 {
   readonly image: null;
 }
 
+export interface PlayerSituationContentV2 {
+  readonly title: string;
+  readonly text: string;
+  readonly question: string;
+  readonly image: null;
+}
+
 export interface RuntimeGameSetV2 {
   readonly modeId: RuntimeModeId;
   readonly galleryId: EditorialGalleryIdV2;

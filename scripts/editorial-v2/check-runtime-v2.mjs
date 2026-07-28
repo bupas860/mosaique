@@ -49,6 +49,10 @@ import {
   createActiveGameSet,
   getActiveCharacter,
   getActiveCharactersForMode,
+  getDiscoveryFamilyLabel,
+  getRevealedSituationFamilyLabel,
+  preparePlayerSituation,
+  summarizeDiscoveryChoices,
 } from ${JSON.stringify(activeRuntimePath)};
 import { gameModes } from ${JSON.stringify(gameModesPath)};
 import { personalizePlayerText } from ${JSON.stringify(personalizePath)};
@@ -62,6 +66,9 @@ import type {
   RuntimeGameSetV2,
   RuntimeModeId,
 } from ${JSON.stringify(join(root, "src/types/runtimeV2.ts"))};
+import type {
+  ChoiceHistoryEntryV2,
+} from ${JSON.stringify(join(root, "src/types/choiceHistory.ts"))};
 
 const assert = (condition: unknown, message: string): asserts condition => { if (!condition) throw new Error(message); };
 const generalIds = ["P01", "P02", "P03", "P04", "P05", "P06", "P07", "P08", "P09"] as const;
@@ -172,16 +179,75 @@ for (const modeId of modes) {
 }
 
 const availableModes = gameModes.filter(({ available }) => available).map(({ id }) => id);
-assert(JSON.stringify(availableModes) === JSON.stringify(["visible-obstacles", "ordinary-norms", "invisible-effects", "intersectionalities"]), "modes disponibles dans l’interface invalides");
+assert(JSON.stringify(availableModes) === JSON.stringify(["discovery", "visible-obstacles", "ordinary-norms", "invisible-effects", "intersectionalities"]), "modes disponibles dans l’interface invalides");
+assert(gameModes.every(({ available }) => available), "un mode reste indisponible");
+assert(gameModes.find(({ id }) => id === "discovery")?.description === "Découvrez, dans une même partie, les obstacles visibles, les normes ordinaires et les effets invisibles.", "description Découverte invalide");
+assert(gameModes.find(({ id }) => id === "discovery")?.recommended === true && gameModes.find(({ id }) => id === "discovery")?.recommendedLabel === "Recommandé pour découvrir Mosaïque", "Découverte n’est pas le mode recommandé");
+assert(gameModes.filter(({ recommended }) => recommended).length === 1, "plusieurs modes recommandés");
 assert(gameModes.find(({ id }) => id === "ordinary-norms")?.description === "Repérez comment des procédures, des catégories ou des organisations habituelles peuvent créer des obstacles sans intention explicite de discriminer.", "description Normes ordinaires invalide");
 assert(gameModes.find(({ id }) => id === "invisible-effects")?.description === "Repérez les effets moins visibles de l’invisibilisation, des représentations limitées, de l’anticipation et de l’autocensure.", "description Effets invisibles invalide");
 assert(gameModes.find(({ id }) => id === "intersectionalities")?.description === "Repérez comment plusieurs rapports sociaux se combinent et produisent des obstacles spécifiques, qui ne se réduisent pas à une simple addition.", "description Intersectionnalités invalide");
-assert(gameModes.find(({ id }) => id === "discovery")?.available === false, "Découverte a été activé");
-for (const modeId of ["visible-obstacles", "ordinary-norms", "invisible-effects"] as const) {
+for (const modeId of ["discovery", "visible-obstacles", "ordinary-norms", "invisible-effects"] as const) {
   const gallery = getActiveCharactersForMode(modeId);
   assert(gallery.length === 9 && gallery.every(({ id }) => id.startsWith("P")), modeId + " : galerie générale active invalide");
   assert(JSON.stringify(gallery.map(({ id }) => id)) === JSON.stringify(["P04", "P05", "P09", "P02", "P06", "P07", "P08", "P01", "P03"]), modeId + " : ordre de galerie générale modifié");
 }
+
+for (const characterId of generalIds) {
+  for (const seed of [0, 7, 42, 2026, 20260728]) {
+    const random = createSeededRuntimeRandom(seed);
+    const first = createActiveGameSet("discovery", characterId, random);
+    const replay = createActiveGameSet("discovery", characterId, random);
+    const reference = createGameSet({
+      modeId: "discovery",
+      characterId,
+      random: createSeededRuntimeRandom(seed),
+    });
+    validateGame(first);
+    validateGame(replay);
+    assert(first.galleryId === "general", "parcours actif Découverte : mauvaise galerie");
+    assert(JSON.stringify(first.situationIds) === JSON.stringify(reference.situationIds), "parcours actif Découverte : tirage ou ordre divergent du moteur commun");
+    assert(first.situations.every((situation, index) =>
+      situation.originMode === reference.situations[index].originMode
+      && situation.feedback.explanation === reference.situations[index].feedback.explanation
+    ), "parcours actif Découverte : origine ou feedback divergent de la banque source");
+
+    const characterName = getActiveCharacter("discovery", characterId).name;
+    for (const situation of first.situations) {
+      const prepared = preparePlayerSituation(situation);
+      assert(!("id" in prepared) && !("modeId" in prepared) && !("originMode" in prepared), "Découverte : famille ou préfixe transmis avant réponse");
+      assert(Object.keys(prepared).every((key) => ["title", "text", "question", "image"].includes(key)), "Découverte : métadonnée inattendue avant réponse");
+      const revealed = getRevealedSituationFamilyLabel("discovery", situation.originMode);
+      assert(revealed === getDiscoveryFamilyLabel(situation.originMode), "Découverte : famille absente ou incohérente après réponse");
+      const displayed = [
+        prepared.title,
+        prepared.text,
+        prepared.question,
+        situation.feedback.explanation,
+        situation.mechanism,
+        situation.interpretation ?? "",
+        situation.vigilance ?? "",
+      ].map((text) => personalizePlayerText(text, characterName));
+      assert(displayed.every((text) => !text.includes("[Prénom]")), "discovery/" + situation.id + " : marqueur prénom encore affiché");
+      assert(!situation.intersectionalTest, "Découverte : test intersectionnel issu d’une carte X");
+    }
+
+    const history: ChoiceHistoryEntryV2[] = first.situations.map((situation, index) => ({
+      situationId: situation.id,
+      originMode: situation.originMode,
+      playerDecision: index % 2 === 0 ? situation.proposedDecision : (situation.proposedDecision === "advance" ? "stay" : "advance"),
+      proposedDecision: situation.proposedDecision,
+      matchesProposedInterpretation: index % 2 === 0,
+    }));
+    const familySummary = summarizeDiscoveryChoices("discovery", history);
+    assert(JSON.stringify(familySummary.map(({ total }) => total)) === JSON.stringify([3, 3, 4]), "Découverte : dénominateurs du bilan par famille invalides");
+    assert(familySummary.reduce((sum, family) => sum + family.concordances, 0) === history.filter(({ matchesProposedInterpretation }) => matchesProposedInterpretation).length, "Découverte : concordances par famille divergentes du total global");
+  }
+}
+
+let discoveryRejectedIntersectional = false;
+try { createActiveGameSet("discovery", "XP01", () => 0.5); } catch { discoveryRejectedIntersectional = true; }
+assert(discoveryRejectedIntersectional, "adaptateur actif : personnage XP accepté en Découverte");
 const activeIntersectionalCharacters = getActiveCharactersForMode("intersectionalities");
 assert(activeIntersectionalCharacters.length === 8, "parcours actif Intersectionnalités : huit personnages attendus");
 assert(JSON.stringify(activeIntersectionalCharacters.map(({ id }) => id)) === JSON.stringify(intersectionalIds), "parcours actif Intersectionnalités : ordre XP invalide");
@@ -306,7 +372,7 @@ console.log("Deux galeries strictement séparées par identifiant : oui");
 console.log("Découverte : quotas, protections, obstacles, contraintes et ordre conformes");
 console.log("Obstacles visibles historique : API et résultats de référence préservés");
 console.log("Valeurs aléatoires invalides rejetées pour les cinq modes");
-console.log("Parcours actif : 4 modes, galeries P/XP séparées, personnalisation complète et rejeu valides");
+console.log("Parcours actif : 5 modes, Découverte transversale, galeries P/XP séparées et rejeu valides");
 `;
 
 try {
