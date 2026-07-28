@@ -1,0 +1,930 @@
+{
+  "schemaVersion": 2,
+  "modeId": "ordinary-norms",
+  "bankType": "standalone",
+  "documentId": "mosaique-mode-ordinary-norms-v1",
+  "sourceFile": "docs/editorial-v2/110_Mode_Normes_ordinaires_V1.md",
+  "galleryId": "general",
+  "situations": [
+    {
+      "id": "N01",
+      "modeId": "ordinary-norms",
+      "title": "Le premier appel",
+      "playerText": "En début d’année, l’enseignant distribue la liste administrative de la classe.\nIl demande à chaque élève de vérifier les informations inscrites avant d’afficher la liste au fond de la salle.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Norme ordinaire",
+      "subfamily": "Administration et confidentialité",
+      "mechanism": "Visibilité involontaire d’informations administratives.",
+      "interpretation": "Une procédure collective et apparemment ordinaire peut rendre publique une information qui ne correspond pas à celle utilisée dans la vie scolaire.",
+      "vigilance": "La difficulté vient de la procédure, non d’un refus volontaire du prénom d’usage. Sam n’est pas concerné comme Noé, car son prénom administratif est également Sam.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "stay",
+        "P02": "advance",
+        "P03": "advance",
+        "P04": "advance",
+        "P05": "advance",
+        "P06": "advance",
+        "P07": "advance",
+        "P08": "advance",
+        "P09": "advance"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "stay",
+          "explanation": "Son prénom administratif peut apparaître sur la liste et révéler à toute la classe une information liée à sa transition. Il doit intervenir avant l’affichage ou accepter une exposition qu’il n’a pas choisie."
+        },
+        "P02": {
+          "decision": "advance",
+          "explanation": "La liste administrative ne contient pas d’information sur son orientation. Dans le profil retenu, cette procédure ne l’oblige ni à se dévoiler ni à corriger une donnée personnelle."
+        },
+        "P03": {
+          "decision": "advance",
+          "explanation": "Son prénom administratif est déjà Sam. La liste ne révèle pas sa non-binarité et ne crée donc pas ici de difficulté spécifique liée à son profil."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "Les informations administratives correspondent à celles qu’il utilise au lycée. La procédure ne produit pas, pour lui, d’exposition particulière."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "La composition de sa famille n’apparaît pas sur cette liste de classe. Cette situation ne la place donc pas en décalage avec le cadre prévu."
+        },
+        "P06": {
+          "decision": "advance",
+          "explanation": "Son orientation n’est pas inscrite sur la liste administrative. Il n’a pas à corriger une donnée ni à révéler sa vie privée."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "Son aromantisme et son asexualité ne figurent pas dans les informations administratives. La scène ne produit pas d’obstacle spécifique pour elle."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "Sa variation intersexe relève d’informations médicales confidentielles et n’apparaît pas sur la liste. Le texte retenu ne crée donc pas d’exposition particulière."
+        },
+        "P09": {
+          "decision": "advance",
+          "explanation": "Sa bisexualité n’est pas visible dans les informations administratives. La situation ne l’oblige pas à se dévoiler ni à modifier une donnée."
+        }
+      }
+    },
+    {
+      "id": "N02",
+      "modeId": "ordinary-norms",
+      "title": "Le formulaire « Père — Mère »",
+      "playerText": "Pour participer à une sortie scolaire, les élèves doivent faire compléter un formulaire.\nDeux rubriques sont prévues pour les responsables de l’élève :\n• « Nom et signature du père » ;\n• « Nom et signature de la mère ».\nAucune autre possibilité n’est indiquée.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Norme ordinaire",
+      "subfamily": "Modèles familiaux",
+      "mechanism": "Présentation d’un modèle familial unique comme modèle universel.",
+      "interpretation": "Les configurations qui ne correspondent pas au couple père-mère doivent modifier le document, barrer une rubrique ou expliquer leur situation.",
+      "vigilance": "La carte ne met pas en scène un propos hostile envers l’homoparentalité : l’obstacle est incorporé dans la conception du formulaire.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "advance",
+        "P02": "advance",
+        "P03": "advance",
+        "P04": "advance",
+        "P05": "stay",
+        "P06": "advance",
+        "P07": "advance",
+        "P08": "advance",
+        "P09": "advance"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "advance",
+          "explanation": "Son profil ne signale pas une configuration familiale incompatible avec les deux rubriques. La situation ne produit donc pas, pour lui, de difficulté spécifique identifiable."
+        },
+        "P02": {
+          "decision": "advance",
+          "explanation": "Son orientation lesbienne ne détermine pas la composition de sa famille. Rien dans son profil n’indique qu’elle doive modifier ce formulaire."
+        },
+        "P03": {
+          "decision": "advance",
+          "explanation": "Sa non-binarité n’est pas en jeu dans les rubriques consacrées aux responsables légaux. Le profil ne permet pas d’identifier ici un obstacle particulier."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "Le document ne touche ni ses activités ni son expression de genre. En l’absence d’autre information familiale, il peut utiliser le formulaire prévu."
+        },
+        "P05": {
+          "decision": "stay",
+          "explanation": "Elle vit avec deux mères. Le formulaire ne permet pas de désigner ses deux responsables sans barrer, réécrire ou expliquer sa famille : elle est transformée en exception administrative."
+        },
+        "P06": {
+          "decision": "advance",
+          "explanation": "Son orientation sexuelle n’a pas d’effet sur les rubriques concernant ses responsables. Le document ne l’oblige pas à révéler une information privée."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "Son aromantisme et son asexualité ne concernent pas la configuration de ses responsables légaux. Aucun obstacle spécifique n’est établi pour elle."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "Son intersexuation ne modifie pas la manière dont ses responsables remplissent ce formulaire. La scène ne révèle pas d’information médicale."
+        },
+        "P09": {
+          "decision": "advance",
+          "explanation": "Sa bisexualité n’est pas concernée par les catégories « père » et « mère ». Le profil ne permet pas d’identifier une difficulté particulière."
+        }
+      }
+    },
+    {
+      "id": "N03",
+      "modeId": "ordinary-norms",
+      "title": "L’activité visible sur l’ENT",
+      "playerText": "Un groupe de parole intitulé « Élèves LGBT+ et alliés » est proposé au lycée.\nLorsqu’un élève s’y inscrit, le nom de l’activité apparaît automatiquement dans son emploi du temps numérique, accessible depuis le compte familial.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Norme ordinaire",
+      "subfamily": "Outils numériques et confidentialité",
+      "mechanism": "Dévoilement possible par le fonctionnement ordinaire d’un outil numérique.",
+      "interpretation": "L’inscription ne prouve pas que l’élève est LGBT+, mais l’affichage peut provoquer des questions ou révéler un intérêt que la personne souhaitait garder privé.",
+      "vigilance": "Personne ne diffuse volontairement l’information : le risque vient du paramétrage de l’ENT. La réponse dépend de ce que la famille connaît déjà dans chaque profil.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "advance",
+        "P02": "stay",
+        "P03": "stay",
+        "P04": "advance",
+        "P05": "advance",
+        "P06": "advance",
+        "P07": "advance",
+        "P08": "advance",
+        "P09": "stay"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "advance",
+          "explanation": "Sa famille connaît et soutient sa transition. L’affichage peut susciter une question, mais il ne crée pas pour lui le risque familial de dévoilement retenu dans cette carte."
+        },
+        "P02": {
+          "decision": "stay",
+          "explanation": "Elle n’a pas parlé de son orientation à sa famille. L’intitulé visible sur le compte familial peut l’obliger à répondre à des questions ou provoquer un dévoilement qu’elle n’a pas choisi."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "Sa famille ne connaît pas encore sa non-binarité. L’activité affichée peut attirer l’attention sur un sujet qu’iel souhaite encore contrôler dans le cadre familial."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "Il peut participer comme allié sans que l’intitulé révèle une information cachée sur son orientation ou son identité. Aucun obstacle spécifique n’est établi pour lui."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "Son lien avec les questions LGBT+ peut être compris par sa famille, puisqu’elle vit avec ses deux mères. Le profil ne signale pas d’information qu’elle devrait cacher à la maison."
+        },
+        "P06": {
+          "decision": "advance",
+          "explanation": "Ses parents connaissent son orientation et le soutiennent. L’affichage ne provoque donc pas, dans son profil, un outing familial."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "Le profil ne précise pas que son aromantisme ou son asexualité soient inconnus ou dangereux à révéler à sa famille. Le jeu n’invente donc pas un risque absent."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "L’intitulé de l’activité ne révèle pas nécessairement sa variation intersexe, et le profil ne précise pas qu’elle doive cacher sa participation à sa famille."
+        },
+        "P09": {
+          "decision": "stay",
+          "explanation": "Une seule amie connaît sa bisexualité. L’affichage familial peut déclencher des questions et lui faire perdre le contrôle sur une information qu’elle garde actuellement privée."
+        }
+      }
+    },
+    {
+      "id": "N04",
+      "modeId": "ordinary-norms",
+      "title": "Le dialogue en langue vivante",
+      "playerText": "En cours de langue vivante, les élèves préparent un dialogue sur les relations amoureuses.\nLes garçons doivent présenter leur petite amie idéale. Les filles doivent présenter leur petit ami idéal.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Norme ordinaire",
+      "subfamily": "Présomption d’hétérosexualité",
+      "mechanism": "Présomption d’hétérosexualité dans une consigne pédagogique.",
+      "interpretation": "Certains élèves doivent inventer une attirance, modifier leur réponse, contester la catégorie qui leur est attribuée ou révéler une information personnelle.",
+      "vigilance": "La carte porte sur une participation personnelle à la consigne. Elle se distingue de l’absence générale de représentations LGBT+, qui relève du mode « Effets invisibles ».",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "advance",
+        "P02": "stay",
+        "P03": "stay",
+        "P04": "advance",
+        "P05": "advance",
+        "P06": "stay",
+        "P07": "stay",
+        "P08": "advance",
+        "P09": "advance"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "advance",
+          "explanation": "Noé est un garçon hétérosexuel. Il peut présenter une petite amie idéale sans mentir sur son attirance ni révéler une information qu’il souhaite garder privée."
+        },
+        "P02": {
+          "decision": "stay",
+          "explanation": "La consigne lui attribue un petit ami alors qu’elle est lesbienne. Elle doit soit inventer une attirance, soit corriger publiquement la consigne et risquer de dévoiler son orientation."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "La consigne commence par classer tous les élèves comme garçons ou filles, puis leur impose un partenaire de l’autre genre. Elle ne correspond ni à son identité non binaire ni à la diversité de son orientation."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "Arthur est un garçon hétérosexuel. Il peut répondre sincèrement à la consigne, même si celle-ci reste trop restrictive pour d’autres élèves."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "Sofia est une fille hétérosexuelle. La consigne correspond à une attirance qu’elle peut réellement ressentir et ne l’oblige pas à se dévoiler."
+        },
+        "P06": {
+          "decision": "stay",
+          "explanation": "La consigne lui demande de décrire une petite amie alors qu’il est gay. Il doit choisir entre jouer un rôle hétérosexuel et parler de son orientation devant la classe."
+        },
+        "P07": {
+          "decision": "stay",
+          "explanation": "Elle ne ressent pas d’attirance amoureuse ou sexuelle. Décrire un petit ami idéal l’oblige à inventer une expérience qui n’est pas la sienne."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "Son profil ne précise pas son orientation sexuelle. L’intersexuation ne permet pas de conclure qu’elle ne peut pas répondre à cette consigne ; aucun obstacle spécifique n’est donc retenu."
+        },
+        "P09": {
+          "decision": "advance",
+          "explanation": "Elle est bisexuelle et peut réellement être attirée par un garçon. La consigne efface une partie des possibilités, mais elle peut y répondre sincèrement sans révéler sa bisexualité."
+        }
+      }
+    },
+    {
+      "id": "N05",
+      "modeId": "ordinary-norms",
+      "title": "Quand vous serez en couple",
+      "playerText": "Dans une présentation orale consacrée à l’avenir, les élèves doivent imaginer leur vie dans dix ans.\nLa consigne demande de présenter devant la classe :\n• leur conjoint ou leur conjointe ;\n• leur logement ;\n• leurs enfants ;\n• la manière dont ils organiseront leur vie familiale.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Norme ordinaire",
+      "subfamily": "Norme conjugale et parentale",
+      "mechanism": "Présentation du couple et de la parentalité comme avenir universel.",
+      "interpretation": "La consigne suppose que toute personne souhaitera vivre en couple et avoir des enfants. La restitution publique peut aussi obliger certains élèves à dévoiler le genre d’un futur partenaire.",
+      "vigilance": "La non-binarité n’implique pas l’absence de projet conjugal. La bisexualité n’empêche pas d’imaginer sincèrement un conjoint d’un genre donné.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "advance",
+        "P02": "stay",
+        "P03": "advance",
+        "P04": "advance",
+        "P05": "advance",
+        "P06": "stay",
+        "P07": "stay",
+        "P08": "advance",
+        "P09": "advance"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "advance",
+          "explanation": "Son profil ne signale pas de refus du couple ou de la parentalité. Il peut imaginer une conjointe et une famille sans contredire son orientation ni dévoiler une information nouvelle."
+        },
+        "P02": {
+          "decision": "stay",
+          "explanation": "Présenter devant la classe une future conjointe peut révéler son orientation. Inventer un conjoint masculin l’obligerait au contraire à effacer une partie importante de son projet possible."
+        },
+        "P03": {
+          "decision": "advance",
+          "explanation": "La consigne propose « conjoint ou conjointe » et ne l’oblige pas à se présenter comme garçon ou fille. Rien dans son profil n’indique qu’iel refuse le couple ou les enfants."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "Le profil d’Arthur ne signale pas de décalage avec le projet conjugal et parental attendu. Il peut répondre sans mensonge ni dévoilement particulier."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "La consigne ne remet pas en cause la famille dans laquelle elle vit et son profil ne signale pas qu’elle refuse couple ou parentalité. Elle peut construire une réponse personnelle."
+        },
+        "P06": {
+          "decision": "stay",
+          "explanation": "Décrire publiquement un futur conjoint masculin revient à rendre son orientation visible devant toute la classe. Inventer une femme le contraindrait à dissimuler son projet possible."
+        },
+        "P07": {
+          "decision": "stay",
+          "explanation": "La consigne transforme le couple et les enfants en étapes obligatoires. Elle doit inventer un avenir conjugal qui ne correspond pas à ce qu’elle souhaite."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "Son intersexuation ne détermine ni ses projets relationnels ni son désir d’enfant. Le profil ne permet pas d’identifier un obstacle spécifique dans cette activité."
+        },
+        "P09": {
+          "decision": "advance",
+          "explanation": "Elle peut imaginer sincèrement un conjoint masculin, notamment puisque sa relation actuelle est avec un garçon. La consigne ne l’oblige pas nécessairement à révéler sa bisexualité."
+        }
+      }
+    },
+    {
+      "id": "N06",
+      "modeId": "ordinary-norms",
+      "title": "La séance d’EVARS séparée",
+      "playerText": "Pour une séance d’éducation à la vie affective, relationnelle et sexuelle, la classe est divisée en deux groupes :\n• les filles d’un côté ;\n• les garçons de l’autre.\nChaque groupe suivra une intervention différente.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Norme ordinaire",
+      "subfamily": "Organisation binaire des apprentissages",
+      "mechanism": "Organisation binaire des élèves et attribution des besoins éducatifs selon le genre.",
+      "interpretation": "La répartition suppose que chaque élève appartient sans difficulté à l’une des deux catégories et que les informations utiles dépendent automatiquement de celle-ci.",
+      "vigilance": "Cette carte porte sur l’accès différencié aux contenus. Elle ne doit pas être confondue avec les vestiaires, qui ajoutent l’intimité corporelle et le changement de vêtements.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "stay",
+        "P02": "advance",
+        "P03": "stay",
+        "P04": "advance",
+        "P05": "advance",
+        "P06": "advance",
+        "P07": "advance",
+        "P08": "advance",
+        "P09": "advance"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "stay",
+          "explanation": "La séparation peut l’obliger à vérifier dans quel groupe l’établissement le place et si le dossier administratif intervient. Elle peut aussi lui refuser des informations jugées destinées à l’autre groupe."
+        },
+        "P02": {
+          "decision": "advance",
+          "explanation": "Elle est une fille cisgenre et peut rejoindre le groupe annoncé sans devoir se justifier. Son orientation ne détermine pas à elle seule le groupe dans cette organisation."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "Aucun des deux groupes ne correspond à son identité non binaire. Iel doit accepter une catégorie inadaptée ou demander publiquement une solution particulière."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "Il peut rejoindre le groupe des garçons sans difficulté liée à son identité. Les contenus séparés peuvent être discutables, mais son profil ne crée pas ici un obstacle spécifique."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "Elle peut rejoindre le groupe des filles sans devoir expliquer sa situation. Sa famille homoparentale n’intervient pas dans le classement choisi par l’établissement."
+        },
+        "P06": {
+          "decision": "advance",
+          "explanation": "Il peut rejoindre le groupe des garçons. Son homosexualité pourrait rendre certains contenus moins adaptés, mais la carte ne précise pas encore leur contenu ; aucun obstacle spécifique n’est donc retenu."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "Elle peut rejoindre le groupe des filles. Son aromantisme et son asexualité ne modifient pas directement la catégorie utilisée pour cette répartition."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "Lou se définit comme une fille. Sa variation intersexe ne doit pas conduire le jeu à contester cette identité ; elle peut rejoindre le groupe annoncé."
+        },
+        "P09": {
+          "decision": "advance",
+          "explanation": "Elle peut rejoindre le groupe des filles sans dévoiler sa bisexualité. Le profil ne permet pas d’identifier une difficulté particulière dans le classement lui-même."
+        }
+      }
+    },
+    {
+      "id": "N07",
+      "modeId": "ordinary-norms",
+      "title": "Les vestiaires collectifs",
+      "playerText": "Avant le cours d’EPS, les élèves doivent se changer collectivement dans l’un des deux vestiaires :\n• le vestiaire des filles ;\n• le vestiaire des garçons.\nAucun espace individuel ni possibilité d’adaptation n’est annoncé.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Norme ordinaire",
+      "subfamily": "Organisation binaire, intimité et hypervigilance",
+      "mechanism": "Organisation binaire et collective d’un espace d’intimité.",
+      "interpretation": "La scène peut obliger à choisir un espace, exposer le corps, susciter des questions, créer une peur d’être observé ou une hypervigilance liée à l’orientation réelle ou supposée.",
+      "vigilance": "Les retours concernant l’homosexualité ou la bisexualité ne doivent jamais présenter les personnages comme attirés par tous les élèves ni comme un danger. L’effet retenu est la surveillance de soi et la crainte d’être soupçonné.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "stay",
+        "P02": "stay",
+        "P03": "stay",
+        "P04": "advance",
+        "P05": "advance",
+        "P06": "stay",
+        "P07": "advance",
+        "P08": "stay",
+        "P09": "stay"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "stay",
+          "explanation": "Le vestiaire collectif peut exposer son corps et l’obliger à anticiper des questions ou un outing. L’absence d’espace individuel lui impose de demander une exception pour préserver son intimité."
+        },
+        "P02": {
+          "decision": "stay",
+          "explanation": "Elle peut surveiller son regard et ses gestes par crainte qu’ils soient interprétés comme une attirance pour les autres filles. Cette hypervigilance suffit à rendre l’espace moins ordinaire pour elle."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "L’organisation impose de choisir entre deux vestiaires qui ne correspondent pas à son identité. Demander une autre solution risque aussi de l’obliger à s’expliquer publiquement."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "Son profil ne signale pas de difficulté particulière liée aux vestiaires collectifs. Il peut utiliser le vestiaire des garçons sans dévoilement ni demande d’adaptation."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "Sa famille homoparentale ne modifie pas sa place dans le vestiaire des filles. Le profil ne fournit pas d’élément établissant un obstacle spécifique."
+        },
+        "P06": {
+          "decision": "stay",
+          "explanation": "Dans un environnement sportif où les insultes homophobes sont déjà banalisées, il peut surveiller ses gestes et craindre que sa présence soit interprétée à partir de son orientation."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "Son aromantisme et son asexualité ne créent pas, dans le profil retenu, de difficulté particulière pour utiliser le vestiaire des filles."
+        },
+        "P08": {
+          "decision": "stay",
+          "explanation": "Elle souhaite garder confidentielle son histoire corporelle et médicale. Le changement collectif peut lui imposer une vigilance particulière, sans que le jeu affirme que sa variation intersexe est nécessairement visible."
+        },
+        "P09": {
+          "decision": "stay",
+          "explanation": "Elle peut craindre que sa bisexualité, si elle était connue, conduise les autres filles à surveiller ses regards ou à se méfier. L’espace collectif lui impose donc une vigilance supplémentaire."
+        }
+      }
+    },
+    {
+      "id": "N08",
+      "modeId": "ordinary-norms",
+      "title": "Les filles calment les garçons",
+      "playerText": "Pour limiter les bavardages, l’enseignant alterne systématiquement une fille et un garçon dans le plan de classe.\nIl explique :\n« Les filles sont généralement plus calmes. Elles aideront les garçons à mieux se tenir. »",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Norme ordinaire",
+      "subfamily": "Rôles attribués selon le genre",
+      "mechanism": "Attribution de comportements et de responsabilités différents selon le genre.",
+      "interpretation": "Les filles reçoivent une fonction de régulation ; les garçons sont présentés comme naturellement agités ; les élèves sont répartis dans deux catégories supposées évidentes.",
+      "vigilance": "Cette carte est problématique pour toute la galerie, mais pour des raisons différentes. Elle ne constitue pas une carte protectrice.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "stay",
+        "P02": "stay",
+        "P03": "stay",
+        "P04": "stay",
+        "P05": "stay",
+        "P06": "stay",
+        "P07": "stay",
+        "P08": "stay",
+        "P09": "stay"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "stay",
+          "explanation": "Il est classé parmi les garçons supposés naturellement agités. Cette attente lui impose aussi un modèle de masculinité auquel il devrait se conformer pour être reconnu comme garçon."
+        },
+        "P02": {
+          "decision": "stay",
+          "explanation": "Elle est placée dans le rôle de l’élève calme chargée de réguler un garçon. La méthode lui attribue un travail disciplinaire simplement parce qu’elle est une fille."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "Le plan exige d’abord de le classer comme fille ou garçon, alors qu’aucune de ces catégories ne lui correspond. La règle rend sa non-binarité impraticable dans l’organisation de la classe."
+        },
+        "P04": {
+          "decision": "stay",
+          "explanation": "Il est présenté comme un garçon qu’une fille devrait calmer. Cette organisation réduit son comportement individuel à un stéréotype de masculinité agitée."
+        },
+        "P05": {
+          "decision": "stay",
+          "explanation": "Elle reçoit, en tant que fille, la responsabilité d’apaiser un garçon. La classe lui impose une fonction qui ne repose ni sur son choix ni sur son comportement réel."
+        },
+        "P06": {
+          "decision": "stay",
+          "explanation": "Comme tous les garçons, il est supposé plus agité et dépendant d’une fille pour se contrôler. Son comportement individuel est remplacé par une attente genrée."
+        },
+        "P07": {
+          "decision": "stay",
+          "explanation": "Elle est utilisée comme ressource disciplinaire pour un garçon parce qu’elle est une fille. Son calme supposé devient une obligation mise au service d’un autre élève."
+        },
+        "P08": {
+          "decision": "stay",
+          "explanation": "Elle se définit comme une fille et se voit attribuer le rôle de régulation attendu des filles. Son comportement personnel n’est pas pris en compte."
+        },
+        "P09": {
+          "decision": "stay",
+          "explanation": "Elle est chargée de calmer un garçon simplement parce qu’elle est une fille. La règle lui impose une responsabilité émotionnelle et disciplinaire supplémentaire."
+        }
+      }
+    },
+    {
+      "id": "N09",
+      "modeId": "ordinary-norms",
+      "title": "Les filles ne doivent pas déconcentrer",
+      "playerText": "Lors d’un rappel sur la tenue au lycée, un adulte explique à la classe :\n« Les filles doivent éviter les vêtements qui pourraient déconcentrer les garçons. »\nCette règle est présentée comme une manière de préserver de bonnes conditions de travail.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Norme ordinaire",
+      "subfamily": "Contrôle vestimentaire et sexisme",
+      "mechanism": "Contrôle asymétrique des vêtements et responsabilisation des filles.",
+      "interpretation": "La règle rend les filles responsables des réactions et du comportement des garçons. Elle sexualise leurs vêtements et leur impose une vigilance particulière.",
+      "vigilance": "Un résultat « avance » pour un garçon ne signifie pas que la règle est juste ou bénéfique. Il signifie qu’elle ne contrôle pas directement sa tenue dans la scène décrite.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "advance",
+        "P02": "stay",
+        "P03": "stay",
+        "P04": "advance",
+        "P05": "stay",
+        "P06": "advance",
+        "P07": "stay",
+        "P08": "stay",
+        "P09": "stay"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "advance",
+          "explanation": "La règle ne contrôle pas directement sa tenue puisqu’elle vise les élèves classées comme filles. Il avance dans la matrice, sans que cela signifie que la règle soit acceptable."
+        },
+        "P02": {
+          "decision": "stay",
+          "explanation": "Elle doit anticiper le regard des garçons et adapter ses vêtements pour éviter d’être tenue responsable de leur comportement. Sa tenue devient un problème scolaire en raison de son genre."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "L’établissement doit d’abord décider s’il l’applique comme une règle pour les filles ou l’en exclut comme garçon. Cette catégorisation binaire rend sa place incertaine et impose une justification."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "La règle ne limite pas directement ses vêtements dans cette scène. Il avance, même si elle véhicule une représentation problématique des garçons supposés incapables de se concentrer."
+        },
+        "P05": {
+          "decision": "stay",
+          "explanation": "En tant que fille, elle est rendue responsable de l’attention des garçons. Elle doit surveiller ses vêtements pour préserver des conditions de travail dont la responsabilité devrait être collective."
+        },
+        "P06": {
+          "decision": "advance",
+          "explanation": "La règle ne contrôle pas directement sa tenue. Il avance dans l’interprétation proposée, tout en étant lui aussi enfermé dans l’image du garçon facilement déconcentré."
+        },
+        "P07": {
+          "decision": "stay",
+          "explanation": "Elle doit adapter sa présentation à la réaction supposée des garçons. La règle lui impose une contrainte supplémentaire qui ne dépend pas de son comportement."
+        },
+        "P08": {
+          "decision": "stay",
+          "explanation": "Elle se définit comme une fille et se voit appliquer une règle qui sexualise ses vêtements. Son intersexuation n’est pas le mécanisme principal de cette scène."
+        },
+        "P09": {
+          "decision": "stay",
+          "explanation": "Sa tenue est évaluée en fonction de l’effet supposé sur les garçons. La règle la rend responsable de leurs réactions et renforce la sexualisation des filles."
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "modeId": "ordinary-norms",
+      "title": "Une tenue adaptée à son genre",
+      "playerText": "Le règlement intérieur n’interdit ni les jupes, ni le vernis, ni les bijoux.\nDans les pratiques habituelles du lycée, ces éléments ne provoquent pas de remarque lorsqu’ils sont portés par une fille. Ils sont régulièrement considérés comme inadaptés lorsqu’ils sont portés par un garçon.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Norme ordinaire",
+      "subfamily": "Conformité de genre implicite",
+      "mechanism": "Application différente d’une même règle selon le genre attribué à la personne.",
+      "interpretation": "La norme n’est pas nécessairement écrite : elle se construit par des réactions répétées et par les attentes concernant l’apparence des garçons et des filles.",
+      "vigilance": "Être trans ou gay ne signifie pas automatiquement souhaiter une expression de genre non conforme. La matrice doit rester fondée sur les éléments explicites des profils.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "advance",
+        "P02": "advance",
+        "P03": "stay",
+        "P04": "stay",
+        "P05": "advance",
+        "P06": "advance",
+        "P07": "advance",
+        "P08": "advance",
+        "P09": "advance"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "advance",
+          "explanation": "Son profil ne précise pas qu’il porte une jupe, du vernis ou des bijoux considérés comme féminins. Être trans ne permet pas d’inventer pour lui une expression de genre non conforme."
+        },
+        "P02": {
+          "decision": "advance",
+          "explanation": "La pratique décrite ne sanctionne pas ces éléments lorsqu’ils sont portés par une fille. Son profil ne fournit pas d’autre raison de rester sur place dans cette scène."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "La notion de tenue « adaptée à son genre » suppose une catégorie binaire et stable qui ne lui correspond pas. Iel risque d’être rappelé à une apparence masculine ou féminine imposée."
+        },
+        "P04": {
+          "decision": "stay",
+          "explanation": "Il porte parfois du vernis et ne correspond pas toujours aux attentes de virilité. La pratique du lycée limite donc directement sa manière de se présenter."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "Le lycée accepte les éléments cités lorsqu’ils sont portés par une fille. La scène ne crée pas de restriction particulière pour son profil."
+        },
+        "P06": {
+          "decision": "advance",
+          "explanation": "Son homosexualité ne permet pas de déduire qu’il porte des vêtements ou accessoires considérés comme féminins. Aucun obstacle spécifique n’est retenu sans autre information."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "Son aromantisme et son asexualité ne déterminent pas son expression vestimentaire. Le profil ne signale pas qu’elle soit visée par cette pratique."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "Elle se définit comme une fille et les éléments mentionnés sont admis lorsqu’ils sont portés par une fille. Son intersexuation n’intervient pas dans la règle décrite."
+        },
+        "P09": {
+          "decision": "advance",
+          "explanation": "Sa bisexualité ne détermine pas son apparence. La pratique n’impose pas, dans son profil, une restriction particulière sur sa tenue."
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "modeId": "ordinary-norms",
+      "title": "Les questions de l’infirmerie",
+      "playerText": "Lors d’un entretien de santé, le professionnel demande automatiquement :\n• à une fille si elle a un petit ami ;\n• à un garçon s’il a une petite amie.\nLes questions et les conseils suivants sont construits à partir de cette première supposition.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Norme ordinaire",
+      "subfamily": "Présomption d’hétérosexualité dans la santé",
+      "mechanism": "Présomption d’hétérosexualité dans une pratique professionnelle de routine.",
+      "interpretation": "L’élève doit corriger la supposition, révéler une information personnelle ou laisser l’entretien se poursuivre à partir d’une situation inexacte. Les conseils peuvent alors devenir incomplets ou inadaptés.",
+      "vigilance": "La carte ne met pas en scène un professionnel hostile. Elle interroge la façon dont une question routinière construit à l’avance la réponse attendue.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "advance",
+        "P02": "stay",
+        "P03": "stay",
+        "P04": "advance",
+        "P05": "advance",
+        "P06": "stay",
+        "P07": "stay",
+        "P08": "advance",
+        "P09": "advance"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "advance",
+          "explanation": "Il est un garçon hétérosexuel. La question sur une petite amie peut correspondre à sa situation et ne l’oblige pas à corriger le professionnel ou à se dévoiler."
+        },
+        "P02": {
+          "decision": "stay",
+          "explanation": "La question suppose qu’elle est attirée par les garçons. Elle doit corriger le professionnel et risquer de révéler son orientation, ou accepter des conseils fondés sur une situation fausse."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "Le professionnel doit d’abord le classer comme fille ou garçon, puis présume une relation hétérosexuelle. Iel doit corriger plusieurs suppositions pour obtenir un entretien adapté."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "La question sur une petite amie correspond à son orientation hétérosexuelle. Elle ne lui impose pas de révélation supplémentaire ni de correction."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "Elle est hétérosexuelle et peut répondre à une question sur un petit ami sans devoir dissimuler son orientation. Sa famille homoparentale n’est pas en jeu dans cet entretien."
+        },
+        "P06": {
+          "decision": "stay",
+          "explanation": "La question lui attribue une petite amie. Pour recevoir des conseils pertinents, il doit révéler qu’il est gay ou laisser le professionnel raisonner à partir d’une situation inexacte."
+        },
+        "P07": {
+          "decision": "stay",
+          "explanation": "La question suppose qu’elle a nécessairement une relation amoureuse et une vie sexuelle. Elle doit expliquer une expérience que le questionnaire ne prévoit pas."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "Son intersexuation ne détermine pas son orientation. Le profil ne précise pas une situation affective incompatible avec la question ; aucun obstacle spécifique n’est retenu."
+        },
+        "P09": {
+          "decision": "advance",
+          "explanation": "Elle est actuellement en couple avec un garçon. Elle peut donc répondre honnêtement à la question immédiate, même si celle-ci ne permet pas au professionnel de connaître toute son orientation."
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "modeId": "ordinary-norms",
+      "title": "Les informations confidentielles",
+      "playerText": "Lors de l’inscription, l’établissement distingue dans ses outils :\n• le nom et le prénom administratifs ;\n• le prénom utilisé dans la vie scolaire ;\n• les informations accessibles à la famille ;\n• les informations réservées aux professionnels concernés.\nL’élève est informé de ce qui sera visible et des personnes qui pourront y accéder.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Situation protectrice fixe",
+      "subfamily": "Protection institutionnelle",
+      "mechanism": "Organisation institutionnelle protectrice de la confidentialité.",
+      "interpretation": "La procédure limite la circulation inutile des informations et évite de demander aux élèves de réparer eux-mêmes les défauts des outils administratifs.",
+      "vigilance": "Cette carte doit rester systématiquement présente dans le mode. Elle montre qu’une norme ordinaire peut être conçue de manière protectrice.",
+      "mandatory": true,
+      "protective": true,
+      "effectsByCharacter": {
+        "P01": "advance",
+        "P02": "advance",
+        "P03": "advance",
+        "P04": "advance",
+        "P05": "advance",
+        "P06": "advance",
+        "P07": "advance",
+        "P08": "advance",
+        "P09": "advance"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "advance",
+          "explanation": "La distinction entre prénom administratif et prénom utilisé protège sa vie scolaire et limite le risque d’outing. Il sait aussi précisément quelles informations seront accessibles à sa famille."
+        },
+        "P02": {
+          "decision": "advance",
+          "explanation": "La procédure lui permet de garder le contrôle sur les informations relatives à sa vie privée. L’établissement ne suppose pas que tout doit être visible par la famille."
+        },
+        "P03": {
+          "decision": "advance",
+          "explanation": "Le prénom Sam peut être utilisé partout, tandis que les informations sur sa non-binarité peuvent rester limitées aux personnes concernées. Iel connaît les règles de circulation de ces données."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "Il ne rencontre pas de difficulté particulière, mais bénéficie comme les autres d’une information claire sur l’usage et la confidentialité de ses données."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "La procédure ne lui impose aucune exposition particulière et garantit un traitement transparent de ses informations. Elle peut identifier les destinataires de chaque donnée."
+        },
+        "P06": {
+          "decision": "advance",
+          "explanation": "Il peut distinguer ce qui relève de sa vie scolaire, de sa famille et de sa vie privée. L’organisation ne transforme pas son orientation en information librement partageable."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "Son expérience affective et sexuelle n’a pas à circuler au-delà des professionnels réellement concernés. La procédure reconnaît ce droit à la confidentialité."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "La séparation entre informations administratives et données réservées aux professionnels protège particulièrement son histoire corporelle et médicale."
+        },
+        "P09": {
+          "decision": "advance",
+          "explanation": "Elle garde le contrôle sur les personnes pouvant accéder à des informations privées. La procédure évite qu’une donnée soit automatiquement communiquée à sa famille."
+        }
+      }
+    },
+    {
+      "id": "N13",
+      "modeId": "ordinary-norms",
+      "title": "L’organisation préparée en privé",
+      "playerText": "Avant un séjour scolaire, un adulte présente individuellement aux élèves l’organisation prévue pour :\n• les chambres ;\n• les douches ;\n• les vestiaires.\nIl demande à chacun si cette organisation lui convient. Une adaptation peut être demandée sans avoir à se justifier devant la classe.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Situation protectrice fixe",
+      "subfamily": "Protection organisationnelle",
+      "mechanism": "Prévention institutionnelle et possibilité ordinaire d’adaptation.",
+      "interpretation": "L’adaptation est anticipée, proposée à tout le monde et traitée confidentiellement. La personne n’a pas besoin d’attendre un incident ni de révéler publiquement sa situation.",
+      "vigilance": "Cette carte est toujours présente. L’adulte ne demande pas aux élèves de déclarer une identité ou un motif médical : il ouvre une possibilité d’ajustement pour tous.",
+      "mandatory": true,
+      "protective": true,
+      "effectsByCharacter": {
+        "P01": "advance",
+        "P02": "advance",
+        "P03": "advance",
+        "P04": "advance",
+        "P05": "advance",
+        "P06": "advance",
+        "P07": "advance",
+        "P08": "advance",
+        "P09": "advance"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "advance",
+          "explanation": "Il peut signaler confidentiellement ce qui lui convient sans expliquer sa transition devant le groupe. L’adaptation est proposée avant que le séjour ne crée un problème."
+        },
+        "P02": {
+          "decision": "advance",
+          "explanation": "Elle peut demander davantage d’intimité sans devoir révéler son orientation ou justifier une crainte liée au regard des autres filles."
+        },
+        "P03": {
+          "decision": "advance",
+          "explanation": "Iel n’est pas obligé de choisir publiquement entre une organisation pour filles et une organisation pour garçons. Une solution peut être construite en privé."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "Il peut accepter l’organisation ou demander davantage d’intimité comme n’importe quel élève. La possibilité d’adaptation n’est pas réservée à une identité particulière."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "La procédure ne crée pas de difficulté liée à sa famille et lui offre, comme aux autres, un espace confidentiel pour signaler un besoin éventuel."
+        },
+        "P06": {
+          "decision": "advance",
+          "explanation": "Il peut parler d’un inconfort dans les vestiaires ou les chambres sans devoir annoncer son orientation à la classe ou à ses coéquipiers."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "Elle peut demander un aménagement pour son intimité sans avoir à relier cette demande à son aromantisme ou à son asexualité."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "Elle peut protéger son intimité corporelle et demander une solution adaptée sans révéler publiquement son histoire médicale ou sa variation intersexe."
+        },
+        "P09": {
+          "decision": "advance",
+          "explanation": "Elle peut demander davantage d’intimité sans devoir expliquer sa bisexualité ni craindre que sa présence soit interprétée par les autres élèves."
+        }
+      }
+    }
+  ],
+  "rules": {
+    "modeId": "ordinary-norms",
+    "galleryId": "general",
+    "totalSituationCount": 10,
+    "variableSituationCount": 8,
+    "mandatorySituationIds": [
+      "N12",
+      "N13"
+    ],
+    "variableSituationIds": [
+      "N01",
+      "N02",
+      "N03",
+      "N04",
+      "N05",
+      "N06",
+      "N07",
+      "N08",
+      "N09",
+      "N10",
+      "N11"
+    ],
+    "requiredGroups": [
+      {
+        "id": "group-1",
+        "minimum": 1,
+        "situationIds": [
+          "N01",
+          "N02",
+          "N03"
+        ]
+      },
+      {
+        "id": "group-2",
+        "minimum": 1,
+        "situationIds": [
+          "N04",
+          "N05",
+          "N11"
+        ]
+      },
+      {
+        "id": "group-3",
+        "minimum": 1,
+        "situationIds": [
+          "N06",
+          "N07"
+        ]
+      },
+      {
+        "id": "group-4",
+        "minimum": 1,
+        "situationIds": [
+          "N08",
+          "N09",
+          "N10"
+        ]
+      }
+    ],
+    "limitedGroups": [
+      {
+        "id": "limit-1",
+        "situationIds": [
+          "N04",
+          "N05",
+          "N11"
+        ],
+        "maximum": 2
+      },
+      {
+        "id": "limit-2",
+        "situationIds": [
+          "N08",
+          "N09",
+          "N10"
+        ],
+        "maximum": 2
+      }
+    ],
+    "characterRequirements": {},
+    "variableObstacleRangePerCharacter": {
+      "minimum": 1,
+      "maximum": 7
+    }
+  },
+  "selectionStatistics": {
+    "examinedCount": 165,
+    "thematicCount": 63,
+    "validForAllCharactersCount": 60,
+    "validCountsByCharacter": {
+      "P01": 63,
+      "P02": 63,
+      "P03": 63,
+      "P04": 60,
+      "P05": 63,
+      "P06": 63,
+      "P07": 63,
+      "P08": 63,
+      "P09": 63
+    }
+  }
+}

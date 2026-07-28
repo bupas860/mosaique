@@ -1,55 +1,25 @@
-# Pipeline éditorial V2
+# Chaîne éditoriale V2
 
-Les sources canoniques sont exclusivement :
+Les sept fichiers Markdown déclarés dans `editorial-config.mjs` sont les seules
+sources éditoriales. Les fichiers DOCX et les rapports d’audit ne sont jamais
+lus par l’import.
 
-- `docs/editorial-v2/010_Galerie_des_personnages_V2.md` ;
-- `docs/editorial-v2/100_Mode_Obstacles_visibles_V1.md`.
+- `editorial-config.mjs` centralise galeries, modes, préfixes, cardinalités,
+  protections et règles de sélection.
+- `parse-editorial-v2.mjs` contient le parseur commun des galeries, matrices,
+  fiches et feedbacks.
+- `validate-editorial-v2.mjs` contrôle les structures, références, décisions,
+  protections et valeurs combinatoires.
+- `selection-analysis.mjs` effectue les audits exhaustifs locaux et agrège les
+  signatures du mode Découverte sans matérialiser ses millions de lots.
+- `import-editorial-v2.mjs` écrit atomiquement et de façon déterministe
+  `src/data/generated-v2/`.
+- `check-visible-obstacles-selection.mjs` conserve le nom historique de la
+  commande npm mais contrôle désormais les cinq modes.
+- `check-runtime-v2.mjs` vérifie les nouvelles banques générées et la frontière
+  runtime existante d’Obstacles visibles.
 
-Valider les sources avec :
-
-```bash
-npm run editorial:validate
-```
-
-Générer les données V2 validées avec :
-
-```bash
-npm run editorial:import
-```
-
-Cette commande génère :
-
-- `src/data/generated-v2/characters.json` ;
-- `src/data/generated-v2/modes/visible-obstacles.situations.json` ;
-- `src/data/generated-v2/modes/visible-obstacles.matrix.json` ;
-- `src/data/generated-v2/modes/visible-obstacles.feedbacks.json` ;
-- `src/data/generated-v2/modes/visible-obstacles.rules.json` ;
-- `src/data/generated-v2/modes/visible-obstacles.manifest.json`.
-
-Le parseur charge en mémoire les personnages, les situations, la matrice, les feedbacks individualisés et les règles de sélection. Le validateur contrôle leur complétude, leur cohérence, les totaux attendus et les 1 123 combinaisons de tirage valides.
-
-Les JSON générés sont déterministes et ne doivent pas être édités manuellement. Ils ne sont pas encore consommés par l’application. Les JSON historiques et l’ancien pipeline `scripts/import-editorial-data.mjs` restent inchangés.
-
-## Moteur de sélection Obstacles visibles
-
-Le moteur sélectionne huit situations variables et ajoute les deux situations obligatoires V09 et V10. Il énumère les 3 003 combinaisons possibles, met en cache les 1 123 combinaisons valides, puis choisit et mélange un lot grâce à une fonction aléatoire injectable.
-
-Le vérifier avec :
-
-```bash
-npm run editorial:check-selection
-```
-
-Le moteur reste indépendant de React et n’est pas encore connecté à l’application.
-
-## Banque runtime V2
-
-La banque runtime associe les données éditoriales validées à une configuration technique séparée pour les couleurs et les placeholders. Elle conserve les mouvements sous la forme explicite `advance`/`stay` et construit les lots de dix situations via le moteur de sélection existant.
-
-La vérifier avec :
-
-```bash
-npm run editorial:check-runtime
-```
-
-Cette banque n’est pas encore connectée aux pages React.
+Les anciens fichiers `characters.json` et
+`modes/visible-obstacles.*.json` restent générés comme couche de compatibilité
+pour le runtime actuellement actif. Les quatre nouveaux modes ne sont pas
+encore branchés aux pages React.

@@ -1,109 +1,131 @@
 import { pathToFileURL } from "node:url";
-import { parseEditorialV2 } from "./parse-editorial-v2.mjs";
 
-export const EXPECTED_CHARACTERS = { P01: "Noé", P02: "Jade", P03: "Sam", P04: "Arthur", P05: "Sofia", P06: "Mehdi", P07: "Camille", P08: "Lou", P09: "Inès" };
-export const EXPECTED_STAY_TOTALS = { P01: 9, P02: 9, P03: 12, P04: 9, P05: 5, P06: 8, P07: 4, P08: 5, P09: 10 };
-const CHARACTER_IDS = Object.keys(EXPECTED_CHARACTERS);
-const SITUATION_IDS = Array.from({ length: 16 }, (_, index) => `V${String(index + 1).padStart(2, "0")}`);
-const MANDATORY_IDS = ["V09", "V10"];
+import { GALLERIES, MODES } from "./editorial-config.mjs";
+import { parseEditorialV2 } from "./parse-editorial-v2.mjs";
+import { assertSelectionReferences } from "./selection-analysis.mjs";
+
 const VALID_DECISIONS = new Set(["advance", "stay"]);
 const sameSet = (actual, expected) => actual.length === expected.length && expected.every((value) => actual.includes(value));
-const combinations = (items, size, start = 0, prefix = [], result = []) => {
-  if (prefix.length === size) result.push(prefix);
-  else for (let index = start; index <= items.length - (size - prefix.length); index += 1) combinations(items, size, index + 1, [...prefix, items[index]], result);
-  return result;
-};
 
 export function validateEditorialV2(data, options = {}) {
   const errors = [];
-  const error = (message) => errors.push(message);
-  const expectedTotals = options.expectedStayTotals ?? EXPECTED_STAY_TOTALS;
-  const { characters = [], mode = {} } = data ?? {};
-  const { situations = [], matrix = {}, feedbacks = [], selectionRules = {} } = mode;
+  const error = (file, mode, situation, character, rule) => {
+    errors.push([file, mode && `mode ${mode}`, situation && `situation ${situation}`, character && `personnage ${character}`, rule].filter(Boolean).join(" — "));
+  };
 
-  if (characters.length !== 9) error(`Personnages : 9 attendus, ${characters.length} trouvés`);
-  const characterIds = characters.map((item) => item.id);
-  if (!sameSet(characterIds, CHARACTER_IDS)) error(`Personnages : identifiants attendus ${CHARACTER_IDS.join(", ")}, trouvés ${characterIds.join(", ")}`);
-  if (new Set(characterIds).size !== characterIds.length) error("Personnages : identifiant dupliqué");
-  const names = characters.map((item) => item.name);
-  if (new Set(names).size !== names.length) error("Personnages : prénom dupliqué");
-  for (const character of characters) {
-    if (EXPECTED_CHARACTERS[character.id] !== character.name) error(`${character.id} : prénom attendu « ${EXPECTED_CHARACTERS[character.id]} », trouvé « ${character.name} »`);
-    if (!Number.isFinite(character.age)) error(`${character.id} : âge absent ou non numérique`);
-    if (!character.schoolLevel) error(`${character.id} : classe absente`);
-    if (!character.genderIdentity) error(`${character.id} : identité de genre absente`);
-    if (!character.presentation?.trim()) error(`${character.id} : présentation vide`);
-    if (!character.gamePoints?.length) error(`${character.id} : aucun point important pour le jeu`);
-    const expectedPronouns = character.id === "P03" ? ["iel"] : [];
-    if (JSON.stringify(character.pronouns) !== JSON.stringify(expectedPronouns)) error(`${character.id} : pronoms attendus ${JSON.stringify(expectedPronouns)}, trouvés ${JSON.stringify(character.pronouns)}`);
+  const allGalleryIds = [];
+  for (const [galleryId, config] of Object.entries(GALLERIES)) {
+    const gallery = data?.galleries?.[galleryId];
+    const file = config.sourceFile;
+    if (!gallery) {
+      error(file, undefined, undefined, undefined, "galerie absente");
+      continue;
+    }
+    if (gallery.documentId !== config.documentId) error(file, undefined, undefined, undefined, `document_id attendu ${config.documentId}, trouvé ${gallery.documentId}`);
+    const characters = gallery.characters ?? [];
+    if (characters.length !== config.count) error(file, undefined, undefined, undefined, `${config.count} personnages attendus, ${characters.length} trouvés`);
+    const ids = characters.map(({ id }) => id);
+    if (!sameSet(ids, config.characterIds)) error(file, undefined, undefined, undefined, `identifiants attendus ${config.characterIds.join(", ")}, trouvés ${ids.join(", ")}`);
+    if (new Set(ids).size !== ids.length) error(file, undefined, undefined, undefined, "identifiant de personnage dupliqué");
+    allGalleryIds.push(...ids);
+    for (const character of characters) {
+      if (!character.name?.trim()) error(file, undefined, undefined, character.id, "prénom absent");
+      if (!Number.isInteger(character.age) || character.age <= 0) error(file, undefined, undefined, character.id, "âge absent ou invalide");
+      if (!character.schoolLevel?.trim()) error(file, undefined, undefined, character.id, "classe absente");
+      if (!Array.isArray(character.pronouns)) error(file, undefined, undefined, character.id, "champ pronouns absent");
+      if (galleryId === "general") {
+        if (!character.genderIdentity?.trim()) error(file, undefined, undefined, character.id, "identité de genre absente");
+        if (!character.presentation?.trim()) error(file, undefined, undefined, character.id, "présentation absente");
+        if (!character.gamePoints?.length) error(file, undefined, undefined, character.id, "points de jeu absents");
+      } else if (!character.profile?.trim()) error(file, undefined, undefined, character.id, "profil absent");
+    }
+    const explicitPronounId = galleryId === "general" ? "P03" : "XP04";
+    const explicit = characters.find(({ id }) => id === explicitPronounId);
+    if (JSON.stringify(explicit?.pronouns) !== JSON.stringify(["iel"])) error(file, undefined, undefined, explicitPronounId, "le pronom explicite iel doit être conservé");
+  }
+  if (new Set(allGalleryIds).size !== allGalleryIds.length) error("galeries V2", undefined, undefined, undefined, "collision d’identifiants entre Pxx et XPxx");
+
+  let totalSituations = 0;
+  let totalDecisions = 0;
+  let totalFeedbacks = 0;
+  for (const [modeId, config] of Object.entries(MODES)) {
+    const mode = data?.modes?.[modeId];
+    const file = config.sourceFile;
+    if (!mode) {
+      error(file, modeId, undefined, undefined, "banque absente");
+      continue;
+    }
+    if (mode.documentId !== config.documentId) error(file, modeId, undefined, undefined, `document_id attendu ${config.documentId}, trouvé ${mode.documentId}`);
+    if (mode.declaredModeId !== modeId) error(file, modeId, undefined, undefined, `mode_id attendu ${modeId}, trouvé ${mode.declaredModeId}`);
+    if (mode.galleryId !== config.galleryId) error(file, modeId, undefined, undefined, `galerie attendue ${config.galleryId}, trouvée ${mode.galleryId}`);
+    const characters = GALLERIES[config.galleryId].characterIds;
+    if (modeId === "discovery") {
+      if (mode.situations.length !== 0 || mode.declaredSituationCount !== 0) error(file, modeId, undefined, undefined, "Découverte ne doit contenir aucune situation propre");
+      if (mode.rules.intersectionalIncluded !== false) error(file, modeId, undefined, undefined, "Intersectionnalités doit être exclu");
+      if (JSON.stringify(mode.rules.quotas) !== JSON.stringify(config.quotas)) error(file, modeId, undefined, undefined, "quotas 3 V / 3 N / 4 I non conformes");
+      if (mode.rules.protectiveCount !== 2) error(file, modeId, undefined, undefined, "exactement deux protections attendues");
+      for (const reference of mode.references) {
+        if (!config.sourceModes.includes(reference.originMode)) error(file, modeId, reference.id, undefined, `originMode interdit : ${reference.originMode}`);
+        if (/^X/.test(reference.id)) error(file, modeId, reference.id, undefined, "une carte X ne peut pas être référencée");
+        if (!MODES[reference.originMode]?.situationIds.includes(reference.id)) error(file, modeId, reference.id, undefined, "référence inconnue dans le mode source");
+      }
+      continue;
+    }
+    const situations = mode.situations ?? [];
+    totalSituations += situations.length;
+    if (situations.length !== config.situationCount || mode.declaredSituationCount !== config.situationCount) error(file, modeId, undefined, undefined, `${config.situationCount} situations attendues`);
+    if (mode.declaredCharacterCount !== characters.length) error(file, modeId, undefined, undefined, `${characters.length} personnages attendus dans le front matter`);
+    if (mode.declaredFeedbackCount !== config.feedbackCount) error(file, modeId, undefined, undefined, `${config.feedbackCount} feedbacks attendus dans le front matter`);
+    const ids = situations.map(({ id }) => id);
+    if (!sameSet(ids, config.situationIds)) error(file, modeId, undefined, undefined, `identifiants attendus ${config.situationIds.join(", ")}`);
+    if (new Set(ids).size !== ids.length) error(file, modeId, undefined, undefined, "identifiant de situation dupliqué");
+    let modeFeedbackCount = 0;
+    for (const situation of situations) {
+      if (!situation.id.startsWith(config.prefix)) error(file, modeId, situation.id, undefined, `préfixe ${config.prefix} attendu`);
+      if (situation.modeId !== modeId) error(file, modeId, situation.id, undefined, `modeId de situation divergent : ${situation.modeId}`);
+      for (const field of ["title", "playerText", "sceneType", "mechanism"]) if (!situation[field]?.trim()) error(file, modeId, situation.id, undefined, `champ ${field} absent`);
+      if (modeId === "intersectionalities" && !situation.intersectionalTest?.trim()) error(file, modeId, situation.id, undefined, "test intersectionnel absent");
+      if (modeId !== "intersectionalities" && !situation.vigilance?.trim()) error(file, modeId, situation.id, undefined, "point de vigilance absent");
+      const expectedMandatory = config.mandatoryIds.includes(situation.id);
+      if (situation.mandatory !== expectedMandatory || situation.protective !== expectedMandatory) error(file, modeId, situation.id, undefined, `mandatory/protective doit valoir ${expectedMandatory}`);
+      const decisionIds = Object.keys(situation.effectsByCharacter ?? {});
+      if (!sameSet(decisionIds, characters)) error(file, modeId, situation.id, undefined, "décisions absentes ou personnages étrangers");
+      const feedbackIds = Object.keys(situation.feedbacksByCharacter ?? {});
+      if (!sameSet(feedbackIds, characters)) error(file, modeId, situation.id, undefined, "feedbacks absents ou personnages étrangers");
+      totalDecisions += decisionIds.length;
+      modeFeedbackCount += feedbackIds.length;
+      for (const characterId of characters) {
+        const decision = situation.effectsByCharacter?.[characterId];
+        const feedback = situation.feedbacksByCharacter?.[characterId];
+        if (!VALID_DECISIONS.has(decision)) error(file, modeId, situation.id, characterId, `décision invalide : ${decision}`);
+        if (!feedback?.explanation?.trim()) error(file, modeId, situation.id, characterId, "feedback absent ou vide");
+        if (feedback?.decision !== decision) error(file, modeId, situation.id, characterId, `feedback ${feedback?.decision ?? "absent"} divergent de la matrice ${decision ?? "absente"}`);
+        if (expectedMandatory && decision !== "advance") error(file, modeId, situation.id, characterId, "une protection fixe doit faire avancer tous les personnages");
+      }
+    }
+    totalFeedbacks += modeFeedbackCount;
+    if (modeFeedbackCount !== config.feedbackCount) error(file, modeId, undefined, undefined, `${config.feedbackCount} feedbacks attendus, ${modeFeedbackCount} trouvés`);
+    if (!sameSet(mode.rules.mandatorySituationIds, config.mandatoryIds)) error(file, modeId, undefined, undefined, `protections fixes attendues ${config.mandatoryIds.join(", ")}`);
   }
 
-  if (situations.length !== 16) error(`Situations : 16 attendues, ${situations.length} trouvées`);
-  const situationIds = situations.map((item) => item.id);
-  if (!sameSet(situationIds, SITUATION_IDS)) error(`Situations : identifiants attendus ${SITUATION_IDS.join(", ")}, trouvés ${situationIds.join(", ")}`);
-  if (new Set(situationIds).size !== situationIds.length) error("Situations : identifiant dupliqué");
-  for (const situation of situations) {
-    for (const [field, label] of [["title", "titre"], ["sceneType", "type de scène"], ["subfamily", "sous-famille"], ["text", "texte"], ["question", "question"], ["mechanism", "mécanisme"], ["caution", "point de vigilance"]]) if (!situation[field]?.trim()) error(`${situation.id} : ${label} absent`);
-    const shouldBeMandatory = MANDATORY_IDS.includes(situation.id);
-    if (situation.mandatory !== shouldBeMandatory) error(`${situation.id} : mandatory devrait valoir ${shouldBeMandatory}`);
+  let selection;
+  if (errors.length === 0 && options.checkSelections !== false) {
+    selection = assertSelectionReferences(data);
+    for (const message of selection.errors) error("sélection V2", undefined, undefined, undefined, message);
   }
-
-  const matrixIds = Object.keys(matrix);
-  if (matrixIds.length !== 16) error(`Matrice : 16 lignes attendues, ${matrixIds.length} trouvées`);
-  if (!sameSet(matrixIds, SITUATION_IDS)) error("Matrice : situations manquantes ou supplémentaires");
-  let decisionCount = 0;
-  for (const situationId of matrixIds) {
-    const rowIds = Object.keys(matrix[situationId] ?? {});
-    decisionCount += rowIds.length;
-    if (!sameSet(rowIds, CHARACTER_IDS)) error(`Matrice ${situationId} : personnages manquants ou supplémentaires`);
-    for (const characterId of rowIds) if (!VALID_DECISIONS.has(matrix[situationId][characterId])) error(`Matrice ${situationId}/${characterId} : décision « ${matrix[situationId][characterId]} » invalide`);
-  }
-  if (decisionCount !== 144) error(`Matrice : 144 décisions attendues, ${decisionCount} trouvées`);
-
-  if (feedbacks.length !== 144) error(`Feedbacks : 144 attendus, ${feedbacks.length} trouvés`);
-  const feedbackKeys = new Set();
-  for (const feedback of feedbacks) {
-    const key = `${feedback.situationId}/${feedback.characterId}`;
-    if (feedbackKeys.has(key)) error(`Feedback dupliqué : ${key}`);
-    feedbackKeys.add(key);
-    if (!feedback.explanation?.trim()) error(`Feedback ${key} : explication vide`);
-    if (!VALID_DECISIONS.has(feedback.decision)) error(`Feedback ${key} : décision « ${feedback.decision} » invalide`);
-    const matrixDecision = matrix[feedback.situationId]?.[feedback.characterId];
-    if (matrixDecision !== feedback.decision) error(`Divergence ${feedback.situationId} / ${feedback.characterId} :\n- matrice : ${matrixDecision ?? "absente"}\n- feedback : ${feedback.decision}`);
-  }
-  for (const situationId of SITUATION_IDS) for (const characterId of CHARACTER_IDS) if (!feedbackKeys.has(`${situationId}/${characterId}`)) error(`Feedback manquant : ${situationId}/${characterId}`);
-
-  for (const situationId of MANDATORY_IDS) {
-    if (!situations.find((item) => item.id === situationId)?.mandatory) error(`${situationId} doit être obligatoire`);
-    for (const characterId of CHARACTER_IDS) if (matrix[situationId]?.[characterId] !== "advance") error(`${situationId}/${characterId} doit être advance`);
-  }
-  for (const characterId of CHARACTER_IDS) {
-    const actual = SITUATION_IDS.filter((situationId) => matrix[situationId]?.[characterId] === "stay").length;
-    if (actual !== expectedTotals[characterId]) error(`Total stay ${characterId} ${EXPECTED_CHARACTERS[characterId]} : ${expectedTotals[characterId]} attendu, ${actual} trouvé`);
-  }
-
-  if (selectionRules.totalSituationCount !== 10) error("Règles : totalSituationCount doit valoir 10");
-  if (selectionRules.variableSituationCount !== 8) error("Règles : variableSituationCount doit valoir 8");
-  if (!sameSet(selectionRules.mandatorySituationIds ?? [], MANDATORY_IDS)) error("Règles : situations obligatoires attendues V09, V10");
-  const expectedGroups = [["V01", "V02"], ["V03", "V04", "V12"], ["V05", "V13", "V14", "V15"], ["V06", "V07"]];
-  if (JSON.stringify(selectionRules.requiredGroups) !== JSON.stringify(expectedGroups)) error("Règles : groupes requis inattendus");
-  if (!sameSet(selectionRules.limitedGroup?.situationIds ?? [], expectedGroups[2]) || selectionRules.limitedGroup?.maximum !== 2) error("Règles : groupe limité inattendu");
-  if (selectionRules.variableObstacleRangePerCharacter?.minimum !== 1 || selectionRules.variableObstacleRangePerCharacter?.maximum !== 7) error("Règles : plage d’obstacles variable attendue 1 à 7");
-
-  const variableIds = SITUATION_IDS.filter((id) => !MANDATORY_IDS.includes(id));
-  const validCombinationCount = combinations(variableIds, 8).filter((candidate) => {
-    const unique = new Set(candidate);
-    if (unique.size !== 8) return false;
-    if (!expectedGroups.every((group) => group.some((id) => unique.has(id)))) return false;
-    if (expectedGroups[2].filter((id) => unique.has(id)).length > 2) return false;
-    return CHARACTER_IDS.every((characterId) => {
-      const stays = candidate.filter((id) => matrix[id]?.[characterId] === "stay").length;
-      return stays >= 1 && stays <= 7;
-    });
-  }).length;
-  if (validCombinationCount !== 1123) error(`Combinaisons valides : 1123 attendues, ${validCombinationCount} trouvées`);
-
-  return { valid: errors.length === 0, errors, summary: { characterCount: characters.length, situationCount: situations.length, decisionCount, feedbackCount: feedbacks.length, validCombinationCount } };
+  return {
+    valid: errors.length === 0,
+    errors,
+    summary: {
+      galleryCount: Object.keys(data?.galleries ?? {}).length,
+      characterCount: Object.values(data?.galleries ?? {}).reduce((count, gallery) => count + gallery.characters.length, 0),
+      modeCount: Object.keys(data?.modes ?? {}).length,
+      situationCount: totalSituations,
+      decisionCount: totalDecisions,
+      feedbackCount: totalFeedbacks,
+      selection: selection?.analyses,
+    },
+  };
 }
 
 function main() {
@@ -115,10 +137,16 @@ function main() {
       process.exitCode = 1;
       return;
     }
-    console.log(`Validation éditoriale V2 réussie\n\nPersonnages : ${result.summary.characterCount}\nSituations : ${result.summary.situationCount}\nDécisions : ${result.summary.decisionCount}\nFeedbacks : ${result.summary.feedbackCount}\nSituations obligatoires : V09, V10\nCombinaisons valides : ${result.summary.validCombinationCount}\nTotaux d’obstacles : conformes\nMatrice et feedbacks : concordants`);
+    console.log("Validation éditoriale V2 réussie");
+    console.log(`Galeries : ${result.summary.galleryCount} (${result.summary.characterCount} personnages)`);
+    console.log(`Modes : ${result.summary.modeCount}`);
+    console.log(`Banques détaillées : ${result.summary.situationCount} situations, ${result.summary.decisionCount} décisions, ${result.summary.feedbackCount} feedbacks`);
+    console.log("Matrices, feedbacks, protections et références Découverte : conformes");
+    console.log("Contrôles combinatoires de référence : conformes");
   } catch (cause) {
     console.error(`Validation éditoriale V2 impossible : ${cause instanceof Error ? cause.message : String(cause)}`);
     process.exitCode = 1;
   }
 }
+
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main();

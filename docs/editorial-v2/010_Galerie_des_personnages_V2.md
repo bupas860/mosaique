@@ -1,7 +1,7 @@
 ---
 document_id: mosaique-gallery-characters-v2
-version: "2.0"
-status: frozen-for-visible-obstacles-v1
+version: "2.1"
+status: frozen-for-general-modes-v1
 character_count: 9
 source: "0_Galerie Personnage.docx"
 ---
@@ -43,13 +43,14 @@ Il ne souhaite pas que cette information soit révélée à ses camarades ou dan
 
 ### Présentation
 
-Jade aime la photographie et participe au journal du lycée. Quelques amis connaissent son orientation, mais elle n’en a pas parlé à sa famille et ne souhaite pas être identifiée publiquement comme lesbienne.
+Jade aime la photographie et participe au journal du lycée. Elle est en couple avec une fille d’une autre classe. Quelques amis connaissent son orientation et sa relation, mais elle n’en a pas parlé à sa famille et ne souhaite pas être identifiée publiquement comme lesbienne.
 
 Elle apprécie de pouvoir parler naturellement de sa vie, mais choisit les personnes auxquelles elle donne des informations personnelles.
 
 ### Points importants pour le jeu
 
-- lesbianité non connue de tous ;
+- lesbianité et relation non connues de tous ;
+- relation avec une fille d’une autre classe ;
 - contrôle du dévoilement ;
 - présomption d’hétérosexualité ;
 - peur d’être considérée comme attirée par toutes les filles ;
@@ -139,13 +140,14 @@ Elle n’est pas LGBT, mais elle peut être directement touchée par des propos 
 
 ### Présentation
 
-Mehdi joue au football dans l’équipe du lycée. Ses parents et ses amis les plus proches connaissent son orientation et le soutiennent. Il n’en a pas parlé à ses coéquipiers, auprès desquels les insultes homophobes sont régulièrement présentées comme des plaisanteries ou du folklore sportif.
+Mehdi joue au football dans l’équipe du lycée et fréquente un garçon. Ses parents et ses amis les plus proches connaissent son orientation et le soutiennent. Il n’en a pas parlé à ses coéquipiers, auprès desquels les insultes homophobes sont régulièrement présentées comme des plaisanteries ou du folklore sportif.
 
 Il ne souhaite pas cacher toute sa vie affective, mais il évalue les contextes avant d’en parler.
 
 ### Points importants pour le jeu
 
 - homosexualité ;
+- relation avec un garçon ;
 - football et normes de virilité ;
 - contrôle du dévoilement ;
 - insultes banalisées ;
