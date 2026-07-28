@@ -9,6 +9,9 @@ const entry = join(temporaryRoot, "check.ts");
 const output = join(temporaryRoot, "dist");
 const legacyRuntimePath = join(root, "src/data/v2/index.ts");
 const commonRuntimePath = join(root, "src/data/v2/runtimeIndexV2.ts");
+const activeRuntimePath = join(root, "src/data/v2/activeModesRuntimeV2.ts");
+const gameModesPath = join(root, "src/data/gameModes.ts");
+const personalizePath = join(root, "src/utils/personalizePlayerText.ts");
 
 const generatedRoot = join(root, "src/data/generated-v2");
 const readJson = (relativePath) => JSON.parse(readFileSync(join(generatedRoot, relativePath), "utf8"));
@@ -42,6 +45,11 @@ import {
   movementDecisionToStep,
   visibleObstaclesRuntimeBank,
 } from ${JSON.stringify(legacyRuntimePath)};
+import {
+  createActiveGameSet,
+} from ${JSON.stringify(activeRuntimePath)};
+import { gameModes } from ${JSON.stringify(gameModesPath)};
+import { personalizePlayerText } from ${JSON.stringify(personalizePath)};
 import type {
   EditorialCharacterIdV2,
   EditorialModeIdV2,
@@ -161,6 +169,36 @@ for (const modeId of modes) {
   }
 }
 
+const availableModes = gameModes.filter(({ available }) => available).map(({ id }) => id);
+assert(JSON.stringify(availableModes) === JSON.stringify(["visible-obstacles", "ordinary-norms"]), "modes disponibles dans l’interface invalides");
+assert(gameModes.find(({ id }) => id === "ordinary-norms")?.description === "Repérez comment des procédures, des catégories ou des organisations habituelles peuvent créer des obstacles sans intention explicite de discriminer.", "description Normes ordinaires invalide");
+for (const characterId of generalIds) {
+  const random = createSeededRuntimeRandom(20260728);
+  for (const modeId of ["visible-obstacles", "ordinary-norms"] as const) {
+    const first = createActiveGameSet(modeId, characterId, random);
+    const replay = createActiveGameSet(modeId, characterId, random);
+    validateGame(first);
+    validateGame(replay);
+    if (modeId === "ordinary-norms") {
+      assert(first.situationIds.every((id) => id.startsWith("N")), "parcours actif Normes ordinaires : préfixe étranger");
+      assert(first.situationIds.includes("N12") && first.situationIds.includes("N13"), "parcours actif Normes ordinaires : protections absentes");
+    }
+    const characterName = getPlayableCharacterV2(characterId).name;
+    for (const situation of first.situations) {
+      const displayed = [
+        situation.title,
+        situation.text,
+        situation.question,
+        situation.feedback.explanation,
+        situation.mechanism,
+        situation.interpretation ?? "",
+        situation.vigilance ?? "",
+      ].map((text) => personalizePlayerText(text, characterName));
+      assert(displayed.every((text) => !text.includes("[Prénom]")), modeId + "/" + situation.id + " : marqueur prénom encore affiché");
+    }
+  }
+}
+
 let rejectedWrongGallery = false;
 try { createGameSet({ modeId: "intersectionalities", characterId: "P02", random: () => 0.5 }); } catch { rejectedWrongGallery = true; }
 assert(rejectedWrongGallery, "personnage de la galerie générale accepté en Intersectionnalités");
@@ -187,6 +225,7 @@ console.log("Deux galeries strictement séparées par identifiant : oui");
 console.log("Découverte : quotas, protections, obstacles, contraintes et ordre conformes");
 console.log("Obstacles visibles historique : API et résultats de référence préservés");
 console.log("Valeurs aléatoires invalides rejetées pour les cinq modes");
+console.log("Parcours actif : 9 personnages, V/N uniquement, personnalisation complète et rejeu valides");
 `;
 
 try {

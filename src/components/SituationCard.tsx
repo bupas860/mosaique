@@ -1,8 +1,8 @@
 import type { MovementDecision } from "../types/editorialV2";
-import type { PlayableVisibleObstacleSituation } from "../types/runtimeV2";
+import type { RuntimeSituationV2 } from "../types/runtimeV2";
 import { personalizePlayerText } from "../utils/personalizePlayerText";
 import Illustration from "./Illustration";
-interface Props { situation: PlayableVisibleObstacleSituation; characterName: string; disabled?: boolean; showChoices?: boolean; onDecision: (decision: MovementDecision) => void; }
+interface Props { situation: RuntimeSituationV2; characterName: string; disabled?: boolean; showChoices?: boolean; onDecision: (decision: MovementDecision) => void; }
 export default function SituationCard({ situation, characterName, disabled = false, showChoices = true, onDecision }: Props) {
   const title = personalizePlayerText(situation.title, characterName);
   const text = personalizePlayerText(situation.text, characterName);
