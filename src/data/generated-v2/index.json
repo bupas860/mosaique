@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "sourceFiles": [
+    "docs/editorial-v2/010_Galerie_des_personnages_V2.md",
+    "docs/editorial-v2/015_Galerie_Intersectionnalites_V1.md",
+    "docs/editorial-v2/100_Mode_Obstacles_visibles_V1.md",
+    "docs/editorial-v2/110_Mode_Normes_ordinaires_V1.md",
+    "docs/editorial-v2/120_Mode_Effets_invisibles_V1.md",
+    "docs/editorial-v2/130_Mode_Intersectionnalites_V1.md",
+    "docs/editorial-v2/140_Mode_Decouverte_V1.md"
+  ],
+  "galleries": {
+    "general": "galleries/general.json",
+    "intersectional": "galleries/intersectional.json"
+  },
+  "modes": {
+    "visible-obstacles": "modes/visible-obstacles.json",
+    "ordinary-norms": "modes/ordinary-norms.json",
+    "invisible-effects": "modes/invisible-effects.json",
+    "intersectionalities": "modes/intersectionalities.json",
+    "discovery": "modes/discovery.json"
+  }
+}

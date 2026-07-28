@@ -1,0 +1,78 @@
+{
+  "modeId": "visible-obstacles",
+  "totalSituationCount": 10,
+  "variableSituationCount": 8,
+  "mandatorySituationIds": [
+    "V09",
+    "V10"
+  ],
+  "variableSituationIds": [
+    "V01",
+    "V02",
+    "V03",
+    "V04",
+    "V05",
+    "V06",
+    "V07",
+    "V08",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15",
+    "V16"
+  ],
+  "requiredGroups": [
+    {
+      "id": "collective-trivialization",
+      "minimum": 1,
+      "situationIds": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "id": "gender-expression-recognition",
+      "minimum": 1,
+      "situationIds": [
+        "V03",
+        "V04",
+        "V12"
+      ]
+    },
+    {
+      "id": "outing-surveillance-rumor-digital",
+      "minimum": 1,
+      "situationIds": [
+        "V05",
+        "V13",
+        "V14",
+        "V15"
+      ]
+    },
+    {
+      "id": "aromantic-asexual-bisexual-pansexual",
+      "minimum": 1,
+      "situationIds": [
+        "V06",
+        "V07"
+      ]
+    }
+  ],
+  "limitedGroups": [
+    {
+      "id": "outing-surveillance-rumor-digital",
+      "maximum": 2,
+      "situationIds": [
+        "V05",
+        "V13",
+        "V14",
+        "V15"
+      ]
+    }
+  ],
+  "variableObstacleRangePerCharacter": {
+    "minimum": 1,
+    "maximum": 7
+  }
+}

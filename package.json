@@ -4,6 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "editorial:check-runtime": "node scripts/editorial-v2/check-runtime-v2.mjs",
+    "editorial:check-selection": "node scripts/editorial-v2/check-visible-obstacles-selection.mjs",
+    "editorial:import": "node scripts/editorial-v2/import-editorial-v2.mjs",
+    "editorial:validate": "node scripts/editorial-v2/validate-editorial-v2.mjs",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",

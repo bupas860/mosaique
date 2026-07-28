@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 2,
+  "modeId": "discovery",
+  "bankType": "transversal",
+  "documentId": "mosaique-mode-discovery-v1",
+  "sourceFile": "docs/editorial-v2/140_Mode_Decouverte_V1.md",
+  "galleryId": "general",
+  "situations": [],
+  "references": [
+    {
+      "id": "V01",
+      "originMode": "visible-obstacles"
+    },
+    {
+      "id": "V02",
+      "originMode": "visible-obstacles"
+    },
+    {
+      "id": "V03",
+      "originMode": "visible-obstacles"
+    },
+    {
+      "id": "V04",
+      "originMode": "visible-obstacles"
+    },
+    {
+      "id": "V05",
+      "originMode": "visible-obstacles"
+    },
+    {
+      "id": "V06",
+      "originMode": "visible-obstacles"
+    },
+    {
+      "id": "V07",
+      "originMode": "visible-obstacles"
+    },
+    {
+      "id": "V08",
+      "originMode": "visible-obstacles"
+    },
+    {
+      "id": "V09",
+      "originMode": "visible-obstacles"
+    },
+    {
+      "id": "V10",
+      "originMode": "visible-obstacles"
+    },
+    {
+      "id": "V11",
+      "originMode": "visible-obstacles"
+    },
+    {
+      "id": "V12",
+      "originMode": "visible-obstacles"
+    },
+    {
+      "id": "V13",
+      "originMode": "visible-obstacles"
+    },
+    {
+      "id": "V14",
+      "originMode": "visible-obstacles"
+    },
+    {
+      "id": "V15",
+      "originMode": "visible-obstacles"
+    },
+    {
+      "id": "V16",
+      "originMode": "visible-obstacles"
+    },
+    {
+      "id": "N01",
+      "originMode": "ordinary-norms"
+    },
+    {
+      "id": "N02",
+      "originMode": "ordinary-norms"
+    },
+    {
+      "id": "N03",
+      "originMode": "ordinary-norms"
+    },
+    {
+      "id": "N04",
+      "originMode": "ordinary-norms"
+    },
+    {
+      "id": "N05",
+      "originMode": "ordinary-norms"
+    },
+    {
+      "id": "N06",
+      "originMode": "ordinary-norms"
+    },
+    {
+      "id": "N07",
+      "originMode": "ordinary-norms"
+    },
+    {
+      "id": "N08",
+      "originMode": "ordinary-norms"
+    },
+    {
+      "id": "N09",
+      "originMode": "ordinary-norms"
+    },
+    {
+      "id": "N10",
+      "originMode": "ordinary-norms"
+    },
+    {
+      "id": "N11",
+      "originMode": "ordinary-norms"
+    },
+    {
+      "id": "N12",
+      "originMode": "ordinary-norms"
+    },
+    {
+      "id": "N13",
+      "originMode": "ordinary-norms"
+    },
+    {
+      "id": "I01",
+      "originMode": "invisible-effects"
+    },
+    {
+      "id": "I02",
+      "originMode": "invisible-effects"
+    },
+    {
+      "id": "I03",
+      "originMode": "invisible-effects"
+    },
+    {
+      "id": "I04",
+      "originMode": "invisible-effects"
+    },
+    {
+      "id": "I05",
+      "originMode": "invisible-effects"
+    },
+    {
+      "id": "I06",
+      "originMode": "invisible-effects"
+    },
+    {
+      "id": "I07",
+      "originMode": "invisible-effects"
+    },
+    {
+      "id": "I08",
+      "originMode": "invisible-effects"
+    },
+    {
+      "id": "I09",
+      "originMode": "invisible-effects"
+    },
+    {
+      "id": "I10",
+      "originMode": "invisible-effects"
+    },
+    {
+      "id": "I11",
+      "originMode": "invisible-effects"
+    },
+    {
+      "id": "I12",
+      "originMode": "invisible-effects"
+    },
+    {
+      "id": "I13",
+      "originMode": "invisible-effects"
+    },
+    {
+      "id": "I14",
+      "originMode": "invisible-effects"
+    },
+    {
+      "id": "I15",
+      "originMode": "invisible-effects"
+    },
+    {
+      "id": "I16",
+      "originMode": "invisible-effects"
+    }
+  ],
+  "rules": {
+    "modeId": "discovery",
+    "galleryId": "general",
+    "totalSituationCount": 10,
+    "quotas": {
+      "visible-obstacles": 3,
+      "ordinary-norms": 3,
+      "invisible-effects": 4
+    },
+    "sourceModes": [
+      "visible-obstacles",
+      "ordinary-norms",
+      "invisible-effects"
+    ],
+    "protectiveCount": 2,
+    "intersectionalIncluded": false,
+    "characterRequirements": {
+      "P04": {
+        "all": [
+          "I16"
+        ]
+      },
+      "P02": {
+        "any": [
+          "I12",
+          "I13"
+        ]
+      },
+      "P06": {
+        "any": [
+          "I12",
+          "I13"
+        ]
+      },
+      "P07": {
+        "all": [
+          "I13"
+        ]
+      }
+    },
+    "obstacleRangePerCharacter": {
+      "minimum": 3,
+      "maximum": 7
+    }
+  },
+  "validSelectionCountsByCharacter": {
+    "P01": 26247600,
+    "P02": 11309000,
+    "P03": 36676512,
+    "P04": 3538000,
+    "P05": 12479516,
+    "P06": 9022040,
+    "P07": 2931328,
+    "P08": 15324160,
+    "P09": 27302144
+  }
+}

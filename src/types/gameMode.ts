@@ -7,5 +7,6 @@ export interface GameMode {
   order: number;
   available: boolean;
   recommended?: boolean;
+  recommendedLabel?: string;
   situationBankId?: string;
 }

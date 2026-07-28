@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "modeId": "visible-obstacles",
+  "sourceFiles": [
+    "docs/editorial-v2/010_Galerie_des_personnages_V2.md",
+    "docs/editorial-v2/100_Mode_Obstacles_visibles_V1.md"
+  ],
+  "characterCount": 9,
+  "situationCount": 16,
+  "decisionCount": 144,
+  "feedbackCount": 144,
+  "validCombinationCount": 1123,
+  "files": {
+    "characters": "../characters.json",
+    "situations": "visible-obstacles.situations.json",
+    "matrix": "visible-obstacles.matrix.json",
+    "feedbacks": "visible-obstacles.feedbacks.json",
+    "rules": "visible-obstacles.rules.json"
+  }
+}

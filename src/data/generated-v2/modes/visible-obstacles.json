@@ -1,0 +1,1098 @@
+{
+  "schemaVersion": 2,
+  "modeId": "visible-obstacles",
+  "bankType": "standalone",
+  "documentId": "mosaique-mode-visible-obstacles-v1",
+  "sourceFile": "docs/editorial-v2/100_Mode_Obstacles_visibles_V1.md",
+  "galleryId": "general",
+  "situations": [
+    {
+      "id": "V01",
+      "modeId": "visible-obstacles",
+      "title": "Si tu bouges, tu es gay",
+      "playerText": "Dans la cour, plusieurs élèves lancent un jeu : « Si tu bouges, tu es gay. » Les élèves rient et essaient de rester immobiles. Lorsqu’une personne fait remarquer que le jeu est homophobe, on lui répond : « Mais c’est juste un jeu. »",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Scène de climat",
+      "subfamily": "Banalisation collective",
+      "mechanism": "Banalisation de l’homophobie par le jeu. L’homosexualité est utilisée comme sanction, honte ou motif de ridicule.",
+      "vigilance": "Le retour ne doit pas demander aux élèves de révéler leur orientation. Il doit montrer que le problème réside dans la règle du jeu elle-même.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "stay",
+        "P02": "stay",
+        "P03": "stay",
+        "P04": "stay",
+        "P05": "stay",
+        "P06": "stay",
+        "P07": "advance",
+        "P08": "advance",
+        "P09": "stay"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "stay",
+          "explanation": "Même hétérosexuel, Noé est exposé à une police de la masculinité. Pour un garçon trans, un jeu qui associe le fait d’être gay à une sanction peut renforcer la peur d’être jugé « pas assez garçon » ou d’être pris pour cible."
+        },
+        "P02": {
+          "decision": "stay",
+          "explanation": "Le jeu présente une orientation non hétérosexuelle comme quelque chose d’indésirable. Jade peut y entendre que son orientation doit rester cachée pour ne pas devenir un motif de ridicule."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "Sam appartient à une minorité sexuelle et de genre. Même si le mot utilisé est « gay », la plaisanterie installe un climat où les identités LGBTI+ servent de sanction sociale."
+        },
+        "P04": {
+          "decision": "stay",
+          "explanation": "Les goûts et l’expression de genre d’Arthur peuvent déjà conduire certains élèves à le supposer gay. Ce jeu peut servir à surveiller sa masculinité et à le rappeler à l’ordre."
+        },
+        "P05": {
+          "decision": "stay",
+          "explanation": "Le jeu dévalorise les relations entre personnes du même genre. Il peut atteindre Sofia indirectement en présentant la relation de ses deux mères comme honteuse ou risible."
+        },
+        "P06": {
+          "decision": "stay",
+          "explanation": "Mehdi est directement concerné : son orientation est utilisée comme une sanction. Le jeu lui rappelle que parler de sa vie affective peut l’exposer aux moqueries."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "Cette scène ne vise pas directement l’aromantisme ou l’asexualité de Camille et ne crée pas, dans son profil, de difficulté spécifique supplémentaire. Avancer ne signifie pas que le jeu est acceptable."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "La plaisanterie ne porte pas directement sur l’intersexuation de Lou et ne révèle aucune information la concernant. La scène reste homophobe, mais elle ne produit pas ici un obstacle spécifique pour elle."
+        },
+        "P09": {
+          "decision": "stay",
+          "explanation": "Le jeu présente toute orientation non hétérosexuelle comme une position dévalorisée. Il peut conforter Inès dans l’idée que sa bisexualité doit rester invisible."
+        }
+      }
+    },
+    {
+      "id": "V02",
+      "modeId": "visible-obstacles",
+      "title": "Le folklore du match",
+      "playerText": "Pendant un match organisé au lycée, des joueurs ou des supporters reprennent des insultes comme « enculé » ou « sale pédé ». Lorsqu’une personne proteste, quelqu’un répond : « Dans le foot, c’est comme ça. C’est du folklore. Il ne faut pas tout prendre au sérieux. »",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Scène de climat",
+      "subfamily": "Banalisation collective",
+      "mechanism": "Normalisation collective des insultes homophobes au nom d’une tradition sportive.",
+      "vigilance": "La carte ne cherche pas à présenter le sport comme intrinsèquement homophobe. Elle interroge la manière dont un groupe protège certaines pratiques en les qualifiant de folklore.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "stay",
+        "P02": "stay",
+        "P03": "stay",
+        "P04": "stay",
+        "P05": "stay",
+        "P06": "stay",
+        "P07": "advance",
+        "P08": "advance",
+        "P09": "stay"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "stay",
+          "explanation": "Dans un environnement sportif masculin, les insultes homophobes servent souvent à contrôler la virilité. Noé peut craindre que sa légitimité comme garçon soit elle aussi évaluée à travers ces codes."
+        },
+        "P02": {
+          "decision": "stay",
+          "explanation": "Même si l’insulte vise souvent les garçons, elle affirme publiquement que l’homosexualité est méprisable. Jade est exposée à un climat où son orientation peut devenir un motif d’hostilité."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "Le « folklore » sportif protège une culture de conformité sexuelle et de genre. Sam peut y percevoir que toute identité qui s’écarte des normes majoritaires est tolérée seulement si elle reste invisible."
+        },
+        "P04": {
+          "decision": "stay",
+          "explanation": "Arthur pratique des activités parfois jugées peu viriles. Dans ce contexte, l’insulte homophobe peut être utilisée contre lui pour sanctionner son expression de genre, même s’il est hétérosexuel."
+        },
+        "P05": {
+          "decision": "stay",
+          "explanation": "Les insultes dévalorisent les couples de même genre et peuvent atteindre Sofia à travers sa famille. Le fait qu’elles soient collectives et présentées comme traditionnelles rend la contestation plus difficile."
+        },
+        "P06": {
+          "decision": "stay",
+          "explanation": "Mehdi joue au football et n’est pas out auprès de son équipe. La banalisation des insultes lui indique que révéler son orientation pourrait fragiliser sa place dans le groupe."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "La scène ne vise pas directement l’aromantisme ou l’asexualité de Camille. Elle reste problématique pour le climat collectif, sans créer ici une difficulté spécifique supplémentaire pour son parcours."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "La situation ne porte pas sur les caractéristiques sexuées de Lou et ne l’expose pas personnellement. Elle avance dans la logique du jeu, sans que cela constitue une approbation des insultes."
+        },
+        "P09": {
+          "decision": "stay",
+          "explanation": "Les insultes installent l’hétérosexualité comme seule position pleinement légitime. Inès peut être incitée à laisser les autres la croire hétérosexuelle et à ne pas parler de sa bisexualité."
+        }
+      }
+    },
+    {
+      "id": "V03",
+      "modeId": "visible-obstacles",
+      "title": "La tenue commentée",
+      "playerText": "À l’entrée du lycée, un adulte fait une remarque à un élève qui porte du vernis, une jupe ou une tenue jugée inhabituelle pour son genre. Il lui conseille de se changer afin d’éviter les réactions et de « ne pas provoquer inutilement ».",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Scène de climat",
+      "subfamily": "Expression et conformité de genre",
+      "mechanism": "Injonction à la conformité de genre. La personne visée doit modifier son apparence plutôt que les comportements hostiles d’être recadrés.",
+      "vigilance": "La carte doit distinguer le conseil de prudence d’une véritable protection. Ici, la responsabilité de prévenir les violences est déplacée vers la personne susceptible de les subir.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "advance",
+        "P02": "advance",
+        "P03": "stay",
+        "P04": "stay",
+        "P05": "advance",
+        "P06": "advance",
+        "P07": "advance",
+        "P08": "advance",
+        "P09": "advance"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "advance",
+          "explanation": "Le profil de Noé ne mentionne pas une expression vestimentaire non conforme aux attentes masculines. Dans cette scène précise, aucun obstacle spécifique n’est identifié pour lui."
+        },
+        "P02": {
+          "decision": "advance",
+          "explanation": "L’expression de genre de Jade n’est pas décrite comme particulièrement éloignée des attentes adressées aux filles. La situation ne crée donc pas, dans son profil actuel, de difficulté spécifique."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "Sam ne se reconnaît pas dans une organisation strictement binaire du genre. Une remarque imposant une tenue conforme au sexe supposé lui signifie que son expression doit être corrigée pour rester acceptable."
+        },
+        "P04": {
+          "decision": "stay",
+          "explanation": "Arthur porte parfois du vernis et pratique des activités jugées peu viriles. La remarque peut le viser directement et lui demander de renoncer à une part de son expression pour éviter les moqueries."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "Le profil de Sofia ne fait pas apparaître de difficulté particulière liée à son expression vestimentaire. Elle n’est pas directement freinée par cette scène."
+        },
+        "P06": {
+          "decision": "advance",
+          "explanation": "Mehdi ne présente pas, dans son profil, une expression de genre particulièrement sanctionnée. L’obstacle ne lui est pas spécifique dans cette situation."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "La situation ne porte pas sur l’aromantisme ou l’asexualité de Camille et son expression de genre n’est pas décrite comme non conforme. Elle avance."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "Lou se définit comme une fille et son profil ne mentionne pas de tenue faisant l’objet d’un contrôle particulier. La situation ne l’expose pas spécifiquement."
+        },
+        "P09": {
+          "decision": "advance",
+          "explanation": "L’expression vestimentaire d’Inès n’est pas identifiée comme un point de tension. Elle n’est pas directement concernée par l’injonction décrite."
+        }
+      }
+    },
+    {
+      "id": "V04",
+      "modeId": "visible-obstacles",
+      "title": "Le prénom refusé",
+      "playerText": "[Prénom] indique à un adulte le prénom utilisé au lycée. L’adulte répond : « Sur ma liste, ce n’est pas ce prénom. J’utiliserai le prénom officiel. »",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Scène directe",
+      "subfamily": "Reconnaissance de l’identité",
+      "mechanism": "Refus explicite de reconnaître le prénom d’usage malgré la demande de l’élève.",
+      "vigilance": "Cette carte doit rester distincte d’un affichage automatique erroné. Ici, l’obstacle vient de la décision de l’adulte, pas seulement de l’outil administratif.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "stay",
+        "P02": "advance",
+        "P03": "advance",
+        "P04": "advance",
+        "P05": "advance",
+        "P06": "advance",
+        "P07": "advance",
+        "P08": "advance",
+        "P09": "advance"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "stay",
+          "explanation": "Le prénom administratif de Noé apparaît encore sur certains documents. Le refus de l’adulte invalide sa demande et peut révéler sa transidentité devant la classe."
+        },
+        "P02": {
+          "decision": "advance",
+          "explanation": "Jade utilise le même prénom dans les documents et dans la vie quotidienne. Cette situation ne crée pas de difficulté particulière pour elle."
+        },
+        "P03": {
+          "decision": "advance",
+          "explanation": "Sam est également son prénom administratif. L’adulte n’a donc pas, dans cette situation, de prénom différent à lui imposer."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "Arthur utilise son prénom administratif. La scène ne l’expose pas à un refus de reconnaissance."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "Sofia utilise le même prénom dans tous les contextes. Aucun obstacle spécifique n’apparaît pour elle."
+        },
+        "P06": {
+          "decision": "advance",
+          "explanation": "Mehdi n’utilise pas de prénom différent de celui inscrit sur la liste. Il avance."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "Camille utilise son prénom administratif. Le mécanisme décrit ne la freine pas."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "Lou utilise son prénom administratif. La scène ne remet pas en cause son identité de fille."
+        },
+        "P09": {
+          "decision": "advance",
+          "explanation": "Inès utilise son prénom administratif. Elle ne rencontre pas l’obstacle décrit."
+        }
+      }
+    },
+    {
+      "id": "V05",
+      "modeId": "visible-obstacles",
+      "title": "Le cyberharcèlement",
+      "playerText": "Dans la messagerie ou sur un réseau social lié à la classe, une information personnelle concernant [Prénom] est publiée : orientation réelle ou supposée, identité, ancien prénom, famille ou donnée intime. Des commentaires, des captures d’écran et des moqueries circulent ensuite dans plusieurs groupes.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Scène directe",
+      "subfamily": "Numérique, outing et rumeurs",
+      "mechanism": "Outing numérique, atteinte à la vie privée et amplification par le cyberharcèlement.",
+      "vigilance": "Le retour doit nommer la rapidité de diffusion, les traces durables et la poursuite hors du temps scolaire. L’information peut être vraie, fausse ou déformée : la perte de contrôle reste un obstacle.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "stay",
+        "P02": "stay",
+        "P03": "stay",
+        "P04": "stay",
+        "P05": "stay",
+        "P06": "stay",
+        "P07": "stay",
+        "P08": "stay",
+        "P09": "stay"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "stay",
+          "explanation": "La diffusion peut révéler l’ancien prénom de Noé ou sa transidentité à des personnes qu’il n’a pas choisies. Les captures d’écran rendent ensuite l’information difficile à reprendre en main."
+        },
+        "P02": {
+          "decision": "stay",
+          "explanation": "Jade n’a pas parlé de son orientation à sa famille ni à tous ses camarades. Une publication peut provoquer un outing et étendre le risque bien au-delà du premier groupe."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "La non-binarité de Sam n’est pas connue de sa famille. La circulation numérique de cette information peut imposer un dévoilement et multiplier les commentaires sur son prénom ou son pronom."
+        },
+        "P04": {
+          "decision": "stay",
+          "explanation": "Une rumeur sur l’orientation d’Arthur peut être construite à partir de ses activités ou de son vernis. Même fausse, elle peut déclencher des moqueries et l’obliger à se justifier."
+        },
+        "P05": {
+          "decision": "stay",
+          "explanation": "Des contenus visant ses deux mères ou présentant sa famille comme anormale peuvent exposer Sofia et étendre les attaques à sa vie familiale."
+        },
+        "P06": {
+          "decision": "stay",
+          "explanation": "Un outing numérique pourrait atteindre ses coéquipiers alors qu’il n’a pas choisi de leur parler de son orientation. La diffusion peut fragiliser sa sécurité dans l’équipe."
+        },
+        "P07": {
+          "decision": "stay",
+          "explanation": "La révélation de son aromantisme ou de son asexualité peut donner lieu à des moqueries, à des questions intrusives ou à des tentatives pour prouver qu’elle se trompe."
+        },
+        "P08": {
+          "decision": "stay",
+          "explanation": "Une information sur l’intersexuation de Lou relève de sa vie médicale et corporelle. Sa diffusion constituerait une atteinte grave à son intimité et pourrait susciter des commentaires intrusifs."
+        },
+        "P09": {
+          "decision": "stay",
+          "explanation": "La bisexualité d’Inès n’est connue que d’une amie. Une publication peut l’outer, provoquer des clichés sur sa disponibilité sexuelle et atteindre sa famille ou son couple."
+        }
+      }
+    },
+    {
+      "id": "V06",
+      "modeId": "visible-obstacles",
+      "title": "Tu rencontreras la bonne personne",
+      "playerText": "Au cours d’une discussion, une élève explique qu’elle ne ressent pas d’attirance amoureuse ni sexuelle et qu’elle ne souhaite pas former de couple. Une personne lui répond : « Tu es trop jeune pour savoir. Quand tu rencontreras la bonne personne, cela changera. »",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Scène de climat",
+      "subfamily": "Aromantisme et asexualité",
+      "mechanism": "Négation de l’aromantisme et de l’asexualité, présentés comme une immaturité, une peur ou une phase.",
+      "vigilance": "Le retour doit éviter de transformer l’aromantisme et l’asexualité en absence d’émotions, de liens ou de capacité d’attachement.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "advance",
+        "P02": "advance",
+        "P03": "advance",
+        "P04": "advance",
+        "P05": "advance",
+        "P06": "advance",
+        "P07": "stay",
+        "P08": "advance",
+        "P09": "advance"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "advance",
+          "explanation": "La remarque ne porte pas sur l’orientation hétérosexuelle de Noé ni sur sa transidentité. Elle ne crée pas, pour lui, de difficulté spécifique."
+        },
+        "P02": {
+          "decision": "advance",
+          "explanation": "Jade ressent une attirance amoureuse et la scène ne nie pas directement son orientation lesbienne. Elle avance dans cette situation précise."
+        },
+        "P03": {
+          "decision": "advance",
+          "explanation": "La pansexualité de Sam concerne les personnes susceptibles de l’attirer, et non une absence d’attirance. La remarque ne vise pas directement son expérience."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "Arthur n’est pas concerné par l’aromantisme ou l’asexualité dans son profil. Il avance."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "La situation ne concerne ni l’orientation de Sofia ni sa famille. Aucun obstacle spécifique n’est identifié."
+        },
+        "P06": {
+          "decision": "advance",
+          "explanation": "Mehdi ressent une attirance pour les garçons. La négation décrite ne porte pas sur son expérience."
+        },
+        "P07": {
+          "decision": "stay",
+          "explanation": "Camille se reconnaît directement dans l’expérience exprimée. La réponse refuse la validité de ce qu’elle ressent et lui annonce que son identité disparaîtra avec une future rencontre."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "L’intersexuation de Lou n’est pas liée à l’absence d’attirance décrite. La scène ne l’expose pas spécifiquement."
+        },
+        "P09": {
+          "decision": "advance",
+          "explanation": "La bisexualité d’Inès n’est pas une absence d’attirance. Elle n’est pas directement freinée par cette remarque."
+        }
+      }
+    },
+    {
+      "id": "V07",
+      "modeId": "visible-obstacles",
+      "title": "Tu dois choisir",
+      "playerText": "Au cours d’une discussion, une élève explique qu’elle est bisexuelle. Une personne lui répond : « Tu ne peux pas rester entre les deux. À un moment, il faudra choisir si tu préfères les filles ou les garçons. »",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Scène de climat",
+      "subfamily": "Bisexualité et orientations plurisexuelles",
+      "mechanism": "Effacement de la bisexualité et des orientations plurisexuelles, interprétées comme une hésitation ou un refus de s’assumer.",
+      "vigilance": "Les clichés sur l’infidélité ou la disponibilité sexuelle doivent être traités dans le feedback, sans surcharger la scène affichée.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "advance",
+        "P02": "advance",
+        "P03": "stay",
+        "P04": "advance",
+        "P05": "advance",
+        "P06": "advance",
+        "P07": "advance",
+        "P08": "advance",
+        "P09": "stay"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "advance",
+          "explanation": "Noé est hétérosexuel et la remarque ne porte pas sur sa transidentité. Il n’est pas directement concerné par l’injonction à choisir."
+        },
+        "P02": {
+          "decision": "advance",
+          "explanation": "Jade se définit comme lesbienne. Son orientation n’est pas présentée ici comme une position intermédiaire entre deux choix."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "La pansexualité de Sam est elle aussi une orientation plurisexuelle. La remarque peut lui signifier que son orientation ne serait pas stable ou qu’iel devrait se définir selon un seul genre."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "Arthur est hétérosexuel. La scène ne met pas en cause son orientation."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "Sofia est hétérosexuelle. Aucun obstacle particulier n’apparaît pour elle."
+        },
+        "P06": {
+          "decision": "advance",
+          "explanation": "Mehdi se définit comme gay. La remarque sur l’obligation de choisir ne vise pas directement son orientation."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "L’aromantisme et l’asexualité de Camille ne sont pas une attirance envers plusieurs genres. La scène ne porte pas sur son expérience."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "L’intersexuation de Lou n’est pas une orientation sexuelle. La remarque ne la concerne pas directement."
+        },
+        "P09": {
+          "decision": "stay",
+          "explanation": "La bisexualité d’Inès est présentée comme une indécision plutôt que comme une orientation à part entière. Sa relation actuelle avec un garçon peut renforcer l’idée qu’elle aurait finalement « choisi »."
+        }
+      }
+    },
+    {
+      "id": "V08",
+      "modeId": "visible-obstacles",
+      "title": "Tu ne vas pas tomber amoureux de moi ?",
+      "playerText": "Après qu’un élève a parlé de son orientation, un camarade lui répond : « Cela ne me dérange pas, mais tu ne vas pas tomber amoureux de moi au moins ? »",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Scène de climat",
+      "subfamily": "Présomption d’attirance",
+      "mechanism": "Présomption d’attirance pour toutes les personnes du genre concerné et mise à distance de la personne LGBT.",
+      "vigilance": "Le retour doit montrer que l’acceptation annoncée reste conditionnelle : la personne est acceptée tant qu’elle rassure les autres sur l’absence de désir.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "advance",
+        "P02": "stay",
+        "P03": "stay",
+        "P04": "advance",
+        "P05": "advance",
+        "P06": "stay",
+        "P07": "advance",
+        "P08": "advance",
+        "P09": "stay"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "advance",
+          "explanation": "Noé est hétérosexuel. La remarque ne le place pas, dans son profil, sous une présomption d’attirance envers les garçons."
+        },
+        "P02": {
+          "decision": "stay",
+          "explanation": "Jade peut être soupçonnée d’être attirée par toutes les filles. Cette réaction transforme son orientation en menace et peut compliquer ses relations amicales."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "La pansexualité de Sam peut être interprétée à tort comme une attirance pour tout le monde. Iel peut être sommé·e de rassurer chaque personne de son entourage."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "Arthur est hétérosexuel. Cette présomption particulière ne s’applique pas à son profil."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "La situation ne concerne pas l’orientation de Sofia ni la structure de sa famille. Elle avance."
+        },
+        "P06": {
+          "decision": "stay",
+          "explanation": "Mehdi est directement exposé au cliché selon lequel un garçon gay serait attiré par tous les garçons. Cette mise à distance peut fragiliser ses amitiés et sa place dans l’équipe."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "Camille ne ressent pas d’attirance sexuelle ou romantique. La présomption d’une attirance généralisée ne correspond pas à son expérience."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "L’intersexuation de Lou ne dit rien de son orientation. La remarque ne la concerne pas spécifiquement."
+        },
+        "P09": {
+          "decision": "stay",
+          "explanation": "La bisexualité d’Inès peut être interprétée comme une attirance potentielle pour tout le monde. Elle peut devoir rassurer aussi bien ses amies que ses amis."
+        }
+      }
+    },
+    {
+      "id": "V09",
+      "modeId": "visible-obstacles",
+      "title": "Le recadrage immédiat",
+      "playerText": "Pendant un cours, une remarque homophobe ou transphobe est lancée. L’adulte interrompt immédiatement l’échange, explique que cette remarque n’est pas acceptable et rappelle le cadre à toute la classe. Après le cours, il reprend discrètement contact avec la personne éventuellement concernée.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Scène protectrice fixe",
+      "subfamily": "Protection adulte",
+      "mechanism": "Intervention protectrice d’un adulte : recadrage clair, absence de mise en débat et prise de contact discrète.",
+      "vigilance": "L’adulte ne doit pas désigner publiquement un élève supposé LGBT ni lui demander de témoigner. La carte suppose que le recadrage reste général et que l’échange individuel est discret.",
+      "mandatory": true,
+      "protective": true,
+      "effectsByCharacter": {
+        "P01": "advance",
+        "P02": "advance",
+        "P03": "advance",
+        "P04": "advance",
+        "P05": "advance",
+        "P06": "advance",
+        "P07": "advance",
+        "P08": "advance",
+        "P09": "advance"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "advance",
+          "explanation": "Le recadrage évite que Noé ait à se défendre lui-même et limite le risque que la remarque s’installe comme une norme. Le contact discret préserve sa confidentialité."
+        },
+        "P02": {
+          "decision": "advance",
+          "explanation": "Jade bénéficie d’un cadre clair sans être désignée devant la classe. L’adulte montre que la protection ne dépend pas d’un coming out préalable."
+        },
+        "P03": {
+          "decision": "advance",
+          "explanation": "L’intervention reconnaît la portée de la remarque sans demander à Sam d’expliquer son identité. La prise de contact discrète permet de vérifier ses besoins sans l’exposer."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "Arthur voit que les remarques homophobes utilisées pour contrôler la masculinité ne sont pas tolérées. Il n’a pas à prouver son orientation ni à modifier son expression."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "Le recadrage protège aussi les élèves dont la famille peut être visée. Sofia n’a pas à justifier la légitimité de ses deux mères."
+        },
+        "P06": {
+          "decision": "advance",
+          "explanation": "L’adulte retire aux insultes leur statut de plaisanterie acceptable. Mehdi peut se sentir davantage en sécurité sans que son orientation soit révélée."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "Le cadre posé montre que les identités et orientations minoritaires ne doivent pas être utilisées pour rabaisser. Camille bénéficie d’un climat plus protecteur."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "Le recadrage limite la banalisation des remarques visant les corps, le sexe ou le genre. Lou n’est pas sommée de rendre son histoire personnelle publique."
+        },
+        "P09": {
+          "decision": "advance",
+          "explanation": "L’intervention affirme que les clichés et insultes visant les orientations plurisexuelles ne sont pas des opinions anodines. Inès peut rester discrète sans être laissée seule face au climat."
+        }
+      }
+    },
+    {
+      "id": "V10",
+      "modeId": "visible-obstacles",
+      "title": "Le soutien d’un camarade",
+      "playerText": "Des élèves commencent à commenter l’orientation, l’identité ou la famille d’une personne absente. Un camarade répond : « Cela ne nous regarde pas. On arrête. » Il change ensuite de sujet sans demander à la personne concernée de s’expliquer.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Scène protectrice fixe",
+      "subfamily": "Protection par les pairs",
+      "mechanism": "Intervention protectrice d’un pair : interruption de la rumeur, respect de la vie privée et absence de mise en spectacle.",
+      "vigilance": "Le soutien ne doit pas prendre la forme d’un outing défensif, par exemple en confirmant l’information pour mieux défendre la personne.",
+      "mandatory": true,
+      "protective": true,
+      "effectsByCharacter": {
+        "P01": "advance",
+        "P02": "advance",
+        "P03": "advance",
+        "P04": "advance",
+        "P05": "advance",
+        "P06": "advance",
+        "P07": "advance",
+        "P08": "advance",
+        "P09": "advance"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "advance",
+          "explanation": "Le camarade protège la vie privée de Noé sans confirmer ni démentir sa transidentité. Il interrompt la discussion avant qu’elle ne devienne une rumeur."
+        },
+        "P02": {
+          "decision": "advance",
+          "explanation": "Jade n’est pas obligée de répondre à des suppositions sur son orientation. Un pair prend en charge l’arrêt de l’intrusion sans parler à sa place."
+        },
+        "P03": {
+          "decision": "advance",
+          "explanation": "Le soutien empêche que la non-binarité de Sam devienne un sujet de curiosité collective. Il respecte son droit de choisir les personnes auxquelles iel en parle."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "Le camarade met fin aux suppositions construites à partir des goûts ou de l’expression d’Arthur. Arthur n’a pas à prouver qu’il est hétérosexuel."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "Les commentaires sur ses deux mères ou sur sa famille sont arrêtés sans que Sofia doive venir la défendre. Sa famille n’est pas transformée en sujet de discussion."
+        },
+        "P06": {
+          "decision": "advance",
+          "explanation": "Le soutien limite le risque qu’une supposition atteigne son équipe ou se transforme en outing. Mehdi conserve le contrôle de son dévoilement."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "Les commentaires sur son absence de couple ou sur sa sexualité sont interrompus. Camille n’a pas à se justifier ni à accepter des questions intrusives."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "Le camarade protège les informations corporelles ou médicales concernant Lou. Il refuse que sa curiosité devienne un droit sur son intimité."
+        },
+        "P09": {
+          "decision": "advance",
+          "explanation": "Le soutien empêche que sa bisexualité réelle ou supposée devienne une rumeur. Inès conserve le choix d’en parler ou non."
+        }
+      }
+    },
+    {
+      "id": "V11",
+      "modeId": "visible-obstacles",
+      "title": "Le badge arc-en-ciel",
+      "playerText": "[Prénom] porte un petit badge arc-en-ciel sur son sac. Un adulte lui demande de le retirer, estimant qu’il s’agit d’un signe militant ou communautariste qui n’a pas sa place dans l’établissement.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Scène directe",
+      "subfamily": "Visibilité et discrétion",
+      "mechanism": "Injonction à la discrétion et assimilation de toute visibilité ou solidarité LGBT à du militantisme excessif.",
+      "vigilance": "La carte ne tranche pas toutes les règles relatives aux signes ou messages dans un établissement. Elle vise le traitement particulier d’un symbole arc-en-ciel comme problématique en soi.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "stay",
+        "P02": "stay",
+        "P03": "stay",
+        "P04": "stay",
+        "P05": "stay",
+        "P06": "stay",
+        "P07": "stay",
+        "P08": "stay",
+        "P09": "stay"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "stay",
+          "explanation": "Le retrait demandé signifie à Noé que toute visibilité LGBT doit rester discrète. Même si le badge ne révèle pas nécessairement sa transidentité, il ne peut pas exprimer librement son appartenance ou son soutien."
+        },
+        "P02": {
+          "decision": "stay",
+          "explanation": "Jade peut porter le badge comme expression de son orientation ou comme soutien. La demande lui indique que la visibilité lesbienne est acceptable seulement si elle reste invisible."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "Pour Sam, le badge peut être un signe de reconnaissance ou de sécurité. Son interdiction renforce l’idée que les identités LGBTI+ constituent une revendication déplacée."
+        },
+        "P04": {
+          "decision": "stay",
+          "explanation": "Arthur peut porter ce badge comme allié. Le lui interdire limite aussi la possibilité, pour les élèves non LGBT, de rendre leur soutien visible."
+        },
+        "P05": {
+          "decision": "stay",
+          "explanation": "Le badge peut représenter la famille de Sofia ou son soutien à ses deux mères. La demande de retrait traite cette réalité familiale comme une prise de position excessive."
+        },
+        "P06": {
+          "decision": "stay",
+          "explanation": "Mehdi peut souhaiter rendre visible son orientation ou simplement identifier un espace de soutien. L’accusation de communautarisme lui impose la discrétion."
+        },
+        "P07": {
+          "decision": "stay",
+          "explanation": "Le symbole peut inclure les personnes aromantiques et asexuelles dans un espace LGBTI+ plus large. Son retrait signifie que cette appartenance ne doit pas être visible."
+        },
+        "P08": {
+          "decision": "stay",
+          "explanation": "Lou peut porter le badge en tant que personne intersexe ou alliée. L’interdiction transforme un signe de soutien en comportement suspect."
+        },
+        "P09": {
+          "decision": "stay",
+          "explanation": "Le badge peut permettre à Inès d’exprimer une appartenance qu’elle garde habituellement privée. La demande de retrait renforce l’invisibilité de sa bisexualité."
+        }
+      }
+    },
+    {
+      "id": "V12",
+      "modeId": "visible-obstacles",
+      "title": "Mais tu es un garçon ou une fille ?",
+      "playerText": "Devant plusieurs élèves, un camarade demande à [Prénom] : « Mais en fait, tu es un garçon ou une fille ? » Il insiste malgré le malaise visible et explique qu’il est simplement curieux.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Scène directe",
+      "subfamily": "Reconnaissance et curiosité intrusive",
+      "mechanism": "Question intrusive, assignation publique et obligation de se définir pour satisfaire la curiosité d’autrui.",
+      "vigilance": "La curiosité ne crée pas un droit à connaître l’histoire corporelle, médicale ou identitaire d’une personne.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "stay",
+        "P02": "advance",
+        "P03": "stay",
+        "P04": "stay",
+        "P05": "advance",
+        "P06": "advance",
+        "P07": "advance",
+        "P08": "stay",
+        "P09": "advance"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "stay",
+          "explanation": "La question peut remettre publiquement en cause le fait que Noé est un garçon et attirer l’attention sur sa transition. Il peut être contraint de se justifier ou de se taire sous le regard du groupe."
+        },
+        "P02": {
+          "decision": "advance",
+          "explanation": "La situation porte sur le genre, pas sur l’orientation lesbienne de Jade. Son profil ne la place pas sous cette interrogation."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "La question impose à Sam de choisir entre deux catégories qui ne lui correspondent pas. L’insistance transforme son identité en énigme publique."
+        },
+        "P04": {
+          "decision": "stay",
+          "explanation": "L’expression de genre d’Arthur peut conduire certains élèves à remettre en cause sa masculinité. La question le somme de prouver qu’il est bien un garçon."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "Sofia se reconnaît dans la catégorie de fille et son profil ne suscite pas cette interrogation. Elle avance."
+        },
+        "P06": {
+          "decision": "advance",
+          "explanation": "L’orientation gay de Mehdi ne remet pas en cause son identité de garçon. La question ne le vise pas spécifiquement."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "L’aromantisme et l’asexualité de Camille ne concernent pas son identité de fille. Elle n’est pas directement exposée."
+        },
+        "P08": {
+          "decision": "stay",
+          "explanation": "Lou est une fille, mais la curiosité sur son corps ou son intersexuation peut conduire d’autres personnes à contester cette évidence. Elle risque d’être poussée à révéler des informations médicales."
+        },
+        "P09": {
+          "decision": "advance",
+          "explanation": "La bisexualité d’Inès ne concerne pas son identité de fille. La scène ne crée pas d’obstacle spécifique pour elle."
+        }
+      }
+    },
+    {
+      "id": "V13",
+      "modeId": "visible-obstacles",
+      "title": "La confidence transmise à la famille",
+      "playerText": "Un élève confie à un adulte une information sur son orientation ou son identité et demande qu’elle reste confidentielle. Pensant agir pour son bien, l’adulte téléphone à sa famille sans demander son accord.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Scène de climat",
+      "subfamily": "Numérique, outing et rumeurs",
+      "mechanism": "Outing institutionnel et perte de contrôle sur une information personnelle, malgré une intention d’aide.",
+      "vigilance": "La carte se situe hors d’une situation de danger immédiat ou de protection de l’enfance exigeant une transmission. Le feedback doit distinguer accompagnement et divulgation automatique.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "advance",
+        "P02": "stay",
+        "P03": "stay",
+        "P04": "advance",
+        "P05": "advance",
+        "P06": "advance",
+        "P07": "stay",
+        "P08": "advance",
+        "P09": "stay"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "advance",
+          "explanation": "La famille de Noé connaît déjà et soutient sa transition. Dans son profil actuel, l’appel ne révèle pas une information nouvelle, même si la manière d’agir de l’adulte reste discutable."
+        },
+        "P02": {
+          "decision": "stay",
+          "explanation": "Jade n’a pas parlé de son orientation à sa famille. La transmission lui retire le choix du moment, des mots et des conditions de son coming out."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "La famille de Sam ne connaît pas sa non-binarité. L’appel peut provoquer un outing et exposer Sam à des réactions qu’iel n’a pas pu préparer."
+        },
+        "P04": {
+          "decision": "advance",
+          "explanation": "Arthur ne détient pas, dans son profil, une information LGBTI confidentielle à révéler à sa famille. Il n’est pas directement concerné."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "La structure familiale de Sofia est déjà connue de ses responsables légaux. La carte ne révèle pas une information personnelle comparable."
+        },
+        "P06": {
+          "decision": "advance",
+          "explanation": "La famille de Mehdi connaît et soutient son orientation. L’appel ne produit donc pas, dans son parcours, un outing familial."
+        },
+        "P07": {
+          "decision": "stay",
+          "explanation": "Camille n’a pas souhaité parler à sa famille de son aromantisme et de son asexualité. La transmission lui retire le contrôle de cette information et peut déclencher une remise en cause de son expérience."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "La famille de Lou connaît son intersexuation. L’appel ne révèle pas une information nouvelle dans ce cadre précis, même si la confidentialité reste une exigence professionnelle."
+        },
+        "P09": {
+          "decision": "stay",
+          "explanation": "Seule une amie connaît la bisexualité d’Inès. La transmission à sa famille constitue un outing et peut aussi affecter sa relation actuelle."
+        }
+      }
+    },
+    {
+      "id": "V14",
+      "modeId": "visible-obstacles",
+      "title": "Ils cherchent à deviner",
+      "playerText": "Des élèves observent les vêtements, la voix, les amis ou les activités d’un camarade afin de déterminer s’il est gay, lesbienne ou trans. Ils présentent cela comme un jeu d’observation sans conséquence.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Scène de climat",
+      "subfamily": "Numérique, outing et rumeurs",
+      "mechanism": "Surveillance de la conformité, assignation identitaire et recours aux stéréotypes pour deviner une orientation ou une identité.",
+      "vigilance": "La supposition peut être vraie ou fausse. Dans les deux cas, la personne est placée sous surveillance et sommée de correspondre à des normes de genre.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "stay",
+        "P02": "stay",
+        "P03": "stay",
+        "P04": "stay",
+        "P05": "advance",
+        "P06": "stay",
+        "P07": "advance",
+        "P08": "advance",
+        "P09": "stay"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "stay",
+          "explanation": "La voix, le corps ou les comportements de Noé peuvent être examinés pour tenter de deviner sa transidentité. Cette surveillance crée une forte vigilance sur sa manière d’être."
+        },
+        "P02": {
+          "decision": "stay",
+          "explanation": "Les élèves peuvent interpréter les vêtements ou les amitiés de Jade pour lui assigner une orientation. Elle perd le contrôle du moment où elle souhaite en parler."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "L’expression de genre de Sam risque d’être transformée en indice à analyser. Iel devient un objet de curiosité plutôt qu’une personne dont la parole suffit."
+        },
+        "P04": {
+          "decision": "stay",
+          "explanation": "Le théâtre, la danse ou le vernis d’Arthur peuvent être utilisés comme preuves supposées de son homosexualité. Même fausse, l’assignation l’oblige à se positionner."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "L’orientation et l’identité de Sofia ne sont pas particulièrement mises en doute à partir de son profil. Sa famille pourrait faire l’objet de commentaires, mais ce n’est pas le mécanisme central de cette carte."
+        },
+        "P06": {
+          "decision": "stay",
+          "explanation": "Les coéquipiers de Mehdi peuvent chercher des signes pour confirmer une supposition. Cette surveillance rend plus difficile le contrôle de son coming out."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "L’absence de couple pourrait susciter des suppositions, mais le profil de Camille ne la place pas directement dans la scène décrite, centrée sur les stéréotypes gays, lesbiens ou trans."
+        },
+        "P08": {
+          "decision": "advance",
+          "explanation": "L’intersexuation de Lou n’est pas visible et ne peut pas être déduite de ses goûts ou de ses fréquentations. Elle n’est pas directement freinée par cette scène."
+        },
+        "P09": {
+          "decision": "stay",
+          "explanation": "La relation actuelle d’Inès avec un garçon peut conduire à nier sa bisexualité, tandis que d’autres signes peuvent être utilisés pour la soupçonner. Dans les deux cas, son orientation est définie par les autres."
+        }
+      }
+    },
+    {
+      "id": "V15",
+      "modeId": "visible-obstacles",
+      "title": "La rumeur",
+      "playerText": "Une rumeur circule au lycée sur la relation amoureuse, la sexualité ou l’identité d’un élève. Chaque personne qui la transmet affirme ne faire que répéter ce qu’elle a entendu.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Scène de climat",
+      "subfamily": "Numérique, outing et rumeurs",
+      "mechanism": "Diffusion d’informations intimes, atteinte à la réputation et dilution de la responsabilité dans la chaîne de transmission.",
+      "vigilance": "Cette carte se distingue de V14 : V14 porte sur la recherche et la supposition ; V15 porte sur la circulation d’une affirmation présentée comme établie.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "stay",
+        "P02": "stay",
+        "P03": "stay",
+        "P04": "stay",
+        "P05": "advance",
+        "P06": "stay",
+        "P07": "advance",
+        "P08": "stay",
+        "P09": "stay"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "stay",
+          "explanation": "Une rumeur peut révéler ou inventer des éléments sur la transition de Noé. Même inexacte, elle peut l’obliger à se justifier et attirer l’attention sur son corps ou ses documents."
+        },
+        "P02": {
+          "decision": "stay",
+          "explanation": "La rumeur peut provoquer un outing ou rendre ses relations amicales suspectes. Jade perd le choix de parler elle-même de son orientation."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "Une affirmation sur la non-binarité ou la pansexualité de Sam peut se propager sans que sa parole soit recherchée. Iel peut devoir corriger, confirmer ou se protéger."
+        },
+        "P04": {
+          "decision": "stay",
+          "explanation": "Une rumeur sur l’orientation d’Arthur peut partir de ses goûts et se répandre comme une vérité. Elle renforce la surveillance de sa masculinité."
+        },
+        "P05": {
+          "decision": "advance",
+          "explanation": "La carte porte ici sur la vie affective, sexuelle ou identitaire de l’élève lui-même. Le profil de Sofia ne fait pas apparaître une information particulière susceptible de constituer cet obstacle."
+        },
+        "P06": {
+          "decision": "stay",
+          "explanation": "Une rumeur peut atteindre son équipe avant qu’il ait choisi d’y faire son coming out. Elle menace sa place dans le groupe et le contrôle de sa vie privée."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "La rumeur décrite vise principalement une orientation ou une identité supposée. Dans son profil actuel, Camille n’est pas directement placée sous cette forme particulière de rumeur."
+        },
+        "P08": {
+          "decision": "stay",
+          "explanation": "Une rumeur sur le corps, le sexe ou l’intersexuation de Lou pourrait transformer une information médicale en curiosité collective. Elle porterait directement atteinte à son intimité."
+        },
+        "P09": {
+          "decision": "stay",
+          "explanation": "Une rumeur sur sa bisexualité peut l’outer, sexualiser son orientation ou fragiliser son couple. La répétition par d’autres étend rapidement l’atteinte."
+        }
+      }
+    },
+    {
+      "id": "V16",
+      "modeId": "visible-obstacles",
+      "title": "L’insulte directe",
+      "playerText": "Dans un couloir ou dans la cour, un élève est directement traité de « pédé », de « gouine » ou de « travelo ». Les témoins ne réagissent pas.",
+      "question": "Dans cette situation, que se passe-t-il pour [Prénom] ?",
+      "sceneType": "Scène de climat",
+      "subfamily": "Insulte et agression directe",
+      "mechanism": "Agression verbale directe fondée sur une orientation, une identité, une expression de genre ou une appartenance supposée.",
+      "vigilance": "Une personne peut être visée sans appartenir réellement au groupe nommé. Le silence des témoins participe au sentiment d’impunité et d’isolement.",
+      "mandatory": false,
+      "protective": false,
+      "effectsByCharacter": {
+        "P01": "stay",
+        "P02": "stay",
+        "P03": "stay",
+        "P04": "stay",
+        "P05": "stay",
+        "P06": "stay",
+        "P07": "advance",
+        "P08": "stay",
+        "P09": "stay"
+      },
+      "feedbacksByCharacter": {
+        "P01": {
+          "decision": "stay",
+          "explanation": "Une insulte homophobe ou transphobe peut viser Noé pour contester son genre ou sa masculinité. L’absence de réaction des témoins renforce son isolement."
+        },
+        "P02": {
+          "decision": "stay",
+          "explanation": "Le terme « gouine » peut la viser directement ou lui rappeler qu’une révélation de son orientation l’exposerait. Le silence du groupe rend l’espace moins sûr."
+        },
+        "P03": {
+          "decision": "stay",
+          "explanation": "Sam peut être visé·e par une insulte transphobe ou homophobe liée à son expression de genre. L’absence de soutien banalise l’agression."
+        },
+        "P04": {
+          "decision": "stay",
+          "explanation": "Arthur peut être insulté à partir de son vernis, de la danse ou du théâtre, même s’il est hétérosexuel. L’insulte sert à sanctionner une masculinité jugée insuffisante."
+        },
+        "P05": {
+          "decision": "stay",
+          "explanation": "Une insulte homophobe peut viser Sofia à travers ses deux mères ou être utilisée pour dévaloriser sa famille. Le silence des témoins lui indique qu’elle devra se défendre seule."
+        },
+        "P06": {
+          "decision": "stay",
+          "explanation": "Mehdi peut être directement visé en raison de son orientation réelle ou supposée. Le fait que personne ne réagisse augmente le risque de répétition."
+        },
+        "P07": {
+          "decision": "advance",
+          "explanation": "Les insultes citées ne visent pas directement l’aromantisme ou l’asexualité de Camille dans son profil actuel. La scène reste grave, mais ne crée pas ici un obstacle spécifique supplémentaire pour elle."
+        },
+        "P08": {
+          "decision": "stay",
+          "explanation": "Une insulte transphobe peut être utilisée contre Lou si son intersexuation est connue ou supposée, même si elle est une fille cisgenre. Elle subit alors une assignation erronée et une agression."
+        },
+        "P09": {
+          "decision": "stay",
+          "explanation": "Inès peut être visée par une insulte lesbophobe en raison de sa bisexualité réelle ou supposée. La violence peut aussi s’accompagner de sexualisation ou de rumeurs."
+        }
+      }
+    }
+  ],
+  "rules": {
+    "modeId": "visible-obstacles",
+    "galleryId": "general",
+    "totalSituationCount": 10,
+    "variableSituationCount": 8,
+    "mandatorySituationIds": [
+      "V09",
+      "V10"
+    ],
+    "variableSituationIds": [
+      "V01",
+      "V02",
+      "V03",
+      "V04",
+      "V05",
+      "V06",
+      "V07",
+      "V08",
+      "V11",
+      "V12",
+      "V13",
+      "V14",
+      "V15",
+      "V16"
+    ],
+    "requiredGroups": [
+      {
+        "id": "group-1",
+        "minimum": 1,
+        "situationIds": [
+          "V01",
+          "V02"
+        ]
+      },
+      {
+        "id": "group-2",
+        "minimum": 1,
+        "situationIds": [
+          "V03",
+          "V04",
+          "V12"
+        ]
+      },
+      {
+        "id": "group-3",
+        "minimum": 1,
+        "situationIds": [
+          "V05",
+          "V13",
+          "V14",
+          "V15"
+        ]
+      },
+      {
+        "id": "group-4",
+        "minimum": 1,
+        "situationIds": [
+          "V06",
+          "V07"
+        ]
+      }
+    ],
+    "limitedGroups": [
+      {
+        "id": "limit-1",
+        "situationIds": [
+          "V05",
+          "V13",
+          "V14",
+          "V15"
+        ],
+        "maximum": 2
+      }
+    ],
+    "characterRequirements": {},
+    "variableObstacleRangePerCharacter": {
+      "minimum": 1,
+      "maximum": 7
+    }
+  },
+  "selectionStatistics": {
+    "examinedCount": 3003,
+    "thematicCount": 1300,
+    "validForAllCharactersCount": 1123,
+    "validCountsByCharacter": {
+      "P01": 1300,
+      "P02": 1300,
+      "P03": 1158,
+      "P04": 1300,
+      "P05": 1300,
+      "P06": 1300,
+      "P07": 1266,
+      "P08": 1291,
+      "P09": 1300
+    }
+  }
+}
