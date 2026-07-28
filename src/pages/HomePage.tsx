@@ -45,7 +45,13 @@ export default function HomePage({ onStart }: HomePageProps) {
           <div className="home-introduction__inner">
             <h2 className="text-xl font-bold text-slate-900">Comment se déroule une partie&nbsp;?</h2>
             <p className="mt-3 leading-relaxed text-slate-600">
-              Vous allez parcourir 10 situations tirées au hasard. Pour chacune, vous devrez faire un choix et observer ses effets sur votre personnage.
+              Vous allez parcourir 10 situations tirées au hasard en incarnant un personnage.
+            </p>
+            <p className="mt-3 leading-relaxed text-slate-600">
+              Votre personnage avance lorsque la situation ne lui crée pas de difficulté particulière. Il reste sur place lorsqu’elle le freine, l’expose, l’exclut ou lui impose un effort supplémentaire.
+            </p>
+            <p className="mt-3 leading-relaxed text-slate-600">
+              Après chaque réponse, le jeu vous présente une interprétation pédagogique. Certaines situations peuvent être discutées&nbsp;: le jeu propose une lecture argumentée, et non une vérité sur toutes les personnes.
             </p>
           </div>
         </aside>

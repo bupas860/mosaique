@@ -1,15 +1,15 @@
 import { useState } from "react";
 
-import type { Character } from "../types/character";
+import type { GameCharacterV2 } from "../types/choiceHistory";
 import CharacterInformation from "./CharacterInformation";
 import CharacterPortrait from "./CharacterPortrait";
 
 interface Props {
-  characters: Character[];
+  characters: readonly GameCharacterV2[];
   selectedCharacterId?: string;
   totalExperiences: number;
   currentSituation?: number;
-  realPositions?: Record<string, number>;
+  proposedPositions?: Record<string, number>;
   className?: string;
   prominent?: boolean;
 }
@@ -31,7 +31,7 @@ export default function PrivilegeMargin({
   selectedCharacterId,
   totalExperiences,
   currentSituation,
-  realPositions,
+  proposedPositions,
   className = "mb-8",
   prominent = false,
 }: Props) {
@@ -52,7 +52,7 @@ export default function PrivilegeMargin({
     <section
       className={`${className} app-surface privilege-margin rounded-2xl border p-4 sm:p-6 lg:p-8 ${prominent ? "border-slate-400" : "border-slate-300"}`}
       style={{
-        "--character-accent": selectedCharacter?.color,
+        "--character-accent": selectedCharacter?.accentColor,
       } as React.CSSProperties}
     >
       <header className="mb-8 text-center">
@@ -60,10 +60,10 @@ export default function PrivilegeMargin({
         <p className="mt-2 text-sm text-slate-600">
           Chaque personnage part du même point. Selon les situations rencontrées, il avance d&apos;un pas ou reste sur place.
         </p>
-        {realPositions && (
+        {proposedPositions && (
           <div className="mt-4 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-slate-700">
-            <span className="flex items-center gap-2"><span className="h-3 w-3 rounded-full bg-slate-700" />Position selon vos réponses</span>
-            <span className="flex items-center gap-2"><span className="h-3 w-3 rounded-full border-2 border-dashed border-slate-700 opacity-60" />Position réelle selon les situations</span>
+            <span className="flex items-center gap-2"><span className="h-3 w-3 rounded-full bg-slate-700" />Position issue de vos réponses</span>
+            <span className="flex items-center gap-2"><span className="h-3 w-3 rounded-full border-2 border-dashed border-slate-700 bg-white" />Position selon l’interprétation proposée</span>
           </div>
         )}
       </header>
@@ -121,8 +121,9 @@ export default function PrivilegeMargin({
             character.position,
             totalExperiences,
           );
-          const realMarkerPosition = getMarkerPosition(
-            realPositions?.[character.id] ?? 0,
+          const proposedPosition = proposedPositions?.[character.id] ?? 0;
+          const proposedMarkerPosition = getMarkerPosition(
+            proposedPosition,
             totalExperiences,
           );
 
@@ -134,10 +135,14 @@ export default function PrivilegeMargin({
                   ? "privilege-row--selected"
                   : "border-transparent"
               }`}
+              style={{
+                borderLeftColor: character.accentColor,
+                borderLeftWidth: "4px",
+              }}
             >
               <div className="mb-3 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
                 <div className="flex flex-wrap items-center gap-3">
-                  <p className="font-semibold">
+                  <p className="font-semibold" style={{ color: character.accentColor }}>
                     {character.name}
                   </p>
                   {isSelected && (
@@ -158,9 +163,14 @@ export default function PrivilegeMargin({
                     </button>
                   )}
                 </div>
-                <p className="text-sm text-slate-700">
-                  {character.position} / {totalExperiences} pas
-                </p>
+                {proposedPositions ? (
+                  <div className="flex flex-wrap justify-end gap-x-3 gap-y-1 text-sm text-slate-700">
+                    {isSelected && <span><strong>Vos réponses&nbsp;:</strong> {character.position} / {totalExperiences} pas</span>}
+                    <span><strong>Interprétation proposée&nbsp;:</strong> {proposedPosition} / {totalExperiences} pas</span>
+                  </div>
+                ) : (
+                  <p className="text-sm text-slate-700">{character.position} / {totalExperiences} pas</p>
+                )}
               </div>
 
               {isSelected && (
@@ -174,18 +184,28 @@ export default function PrivilegeMargin({
               <div
                 className={`relative mx-5 mt-4 rounded-full ${
                   isSelected ? "selected-character-track" : "bg-slate-200"
-                } ${realPositions ? "mb-7 h-4" : "h-4"}`}
+                } ${proposedPositions ? "mb-7 h-4" : "h-4"}`}
               >
-                {isSelected && (
+                <div
+                  aria-hidden="true"
+                  className="absolute inset-y-0 left-0 rounded-full opacity-35"
+                  style={{
+                    width: `${getMarkerPosition(proposedPositions && !isSelected ? proposedPosition : character.position, totalExperiences)}%`,
+                    backgroundColor: character.accentColor,
+                  }}
+                />
+                {isSelected && !proposedPositions && (
                   <div
                     aria-hidden="true"
                     className="selected-character-track__progress absolute inset-y-0 left-0 rounded-full"
                     style={{ width: `${markerPosition}%` }}
                   />
                 )}
-                <button
+                {(!proposedPositions || isSelected) && <button
                   type="button"
-                  aria-label={`Voir le personnage ${character.name}, ${character.position} pas sur ${totalExperiences}`}
+                  aria-label={proposedPositions
+                    ? `${character.name}, position issue de vos réponses : ${character.position} pas sur ${totalExperiences}`
+                    : `Voir le personnage ${character.name}, ${character.position} pas sur ${totalExperiences}`}
                   aria-expanded={visibleProfileId === character.id}
                   onMouseEnter={() => setHoveredProfileId(character.id)}
                   onMouseLeave={() => setHoveredProfileId(undefined)}
@@ -200,25 +220,30 @@ export default function PrivilegeMargin({
                   style={{
                     left: `${markerPosition}%`,
                     transform: "translate(-50%, -50%)",
+                    borderColor: character.accentColor,
                   }}
                 >
                   <CharacterPortrait
                     characterId={character.id}
                     characterName={character.name}
+                    image={character.image}
+                    accentColor={character.accentColor}
                     size="progress"
                     eager={isSelected}
                     decorative
                     className="h-full w-full"
                   />
-                </button>
-                {realPositions && isSelected && (
+                </button>}
+                {proposedPositions && (
                   <div
-                    aria-label={`${character.name}, position réelle selon les situations : ${realPositions[character.id] ?? 0} pas sur ${totalExperiences}`}
-                    className="absolute top-full mt-2 flex h-8 w-8 items-center justify-center rounded-full border-2 border-dashed border-slate-700 bg-white text-xs font-bold opacity-60"
+                    role="img"
+                    aria-label={`${character.name}, position selon l’interprétation proposée : ${proposedPosition} pas sur ${totalExperiences}`}
+                    className="absolute top-full mt-2 flex h-8 w-8 items-center justify-center rounded-full border-2 border-dashed bg-white text-xs font-bold"
                     style={{
-                      left: `${realMarkerPosition}%`,
+                      left: `${proposedMarkerPosition}%`,
                       transform: "translateX(-50%)",
-                      color: character.color,
+                      color: character.accentColor,
+                      borderColor: character.accentColor,
                     }}
                   >
                     {character.name.charAt(0).toUpperCase()}
@@ -231,6 +256,8 @@ export default function PrivilegeMargin({
                   <CharacterPortrait
                     characterId={character.id}
                     characterName={character.name}
+                    image={character.image}
+                    accentColor={character.accentColor}
                     size="summary"
                     eager={isSelected}
                     className="shrink-0 self-center sm:self-start"
@@ -238,12 +265,6 @@ export default function PrivilegeMargin({
                   <div>
                     <p className="text-base font-bold text-slate-900">{character.name}</p>
                     <CharacterInformation character={character} className="mt-2" />
-                    {character.traits && (
-                      <p className="mt-3"><strong>Caractéristiques principales :</strong> {character.traits.join(", ")}</p>
-                    )}
-                    {character.protectiveFactors && (
-                      <p className="mt-2"><strong>Ce qui peut faciliter sa participation :</strong> {character.protectiveFactors.join(", ")}</p>
-                    )}
                   </div>
                 </aside>
               )}
