@@ -14,17 +14,11 @@ export default function HomePage({ onStart }: HomePageProps) {
     <Screen>
       <AppBackground className="home-page">
         <section className="home-hero" aria-labelledby="home-title">
-          <div className="home-hero__visual" aria-hidden="true">
-            <img
-              src={activeHomeHero}
-              alt=""
-              width="1672"
-              height="941"
-              decoding="async"
-              fetchPriority="high"
-              className="home-hero__image"
-            />
-          </div>
+          <div
+            className="home-hero__visual"
+            aria-hidden="true"
+            style={{ backgroundImage: `url("${activeHomeHero}")` }}
+          />
           <div className="home-hero__shade" aria-hidden="true" />
 
           <div className="home-hero__content">
