@@ -47,6 +47,8 @@ import {
 } from ${JSON.stringify(legacyRuntimePath)};
 import {
   createActiveGameSet,
+  getActiveCharacter,
+  getActiveCharactersForMode,
 } from ${JSON.stringify(activeRuntimePath)};
 import { gameModes } from ${JSON.stringify(gameModesPath)};
 import { personalizePlayerText } from ${JSON.stringify(personalizePath)};
@@ -170,10 +172,22 @@ for (const modeId of modes) {
 }
 
 const availableModes = gameModes.filter(({ available }) => available).map(({ id }) => id);
-assert(JSON.stringify(availableModes) === JSON.stringify(["visible-obstacles", "ordinary-norms", "invisible-effects"]), "modes disponibles dans l’interface invalides");
+assert(JSON.stringify(availableModes) === JSON.stringify(["visible-obstacles", "ordinary-norms", "invisible-effects", "intersectionalities"]), "modes disponibles dans l’interface invalides");
 assert(gameModes.find(({ id }) => id === "ordinary-norms")?.description === "Repérez comment des procédures, des catégories ou des organisations habituelles peuvent créer des obstacles sans intention explicite de discriminer.", "description Normes ordinaires invalide");
 assert(gameModes.find(({ id }) => id === "invisible-effects")?.description === "Repérez les effets moins visibles de l’invisibilisation, des représentations limitées, de l’anticipation et de l’autocensure.", "description Effets invisibles invalide");
-assert(gameModes.find(({ id }) => id === "intersectionalities")?.available === false && gameModes.find(({ id }) => id === "discovery")?.available === false, "un mode réservé a été activé");
+assert(gameModes.find(({ id }) => id === "intersectionalities")?.description === "Repérez comment plusieurs rapports sociaux se combinent et produisent des obstacles spécifiques, qui ne se réduisent pas à une simple addition.", "description Intersectionnalités invalide");
+assert(gameModes.find(({ id }) => id === "discovery")?.available === false, "Découverte a été activé");
+for (const modeId of ["visible-obstacles", "ordinary-norms", "invisible-effects"] as const) {
+  const gallery = getActiveCharactersForMode(modeId);
+  assert(gallery.length === 9 && gallery.every(({ id }) => id.startsWith("P")), modeId + " : galerie générale active invalide");
+  assert(JSON.stringify(gallery.map(({ id }) => id)) === JSON.stringify(["P04", "P05", "P09", "P02", "P06", "P07", "P08", "P01", "P03"]), modeId + " : ordre de galerie générale modifié");
+}
+const activeIntersectionalCharacters = getActiveCharactersForMode("intersectionalities");
+assert(activeIntersectionalCharacters.length === 8, "parcours actif Intersectionnalités : huit personnages attendus");
+assert(JSON.stringify(activeIntersectionalCharacters.map(({ id }) => id)) === JSON.stringify(intersectionalIds), "parcours actif Intersectionnalités : ordre XP invalide");
+assert(activeIntersectionalCharacters.every(({ id, image }) => id.startsWith("XP") && image === null), "parcours actif Intersectionnalités : identifiant ou remplacement visuel invalide");
+assert(new Set(activeIntersectionalCharacters.map(({ accentColor }) => accentColor)).size === 8, "parcours actif Intersectionnalités : accents non distincts");
+assert(getActiveCharacter("intersectionalities", "XP04").pronouns.join(",") === "iel", "Charlie doit conserver le pronom iel");
 for (const characterId of generalIds) {
   for (const modeId of ["visible-obstacles", "ordinary-norms", "invisible-effects"] as const) {
     for (const seed of [0, 7, 42, 2026, 20260728]) {
@@ -201,12 +215,70 @@ for (const characterId of generalIds) {
           situation.mechanism,
           situation.interpretation ?? "",
           situation.vigilance ?? "",
+          situation.intersectionalTest ?? "",
         ].map((text) => personalizePlayerText(text, characterName));
         assert(displayed.every((text) => !text.includes("[Prénom]")), modeId + "/" + situation.id + " : marqueur prénom encore affiché");
       }
     }
   }
 }
+
+for (const characterId of intersectionalIds) {
+  for (const seed of [0, 7, 42, 2026, 20260728]) {
+    const random = createSeededRuntimeRandom(seed);
+    const first = createActiveGameSet("intersectionalities", characterId, random);
+    const replay = createActiveGameSet("intersectionalities", characterId, random);
+    const reference = createGameSet({
+      modeId: "intersectionalities",
+      characterId,
+      random: createSeededRuntimeRandom(seed),
+    });
+    validateGame(first);
+    validateGame(replay);
+    assert(JSON.stringify(first.situationIds) === JSON.stringify(reference.situationIds), "parcours actif Intersectionnalités : tirage divergent du moteur commun");
+    assert(first.situations.every((situation, index) => situation.feedback.explanation === reference.situations[index].feedback.explanation), "parcours actif Intersectionnalités : feedback divergent du moteur commun");
+    assert(first.galleryId === "intersectional", "parcours actif Intersectionnalités : mauvaise galerie");
+    assert(first.situationIds.every((id) => id.startsWith("X")), "parcours actif Intersectionnalités : préfixe étranger");
+    assert(first.situationIds.includes("X13") && first.situationIds.includes("X14"), "parcours actif Intersectionnalités : protections absentes");
+    assert(first.situations.every(({ intersectionalTest }) => Boolean(intersectionalTest)), "parcours actif Intersectionnalités : test intersectionnel absent");
+    assert(first.situations.every(({ movements }) => intersectionalIds.every((id) => movements[id]) && generalIds.every((id) => !movements[id])), "parcours actif Intersectionnalités : matrice de galerie invalide");
+    const character = getActiveCharacter("intersectionalities", characterId);
+    for (const situation of first.situations) {
+      const displayed = [
+        situation.title,
+        situation.text,
+        situation.question,
+        situation.feedback.explanation,
+        situation.mechanism,
+        situation.interpretation ?? "",
+        situation.intersectionalTest ?? "",
+      ].map((text) => personalizePlayerText(text, character.name));
+      assert(displayed.every((text) => !text.includes("[Prénom]")), "intersectionalities/" + situation.id + " : marqueur prénom encore affiché");
+    }
+  }
+}
+
+const homonyms = [
+  ["XP05", "P02"],
+  ["XP06", "P05"],
+  ["XP07", "P08"],
+  ["XP08", "P01"],
+] as const;
+for (const [intersectionalId, generalId] of homonyms) {
+  const intersectionalCharacter = getActiveCharacter("intersectionalities", intersectionalId);
+  const generalCharacter = getActiveCharacter("visible-obstacles", generalId);
+  assert(intersectionalCharacter.id !== generalCharacter.id, intersectionalId + " fusionné avec " + generalId);
+  assert("profile" in intersectionalCharacter && !("profile" in generalCharacter), intersectionalId + " a reçu le profil général de " + generalId);
+  const game = createActiveGameSet("intersectionalities", intersectionalId, createSeededRuntimeRandom(42));
+  assert(game.characterId === intersectionalId && game.situations.every(({ feedback, proposedDecision }) => feedback.decision === proposedDecision), intersectionalId + " : feedback d’un homonyme général");
+}
+
+let activeRejectedGeneral = false;
+try { createActiveGameSet("intersectionalities", "P02", () => 0.5); } catch { activeRejectedGeneral = true; }
+assert(activeRejectedGeneral, "adaptateur actif : personnage P accepté en Intersectionnalités");
+let activeRejectedIntersectional = false;
+try { createActiveGameSet("ordinary-norms", "XP05", () => 0.5); } catch { activeRejectedIntersectional = true; }
+assert(activeRejectedIntersectional, "adaptateur actif : personnage XP accepté en mode général");
 
 let rejectedWrongGallery = false;
 try { createGameSet({ modeId: "intersectionalities", characterId: "P02", random: () => 0.5 }); } catch { rejectedWrongGallery = true; }
@@ -234,7 +306,7 @@ console.log("Deux galeries strictement séparées par identifiant : oui");
 console.log("Découverte : quotas, protections, obstacles, contraintes et ordre conformes");
 console.log("Obstacles visibles historique : API et résultats de référence préservés");
 console.log("Valeurs aléatoires invalides rejetées pour les cinq modes");
-console.log("Parcours actif : 9 personnages, V/N/I uniquement, personnalisation complète et rejeu valides");
+console.log("Parcours actif : 4 modes, galeries P/XP séparées, personnalisation complète et rejeu valides");
 `;
 
 try {

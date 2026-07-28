@@ -125,6 +125,15 @@ export interface PlayableCharacterV2 extends CharacterV2 {
   readonly image: null;
 }
 
+export interface PlayableIntersectionalCharacterV2 extends IntersectionalCharacterV2 {
+  readonly accentColor: string;
+  readonly image: null;
+}
+
+export type ActivePlayableCharacterV2 =
+  | PlayableCharacterV2
+  | PlayableIntersectionalCharacterV2;
+
 export interface PlayableVisibleObstacleSituation extends VisibleObstacleSituation {
   readonly image: null;
   readonly movements: Readonly<Record<CharacterIdV2, MovementDecision>>;

@@ -6,22 +6,23 @@ import ProgressBar from "../components/ProgressBar";
 import SituationCard from "../components/SituationCard";
 import {
   createActiveGameSet,
+  getActiveCharacter,
+  getActiveCharactersForMode,
   type ActiveGameModeIdV2,
 } from "../data/v2/activeModesRuntimeV2";
 import {
-  getPlayableCharacterV2,
   movementDecisionToStep,
-  playableCharactersV2,
 } from "../data/v2";
-import type { CharacterIdV2, MovementDecision } from "../types/editorialV2";
+import type { EditorialCharacterIdV2, MovementDecision } from "../types/editorialV2";
 import type { ChoiceHistoryEntryV2, GameCharacterV2 } from "../types/choiceHistory";
 import type { RuntimeGameSetV2 } from "../types/runtimeV2";
 import { personalizePlayerText } from "../utils/personalizePlayerText";
 import FinalSummaryPage from "./FinalSummaryPage";
 
 type Phase = "question" | "feedback" | "end";
-interface Props { initialGameSet: RuntimeGameSetV2; selectedCharacterId: CharacterIdV2; selectedModeId: ActiveGameModeIdV2; onChooseAnotherCharacter: () => void; onBackHome: () => void; }
-const initialGameCharacters = (): GameCharacterV2[] => playableCharactersV2.map((character) => ({ ...character, position: 0 }));
+interface Props { initialGameSet: RuntimeGameSetV2; selectedCharacterId: EditorialCharacterIdV2; selectedModeId: ActiveGameModeIdV2; onChooseAnotherCharacter: () => void; onBackHome: () => void; }
+const initialGameCharacters = (modeId: ActiveGameModeIdV2): GameCharacterV2[] =>
+  getActiveCharactersForMode(modeId).map((character) => ({ ...character, position: 0 }));
 const decisionLabel = (name: string, decision: MovementDecision) => `${name} ${decision === "advance" ? "avance" : "reste sur place"}`;
 
 export default function GamePage({ initialGameSet, selectedCharacterId, selectedModeId, onChooseAnotherCharacter, onBackHome }: Props) {
@@ -29,10 +30,10 @@ export default function GamePage({ initialGameSet, selectedCharacterId, selected
   const [currentIndex, setCurrentIndex] = useState(0);
   const [phase, setPhase] = useState<Phase>("question");
   const [choiceHistory, setChoiceHistory] = useState<ChoiceHistoryEntryV2[]>([]);
-  const [characters, setCharacters] = useState<GameCharacterV2[]>(initialGameCharacters);
+  const [characters, setCharacters] = useState<GameCharacterV2[]>(() => initialGameCharacters(selectedModeId));
   const answerLockedRef = useRef(false);
   const continueLockedRef = useRef(false);
-  const selectedCharacter = getPlayableCharacterV2(selectedCharacterId);
+  const selectedCharacter = getActiveCharacter(selectedModeId, selectedCharacterId);
   const situation = gameSet.situations[currentIndex];
 
   function handleDecision(playerDecision: MovementDecision) {
@@ -63,13 +64,13 @@ export default function GamePage({ initialGameSet, selectedCharacterId, selected
     answerLockedRef.current = false;
     continueLockedRef.current = false;
     setGameSet(createActiveGameSet(selectedModeId, selectedCharacterId));
-    setCharacters(initialGameCharacters());
+    setCharacters(initialGameCharacters(selectedModeId));
     setCurrentIndex(0);
     setChoiceHistory([]);
     setPhase("question");
   }
 
-  if (phase === "end") return <FinalSummaryPage characters={characters} initialCharacters={initialGameCharacters()} playedSituations={gameSet.situations} choiceHistory={choiceHistory} selectedCharacterId={selectedCharacterId} selectedModeId={selectedModeId} onRestart={restart} onChooseAnotherCharacter={onChooseAnotherCharacter} onBackHome={onBackHome} />;
+  if (phase === "end") return <FinalSummaryPage characters={characters} initialCharacters={initialGameCharacters(selectedModeId)} playedSituations={gameSet.situations} choiceHistory={choiceHistory} selectedCharacterId={selectedCharacterId} selectedModeId={selectedModeId} onRestart={restart} onChooseAnotherCharacter={onChooseAnotherCharacter} onBackHome={onBackHome} />;
   const latest = choiceHistory.at(-1);
   const feedback = phase === "feedback" ? situation.feedback : undefined;
   return <AppBackground as="main" className="game-background" style={{ "--character-accent": selectedCharacter.accentColor } as React.CSSProperties}>
@@ -86,6 +87,7 @@ export default function GamePage({ initialGameSet, selectedCharacterId, selected
           <section className="rounded-xl border border-indigo-200 bg-indigo-50/70 p-4"><h3 className="font-bold text-indigo-950">Mécanisme en jeu :</h3><p className="mt-2 leading-relaxed text-slate-700">{personalizePlayerText(situation.mechanism, selectedCharacter.name)}</p></section>
           {situation.interpretation && <section><h3 className="font-bold text-slate-950">Interprétation pédagogique</h3><p className="mt-2 leading-relaxed text-slate-700">{personalizePlayerText(situation.interpretation, selectedCharacter.name)}</p></section>}
           {situation.vigilance && <section className="rounded-xl border border-amber-200 bg-amber-50/70 p-4"><h3 className="font-bold text-amber-950">Point de vigilance</h3><p className="mt-2 leading-relaxed text-slate-700">{personalizePlayerText(situation.vigilance, selectedCharacter.name)}</p></section>}
+          {situation.intersectionalTest && <section className="rounded-xl border border-violet-200 bg-violet-50/70 p-4"><h3 className="font-bold text-violet-950">Test intersectionnel</h3><p className="mt-2 leading-relaxed text-slate-700">{personalizePlayerText(situation.intersectionalTest, selectedCharacter.name)}</p></section>}
         </section>}
       </aside>
     </div></div>

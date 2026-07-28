@@ -265,6 +265,7 @@ export default function PrivilegeMargin({
                   <div>
                     <p className="text-base font-bold text-slate-900">{character.name}</p>
                     <CharacterInformation character={character} className="mt-2" />
+                    {"profile" in character && <p className="mt-3 leading-relaxed">{character.profile}</p>}
                   </div>
                 </aside>
               )}
