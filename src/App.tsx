@@ -19,7 +19,7 @@ export default function App() {
   useEffect(() => { if (screen === "game" && selectedCharacterId) window.scrollTo({ top: 0, left: 0, behavior: "auto" }); }, [screen, selectedCharacterId]);
   function startGame(characterId: CharacterIdV2) {
     const selectedMode = gameModes.find(({ id }) => id === selectedModeId);
-    if (!selectedMode?.available || !["visible-obstacles", "ordinary-norms"].includes(selectedMode.id)) throw new Error(`Aucune banque jouable pour le mode ${selectedModeId}`);
+    if (!selectedMode?.available || !["visible-obstacles", "ordinary-norms", "invisible-effects"].includes(selectedMode.id)) throw new Error(`Aucune banque jouable pour le mode ${selectedModeId}`);
     setGameSet(createActiveGameSet(selectedMode.id as ActiveGameModeIdV2, characterId));
     setSelectedCharacterId(characterId);
     setScreen("game");

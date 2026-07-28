@@ -1,3 +1,4 @@
+import invisibleEffectsJson from "../generated-v2/modes/invisible-effects.json";
 import ordinaryNormsJson from "../generated-v2/modes/ordinary-norms.json";
 import { selectStandaloneSituationIds } from "../../engine/selectRuntimeV2Situations";
 import type {
@@ -16,11 +17,19 @@ import {
   getPlayableVisibleObstacleFeedback,
 } from "./runtimeV2";
 
-export type ActiveGameModeIdV2 = "visible-obstacles" | "ordinary-norms";
+export type ActiveGameModeIdV2 =
+  | "visible-obstacles"
+  | "ordinary-norms"
+  | "invisible-effects";
 
 const ordinaryNormsBank = {
   ...ordinaryNormsJson,
   idPrefix: "N",
+} as unknown as NormalizedRuntimeBankV2;
+
+const invisibleEffectsBank = {
+  ...invisibleEffectsJson,
+  idPrefix: "I",
 } as unknown as NormalizedRuntimeBankV2;
 
 function activeRuntimeError(message: string): never {
@@ -44,19 +53,20 @@ function createGameSet(
   });
 }
 
-function resolveOrdinaryNorm(
+function resolveNormalizedSituation(
+  modeId: Exclude<ActiveGameModeIdV2, "visible-obstacles">,
   situation: NormalizedRuntimeSituationV2,
   characterId: CharacterIdV2,
 ): RuntimeSituationV2 {
   const proposedDecision = situation.effectsByCharacter[characterId];
   const feedback = situation.feedbacksByCharacter[characterId];
   if (!proposedDecision || !feedback || feedback.decision !== proposedDecision) {
-    activeRuntimeError(`ordinary-norms/${situation.id}/${characterId} : décision ou feedback incohérent`);
+    activeRuntimeError(`${modeId}/${situation.id}/${characterId} : décision ou feedback incohérent`);
   }
   return Object.freeze({
     id: situation.id,
-    modeId: "ordinary-norms",
-    originMode: "ordinary-norms",
+    modeId,
+    originMode: modeId,
     title: situation.title,
     text: situation.playerText,
     playerText: situation.playerText,
@@ -115,7 +125,22 @@ export function createActiveOrdinaryNormsGameSet(
   return createGameSet("ordinary-norms", characterId, ids.map((id) => {
     const situation = byId.get(id);
     if (!situation) activeRuntimeError(`ordinary-norms : situation inconnue ${id}`);
-    return resolveOrdinaryNorm(situation, characterId);
+    return resolveNormalizedSituation("ordinary-norms", situation, characterId);
+  }));
+}
+
+export function createActiveInvisibleEffectsGameSet(
+  characterId: CharacterIdV2,
+  random: RuntimeRandom = Math.random,
+): RuntimeGameSetV2 {
+  const byId = new Map<EditorialSituationIdV2, NormalizedRuntimeSituationV2>(
+    invisibleEffectsBank.situations.map((situation) => [situation.id, situation]),
+  );
+  const ids = selectStandaloneSituationIds(invisibleEffectsBank, characterId, random);
+  return createGameSet("invisible-effects", characterId, ids.map((id) => {
+    const situation = byId.get(id);
+    if (!situation) activeRuntimeError(`invisible-effects : situation inconnue ${id}`);
+    return resolveNormalizedSituation("invisible-effects", situation, characterId);
   }));
 }
 
@@ -126,5 +151,6 @@ export function createActiveGameSet(
 ): RuntimeGameSetV2 {
   if (modeId === "visible-obstacles") return createActiveVisibleObstaclesGameSet(characterId, random);
   if (modeId === "ordinary-norms") return createActiveOrdinaryNormsGameSet(characterId, random);
+  if (modeId === "invisible-effects") return createActiveInvisibleEffectsGameSet(characterId, random);
   return activeRuntimeError(`mode non actif ${String(modeId)}`);
 }

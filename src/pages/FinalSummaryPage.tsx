@@ -14,7 +14,12 @@ import { personalizePlayerText } from "../utils/personalizePlayerText";
 
 interface Props { characters: readonly GameCharacterV2[]; initialCharacters: readonly GameCharacterV2[]; playedSituations: readonly RuntimeSituationV2[]; choiceHistory: readonly ChoiceHistoryEntryV2[]; selectedCharacterId: CharacterIdV2; selectedModeId: ActiveGameModeIdV2; onRestart: () => void; onChooseAnotherCharacter: () => void; onBackHome: () => void; }
 const movement = (name: string, decision: "advance" | "stay") => `${name} ${decision === "advance" ? "avance" : "reste sur place"}`;
-const modeLabel = (modeId: ActiveGameModeIdV2) => modeId === "visible-obstacles" ? "Obstacles visibles" : "Normes ordinaires";
+const modeLabels: Readonly<Record<ActiveGameModeIdV2, string>> = {
+  "visible-obstacles": "Obstacles visibles",
+  "ordinary-norms": "Normes ordinaires",
+  "invisible-effects": "Effets invisibles",
+};
+const modeLabel = (modeId: ActiveGameModeIdV2) => modeLabels[modeId];
 export default function FinalSummaryPage({ characters, initialCharacters, playedSituations, choiceHistory, selectedCharacterId, selectedModeId, onRestart, onChooseAnotherCharacter, onBackHome }: Props) {
   const choicesSectionRef = useRef<HTMLElement>(null);
   const selectedCharacter = initialCharacters.find(({ id }) => id === selectedCharacterId);

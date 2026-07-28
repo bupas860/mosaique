@@ -170,31 +170,40 @@ for (const modeId of modes) {
 }
 
 const availableModes = gameModes.filter(({ available }) => available).map(({ id }) => id);
-assert(JSON.stringify(availableModes) === JSON.stringify(["visible-obstacles", "ordinary-norms"]), "modes disponibles dans l’interface invalides");
+assert(JSON.stringify(availableModes) === JSON.stringify(["visible-obstacles", "ordinary-norms", "invisible-effects"]), "modes disponibles dans l’interface invalides");
 assert(gameModes.find(({ id }) => id === "ordinary-norms")?.description === "Repérez comment des procédures, des catégories ou des organisations habituelles peuvent créer des obstacles sans intention explicite de discriminer.", "description Normes ordinaires invalide");
+assert(gameModes.find(({ id }) => id === "invisible-effects")?.description === "Repérez les effets moins visibles de l’invisibilisation, des représentations limitées, de l’anticipation et de l’autocensure.", "description Effets invisibles invalide");
+assert(gameModes.find(({ id }) => id === "intersectionalities")?.available === false && gameModes.find(({ id }) => id === "discovery")?.available === false, "un mode réservé a été activé");
 for (const characterId of generalIds) {
-  const random = createSeededRuntimeRandom(20260728);
-  for (const modeId of ["visible-obstacles", "ordinary-norms"] as const) {
-    const first = createActiveGameSet(modeId, characterId, random);
-    const replay = createActiveGameSet(modeId, characterId, random);
-    validateGame(first);
-    validateGame(replay);
-    if (modeId === "ordinary-norms") {
-      assert(first.situationIds.every((id) => id.startsWith("N")), "parcours actif Normes ordinaires : préfixe étranger");
-      assert(first.situationIds.includes("N12") && first.situationIds.includes("N13"), "parcours actif Normes ordinaires : protections absentes");
-    }
-    const characterName = getPlayableCharacterV2(characterId).name;
-    for (const situation of first.situations) {
-      const displayed = [
-        situation.title,
-        situation.text,
-        situation.question,
-        situation.feedback.explanation,
-        situation.mechanism,
-        situation.interpretation ?? "",
-        situation.vigilance ?? "",
-      ].map((text) => personalizePlayerText(text, characterName));
-      assert(displayed.every((text) => !text.includes("[Prénom]")), modeId + "/" + situation.id + " : marqueur prénom encore affiché");
+  for (const modeId of ["visible-obstacles", "ordinary-norms", "invisible-effects"] as const) {
+    for (const seed of [0, 7, 42, 2026, 20260728]) {
+      const random = createSeededRuntimeRandom(seed);
+      const first = createActiveGameSet(modeId, characterId, random);
+      const replay = createActiveGameSet(modeId, characterId, random);
+      validateGame(first);
+      validateGame(replay);
+      if (modeId === "ordinary-norms") {
+        assert(first.situationIds.every((id) => id.startsWith("N")), "parcours actif Normes ordinaires : préfixe étranger");
+        assert(first.situationIds.includes("N12") && first.situationIds.includes("N13"), "parcours actif Normes ordinaires : protections absentes");
+      }
+      if (modeId === "invisible-effects") {
+        assert(first.situationIds.every((id) => id.startsWith("I")), "parcours actif Effets invisibles : préfixe étranger");
+        assert(first.situationIds.includes("I14") && first.situationIds.includes("I15"), "parcours actif Effets invisibles : protections absentes");
+        if (characterId === "P04") assert(first.situationIds.includes("I16"), "parcours actif Effets invisibles/Arthur : I16 absente");
+      }
+      const characterName = getPlayableCharacterV2(characterId).name;
+      for (const situation of first.situations) {
+        const displayed = [
+          situation.title,
+          situation.text,
+          situation.question,
+          situation.feedback.explanation,
+          situation.mechanism,
+          situation.interpretation ?? "",
+          situation.vigilance ?? "",
+        ].map((text) => personalizePlayerText(text, characterName));
+        assert(displayed.every((text) => !text.includes("[Prénom]")), modeId + "/" + situation.id + " : marqueur prénom encore affiché");
+      }
     }
   }
 }
@@ -225,7 +234,7 @@ console.log("Deux galeries strictement séparées par identifiant : oui");
 console.log("Découverte : quotas, protections, obstacles, contraintes et ordre conformes");
 console.log("Obstacles visibles historique : API et résultats de référence préservés");
 console.log("Valeurs aléatoires invalides rejetées pour les cinq modes");
-console.log("Parcours actif : 9 personnages, V/N uniquement, personnalisation complète et rejeu valides");
+console.log("Parcours actif : 9 personnages, V/N/I uniquement, personnalisation complète et rejeu valides");
 `;
 
 try {
