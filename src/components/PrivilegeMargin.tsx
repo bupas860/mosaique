@@ -55,7 +55,7 @@ export default function PrivilegeMargin({
         "--character-accent": selectedCharacter?.accentColor,
       } as React.CSSProperties}
     >
-      <header className="mb-8 text-center">
+      <header className="mb-6 text-center">
         <h2 className="text-2xl font-bold">Marche des privilèges</h2>
         <p className="mt-2 text-sm text-slate-600">
           Chaque personnage part du même point. Selon les situations rencontrées, il avance d&apos;un pas ou reste sur place.
@@ -73,7 +73,7 @@ export default function PrivilegeMargin({
         <span>0 à {totalExperiences} pas possibles</span>
       </div>
 
-      <div className="relative mx-5 mb-8 h-7">
+      <div className="relative mx-5 mb-6 h-7">
         <div className="absolute top-0 h-2 w-full rounded-full bg-slate-200" />
         {currentSituation !== undefined && (
           <div
@@ -114,7 +114,7 @@ export default function PrivilegeMargin({
         })}
       </div>
 
-      <div className="space-y-5">
+      <div className="space-y-3">
         {displayedCharacters.map((character) => {
           const isSelected = character.id === selectedCharacterId;
           const markerPosition = getMarkerPosition(
@@ -130,17 +130,17 @@ export default function PrivilegeMargin({
           return (
             <div
               key={character.id}
-              className={`privilege-row rounded-xl border p-3 transition-colors ${
+              className={`privilege-row rounded-xl border transition-colors ${
                 isSelected
-                  ? "privilege-row--selected"
-                  : "border-transparent"
+                  ? "privilege-row--selected p-3"
+                  : "border-transparent px-3 py-2"
               }`}
               style={{
                 borderLeftColor: character.accentColor,
                 borderLeftWidth: "4px",
               }}
             >
-              <div className="mb-3 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+              <div className="mb-2 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
                 <div className="flex flex-wrap items-center gap-3">
                   <p className="font-semibold" style={{ color: character.accentColor }}>
                     {character.name}
@@ -182,7 +182,7 @@ export default function PrivilegeMargin({
               )}
 
               <div
-                className={`relative mx-5 mt-4 rounded-full ${
+                className={`relative mx-5 mt-3 rounded-full ${
                   isSelected ? "selected-character-track" : "bg-slate-200"
                 } ${proposedPositions ? "mb-7 h-4" : "h-4"}`}
               >
