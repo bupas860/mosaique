@@ -252,11 +252,11 @@ const activeIntersectionalCharacters = getActiveCharactersForMode("intersectiona
 assert(activeIntersectionalCharacters.length === 8, "parcours actif Intersectionnalités : huit personnages attendus");
 assert(JSON.stringify(activeIntersectionalCharacters.map(({ id }) => id)) === JSON.stringify(intersectionalIds), "parcours actif Intersectionnalités : ordre XP invalide");
 assert(activeIntersectionalCharacters.every(({ id }) => id.startsWith("XP")), "parcours actif Intersectionnalités : identifiant invalide");
-assert(activeIntersectionalCharacters.every(({ id, image }) => ["XP01", "XP02", "XP05"].includes(id) ? typeof image === "string" : image === null), "parcours actif Intersectionnalités : portrait ou remplacement visuel invalide");
+assert(activeIntersectionalCharacters.every(({ image }) => typeof image === "string"), "parcours actif Intersectionnalités : portrait absent");
 for (const modeId of ["visible-obstacles", "ordinary-norms", "invisible-effects", "discovery"]) {
   const portraits = Object.fromEntries(getActiveCharactersForMode(modeId).map(({ id, image }) => [id, image]));
   for (const characterId of generalIds) {
-    assert(["P02", "P03", "P04", "P05", "P09"].includes(characterId) ? typeof portraits[characterId] === "string" : portraits[characterId] === null, modeId + "/" + characterId + " : portrait ou remplacement visuel invalide");
+    assert(typeof portraits[characterId] === "string", modeId + "/" + characterId + " : portrait absent");
   }
 }
 assert(new Set(activeIntersectionalCharacters.map(({ accentColor }) => accentColor)).size === 8, "parcours actif Intersectionnalités : accents non distincts");
