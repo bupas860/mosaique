@@ -21,6 +21,14 @@ Ce document constitue la référence consolidée pour P01 à P09 et XP01 à XP08
 - `044_Biographies_approfondies_XP02_a_XP04_V1.md`
 - `045_Biographies_approfondies_XP05_a_XP08_V1.md`
 
+## Spécification de publication
+
+- `047_Specification_fiches_biographiques_publiques_V2.md`
+- `048_Matrice_affichage_17_biographies_V2.md`
+
+Les textes alternatifs validés des portraits sont documentés dans
+`docs/illustrations/074_Cahier_textes_alternatifs_portraits_personnages_Mosaique_V2.md`.
+
 ## Statut d’intégration
 
 Les descriptions courtes actuellement utilisées pendant le jeu restent

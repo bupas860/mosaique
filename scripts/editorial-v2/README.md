@@ -23,3 +23,23 @@ Les anciens fichiers `characters.json` et
 `modes/visible-obstacles.*.json` restent générés comme couche de compatibilité
 pour le runtime actuellement actif. Les quatre nouveaux modes ne sont pas
 encore branchés aux pages React.
+
+## Biographies publiques
+
+La chaîne des biographies publiques lit le document canonique `046`, découpe
+chaque fiche avant le volet formateur et autorise uniquement les rubriques 1 à
+13. Elle joint ensuite, par identifiant stable, les descriptions courtes des
+galeries existantes et les textes alternatifs validés du cahier `074`.
+
+- `parse-public-biographies-v2.mjs` transforme le Markdown en blocs publics
+  restreints, sans HTML brut.
+- `validate-public-biographies-v2.mjs` contrôle les cardinalités, les sections,
+  les homonymes et l’absence de données réservées.
+- `import-public-biographies-v2.mjs` écrit atomiquement et de façon déterministe
+  `src/data/generated-v2/public-biographies.json`.
+- `check-public-biographies-v2.mjs` compare la sortie aux sources et inspecte
+  aussi les fichiers textuels de `dist`.
+
+Commandes : `biographies:validate`, `biographies:import`,
+`biographies:check-public` et `biographies:check-dist`. Le build exécute la
+chaîne complète avant et après Vite.
