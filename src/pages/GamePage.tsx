@@ -76,13 +76,22 @@ export default function GamePage({ initialGameSet, selectedCharacterId, selected
   const latest = choiceHistory.at(-1);
   const feedback = phase === "feedback" ? situation.feedback : undefined;
   const playerSituation = preparePlayerSituation(situation);
+  const selectedGameCharacter = characters.find(
+    ({ id }) => id === selectedCharacterId,
+  );
   const revealedFamilyLabel = phase === "feedback"
     ? getRevealedSituationFamilyLabel(selectedModeId, situation.originMode)
     : undefined;
   return <AppBackground as="main" className="game-background" style={{ "--character-accent": selectedCharacter.accentColor } as React.CSSProperties}>
-    <div className="mx-auto w-full max-w-[100rem] p-4 sm:p-8 lg:p-8 xl:p-10"><div className="grid min-w-0 items-start gap-8 lg:grid-cols-[minmax(0,2fr)_minmax(20rem,1fr)] xl:grid-cols-[minmax(0,7fr)_minmax(22rem,3fr)]">
-      <div className="min-w-0"><PrivilegeMargin characters={characters} selectedCharacterId={selectedCharacterId} totalExperiences={gameSet.situations.length} currentSituation={currentIndex + 1} /></div>
-      <aside className="app-surface situation-panel min-w-0 rounded-2xl border p-5 sm:p-6 lg:sticky lg:top-6"><ProgressBar current={currentIndex + 1} total={gameSet.situations.length} /><SituationCard situation={playerSituation} illustrationKey={`situation-${currentIndex}`} characterName={selectedCharacter.name} showChoices={phase === "question"} onDecision={handleDecision} />
+    <div className="mx-auto w-full max-w-[100rem] p-4 sm:p-8 lg:p-8 xl:p-10"><div className="grid min-w-0 items-start gap-8 lg:grid-cols-[minmax(0,3fr)_minmax(25rem,2fr)]">
+      <div id="privilege-margin" className="order-2 min-w-0 scroll-mt-4 lg:order-1"><PrivilegeMargin characters={characters} selectedCharacterId={selectedCharacterId} totalExperiences={gameSet.situations.length} currentSituation={currentIndex + 1} /></div>
+      <aside className="app-surface situation-panel order-1 min-w-0 rounded-2xl border p-5 sm:p-6 lg:order-2 lg:sticky lg:top-6">
+        <section aria-label="Personnage incarné" className="mb-5 min-w-0 rounded-xl border border-slate-300 bg-white/80 p-4 lg:hidden">
+          <p className="break-words font-bold" style={{ color: selectedCharacter.accentColor }}>{selectedCharacter.name}</p>
+          <p className="mt-1 text-sm text-slate-700">Position actuelle : {selectedGameCharacter?.position ?? 0} / {gameSet.situations.length}</p>
+          <a href="#privilege-margin" className="mt-3 inline-flex min-h-11 items-center rounded-lg font-semibold text-blue-700 underline underline-offset-4 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-600 focus-visible:ring-offset-2">Voir la marche complète</a>
+        </section>
+        <ProgressBar current={currentIndex + 1} total={gameSet.situations.length} /><SituationCard situation={playerSituation} situationId={situation.id} characterName={selectedCharacter.name} showChoices={phase === "question"} onDecision={handleDecision} />
         {phase === "feedback" && latest && feedback && <section aria-live="polite" aria-atomic="true" className="mt-6 space-y-4">
           <h2 className="text-2xl font-bold">Retour sur votre réponse</h2>
           <div className="rounded-xl border border-blue-200 bg-blue-50 p-4"><p className="font-bold text-blue-950">Votre réponse : {decisionLabel(selectedCharacter.name, latest.playerDecision)}.</p></div>
