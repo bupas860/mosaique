@@ -1,0 +1,693 @@
+{
+  "schemaVersion": "understand-public-v1",
+  "groups": [
+    {
+      "id": "G1",
+      "label": "Entrer dans Mosaïque",
+      "moduleIds": [
+        "M01",
+        "M02",
+        "M03",
+        "M04"
+      ],
+      "directQuestion": "Que fait le jeu, d’où vient-il et comment distinguer positions, normes, institutions et discriminations ?"
+    },
+    {
+      "id": "G2",
+      "label": "Comprendre les quatre focales",
+      "moduleIds": [
+        "M05",
+        "M06",
+        "M07",
+        "M08"
+      ],
+      "directQuestion": "Comment regarder un obstacle visible, une norme ordinaire, un effet invisible ou l’articulation de plusieurs rapports sociaux ?"
+    },
+    {
+      "id": "G3",
+      "label": "Identités, parcours et circulation de l’information",
+      "moduleIds": [
+        "M09",
+        "M10"
+      ],
+      "directQuestion": "Comment respecter la circulation choisie des informations et la pluralité des parcours trans et non binaires ?"
+    },
+    {
+      "id": "G4",
+      "label": "Analyser et animer",
+      "moduleIds": [
+        "M11",
+        "M12"
+      ],
+      "directQuestion": "Comment transformer l’analyse en dispositif de formation prudent, réflexif et vérifiable ?"
+    }
+  ],
+  "readingPaths": [
+    {
+      "id": "R1",
+      "title": "Lecture générale",
+      "order": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "M12"
+      ],
+      "objective": "construire progressivement le vocabulaire, les quatre focales et les conditions d’usage en formation.",
+      "duration": "36 à 60 minutes pour les « L’essentiel » ; 96 à 144 minutes pour les parties « Approfondir ».",
+      "audience": "",
+      "caveat": "les modules complets, le jeu, le débrief ni une vérification professionnelle des contenus datés."
+    },
+    {
+      "id": "R2",
+      "title": "Comprendre les modes",
+      "order": [
+        "M01",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08"
+      ],
+      "objective": "comprendre le statut des décisions puis distinguer obstacles visibles, normes ordinaires, effets invisibles et intersectionnalités.",
+      "duration": "18 à 30 minutes pour les « L’essentiel » ; 48 à 72 minutes pour les parties « Approfondir ».",
+      "audience": "",
+      "caveat": "l’analyse détaillée des situations, les matrices gelées ni la comparaison de plusieurs focales pendant le débrief."
+    },
+    {
+      "id": "R3",
+      "title": "Préparer une formation",
+      "order": [
+        "M01",
+        "M02",
+        "M11",
+        "M12"
+      ],
+      "objective": "poser le contrat de lecture, connaître l’héritage du dispositif, préparer une posture critique et organiser un débrief prudent.",
+      "duration": "12 à 20 minutes pour les quatre « L’essentiel » ; 32 à 48 minutes pour leurs parties « Approfondir ».",
+      "audience": "",
+      "caveat": "la préparation locale, la connaissance du public, la coanimation éventuelle, les procédures professionnelles ni la gestion des incidents."
+    },
+    {
+      "id": "R4",
+      "title": "Confidentialité et parcours",
+      "order": [
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M09",
+        "M10"
+      ],
+      "objective": "analyser les règles, outils, représentations et divulgations qui affectent l’autonomie, puis comprendre la pluralité des parcours trans et non binaires.",
+      "duration": "18 à 30 minutes pour les « L’essentiel » ; 48 à 72 minutes pour les parties « Approfondir ».",
+      "audience": "",
+      "caveat": "une analyse juridique, médicale ou technique individuelle, ni l’écoute de la personne concernée."
+    }
+  ],
+  "modules": [
+    {
+      "id": "M01",
+      "number": 1,
+      "title": "Ce que Mosaïque met en jeu",
+      "summary": "Le module pose le contrat de lecture de tout l’espace : le joueur suit le parcours d’un personnage sans devenir cette personne. Une décision porte sur un effet situé ; une avance n’est pas un score global et le feedback reste une interprétation argumentée, ouverte au désaccord et au débrief.",
+      "directQuestion": "Que demande réellement Mosaïque au joueur, et que signifient les décisions prises pendant une partie ?",
+      "groupId": "G1",
+      "readingTime": {
+        "essential": "3 à 5 minutes",
+        "deepDive": "8 à 12 minutes"
+      },
+      "dependencies": [],
+      "relatedModules": [
+        "M11",
+        "M12"
+      ],
+      "situations": [
+        "V04",
+        "N02",
+        "I14",
+        "X13"
+      ],
+      "notions": [
+        "avance",
+        "marge de manœuvre",
+        "feedback",
+        "protection",
+        "débrief",
+        "transfert"
+      ],
+      "datedContent": [
+        {
+          "label": "Recherches sur simulation, fiction, débrief et transfert, vérifiées le 31 juillet 2026",
+          "verifiedAt": "2026-07-31",
+          "scope": "canonical-module-scope"
+        }
+      ],
+      "status": "validated",
+      "pilot": false,
+      "dataFile": "modules/m01.json"
+    },
+    {
+      "id": "M02",
+      "number": 2,
+      "title": "De la marche des privilèges à Mosaïque",
+      "summary": "Le module présente l’histoire plurielle de la privilege walk et les choix de médiation narrative de Mosaïque. Il montre comment le recours à des personnages et à des situations peut déplacer le dévoilement de soi, sans supprimer les risques d’exposition, de simplification ou de classement moral.",
+      "directQuestion": "Que conserve Mosaïque de la marche des privilèges, et que transforme-t-elle ?",
+      "groupId": "G1",
+      "readingTime": {
+        "essential": "3 à 5 minutes",
+        "deepDive": "8 à 12 minutes"
+      },
+      "dependencies": [
+        "M01"
+      ],
+      "relatedModules": [
+        "M08",
+        "M11"
+      ],
+      "situations": [
+        "N02",
+        "I14",
+        "X13"
+      ],
+      "notions": [
+        "privilege walk",
+        "privilège",
+        "médiation narrative",
+        "dévoilement",
+        "débrief"
+      ],
+      "datedContent": [
+        {
+          "label": "Généalogie et recherches sur les privilege walks, vérifiées le 31 juillet 2026",
+          "verifiedAt": "2026-07-31",
+          "scope": "canonical-module-scope"
+        }
+      ],
+      "status": "validated",
+      "pilot": true,
+      "dataFile": "modules/m02.json"
+    },
+    {
+      "id": "M03",
+      "number": 3,
+      "title": "Privilèges, positions sociales et pouvoir",
+      "summary": "Le module distingue droit, ressource, protection, privilège, position sociale, pouvoir et capacité d’agir. Il situe l’avantage relatif dans un contexte et dans l’absence de certains travaux correctifs, sans faire du respect de la personne ou de la protection contre les discriminations un privilège individuel.",
+      "directQuestion": "Comment parler des privilèges sans transformer les positions sociales en qualités ou en fautes individuelles ?",
+      "groupId": "G1",
+      "readingTime": {
+        "essential": "3 à 5 minutes",
+        "deepDive": "8 à 12 minutes"
+      },
+      "dependencies": [
+        "M01",
+        "M02"
+      ],
+      "relatedModules": [
+        "M06",
+        "M08"
+      ],
+      "situations": [
+        "V04",
+        "N02",
+        "N12"
+      ],
+      "notions": [
+        "droit",
+        "ressource",
+        "protection",
+        "privilège",
+        "position sociale",
+        "pouvoir",
+        "capacité d’agir"
+      ],
+      "datedContent": [
+        {
+          "label": "Généalogie et recherches sur privilège et pouvoir, vérifiées le 31 juillet 2026",
+          "verifiedAt": "2026-07-31",
+          "scope": "canonical-module-scope"
+        }
+      ],
+      "status": "validated",
+      "pilot": false,
+      "dataFile": "modules/m03.json"
+    },
+    {
+      "id": "M04",
+      "number": 4,
+      "title": "Normes, institutions et discriminations",
+      "summary": "Le module sépare norme, règle, habitude, institution, procédure et catégorie. Il explique les distinctions entre discrimination directe et indirecte ainsi qu’entre dimensions institutionnelle, structurelle et systémique, tout en maintenant la frontière entre analyse sociologique et qualification juridique.",
+      "directQuestion": "Comment une organisation ordinaire peut-elle produire des effets inégaux, même sans intention explicitement hostile ?",
+      "groupId": "G1",
+      "readingTime": {
+        "essential": "3 à 5 minutes",
+        "deepDive": "8 à 12 minutes"
+      },
+      "dependencies": [
+        "M03"
+      ],
+      "relatedModules": [
+        "M08",
+        "M09",
+        "M10"
+      ],
+      "situations": [
+        "V04",
+        "N02",
+        "N03",
+        "N06",
+        "N07",
+        "N12",
+        "N13"
+      ],
+      "notions": [
+        "norme",
+        "règle",
+        "institution",
+        "procédure",
+        "catégorie",
+        "discriminations",
+        "protection par conception"
+      ],
+      "datedContent": [
+        {
+          "label": "Droit français et européen de la non-discrimination, vérifié le 31 juillet 2026",
+          "verifiedAt": "2026-07-31",
+          "scope": "canonical-module-scope"
+        }
+      ],
+      "status": "validated",
+      "pilot": false,
+      "dataFile": "modules/m04.json"
+    },
+    {
+      "id": "M05",
+      "number": 5,
+      "title": "Obstacles visibles",
+      "summary": "Le module traite les actes observables et distingue intention, effet, responsabilité, conflit, violence, harcèlement et discrimination. Il porte une attention particulière aux rôles des témoins et aux protections visibles mais situées, sans établir de hiérarchie de gravité entre les modes.",
+      "directQuestion": "Comment analyser un obstacle explicite sans réduire la situation à la seule intention de son auteur ni lui attribuer automatiquement une qualification juridique ?",
+      "groupId": "G2",
+      "readingTime": {
+        "essential": "3 à 5 minutes",
+        "deepDive": "8 à 12 minutes"
+      },
+      "dependencies": [
+        "M04"
+      ],
+      "relatedModules": [
+        "M09",
+        "M12"
+      ],
+      "situations": [
+        "V04",
+        "V05",
+        "V10",
+        "V13",
+        "V16"
+      ],
+      "notions": [
+        "acte observable",
+        "intention",
+        "effet",
+        "responsabilité",
+        "harcèlement",
+        "témoin",
+        "protection"
+      ],
+      "datedContent": [
+        {
+          "label": "Droit français, pHARe et ressources anti-harcèlement, vérifiés le 31 juillet 2026",
+          "verifiedAt": "2026-07-31",
+          "scope": "canonical-module-scope"
+        }
+      ],
+      "status": "validated",
+      "pilot": false,
+      "dataFile": "modules/m05.json"
+    },
+    {
+      "id": "M06",
+      "number": 6,
+      "title": "Normes ordinaires",
+      "summary": "Le module analyse les normes perçues, valeurs par défaut, catégories, classifications et charges administratives. Il montre comment une protection peut être intégrée à la conception d’un formulaire, d’un outil ou d’une procédure, sans assimiler automatiquement norme ordinaire et discrimination indirecte.",
+      "directQuestion": "Comment une procédure apparemment ordinaire peut-elle avantager certaines personnes et imposer à d’autres un travail d’explication, de correction ou d’adaptation ?",
+      "groupId": "G2",
+      "readingTime": {
+        "essential": "3 à 5 minutes",
+        "deepDive": "8 à 12 minutes"
+      },
+      "dependencies": [
+        "M03",
+        "M04"
+      ],
+      "relatedModules": [
+        "M09",
+        "M10",
+        "M12"
+      ],
+      "situations": [
+        "N02",
+        "N03",
+        "N06",
+        "N07",
+        "N12",
+        "N13"
+      ],
+      "notions": [
+        "norme descriptive",
+        "norme injonctive",
+        "règle",
+        "habitude",
+        "classification",
+        "valeur par défaut",
+        "charge administrative"
+      ],
+      "datedContent": [
+        {
+          "label": "Non-discrimination, données, EVARS et circulaire de 2023, vérifiées le 31 juillet 2026",
+          "verifiedAt": "2026-07-31",
+          "scope": "canonical-module-scope"
+        }
+      ],
+      "status": "validated",
+      "pilot": false,
+      "dataFile": "modules/m06.json"
+    },
+    {
+      "id": "M07",
+      "number": 7,
+      "title": "Effets invisibles",
+      "summary": "Le module propose une analyse par les cadrages, absences, répétitions, scripts et anticipations. Il distingue stéréotype et adhésion, représentation et psychologie individuelle, puis rappelle les limites des recherches médiatiques et de leur transfert au contexte scolaire.",
+      "directQuestion": "Comment analyser les effets d’une représentation, d’un silence ou d’un cadrage sans prétendre connaître avec certitude le vécu intérieur du personnage ?",
+      "groupId": "G2",
+      "readingTime": {
+        "essential": "3 à 5 minutes",
+        "deepDive": "8 à 12 minutes"
+      },
+      "dependencies": [
+        "M04",
+        "M05",
+        "M06"
+      ],
+      "relatedModules": [
+        "M10",
+        "M11"
+      ],
+      "situations": [
+        "I01",
+        "I09",
+        "I10",
+        "I12",
+        "I14",
+        "I15",
+        "I16"
+      ],
+      "notions": [
+        "cadrage",
+        "représentation",
+        "absence",
+        "répétition",
+        "stéréotype",
+        "script",
+        "anticipation",
+        "confidentialité"
+      ],
+      "datedContent": [
+        {
+          "label": "Programmes et politiques éducatives ainsi que recherches médiatiques, vérifiés le 31 juillet 2026",
+          "verifiedAt": "2026-07-31",
+          "scope": "canonical-module-scope"
+        }
+      ],
+      "status": "validated",
+      "pilot": false,
+      "dataFile": "modules/m07.json"
+    },
+    {
+      "id": "M08",
+      "number": 8,
+      "title": "Intersectionnalité : articuler les rapports sociaux",
+      "summary": "Le module présente l’intersectionnalité comme une manière d’analyser des rapports sociaux co-constitués et des positions qui ne se laissent pas décomposer en facteurs indépendants. Le test de soustraction sert à questionner une situation, non à calculer une somme d’identités ou un score de désavantage.",
+      "directQuestion": "Pourquoi l’intersectionnalité ne consiste-t-elle pas à additionner plusieurs discriminations ?",
+      "groupId": "G2",
+      "readingTime": {
+        "essential": "3 à 5 minutes",
+        "deepDive": "8 à 12 minutes"
+      },
+      "dependencies": [
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07"
+      ],
+      "relatedModules": [
+        "M02",
+        "M12"
+      ],
+      "situations": [
+        "X01",
+        "X03",
+        "X05",
+        "X12",
+        "X13",
+        "X14"
+      ],
+      "notions": [
+        "intersectionnalité",
+        "rapport social",
+        "position sociale",
+        "matrice de domination",
+        "consubstantialité",
+        "coextensivité"
+      ],
+      "datedContent": [
+        {
+          "label": "Généalogie et usages institutionnels de l’intersectionnalité, vérifiés le 31 juillet 2026",
+          "verifiedAt": "2026-07-31",
+          "scope": "canonical-module-scope"
+        }
+      ],
+      "status": "validated",
+      "pilot": true,
+      "dataFile": "modules/m08.json"
+    },
+    {
+      "id": "M09",
+      "number": 9,
+      "title": "Dire, taire ou voir divulgué : coming in, coming out et outing",
+      "summary": "Le module distingue reconnaissance pour soi, divulgation volontaire et divulgation sans consentement. Il relie consentement, confidentialité, minimisation, intégrité contextuelle et effondrement des contextes, sans prescrire de parler ni de se taire et sans transformer l’usage pédagogique élargi d’`outing` en définition juridique universelle.",
+      "directQuestion": "Comment respecter l’autonomie d’une personne lorsque des informations sur son identité, ses relations ou son parcours peuvent être dites, tues, demandées ou divulguées dans différents contextes ?",
+      "groupId": "G3",
+      "readingTime": {
+        "essential": "3 à 5 minutes",
+        "deepDive": "8 à 12 minutes"
+      },
+      "dependencies": [
+        "M05",
+        "M06",
+        "M07"
+      ],
+      "relatedModules": [
+        "M04",
+        "M12"
+      ],
+      "situations": [
+        "V13",
+        "N03",
+        "N12",
+        "N13",
+        "I10"
+      ],
+      "notions": [
+        "coming in",
+        "coming out",
+        "outing",
+        "consentement",
+        "confidentialité",
+        "minimisation",
+        "intégrité contextuelle",
+        "context collapse"
+      ],
+      "datedContent": [
+        {
+          "label": "Données, obligations professionnelles, circulaire de 2021, droit administratif et ENT, vérifiés le 31 juillet 2026",
+          "verifiedAt": "2026-07-31",
+          "scope": "canonical-module-scope"
+        }
+      ],
+      "status": "validated",
+      "pilot": false,
+      "dataFile": "modules/m09.json"
+    },
+    {
+      "id": "M10",
+      "number": 10,
+      "title": "Parcours trans et non binaires : pluralité, autonomie et temporalités",
+      "summary": "Le module distingue identité, diagnostic, incongruence, dysphorie, euphorie, autodétermination et types de démarches. Il présente des parcours sociaux, administratifs, juridiques et médicaux distincts et combinables, traite les non-binarités sans les réduire à l’indécision et maintient l’intersexuation comme question distincte.",
+      "directQuestion": "Comment présenter les parcours trans et non binaires sans imposer un récit unique, médicalisé, linéaire ou centré sur la souffrance ?",
+      "groupId": "G3",
+      "readingTime": {
+        "essential": "3 à 5 minutes",
+        "deepDive": "8 à 12 minutes"
+      },
+      "dependencies": [
+        "M04",
+        "M07",
+        "M09"
+      ],
+      "relatedModules": [
+        "M06",
+        "M12"
+      ],
+      "situations": [
+        "I09",
+        "I14",
+        "I15",
+        "V04",
+        "N12",
+        "N13"
+      ],
+      "notions": [
+        "transidentité",
+        "non-binarité",
+        "incongruence",
+        "dysphorie",
+        "autodétermination",
+        "temporalités",
+        "euphorie",
+        "intersexuation"
+      ],
+      "datedContent": [
+        {
+          "label": "CIM-11, HAS, circulaire scolaire, état civil et jurisprudences, vérifiés le 31 juillet 2026",
+          "verifiedAt": "2026-07-31",
+          "scope": "canonical-module-scope"
+        }
+      ],
+      "status": "validated",
+      "pilot": false,
+      "dataFile": "modules/m10.json"
+    },
+    {
+      "id": "M11",
+      "number": 11,
+      "title": "De la bienveillance à la pédagogie critique",
+      "summary": "Le module articule bienveillance, empathie, problématisation, réflexivité, praxis et savoirs situés. Il n’impose ni confession, ni émotion obligatoire, ni consensus ; il distingue sécurité et confort et traite le désaccord comme une ressource à conduire, non comme une preuve d’échec.",
+      "directQuestion": "Pourquoi la bienveillance ne suffit-elle pas à comprendre une inégalité ou à transformer une pratique professionnelle ?",
+      "groupId": "G4",
+      "readingTime": {
+        "essential": "3 à 5 minutes",
+        "deepDive": "8 à 12 minutes"
+      },
+      "dependencies": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10"
+      ],
+      "relatedModules": [
+        "M03",
+        "M04"
+      ],
+      "situations": [
+        "V04",
+        "N02",
+        "N12",
+        "I14",
+        "X13",
+        "X14"
+      ],
+      "notions": [
+        "bienveillance",
+        "empathie",
+        "pédagogie critique",
+        "problématisation",
+        "réflexivité",
+        "praxis",
+        "savoir situé",
+        "pouvoir"
+      ],
+      "datedContent": [
+        {
+          "label": "Pas de nouveau cadre juridique daté ; sources théoriques et pédagogiques vérifiées le 31 juillet 2026",
+          "verifiedAt": "2026-07-31",
+          "scope": "canonical-module-scope"
+        }
+      ],
+      "status": "validated",
+      "pilot": false,
+      "dataFile": "modules/m11.json"
+    },
+    {
+      "id": "M12",
+      "number": 12,
+      "title": "Utiliser Mosaïque en formation",
+      "summary": "Le module transforme les principes précédents en cadre d’usage : contrat de participation, débrief obligatoire, conduite du désaccord, réponse proportionnée aux incidents, formats de 30, 60 et 90 minutes, transfert et évaluation. Il sépare satisfaction, apprentissage, transfert et changement organisationnel et exclut toute promesse de confidentialité absolue ou d’efficacité automatique.",
+      "directQuestion": "Dans quelles conditions Mosaïque peut-il ouvrir une analyse professionnelle sans exposer les participants, devenir un test moral ou promettre des effets non démontrés ?",
+      "groupId": "G4",
+      "readingTime": {
+        "essential": "3 à 5 minutes",
+        "deepDive": "8 à 12 minutes"
+      },
+      "dependencies": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11"
+      ],
+      "relatedModules": [
+        "M01",
+        "M09",
+        "M11"
+      ],
+      "situations": [
+        "V04",
+        "N02",
+        "N12",
+        "I14",
+        "X13"
+      ],
+      "notions": [
+        "contrat de participation",
+        "non-dévoilement",
+        "débrief",
+        "désaccord",
+        "incident",
+        "transfert",
+        "évaluation",
+        "coanimation"
+      ],
+      "datedContent": [
+        {
+          "label": "Protection de l’enfance, harcèlement, urgences, discrimination, secrets professionnels et RGPD, vérifiés le 31 juillet 2026",
+          "verifiedAt": "2026-07-31",
+          "scope": "canonical-module-scope"
+        }
+      ],
+      "status": "validated",
+      "pilot": false,
+      "dataFile": "modules/m12.json"
+    }
+  ]
+}

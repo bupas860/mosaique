@@ -43,3 +43,23 @@ galeries existantes et les textes alternatifs validés du cahier `074`.
 Commandes : `biographies:validate`, `biographies:import`,
 `biographies:check-public` et `biographies:check-dist`. Le build exécute la
 chaîne complète avant et après Vite.
+
+## Espace Comprendre
+
+La chaîne Comprendre lit exclusivement les douze modules canoniques déclarés
+dans `parse-understand-v2.mjs` (M01, M02 et M08 en V3 ; les neuf autres en V2),
+ainsi que les documents transversaux 080 à 083. Les documents internes 079 et
+084 servent uniquement au contrôle de présence et ne sont jamais sérialisés.
+
+- `understand:validate` contrôle versions, statuts, structures et cardinalités :
+  12 modules, 4 ensembles, 4 parcours, 68 notions, 24 situations, 174 sources
+  lues dont 164 publiques et 10 internes exclues.
+- `understand:import` produit atomiquement et sans horodatage variable les 17
+  fichiers de `src/data/generated-v2/understand/`.
+- `understand:check-public` reconstruit les données depuis les sources, contrôle
+  les relations et refuse identifiants de recherche, références S165 à S174,
+  chemins locaux, HTML brut et autres contenus internes.
+
+Deux générations à sources identiques produisent les mêmes octets. Aucun
+Markdown n’est interprété dans le navigateur. L’interface, les routes et le
+contrôle public de `dist` seront ajoutés dans une mission distincte.

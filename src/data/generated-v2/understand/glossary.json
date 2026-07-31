@@ -1,0 +1,2893 @@
+{
+  "schemaVersion": "understand-public-v1",
+  "entries": [
+    {
+      "id": "acte-observable",
+      "term": "Acte observable",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Parole, geste, écrit, décision ou opération dont des éléments peuvent être décrits sans inférer immédiatement l’intention."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Intention, effet, responsabilité ou qualification juridique."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M05"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Commencer par les faits décrivables ; séparer ensuite intention, effets et responsabilités."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avance",
+      "term": "Avance",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Effet situé qui préserve ou augmente une marge de manœuvre, une sécurité, une reconnaissance, un accès à une ressource ou une capacité d’agir."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Récompense morale, mérite personnel ou score global de privilège."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M01",
+        "M03"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Toujours préciser la situation, l’effet observé et la dimension concernée."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "autodetermination",
+      "term": "Autodétermination",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Possibilité pour une personne de se définir et de participer aux décisions qui concernent son parcours."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Autonomie juridique identique à celle d’un adulte ou obligation de transition."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09",
+        "M10"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Respecter la parole de la personne tout en distinguant les cadres scolaire, administratif, juridique et médical."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bienveillance",
+      "term": "Bienveillance",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Disposition relationnelle visant l’attention et le souci d’autrui, utile mais insuffisante pour analyser une inégalité."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Preuve d’absence d’effet négatif ou garantie de pratique juste."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M11",
+        "M12"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "La relier à l’analyse des effets, des procédures et du pouvoir d’agir."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capacite-d-agir",
+      "term": "Capacité d’agir",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Possibilité concrète d’intervenir, de choisir, de demander une correction ou de transformer une situation."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Volonté individuelle abstraite ou pouvoir institutionnel illimité."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M01",
+        "M03",
+        "M11"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Nommer les ressources, contraintes, interlocuteurs et procédures qui rendent l’action possible."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capital",
+      "term": "Capital",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ressource accumulable et mobilisable dans un espace social, dont la valeur dépend des règles de cet espace."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Privilège ponctuel, droit ou qualité personnelle."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M03"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Employer seulement lorsque l’idée d’accumulation, de conversion ou de champ est utile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "categorisation",
+      "term": "Catégorisation",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Opération par laquelle des personnes, données ou situations sont classées selon des catégories."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Description neutre du réel ou identité entière d’une personne."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M06"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Rendre visibles le but, les critères, les cas non prévus et les effets du classement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cim-11",
+      "term": "CIM-11",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Onzième révision de la Classification internationale des maladies de l’OMS."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Inventaire de toutes les identités ou preuve qu’une identité serait une maladie."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "status": "dated",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Citer l’OMS, le champ de santé concerné et la date de vérification."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cisnormativite",
+      "term": "Cisnormativité",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Organisation qui prend les identités cisgenres pour évidence, référence ou cas par défaut."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Hostilité individuelle explicite envers les personnes trans."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M06",
+        "M07",
+        "M10"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Décrire les formulaires, attentes, représentations ou procédures concernés plutôt que supposer une intention."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cnil",
+      "term": "CNIL",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Autorité française chargée de la protection des données personnelles et de l’accompagnement de la conformité."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Juge de toute situation de confidentialité ou source scientifique sur les effets sociaux."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09",
+        "M12"
+      ],
+      "status": "dated",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Utiliser pour les principes et ressources relevant de son champ ; dater la consultation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coming-in",
+      "term": "Coming in",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Processus éventuel de reconnaissance, d’exploration ou de nomination pour soi d’une orientation, d’une identité ou d’une expérience."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Origine certaine du terme, diagnostic ou étape obligatoire avant un coming out."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Signaler l’absence de définition universitaire unique et ne pas attribuer avec certitude l’invention du terme."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coming-out",
+      "term": "Coming out",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Divulgation volontaire et située d’une information sur soi à un ou plusieurs destinataires."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Obligation d’authenticité, événement unique ou divulgation sans consentement."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Préciser le contexte, les destinataires et le consentement ; les choix de visibilité peuvent évoluer sans annuler une divulgation accomplie."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "confidentialite",
+      "term": "Confidentialité",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Organisation de l’accès, de l’usage et de la circulation d’une information afin qu’elle reste limitée aux personnes et finalités légitimes."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Secret absolu, secret professionnel applicable à tous ou simple discrétion personnelle."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M07",
+        "M09",
+        "M12"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Indiquer qui peut accéder à quoi, pour quelle finalité et selon quelle procédure."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consentement",
+      "term": "Consentement",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Accord libre et situé à une action ou à une circulation d’information, dans les limites du cadre applicable."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Silence, absence d’opposition, autorisation générale ou autonomie juridique absolue."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09",
+        "M10",
+        "M12"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Préciser l’objet, les destinataires, le contexte et les limites professionnelles ou légales."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "context-collapse",
+      "term": "Context collapse",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Effondrement de contextes distincts lorsque des publics ou destinataires auparavant séparés se retrouvent réunis."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Simple diffusion large ou intention de nuire."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Employer pour expliquer un changement d’audience, notamment numérique, sans déduire le vécu individuel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curriculum-cache",
+      "term": "Curriculum caché",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Apprentissages implicites produits par l’organisation scolaire, ses routines, ses classements et ses attentes."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Programme officiel ou intention pédagogique déclarée."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M06"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Relier l’analyse à des pratiques observables, à des règles et à des valeurs par défaut."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "debrief",
+      "term": "Débrief",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Temps structuré qui fait décrire l’expérience, l’analyser, la relier aux pratiques et préparer une action."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Correction morale, confession, débat sans cadre ou preuve automatique d’apprentissage."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M01",
+        "M02",
+        "M11",
+        "M12"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Le rendre obligatoire pour un usage revendiqué comme formation et annoncer ses limites."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "discrimination-directe",
+      "term": "Discrimination directe",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Traitement défavorable lié à un critère protégé, apprécié dans les conditions du cadre juridique applicable."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Tout obstacle visible, tout conflit ou toute parole blessante."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M05"
+      ],
+      "status": "dated",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ne jamais qualifier automatiquement une situation fictive ; rappeler les faits et le droit applicables."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "discrimination-indirecte",
+      "term": "Discrimination indirecte",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Désavantage particulier susceptible de résulter d’une disposition, d’un critère ou d’une pratique apparemment neutre, sous réserve des conditions et justifications prévues par le droit."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Toute norme ordinaire ou tout effet statistiquement inégal."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M06"
+      ],
+      "status": "dated",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Conserver le caractère conditionnel de la qualification et la distinguer de l’analyse sociologique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "discrimination-institutionnelle",
+      "term": "Discrimination institutionnelle",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Effets discriminatoires produits ou entretenus par des règles, pratiques ou décisions d’une institution."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Synonyme automatique de structurel ou de systémique."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Préciser l’échelle, les mécanismes et les données disponibles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "discrimination-structurelle",
+      "term": "Discrimination structurelle",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Inégalités durablement liées à l’organisation de plusieurs pratiques et rapports sociaux."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Décision isolée ou intention coordonnée obligatoire."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M08"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Nommer les structures et articulations étudiées ; éviter l’emploi comme simple intensif."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "discrimination-systemique",
+      "term": "Discrimination systémique",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Processus cumulatifs et interdépendants qui produisent des désavantages récurrents à l’échelle d’un système."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Toute répétition, toute institution ou qualification juridique automatique."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Réserver le terme aux analyses étayées et préciser le sens retenu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "droit",
+      "term": "Droit",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Garantie ou faculté reconnue par un cadre juridique applicable à une personne ou à un groupe."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Privilège, faveur, ressource ou avantage qu’il faudrait retirer."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M03",
+        "M04",
+        "M09",
+        "M10",
+        "M12"
+      ],
+      "status": "dated",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Identifier le cadre et son champ ; ne pas transformer le respect ou la protection contre les discriminations en privilèges."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dysphorie-de-genre",
+      "term": "Dysphorie de genre",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Terme clinique décrivant, dans certains cadres, une détresse liée au genre ; elle ne concerne pas toutes les personnes trans ou non binaires."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Transidentité, incongruence, preuve de légitimité ou étape obligatoire."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ne pas universaliser la souffrance et ne fournir aucun conseil médical individuel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effet-invisible",
+      "term": "Effet invisible",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Effet analysé à partir d’un cadrage, d’une absence, d’une répétition, d’un script ou d’une anticipation, sans certitude sur le vécu intérieur."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Effet inexistant, biais inconscient certain ou diagnostic psychologique."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M07"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Nommer l’unité d’analyse et le mécanisme proposé ; conserver l’incertitude sur l’expérience individuelle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "empathie",
+      "term": "Empathie",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Effet possible de compréhension ou de résonance envers autrui, sans accès certain à son expérience."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Connaissance directe du vécu, accord politique ou reconnaissance obligatoire d’un droit."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M01",
+        "M11"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Présenter comme possibilité, jamais comme objectif garanti ni comme condition de justice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euphorie-de-genre",
+      "term": "Euphorie de genre",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Notion émergente désignant des expériences positives d’alignement, de reconnaissance ou d’expression du genre."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Expérience universelle, diagnostic ou envers obligatoire de la dysphorie."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Signaler son caractère non universel et l’absence d’obligation de récit positif."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evars",
+      "term": "EVARS",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Éducation à la vie affective et relationnelle, et à la sexualité, dans le cadre scolaire français."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Séance isolée, dispositif uniforme ou qualification juridique d’une situation."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M05",
+        "M06",
+        "M07"
+      ],
+      "status": "dated",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Employer l’intitulé officiel vérifié et conserver les dates et limites de portée."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feedback",
+      "term": "Feedback",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Retour qui propose une lecture argumentée des effets d’une décision dans une situation."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Verdict, vérité psychologique, note morale ou preuve scientifique."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M01",
+        "M02",
+        "M11",
+        "M12"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Formuler comme interprétation discutable et ouvrir un débrief."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "focale-pedagogique",
+      "term": "Focale pédagogique",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Angle d’analyse choisi pour rendre visibles certains mécanismes sans classer les situations par gravité."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Nature exhaustive d’une situation ou catégorie juridique."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M01",
+        "M05",
+        "M06",
+        "M07",
+        "M08"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Employer pour les quatre modes ; autoriser plusieurs lectures sans effacer la focale retenue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "habitude",
+      "term": "Habitude",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Pratique répétée par une personne ou un collectif."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Norme, règle formelle ou fréquence objectivement mesurée."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M06"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Décrire qui fait quoi et dans quel contexte avant de conclure à une norme."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "has",
+      "term": "HAS",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Haute Autorité de santé, autorité publique française produisant notamment des recommandations et notes de cadrage."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Autorité définissant les identités ou source applicable hors du champ précis d’un document."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "status": "dated",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Distinguer recommandation finale et note de cadrage ; indiquer le public et la date."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heteronormativite",
+      "term": "Hétéronormativité",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Organisation qui présume ou privilégie l’hétérosexualité et les relations hétérosexuelles comme allant de soi."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Orientation d’une personne, hostilité explicite ou comportement statistiquement majoritaire."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M06",
+        "M07"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Décrire les attentes, représentations, formulaires ou scripts concernés."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "incongruence-de-genre",
+      "term": "Incongruence de genre",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Catégorie de la CIM-11 placée dans la santé sexuelle, distincte d’une assimilation de l’identité trans à une maladie mentale."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Toute identité trans, toute non-binarité, dysphorie ou souffrance obligatoire."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "status": "dated",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Citer le cadre de l’OMS et rappeler que la catégorie ne décrit pas toutes les personnes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "institution",
+      "term": "Institution",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ensemble relativement durable de règles, rôles, pratiques et attentes qui organise un domaine social."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Bâtiment, personne isolée ou intention commune de tous les membres."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Relier le terme aux règles, procédures, catégories et effets observables."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "integrite-contextuelle",
+      "term": "Intégrité contextuelle",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Adéquation de la circulation d’une information aux normes légitimes du contexte, aux acteurs, aux finalités et aux modalités de transmission."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Secret absolu ou contrôle matériel total d’une information déjà divulguée."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Examiner le passage d’un contexte à un autre et les destinataires légitimes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intention",
+      "term": "Intention",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "But, motif ou orientation attribuable à une action lorsqu’il existe des éléments permettant de l’établir."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Effet, responsabilité ou excuse automatique."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M05",
+        "M11"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ne pas l’inférer du seul effet ; ne pas l’utiliser pour effacer cet effet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interaction",
+      "term": "Interaction",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Échange situé entre personnes dans lequel les actions et interprétations se répondent."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Structure sociale entière ou qualité fixe des personnes."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Préciser les acteurs, positions, règles et contexte de l’échange."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intersectionnalite",
+      "term": "Intersectionnalité",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Cadre d’analyse de rapports sociaux co-constitués dont les effets ne se réduisent pas à l’addition de catégories séparées."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Somme d’identités, score de désavantage ou mot pour toute diversité."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08",
+        "M11"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Nommer les rapports sociaux et leur articulation ; réserver le pluriel "
+            },
+            {
+              "type": "code",
+              "text": "Intersectionnalités"
+            },
+            {
+              "type": "text",
+              "text": " au mode gelé."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intersexuation",
+      "term": "Intersexuation",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Variations des caractéristiques sexuées ; question distincte des identités trans et non binaires."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Transidentité, non-binarité ou identité de genre déductible."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Maintenir la distinction ; une personne intersexe peut être cisgenre, trans ou non binaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marge-de-man-uvre",
+      "term": "Marge de manœuvre",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ensemble des choix et actions effectivement accessibles dans une situation."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Liberté abstraite identique pour tous ou absence totale de contraintes."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M01",
+        "M03",
+        "M11"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Identifier ce qui peut être fait, par qui, à quel coût et avec quels soutiens."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mediation-narrative",
+      "term": "Médiation narrative",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Usage d’un personnage et d’un récit pour déplacer l’analyse hors du dévoilement direct de soi."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Incarnation, simulation fidèle du vécu ou suppression du risque d’exposition."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M01",
+        "M02",
+        "M11"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Rappeler que le joueur suit un personnage sans devenir cette personne."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "minimisation",
+      "term": "Minimisation",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Principe consistant à ne collecter, utiliser ou transmettre que les données adéquates, pertinentes et nécessaires à une finalité définie."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Effacement de toute donnée, silence obligatoire ou confidentialité absolue."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09",
+        "M12"
+      ],
+      "status": "dated",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Nommer la finalité, les données nécessaires, les accès et la durée ; vérifier le cadre applicable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "non-binarite",
+      "term": "Non-binarité",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ensemble de manières de se situer hors d’une identification exclusivement homme ou exclusivement femme."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Indécision, troisième parcours unique, intersexuation ou identité nécessairement trans."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Respecter les termes choisis ; certaines personnes non binaires se disent trans, d’autres non."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "norme-descriptive",
+      "term": "Norme descriptive",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ce que les membres d’un groupe perçoivent comme fréquent ou habituel."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Mesure statistique du comportement réel, règle ou habitude individuelle."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M06"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Employer "
+            },
+            {
+              "type": "code",
+              "text": "perçu comme fréquent"
+            },
+            {
+              "type": "text",
+              "text": " et ne pas présenter la perception comme preuve statistique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "norme-injonctive",
+      "term": "Norme injonctive",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ce que les membres d’un groupe perçoivent comme approuvé, attendu ou désapprouvé."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Règle écrite, sanction juridique ou comportement réellement fréquent."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M06"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Identifier le groupe de référence et l’attente perçue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "normes-ordinaires",
+      "term": "Normes ordinaires",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Focale qui analyse procédures, catégories, valeurs par défaut et attentes banales produisant des effets inégaux."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Discrimination indirecte automatique ou hiérarchie de gravité."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M06"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Lier le mode N aux mécanismes observables et aux corrections possibles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obstacle-visible",
+      "term": "Obstacle visible",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Focale portant sur un acte, refus, parole ou décision explicitement observable dans la situation."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Discrimination directe automatique, intention certaine ou situation nécessairement plus grave."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M05"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Décrire l’obstacle puis distinguer intention, effet, responsabilité et droit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outing",
+      "term": "Outing",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Divulgation d’une information identitaire ou relationnelle sans le consentement de la personne concernée ; le module emploie pédagogiquement le terme pour certaines divulgations accidentelles, administratives ou numériques."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Coming out, définition juridique universelle ou divulgation acceptable parce que bien intentionnée."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Conserver explicitement l’usage pédagogique élargi et séparer la catégorie de toute qualification juridique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pedagogie-critique",
+      "term": "Pédagogie critique",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Démarche qui problématise les savoirs, les rapports de pouvoir et les conditions de l’action afin d’articuler réflexion et transformation vérifiable."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Transmission d’une opinion correcte, confession ou promesse d’émancipation."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M11",
+        "M12"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Contextualiser les auteurs, accueillir le désaccord et éviter toute promesse d’effet automatique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "position-sociale",
+      "term": "Position sociale",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Place située dans des rapports sociaux, associée à des attentes, ressources, contraintes et pouvoirs variables."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Personnalité, identité entière ou valeur morale d’une personne."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M03",
+        "M08"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Parler d’une position dans une situation et non d’une essence individuelle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pouvoir",
+      "term": "Pouvoir",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Capacité de peser sur les décisions, les règles, les ressources ou les conditions d’action d’autrui."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Privilège, autorité formelle seule ou intention de dominer."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M03",
+        "M04",
+        "M11"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Identifier l’objet, l’échelle, les ressources et la possibilité de modifier la procédure."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "praxis",
+      "term": "Praxis",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Articulation entre réflexion, action et vérification des effets de l’action."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Activisme obligatoire, application mécanique d’une théorie ou simple intention de changer."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M11",
+        "M12"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Relier le débrief à une action proportionnée puis à une vérification."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privilege",
+      "term": "Privilège",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Avantage relatif, ou absence d’un obstacle, lié dans un contexte à une position tenue pour normale, attendue ou protégée."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Droit, protection nécessaire, mérite, culpabilité ou bien possédé une fois pour toutes."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02",
+        "M03",
+        "M11"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Nommer l’avantage, le contexte et le travail évité ; ne pas proposer de retirer un droit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "problematisation",
+      "term": "Problématisation",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Construction d’une question qui rend discutables les évidences, les catégories et les rapports de pouvoir d’une situation."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Recherche d’une bonne réponse unique ou mise en cause personnelle."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M11"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Partir des faits et ouvrir plusieurs hypothèses vérifiables."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "term": "Procédure",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Suite organisée d’opérations, de décisions et de responsabilités pour traiter une situation."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Institution entière, habitude informelle ou garantie d’un effet juste."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M06",
+        "M12"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Examiner les entrées, valeurs par défaut, exceptions, personnes responsables et voies de correction."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "protection",
+      "term": "Protection",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Élément situé qui réduit un risque, un obstacle ou une exposition, sans garantir un résultat universel."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Droit, privilège, ressource quelconque ou solution définitive."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M01",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "M12"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Préciser ce qui est protégé, contre quoi, pour qui, dans quel contexte et avec quelles limites."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reflexivite",
+      "term": "Réflexivité",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Examen de sa position, de ses catégories, de ses pratiques et de leurs effets, sans obligation de confession."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Introspection forcée, culpabilisation ou relativisme."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M11",
+        "M12"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Proposer des questions sur les pratiques et les conditions d’action ; garantir le droit de ne pas parler de soi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regle",
+      "term": "Règle",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Prescription explicite qui organise une conduite, une décision ou une procédure."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Norme perçue, habitude ou simple fréquence."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M06"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Identifier son auteur, son champ, son support, ses exceptions et ses effets."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "representation",
+      "term": "Représentation",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Manière de cadrer, montrer, nommer ou rendre absent un groupe, une relation ou une expérience."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Réalité entière du groupe, adhésion du public ou vécu certain d’un personnage."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M07"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Analyser cadrages, répétitions, absences et scripts sur un corpus ou une situation délimitée."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ressource",
+      "term": "Ressource",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Moyen matériel, informationnel, relationnel, symbolique ou institutionnel mobilisable dans une situation."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Droit, protection, pouvoir ou privilège, même si une ressource peut y contribuer."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M01",
+        "M03",
+        "M12"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Nommer l’accès, la disponibilité, le contrôle et les coûts d’usage."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rgpd",
+      "term": "RGPD",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Cadre européen de protection des données personnelles fondé notamment sur la finalité, la minimisation, la sécurité et les droits des personnes."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Règle de secret absolu ou qualification automatique d’une situation fictive."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M06",
+        "M09",
+        "M12"
+      ],
+      "status": "dated",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Relier chaque principe à un traitement précis et prévoir une revérification avant publication ou animation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "savoir-situe",
+      "term": "Savoir situé",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Savoir produit depuis une position et des conditions identifiables, dont la portée et les limites doivent être explicitées."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Opinion invérifiable, relativisme ou expérience parlant pour tout un groupe."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M11"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Nommer la position, la méthode, la portée et les limites sans hiérarchiser automatiquement les paroles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "secret-professionnel",
+      "term": "Secret professionnel",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Obligation légale de ne pas révéler certaines informations connues dans l’exercice d’une profession ou mission déterminée, sous réserve des exceptions prévues."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Confidentialité générale, discrétion professionnelle, devoir de réserve ou promesse absolue de secret."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09",
+        "M12"
+      ],
+      "status": "dated",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ne l’attribuer qu’après vérification du statut, de la mission, des faits, du destinataire et des exceptions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "situation",
+      "term": "Situation",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Unité narrative localisée dans laquelle un personnage rencontre un effet, une contrainte, une ressource ou une protection."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Preuve empirique, biographie entière, mécanisme ou catégorie juridique."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M01",
+        "M05",
+        "M06",
+        "M07",
+        "M08"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Utiliser le code et le titre canoniques ; distinguer description, décision, mécanisme et feedback."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stress-minoritaire",
+      "term": "Stress minoritaire",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Charge supplémentaire liée à la stigmatisation, à l’anticipation du rejet, à la dissimulation ou à l’exposition répétée."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Fragilité personnelle, vécu universel ou diagnostic individuel."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M07",
+        "M09",
+        "M10"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Présenter comme cadre de recherche, signaler les limites de transfert et ne pas déduire un état psychologique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transidentite",
+      "term": "Transidentité",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Terme désignant des identités de genre qui ne correspondent pas entièrement au sexe assigné à la naissance, selon les mots choisis par les personnes."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Maladie, diagnostic, dysphorie, parcours médical obligatoire ou intersexuation."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09",
+        "M10"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Employer un vocabulaire non pathologisant et respecter l’autodésignation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valeur-par-defaut",
+      "term": "Valeur par défaut",
+      "shortDefinition": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Option, catégorie ou paramètre appliqué lorsqu’aucun choix explicite n’est effectué."
+            }
+          ]
+        }
+      ],
+      "notToConfuseWith": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Choix neutre, norme statistiquement majoritaire ou règle nécessaire."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M06"
+      ],
+      "status": "durable",
+      "usageNote": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Rendre le défaut visible, justifier sa nécessité et prévoir correction ou alternative."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

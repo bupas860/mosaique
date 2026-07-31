@@ -1,0 +1,3331 @@
+{
+  "schemaVersion": "understand-public-v1",
+  "id": "M09",
+  "number": 9,
+  "title": "Dire, taire ou voir divulgué : coming in, coming out et outing",
+  "status": "validated",
+  "pilot": false,
+  "directQuestion": "Comment respecter l’autonomie d’une personne lorsque des informations sur son identité, ses relations ou son parcours peuvent être dites, tues, demandées ou divulguées dans différents contextes ?",
+  "groupId": "G3",
+  "readingTime": {
+    "essential": "3 à 5 minutes",
+    "deepDive": "8 à 12 minutes"
+  },
+  "datedContent": [
+    {
+      "label": "Données, obligations professionnelles, circulaire de 2021, droit administratif et ENT, vérifiés le 31 juillet 2026",
+      "verifiedAt": "2026-07-31",
+      "scope": "canonical-module-scope"
+    }
+  ],
+  "essential": {
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Cette partie peut être lue seule. Elle donne les repères nécessaires pour analyser une situation sans prescrire à une personne de parler ou de se taire."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-1-1-question-de-depart",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. Question de départ"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Comment respecter l’autonomie d’une personne lorsque des informations sur son identité, ses relations ou son parcours peuvent être dites, tues, demandées ou divulguées dans différents contextes ?"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-2-2-reponse-synthetique",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. Réponse synthétique"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Respecter l’autonomie consiste d’abord à ne pas confondre connaissance de soi, décision de parler et droit de retransmettre. Une personne peut comprendre une dimension de son expérience sans la nommer, la nommer sans la partager, ou la partager avec certains interlocuteurs seulement. Une confidence ne rend pas l’information publique. Un accord donné pour une personne, un but ou un moment ne vaut pas accord général."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "La responsabilité professionnelle porte donc sur la circulation : pourquoi l’information est-elle nécessaire ? Qui l’a fournie ? Qui doit réellement la connaître ? Quel outil la rend visible ? Une consigne fonctionnelle peut-elle suffire ? Il faut aussi annoncer les limites de la confidentialité lorsqu’un régime professionnel ou une situation de danger impose d’agir. La bonne réponse n’est pas d’encourager systématiquement un coming out ; elle est d’informer, de demander un accord précis sans pression, de limiter la diffusion et de préparer une protection utilisable même sans dévoilement public."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-3-3-definition-operationnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. Définition opérationnelle"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Le "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "coming in"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " est ici un processus éventuel de reconnaissance, d’exploration, de compréhension et, éventuellement, de nomination pour soi d’une expérience ou d’une identité. Il peut être progressif, discontinu, non verbal ou sans étiquette stabilisée. Le terme n’a pas de définition universitaire unique et aucune origine exclusive n’est retenue. Il ne précède pas nécessairement un coming out."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Le "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "coming out"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " est une divulgation volontaire et située d’une information concernant notamment l’orientation, l’identité, le genre, les relations ou le parcours d’une personne. Il peut être sélectif, répété, explicite ou indirect et varier selon les espaces. Une personne peut ensuite réduire sa visibilité ou revenir à davantage de discrétion dans certains contextes, sans effacer ce qui a déjà été divulgué. Ce n’est ni une dette de sincérité, ni une preuve d’authenticité, de courage ou de bien-être."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "L’"
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "outing"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " est la divulgation à autrui, sans le consentement de la personne concernée, d’une information portant notamment sur son orientation, son identité, son parcours ou ses relations. Il peut être intentionnel ou accidentel, familial, scolaire, administratif ou numérique. Une intention bienveillante n’annule ni l’absence de consentement ni les effets possibles."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-4-4-deux-exemples-mosaique",
+        "content": [
+          {
+            "type": "text",
+            "text": "4. Deux exemples Mosaïque"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-5-v13-la-confidence-transmise-a-la-famille",
+        "content": [
+          {
+            "type": "text",
+            "text": "V13 — La confidence transmise à la famille"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Une information confiée à un adulte est transmise à la famille sans accord. L’objet n’est pas de deviner les intentions de l’adulte, mais d’observer la rupture de contrôle : être informé ne rend pas automatiquement autorisé à transmettre. La situation est construite hors danger immédiat et hors obligation de protection de l’enfance. Dans un cas réel, ces éléments doivent être vérifiés avant toute conclusion."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-6-n12-les-informations-confidentielles",
+        "content": [
+          {
+            "type": "text",
+            "text": "N12 — Les informations confidentielles"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "L’établissement distingue les catégories d’information, les documents et les publics, puis explique à l’élève qui peut voir quoi. La protection repose sur la minimisation et la prévisibilité des flux. Elle ne promet pas un secret absolu : elle rend la circulation compréhensible et la limite à ce qui est nécessaire dans le cadre applicable."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-7-5-a-ne-pas-confondre",
+        "content": [
+          {
+            "type": "text",
+            "text": "5. À ne pas confondre"
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "headers": [
+          [
+            {
+              "type": "text",
+              "text": "Distinction"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Repère"
+            }
+          ]
+        ],
+        "rows": [
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Coming in / coming out"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Se comprendre ou se nommer pour soi n’est pas divulguer à autrui."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Coming out / outing"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Le premier est volontaire et situé ; le second se fait sans consentement."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Silence / honte"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Ne pas dire peut être un choix de discrétion, de sécurité ou de contexte ; aucun vécu intérieur ne s’en déduit."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Confidentialité / secret absolu"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Limiter la circulation n’est pas promettre qu’aucune transmission ne sera jamais possible."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Information utile / intéressante"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "La nécessité répond à une mission et une finalité ; la curiosité ne suffit pas."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Consentement / absence de refus"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Un accord ne se déduit ni du silence ni d’une confidence antérieure."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Intention bienveillante / transmission autorisée"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Le but invoqué ne remplace pas l’accord ou la règle applicable."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Donnée affichée / donnée connue dans la fiction"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Ce que voit le joueur n’est pas automatiquement connu de tous les personnages."
+              }
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-8-6-trois-idees-a-retenir",
+        "content": [
+          {
+            "type": "text",
+            "text": "6. Trois idées à retenir"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Une personne contrôle autant que possible "
+                },
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "qui sait quoi, dans quel but et dans quel contexte"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " ; une divulgation volontaire n’est jamais une autorisation générale."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Un outil, une liste ou une procédure peut divulguer sans intention humaine explicite ; la minimisation et la protection par défaut sont des responsabilités d’organisation."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Protéger l’autonomie n’impose ni le dévoilement ni le silence : cela exige information, consentement situé, limites annoncées et solutions fonctionnelles."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-9-7-question-de-reflexion-professionnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "7. Question de réflexion professionnelle"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Dans vos documents, échanges et outils, quelle information pourrait être remplacée par une consigne fonctionnelle, limitée à moins de destinataires ou recueillie dans un cadre plus privé ?"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-10-8-pour-aller-plus-loin",
+        "content": [
+          {
+            "type": "text",
+            "text": "8. Pour aller plus loin"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "« Approfondir » retrace les usages du vocabulaire, présente les modèles de divulgation, distingue les responsabilités juridiques et professionnelles, puis applique ces repères aux cinq situations sans en faire des preuves."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-11-sources-centrales-de-l-essentiel",
+        "content": [
+          {
+            "type": "text",
+            "text": "Sources centrales de L’essentiel"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Chaudoir, S. R. et Fisher, J. D. (2010). "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "« The Disclosure Processes Model »"
+                    }
+                  ],
+                  "href": "https://doi.org/10.1037/a0018193",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", "
+                },
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Psychological Bulletin"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ", 136(2), 236-256."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Nissenbaum, H. (2004). "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "« Privacy as Contextual Integrity »"
+                    }
+                  ],
+                  "href": "https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", "
+                },
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Washington Law Review"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ", 79(1), 119-157."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Ministère de l’Éducation nationale (2021). "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "Circulaire du 29 septembre 2021 relative à l’accueil en milieu scolaire des élèves transgenres"
+                    }
+                  ],
+                  "href": "https://www.education.gouv.fr/bo/21/Hebdo36/MENE2128373C.htm",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "deepDive": {
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "Introduction",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cette partie explicite les sources, les limites et les implications professionnelles. Elle ne fournit pas de conseil juridique individuel."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1-probleme-theorique-une-information-change-de-sens-en-circulant",
+        "title": "1. Problème théorique : une information change de sens en circulant",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dire quelque chose à un ami, à une infirmière, à un enseignant, à une famille ou dans un formulaire ne crée pas la même relation. Les destinataires n’ont ni le même rôle, ni les mêmes obligations, ni le même pouvoir. Une information utile pour organiser un espace peut être inutile à un groupe de collègues."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le problème n’est donc pas de classer toute information identitaire comme secrète ou publique. Il est d’examiner qui la produit, qui la reçoit, pour quelle finalité, selon quelle règle et avec quel accord. Une personne peut vouloir être reconnue par ses pairs sans informer sa famille, ou demander une adaptation sans nommer une identité. L’organisation des formulaires, listes et destinataires par défaut peut réduire ou augmenter ce travail de contrôle."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2-reperes-historiques",
+        "title": "2. Repères historiques",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-du-stigmate-a-la-gestion-contextuelle",
+            "content": [
+              {
+                "type": "text",
+                "text": "Du stigmate à la gestion contextuelle"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stigma"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " (1963), Erving Goffman analyse la gestion d’informations susceptibles de modifier la manière dont une personne est traitée. Sa distinction entre ce qui est déjà visible et ce qui peut être révélé reste utile pour penser les audiences. Son vocabulaire et son époque imposent toutefois une distance : il décrit un ordre stigmatisant et ne suffit pas à penser les identités positives, l’autodétermination, les réalités LGBTI+ contemporaines ou les outils numériques."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les modèles de développement homosexuel ont parfois ordonné la trajectoire autour d’une identité reconnue puis déclarée. Rasmussen critique cette pédagogie du coming out obligatoire ; Orne montre une gestion continue de publics différents. L’enjeu est de choisir, autant que possible, les conditions de chaque circulation."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-une-genealogie-prudente-de-coming-in",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une généalogie prudente de « coming in »"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une notice atteste un mémoire de DIU de Patrick Papazian intitulé "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Coming-in : prise de conscience d’une orientation homosexuelle : affects associés, conséquences sur la sexualité"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " (2005). Le texte intégral n’a pas été retrouvé dans une archive universitaire publique lors de la recherche. Le titre et la date sont documentés ; une première occurrence absolue ou une « invention » ne le sont pas."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Natacha Chetcuti-Osorovitz étudie l’autonomination lesbienne comme processus relationnel et social. Cet apport permet de distinguer expérience, catégorie disponible et manière de se dire. Aucune source primaire retrouvée ne permet de lui attribuer l’invention du terme « coming in ». Le module adopte donc une définition de travail sans récit d’origine héroïque."
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Niveau de preuve"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Repère"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Fait établi"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Un mémoire de 2005 portant « coming-in » dans son titre est bibliographiquement attesté ; les travaux de Chetcuti-Osorovitz documentent l’autonomination."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Hypothèse probable"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Plusieurs circulations cliniques, culturelles, militantes et savantes ont contribué aux usages actuels."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Attribution contestée"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "« Une personne a inventé le coming in » ne dispose pas ici d’une source primaire suffisante."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Absence de preuve suffisante"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Il n’existe pas de définition universitaire unique applicable à toutes les orientations et identités."
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3-concepts-et-auteurs-reellement-utiles",
+        "title": "3. Concepts et auteurs réellement utiles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-divulgation-buts-reponses-et-boucles",
+            "content": [
+              {
+                "type": "text",
+                "text": "Divulgation : buts, réponses et boucles"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le Disclosure Processes Model de Chaudoir et Fisher articule buts, événement, médiateurs, réactions et effets ultérieurs. Il ne classe pas la divulgation comme bonne en soi : soutien, conséquences matérielles et contrôle des destinataires modifient le résultat. Ce cadre général n’est pas un conseil individuel."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les études sur les jeunes LGBTQ+ sont hétérogènes. Une association entre soutien et bien-être ne crée pas d’obligation de coming out. Soutenir peut signifier écouter, préparer une conversation souhaitée, respecter un délai ou protéger l’absence de divulgation."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-integrite-contextuelle",
+            "content": [
+              {
+                "type": "text",
+                "text": "Intégrité contextuelle"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Nissenbaum propose d’évaluer la vie privée par l’adéquation des flux à un contexte : acteurs, information, règles de transmission et finalité. Cette théorie évite deux erreurs. Une information déjà connue de quelques personnes n’est pas nécessairement publique ; une information non « secrète » peut néanmoins circuler de façon inappropriée. Le cadre n’est pas du droit français, mais il structure un questionnement professionnel robuste."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-context-collapse-et-outils-numeriques",
+            "content": [
+              {
+                "type": "text",
+                "text": "Context collapse et outils numériques"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Marwick et boyd ont étudié la réunion d’audiences multiples sur Twitter. Un ENT n’est pas Twitter, et N03 n’est pas une reproduction de leur terrain. L’idée de context collapse reste utile : un intitulé choisi pour l’équipe éducative peut devenir visible sur un compte familial ; un document projeté peut exposer davantage qu’un document consulté individuellement ; un export peut survivre à la correction de l’interface."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le RGPD traduit d’autres exigences : minimiser les données, définir la finalité, limiter les destinataires et protéger dès la conception et par défaut. Il ne faut pas appeler automatiquement toute donnée identitaire « donnée sensible » au sens juridique ; la nature exacte, la combinaison des informations et le traitement doivent être examinés."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4-controverses-et-limites",
+        "title": "4. Controverses et limites",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-devoiler-ou-ne-pas-devoiler",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dévoiler ou ne pas dévoiler"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les bénéfices et risques ne sont pas symétriques ni prévisibles. Une divulgation peut produire soutien, soulagement ou accès à une ressource ; elle peut aussi entraîner rejet, exposition, travail d’explication ou perte de contrôle. Le silence peut protéger ou contraindre. Le module refuse d’attribuer un sens psychologique unique à l’un ou l’autre."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-categories-et-contextes-de-recherche",
+            "content": [
+              {
+                "type": "text",
+                "text": "Catégories et contextes de recherche"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les études agrègent parfois des populations différentes, utilisent des définitions variables du coming out et sont souvent anglophones, transversales ou rétrospectives. Les résultats relatifs aux adultes gays et lesbiennes ne décrivent pas automatiquement des jeunes trans, des personnes intersexes ou la relation entre un élève et un établissement français."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-secret-confidentialite-discretion-et-reserve",
+            "content": [
+              {
+                "type": "text",
+                "text": "Secret, confidentialité, discrétion et réserve"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ces mots ne sont pas interchangeables. La confidentialité est un principe relationnel ou professionnel large. Le secret professionnel est une obligation juridique attachée à des textes et fonctions. La discrétion professionnelle concerne les agents publics et les informations connues dans le service. Le devoir de réserve concerne la mesure attendue dans l’expression publique de l’agent. Une formulation générale ne dispense jamais d’identifier le statut de la personne et le texte applicable."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-mineurs-familles-et-protection",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mineurs, familles et protection"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Respecter l’autonomie d’un mineur ne signifie ni écarter par principe les représentants légaux, ni leur transmettre automatiquement toute information. L’âge, la maturité, la décision concernée, le cadre scolaire et le risque doivent être distingués. Une situation de danger ou de protection de l’enfance change l’analyse. V13 est construite hors de ces circonstances : cette limite ne doit pas disparaître au débrief."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5-application-precise-a-mosaique",
+        "title": "5. Application précise à Mosaïque",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-v13-la-confidence-transmise-a-la-famille",
+            "content": [
+              {
+                "type": "text",
+                "text": "V13 — La confidence transmise à la famille"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le geste observable est une transmission sans accord, sans inférence sur l’intention. L’élève connaissait-il la transmission envisagée et ses destinataires ? Les limites de la confidentialité étaient-elles annoncées ? Dans la carte, danger immédiat et obligation de protection de l’enfance sont exclus afin d’isoler la question du consentement."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-n03-l-activite-visible-sur-l-ent",
+            "content": [
+              {
+                "type": "text",
+                "text": "N03 — L’activité visible sur l’ENT"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’outil rend une participation visible sur un compte familial. Intitulé, audience, notification et finalité sont en cause. La carte ne prouve ni le fonctionnement général des ENT ni une violation ; elle appelle un test des flux."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-i10-le-coming-out-obligatoire",
+            "content": [
+              {
+                "type": "text",
+                "text": "I10 — Le coming out obligatoire"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le récit valorise le dévoilement général et présente la confidentialité comme mensonge ou refus de soi. Le problème est ce script obligatoire, non l’existence de récits de coming out choisis."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-n12-les-informations-confidentielles",
+            "content": [
+              {
+                "type": "text",
+                "text": "N12 — Les informations confidentielles"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cette protection distingue données, documents et destinataires, puis informe l’élève. Elle évite une circulation sans finalité, sans abolir les règles de protection face à un danger."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-n13-l-organisation-preparee-en-prive",
+            "content": [
+              {
+                "type": "text",
+                "text": "N13 — L’organisation préparée en privé"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un échange individuel permet une option fonctionnelle sans justification publique. Le cadre privé réduit la pression et les destinataires, sans supposer d’identité ni demander de récit médical."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-6-frontiere-avec-le-module-10",
+            "content": [
+              {
+                "type": "text",
+                "text": "Frontière avec le module 10"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le module 9 porte sur l’information : consentement, contextes, destinataires, obligations et outils. Le module 10 porte sur les parcours : autodétermination, temporalités, démarches possibles et non-linéarité. V04, N12 ou N13 peuvent éclairer les deux, mais une même carte ne fusionne pas les questions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6-ce-que-le-cadre-ne-permet-pas-d-affirmer",
+        "title": "6. Ce que le cadre ne permet pas d’affirmer",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ce cadre ne permet pas :"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de conclure qu’une personne devrait parler ou se taire ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "d’interpréter la discrétion comme honte, mensonge ou manque de courage ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de considérer une identité comme publique parce qu’elle est visible dans le jeu ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de croire qu’un interlocuteur informé est autorisé à retransmettre ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de promettre un secret absolu sans connaître le rôle et le contexte ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "d’affirmer que tous les personnels sont soumis au même secret professionnel ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de qualifier automatiquement une situation d’infraction, de discrimination ou de manquement ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "d’attribuer une intention à une personne ou à un outil ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de prédire les effets psychologiques d’une divulgation ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de présenter une situation Mosaïque comme preuve ou l’outil comme efficace."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La distinction narrative demeure essentielle : les adultes de la fiction ne disposent pas de la fiche biographique complète. Une donnée réservée au formateur ne devient pas publiable dans « Comprendre »."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7-implications-professionnelles",
+        "title": "7. Implications professionnelles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-avant-de-recueillir",
+            "content": [
+              {
+                "type": "text",
+                "text": "Avant de recueillir"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Demander pourquoi l’information est nécessaire, quelle décision elle permet et si une consigne fonctionnelle suffit. Expliquer le rôle de l’interlocuteur et les limites de la confidentialité."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-avant-de-transmettre",
+            "content": [
+              {
+                "type": "text",
+                "text": "Avant de transmettre"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Identifier source, destinataires acceptés, but, texte applicable et durée utile. Vérifier sans pression qui peut être informé, de quoi et comment. Le silence n’est pas un accord."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-dans-les-outils",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans les outils"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Tester ce que voient les différents comptes, ainsi que les intitulés, notifications, projections et exports. Protéger par défaut, documenter les destinataires et prévoir la correction, y compris des copies."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-apres-une-divulgation",
+            "content": [
+              {
+                "type": "text",
+                "text": "Après une divulgation"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Éviter de répéter l’information. Limiter l’accès, identifier les destinataires, conserver le nécessaire et associer la personne aux suites. Revenir à la finalité face à une demande non nécessaire ; en cas de danger, activer les procédures compétentes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "droit-et-institutions-verifie-le-31-juillet-2026",
+        "title": "Droit et institutions — vérifié le 31 juillet 2026",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le RGPD pose notamment la minimisation (article 5) et la protection des données dès la conception et par défaut (article 25). Les articles L. 121-6 et L. 121-7 du Code général de la fonction publique distinguent secret et discrétion professionnels. Des textes particuliers s’appliquent aux assistants de service social, aux professionnels de santé et aux infirmiers ; les règles de partage dépendent de leurs missions."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La circulaire scolaire du 29 septembre 2021 demeure publiée. Lorsqu’un élève mineur se confie seul sur son identité de genre, elle prévoit que le dialogue avec la famille ne s’engage qu’avec son accord explicite, sans faire disparaître les obligations liées à un danger. Elle encadre aussi l’usage du prénom choisi dans l’établissement et distingue les documents internes des actes et systèmes nationaux. Le Conseil d’État a rejeté, le 29 décembre 2023 (n° 463697), les recours demandant son retrait. Ces repères sont datés, conditionnels et à vérifier à nouveau avant publication ; ils ne constituent pas un conseil pour un cas particulier."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8-questions-de-debrief",
+        "title": "8. Questions de débrief",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle information circule dans la situation, et qui la connaissait avant l’événement ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quel accord précis a été donné — destinataire, but, moment — et que ne couvre-t-il pas ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Une consigne fonctionnelle ou un échange plus privé aurait-il permis d’agir avec moins d’informations ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quel document, outil ou geste augmente le nombre de destinataires, y compris sans intention de nuire ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Comment réparer ou limiter la divulgation sans l’étendre, tout en respectant le rôle professionnel et les éventuelles obligations de protection ?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9-sources-cles-commentees",
+        "title": "9. Sources clés commentées",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Source"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Type"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Apport au module"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Limite ou vigilance"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Goffman, "
+                  },
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Stigma"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " (1963)"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Monographie originale"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Gestion de l’information sociale et audiences"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Cadre daté ; ne suffit pas pour les réalités LGBTI+ contemporaines"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Chaudoir et Fisher, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "2010"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1037/a0018193",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Revue théorique et empirique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Buts, événement de divulgation, médiateurs et réactions"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Modèle général ; ne prescrit pas de se dévoiler"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Orne, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "2011"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1177/1363460711420462",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Étude qualitative"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Dévoilements continus et contextuels"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Personnes LGB, contexte états-unien"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Chetcuti, "
+                  },
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Se dire lesbienne"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " (2010/2021)"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Recherche par récits de vie"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Autonomination et contexte social"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne fonde pas une origine du terme coming in"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Nissenbaum, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "2004"
+                      }
+                    ],
+                    "href": "https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Théorie normative"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Intégrité des flux selon le contexte"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "N’est pas le droit français"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Marwick et boyd, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "2011"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1177/1461444810365313",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Étude des médias sociaux"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Context collapse et audiences réunies"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Twitter, période et terrain spécifiques ; analogie limitée avec l’ENT"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "RGPD, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "règlement (UE) 2016/679"
+                      }
+                    ],
+                    "href": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32016R0679",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Droit de l’Union"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Minimisation et protection par défaut"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Application à qualifier selon le traitement"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Circulaire scolaire du "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "29 septembre 2021"
+                      }
+                    ],
+                    "href": "https://www.education.gouv.fr/bo/21/Hebdo36/MENE2128373C.htm",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Instruction officielle"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Dialogue, famille, prénom et protection"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Champ scolaire ; conditions et exceptions"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Conseil d’État, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "29 décembre 2023"
+                      }
+                    ],
+                    "href": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-12-29/463697",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Jurisprudence"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Rejet des recours contre la circulaire"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne tranche pas chaque situation individuelle"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "CNIL, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "affichage des listes de classes"
+                      }
+                    ],
+                    "href": "https://www.cnil.fr/fr/rentree-scolaire-et-affichage-des-listes-des-classes-quelles-sont-les-bonnes-pratiques",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Recommandation officielle"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Limiter données, publics, lieux et durée"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Fiche ciblée, pas règlement complet des ENT"
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10-bibliographie-complete",
+        "title": "10. Bibliographie complète",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-textes-originaux-et-sources-primaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Textes originaux et sources primaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Chetcuti, N. (2010, rééd. 2021). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Se dire lesbienne : vie de couple, sexualité, représentation de soi"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Payot."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Chetcuti, N. (2014). « Autonomination lesbienne avec les réseaux numériques ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Hermès, La Revue"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 69, 39-41. https://shs.cairn.info/revue-hermes-la-revue-2014-2-page-39"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Goffman, E. (1963). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Stigma: Notes on the Management of Spoiled Identity"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Prentice-Hall. https://cdn.penguin.co.uk/dam-assets/books/9780241548011/9780241548011-sample.pdf"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Papazian, P. (2005). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Coming-in : prise de conscience d’une orientation homosexuelle : affects associés, conséquences sur la sexualité"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Mémoire de DIU de sexologie, 91 p. Notice : https://catalogue.bigtata.org/cgi-bin/koha/opac-detail.pl?biblionumber=3282"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-recherches-scientifiques-ou-universitaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Recherches scientifiques ou universitaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Chaudoir, S. R. et Fisher, J. D. (2010). « The Disclosure Processes Model ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Psychological Bulletin"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 136(2), 236-256. https://doi.org/10.1037/a0018193"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Marwick, A. E. et boyd, d. (2011). « I Tweet Honestly, I Tweet Passionately ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "New Media & Society"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 13(1), 114-133. https://doi.org/10.1177/1461444810365313"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Nissenbaum, H. (2004). « Privacy as Contextual Integrity ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Washington Law Review"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 79(1), 119-157. https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Orne, J. (2011). « “You Will Always Have to ‘Out’ Yourself” ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Sexualities"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 14(6), 681-703. https://doi.org/10.1177/1363460711420462"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Rasmussen, M. L. (2004). « The Problem of Coming Out ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Theory Into Practice"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 43(2), 144-150."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-sources-institutionnelles-et-professionnelles",
+            "content": [
+              {
+                "type": "text",
+                "text": "Sources institutionnelles et professionnelles"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "CNIL (2025). « Rentrée scolaire et affichage des listes des classes : quelles sont les bonnes pratiques ? » https://www.cnil.fr/fr/rentree-scolaire-et-affichage-des-listes-des-classes-quelles-sont-les-bonnes-pratiques"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Code de l’action sociale et des familles, article L. 411-3. https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006797838"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Code de la santé publique, article L. 1110-4. https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043895798"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Code général de la fonction publique, articles L. 121-6 et L. 121-7. https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044427903 ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044427901"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Conseil d’État (2023). Décision du 29 décembre 2023, n° 463697. https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-12-29/463697"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Défenseur des droits (2025). Décision-cadre n° 2025-112 relative au respect de l’identité de genre. https://juridique.defenseurdesdroits.fr/doc_num.php?explnum_id=22780"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ministère de l’Éducation nationale (2021). Circulaire du 29 septembre 2021 relative à l’accueil en milieu scolaire des élèves transgenres. https://www.education.gouv.fr/bo/21/Hebdo36/MENE2128373C.htm"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ministère de l’Éducation nationale (2025). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Kit juridique pour les ENT"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". https://www.education.gouv.fr/sites/default/files/2025-07/kit-juridique-441540.pdf"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Règlement (UE) 2016/679 du Parlement européen et du Conseil. https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32016R0679"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-critiques-et-retours-de-pratique",
+            "content": [
+              {
+                "type": "text",
+                "text": "Critiques et retours de pratique"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Les usages culturels et militants de « coming in » sont reconnus comme des circulations du terme, sans être convertis en origine scientifique."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Une nouvelle vérification juridique et technique sera nécessaire avant publication, notamment pour les textes scolaires, les décisions institutionnelles et les paramétrages d’ENT."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "limite-du-modele",
+        "title": "Limite du modèle",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mosaïque rend discutables des effets situés. Il ne connaît pas le vécu intérieur des personnes, ne remplace ni l’examen juridique d’un cas ni une enquête sur un outil, et ne démontre pas sa propre efficacité."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "takeaways": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une personne contrôle autant que possible "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "qui sait quoi, dans quel but et dans quel contexte"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " ; une divulgation volontaire n’est jamais une autorisation générale."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un outil, une liste ou une procédure peut divulguer sans intention humaine explicite ; la minimisation et la protection par défaut sont des responsabilités d’organisation."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Protéger l’autonomie n’impose ni le dévoilement ni le silence : cela exige information, consentement situé, limites annoncées et solutions fonctionnelles."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Dans vos documents, échanges et outils, quelle information pourrait être remplacée par une consigne fonctionnelle, limitée à moins de destinataires ou recueillie dans un cadre plus privé ?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "« Approfondir » retrace les usages du vocabulaire, présente les modèles de divulgation, distingue les responsabilités juridiques et professionnelles, puis applique ces repères aux cinq situations sans en faire des preuves."
+        }
+      ]
+    }
+  ],
+  "professionalQuestion": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "« Approfondir » retrace les usages du vocabulaire, présente les modèles de divulgation, distingue les responsabilités juridiques et professionnelles, puis applique ces repères aux cinq situations sans en faire des preuves."
+        }
+      ]
+    }
+  ],
+  "debriefQuestions": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle information circule dans la situation, et qui la connaissait avant l’événement ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quel accord précis a été donné — destinataire, but, moment — et que ne couvre-t-il pas ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une consigne fonctionnelle ou un échange plus privé aurait-il permis d’agir avec moins d’informations ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quel document, outil ou geste augmente le nombre de destinataires, y compris sans intention de nuire ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Comment réparer ou limiter la divulgation sans l’étendre, tout en respectant le rôle professionnel et les éventuelles obligations de protection ?"
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "centralSources": [
+    "S031",
+    "S032",
+    "S033",
+    "S034",
+    "S079",
+    "S080",
+    "S081",
+    "S082",
+    "S083",
+    "S109",
+    "S110",
+    "S111",
+    "S112",
+    "S113",
+    "S114",
+    "S126",
+    "S133",
+    "S138",
+    "S142",
+    "S154",
+    "S161"
+  ],
+  "moduleBibliography": [
+    {
+      "type": "table",
+      "headers": [
+        [
+          {
+            "type": "text",
+            "text": "Source"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Type"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Apport au module"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Limite ou vigilance"
+          }
+        ]
+      ],
+      "rows": [
+        [
+          [
+            {
+              "type": "text",
+              "text": "Goffman, "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Stigma"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " (1963)"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Monographie originale"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Gestion de l’information sociale et audiences"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Cadre daté ; ne suffit pas pour les réalités LGBTI+ contemporaines"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Chaudoir et Fisher, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "2010"
+                }
+              ],
+              "href": "https://doi.org/10.1037/a0018193",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Revue théorique et empirique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Buts, événement de divulgation, médiateurs et réactions"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Modèle général ; ne prescrit pas de se dévoiler"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Orne, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "2011"
+                }
+              ],
+              "href": "https://doi.org/10.1177/1363460711420462",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Étude qualitative"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dévoilements continus et contextuels"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Personnes LGB, contexte états-unien"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Chetcuti, "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Se dire lesbienne"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " (2010/2021)"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Recherche par récits de vie"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Autonomination et contexte social"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne fonde pas une origine du terme coming in"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Nissenbaum, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "2004"
+                }
+              ],
+              "href": "https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Théorie normative"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Intégrité des flux selon le contexte"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "N’est pas le droit français"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Marwick et boyd, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "2011"
+                }
+              ],
+              "href": "https://doi.org/10.1177/1461444810365313",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Étude des médias sociaux"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Context collapse et audiences réunies"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Twitter, période et terrain spécifiques ; analogie limitée avec l’ENT"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "RGPD, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "règlement (UE) 2016/679"
+                }
+              ],
+              "href": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32016R0679",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Droit de l’Union"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Minimisation et protection par défaut"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Application à qualifier selon le traitement"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Circulaire scolaire du "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "29 septembre 2021"
+                }
+              ],
+              "href": "https://www.education.gouv.fr/bo/21/Hebdo36/MENE2128373C.htm",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Instruction officielle"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dialogue, famille, prénom et protection"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Champ scolaire ; conditions et exceptions"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Conseil d’État, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "29 décembre 2023"
+                }
+              ],
+              "href": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-12-29/463697",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Jurisprudence"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Rejet des recours contre la circulaire"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne tranche pas chaque situation individuelle"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "CNIL, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "affichage des listes de classes"
+                }
+              ],
+              "href": "https://www.cnil.fr/fr/rentree-scolaire-et-affichage-des-listes-des-classes-quelles-sont-les-bonnes-pratiques",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Recommandation officielle"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Limiter données, publics, lieux et durée"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Fiche ciblée, pas règlement complet des ENT"
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-1-textes-originaux-et-sources-primaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Textes originaux et sources primaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Chetcuti, N. (2010, rééd. 2021). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Se dire lesbienne : vie de couple, sexualité, représentation de soi"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Payot."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Chetcuti, N. (2014). « Autonomination lesbienne avec les réseaux numériques ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Hermès, La Revue"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 69, 39-41. https://shs.cairn.info/revue-hermes-la-revue-2014-2-page-39"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Goffman, E. (1963). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stigma: Notes on the Management of Spoiled Identity"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Prentice-Hall. https://cdn.penguin.co.uk/dam-assets/books/9780241548011/9780241548011-sample.pdf"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Papazian, P. (2005). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Coming-in : prise de conscience d’une orientation homosexuelle : affects associés, conséquences sur la sexualité"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Mémoire de DIU de sexologie, 91 p. Notice : https://catalogue.bigtata.org/cgi-bin/koha/opac-detail.pl?biblionumber=3282"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-2-recherches-scientifiques-ou-universitaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Recherches scientifiques ou universitaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Chaudoir, S. R. et Fisher, J. D. (2010). « The Disclosure Processes Model ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Psychological Bulletin"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 136(2), 236-256. https://doi.org/10.1037/a0018193"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Marwick, A. E. et boyd, d. (2011). « I Tweet Honestly, I Tweet Passionately ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "New Media & Society"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 13(1), 114-133. https://doi.org/10.1177/1461444810365313"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Nissenbaum, H. (2004). « Privacy as Contextual Integrity ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Washington Law Review"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 79(1), 119-157. https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Orne, J. (2011). « “You Will Always Have to ‘Out’ Yourself” ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Sexualities"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 14(6), 681-703. https://doi.org/10.1177/1363460711420462"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Rasmussen, M. L. (2004). « The Problem of Coming Out ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Theory Into Practice"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 43(2), 144-150."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-3-sources-institutionnelles-et-professionnelles",
+      "content": [
+        {
+          "type": "text",
+          "text": "Sources institutionnelles et professionnelles"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "CNIL (2025). « Rentrée scolaire et affichage des listes des classes : quelles sont les bonnes pratiques ? » https://www.cnil.fr/fr/rentree-scolaire-et-affichage-des-listes-des-classes-quelles-sont-les-bonnes-pratiques"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Code de l’action sociale et des familles, article L. 411-3. https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006797838"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Code de la santé publique, article L. 1110-4. https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043895798"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Code général de la fonction publique, articles L. 121-6 et L. 121-7. https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044427903 ; https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044427901"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Conseil d’État (2023). Décision du 29 décembre 2023, n° 463697. https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-12-29/463697"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Défenseur des droits (2025). Décision-cadre n° 2025-112 relative au respect de l’identité de genre. https://juridique.defenseurdesdroits.fr/doc_num.php?explnum_id=22780"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministère de l’Éducation nationale (2021). Circulaire du 29 septembre 2021 relative à l’accueil en milieu scolaire des élèves transgenres. https://www.education.gouv.fr/bo/21/Hebdo36/MENE2128373C.htm"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministère de l’Éducation nationale (2025). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Kit juridique pour les ENT"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". https://www.education.gouv.fr/sites/default/files/2025-07/kit-juridique-441540.pdf"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Règlement (UE) 2016/679 du Parlement européen et du Conseil. https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32016R0679"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-4-critiques-et-retours-de-pratique",
+      "content": [
+        {
+          "type": "text",
+          "text": "Critiques et retours de pratique"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les usages culturels et militants de « coming in » sont reconnus comme des circulations du terme, sans être convertis en origine scientifique."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une nouvelle vérification juridique et technique sera nécessaire avant publication, notamment pour les textes scolaires, les décisions institutionnelles et les paramétrages d’ENT."
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "related": {
+    "modules": [
+      "M04",
+      "M12"
+    ],
+    "notions": [
+      "coming-in",
+      "coming-out",
+      "outing",
+      "consentement",
+      "confidentialite",
+      "minimisation",
+      "integrite-contextuelle",
+      "context-collapse"
+    ],
+    "situations": [
+      "V13",
+      "N03",
+      "N12",
+      "N13",
+      "I10"
+    ],
+    "modes": [
+      "Obstacles visibles",
+      "Normes ordinaires",
+      "Effets invisibles"
+    ]
+  },
+  "contentHash": "6b2a1ab6589633961e3e23663f7e0cc16dc775b5c77bd915587f64d95b33d4ba"
+}

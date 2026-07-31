@@ -1,0 +1,3400 @@
+{
+  "schemaVersion": "understand-public-v1",
+  "id": "M10",
+  "number": 10,
+  "title": "Parcours trans et non binaires : pluralité, autonomie et temporalités",
+  "status": "validated",
+  "pilot": false,
+  "directQuestion": "Comment présenter les parcours trans et non binaires sans imposer un récit unique, médicalisé, linéaire ou centré sur la souffrance ?",
+  "groupId": "G3",
+  "readingTime": {
+    "essential": "3 à 5 minutes",
+    "deepDive": "8 à 12 minutes"
+  },
+  "datedContent": [
+    {
+      "label": "CIM-11, HAS, circulaire scolaire, état civil et jurisprudences, vérifiés le 31 juillet 2026",
+      "verifiedAt": "2026-07-31",
+      "scope": "canonical-module-scope"
+    }
+  ],
+  "essential": {
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Cette partie peut être lue seule. Elle donne des repères éducatifs et institutionnels ; elle ne fournit aucun conseil médical individuel."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-1-1-question-de-depart",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. Question de départ"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Comment présenter les parcours trans et non binaires sans imposer un récit unique, médicalisé, linéaire ou centré sur la souffrance ?"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-2-2-reponse-synthetique",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. Réponse synthétique"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Une identité trans ou non binaire n’est pas une maladie et ne se déduit ni d’une apparence, ni d’une souffrance, ni d’un diagnostic. Les manières de se comprendre, de se nommer, de se présenter et d’agir peuvent être stables, évoluer ou rester sans étiquette définitive. Certaines personnes non binaires se reconnaissent dans le terme trans ; d’autres non. Une présentation masculine, féminine ou androgyne ne permet pas de trancher."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Il n’existe pas de parcours obligatoire. Reconnaissance sociale, prénom utilisé à l’école, organisation administrative, changement d’état civil et soins éventuels sont des dimensions distinctes. Une personne peut en souhaiter certaines et pas d’autres, dans un ordre variable ou sans les entreprendre. L’absence de démarche médicale ne diminue pas la légitimité d’une identité ; une démarche médicale ne l’augmente pas."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "La souffrance existe dans certains parcours, mais elle ne définit pas l’identité. Elle peut être liée au corps, à une dysphorie, à une discrimination, à l’invalidation, à un obstacle d’accès ou à d’autres éléments de la vie. Les parcours comprennent aussi vie ordinaire, liens, reconnaissance, soulagement, ambivalence et parfois euphorie de genre. Aucun de ces vécus n’est universel."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-3-3-definition-operationnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. Définition opérationnelle"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Dans ce module, "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "trans"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " désigne largement des personnes dont le genre ne correspond pas à celui associé à leur assignation à la naissance. "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Non binaire"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " regroupe des identités qui ne se situent pas exclusivement dans les catégories homme ou femme. Ces termes se recoupent pour certaines personnes, pas pour toutes."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Un "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "parcours"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " est l’ensemble non ordonné des manières de se comprendre, d’être reconnu, de protéger ses informations et d’entreprendre éventuellement des démarches sociales, scolaires, administratives, juridiques ou médicales. Il n’est ni une checklist, ni une mesure d’authenticité. L’"
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "autodétermination"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " place la personne au centre de la définition de son identité et de ses objectifs ; l’"
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "autonomie"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " suppose aussi des informations compréhensibles, des choix réels, du temps, un environnement accessible et, lorsque nécessaire, un accompagnement."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Dans la CIM-11, l’"
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "incongruence de genre"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " est une catégorie de santé sexuelle et non un trouble mental. Elle n’implique pas automatiquement une souffrance. La "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "dysphorie"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " désigne, selon certains usages cliniques, une détresse ou un inconfort significatif ; elle n’est ni universelle ni une preuve de légitimité. L’"
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "euphorie de genre"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " peut désigner joie, aisance, reconnaissance, calme ou soulagement liés à une expérience de genre ajustée ; elle n’est pas un bonheur permanent attendu."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-4-4-trois-exemples-mosaique",
+        "content": [
+          {
+            "type": "text",
+            "text": "4. Trois exemples Mosaïque"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-5-i09-le-personnage-trans-toujours-en-souffrance",
+        "content": [
+          {
+            "type": "text",
+            "text": "I09 — Le personnage trans toujours en souffrance"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Un corpus associe systématiquement les personnages trans à la détresse, aux troubles psychiques, aux soins, au conflit ou à la violence. Le problème n’est pas de montrer une souffrance réelle ; il est de la rendre exclusive et définitoire. La carte illustre un cadrage. Elle ne permet aucun diagnostic et ne démontre aucun effet psychologique sur les élèves."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-6-i14-une-histoire-ordinaire",
+        "content": [
+          {
+            "type": "text",
+            "text": "I14 — Une histoire ordinaire"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Une expérience minoritaire est présente sans devenir problème, explication ou totalité du récit. Cette protection rappelle qu’une vie ordinaire, des liens, des projets et des intérêts existent aussi. « Ordinaire » ne veut pas dire sans difficulté ni modèle obligatoire de bonheur."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-7-n13-l-organisation-preparee-en-prive",
+        "content": [
+          {
+            "type": "text",
+            "text": "N13 — L’organisation préparée en privé"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Un échange individuel permet de choisir une organisation sans justification publique ni récit médical. La protection tient au cadre privé, aux options proposées et à la possibilité d’agir sans dévoilement. Elle est utilisable par plusieurs personnes et ne permet pas de déduire une identité."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-8-5-a-ne-pas-confondre",
+        "content": [
+          {
+            "type": "text",
+            "text": "5. À ne pas confondre"
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "headers": [
+          [
+            {
+              "type": "text",
+              "text": "Distinction"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Repère"
+            }
+          ]
+        ],
+        "rows": [
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Transidentité / maladie"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Une identité trans n’est pas une affection."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Identité / diagnostic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Un diagnostic répond à un cadre clinique ; il ne crée ni ne certifie une identité."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Incongruence / souffrance"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "L’incongruence de la CIM-11 n’implique pas automatiquement une détresse."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dysphorie / transidentité"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "La dysphorie peut concerner certaines personnes ; elle n’est ni universelle ni nécessaire."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Non-binarité / indécision"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Une identité non binaire n’est pas une transition binaire inachevée."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Transition sociale / médicale"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Prénom, accords ou présentation ne sont pas des soins ; les soins éventuels ne les imposent pas."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Euphorie / bonheur permanent"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Une expérience positive peut être brève, calme ou ambivalente."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Autodétermination / absence d’accompagnement"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Être au centre des choix reste compatible avec information et soutien."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Intersexuation / transidentité"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "L’une concerne des variations des caractéristiques sexuées ; l’autre, le rapport entre genre et assignation."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Expression visible / identité"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Une apparence ne permet pas de déduire comment une personne se définit."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Confidentialité / honte"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Limiter une information protège l’autonomie ; cela ne révèle pas un rejet de soi."
+              }
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-9-6-trois-idees-a-retenir",
+        "content": [
+          {
+            "type": "text",
+            "text": "6. Trois idées à retenir"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Aucun diagnostic, soin, changement administratif ou dévoilement ne rend une identité plus légitime."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Les parcours sociaux, scolaires, administratifs, juridiques et médicaux sont distincts, combinables et non obligatoires."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Représenter les parcours avec rigueur suppose d’inclure difficultés, protections, ordinaire et expériences positives sans universaliser aucun récit."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-10-7-question-de-reflexion-professionnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "7. Question de réflexion professionnelle"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Quelle règle, liste, question ou habitude de votre contexte suppose aujourd’hui qu’un parcours doit être binaire, visible, stable ou médicalement expliqué pour être respecté ?"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-11-8-pour-aller-plus-loin",
+        "content": [
+          {
+            "type": "text",
+            "text": "8. Pour aller plus loin"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "« Approfondir » distingue les catégories cliniques des identités, retrace la dépathologisation, précise l’état des recommandations françaises, puis traduit la pluralité des parcours en responsabilités scolaires."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-12-sources-centrales-de-l-essentiel",
+        "content": [
+          {
+            "type": "text",
+            "text": "Sources centrales de L’essentiel"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Organisation mondiale de la santé. "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "« Gender incongruence and transgender health in the ICD »"
+                    }
+                  ],
+                  "href": "https://www.who.int/standards/classifications/frequently-asked-questions/gender-incongruence-and-transgender-health-in-the-icd",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Haute Autorité de santé (2025). "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Transidentité : prise en charge de l’adulte"
+                        }
+                      ]
+                    }
+                  ],
+                  "href": "https://www.has-sante.fr/jcms/p_3636735/fr/transidentite-prise-en-charge-de-l-adulte",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Speechley, M., Stuart, J. et Modecki, K. L. (2024). "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "« Diverse Gender Identity Development »"
+                    }
+                  ],
+                  "href": "https://doi.org/10.1007/s11199-023-01438-x",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", "
+                },
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sex Roles"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ", 90, 1-18."
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "deepDive": {
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "Introduction",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les preuves sont précisées ; aucun accompagnement ni examen juridique n’est remplacé."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1-probleme-theorique-decrire-sans-construire-une-trajectoire-obligatoire",
+        "title": "1. Problème théorique : décrire sans construire une trajectoire obligatoire",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le récit « malaise, coming out, diagnostic, hormones, chirurgie, état civil, vie authentique » fusionne des objets différents en étapes. Il exclut les personnes qui ne souffrent pas, ne se dévoilent pas ou organisent autrement leurs démarches."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’injonction inverse à un parcours heureux, visible ou sans soin serait aussi réductrice. Connaissance de soi, école, droit, santé et relations s’articulent sans former une échelle. L’analyse porte sur la situation, non sur une transition « complète »."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2-reperes-historiques",
+        "title": "2. Repères historiques",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-categories-medicales-et-depathologisation",
+            "content": [
+              {
+                "type": "text",
+                "text": "Catégories médicales et dépathologisation"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les expériences trans ont longtemps été classées en psychiatrie. Ces catégories ont pu ouvrir des soins tout en produisant stigmatisation et conditions de légitimité. Dépathologiser sépare l’identité d’une maladie sans nier les besoins de santé."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans la CIM-11, effective depuis 2022, l’OMS a déplacé l’incongruence vers la santé sexuelle, hors des troubles mentaux. Les identités trans et de genre divers ne sont pas des affections mentales ; une variation de genre seule ne suffit pas au diagnostic."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les SOC8 de la WPATH (2022) reconnaissent les personnes non binaires et des parcours individualisés. La HAS a publié en juillet 2025 ses recommandations finales pour les adultes engagés dans un parcours médical ou chirurgical. Pour les mineurs, sa note de cadrage de mai 2026 n’est pas un texte final."
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Niveau de preuve"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Repère"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Fait établi"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "La CIM-11 classe l’incongruence hors des troubles mentaux ; la HAS a publié une recommandation finale pour les adultes en juillet 2025."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Hypothèse probable"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Des cadres plus individualisés peuvent réduire certains obstacles, avec des effets dépendant des dispositifs et des personnes."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Attribution contestée"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Aucun modèle unique ne peut être présenté comme décrivant « le » développement de toute identité trans ou non binaire."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Absence de preuve suffisante"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "La note de cadrage HAS de 2026 ne permet pas d’anticiper les recommandations finales pour les mineurs."
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3-concepts-et-auteurs-reellement-utiles",
+        "title": "3. Concepts et auteurs réellement utiles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-caracteristiques-assignation-identite-et-expression",
+            "content": [
+              {
+                "type": "text",
+                "text": "Caractéristiques, assignation, identité et expression"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les caractéristiques sexuées sont des traits corporels ; l’assignation à la naissance est une catégorie enregistrée. L’identité de genre est la manière dont une personne se situe ; l’expression concerne sa présentation, sans permettre de déduire l’identité. Les rôles de genre sont des attentes sociales. Une personne cis se reconnaît dans le genre associé à son assignation."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-identite-incongruence-dysphorie-et-souffrance",
+            "content": [
+              {
+                "type": "text",
+                "text": "Identité, incongruence, dysphorie et souffrance"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’identité de genre concerne la manière dont une personne se situe et se nomme. L’incongruence est une catégorie de santé de la CIM-11 ; la dysphorie met l’accent, selon les usages, sur une détresse significative. La souffrance psychique est plus large et multicausale."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ces distinctions empêchent de diagnostiquer une identité ou de lui attribuer toute difficulté. Discrimination, invalidation et anticipation du rejet peuvent contribuer au stress minoritaire sans expliquer automatiquement chaque vécu."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-developpement-non-lineaire",
+            "content": [
+              {
+                "type": "text",
+                "text": "Développement non linéaire"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Speechley, Stuart et Modecki synthétisent 72 études qualitatives et plus de 1 700 expériences ; leur cadre décrit exploration, négociation et engagement comme potentiellement cycliques. Tyni et ses collègues synthétisent les vécus de jeunes de 18 ans ou moins."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ces synthèses écartent un modèle universel à stades sans remplacer la parole individuelle. Les mots peuvent changer autour d’une identité stable ; une décision peut être différée. Changer de mot ne rend pas la parole antérieure mensongère."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-euphorie-de-genre-et-experiences-positives",
+            "content": [
+              {
+                "type": "text",
+                "text": "Euphorie de genre et expériences positives"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Beischel, Gauvin et van Anders documentent des compréhensions communautaires de l’euphorie : émotions positives, affirmation, reconnaissance, joie, calme ou soulagement. Le concept évite de réduire les expériences trans à la douleur."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La recherche reste récente et les échantillons souvent auto-sélectionnés. L’euphorie n’est pas une preuve de légitimité ni un vécu universel."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-non-binarites-et-intersexuation",
+            "content": [
+              {
+                "type": "text",
+                "text": "Non-binarités et intersexuation"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les non-binarités ne désignent pas une transition inachevée : elles regroupent des identités qui ne sont pas exclusivement homme ou femme. Certaines personnes non binaires se disent trans, d’autres non ; leurs apparences, pronoms et démarches varient. Leur sous-représentation dans certaines études limite les généralisations."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’intersexuation concerne des variations des caractéristiques sexuées et reste distincte des transidentités. Une personne intersexe peut être cis, trans ou non binaire ; une personne trans n’est pas nécessairement intersexe. Des enjeux d’assignation, d’intégrité corporelle, de consentement et d’autodétermination peuvent s’articuler sans devenir identiques. L’intersexuation n’est pas un simple argument destiné à montrer que le sexe serait « compliqué »."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4-controverses-et-limites",
+        "title": "4. Controverses et limites",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-terminologies-et-classifications",
+            "content": [
+              {
+                "type": "text",
+                "text": "Terminologies et classifications"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "« Trans », « non binaire », « incongruence » et « dysphorie » n’ont pas le même statut : termes identitaires ou catégories cliniques. Leur sens varie ; le module explicite ses usages sans les fixer définitivement."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-acces-aux-soins-et-categories-diagnostiques",
+            "content": [
+              {
+                "type": "text",
+                "text": "Accès aux soins et catégories diagnostiques"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une catégorie peut faciliter l’accès aux soins tout en exposant à la pathologisation ou au contrôle d’accès. Cette tension clinique, éthique et institutionnelle ne rend pas l’identité controversée. Les sources s’évaluent par leur méthode, population et date, sans fausse symétrie."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-mineurs-et-autonomie",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mineurs et autonomie"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Prénom scolaire, locaux, accompagnement psychologique et soin ont des objets et règles différents. Le mineur participe selon son âge et sa maturité dans le cadre légal. Aucune prescription n’est déduite d’une note de cadrage."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-limites-de-la-recherche",
+            "content": [
+              {
+                "type": "text",
+                "text": "Limites de la recherche"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Études transversales, consultations spécialisées, recrutements communautaires et terrains étrangers limitent le transfert. Les personnes non binaires sont parfois agrégées ou absentes ; les personnes intersexes ne doivent pas être absorbées dans une catégorie trans. Les données longitudinales restent inégales."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-politisation",
+            "content": [
+              {
+                "type": "text",
+                "text": "Politisation"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Il faut distinguer désaccord scientifique, arbitrage éthique, règle de droit et campagne politique. L’existence, la dignité et la non-discrimination des personnes ne sont pas mises en débat."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5-application-precise-a-mosaique",
+        "title": "5. Application précise à Mosaïque",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-i09-le-personnage-trans-toujours-en-souffrance",
+            "content": [
+              {
+                "type": "text",
+                "text": "I09 — Le personnage trans toujours en souffrance"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le mécanisme gelé est la pathologisation : les personnages trans n’apparaissent que par la détresse, les soins, les conflits ou les violences. Le corpus laisse-t-il aussi place aux projets et vies ordinaires ? I09 n’établit ni état mental ni intention."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-i14-une-histoire-ordinaire",
+            "content": [
+              {
+                "type": "text",
+                "text": "I14 — Une histoire ordinaire"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cette protection intègre une famille minoritaire sans en faire un problème. Elle éclaire des personnages dont les objectifs ne se réduisent pas au genre, sans effet universel garanti."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-i15-une-seance-equilibree",
+            "content": [
+              {
+                "type": "text",
+                "text": "I15 — Une séance équilibrée"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La séance associe violences à relations, soutiens et action. Cette pluralité évite un script unique sans prouver l’efficacité de la séance."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-v04-le-prenom-refuse",
+            "content": [
+              {
+                "type": "text",
+                "text": "V04 — Le prénom refusé"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le respect et la protection contre les discriminations sont des droits. Lorsque les conditions scolaires sont réunies, l’usage du prénom choisi ne relève pas de la libre appréciation des adultes. Cela ne règle pas tout document d’état civil."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-n12-les-informations-confidentielles",
+            "content": [
+              {
+                "type": "text",
+                "text": "N12 — Les informations confidentielles"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’établissement distingue données et destinataires. Une reconnaissance située ne rend pas l’information disponible partout ; la protection n’est ni honte ni secret absolu."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-6-n13-l-organisation-preparee-en-prive",
+            "content": [
+              {
+                "type": "text",
+                "text": "N13 — L’organisation préparée en privé"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un échange individuel offre des options sans justification publique. Cette protection sert plusieurs besoins sans étiquette, apparence ou récit médical."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-7-frontiere-avec-le-module-9",
+            "content": [
+              {
+                "type": "text",
+                "text": "Frontière avec le module 9"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le module 10 porte sur la pluralité des parcours, l’autodétermination, les temporalités et les types de démarches. Le module 9 porte sur la circulation d’une information, le consentement, les destinataires et les outils. Le prénom et la confidentialité peuvent apparaître dans les deux, avec un foyer analytique différent."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6-ce-que-le-cadre-ne-permet-pas-d-affirmer",
+        "title": "6. Ce que le cadre ne permet pas d’affirmer",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ce cadre ne permet pas :"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de déduire une identité d’un portrait, d’un prénom ou d’un comportement, ni de diagnostiquer incongruence, dysphorie ou souffrance ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "d’ordonner les démarches, de rendre le coming out nécessaire, ou de traiter soins et état civil comme preuves ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de confondre personnes trans, non binaires et intersexes ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de prédire une trajectoire à partir d’un groupe ou de transférer automatiquement une recherche étrangère à l’école française ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "d’anticiper les recommandations HAS pour les mineurs ou de qualifier juridiquement une situation ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de présenter un personnage, une biographie ou Mosaïque comme preuve scientifique."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les personnages P et XP restent distincts, même lorsqu’ils partagent un prénom. Les informations réservées à l’équipe éditoriale ou au formateur ne deviennent pas connues des adultes de la fiction."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7-implications-professionnelles",
+        "title": "7. Implications professionnelles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-accueillir-sans-assigner",
+            "content": [
+              {
+                "type": "text",
+                "text": "Accueillir sans assigner"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Écouter les mots choisis et leur possible évolution. Ne demander ni preuve de constance, ni récit corporel ou médical, et ne pas faire d’une personne la représentante d’un groupe."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-distinguer-les-demandes",
+            "content": [
+              {
+                "type": "text",
+                "text": "Distinguer les demandes"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Distinguer prénom, document interne, espace, confidentialité, état civil, soutien et santé. Le personnel agit dans son champ, oriente sans diagnostiquer et limite les informations au besoin."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-organiser-sans-devoiler",
+            "content": [
+              {
+                "type": "text",
+                "text": "Organiser sans dévoiler"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Vérifier listes, ENT, groupes, hébergements, espaces et documents projetés. Proposer des options et un échange privé ; expliquer les destinataires et corriger sans étendre la diffusion."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-agir-sur-le-climat",
+            "content": [
+              {
+                "type": "text",
+                "text": "Agir sur le climat"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Intervenir face au harcèlement ou à la discrimination sans attendre un récit médical. Représenter ordinaire, ressources et capacité d’agir. La protection ne dépend pas d’un parcours binaire ou médical."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sante-et-recommandations-verifie-le-31-juillet-2026",
+        "title": "Santé et recommandations — vérifié le 31 juillet 2026",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’OMS classe l’incongruence dans la santé sexuelle, hors des troubles mentaux. La recommandation HAS du 18 juillet 2025 concerne les adultes engagés dans un parcours médical ou chirurgical et valorise autodétermination, décision partagée et individualisation. Pour les mineurs, le texte HAS du 5 mai 2026 est une note de cadrage, non une recommandation finale. Aucun ne justifie un conseil médical individuel dans Mosaïque."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "droit-et-institutions-verifie-le-31-juillet-2026",
+        "title": "Droit et institutions — vérifié le 31 juillet 2026",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La circulaire scolaire du 29 septembre 2021 indique que les parcours ne sont pas nécessairement linéaires ou médicaux. Elle encadre, dans son champ et sous certaines conditions, le dialogue avec la famille, le prénom choisi et les espaces. Le Conseil d’État a rejeté le 29 décembre 2023 les recours demandant son retrait."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les articles 61-5 et 61-6 du Code civil organisent, pour les personnes majeures ou mineures émancipées, une procédure judiciaire de modification de la mention du sexe à l’état civil ; l’absence de traitement, d’opération ou de stérilisation ne peut motiver un refus. Au 31 juillet 2026, l’état civil français ne prévoit pas de mention de sexe autre que masculin ou féminin. La Cour de cassation l’a affirmé en 2017 ; la CEDH a conclu en 2023, dans "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Y c. France"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", à l’absence de violation de l’article 8 dans l’affaire examinée. Ces constats datés portent sur le marqueur d’état civil, non sur la légitimité des identités non binaires."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8-questions-de-debrief",
+        "title": "8. Questions de débrief",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "La situation décrit-elle une identité, une expression, une information, une démarche ou une souffrance — et lesquels ne doivent pas être déduits ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quel modèle de parcours le récit rend-il visible : unique, binaire, médical, déficitaire, ou réellement pluralisé ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "La demande concerne-t-elle l’organisation scolaire, l’administration, le droit ou la santé, et qui est compétent pour y répondre ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle protection peut être proposée sans exiger une étiquette, une justification publique ou un récit médical ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Comment représenter à la fois difficultés, ordinaire, soutien, ambivalence et expériences positives sans rendre l’un de ces vécus obligatoire ?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9-sources-cles-commentees",
+        "title": "9. Sources clés commentées",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Source"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Type"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Apport au module"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Limite ou vigilance"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "OMS, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "CIM-11 et incongruence de genre"
+                      }
+                    ],
+                    "href": "https://www.who.int/standards/classifications/frequently-asked-questions/gender-incongruence-and-transgender-health-in-the-icd",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Classification et explication officielles"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Déplacement hors troubles mentaux ; définition clinique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne décrit pas toutes les identités ni une politique scolaire"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "HAS, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "recommandation adulte 2025"
+                      }
+                    ],
+                    "href": "https://www.has-sante.fr/jcms/p_3636735/fr/transidentite-prise-en-charge-de-l-adulte",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Recommandation française finale"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Autodétermination, personnalisation et décision partagée"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Adultes de plus de 18 ans engagés dans un parcours médical ou chirurgical"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "HAS, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "note de cadrage mineurs 2026"
+                      }
+                    ],
+                    "href": "https://www.has-sante.fr/jcms/p_3892586/fr/transidentite-accompagnement-du-mineur-et-de-son-entourage-et-soins-proposes-note-de-cadrage",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Document préparatoire officiel"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "État exact du chantier français"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "N’est pas une recommandation finale"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Coleman et al., "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "SOC8, 2022"
+                      }
+                    ],
+                    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9553112/",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Recommandations internationales évaluées par les pairs"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Parcours individualisés et chapitre non binaire"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Pas le droit français ; niveaux de preuve variables"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Speechley, Stuart et Modecki, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "2024"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1007/s11199-023-01438-x",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Synthèse qualitative"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Processus non linéaires, réciproques et cycliques"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Études et contextes hétérogènes"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Tyni et al., "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "2024"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1080/26895269.2023.2295379",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Revue systématique qualitative"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Expériences et stratégies de jeunes trans et de genre divers"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne démontre pas l’effet d’un soin ; terrains surtout étrangers"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Motmans, Nieder et Bouman, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "2019"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1080/15532739.2019.1640514",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Revue critique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Limites des paradigmes binaires en santé"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Champ clinique ; littérature non binaire alors émergente"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Beischel, Gauvin et van Anders, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "2022"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1080/26895269.2021.1915223",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Étude empirique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Compréhensions communautaires de l’euphorie de genre"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Échantillon auto-sélectionné ; concept émergent"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Circulaire scolaire du "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "29 septembre 2021"
+                      }
+                    ],
+                    "href": "https://www.education.gouv.fr/bo/21/Hebdo36/MENE2128373C.htm",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Instruction administrative officielle"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Parcours, prénom, dialogue, espaces et protection"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Conditions à appliquer selon la situation"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Code civil, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "articles 61-5 à 61-8"
+                      }
+                    ],
+                    "href": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000033437635/",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Droit français"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Modification de la mention du sexe sans exigence médicale"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Majeurs et mineurs émancipés ; procédure distincte de l’école et du soin"
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10-bibliographie-complete",
+        "title": "10. Bibliographie complète",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-textes-originaux-et-sources-primaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Textes originaux et sources primaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Organisation mondiale de la santé. "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "ICD-11 for Mortality and Morbidity Statistics"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", HA60, Gender incongruence of adolescence or adulthood. https://icd.who.int/browse11"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Organisation mondiale de la santé. « Gender incongruence and transgender health in the ICD ». https://www.who.int/standards/classifications/frequently-asked-questions/gender-incongruence-and-transgender-health-in-the-icd"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-recherches-scientifiques-ou-universitaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Recherches scientifiques ou universitaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Beischel, W. J., Gauvin, S. E. M. et van Anders, S. M. (2022). « “A little shiny gender breakthrough”: Community understandings of gender euphoria ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "International Journal of Transgender Health"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 23(3), 274-294. https://doi.org/10.1080/26895269.2021.1915223"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Coleman, E. et al. (2022). « Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "International Journal of Transgender Health"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 23(sup. 1), S1-S259. https://pmc.ncbi.nlm.nih.gov/articles/PMC9553112/"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Motmans, J., Nieder, T. O. et Bouman, W. P. (2019). « Transforming the paradigm of nonbinary transgender health ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "International Journal of Transgenderism"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 20(2-3), 119-125. https://doi.org/10.1080/15532739.2019.1640514"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Puckett, J. A. et al. (2023). « Daily Experiences of Minority Stress and Mental Health in Transgender and Gender-Diverse Individuals ». https://pmc.ncbi.nlm.nih.gov/articles/PMC10159909/"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Speechley, M., Stuart, J. et Modecki, K. L. (2024). « Diverse Gender Identity Development: A Qualitative Synthesis and Development of a New Contemporary Framework ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Sex Roles"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 90, 1-18. https://doi.org/10.1007/s11199-023-01438-x"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Tyni, K., Wurm, M., Nordström, T. et Bratt, A. S. (2024). « A systematic review and qualitative research synthesis of the lived experiences and coping of transgender and gender diverse youth 18 years or younger ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "International Journal of Transgender Health"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 25(3), 352-388. https://doi.org/10.1080/26895269.2023.2295379"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-sources-institutionnelles-et-professionnelles",
+            "content": [
+              {
+                "type": "text",
+                "text": "Sources institutionnelles et professionnelles"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Code civil, articles 61-5 à 61-8. Version vérifiée au 31 juillet 2026. https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000033437635/"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Cour de cassation (2017). Arrêt du 4 mai 2017, n° 16-17.189. https://www.courdecassation.fr/decision/export/5fd904ea412c169c70f3f7f3/1"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Cour européenne des droits de l’homme (2023). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Y c. France"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", requête n° 76888/17, 31 janvier 2023. https://hudoc.echr.coe.int/eng?i=001-223027"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Haute Autorité de santé (2025). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Transidentité : prise en charge de l’adulte"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". https://www.has-sante.fr/jcms/p_3636735/fr/transidentite-prise-en-charge-de-l-adulte"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Haute Autorité de santé (2026). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Transidentité : accompagnement du mineur et de son entourage, et soins proposés — Note de cadrage"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". https://www.has-sante.fr/jcms/p_3892586/fr/transidentite-accompagnement-du-mineur-et-de-son-entourage-et-soins-proposes-note-de-cadrage"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ministère de l’Éducation nationale (2021). Circulaire du 29 septembre 2021 relative à l’accueil en milieu scolaire des élèves transgenres. https://www.education.gouv.fr/bo/21/Hebdo36/MENE2128373C.htm"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Conseil d’État (2023). Décision du 29 décembre 2023, n° 463697. https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-12-29/463697"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Haut-Commissariat des Nations unies aux droits de l’homme. « Intersex people ». https://www.unfe.org/know-the-facts/challenges-solutions/intersex"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-critiques-et-retours-de-pratique",
+            "content": [
+              {
+                "type": "text",
+                "text": "Critiques et retours de pratique"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Les terminologies communautaires et les retours d’expérience éclairent les mots choisis et les besoins, mais ne sont pas convertis en diagnostic ou en résultat causal."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Les recommandations sanitaires, l’état du droit et la circulaire scolaire devront faire l’objet d’une nouvelle vérification avant publication."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "limite-du-modele",
+        "title": "Limite du modèle",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mosaïque utilise des situations comme illustrations de décisions et de cadrages. Il ne déduit aucune identité, ne mesure aucun effet médical ou psychologique, ne remplace aucun accompagnement et ne démontre pas sa propre efficacité."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "takeaways": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Aucun diagnostic, soin, changement administratif ou dévoilement ne rend une identité plus légitime."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les parcours sociaux, scolaires, administratifs, juridiques et médicaux sont distincts, combinables et non obligatoires."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Représenter les parcours avec rigueur suppose d’inclure difficultés, protections, ordinaire et expériences positives sans universaliser aucun récit."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Quelle règle, liste, question ou habitude de votre contexte suppose aujourd’hui qu’un parcours doit être binaire, visible, stable ou médicalement expliqué pour être respecté ?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "« Approfondir » distingue les catégories cliniques des identités, retrace la dépathologisation, précise l’état des recommandations françaises, puis traduit la pluralité des parcours en responsabilités scolaires."
+        }
+      ]
+    }
+  ],
+  "professionalQuestion": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "« Approfondir » distingue les catégories cliniques des identités, retrace la dépathologisation, précise l’état des recommandations françaises, puis traduit la pluralité des parcours en responsabilités scolaires."
+        }
+      ]
+    }
+  ],
+  "debriefQuestions": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La situation décrit-elle une identité, une expression, une information, une démarche ou une souffrance — et lesquels ne doivent pas être déduits ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quel modèle de parcours le récit rend-il visible : unique, binaire, médical, déficitaire, ou réellement pluralisé ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La demande concerne-t-elle l’organisation scolaire, l’administration, le droit ou la santé, et qui est compétent pour y répondre ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle protection peut être proposée sans exiger une étiquette, une justification publique ou un récit médical ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Comment représenter à la fois difficultés, ordinaire, soutien, ambivalence et expériences positives sans rendre l’un de ces vécus obligatoire ?"
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "centralSources": [
+    "S084",
+    "S085",
+    "S086",
+    "S087",
+    "S088",
+    "S089",
+    "S113",
+    "S115",
+    "S116",
+    "S120",
+    "S121",
+    "S127",
+    "S129",
+    "S130",
+    "S131",
+    "S132",
+    "S133",
+    "S149"
+  ],
+  "moduleBibliography": [
+    {
+      "type": "table",
+      "headers": [
+        [
+          {
+            "type": "text",
+            "text": "Source"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Type"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Apport au module"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Limite ou vigilance"
+          }
+        ]
+      ],
+      "rows": [
+        [
+          [
+            {
+              "type": "text",
+              "text": "OMS, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "CIM-11 et incongruence de genre"
+                }
+              ],
+              "href": "https://www.who.int/standards/classifications/frequently-asked-questions/gender-incongruence-and-transgender-health-in-the-icd",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Classification et explication officielles"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Déplacement hors troubles mentaux ; définition clinique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne décrit pas toutes les identités ni une politique scolaire"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "HAS, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "recommandation adulte 2025"
+                }
+              ],
+              "href": "https://www.has-sante.fr/jcms/p_3636735/fr/transidentite-prise-en-charge-de-l-adulte",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Recommandation française finale"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Autodétermination, personnalisation et décision partagée"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Adultes de plus de 18 ans engagés dans un parcours médical ou chirurgical"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "HAS, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "note de cadrage mineurs 2026"
+                }
+              ],
+              "href": "https://www.has-sante.fr/jcms/p_3892586/fr/transidentite-accompagnement-du-mineur-et-de-son-entourage-et-soins-proposes-note-de-cadrage",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Document préparatoire officiel"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "État exact du chantier français"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "N’est pas une recommandation finale"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Coleman et al., "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "SOC8, 2022"
+                }
+              ],
+              "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9553112/",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Recommandations internationales évaluées par les pairs"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Parcours individualisés et chapitre non binaire"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Pas le droit français ; niveaux de preuve variables"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Speechley, Stuart et Modecki, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "2024"
+                }
+              ],
+              "href": "https://doi.org/10.1007/s11199-023-01438-x",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Synthèse qualitative"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Processus non linéaires, réciproques et cycliques"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Études et contextes hétérogènes"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Tyni et al., "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "2024"
+                }
+              ],
+              "href": "https://doi.org/10.1080/26895269.2023.2295379",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Revue systématique qualitative"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Expériences et stratégies de jeunes trans et de genre divers"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne démontre pas l’effet d’un soin ; terrains surtout étrangers"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Motmans, Nieder et Bouman, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "2019"
+                }
+              ],
+              "href": "https://doi.org/10.1080/15532739.2019.1640514",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Revue critique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Limites des paradigmes binaires en santé"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Champ clinique ; littérature non binaire alors émergente"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Beischel, Gauvin et van Anders, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "2022"
+                }
+              ],
+              "href": "https://doi.org/10.1080/26895269.2021.1915223",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Étude empirique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Compréhensions communautaires de l’euphorie de genre"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Échantillon auto-sélectionné ; concept émergent"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Circulaire scolaire du "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "29 septembre 2021"
+                }
+              ],
+              "href": "https://www.education.gouv.fr/bo/21/Hebdo36/MENE2128373C.htm",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Instruction administrative officielle"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Parcours, prénom, dialogue, espaces et protection"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Conditions à appliquer selon la situation"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Code civil, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "articles 61-5 à 61-8"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000033437635/",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Droit français"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Modification de la mention du sexe sans exigence médicale"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Majeurs et mineurs émancipés ; procédure distincte de l’école et du soin"
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-1-textes-originaux-et-sources-primaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Textes originaux et sources primaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Organisation mondiale de la santé. "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "ICD-11 for Mortality and Morbidity Statistics"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", HA60, Gender incongruence of adolescence or adulthood. https://icd.who.int/browse11"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Organisation mondiale de la santé. « Gender incongruence and transgender health in the ICD ». https://www.who.int/standards/classifications/frequently-asked-questions/gender-incongruence-and-transgender-health-in-the-icd"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-2-recherches-scientifiques-ou-universitaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Recherches scientifiques ou universitaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Beischel, W. J., Gauvin, S. E. M. et van Anders, S. M. (2022). « “A little shiny gender breakthrough”: Community understandings of gender euphoria ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "International Journal of Transgender Health"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 23(3), 274-294. https://doi.org/10.1080/26895269.2021.1915223"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Coleman, E. et al. (2022). « Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "International Journal of Transgender Health"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 23(sup. 1), S1-S259. https://pmc.ncbi.nlm.nih.gov/articles/PMC9553112/"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Motmans, J., Nieder, T. O. et Bouman, W. P. (2019). « Transforming the paradigm of nonbinary transgender health ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "International Journal of Transgenderism"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 20(2-3), 119-125. https://doi.org/10.1080/15532739.2019.1640514"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Puckett, J. A. et al. (2023). « Daily Experiences of Minority Stress and Mental Health in Transgender and Gender-Diverse Individuals ». https://pmc.ncbi.nlm.nih.gov/articles/PMC10159909/"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Speechley, M., Stuart, J. et Modecki, K. L. (2024). « Diverse Gender Identity Development: A Qualitative Synthesis and Development of a New Contemporary Framework ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Sex Roles"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 90, 1-18. https://doi.org/10.1007/s11199-023-01438-x"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Tyni, K., Wurm, M., Nordström, T. et Bratt, A. S. (2024). « A systematic review and qualitative research synthesis of the lived experiences and coping of transgender and gender diverse youth 18 years or younger ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "International Journal of Transgender Health"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 25(3), 352-388. https://doi.org/10.1080/26895269.2023.2295379"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-3-sources-institutionnelles-et-professionnelles",
+      "content": [
+        {
+          "type": "text",
+          "text": "Sources institutionnelles et professionnelles"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Code civil, articles 61-5 à 61-8. Version vérifiée au 31 juillet 2026. https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000033437635/"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cour de cassation (2017). Arrêt du 4 mai 2017, n° 16-17.189. https://www.courdecassation.fr/decision/export/5fd904ea412c169c70f3f7f3/1"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cour européenne des droits de l’homme (2023). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Y c. France"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", requête n° 76888/17, 31 janvier 2023. https://hudoc.echr.coe.int/eng?i=001-223027"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Haute Autorité de santé (2025). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Transidentité : prise en charge de l’adulte"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". https://www.has-sante.fr/jcms/p_3636735/fr/transidentite-prise-en-charge-de-l-adulte"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Haute Autorité de santé (2026). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Transidentité : accompagnement du mineur et de son entourage, et soins proposés — Note de cadrage"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". https://www.has-sante.fr/jcms/p_3892586/fr/transidentite-accompagnement-du-mineur-et-de-son-entourage-et-soins-proposes-note-de-cadrage"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministère de l’Éducation nationale (2021). Circulaire du 29 septembre 2021 relative à l’accueil en milieu scolaire des élèves transgenres. https://www.education.gouv.fr/bo/21/Hebdo36/MENE2128373C.htm"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Conseil d’État (2023). Décision du 29 décembre 2023, n° 463697. https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-12-29/463697"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Haut-Commissariat des Nations unies aux droits de l’homme. « Intersex people ». https://www.unfe.org/know-the-facts/challenges-solutions/intersex"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-4-critiques-et-retours-de-pratique",
+      "content": [
+        {
+          "type": "text",
+          "text": "Critiques et retours de pratique"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les terminologies communautaires et les retours d’expérience éclairent les mots choisis et les besoins, mais ne sont pas convertis en diagnostic ou en résultat causal."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les recommandations sanitaires, l’état du droit et la circulaire scolaire devront faire l’objet d’une nouvelle vérification avant publication."
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "related": {
+    "modules": [
+      "M06",
+      "M12"
+    ],
+    "notions": [
+      "transidentite",
+      "non-binarite",
+      "autodetermination",
+      "intersexuation"
+    ],
+    "situations": [
+      "I09",
+      "I14",
+      "I15",
+      "V04",
+      "N12",
+      "N13"
+    ],
+    "modes": [
+      "Obstacles visibles",
+      "Normes ordinaires",
+      "Effets invisibles"
+    ]
+  },
+  "contentHash": "367748d7b0098a930391523a3e87291433e65c1163f88ec6eb60ca637862b52d"
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "understand-public-v1",
+  "generatedAtPolicy": "deterministic-no-runtime-timestamp",
+  "moduleCount": 12,
+  "glossaryEntryCount": 68,
+  "publicSourceCount": 164,
+  "situationCount": 24,
+  "groupsCount": 4,
+  "readingPathsCount": 4,
+  "moduleIds": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10",
+    "M11",
+    "M12"
+  ],
+  "publicSourceRange": {
+    "first": "S001",
+    "last": "S164"
+  },
+  "sourceContentHashes": {
+    "modules": {
+      "M01": "df99f6121b08f2d0211e5e97a006d2092784b810beb75bb060efa88b9a7178f3",
+      "M02": "c0d07dcc3a2ab688574295a9510bb8833f93ee2ca8d835f07d8416e4f0d03a45",
+      "M03": "d4291f36f98b3ac445a4b926197dbc7444400b28e27b2d3846d36f97c7a5b5d0",
+      "M04": "a053ed5e211bd1ee3685c9c498928361513a599ac9a57b43b3c809e26c0575cd",
+      "M05": "78c5ad1cee6082b2e2ae92dc1e67b389a2b923f77248deb3e236635af7a0bf9b",
+      "M06": "a90b651f10d4d61d8b2e15ff960b8cc56cb394548f42a21099b5360b59ca8e59",
+      "M07": "ccaab779768bb9dc8346e9f5597e3092bea66556f554f841669a5a02fd4e3a67",
+      "M08": "22ee370fb0a455bb44906b60f421323b93be223f407e7398803eb133d520056f",
+      "M09": "9a942588a7cf38c80ad49492a56a3f14479c842923630e583f05b1f553094da4",
+      "M10": "52d09e3c85aefa0fd32bc37b5a02118715ef7ecf42e1a590092a6921e92e1172",
+      "M11": "45f70d98e55fe7905abcf0ebc978b140d30d97b54c7d1cd7d8ef34cc65044d9d",
+      "M12": "4267e38c2fcb73d8275b790a7173a4b922c0f634c917ae504603b2c2a7d4c3f4"
+    },
+    "summary": "912e4bf89b41260be7ec2d6d62e42b09a40adec3d683a1726f0458adeb09b3c7",
+    "glossary": "f9fa3b80a1f04ccd17e9f8f311598089a388496b61fdda610d1e1535428dba76",
+    "links": "223c164a4e508619f9047874436ce5952ace76825905fe086d65842a35c69ad5",
+    "bibliography": "c28243ca9215fb6847055b3e4e640c195ce87e3dbf27b46a6909ab6bf8053f7b"
+  }
+}

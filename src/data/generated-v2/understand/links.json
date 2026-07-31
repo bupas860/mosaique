@@ -1,0 +1,805 @@
+{
+  "schemaVersion": "understand-public-v1",
+  "moduleRelations": [
+    {
+      "moduleId": "M01",
+      "dependencies": [],
+      "recommended": [
+        "M02",
+        "M03"
+      ],
+      "relatedModules": [
+        "M11",
+        "M12"
+      ],
+      "situations": [
+        "V04",
+        "N02",
+        "I14",
+        "X13"
+      ],
+      "modes": [
+        "Les quatre focales"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M02",
+      "dependencies": [
+        "M01"
+      ],
+      "recommended": [
+        "M03"
+      ],
+      "relatedModules": [
+        "M08",
+        "M11"
+      ],
+      "situations": [
+        "N02",
+        "I14",
+        "X13"
+      ],
+      "modes": [
+        "Normes ordinaires",
+        "Effets invisibles",
+        "Intersectionnalités"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M03",
+      "dependencies": [
+        "M01",
+        "M02"
+      ],
+      "recommended": [
+        "M04"
+      ],
+      "relatedModules": [
+        "M06",
+        "M08"
+      ],
+      "situations": [
+        "V04",
+        "N02",
+        "N12"
+      ],
+      "modes": [
+        "Obstacles visibles",
+        "Normes ordinaires"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M04",
+      "dependencies": [
+        "M03"
+      ],
+      "recommended": [
+        "M05",
+        "M06",
+        "M07"
+      ],
+      "relatedModules": [
+        "M08",
+        "M09",
+        "M10"
+      ],
+      "situations": [
+        "V04",
+        "N02",
+        "N03",
+        "N06",
+        "N07",
+        "N12",
+        "N13"
+      ],
+      "modes": [
+        "Obstacles visibles",
+        "Normes ordinaires"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M05",
+      "dependencies": [
+        "M04"
+      ],
+      "recommended": [
+        "M06",
+        "M07"
+      ],
+      "relatedModules": [
+        "M09",
+        "M12"
+      ],
+      "situations": [
+        "V04",
+        "V05",
+        "V10",
+        "V13",
+        "V16"
+      ],
+      "modes": [
+        "Obstacles visibles"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M06",
+      "dependencies": [
+        "M03",
+        "M04"
+      ],
+      "recommended": [
+        "M07",
+        "M08"
+      ],
+      "relatedModules": [
+        "M09",
+        "M10",
+        "M12"
+      ],
+      "situations": [
+        "N02",
+        "N03",
+        "N06",
+        "N07",
+        "N12",
+        "N13"
+      ],
+      "modes": [
+        "Normes ordinaires"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M07",
+      "dependencies": [
+        "M04",
+        "M05",
+        "M06"
+      ],
+      "recommended": [
+        "M08",
+        "M09"
+      ],
+      "relatedModules": [
+        "M10",
+        "M11"
+      ],
+      "situations": [
+        "I01",
+        "I09",
+        "I10",
+        "I12",
+        "I14",
+        "I15",
+        "I16"
+      ],
+      "modes": [
+        "Effets invisibles"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M08",
+      "dependencies": [
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07"
+      ],
+      "recommended": [
+        "M09",
+        "M11"
+      ],
+      "relatedModules": [
+        "M02",
+        "M12"
+      ],
+      "situations": [
+        "X01",
+        "X03",
+        "X05",
+        "X12",
+        "X13",
+        "X14"
+      ],
+      "modes": [
+        "Intersectionnalités"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M09",
+      "dependencies": [
+        "M05",
+        "M06",
+        "M07"
+      ],
+      "recommended": [
+        "M10"
+      ],
+      "relatedModules": [
+        "M04",
+        "M12"
+      ],
+      "situations": [
+        "V13",
+        "N03",
+        "N12",
+        "N13",
+        "I10"
+      ],
+      "modes": [
+        "Obstacles visibles",
+        "Normes ordinaires",
+        "Effets invisibles"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M10",
+      "dependencies": [
+        "M04",
+        "M07",
+        "M09"
+      ],
+      "recommended": [
+        "M11"
+      ],
+      "relatedModules": [
+        "M06",
+        "M12"
+      ],
+      "situations": [
+        "I09",
+        "I14",
+        "I15",
+        "V04",
+        "N12",
+        "N13"
+      ],
+      "modes": [
+        "Obstacles visibles",
+        "Normes ordinaires",
+        "Effets invisibles"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M11",
+      "dependencies": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10"
+      ],
+      "recommended": [
+        "M12"
+      ],
+      "relatedModules": [
+        "M03",
+        "M04"
+      ],
+      "situations": [
+        "V04",
+        "N02",
+        "N12",
+        "I14",
+        "X13",
+        "X14"
+      ],
+      "modes": [
+        "Les quatre focales"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M12",
+      "dependencies": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11"
+      ],
+      "recommended": [],
+      "relatedModules": [
+        "M01",
+        "M09",
+        "M11"
+      ],
+      "situations": [
+        "V04",
+        "N02",
+        "N12",
+        "I14",
+        "X13"
+      ],
+      "modes": [
+        "Les quatre focales et Découverte"
+      ],
+      "routePolicy": "internal-understand-route"
+    }
+  ],
+  "notionRelations": [
+    {
+      "moduleId": "M01",
+      "notionIds": [
+        "avance",
+        "marge-de-man-uvre",
+        "feedback",
+        "protection",
+        "debrief"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M02",
+      "notionIds": [
+        "privilege",
+        "mediation-narrative",
+        "debrief"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M03",
+      "notionIds": [
+        "droit",
+        "ressource",
+        "protection",
+        "privilege",
+        "position-sociale",
+        "pouvoir",
+        "capacite-d-agir"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M04",
+      "notionIds": [
+        "regle",
+        "institution",
+        "procedure"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M05",
+      "notionIds": [
+        "acte-observable",
+        "intention",
+        "protection"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M06",
+      "notionIds": [
+        "norme-descriptive",
+        "norme-injonctive",
+        "regle",
+        "habitude",
+        "valeur-par-defaut"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M07",
+      "notionIds": [
+        "representation",
+        "confidentialite"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M08",
+      "notionIds": [
+        "intersectionnalite",
+        "position-sociale"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M09",
+      "notionIds": [
+        "coming-in",
+        "coming-out",
+        "outing",
+        "consentement",
+        "confidentialite",
+        "minimisation",
+        "integrite-contextuelle",
+        "context-collapse"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M10",
+      "notionIds": [
+        "transidentite",
+        "non-binarite",
+        "autodetermination",
+        "intersexuation"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M11",
+      "notionIds": [
+        "bienveillance",
+        "empathie",
+        "pedagogie-critique",
+        "problematisation",
+        "reflexivite",
+        "praxis",
+        "savoir-situe",
+        "pouvoir"
+      ],
+      "routePolicy": "internal-understand-route"
+    },
+    {
+      "moduleId": "M12",
+      "notionIds": [
+        "debrief"
+      ],
+      "routePolicy": "internal-understand-route"
+    }
+  ],
+  "situations": [
+    {
+      "code": "V04",
+      "title": "Le prénom refusé",
+      "family": "Obstacles visibles",
+      "frozenRole": "Non protectrice",
+      "moduleIds": [
+        "M01",
+        "M03",
+        "M04",
+        "M05",
+        "M10",
+        "M11",
+        "M12"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "V05",
+      "title": "Le cyberharcèlement",
+      "family": "Obstacles visibles",
+      "frozenRole": "Non protectrice",
+      "moduleIds": [
+        "M05"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "V10",
+      "title": "Le soutien d’un camarade",
+      "family": "Obstacles visibles",
+      "frozenRole": "Protection située",
+      "moduleIds": [
+        "M05"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "V13",
+      "title": "La confidence transmise à la famille",
+      "family": "Obstacles visibles",
+      "frozenRole": "Non protectrice",
+      "moduleIds": [
+        "M05",
+        "M09"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "V16",
+      "title": "L’insulte directe",
+      "family": "Obstacles visibles",
+      "frozenRole": "Non protectrice",
+      "moduleIds": [
+        "M05"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "N02",
+      "title": "Le formulaire « Père — Mère »",
+      "family": "Normes ordinaires",
+      "frozenRole": "Non protectrice",
+      "moduleIds": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M06",
+        "M11",
+        "M12"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "N03",
+      "title": "L’activité visible sur l’ENT",
+      "family": "Normes ordinaires",
+      "frozenRole": "Non protectrice",
+      "moduleIds": [
+        "M04",
+        "M06",
+        "M09"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "N06",
+      "title": "La séance d’EVARS séparée",
+      "family": "Normes ordinaires",
+      "frozenRole": "Non protectrice",
+      "moduleIds": [
+        "M04",
+        "M06"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "N07",
+      "title": "Les vestiaires collectifs",
+      "family": "Normes ordinaires",
+      "frozenRole": "Non protectrice",
+      "moduleIds": [
+        "M04",
+        "M06"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "N12",
+      "title": "Les informations confidentielles",
+      "family": "Normes ordinaires",
+      "frozenRole": "Protection située",
+      "moduleIds": [
+        "M03",
+        "M04",
+        "M06",
+        "M09",
+        "M10",
+        "M11",
+        "M12"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "N13",
+      "title": "L’organisation préparée en privé",
+      "family": "Normes ordinaires",
+      "frozenRole": "Protection située",
+      "moduleIds": [
+        "M04",
+        "M06",
+        "M09",
+        "M10"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "I01",
+      "title": "Sensibiliser par la peur",
+      "family": "Effets invisibles",
+      "frozenRole": "Non protectrice",
+      "moduleIds": [
+        "M07"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "I09",
+      "title": "Le personnage trans toujours en souffrance",
+      "family": "Effets invisibles",
+      "frozenRole": "Non protectrice",
+      "moduleIds": [
+        "M07",
+        "M10"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "I10",
+      "title": "Le coming out obligatoire",
+      "family": "Effets invisibles",
+      "frozenRole": "Non protectrice",
+      "moduleIds": [
+        "M07",
+        "M09"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "I12",
+      "title": "Les gestes ordinaires",
+      "family": "Effets invisibles",
+      "frozenRole": "Non protectrice",
+      "moduleIds": [
+        "M07"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "I14",
+      "title": "Une histoire ordinaire",
+      "family": "Effets invisibles",
+      "frozenRole": "Protection située",
+      "moduleIds": [
+        "M01",
+        "M02",
+        "M07",
+        "M10",
+        "M11",
+        "M12"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "I15",
+      "title": "Une séance équilibrée",
+      "family": "Effets invisibles",
+      "frozenRole": "Protection située",
+      "moduleIds": [
+        "M07",
+        "M10"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "I16",
+      "title": "Un seul modèle de garçon",
+      "family": "Effets invisibles",
+      "frozenRole": "Non protectrice",
+      "moduleIds": [
+        "M07"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "X01",
+      "title": "La chambre accessible",
+      "family": "Intersectionnalités",
+      "frozenRole": "Non protectrice",
+      "moduleIds": [
+        "M08"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "X03",
+      "title": "Sa famille et sa culture",
+      "family": "Intersectionnalités",
+      "frozenRole": "Non protectrice",
+      "moduleIds": [
+        "M08"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "X05",
+      "title": "Une attitude jugée agressive",
+      "family": "Intersectionnalités",
+      "frozenRole": "Non protectrice",
+      "moduleIds": [
+        "M08"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "X12",
+      "title": "Une ressource LGBT+ inaccessible",
+      "family": "Intersectionnalités",
+      "frozenRole": "Non protectrice",
+      "moduleIds": [
+        "M08"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "X13",
+      "title": "Une adaptation coordonnée",
+      "family": "Intersectionnalités",
+      "frozenRole": "Protection située",
+      "moduleIds": [
+        "M01",
+        "M02",
+        "M08",
+        "M11",
+        "M12"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "code": "X14",
+      "title": "Un accompagnement sans présupposé",
+      "family": "Intersectionnalités",
+      "frozenRole": "Protection située",
+      "moduleIds": [
+        "M08",
+        "M11"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    }
+  ],
+  "modes": [
+    {
+      "label": "Les quatre focales",
+      "moduleIds": [
+        "M01",
+        "M11"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "label": "Normes ordinaires",
+      "moduleIds": [
+        "M02",
+        "M03",
+        "M04",
+        "M06",
+        "M09",
+        "M10"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "label": "Effets invisibles",
+      "moduleIds": [
+        "M02",
+        "M07",
+        "M09",
+        "M10"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "label": "Intersectionnalités",
+      "moduleIds": [
+        "M02",
+        "M08"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "label": "Obstacles visibles",
+      "moduleIds": [
+        "M03",
+        "M04",
+        "M05",
+        "M09",
+        "M10"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    },
+    {
+      "label": "Les quatre focales et Découverte",
+      "moduleIds": [
+        "M12"
+      ],
+      "routePolicy": "activate-only-if-existing"
+    }
+  ]
+}

@@ -1,0 +1,4082 @@
+{
+  "schemaVersion": "understand-public-v1",
+  "id": "M12",
+  "number": 12,
+  "title": "Utiliser Mosaïque en formation",
+  "status": "validated",
+  "pilot": false,
+  "directQuestion": "Dans quelles conditions Mosaïque peut-il ouvrir une analyse professionnelle sans exposer les participants, devenir un test moral ou promettre des effets non démontrés ?",
+  "groupId": "G4",
+  "readingTime": {
+    "essential": "3 à 5 minutes",
+    "deepDive": "8 à 12 minutes"
+  },
+  "datedContent": [
+    {
+      "label": "Protection de l’enfance, harcèlement, urgences, discrimination, secrets professionnels et RGPD, vérifiés le 31 juillet 2026",
+      "verifiedAt": "2026-07-31",
+      "scope": "canonical-module-scope"
+    }
+  ],
+  "essential": {
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Cette partie peut être lue seule. Elle donne un cadre minimal d’animation ; elle ne remplace ni la préparation, ni les procédures correspondant au rôle professionnel, ni un débrief substantiel."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-1-1-question-de-depart",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. Question de départ"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Dans quelles conditions Mosaïque peut-il ouvrir une analyse professionnelle sans exposer les participants, devenir un test moral ou promettre des effets non démontrés ?"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-2-2-reponse-synthetique",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. Réponse synthétique"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Mosaïque est un jeu narratif de comparaison d’expériences et un support d’enquête située. Le joueur suit un personnage fictif sans devenir cette personne. Il prend une décision sur un effet situé ; après ce choix, le feedback propose une interprétation argumentée. Une concordance ne prouve pas une compétence et un désaccord ne prouve pas une faute morale. L’avance n’est jamais un score global de privilège."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Une utilisation annoncée comme formation exige un débrief. Le feedback prépare cette mise en sens sans la remplacer. Le groupe décrit la scène, analyse les mécanismes et les interprétations, relie la situation à des pratiques professionnelles, puis prépare une action réaliste. Cette méthode en quatre temps est une synthèse éditoriale à valider, non un protocole dont la supériorité serait démontrée."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Le cadre protège la participation sans promettre un secret absolu. Aucune personne n’a à dévoiler orientation, identité, santé, famille ou histoire. Le désaccord argumenté reste possible ; attaque, insulte, tentative de divulgation ou mise en cause de la dignité exigent une intervention. Le groupe s’engage à ne pas retransmettre les paroles personnelles, tandis que le formateur explique les limites liées au comportement d’autrui, à son rôle et aux situations exigeant une protection."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-3-3-definition-operationnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. Définition opérationnelle"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Un "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "usage formatif de Mosaïque"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " associe un objectif explicite, un mode choisi en fonction de cet objectif, un contrat de participation, une décision non guidée par la réponse attendue, un feedback lu comme interprétation, un débrief, puis un prolongement professionnel proportionné."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Le "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "débrief"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " est le temps structuré où l’expérience de jeu devient objet d’analyse. Il ne consiste ni à répéter le feedback ni à recueillir des confidences. Il suit quatre mouvements :"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Décrire"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " : revenir à la scène, au choix et aux informations disponibles."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Analyser"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " : distinguer mécanisme, effet, interprétation, règle et données manquantes."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Relier"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " : comparer à une pratique ou procédure sans exposer une personne réelle."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Préparer une action"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " : attribuer une action limitée et prévoir sa vérification."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Le "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "transfert"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " désigne l’application et le maintien de ce qui a été appris dans un autre contexte. Il dépend notamment des personnes, de la conception de la formation et de l’environnement de travail. Satisfaction, compréhension, intention, application et changement organisationnel restent des résultats distincts."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-4-4-exemple-une-premiere-partie-en-mode-decouverte",
+        "content": [
+          {
+            "type": "text",
+            "text": "4. Exemple : une première partie en mode Découverte"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Le mode Découverte est le parcours transversal recommandé pour une première partie. Sa règle canonique impose un choix parmi neuf personnages P01 à P09, dix situations, trois Obstacles visibles, trois Normes ordinaires, quatre Effets invisibles, aucune carte Intersectionnalités et exactement deux protections issues de deux modes différents. La famille analytique reste cachée avant la décision puis apparaît dans le feedback."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Le formateur ne présente pas la famille à l’avance et ne souffle pas la réponse. Après une divergence, il revient au texte, demande les indices utilisés, distingue fait et interprétation, puis cherche une protection ou une action. Les protections disponibles sont V09 ou V10, N12 ou N13, I14 ou I15 ; une partie n’en retient que deux, jamais de la même famille. Les huit autres cartes sont non protectrices."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "L’absence d’Intersectionnalités ne crée aucune hiérarchie. Ce mode possède sa galerie XP01 à XP08 et ses situations X01 à X16 ; il se découvre séparément. Il n’existe pas de mode « Découverte intersectionnelle » dans le corpus."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-5-5-a-ne-pas-confondre",
+        "content": [
+          {
+            "type": "text",
+            "text": "5. À ne pas confondre"
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "headers": [
+          [
+            {
+              "type": "text",
+              "text": "Distinction"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Repère"
+            }
+          ]
+        ],
+        "rows": [
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Jeu / test moral"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Le choix ouvre une discussion ; il ne note ni vertu ni sensibilité."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Feedback / verdict"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Le feedback est argumenté et contestable ; il n’établit pas tout le vécu."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Règle de discrétion / secret absolu"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Le groupe peut s’engager ; le formateur ne garantit pas le comportement futur de tous."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Confidentialité / secret professionnel"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "La confidentialité organise la circulation ; le secret dépend d’un texte, d’une fonction ou d’une mission."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Désaccord / attaque"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Une interprétation se discute ; l’atteinte à une personne s’interrompt."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Débrief / confession"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "On analyse une scène et des pratiques sans exiger de récit personnel."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Satisfaction / apprentissage"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Apprécier la séance ne démontre ni compréhension ni transfert."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Intention d’agir / changement"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Une intention doit être suivie d’une action observable et réexaminée."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Situation / preuve empirique"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Une carte illustre un mécanisme ; elle ne démontre ni fréquence ni efficacité."
+              }
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-6-6-trois-idees-a-retenir",
+        "content": [
+          {
+            "type": "text",
+            "text": "6. Trois idées à retenir"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Une utilisation formative exige préparation, contrat, décision avant feedback et débrief ; aucune de ces étapes ne garantit à elle seule un effet."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Protéger la participation signifie permettre le silence, limiter la circulation des informations et intervenir de façon proportionnée, sans promettre l’impossible."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Évaluer Mosaïque suppose de séparer réaction, compréhension, transfert et changement ; aucun score global de privilège, d’empathie ou de vertu ne doit être créé."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-7-7-question-de-reflexion-professionnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "7. Question de réflexion professionnelle"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Avant votre prochaine séance, quelles personnes, procédures et ressources permettront de traiter un désaccord, une divulgation ou une situation préoccupante sans improviser devant le groupe ?"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-8-8-pour-aller-plus-loin",
+        "content": [
+          {
+            "type": "text",
+            "text": "8. Pour aller plus loin"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "« Approfondir » fournit le contrat en dix points, une méthode de débrief, des réponses proportionnées aux incidents, trois formats et une stratégie prudente de transfert et d’évaluation."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-9-sources-centrales-de-l-essentiel",
+        "content": [
+          {
+            "type": "text",
+            "text": "Sources centrales de L’essentiel"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "David Crookall (2010), "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "« Serious Games, Debriefing, and Simulation/Gaming as a Discipline »"
+                    }
+                  ],
+                  "href": "https://doi.org/10.1177/1046878110390784",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Scott I. Tannenbaum et Christopher P. Cerasoli (2013), "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "« Do Team and Individual Debriefs Enhance Performance? »"
+                    }
+                  ],
+                  "href": "https://doi.org/10.1177/0018720812448394",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Timothy T. Baldwin et J. Kevin Ford (1988), "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "« Transfer of Training »"
+                    }
+                  ],
+                  "href": "https://doi.org/10.1111/j.1744-6570.1988.tb00632.x",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "deepDive": {
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "Introduction",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cette partie transforme les limites du dispositif en décisions d’animation. Les ressources officielles sont datées et doivent être revérifiées avant publication ou séance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1-probleme-theorique-transformer-une-experience-en-analyse-sans-surpromettre",
+        "title": "1. Problème théorique : transformer une expérience en analyse sans surpromettre",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une partie produit choix et réactions, sans devenir spontanément pratique durable. Le débrief ne garantit ni apprentissage, ni transfert, ni transformation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le formateur choisit mode, règles et prolongement. Son autorité permet le désaccord sans faire d’une personne réelle un objet d’enquête."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les informations du joueur ne sont pas toutes connues dans la fiction. Aucune ressemblance n’autorise une déduction. Les cartes illustrent sans prouver."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2-reperes-historiques-debrief-transfert-et-evaluation",
+        "title": "2. Repères historiques : débrief, transfert et évaluation",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Crookall présente le débrief comme vital au champ simulation/gaming ; cet éditorial n’est pas une comparaison expérimentale. La méta-analyse de Tannenbaum et Cerasoli rapporte des effets moyens favorables dans 46 échantillons hétérogènes, sans permettre de chiffrer Mosaïque ni de désigner une méthode universelle."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Baldwin et Ford relient le transfert aux apprenants, à la conception et à l’environnement. Barnett et Ceci distinguent les distances de domaine, contexte, temps, fonction et modalité : reconnaître une carte, analyser un document, le modifier et vérifier durablement l’effet sont des résultats différents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Alliger et Janak contestent la hiérarchie automatique des niveaux popularisés par Kirkpatrick ; Holton les juge insuffisants comme modèle explicatif. Réaction, compréhension, application et changement restent séparés."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3-concepts-et-modeles-reellement-utiles",
+        "title": "3. Concepts et modèles réellement utiles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-un-contrat-de-participation",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un contrat de participation"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le contrat indique ce qui est demandé, possible, interdit et non garanti. Il rend l’intervention prévisible et autorise à passer ou répondre à la troisième personne."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-la-non-divulgation",
+            "content": [
+              {
+                "type": "text",
+                "text": "La non-divulgation"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une règle collective invite à ne pas retransmettre une parole personnelle, sans créer un secret absolu. La confidentialité limite la circulation ; le secret professionnel dépend du statut ou de la mission ; un signalement ou une protection peuvent exiger une transmission encadrée. La minimisation retient le nécessaire."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-un-debrief-en-quatre-temps",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un débrief en quatre temps"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La séquence "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "décrire — analyser — relier — préparer une action"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " évite de reconstruire la scène, confondre feedback et verdict, exposer un cas réel ou conclure sur une intention vague. Cette méthode éditoriale reste à éprouver."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-transfert-et-environnement",
+            "content": [
+              {
+                "type": "text",
+                "text": "Transfert et environnement"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une action dépend de l’autorité, du temps, des outils et du soutien. L’engagement individuel ne compense pas une catégorie nationale ou l’absence de relais."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-coanimation",
+            "content": [
+              {
+                "type": "text",
+                "text": "Coanimation"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La coanimation peut répartir jeu, observation, temps, incident et accueil hors groupe, sans garantir sécurité, droit ou qualité. Rôles et signaux sont convenus avant la séance. Aucune personne LGBTI+ n’a à coanimer ou témoigner."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4-controverses-et-limites",
+        "title": "4. Controverses et limites",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Participation vive, émotion et satisfaction ne suffisent pas à mesurer l’apprentissage. Un débrief trop directif transforme le feedback en corrigé moral ; sans cadre, il laisse les stéréotypes occuper l’espace."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La promesse « tout reste ici » est invérifiable et parfois incompatible avec une action de protection. Le formateur annonce qu’il écoutera sans enquête publique, limitera les informations, consultera le relais compétent et informera autant que possible la personne."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les résultats médicaux, militaires ou d’entreprise se transfèrent imparfaitement ici. Les mesures déclaratives sont exposées aux attentes ; un avant-après immédiat ne démontre ni maintien ni changement de pratique."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les obligations varient selon le métier. Ce module ne remplace ni qualification des faits ni procédure locale actualisée."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5-application-precise-a-mosaique",
+        "title": "5. Application précise à Mosaïque",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-preparer-et-conduire-la-sequence-canonique",
+            "content": [
+              {
+                "type": "text",
+                "text": "Préparer et conduire la séquence canonique"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Avant la séance, le formateur vérifie : public, objectifs, durée, mode, taille du groupe, accessibilité matérielle et numérique, réponses individuelles ou collectives, pause possible, ressources, relais, règles locales, procédures face à un propos discriminatoire ou une révélation préoccupante, capacité à débriefer et utilité d’une coanimation. Il connaît déjà règles et feedbacks et ne collecte aucune donnée personnelle « au cas où »."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La séquence reste : "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "situation ; décision du joueur ; affichage de sa réponse, de l’interprétation proposée, du feedback individualisé, du mécanisme et de la famille ; débrief de l’écart"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". La famille et la réponse ne sont pas annoncées avant la décision. Les concordances ne deviennent ni note morale ni mesure de compétence."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-methode-de-debrief",
+            "content": [
+              {
+                "type": "text",
+                "text": "Méthode de débrief"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Décrire"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " : que montre exactement la scène ? quelle décision a été prise ? quelles informations étaient disponibles ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Analyser"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " : quel mécanisme est proposé ? quelle autre lecture reste plausible ? que manque-t-il ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Relier"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " : quelle procédure générique ou quel document réellement anonymisé peut être comparé, sans évoquer un élève identifiable ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Préparer une action"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " : qui peut agir, avec quelles ressources, quel effet attendu et quelle date de vérification ?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-mode-decouverte-regles-exactes",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mode Découverte : règles exactes"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le mode canonique utilise la galerie P01 à P09 et dix situations : trois V, trois N, quatre I, aucune X. Il comprend exactement deux protections issues de deux modes différents ; les huit autres cartes sont non protectrices. La famille reste cachée avant la décision et apparaît ensuite dans le feedback. Bilan sans note morale. Protections possibles : V09 ou V10, N12 ou N13, I14 ou I15."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’absence de X n’établit aucune hiérarchie. Intersectionnalités dispose de XP01 à XP08 et de X01 à X16 et doit être découvert séparément. Aucun mode « Découverte intersectionnelle » n’est créé."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-trois-formats-realistes",
+            "content": [
+              {
+                "type": "text",
+                "text": "Trois formats réalistes"
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Format"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Proposition"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Limite à annoncer"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "30 minutes"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "4 min de cadrage, 4 min de contrat, 8 à 10 min de démonstration limitée ou de cartes déjà jouées, 8 à 10 min de débrief, 3 à 4 min d’action et ressource"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ni partie complète, ni formation complète, ni transfert durable garanti"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "60 minutes"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "8 min de cadre, 20 à 25 min de partie ou parcours adapté, 5 min de réactions, 17 à 20 min de débrief et lien professionnel, 5 min de clôture"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Une partie complète n’est annoncée qu’après chronométrage réel"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "90 minutes"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "10 min de cadre, 25 à 30 min de partie si possible, 25 min de débrief, 15 min sur un support anonymisé, 5 à 10 min d’action et suivi"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Une activité hors application est nommée comme telle"
+                  }
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Partie complète, démonstration, sélection pédagogique de cartes, analyse après partie et exercice complémentaire hors application restent nommés distinctement ; aucune fonctionnalité n’est inventée."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-frontieres-editoriales",
+            "content": [
+              {
+                "type": "text",
+                "text": "Frontières éditoriales"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le module 11 donne le cadre critique ; le module 12 organise la séance. « Jouer » documente l’application, « Comprendre » le débrief, et « Explorer les personnages » la préparation sans réciter les biographies ni publier le volet formateur. Les personnages P et XP homonymes restent distincts."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6-ce-que-le-cadre-ne-permet-pas-d-affirmer",
+        "title": "6. Ce que le cadre ne permet pas d’affirmer",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ce module ne permet pas :"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de présenter Mosaïque comme test moral, diagnostic, simulation du vécu ou preuve de compétence ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de promettre qu’un contrat empêchera toute retransmission ou tout incident ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de garantir qu’un débrief produira empathie, prise de conscience, transfert ou changement ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de déduire une intention ou un vécu intérieur d’un choix de jeu ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de créer un score global de privilège, inclusion, sensibilité, empathie ou vertu ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de qualifier juridiquement une carte ou une révélation sans examiner faits, statut et cadre ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de transférer directement les résultats d’un autre secteur à Mosaïque ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de modifier, compléter ou réinterpréter une situation, une matrice, une biographie, une illustration, une décision, un mécanisme ou un feedback gelé."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7-implications-professionnelles",
+        "title": "7. Implications professionnelles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-contrat-directement-utilisable-en-dix-points",
+            "content": [
+              {
+                "type": "text",
+                "text": "Contrat directement utilisable en dix points"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Personne n’a à révéler orientation, identité, santé, famille ou histoire."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Les personnages sont fictifs."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Les biographies visibles par le joueur ne sont pas toutes connues dans la fiction."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Les réponses portent sur la scène et ses informations."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Chacun peut passer une question personnelle ; l’analyse professionnelle à la troisième personne est privilégiée."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Le désaccord argumenté est possible."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Attaque, insulte, tentative de dévoilement et mise en cause d’une légitimité seront interrompues."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Une information personnelle confiée dans le groupe ne doit pas être retransmise."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Cette règle ne garantit pas un secret absolu ; certains rôles imposent ou autorisent une protection."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Face à un danger ou une situation préoccupante, le formateur sollicite le relais, partage le nécessaire et explique la suite autant que possible."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-conduire-un-desaccord-en-dix-etapes",
+            "content": [
+              {
+                "type": "text",
+                "text": "Conduire un désaccord en dix étapes"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ne pas qualifier moralement la personne."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Demander l’information ou l’hypothèse motivant sa lecture."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Revenir au texte exact."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Revenir au profil disponible."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Identifier la marge de manœuvre."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Distinguer fait, interprétation et information manquante."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Présenter le feedback comme lecture argumentée."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Reconnaître une limite réelle."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Rappeler la frontière si dignité ou légitimité sont visées."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Revenir aux règles, ressources et protections."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le groupe ne vote ni sur l’existence d’une identité, ni sur le respect, un droit, l’acceptabilité d’une divulgation sans consentement ou l’authenticité d’une personne."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-reponses-proportionnees-aux-incidents",
+            "content": [
+              {
+                "type": "text",
+                "text": "Réponses proportionnées aux incidents"
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Situation"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Réponse immédiate"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Suite prudente"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Désaccord"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Revenir au texte et faire expliciter les indices"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Comparer hypothèses et limites sans moraliser"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Erreur factuelle"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Corriger avec une source ou suspendre la réponse"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Vérifier après la séance"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Formulation maladroite"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Interrompre brièvement et proposer une reformulation"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Distinguer maladresse et attaque répétée"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Stéréotype"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Nommer la généralisation"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Revenir au profil sans solliciter un témoin concerné"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Propos discriminatoire ou attaque"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Interrompre et rappeler la frontière"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Protéger, documenter ou appliquer la procédure selon la gravité"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Tentative de divulgation"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Stopper sans confirmer ni répéter"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Parler en privé et limiter la circulation"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Témoignage personnel"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Remercier sans demander de détails"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Vérifier le consentement avant de poursuivre publiquement"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Détresse"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Proposer pause et relais"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne pas diagnostiquer devant le groupe"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Révélation préoccupante"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Écouter sans enquête contradictoire"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Expliquer les limites de confidentialité et appliquer la procédure du rôle"
+                  }
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-ressources-officielles-verifiees-le-31-juillet-2026",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ressources officielles — vérifiées le 31 juillet 2026"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Harcèlement : pHARe et "
+                    },
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "3018"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", gratuit, anonyme et confidentiel, 7 jours sur 7, de 9 h à 23 h."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Enfance en danger ou en risque : "
+                    },
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "119"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 24 heures sur 24, et procédures locales."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Danger grave ou imminent :"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " services d’urgence "
+                    },
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "17"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " ou "
+                    },
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "112"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " ; "
+                    },
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "114"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " par SMS, application ou site pour les personnes sourdes, sourdaveugles, malentendantes ou aphasiques."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Prévention du suicide : "
+                    },
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "3114"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", gratuit, 24 heures sur 24 et 7 jours sur 7 ; urgence immédiate vers les secours."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Discriminations : Défenseur des droits, "
+                    },
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "3928"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " et antidiscriminations.fr."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le RGPD impose finalité, minimisation, sécurité et confidentialité. Aucun témoignage identifiable n’est conservé dans l’évaluation ; les supports sont réellement anonymisés. Les articles 40 du Code de procédure pénale, L. 226-2-1 du Code de l’action sociale et des familles, 226-13 et 226-14 du Code pénal ont des champs distincts. Statut, mission, faits, territoire et procédure doivent être vérifiés ; ce repérage n’est pas un conseil juridique individuel."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-evaluer-sans-fabriquer-une-chaine-de-reussite",
+            "content": [
+              {
+                "type": "text",
+                "text": "Évaluer sans fabriquer une chaîne de réussite"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Examiner séparément : 1. compréhension des règles ; 2. distinction entre droit, privilège, obstacle et protection ; 3. argumentation située ; 4. distinction entre fait, hypothèse et qualification juridique ; 5. repérage des règles, procédures et représentations ; 6. identification de protections ; 7. analyse d’un cas nouveau ; 8. action envisagée ; 9. suivi différé ; 10. effet organisationnel observable."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une satisfaction ne mesure pas l’apprentissage ; un pré-test et un post-test immédiat ne prouvent pas la durée ; une autoévaluation reste un indice limité. Aucun score global ni aucune efficacité propre de Mosaïque ne sont établis."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8-questions-de-debrief",
+        "title": "8. Questions de débrief",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Que montre précisément la scène, et quelles intentions ou émotions avons-nous ajoutées sans preuve ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Sur quels indices repose notre décision, et quelle information manquante pourrait modifier l’analyse ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Qui doit corriger, expliquer, attendre ou s’exposer, et qui possède la marge de transformer la situation ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle protection située évite d’exiger un témoignage ou une divulgation ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle action professionnelle limitée pouvons-nous attribuer, et quand vérifierons-nous son effet ?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9-sources-cles-commentees",
+        "title": "9. Sources clés commentées",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Source"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Type"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Apport au module"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Limite ou vigilance"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Crookall (2010), "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "« Serious Games, Debriefing, and Simulation/Gaming as a Discipline »"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1177/1046878110390784",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Éditorial de champ"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Place structurante du débrief et lien à d’autres contextes"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne compare pas expérimentalement les méthodes"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Tannenbaum et Cerasoli (2013), "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "méta-analyse des débriefs"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1177/0018720812448394",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Méta-analyse"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Effets moyens favorables dans des contextes variés"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Aucun effet chiffré transférable à Mosaïque"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Baldwin et Ford (1988), "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "« Transfer of Training »"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1111/j.1744-6570.1988.tb00632.x",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Revue théorique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Rôle des apprenants, de la conception et de l’environnement"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Terrain organisationnel et littérature ancienne"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Barnett et Ceci (2002), "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "« When and Where Do We Apply What We Learn? »"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1037/0033-2909.128.4.612",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Revue théorique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Distances multiples du transfert"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne porte pas sur Mosaïque ni sur l’école française"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Blume et al. (2010), "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "méta-analyse du transfert"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1177/0149206309352880",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Méta-analyse"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Hétérogénéité des mesures et rôle de l’environnement"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Contexte d’entreprise ; mesures souvent déclaratives"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alliger et Janak (1989), "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "critique des niveaux de Kirkpatrick"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1111/j.1744-6570.1989.tb00661.x",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Revue critique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Refuse hiérarchie et causalité automatiques"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Littérature ancienne"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "CNIL, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "six principes du RGPD"
+                      }
+                    ],
+                    "href": "https://www.cnil.fr/fr/comprendre-le-rgpd/les-six-grands-principes-du-rgpd",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Source officielle"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Finalité, minimisation, sécurité et confidentialité"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Application à préciser selon le traitement"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Éducation nationale, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "pHARe et 3018"
+                      }
+                    ],
+                    "href": "https://www.education.gouv.fr/non-au-harcelement",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Source officielle"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Prévention, traitement et ressource nationale"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne couvre pas tout incident de formation"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Éduscol, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "protection de l’enfance"
+                      }
+                    ],
+                    "href": "https://eduscol.education.gouv.fr/4974/enfants-en-danger-comment-les-reperer-et-que-faire",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Source officielle professionnelle"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Repérage, 119 et information préoccupante"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Nécessite la procédure locale et la qualification des faits"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Défenseur des droits, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "3928 et antidiscriminations.fr"
+                      }
+                    ],
+                    "href": "https://www.defenseurdesdroits.fr/lutter-contre-les-discriminations-et-promouvoir-legalite-185",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Source officielle"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Écoute, information et orientation"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne qualifie pas automatiquement une situation"
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10-bibliographie",
+        "title": "10. Bibliographie",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-debrief-et-simulation",
+            "content": [
+              {
+                "type": "text",
+                "text": "Débrief et simulation"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Crookall, D. (2010). « Serious Games, Debriefing, and Simulation/Gaming as a Discipline ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Simulation & Gaming"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 41(6), 898-920."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Tannenbaum, S. I. et Cerasoli, C. P. (2013). « Do Team and Individual Debriefs Enhance Performance? A Meta-Analysis ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Human Factors"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 55(1), 231-245."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-transfert-et-evaluation",
+            "content": [
+              {
+                "type": "text",
+                "text": "Transfert et évaluation"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Alliger, G. M. et Janak, E. A. (1989). « Kirkpatrick’s Levels of Training Criteria: Thirty Years Later ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Personnel Psychology"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 42(2), 331-342."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Baldwin, T. T. et Ford, J. K. (1988). « Transfer of Training: A Review and Directions for Future Research ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Personnel Psychology"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 41(1), 63-105."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Barnett, S. M. et Ceci, S. J. (2002). « When and Where Do We Apply What We Learn? A Taxonomy for Far Transfer ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Psychological Bulletin"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 128(4), 612-637."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Blume, B. D., Ford, J. K., Baldwin, T. T. et Huang, J. L. (2010). « Transfer of Training: A Meta-Analytic Review ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Journal of Management"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 36(4), 1065-1105."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Holton, E. F. III (1996). « The Flawed Four-Level Evaluation Model ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Human Resource Development Quarterly"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 7(1), 5-21."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-cadre-de-participation",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cadre de participation"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Conseil de l’Europe (2015). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Teaching Controversial Issues"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Conseil de l’Europe."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Edmondson, A. (1999). « Psychological Safety and Learning Behavior in Work Teams ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Administrative Science Quarterly"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 44(4), 350-383."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-sources-officielles-francaises-verifiees-le-31-juillet-2026",
+            "content": [
+              {
+                "type": "text",
+                "text": "Sources officielles françaises — vérifiées le 31 juillet 2026"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "CNIL. "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Les six grands principes du RGPD"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Défenseur des droits. "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Lutter contre les discriminations et promouvoir l’égalité"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Éduscol. "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Enfants en danger : comment les repérer et que faire ?"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", mise à jour du 11 mai 2026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ministère de l’Éducation nationale. "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Non au harcèlement"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " ; programme pHARe ; 3018."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "République française, Légifrance. Code de procédure pénale, art. 40 ; Code de l’action sociale et des familles, art. L. 226-2-1 ; Code pénal, art. 226-13 et 226-14."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Service public. "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "119 — Enfance en danger"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " ; "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Numéros d’urgence"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " ; service national 3114."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-corpus-interne",
+            "content": [
+              {
+                "type": "text",
+                "text": "Corpus interne"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Mosaïque, "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Espace « Comprendre »"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", modules 01 à 11."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Mosaïque, "
+                    },
+                    {
+                      "type": "code",
+                      "text": "140_Mode_Decouverte_V1.md"
+                    },
+                    {
+                      "type": "text",
+                      "text": " et modes gelés."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "takeaways": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une utilisation formative exige préparation, contrat, décision avant feedback et débrief ; aucune de ces étapes ne garantit à elle seule un effet."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Protéger la participation signifie permettre le silence, limiter la circulation des informations et intervenir de façon proportionnée, sans promettre l’impossible."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Évaluer Mosaïque suppose de séparer réaction, compréhension, transfert et changement ; aucun score global de privilège, d’empathie ou de vertu ne doit être créé."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Avant votre prochaine séance, quelles personnes, procédures et ressources permettront de traiter un désaccord, une divulgation ou une situation préoccupante sans improviser devant le groupe ?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "« Approfondir » fournit le contrat en dix points, une méthode de débrief, des réponses proportionnées aux incidents, trois formats et une stratégie prudente de transfert et d’évaluation."
+        }
+      ]
+    }
+  ],
+  "professionalQuestion": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "« Approfondir » fournit le contrat en dix points, une méthode de débrief, des réponses proportionnées aux incidents, trois formats et une stratégie prudente de transfert et d’évaluation."
+        }
+      ]
+    }
+  ],
+  "debriefQuestions": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Que montre précisément la scène, et quelles intentions ou émotions avons-nous ajoutées sans preuve ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Sur quels indices repose notre décision, et quelle information manquante pourrait modifier l’analyse ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Qui doit corriger, expliquer, attendre ou s’exposer, et qui possède la marge de transformer la situation ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle protection située évite d’exiger un témoignage ou une divulgation ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle action professionnelle limitée pouvons-nous attribuer, et quand vérifierons-nous son effet ?"
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "centralSources": [
+    "S041",
+    "S090",
+    "S091",
+    "S095",
+    "S098",
+    "S099",
+    "S100",
+    "S101",
+    "S102",
+    "S117",
+    "S118",
+    "S119",
+    "S126",
+    "S137",
+    "S140",
+    "S143",
+    "S146",
+    "S147",
+    "S155",
+    "S156",
+    "S157",
+    "S158",
+    "S159",
+    "S160"
+  ],
+  "moduleBibliography": [
+    {
+      "type": "table",
+      "headers": [
+        [
+          {
+            "type": "text",
+            "text": "Source"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Type"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Apport au module"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Limite ou vigilance"
+          }
+        ]
+      ],
+      "rows": [
+        [
+          [
+            {
+              "type": "text",
+              "text": "Crookall (2010), "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Serious Games, Debriefing, and Simulation/Gaming as a Discipline »"
+                }
+              ],
+              "href": "https://doi.org/10.1177/1046878110390784",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Éditorial de champ"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Place structurante du débrief et lien à d’autres contextes"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne compare pas expérimentalement les méthodes"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Tannenbaum et Cerasoli (2013), "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "méta-analyse des débriefs"
+                }
+              ],
+              "href": "https://doi.org/10.1177/0018720812448394",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Méta-analyse"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Effets moyens favorables dans des contextes variés"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Aucun effet chiffré transférable à Mosaïque"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Baldwin et Ford (1988), "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Transfer of Training »"
+                }
+              ],
+              "href": "https://doi.org/10.1111/j.1744-6570.1988.tb00632.x",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Revue théorique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Rôle des apprenants, de la conception et de l’environnement"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Terrain organisationnel et littérature ancienne"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Barnett et Ceci (2002), "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« When and Where Do We Apply What We Learn? »"
+                }
+              ],
+              "href": "https://doi.org/10.1037/0033-2909.128.4.612",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Revue théorique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Distances multiples du transfert"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne porte pas sur Mosaïque ni sur l’école française"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Blume et al. (2010), "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "méta-analyse du transfert"
+                }
+              ],
+              "href": "https://doi.org/10.1177/0149206309352880",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Méta-analyse"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Hétérogénéité des mesures et rôle de l’environnement"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Contexte d’entreprise ; mesures souvent déclaratives"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Alliger et Janak (1989), "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "critique des niveaux de Kirkpatrick"
+                }
+              ],
+              "href": "https://doi.org/10.1111/j.1744-6570.1989.tb00661.x",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Revue critique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Refuse hiérarchie et causalité automatiques"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Littérature ancienne"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "CNIL, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "six principes du RGPD"
+                }
+              ],
+              "href": "https://www.cnil.fr/fr/comprendre-le-rgpd/les-six-grands-principes-du-rgpd",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Source officielle"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Finalité, minimisation, sécurité et confidentialité"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Application à préciser selon le traitement"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Éducation nationale, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "pHARe et 3018"
+                }
+              ],
+              "href": "https://www.education.gouv.fr/non-au-harcelement",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Source officielle"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Prévention, traitement et ressource nationale"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne couvre pas tout incident de formation"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Éduscol, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "protection de l’enfance"
+                }
+              ],
+              "href": "https://eduscol.education.gouv.fr/4974/enfants-en-danger-comment-les-reperer-et-que-faire",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Source officielle professionnelle"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Repérage, 119 et information préoccupante"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Nécessite la procédure locale et la qualification des faits"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Défenseur des droits, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "3928 et antidiscriminations.fr"
+                }
+              ],
+              "href": "https://www.defenseurdesdroits.fr/lutter-contre-les-discriminations-et-promouvoir-legalite-185",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Source officielle"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Écoute, information et orientation"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne qualifie pas automatiquement une situation"
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-1-debrief-et-simulation",
+      "content": [
+        {
+          "type": "text",
+          "text": "Débrief et simulation"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Crookall, D. (2010). « Serious Games, Debriefing, and Simulation/Gaming as a Discipline ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Simulation & Gaming"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 41(6), 898-920."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Tannenbaum, S. I. et Cerasoli, C. P. (2013). « Do Team and Individual Debriefs Enhance Performance? A Meta-Analysis ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Human Factors"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 55(1), 231-245."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-2-transfert-et-evaluation",
+      "content": [
+        {
+          "type": "text",
+          "text": "Transfert et évaluation"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Alliger, G. M. et Janak, E. A. (1989). « Kirkpatrick’s Levels of Training Criteria: Thirty Years Later ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Personnel Psychology"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 42(2), 331-342."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Baldwin, T. T. et Ford, J. K. (1988). « Transfer of Training: A Review and Directions for Future Research ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Personnel Psychology"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 41(1), 63-105."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Barnett, S. M. et Ceci, S. J. (2002). « When and Where Do We Apply What We Learn? A Taxonomy for Far Transfer ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Psychological Bulletin"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 128(4), 612-637."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Blume, B. D., Ford, J. K., Baldwin, T. T. et Huang, J. L. (2010). « Transfer of Training: A Meta-Analytic Review ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Journal of Management"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 36(4), 1065-1105."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Holton, E. F. III (1996). « The Flawed Four-Level Evaluation Model ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Human Resource Development Quarterly"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 7(1), 5-21."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-3-cadre-de-participation",
+      "content": [
+        {
+          "type": "text",
+          "text": "Cadre de participation"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Conseil de l’Europe (2015). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Teaching Controversial Issues"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Conseil de l’Europe."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Edmondson, A. (1999). « Psychological Safety and Learning Behavior in Work Teams ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Administrative Science Quarterly"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 44(4), 350-383."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-4-sources-officielles-francaises-verifiees-le-31-juillet-2026",
+      "content": [
+        {
+          "type": "text",
+          "text": "Sources officielles françaises — vérifiées le 31 juillet 2026"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "CNIL. "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Les six grands principes du RGPD"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Défenseur des droits. "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lutter contre les discriminations et promouvoir l’égalité"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Éduscol. "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Enfants en danger : comment les repérer et que faire ?"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", mise à jour du 11 mai 2026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministère de l’Éducation nationale. "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Non au harcèlement"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " ; programme pHARe ; 3018."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "République française, Légifrance. Code de procédure pénale, art. 40 ; Code de l’action sociale et des familles, art. L. 226-2-1 ; Code pénal, art. 226-13 et 226-14."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Service public. "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "119 — Enfance en danger"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " ; "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Numéros d’urgence"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " ; service national 3114."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-5-corpus-interne",
+      "content": [
+        {
+          "type": "text",
+          "text": "Corpus interne"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mosaïque, "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Espace « Comprendre »"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", modules 01 à 11."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mosaïque, "
+              },
+              {
+                "type": "code",
+                "text": "140_Mode_Decouverte_V1.md"
+              },
+              {
+                "type": "text",
+                "text": " et modes gelés."
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "related": {
+    "modules": [
+      "M01",
+      "M09",
+      "M11"
+    ],
+    "notions": [
+      "debrief"
+    ],
+    "situations": [
+      "V04",
+      "N02",
+      "N12",
+      "I14",
+      "X13"
+    ],
+    "modes": [
+      "Les quatre focales et Découverte"
+    ]
+  },
+  "contentHash": "d0707227c908b59475299bfecea7cf2f0ecf927daa340bf8db2f8662b55c92d3"
+}

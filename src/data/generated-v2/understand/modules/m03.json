@@ -1,0 +1,3144 @@
+{
+  "schemaVersion": "understand-public-v1",
+  "id": "M03",
+  "number": 3,
+  "title": "Privilèges, positions sociales et pouvoir",
+  "status": "validated",
+  "pilot": false,
+  "directQuestion": "Comment parler des privilèges sans transformer les positions sociales en qualités ou en fautes individuelles ?",
+  "groupId": "G1",
+  "readingTime": {
+    "essential": "3 à 5 minutes",
+    "deepDive": "8 à 12 minutes"
+  },
+  "datedContent": [
+    {
+      "label": "Généalogie et recherches sur privilège et pouvoir, vérifiées le 31 juillet 2026",
+      "verifiedAt": "2026-07-31",
+      "scope": "canonical-module-scope"
+    }
+  ],
+  "essential": {
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Temps de lecture visé : 3 à 5 minutes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-1-1-question-de-depart",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. Question de départ"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Comment parler des privilèges sans transformer les positions sociales en qualités ou en fautes individuelles ?"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-2-2-reponse-synthetique",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. Réponse synthétique"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Parler de privilège devient utile lorsqu’on décrit une "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "relation sociale située"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " : dans une règle, un outil ou une interaction, certaines personnes disposent d’un accès immédiat, d’une présomption de légitimité ou d’une absence d’obstacle que d’autres n’ont pas. Cet avantage peut fonctionner sans avoir été demandé et sans intention consciente de nuire. Le reconnaître ne signifie pas qu’une vie est facile, qu’une personne est moralement mauvaise ou qu’elle domine dans toutes les situations."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Le point de départ n’est donc pas « qui est une bonne ou une mauvaise personne ? », mais : "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "qui peut agir sans expliquer, corriger, anticiper une erreur ou demander une exception ?"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Une personne peut être avantagée dans un rapport et marginalisée dans un autre. Sa position ne se réduit pas à son identité, et plusieurs positions ne s’additionnent pas en score. Le contexte, les règles et les ressources déterminent l’effet observé."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Dans Mosaïque, une avance ne désigne jamais une quantité globale de privilège. Elle indique que la situation préserve ou augmente une marge de manœuvre pour le personnage, au regard des informations gelées. Une personne peut avancer face à un formulaire et rester sur place dans un vestiaire ; aucun de ces choix ne résume sa vie."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-3-3-definition-operationnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. Définition opérationnelle"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Un privilège social est un avantage relatif ou une absence d’obstacle dont une personne bénéficie dans un contexte parce que sa position est rendue normale, attendue ou protégée par des normes et des institutions."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Cette définition est une synthèse éditoriale, pas une citation. "
+          },
+          {
+            "type": "emphasis",
+            "children": [
+              {
+                "type": "text",
+                "text": "Relatif"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " signifie qu’il existe une comparaison pertinente. "
+          },
+          {
+            "type": "emphasis",
+            "children": [
+              {
+                "type": "text",
+                "text": "Contextuel"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " signifie qu’il peut varier d’une scène à l’autre. "
+          },
+          {
+            "type": "emphasis",
+            "children": [
+              {
+                "type": "text",
+                "text": "Social"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " signifie que l’avantage est relié à des règles, des représentations, des ressources et des rapports de pouvoir — pas seulement à la chance privée."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Une "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "position sociale"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " est une place relationnelle dans une distribution de ressources, de contraintes, de légitimité et de pouvoir. Le "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "pouvoir"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " est la capacité de peser sur les décisions, les règles, les représentations, les catégories et l’accès aux ressources. Bénéficier d’un avantage ne donne pas toujours le pouvoir de fixer la règle ; c’est pourquoi les deux notions doivent rester distinctes."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-4-4-exemples-mosaique",
+        "content": [
+          {
+            "type": "text",
+            "text": "4. Exemples Mosaïque"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-5-v04-le-prenom-refuse",
+        "content": [
+          {
+            "type": "text",
+            "text": "V04 — Le prénom refusé"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Un adulte refuse le prénom utilisé par Noé parce que sa liste comporte encore un autre prénom. Noé doit rappeler sa demande et risque que sa transidentité soit rendue visible. D’autres personnages utilisent le même prénom dans les documents et la vie scolaire : la scène ne crée pas cet obstacle spécifique pour eux."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Leur avance ne signifie pas qu’ils ont « le privilège d’être respectés ». "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Le respect de la personne et la protection contre les discriminations sont des droits. Lorsque les conditions prévues par le cadre scolaire sont réunies, l’usage du prénom choisi ne doit pas être laissé à la libre appréciation des adultes."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " L’avantage relatif réside dans la réalisation ordinaire de cette reconnaissance : ne pas avoir à surveiller la liste, corriger l’adulte ou supporter le risque de divulgation. Le pouvoir immédiat appartient à l’adulte qui décide quel prénom employer ; l’outil et la procédure peuvent augmenter ou limiter ce pouvoir."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-6-n02-le-formulaire-pere-mere",
+        "content": [
+          {
+            "type": "text",
+            "text": "N02 — Le formulaire « Père — Mère »"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Le formulaire d’une sortie ne comporte que deux rubriques. Sofia vit avec deux mères : sa famille doit barrer, réécrire ou expliquer. Les personnages dont le profil ne signale pas d’incompatibilité utilisent le document sans travail correctif. Ils ne sont pas déclarés meilleurs, plus heureux ou globalement privilégiés ; leur configuration correspond simplement au cas traité comme normal par l’outil."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-7-5-a-ne-pas-confondre",
+        "content": [
+          {
+            "type": "text",
+            "text": "5. À ne pas confondre"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Privilège, droit, ressource, protection, pouvoir et absence de toute difficulté ne sont pas des synonymes."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Un "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "droit"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " est une garantie due à tous. Une "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "ressource"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " est un moyen mobilisable. Une "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "protection"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " réduit un risque ou augmente sécurité, prévisibilité, reconnaissance ou capacité d’agir. Un "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "privilège"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " est un avantage relatif ou une absence d’obstacle socialement distribuée. Le "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "pouvoir"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " permet de façonner les règles et les accès. Enfin, un avantage dans une scène ne prouve jamais l’absence de difficultés personnelles ou de marginalisation ailleurs."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Mosaïque ne doit donc pas appeler privilèges le respect, la non-discrimination, la confidentialité, l’intégrité corporelle, l’éducation ou la sécurité. Certaines personnes bénéficient de leur réalisation ordinaire tandis que d’autres doivent encore les faire reconnaître : l’inégalité porte sur l’effectivité, pas sur la légitimité du droit."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-8-6-trois-idees-a-retenir",
+        "content": [
+          {
+            "type": "text",
+            "text": "6. Trois idées à retenir"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Un privilège est "
+                },
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "relationnel et contextuel"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " : il décrit un avantage dans des règles et des institutions, pas une essence ni un score personnel."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Reconnaître un avantage n’efface aucune difficulté ; cela permet d’identifier qui supporte le travail de correction, d’explication ou d’anticipation."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "L’objectif professionnel n’est pas la culpabilité, mais la transformation des catégories, des ressources, des protections et des pouvoirs de décision."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-9-7-question-de-reflexion-professionnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "7. Question de réflexion professionnelle"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans une procédure ordinaire de votre établissement, qui peut agir sans s’expliquer, qui anticipe une erreur, qui porte le coût de la correction — et qui possède réellement le pouvoir de changer la règle ou l’outil ?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-10-8-pour-aller-plus-loin",
+        "content": [
+          {
+            "type": "text",
+            "text": "8. Pour aller plus loin"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "La partie Approfondir revient sur l’apport et les limites de Peggy McIntosh, les critiques du langage du privilège, les positions mixtes, la distinction entre capital, ressource et pouvoir, ainsi que les conditions d’une pédagogie qui ne se réduise ni à l’aveu ni à la culpabilité."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-11-sources-centrales-de-l-essentiel",
+        "content": [
+          {
+            "type": "text",
+            "text": "Sources centrales de L’essentiel"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Peggy McIntosh, "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "White Privilege and Male Privilege"
+                        }
+                      ]
+                    }
+                  ],
+                  "href": "https://www.wcwonline.org/images/pdf/White_Privilege_and_Male_Privilege_Personal_Account-Peggy_McIntosh.pdf",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", 1988."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Stephanie M. Wildman et Adrienne D. Davis, "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "“Language and Silence: Making Systems of Privilege Visible”"
+                    }
+                  ],
+                  "href": "https://digitalcommons.law.scu.edu/lawreview/vol35/iss3/4/",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", 1995."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Zeus Leonardo, "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "“The Color of Supremacy”"
+                    }
+                  ],
+                  "href": "https://doi.org/10.1111/j.1469-5812.2004.00057.x",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", 2004."
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "deepDive": {
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "Introduction",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Temps de lecture visé : 8 à 12 minutes."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1-probleme-theorique-voir-l-avantage-sans-resumer-la-personne",
+        "title": "1. Problème théorique : voir l’avantage sans résumer la personne",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les obstacles attirent l’attention parce qu’ils interrompent une action. Leur absence est moins visible : un document convient, une identité n’est pas mise en doute, une erreur individuelle n’engage pas tout un groupe, une relation peut être mentionnée sans calculer le risque. Le vocabulaire du privilège sert à rendre cette asymétrie analysable."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mais il peut produire une nouvelle erreur. Si "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "privilégié"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " devient une étiquette attachée à la personne, les positions sociales sont transformées en qualités : innocence, culpabilité, mérite, ignorance ou facilité. Les participants répondent alors en faisant le bilan de leur vie. Une épreuve personnelle réelle est mobilisée pour annuler un avantage dans un autre rapport ; une avance de jeu est lue comme verdict."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une analyse relationnelle change l’unité. Elle compare l’accès, le coût et le pouvoir dans une "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "configuration déterminée"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Elle demande qui correspond à la catégorie par défaut, qui doit fournir une information supplémentaire, qui décide de sa pertinence, qui supporte le délai et qui peut modifier le système. La personne reste plus large que sa position, et sa position varie selon les relations sociales."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cette approche évite aussi de présenter le privilège comme une simple possession passive. Les avantages sont soutenus par des décisions, des routines et des institutions. Examiner le pouvoir consiste à chercher qui conçoit les cases, contrôle les listes, autorise les exceptions, définit les représentations normales et distribue les ressources. Le bénéficiaire d’une règle n’est pas nécessairement son auteur ; il peut néanmoins participer à son maintien ou à sa transformation selon les moyens dont il dispose."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2-reperes-historiques-une-influence-majeure-pas-une-invention-unique",
+        "title": "2. Repères historiques : une influence majeure, pas une invention unique",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-avant-et-autour-de-mcintosh",
+            "content": [
+              {
+                "type": "text",
+                "text": "Avant et autour de McIntosh"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les mouvements féministes, antiracistes, ouvriers et de libération ont analysé depuis longtemps les avantages des groupes dominants, la normalité et la reproduction institutionnelle. Faire commencer l’histoire en 1988 effacerait ces généalogies. Le terme "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "privilège"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " lui-même possède des usages politiques et juridiques bien antérieurs."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le repère contemporain le plus influent pour les pédagogies anglophones est le working paper de Peggy McIntosh, "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "White Privilege and Male Privilege"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", publié en 1988. L’autrice part d’un constat : des hommes pouvaient reconnaître le désavantage des femmes sans reconnaître l’avantage masculin correspondant. Elle applique ensuite cette question à sa propre position de femme blanche et décrit quarante-six conditions quotidiennes observées relativement à des collègues afro-américaines de son environnement."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-le-paquetage-invisible-et-ses-precautions",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le paquetage invisible et ses précautions"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’image d’un paquetage invisible de garanties, outils et laissez-passer rend perceptibles des avantages qui peuvent apparaître comme le fonctionnement normal du monde. L’extrait de 1989 a largement diffusé cette image. Le texte intégral porte pourtant des précautions souvent perdues : la liste est autobiographique, située et non généralisable ; elle n’est ni questionnaire ni exercice confessionnel."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "McIntosh distingue en outre des conditions positives qui devraient être universalisées de permissions négatives qui autorisent domination ou ignorance. Cette distinction répond à un problème central : l’égalité ne consiste pas à rendre la sécurité de tous plus précaire. Elle consiste à généraliser les garanties légitimes et à supprimer les pouvoirs arbitraires."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-le-developpement-d-une-critique-structurelle",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le développement d’une critique structurelle"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Wildman et Davis soulignent que le langage dominant nomme le groupe minorisé tandis que la position privilégiée reste non marquée et définit la norme. Bailey relie privilège et oppression comme structures : isoler un avantage de l’ensemble des pratiques et représentations empêche de comprendre comment il est produit."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Leonardo critique cependant un discours de l’avantage « non gagné » qui pourrait représenter les bénéficiaires comme passifs. À ses yeux, l’analyse doit nommer la suprématie, les actions et les institutions qui produisent la domination. Pour Mosaïque, la leçon n’est pas d’abandonner le mot, mais de toujours le relier à des mécanismes et à des pouvoirs de décision."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3-concepts-et-auteurs-reellement-utiles",
+        "title": "3. Concepts et auteurs réellement utiles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-position-sociale-et-normalite",
+            "content": [
+              {
+                "type": "text",
+                "text": "Position sociale et normalité"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une position sociale est relationnelle : parent prévu ou non par le formulaire, élève dont le prénom est immédiatement reconnu ou qui doit le faire corriger, personne dont la vie relationnelle correspond ou non à la question attendue. Elle n’est ni une identité complète ni une place fixe dans toute la société."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Wildman et Davis montrent que la caractéristique privilégiée tend à devenir la référence non nommée. Cette normalité ne signifie pas fréquence statistique pure. Elle comporte un pouvoir de définition : les autres cas deviennent variations, exceptions ou problèmes à traiter."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-ressource-capital-et-protection",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ressource, capital et protection"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une ressource est un moyen mobilisable : argent, temps, information, réseau, texte juridique, personne de confiance, espace privé ou procédure. Chez Bourdieu, le capital désigne des ressources accumulées et convertibles sous des formes économique, culturelle ou sociale. Ce cadre aide à comprendre des trajectoires et la reproduction ; il serait excessif de qualifier de capital chaque possibilité offerte par une carte."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une protection est organisée pour réduire un risque ou augmenter la capacité d’agir. Elle peut être universelle tout en bénéficiant particulièrement à ceux qui courent un risque plus élevé. N12 protège la confidentialité par conception. L’appeler « privilège » déplacerait le regard du choix institutionnel vers le bénéficiaire et ferait d’un droit effectif une faveur."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-pouvoir-decider-exclure-une-question-definir-le-normal",
+            "content": [
+              {
+                "type": "text",
+                "text": "Pouvoir : décider, exclure une question, définir le normal"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Lukes distingue plusieurs dimensions du pouvoir : décision observable, maîtrise des enjeux qui accèdent à la décision et formation des perceptions de ce qui paraît possible ou naturel. Le modèle est discuté, mais il évite de réduire le pouvoir à l’ordre explicite."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans V04, l’adulte décide d’utiliser la liste contre la demande. Dans N02, la décision sur les catégories a été prise avant la scène ; le professionnel présent peut ne pas en être l’auteur. Dans les deux cas, demander « qui peut changer cela ? » révèle une distribution de pouvoir différente : marge immédiate de l’agent, paramétrage de l’organisation, choix du fournisseur, règle nationale éventuelle."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-positions-mixtes",
+            "content": [
+              {
+                "type": "text",
+                "text": "Positions mixtes"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Coston et Kimmel montrent, à propos de masculinités marginalisées, les limites d’un modèle binaire où l’on aurait ou non du privilège. Une position favorable dans un rapport peut coexister avec une marginalisation dans un autre et être transformée par elle. Ce constat n’autorise pas une compensation arithmétique. Il oblige à préciser la relation étudiée."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4-controverses-ou-limites",
+        "title": "4. Controverses ou limites",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-individualisation-et-passivite",
+            "content": [
+              {
+                "type": "text",
+                "text": "Individualisation et passivité"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Faire dresser à chacun la liste de ses avantages peut développer l’attention, mais aussi ramener la structure à un inventaire biographique. Leonardo insiste sur l’activité historique et institutionnelle de la domination. La question « qu’ai-je reçu ? » doit donc être prolongée par « quel système le distribue, qui l’entretient et que puis-je transformer ? »"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-culpabilite-honte-et-defensive",
+            "content": [
+              {
+                "type": "text",
+                "text": "Culpabilité, honte et défensive"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "McIntosh précise que son travail ne porte pas sur la honte, la culpabilité ou la qualité d’une personne. Des recherches expérimentales montrent néanmoins que cadrer l’inégalité comme avantage du groupe favorisé peut susciter davantage de culpabilité collective que le cadrage par le désavantage d’autrui. Iyer et ses collègues observent que cette culpabilité peut prédire certaines politiques compensatoires, pas toutes les actions antiracistes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une émotion n’est donc ni un échec à supprimer immédiatement ni un objectif pédagogique suffisant. La laisser organiser toute la séance peut recentrer la personne avantagée et conduire au déni ou à la recherche d’innocence. L’animation revient aux preuves, aux mécanismes et aux responsabilités proportionnées."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-competition-des-epreuves",
+            "content": [
+              {
+                "type": "text",
+                "text": "Compétition des épreuves"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Reconnaître un avantage relatif ne nie pas la pauvreté, la maladie, la violence ou une discrimination dans un autre rapport. Dire « ici, vous n’avez pas eu à corriger la case » ne signifie pas « tout vous est facile ». La comparaison doit rester locale et ne jamais hiérarchiser les souffrances."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-inflation-du-terme",
+            "content": [
+              {
+                "type": "text",
+                "text": "Inflation du terme"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Bailey avertit qu’appeler privilège n’importe quel bénéfice dilue sa portée politique. Une compétence acquise, une joie, une aide ponctuelle ou l’exercice d’un droit ne sont pas automatiquement des privilèges. La définition Mosaïque exige un avantage relatif relié à une distribution sociale et à une normalisation."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-contextes-de-recherche",
+            "content": [
+              {
+                "type": "text",
+                "text": "Contextes de recherche"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La littérature mobilisée est largement états-unienne et centrée sur le privilège blanc. Elle apporte des distinctions relationnelles et pédagogiques ; elle ne doit pas importer directement des catégories, une histoire ou un droit dans l’école française. Le module applique une définition de travail au corpus LGBTI+ sans prétendre que tous les rapports sociaux fonctionnent de manière identique."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5-application-precise-a-mosaique",
+        "title": "5. Application précise à Mosaïque",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-v04-droit-realise-et-travail-de-correction",
+            "content": [
+              {
+                "type": "text",
+                "text": "V04 : droit réalisé et travail de correction"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le prénom utilisé est refusé parce que la liste en comporte un autre. Noé reste ; les personnages sans discordance avancent. L’avance indique une absence d’obstacle précis, pas une approbation de l’adulte. Elle rend visible un avantage souvent négatif au sens descriptif : "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "ne pas avoir à faire quelque chose"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " — surveiller, demander, corriger, s’exposer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le levier ne consiste pas à retirer cette facilité aux autres. Il consiste à rendre la reconnaissance et la confidentialité ordinaires : consigne professionnelle, champ distinct dans l’outil, contrôle des accès, correction sans exposition."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-n02-etre-le-cas-par-defaut",
+            "content": [
+              {
+                "type": "text",
+                "text": "N02 : être le cas par défaut"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le formulaire père–mère transforme Sofia en exception administrative. Pour les autres profils, le corpus n’établit pas un obstacle. Cette prudence est importante : une orientation sexuelle ou une identité de genre ne permet pas de déduire la composition de la famille. Le privilège éventuel se lit dans la congruence avec le modèle, non dans l’identité isolée."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-n12-institutionnaliser-une-protection",
+            "content": [
+              {
+                "type": "text",
+                "text": "N12 : institutionnaliser une protection"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "N12 sépare nom et prénom administratifs, prénom de la vie scolaire, informations accessibles à la famille et informations réservées. Tous les personnages avancent. La protection est anticipée, transparente et non conditionnée à une confession. Elle montre comment une organisation peut redistribuer la capacité d’agir."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le dispositif reste ponctuel : une procédure protectrice ne prouve pas que toute l’institution est transformée. Mais elle déplace la responsabilité de l’élève qui répare vers l’organisation qui prévoit."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-le-parcours-n-est-pas-un-classement",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le parcours n’est pas un classement"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le nombre d’avances dépend des cartes choisies et des informations des profils. Il ne mesure ni la puissance sociale totale, ni les capitaux, ni la souffrance. Le débrief peut comparer les mécanismes, jamais classer les personnes de la plus à la moins privilégiée."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6-ce-que-le-concept-ne-permet-pas-d-affirmer",
+        "title": "6. Ce que le concept ne permet pas d’affirmer",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Une personne avantagée dans une scène n’est pas avantagée dans toutes les relations sociales."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Un privilège ne prouve ni intention de dominer, ni ignorance, ni faute morale individuelle."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "L’absence d’obstacle dans le profil ne prouve pas l’absence d’obstacle dans la vie réelle ; elle limite seulement l’interprétation du jeu."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Reconnaître un avantage ne suffit pas à modifier une règle, un budget, un outil ou une distribution de pouvoir."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Une protection ne supprime pas toute vulnérabilité et ne prouve pas un changement structurel."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Une carte ne mesure ni fréquence sociale ni causalité générale."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7-implications-professionnelles",
+        "title": "7. Implications professionnelles",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’analyse devient actionnable lorsqu’elle suit le "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "travail distribué"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Qui vérifie une liste avant chaque cours ? Qui doit expliquer sa famille ? Qui anticipe que l’information sera visible ? Qui remplit un formulaire sans se demander si sa situation sera recevable ? Les réponses désignent des coûts de temps, de confidentialité, d’attention et de légitimité."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "À l’échelle individuelle, un professionnel peut reconnaître une demande, éviter une question présupposée, limiter une information au nécessaire et ne pas exiger une justification publique. À l’échelle de l’équipe, il peut être décidé comment enregistrer un prénom, traiter une correction ou proposer une adaptation. À l’échelle de l’organisation, les catégories, valeurs par défaut, habilitations, contrats logiciels et responsabilités doivent être revus."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le changement le plus solide ne dépend pas uniquement de la bienveillance d’une personne. Une procédure écrite, un contrôle régulier, un responsable identifié et une possibilité de recours rendent la protection prévisible. Il faut cependant préserver une marge d’ajustement : une règle inclusive sur le papier peut encore produire un effet inattendu."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "En formation, éviter l’injonction « reconnaissez vos privilèges » sans objet précis. Partir d’une situation, faire décrire la comparaison, nommer ce qui devrait être un droit, puis identifier le pouvoir de transformation. Si une personne évoque ses propres difficultés, les reconnaître sans les utiliser comme monnaie d’annulation : « cette difficulté est réelle ; que change-t-elle dans le mécanisme que nous étudions ici ? »"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8-questions-de-debrief",
+        "title": "8. Questions de débrief",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Qui peut agir dans cette scène sans corriger, expliquer, attendre ou anticiper une erreur ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle norme, catégorie, ressource ou décision produit cet avantage relatif ou cet obstacle ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Dans quel autre contexte la position du même personnage pourrait-elle changer, sans que son identité change ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quel droit faut-il rendre effectif et quelle protection peut réduire le travail d’exception ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Qui détient le pouvoir de modifier la pratique, la procédure, l’outil ou la règle, et comment associer les personnes affectées ?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9-sources-cles-commentees",
+        "title": "9. Sources clés commentées",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Source"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Type"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Apport au module"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Limite ou vigilance"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Peggy McIntosh, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "emphasis",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "White Privilege and Male Privilege"
+                          }
+                        ]
+                      }
+                    ],
+                    "href": "https://www.wcwonline.org/images/pdf/White_Privilege_and_Male_Privilege_Personal_Account-Peggy_McIntosh.pdf",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", Working Paper 189, 1988, avec notes 2010."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Texte primaire autobiographique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Avantages quotidiens peu visibles ; liste située ; garanties à généraliser ; refus de la honte et des check-lists."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Non généralisable ; contexte racial et professionnel états-unien."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Stephanie Wildman & Adrienne Davis, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "“Language and Silence”"
+                      }
+                    ],
+                    "href": "https://digitalcommons.law.scu.edu/lawreview/vol35/iss3/4/",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 1995."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Article doctrinal"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Le trait privilégié devient norme non marquée ; nommer le système relationnel."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Droit et racialisation aux États-Unis."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Alison Bailey, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "“Privilege: Expanding on Marilyn Frye’s ‘Oppression’”"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1111/j.1467-9833.1998.tb00124.x",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 1998."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Philosophie sociale"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Structure, invisibilisation et risque d’un terme trop large."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Argument conceptuel, pas mesure empirique."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Zeus Leonardo, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "“The Color of Supremacy”"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1111/j.1469-5812.2004.00057.x",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 2004."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Critique théorique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Le bénéfice passif peut masquer domination, agents et institutions."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Objet racial spécifique ; transposition prudente."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Bethany Coston & Michael Kimmel, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "“Seeing Privilege Where It Isn’t”"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1111/j.1540-4560.2011.01738.x",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 2012."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Article théorique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Positions favorisées et marginalisées coexistent ; refus du binaire global."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Cas des masculinités marginalisées aux États-Unis."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Steven Lukes, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "emphasis",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Power: A Radical View"
+                          }
+                        ]
+                      }
+                    ],
+                    "href": "https://voidnetwork.gr/wp-content/uploads/2016/09/Power-A-Radical-View-Steven-Lukes.pdf",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 2e éd., 2005."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Monographie théorique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Décision, non-décision et cadrage du possible comme dimensions du pouvoir."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Modèle discuté ; pas un test de carte."
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10-bibliographie-complete",
+        "title": "10. Bibliographie complète",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-textes-originaux-et-sources-primaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Textes originaux et sources primaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "McIntosh, Peggy, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "White Privilege and Male Privilege: A Personal Account of Coming to See Correspondences Through Work in Women’s Studies"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://www.wcwonline.org/images/pdf/White_Privilege_and_Male_Privilege_Personal_Account-Peggy_McIntosh.pdf",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", Working Paper 189, Wellesley College Center for Research on Women, 1988."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "McIntosh, Peggy, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "White Privilege: Unpacking the Invisible Knapsack"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://www.nationalseedproject.org/key-seed-texts/white-privilege-unpacking-the-invisible-knapsack",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 1989, extrait autorisé du working paper."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-recherches-scientifiques-ou-universitaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Recherches scientifiques ou universitaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Bailey, Alison, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“Privilege: Expanding on Marilyn Frye’s ‘Oppression’”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1111/j.1467-9833.1998.tb00124.x",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Journal of Social Philosophy"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 29(3), 1998, p. 104–119."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Bourdieu, Pierre, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“The Forms of Capital”"
+                        }
+                      ],
+                      "href": "https://web.stanford.edu/~eckert/PDF/Bourdieu1986.pdf",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", dans John G. Richardson (dir.), "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Handbook of Theory and Research for the Sociology of Education"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", Greenwood Press, 1986, p. 241–258."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Coston, Bethany M., & Michael S. Kimmel, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“Seeing Privilege Where It Isn’t”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1111/j.1540-4560.2011.01738.x",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Journal of Social Issues"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 68(1), 2012, p. 97–111."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Iyer, Aarti, Colin W. Leach & Faye J. Crosby, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“White Guilt and Racial Compensation”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1177/0146167202238377",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Personality and Social Psychology Bulletin"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 29(1), 2003, p. 117–129."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Leonardo, Zeus, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“The Color of Supremacy: Beyond the Discourse of ‘White Privilege’”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1111/j.1469-5812.2004.00057.x",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Educational Philosophy and Theory"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 36(2), 2004, p. 137–152."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Lukes, Steven, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Power: A Radical View"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://voidnetwork.gr/wp-content/uploads/2016/09/Power-A-Radical-View-Steven-Lukes.pdf",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 2e éd., Palgrave Macmillan, 2005."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Powell, Adam A., Nyla R. Branscombe & Michael T. Schmitt, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“Inequality as Ingroup Privilege or Outgroup Disadvantage”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1177/0146167204271713",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Personality and Social Psychology Bulletin"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 31(4), 2005, p. 508–521."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Wildman, Stephanie M., & Adrienne D. Davis, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“Language and Silence: Making Systems of Privilege Visible”"
+                        }
+                      ],
+                      "href": "https://digitalcommons.law.scu.edu/lawreview/vol35/iss3/4/",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Santa Clara Law Review"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 35, 1995, p. 881–906."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-sources-institutionnelles-et-professionnelles",
+            "content": [
+              {
+                "type": "text",
+                "text": "Sources institutionnelles et professionnelles"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Le dossier de recherche 057 distingue les références conceptuelles des ressources de facilitation. Aucune source institutionnelle n’est utilisée comme définition universelle du privilège."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-critiques-et-retours-de-pratique",
+            "content": [
+              {
+                "type": "text",
+                "text": "Critiques et retours de pratique"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Dundon, Amy et al., "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“The Limits of White Privilege Pedagogy”"
+                        }
+                      ],
+                      "href": "https://files.eric.ed.gov/fulltext/EJ1425151.pdf",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 2024. Étude réflexive située, utile pour les risques d’individualisation ; ne vaut pas verdict sur toute pédagogie."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pour-les-formateurs",
+        "title": "Pour les formateurs",
+        "blocks": [
+          {
+            "type": "quote",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Objet : défensive et compétition des difficultés"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": "   Ne demandez pas à une personne de produire une confession ni à une autre de prouver son désavantage. Revenez à la scène, au coût concret et au pouvoir de transformation. Une difficulté personnelle peut être reconnue sans devenir une monnaie qui annule l’avantage relatif étudié."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "takeaways": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un privilège est "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "relationnel et contextuel"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " : il décrit un avantage dans des règles et des institutions, pas une essence ni un score personnel."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Reconnaître un avantage n’efface aucune difficulté ; cela permet d’identifier qui supporte le travail de correction, d’explication ou d’anticipation."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’objectif professionnel n’est pas la culpabilité, mais la transformation des catégories, des ressources, des protections et des pouvoirs de décision."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Dans une procédure ordinaire de votre établissement, qui peut agir sans s’expliquer, qui anticipe une erreur, qui porte le coût de la correction — et qui possède réellement le pouvoir de changer la règle ou l’outil ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "La partie Approfondir revient sur l’apport et les limites de Peggy McIntosh, les critiques du langage du privilège, les positions mixtes, la distinction entre capital, ressource et pouvoir, ainsi que les conditions d’une pédagogie qui ne se réduise ni à l’aveu ni à la culpabilité."
+        }
+      ]
+    }
+  ],
+  "professionalQuestion": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "La partie Approfondir revient sur l’apport et les limites de Peggy McIntosh, les critiques du langage du privilège, les positions mixtes, la distinction entre capital, ressource et pouvoir, ainsi que les conditions d’une pédagogie qui ne se réduise ni à l’aveu ni à la culpabilité."
+        }
+      ]
+    }
+  ],
+  "debriefQuestions": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Qui peut agir dans cette scène sans corriger, expliquer, attendre ou anticiper une erreur ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle norme, catégorie, ressource ou décision produit cet avantage relatif ou cet obstacle ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans quel autre contexte la position du même personnage pourrait-elle changer, sans que son identité change ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quel droit faut-il rendre effectif et quelle protection peut réduire le travail d’exception ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Qui détient le pouvoir de modifier la pratique, la procédure, l’outil ou la règle, et comment associer les personnes affectées ?"
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "centralSources": [
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007",
+    "S008",
+    "S044",
+    "S050",
+    "S051",
+    "S052"
+  ],
+  "moduleBibliography": [
+    {
+      "type": "table",
+      "headers": [
+        [
+          {
+            "type": "text",
+            "text": "Source"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Type"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Apport au module"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Limite ou vigilance"
+          }
+        ]
+      ],
+      "rows": [
+        [
+          [
+            {
+              "type": "text",
+              "text": "Peggy McIntosh, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "White Privilege and Male Privilege"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.wcwonline.org/images/pdf/White_Privilege_and_Male_Privilege_Personal_Account-Peggy_McIntosh.pdf",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", Working Paper 189, 1988, avec notes 2010."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Texte primaire autobiographique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Avantages quotidiens peu visibles ; liste située ; garanties à généraliser ; refus de la honte et des check-lists."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Non généralisable ; contexte racial et professionnel états-unien."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Stephanie Wildman & Adrienne Davis, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "“Language and Silence”"
+                }
+              ],
+              "href": "https://digitalcommons.law.scu.edu/lawreview/vol35/iss3/4/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 1995."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Article doctrinal"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Le trait privilégié devient norme non marquée ; nommer le système relationnel."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Droit et racialisation aux États-Unis."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Alison Bailey, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "“Privilege: Expanding on Marilyn Frye’s ‘Oppression’”"
+                }
+              ],
+              "href": "https://doi.org/10.1111/j.1467-9833.1998.tb00124.x",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 1998."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Philosophie sociale"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Structure, invisibilisation et risque d’un terme trop large."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Argument conceptuel, pas mesure empirique."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Zeus Leonardo, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "“The Color of Supremacy”"
+                }
+              ],
+              "href": "https://doi.org/10.1111/j.1469-5812.2004.00057.x",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 2004."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Critique théorique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Le bénéfice passif peut masquer domination, agents et institutions."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Objet racial spécifique ; transposition prudente."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Bethany Coston & Michael Kimmel, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "“Seeing Privilege Where It Isn’t”"
+                }
+              ],
+              "href": "https://doi.org/10.1111/j.1540-4560.2011.01738.x",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 2012."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Article théorique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Positions favorisées et marginalisées coexistent ; refus du binaire global."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Cas des masculinités marginalisées aux États-Unis."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Steven Lukes, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Power: A Radical View"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://voidnetwork.gr/wp-content/uploads/2016/09/Power-A-Radical-View-Steven-Lukes.pdf",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 2e éd., 2005."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Monographie théorique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Décision, non-décision et cadrage du possible comme dimensions du pouvoir."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Modèle discuté ; pas un test de carte."
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-1-textes-originaux-et-sources-primaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Textes originaux et sources primaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "McIntosh, Peggy, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "White Privilege and Male Privilege: A Personal Account of Coming to See Correspondences Through Work in Women’s Studies"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://www.wcwonline.org/images/pdf/White_Privilege_and_Male_Privilege_Personal_Account-Peggy_McIntosh.pdf",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", Working Paper 189, Wellesley College Center for Research on Women, 1988."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "McIntosh, Peggy, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "White Privilege: Unpacking the Invisible Knapsack"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://www.nationalseedproject.org/key-seed-texts/white-privilege-unpacking-the-invisible-knapsack",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", 1989, extrait autorisé du working paper."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-2-recherches-scientifiques-ou-universitaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Recherches scientifiques ou universitaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Bailey, Alison, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“Privilege: Expanding on Marilyn Frye’s ‘Oppression’”"
+                  }
+                ],
+                "href": "https://doi.org/10.1111/j.1467-9833.1998.tb00124.x",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Journal of Social Philosophy"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 29(3), 1998, p. 104–119."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Bourdieu, Pierre, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“The Forms of Capital”"
+                  }
+                ],
+                "href": "https://web.stanford.edu/~eckert/PDF/Bourdieu1986.pdf",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", dans John G. Richardson (dir.), "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Handbook of Theory and Research for the Sociology of Education"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", Greenwood Press, 1986, p. 241–258."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Coston, Bethany M., & Michael S. Kimmel, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“Seeing Privilege Where It Isn’t”"
+                  }
+                ],
+                "href": "https://doi.org/10.1111/j.1540-4560.2011.01738.x",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Journal of Social Issues"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 68(1), 2012, p. 97–111."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Iyer, Aarti, Colin W. Leach & Faye J. Crosby, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“White Guilt and Racial Compensation”"
+                  }
+                ],
+                "href": "https://doi.org/10.1177/0146167202238377",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Personality and Social Psychology Bulletin"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 29(1), 2003, p. 117–129."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Leonardo, Zeus, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“The Color of Supremacy: Beyond the Discourse of ‘White Privilege’”"
+                  }
+                ],
+                "href": "https://doi.org/10.1111/j.1469-5812.2004.00057.x",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Educational Philosophy and Theory"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 36(2), 2004, p. 137–152."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Lukes, Steven, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Power: A Radical View"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://voidnetwork.gr/wp-content/uploads/2016/09/Power-A-Radical-View-Steven-Lukes.pdf",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", 2e éd., Palgrave Macmillan, 2005."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Powell, Adam A., Nyla R. Branscombe & Michael T. Schmitt, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“Inequality as Ingroup Privilege or Outgroup Disadvantage”"
+                  }
+                ],
+                "href": "https://doi.org/10.1177/0146167204271713",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Personality and Social Psychology Bulletin"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 31(4), 2005, p. 508–521."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Wildman, Stephanie M., & Adrienne D. Davis, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“Language and Silence: Making Systems of Privilege Visible”"
+                  }
+                ],
+                "href": "https://digitalcommons.law.scu.edu/lawreview/vol35/iss3/4/",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Santa Clara Law Review"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 35, 1995, p. 881–906."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-3-sources-institutionnelles-et-professionnelles",
+      "content": [
+        {
+          "type": "text",
+          "text": "Sources institutionnelles et professionnelles"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le dossier de recherche 057 distingue les références conceptuelles des ressources de facilitation. Aucune source institutionnelle n’est utilisée comme définition universelle du privilège."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-4-critiques-et-retours-de-pratique",
+      "content": [
+        {
+          "type": "text",
+          "text": "Critiques et retours de pratique"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dundon, Amy et al., "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“The Limits of White Privilege Pedagogy”"
+                  }
+                ],
+                "href": "https://files.eric.ed.gov/fulltext/EJ1425151.pdf",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", 2024. Étude réflexive située, utile pour les risques d’individualisation ; ne vaut pas verdict sur toute pédagogie."
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "related": {
+    "modules": [
+      "M06",
+      "M08"
+    ],
+    "notions": [
+      "droit",
+      "ressource",
+      "protection",
+      "privilege",
+      "position-sociale",
+      "pouvoir",
+      "capacite-d-agir"
+    ],
+    "situations": [
+      "V04",
+      "N02",
+      "N12"
+    ],
+    "modes": [
+      "Obstacles visibles",
+      "Normes ordinaires"
+    ]
+  },
+  "contentHash": "5b851dfe80fc86741a172cd03c7d9d81a89d4707d334e2cf9671710cdf727464"
+}

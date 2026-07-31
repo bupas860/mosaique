@@ -1,0 +1,4027 @@
+{
+  "schemaVersion": "understand-public-v1",
+  "id": "M08",
+  "number": 8,
+  "title": "Intersectionnalité : articuler les rapports sociaux",
+  "status": "validated",
+  "pilot": true,
+  "directQuestion": "Pourquoi l’intersectionnalité ne consiste-t-elle pas à additionner plusieurs discriminations ?",
+  "groupId": "G2",
+  "readingTime": {
+    "essential": "3 à 5 minutes",
+    "deepDive": "8 à 12 minutes"
+  },
+  "datedContent": [
+    {
+      "label": "Généalogie et usages institutionnels de l’intersectionnalité, vérifiés le 31 juillet 2026",
+      "verifiedAt": "2026-07-31",
+      "scope": "canonical-module-scope"
+    }
+  ],
+  "essential": {
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Temps de lecture visé : 3 à 5 minutes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-1-1-question-de-depart",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. Question de départ"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Pourquoi l’intersectionnalité ne consiste-t-elle pas à additionner plusieurs discriminations ?"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-2-2-reponse-synthetique",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. Réponse synthétique"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Additionner, ce serait traiter séparément plusieurs difficultés puis calculer un total : un obstacle lié au handicap, plus un obstacle lié au genre, plus un obstacle économique. L’analyse intersectionnelle pose une autre question : "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "comment ces rapports de pouvoir se transforment-ils mutuellement dans une situation précise ?"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Elle examine les règles, les institutions, les représentations, les ressources et les décisions qui donnent à leur articulation un effet spécifique."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Une personne peut avoir plusieurs appartenances sans subir de discrimination dans une scène donnée. Elle peut aussi rencontrer plusieurs discriminations successives qui restent distinctes. L’intersectionnalité ne se déduit donc ni du nombre d’identités, ni du nombre d’obstacles. Elle devient utile lorsque l’étude séparée de chaque dimension ne permet pas de comprendre complètement ce qui se passe."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Dans Mosaïque, le joueur suit le parcours d’un personnage fictif et tente d’interpréter les effets d’une scène. Il ne devient pas ce personnage et n’accède pas directement à son vécu. Le jeu ne calcule pas une quantité globale d’oppression : il invite à repérer une configuration située et à discuter des leviers professionnels."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-3-3-definition-operationnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. Définition opérationnelle"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Intersectionnalité :"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " cadre d’analyse qui étudie comment plusieurs rapports sociaux et systèmes de pouvoir se constituent et se transforment mutuellement dans une situation donnée, produisant des expériences et des effets que l’étude séparée de chaque rapport ne permet pas de comprendre complètement."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Cette définition est une synthèse éditoriale ; ce n’est pas une citation de Kimberlé Crenshaw. Une "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "identité personnelle"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " désigne la manière dont une personne se comprend et se nomme. Des "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "caractéristiques ou appartenances"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " peuvent être revendiquées, attribuées ou enregistrées. Une "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "position sociale"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " situe une personne dans une distribution de ressources et de contraintes. Un "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "rapport social"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " organise des relations de pouvoir entre groupes. Une "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "discrimination"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " est un traitement, une règle ou une pratique désavantageuse liée à un motif, dont la qualification juridique dépend du cadre applicable. L’analyse intersectionnelle relie ces niveaux sans les confondre."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-4-4-deux-exemples-mosaique",
+        "content": [
+          {
+            "type": "text",
+            "text": "4. Deux exemples Mosaïque"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-5-x01-la-chambre-accessible",
+        "content": [
+          {
+            "type": "text",
+            "text": "X01 — La chambre accessible"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Pendant un séjour scolaire, la seule chambre accessible se trouve dans la partie réservée aux filles ; la répartition utilise les informations administratives. Le problème ne se réduit pas à l’accessibilité, au classement genré ou à la confidentialité pris isolément. Le lieu prévu pour rendre le séjour accessible peut imposer une catégorie administrative inadaptée, obliger à négocier ou rendre une information plus visible. "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "L’organisation de l’accessibilité transforme l’effet du classement, et inversement."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "L’identité du personnage ne suffit pas à décider. Il faut vérifier si son profil réunit la configuration précise de la carte. Le feedback propose alors une interprétation située ; il ne porte aucun diagnostic global sur la personne."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-6-x13-une-adaptation-coordonnee",
+        "content": [
+          {
+            "type": "text",
+            "text": "X13 — Une adaptation coordonnée"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Avant une activité, l’équipe échange individuellement avec l’élève. Elle coordonne dans un même plan déplacement, organisation collective, confidentialité, transport et ressources, en tenant compte de l’accessibilité et de l’identité de genre. Elle associe l’élève à la décision et évite toute circulation inutile d’informations."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Cette protection n’est pas l’addition de réponses indépendantes. L’équipe vérifie qu’une solution sur un axe n’en crée pas un autre : qu’une chambre accessible ne force pas une divulgation, qu’un aménagement reste financièrement possible, que le transport permette réellement la participation. La situation protectrice modifie les règles et la capacité d’agir ; elle ne supprime pas magiquement tous les rapports de pouvoir."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-7-5-a-ne-pas-confondre",
+        "content": [
+          {
+            "type": "text",
+            "text": "5. À ne pas confondre"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Intersectionnalité, identités multiples, addition de discriminations et diversité ne sont pas des synonymes."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "headers": [
+          [
+            {
+              "type": "text",
+              "text": "Terme"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Question posée"
+            }
+          ]
+        ],
+        "rows": [
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Identités multiples"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Comment une personne se définit-elle ou est-elle catégorisée ?"
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Addition de discriminations"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Plusieurs traitements défavorables peuvent-ils être distingués puis juxtaposés ?"
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Diversité"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Quelles différences ou représentations sont présentes dans un groupe ?"
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Intersectionnalité"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Comment des rapports de pouvoir, des institutions et des ressources se transforment-ils mutuellement dans cette situation ?"
+              }
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Une personne ne constitue pas à elle seule une intersection. L’intersectionnalité n’établit ni hiérarchie des souffrances, ni score d’oppression, ni équation selon laquelle davantage d’identités produiraient automatiquement davantage de discrimination."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-8-6-trois-idees-a-retenir",
+        "content": [
+          {
+            "type": "text",
+            "text": "6. Trois idées à retenir"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "L’intersectionnalité analyse une "
+                },
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "configuration de pouvoir"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ", pas un inventaire d’identités."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "L’articulation produit un mécanisme spécifique : isoler chaque dimension rend une partie de la situation invisible."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Une réponse professionnelle intersectionnelle coordonne règles, ressources, participation et confidentialité sans demander à l’élève de hiérarchiser ses identités."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-9-7-question-de-reflexion-professionnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "7. Question de réflexion professionnelle"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans une procédure de votre établissement, une adaptation pensée pour répondre à un besoin peut-elle créer un nouvel obstacle — d’accès, de coût, de transport, de confidentialité ou de reconnaissance — et qui participe aujourd’hui à la vérification de cet effet ?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-10-8-pour-aller-plus-loin",
+        "content": [
+          {
+            "type": "text",
+            "text": "8. Pour aller plus loin"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Approfondir revient sur le problème juridique formulé par Crenshaw, les généalogies féministes noires, la matrice de domination de Collins, la consubstantialité de Kergoat, les débats méthodologiques et les limites du test de soustraction utilisé dans Mosaïque."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-11-sources-centrales-de-l-essentiel",
+        "content": [
+          {
+            "type": "text",
+            "text": "Sources centrales de L’essentiel"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Kimberlé Crenshaw (1989), "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "« Demarginalizing the Intersection of Race and Sex »"
+                    }
+                  ],
+                  "href": "https://careprogram.ucla.edu/education/readings/Crenshaw1989",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Kimberlé Crenshaw (1991), "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "« Mapping the Margins »"
+                    }
+                  ],
+                  "href": "https://blogs.law.columbia.edu/critique1313/files/2020/02/1229039.pdf",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Danièle Kergoat (2011), "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "« Comprendre les rapports sociaux »"
+                    }
+                  ],
+                  "href": "https://www.persee.fr/doc/raipr_0033-9075_2011_num_178_1_4300",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "deepDive": {
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "Introduction",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Temps de lecture visé : 8 à 12 minutes."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1-probleme-theorique",
+        "title": "1. Problème théorique",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le vocabulaire ordinaire encourage deux raccourcis : transformer une personne en collection de caractéristiques, puis additionner des désavantages supposés indépendants. L’explication reste alors attachée à la personne, tandis que des formulaires, classements, locaux, horaires, représentations et ressources produisent aussi les mécanismes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’intersectionnalité demande : "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "quelle configuration de pouvoir rend cette situation possible et pourquoi une analyse à axe unique ne la voit-elle pas ?"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Dans Mosaïque, une scène ne concerne pas automatiquement tous les membres d’un groupe, et l’accès à une protection dépend de son organisation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une identité peut être revendiquée, négociée ou attribuée. Un rapport social organise des positions entre groupes ; une discrimination désigne un effet ou une pratique dont le sens juridique dépend du droit applicable. L’analyse intersectionnelle observe leurs relations sans les fusionner."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2-reperes-historiques",
+        "title": "2. Repères historiques",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-antecedents-sans-histoire-lineaire",
+            "content": [
+              {
+                "type": "text",
+                "text": "Antécédents sans histoire linéaire"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Avant le mot, des féministes noires contestent un féminisme prenant les femmes blanches pour norme et un antiracisme centrant les hommes. En 1977, le Combahee River Collective décrit des oppressions imbriquées ; en 1988, Deborah K. King critique les modèles additifs de « double » ou « triple péril »."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ces antécédents ne sont ni des étapes conduisant inévitablement à Crenshaw, ni des brouillons de l’intersectionnalité."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-1989-le-probleme-juridique-a-axe-unique",
+            "content": [
+              {
+                "type": "text",
+                "text": "1989 : le problème juridique à axe unique"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fait établi :"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Crenshaw formalise le terme "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "intersectionality"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " en 1989 à partir du droit antidiscriminatoire états-unien et de trois affaires d’emploi. Quand la plainte doit être raciale ou sexuelle, l’expérience des femmes noires devient marginale dans les deux catégories, souvent construites autour des hommes noirs et des femmes blanches."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le cadre entier doit être repensé lorsque la demande n’est intelligible par aucun axe isolé. Crenshaw introduit le terme dans un contexte précis ; elle n’invente pas l’existence des expériences articulant plusieurs rapports sociaux."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-1991-trois-dimensions",
+            "content": [
+              {
+                "type": "text",
+                "text": "1991 : trois dimensions"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans « Mapping the Margins », Crenshaw étudie les violences faites aux femmes de couleur. L’"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "intersectionnalité structurelle"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " concerne les conditions matérielles et institutionnelles qui modifient l’accès à la sécurité et aux services. L’"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "intersectionnalité politique"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " désigne les effets de stratégies féministes ou antiracistes qui relèguent les enjeux ne correspondant pas à leur sujet dominant. L’"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "intersectionnalité représentationnelle"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " analyse les images culturelles qui produisent et renforcent la marginalisation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le texte précise que le concept n’est pas une théorie totalisante de l’identité. "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Absence de preuve suffisante :"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " ces deux articles ne permettent pas d’expliquer à eux seuls toutes les situations sociales ni de fixer une méthode universelle."
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Niveau de preuve"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Repère"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Fait établi"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Le terme est formalisé en 1989 ; les trois dimensions sont explicites en 1991."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Hypothèse probable"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "La métaphore a favorisé la circulation du concept, sans causalité démontrable."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Attribution contestée"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "« Crenshaw a tout inventé » efface les généalogies antérieures."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Absence de preuve suffisante"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Aucun texte ne fonde une définition ou une méthode universelle."
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3-concepts-et-auteurs-reellement-utiles",
+        "title": "3. Concepts et auteurs réellement utiles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-crenshaw-voir-ce-que-les-categories-separees-effacent",
+            "content": [
+              {
+                "type": "text",
+                "text": "Crenshaw : voir ce que les catégories séparées effacent"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Crenshaw répond à une question : comment des institutions juridiques et politiques rendent-elles certaines demandes illisibles ? Son apport principal au module est le déplacement de l’addition vers la transformation du cadre. Sa limite est aussi instructive : race et genre, dans un droit et des mouvements états-uniens précis, ne constituent pas un modèle prêt à être appliqué sans traduction à toute situation."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-collins-matrice-de-domination-et-domaines-du-pouvoir",
+            "content": [
+              {
+                "type": "text",
+                "text": "Collins : matrice de domination et domaines du pouvoir"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Patricia Hill Collins construit une théorie plus large de la "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "matrice de domination"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", c’est-à-dire de l’organisation de rapports de pouvoir imbriqués. Elle distingue des domaines structurel, disciplinaire, hégémonique et interpersonnel. Cette architecture permet de relier la règle, sa gestion quotidienne, les représentations qui la légitiment et les interactions."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La matrice de domination n’est pas synonyme d’intersectionnalité. Elle met aussi au premier plan la production de connaissances, l’action et les traditions intellectuelles des femmes noires. Avec Sirma Bilge, Collins présente plus tard l’intersectionnalité comme un champ d’enquête critique et de praxis centré sur le pouvoir, la relationalité, le contexte et la justice sociale."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-kergoat-consubstantialite-et-coextensivite",
+            "content": [
+              {
+                "type": "text",
+                "text": "Kergoat : consubstantialité et coextensivité"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Danièle Kergoat définit un "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "rapport social"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " comme une relation antagonique entre groupes autour d’un enjeu, produite matériellement et idéellement. Les rapports de classe, de genre et de « race » sont "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "consubstantiels"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " : l’analyse peut les distinguer, mais les pratiques ne peuvent pas être découpées en séquences indépendantes. Ils sont "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "coextensifs"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " : en se déployant, ils se reproduisent et se coproduisent."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ces concepts viennent d’une sociologie matérialiste du travail. Ils ne traduisent pas Crenshaw et ne s’y opposent pas terme à terme. Ils rappellent utilement à Mosaïque que l’objet n’est pas une collection d’attributs individuels mais des rapports dynamiques, des enjeux et des institutions."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-mccall-hancock-et-bowleg-plusieurs-methodes",
+            "content": [
+              {
+                "type": "text",
+                "text": "McCall, Hancock et Bowleg : plusieurs méthodes"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Leslie McCall distingue des démarches "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "anti-catégorielles"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", qui déconstruisent les catégories ; "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "intra-catégorielles"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", qui étudient un groupe négligé et son hétérogénéité ; et "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "inter-catégorielles"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", qui emploient provisoirement des catégories pour comparer des configurations d’inégalités. Ange-Marie Hancock propose de traiter l’intersectionnalité comme un paradigme de recherche plutôt que comme une spécialité portant sur une population donnée. Lisa Bowleg montre que questions, mesures et interprétations peuvent artificiellement séparer ce qui est interdépendant."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Il n’y a donc pas d’opposition simple entre qualitatif et quantitatif. Une interaction statistique peut être utile, mais elle ne prouve pas à elle seule un mécanisme de pouvoir. Une étude de cas peut révéler une configuration, mais elle ne doit pas être généralisée à toutes les personnes partageant une caractéristique."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4-controverses-ou-limites",
+        "title": "4. Controverses ou limites",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le succès du terme facilite son usage comme synonyme de diversité. Une liste de catégories ne devient intersectionnelle que si elle sert à analyser leurs relations et les institutions. Leur multiplication peut aussi produire de petits groupes statistiques, des estimations instables ou une illusion de précision."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Sirma Bilge critique la "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "dépolitisation"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " et le « blanchiment » de l’intersectionnalité : le terme peut être accueilli par les institutions tout en effaçant ses généalogies féministes noires, le racisme et sa visée de justice sociale. À l’inverse, Kathy Davis souligne que l’ouverture et l’ambiguïté du concept ont contribué à sa fécondité. La bonne conclusion n’est ni de fermer définitivement la définition, ni d’accepter tout usage : il faut préciser le terrain, la question, le pouvoir étudié et les effets recherchés."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’effacement de la classe et de l’économie caractérise certains usages, mais pas le corpus dans son ensemble. La controverse invite à vérifier le travail, les ressources et ce que chaque analyse laisse hors champ."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La circulation internationale ne doit pas universaliser le droit états-unien. Traduire exige d’étudier les catégories, institutions et rapports sociaux du nouveau terrain."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5-application-precise-a-mosaique",
+        "title": "5. Application précise à Mosaïque",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le mode gelé retient une situation lorsque plusieurs dimensions interagissent et produisent une expérience particulière. Il impose de ne jamais attribuer au personnage une identité, une relation ou une situation absente de sa fiche. Le joueur interprète une configuration ; il ne mesure ni la valeur du personnage, ni son vécu intérieur, ni une quantité générale de privilège."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "X01 — La chambre accessible"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " articule organisation spatiale, classement administratif de genre et confidentialité. Retirer le besoin d’accessibilité ou le conflit de classement modifie la scène ; surtout, l’institution les relie en n’offrant qu’une seule chambre et en répartissant les élèves à partir de données administratives."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "X13 — Une adaptation coordonnée"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " montre une protection. L’équipe associe l’élève à un même plan portant sur déplacement, organisation collective, confidentialité, transport et ressources. Elle ne résout pas un besoin au prix d’un autre. Cette coordination ne rend pas la situation extérieure au pouvoir ; elle transforme qui décide, quelles informations circulent et quelles ressources deviennent utilisables."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quatre situations complètent l’analyse sans multiplier les exemples. "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "X03"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " montre un soutien filtré par des présupposés culturels ou familiaux au lieu de partir des soutiens réels. "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "X05"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " articule une lecture racialisée, genrée et lesbophobe de la fermeté. "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "X12"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " rend une ressource LGBT+ physiquement, sensoriellement ou géographiquement inaccessible. "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "X14"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " protège en commençant par les souhaits, les personnes informées, les difficultés identifiées et les soutiens disponibles, sans transformer les appartenances en présupposés."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "test de soustraction"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " de Mosaïque est une heuristique éditoriale permettant de vérifier qu’une situation ne se réduit pas à une seule dimension. Il ne constitue ni une définition scientifique, ni une méthode universelle, ni une preuve suffisante. Les rapports sociaux ne sont pas toujours des éléments que l’on peut retirer proprement ; le résultat dépend aussi de l’écriture de la scène. Le débrief doit donc revenir aux règles, institutions, représentations et ressources qui produisent l’interaction."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6-ce-que-le-concept-ne-permet-pas-d-affirmer",
+        "title": "6. Ce que le concept ne permet pas d’affirmer",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Une personne ne constitue pas à elle seule une intersection, et plusieurs identités ne prouvent aucun effet automatique."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Le nombre de caractéristiques minorisées ne forme ni score d’oppression, ni hiérarchie fiable des souffrances."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Toutes les personnes d’un même groupe ne rencontrent pas la même configuration, et une scène fictive n’en établit pas la fréquence."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "« Matrice de domination », « consubstantialité », « coextensivité », « discriminations multiples » et « intersectionnalité » ne sont pas interchangeables."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Une situation protectrice améliore des ressources et des procédures sans abolir tous les rapports de pouvoir."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Le feedback du jeu est une interprétation proposée ; il ne vaut ni diagnostic psychologique ni qualification juridique définitive."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7-implications-professionnelles",
+        "title": "7. Implications professionnelles",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "À l’échelle individuelle, le professionnel peut écouter ce que demande l’élève, vérifier qui est déjà informé et éviter de déduire sa famille, ses besoins ou ses risques d’une appartenance. Il ne lui demande pas de choisir l’identité « la plus importante » ni de fournir davantage d’informations que nécessaire."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "À l’échelle de l’équipe, l’enjeu est la coordination : qui organise le transport, l’espace, le financement, le calendrier et la confidentialité ? Une réponse sur un axe doit être testée sur les autres. La présence de l’élève dans la décision réduit le risque de parler à sa place, sans lui transférer toute la charge de résoudre le problème."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "À l’échelle institutionnelle, il faut examiner les formulaires, les catégories de classement, les locaux, les horaires, les critères d’accès et les circuits d’information. Les questions utiles sont : quelle règle produit la difficulté ? Quelle information est considérée comme normale ou exceptionnelle ? Qui doit expliquer et négocier ? Quelles ressources matérielles, financières ou relationnelles conditionnent réellement la solution ?"
+              }
+            ]
+          },
+          {
+            "type": "quote",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Pour les formateurs — objet : conduite du débrief"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": "   Refuser le tour de table qui demande à chacun d’énumérer ou de hiérarchiser ses identités. Partir de la scène, identifier la règle et ses effets, chercher les variations de contexte, puis répartir les leviers entre personne, équipe et institution. Si le groupe transforme un personnage en porte-parole d’un groupe réel, revenir au caractère fictif et situé de l’exemple."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8-questions-de-debrief",
+        "title": "8. Questions de débrief",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Que s’est-il passé dans la scène, sans attribuer d’intention ni de ressenti non indiqué ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle norme, procédure, représentation ou distribution de ressources relie les différentes dimensions ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Dans quel autre contexte l’effet pourrait-il changer, disparaître ou concerner un autre personnage ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle protection modifierait la situation sans résoudre un besoin au détriment d’un autre ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Que peut transformer un professionnel, une équipe et l’institution, et comment associer l’élève sans diffuser davantage d’informations ?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9-sources-cles-commentees",
+        "title": "9. Sources clés commentées",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Source"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Type"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Apport au module"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Limite ou vigilance"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Crenshaw, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "« Demarginalizing the Intersection of Race and Sex »"
+                      }
+                    ],
+                    "href": "https://careprogram.ucla.edu/education/readings/Crenshaw1989",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 1989"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Texte original"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Cadre à axe unique, problème juridique, non-additivité"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Droit états-unien et affaires d’emploi ; ne fonde pas une théorie universelle"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Crenshaw, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "« Mapping the Margins »"
+                      }
+                    ],
+                    "href": "https://blogs.law.columbia.edu/critique1313/files/2020/02/1229039.pdf",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 1991"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Texte original"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Dimensions structurelle, politique et représentationnelle"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Terrain des violences faites aux femmes de couleur ; concept présenté comme provisoire"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Collins, "
+                  },
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Black Feminist Thought"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 1990/2000"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ouvrage original"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Matrice de domination, domaines du pouvoir, savoir et action"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Non synonyme de l’intersectionnalité chez Crenshaw"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Kergoat, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "« Comprendre les rapports sociaux »"
+                      }
+                    ],
+                    "href": "https://www.persee.fr/doc/raipr_0033-9075_2011_num_178_1_4300",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 2011"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Article original"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Rapport social, consubstantialité, coextensivité"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Tradition matérialiste distincte, non traduction directe"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "McCall, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "« The Complexity of Intersectionality »"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1086/426800",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 2005"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Article méthodologique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Trois rapports aux catégories ; comparaisons qualitatives et quantitatives"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Typologie non exhaustive et catégories provisoires"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Bowleg, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "« When Black + Lesbian + Woman ≠ Black Lesbian Woman »"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1007/s11199-008-9400-z",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 2008"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Article méthodologique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Critique de l’addition dans la mesure et l’interprétation"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Exemples empiriques circonscrits"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Bilge, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "« Intersectionality Undone »"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1017/S1742058X13000283",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 2013"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Critique scientifique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Dépolitisation, blanchiment et institutionnalisation"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Analyse située de tendances, pas verdict sur tous les usages"
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10-bibliographie-complete",
+        "title": "10. Bibliographie complète",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-textes-originaux-et-sources-primaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Textes originaux et sources primaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Combahee River Collective (1977), "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "« The Combahee River Collective Statement »"
+                        }
+                      ],
+                      "href": "https://americanstudies.yale.edu/sites/default/files/files/Keyword%20Coalition_Readings.pdf",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Crenshaw, Kimberlé (1989), "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "« Demarginalizing the Intersection of Race and Sex: A Black Feminist Critique of Antidiscrimination Doctrine, Feminist Theory and Antiracist Politics »"
+                        }
+                      ],
+                      "href": "https://careprogram.ucla.edu/education/readings/Crenshaw1989",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "University of Chicago Legal Forum"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", p. 139-167."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Crenshaw, Kimberlé (1991), "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "« Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color »"
+                        }
+                      ],
+                      "href": "https://blogs.law.columbia.edu/critique1313/files/2020/02/1229039.pdf",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Stanford Law Review"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 43(6), p. 1241-1299."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Collins, Patricia Hill (1990 ; 2e éd. 2000), "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Black Feminist Thought: Knowledge, Consciousness, and the Politics of Empowerment"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", Routledge."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Collins, Patricia Hill et Sirma Bilge (2020), "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Intersectionality"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": ", 2e éd."
+                        }
+                      ],
+                      "href": "https://www.politybooks.com/bookdetail?book_slug=intersectionality-2nd-edition--9781509539673",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", Polity."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "King, Deborah K. (1988), "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "« Multiple Jeopardy, Multiple Consciousness: The Context of a Black Feminist Ideology »"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1086/494491",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Signs"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 14(1), p. 42-72."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Kergoat, Danièle (2011), "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "« Comprendre les rapports sociaux »"
+                        }
+                      ],
+                      "href": "https://doi.org/10.3406/raipr.2011.4300",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Raison présente"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 178, p. 11-21."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-recherches-scientifiques-ou-universitaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Recherches scientifiques ou universitaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Bilge, Sirma (2009), "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "« Théorisations féministes de l’intersectionnalité »"
+                        }
+                      ],
+                      "href": "https://shs.cairn.info/revue-diogene-2009-1-page-70?lang=fr",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Diogène"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 225, p. 70-88."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Bilge, Sirma (2013), "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "« Intersectionality Undone: Saving Intersectionality from Feminist Intersectionality Studies »"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1017/S1742058X13000283",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Du Bois Review"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 10(2), p. 405-424."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Bilge, Sirma (2015), "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "« Le blanchiment de l’intersectionnalité »"
+                        }
+                      ],
+                      "href": "https://doi.org/10.7202/1034173ar",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Recherches féministes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 28(2), p. 9-32."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Bowleg, Lisa (2008), "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "« When Black + Lesbian + Woman ≠ Black Lesbian Woman »"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1007/s11199-008-9400-z",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Sex Roles"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 59, p. 312-325."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Cho, Sumi, Kimberlé W. Crenshaw et Leslie McCall (2013), "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "« Toward a Field of Intersectionality Studies: Theory, Applications, and Praxis »"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1086/669608",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Signs"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 38(4), p. 785-810."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Davis, Kathy (2008), "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "« Intersectionality as Buzzword »"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1177/1464700108086364",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Feminist Theory"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 9(1), p. 67-85."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Galerand, Elsa et Danièle Kergoat (2014), "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "« Consubstantialité vs intersectionnalité ? À propos de l’imbrication des rapports sociaux »"
+                        }
+                      ],
+                      "href": "https://doi.org/10.7202/1029261ar",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Nouvelles pratiques sociales"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 26(2), p. 44-61."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Hancock, Ange-Marie (2007), "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "« Intersectionality as a Normative and Empirical Paradigm »"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1017/S1743923X07000062",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Politics & Gender"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 3(2), p. 248-254."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Jaunait, Alexandre et Sébastien Chauvin (2012), "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "« Représenter l’intersection : les théories de l’intersectionnalité à l’épreuve des sciences sociales »"
+                        }
+                      ],
+                      "href": "https://doi.org/10.3917/rfsp.621.0005",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Revue française de science politique"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 62(1), p. 5-20."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "McCall, Leslie (2005), "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "« The Complexity of Intersectionality »"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1086/426800",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Signs"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 30(3), p. 1771-1800."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-sources-institutionnelles-et-professionnelles",
+            "content": [
+              {
+                "type": "text",
+                "text": "Sources institutionnelles et professionnelles"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Conseil de l’Europe, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "« Intersectionality and Multiple Discrimination »"
+                        }
+                      ],
+                      "href": "https://www.coe.int/en/web/gender-matters/intersectionality-and-multiple-discrimination",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", consulté le 31 juillet 2026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Fredman, Sandra (2016), "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Intersectional Discrimination in EU Gender Equality and Non-discrimination Law"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://op.europa.eu/en/publication-detail/-/publication/d73a9221-b7c3-40f6-8414-8a48a2157a2f/language-en",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", Commission européenne."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-critiques-et-retours-de-pratique",
+            "content": [
+              {
+                "type": "text",
+                "text": "Critiques et retours de pratique"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Les critiques de Bilge (2013, 2015) sont mobilisées comme analyses scientifiques situées de la dépolitisation et des politiques du savoir, non comme rejet global du concept."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Le mode gelé "
+                    },
+                    {
+                      "type": "code",
+                      "text": "130_Mode_Intersectionnalites_V1.md"
+                    },
+                    {
+                      "type": "text",
+                      "text": " constitue la source éditoriale des situations, de la matrice et des feedbacks ; il illustre le cadre sans fournir de preuve empirique sur la fréquence des mécanismes."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "quote",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Limite du modèle"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": "   Mosaïque met en scène des configurations explicites pour soutenir une enquête collective. Il simplifie des rapports sociaux dynamiques, ne remplace ni l’écoute d’une personne réelle ni une analyse institutionnelle complète, et ne transforme jamais une identité en prédiction."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "takeaways": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’intersectionnalité analyse une "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "configuration de pouvoir"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", pas un inventaire d’identités."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’articulation produit un mécanisme spécifique : isoler chaque dimension rend une partie de la situation invisible."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une réponse professionnelle intersectionnelle coordonne règles, ressources, participation et confidentialité sans demander à l’élève de hiérarchiser ses identités."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Dans une procédure de votre établissement, une adaptation pensée pour répondre à un besoin peut-elle créer un nouvel obstacle — d’accès, de coût, de transport, de confidentialité ou de reconnaissance — et qui participe aujourd’hui à la vérification de cet effet ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Approfondir revient sur le problème juridique formulé par Crenshaw, les généalogies féministes noires, la matrice de domination de Collins, la consubstantialité de Kergoat, les débats méthodologiques et les limites du test de soustraction utilisé dans Mosaïque."
+        }
+      ]
+    }
+  ],
+  "professionalQuestion": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Approfondir revient sur le problème juridique formulé par Crenshaw, les généalogies féministes noires, la matrice de domination de Collins, la consubstantialité de Kergoat, les débats méthodologiques et les limites du test de soustraction utilisé dans Mosaïque."
+        }
+      ]
+    }
+  ],
+  "debriefQuestions": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Que s’est-il passé dans la scène, sans attribuer d’intention ni de ressenti non indiqué ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle norme, procédure, représentation ou distribution de ressources relie les différentes dimensions ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans quel autre contexte l’effet pourrait-il changer, disparaître ou concerner un autre personnage ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle protection modifierait la situation sans résoudre un besoin au détriment d’un autre ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Que peut transformer un professionnel, une équipe et l’institution, et comment associer l’élève sans diffuser davantage d’informations ?"
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "centralSources": [
+    "S024",
+    "S025",
+    "S026",
+    "S027",
+    "S028",
+    "S029",
+    "S030",
+    "S069",
+    "S070",
+    "S071",
+    "S072",
+    "S073",
+    "S074",
+    "S075",
+    "S076",
+    "S077",
+    "S078",
+    "S128",
+    "S148"
+  ],
+  "moduleBibliography": [
+    {
+      "type": "table",
+      "headers": [
+        [
+          {
+            "type": "text",
+            "text": "Source"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Type"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Apport au module"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Limite ou vigilance"
+          }
+        ]
+      ],
+      "rows": [
+        [
+          [
+            {
+              "type": "text",
+              "text": "Crenshaw, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Demarginalizing the Intersection of Race and Sex »"
+                }
+              ],
+              "href": "https://careprogram.ucla.edu/education/readings/Crenshaw1989",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 1989"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Texte original"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Cadre à axe unique, problème juridique, non-additivité"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Droit états-unien et affaires d’emploi ; ne fonde pas une théorie universelle"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Crenshaw, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Mapping the Margins »"
+                }
+              ],
+              "href": "https://blogs.law.columbia.edu/critique1313/files/2020/02/1229039.pdf",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 1991"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Texte original"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dimensions structurelle, politique et représentationnelle"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Terrain des violences faites aux femmes de couleur ; concept présenté comme provisoire"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Collins, "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Black Feminist Thought"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 1990/2000"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ouvrage original"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Matrice de domination, domaines du pouvoir, savoir et action"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Non synonyme de l’intersectionnalité chez Crenshaw"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Kergoat, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Comprendre les rapports sociaux »"
+                }
+              ],
+              "href": "https://www.persee.fr/doc/raipr_0033-9075_2011_num_178_1_4300",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 2011"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Article original"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Rapport social, consubstantialité, coextensivité"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Tradition matérialiste distincte, non traduction directe"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "McCall, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« The Complexity of Intersectionality »"
+                }
+              ],
+              "href": "https://doi.org/10.1086/426800",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 2005"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Article méthodologique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Trois rapports aux catégories ; comparaisons qualitatives et quantitatives"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Typologie non exhaustive et catégories provisoires"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Bowleg, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« When Black + Lesbian + Woman ≠ Black Lesbian Woman »"
+                }
+              ],
+              "href": "https://doi.org/10.1007/s11199-008-9400-z",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 2008"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Article méthodologique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Critique de l’addition dans la mesure et l’interprétation"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Exemples empiriques circonscrits"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Bilge, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Intersectionality Undone »"
+                }
+              ],
+              "href": "https://doi.org/10.1017/S1742058X13000283",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 2013"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Critique scientifique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dépolitisation, blanchiment et institutionnalisation"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Analyse située de tendances, pas verdict sur tous les usages"
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-1-textes-originaux-et-sources-primaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Textes originaux et sources primaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Combahee River Collective (1977), "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "« The Combahee River Collective Statement »"
+                  }
+                ],
+                "href": "https://americanstudies.yale.edu/sites/default/files/files/Keyword%20Coalition_Readings.pdf",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Crenshaw, Kimberlé (1989), "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "« Demarginalizing the Intersection of Race and Sex: A Black Feminist Critique of Antidiscrimination Doctrine, Feminist Theory and Antiracist Politics »"
+                  }
+                ],
+                "href": "https://careprogram.ucla.edu/education/readings/Crenshaw1989",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "University of Chicago Legal Forum"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", p. 139-167."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Crenshaw, Kimberlé (1991), "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "« Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color »"
+                  }
+                ],
+                "href": "https://blogs.law.columbia.edu/critique1313/files/2020/02/1229039.pdf",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stanford Law Review"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 43(6), p. 1241-1299."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Collins, Patricia Hill (1990 ; 2e éd. 2000), "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Black Feminist Thought: Knowledge, Consciousness, and the Politics of Empowerment"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", Routledge."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Collins, Patricia Hill et Sirma Bilge (2020), "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Intersectionality"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 2e éd."
+                  }
+                ],
+                "href": "https://www.politybooks.com/bookdetail?book_slug=intersectionality-2nd-edition--9781509539673",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", Polity."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "King, Deborah K. (1988), "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "« Multiple Jeopardy, Multiple Consciousness: The Context of a Black Feminist Ideology »"
+                  }
+                ],
+                "href": "https://doi.org/10.1086/494491",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Signs"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 14(1), p. 42-72."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Kergoat, Danièle (2011), "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "« Comprendre les rapports sociaux »"
+                  }
+                ],
+                "href": "https://doi.org/10.3406/raipr.2011.4300",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Raison présente"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 178, p. 11-21."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-2-recherches-scientifiques-ou-universitaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Recherches scientifiques ou universitaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Bilge, Sirma (2009), "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "« Théorisations féministes de l’intersectionnalité »"
+                  }
+                ],
+                "href": "https://shs.cairn.info/revue-diogene-2009-1-page-70?lang=fr",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Diogène"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 225, p. 70-88."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Bilge, Sirma (2013), "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "« Intersectionality Undone: Saving Intersectionality from Feminist Intersectionality Studies »"
+                  }
+                ],
+                "href": "https://doi.org/10.1017/S1742058X13000283",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Du Bois Review"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 10(2), p. 405-424."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Bilge, Sirma (2015), "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "« Le blanchiment de l’intersectionnalité »"
+                  }
+                ],
+                "href": "https://doi.org/10.7202/1034173ar",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Recherches féministes"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 28(2), p. 9-32."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Bowleg, Lisa (2008), "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "« When Black + Lesbian + Woman ≠ Black Lesbian Woman »"
+                  }
+                ],
+                "href": "https://doi.org/10.1007/s11199-008-9400-z",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Sex Roles"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 59, p. 312-325."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cho, Sumi, Kimberlé W. Crenshaw et Leslie McCall (2013), "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "« Toward a Field of Intersectionality Studies: Theory, Applications, and Praxis »"
+                  }
+                ],
+                "href": "https://doi.org/10.1086/669608",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Signs"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 38(4), p. 785-810."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Davis, Kathy (2008), "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "« Intersectionality as Buzzword »"
+                  }
+                ],
+                "href": "https://doi.org/10.1177/1464700108086364",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Feminist Theory"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 9(1), p. 67-85."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Galerand, Elsa et Danièle Kergoat (2014), "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "« Consubstantialité vs intersectionnalité ? À propos de l’imbrication des rapports sociaux »"
+                  }
+                ],
+                "href": "https://doi.org/10.7202/1029261ar",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Nouvelles pratiques sociales"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 26(2), p. 44-61."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Hancock, Ange-Marie (2007), "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "« Intersectionality as a Normative and Empirical Paradigm »"
+                  }
+                ],
+                "href": "https://doi.org/10.1017/S1743923X07000062",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Politics & Gender"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 3(2), p. 248-254."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Jaunait, Alexandre et Sébastien Chauvin (2012), "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "« Représenter l’intersection : les théories de l’intersectionnalité à l’épreuve des sciences sociales »"
+                  }
+                ],
+                "href": "https://doi.org/10.3917/rfsp.621.0005",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Revue française de science politique"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 62(1), p. 5-20."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "McCall, Leslie (2005), "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "« The Complexity of Intersectionality »"
+                  }
+                ],
+                "href": "https://doi.org/10.1086/426800",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Signs"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 30(3), p. 1771-1800."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-3-sources-institutionnelles-et-professionnelles",
+      "content": [
+        {
+          "type": "text",
+          "text": "Sources institutionnelles et professionnelles"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Conseil de l’Europe, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "« Intersectionality and Multiple Discrimination »"
+                  }
+                ],
+                "href": "https://www.coe.int/en/web/gender-matters/intersectionality-and-multiple-discrimination",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", consulté le 31 juillet 2026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Fredman, Sandra (2016), "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Intersectional Discrimination in EU Gender Equality and Non-discrimination Law"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://op.europa.eu/en/publication-detail/-/publication/d73a9221-b7c3-40f6-8414-8a48a2157a2f/language-en",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", Commission européenne."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-4-critiques-et-retours-de-pratique",
+      "content": [
+        {
+          "type": "text",
+          "text": "Critiques et retours de pratique"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les critiques de Bilge (2013, 2015) sont mobilisées comme analyses scientifiques situées de la dépolitisation et des politiques du savoir, non comme rejet global du concept."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le mode gelé "
+              },
+              {
+                "type": "code",
+                "text": "130_Mode_Intersectionnalites_V1.md"
+              },
+              {
+                "type": "text",
+                "text": " constitue la source éditoriale des situations, de la matrice et des feedbacks ; il illustre le cadre sans fournir de preuve empirique sur la fréquence des mécanismes."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Limite du modèle"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "   Mosaïque met en scène des configurations explicites pour soutenir une enquête collective. Il simplifie des rapports sociaux dynamiques, ne remplace ni l’écoute d’une personne réelle ni une analyse institutionnelle complète, et ne transforme jamais une identité en prédiction."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": {
+    "modules": [
+      "M02",
+      "M12"
+    ],
+    "notions": [
+      "intersectionnalite",
+      "position-sociale"
+    ],
+    "situations": [
+      "X01",
+      "X03",
+      "X05",
+      "X12",
+      "X13",
+      "X14"
+    ],
+    "modes": [
+      "Intersectionnalités"
+    ]
+  },
+  "contentHash": "eb4154827ed3992c3d0017a1825a48ea8aa2f4205da0a278cf25a5c266cfa49d"
+}

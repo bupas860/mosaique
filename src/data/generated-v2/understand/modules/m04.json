@@ -1,0 +1,3908 @@
+{
+  "schemaVersion": "understand-public-v1",
+  "id": "M04",
+  "number": 4,
+  "title": "Normes, institutions et discriminations",
+  "status": "validated",
+  "pilot": false,
+  "directQuestion": "Comment une organisation ordinaire peut-elle produire des effets inégaux, même sans intention explicitement hostile ?",
+  "groupId": "G1",
+  "readingTime": {
+    "essential": "3 à 5 minutes",
+    "deepDive": "8 à 12 minutes"
+  },
+  "datedContent": [
+    {
+      "label": "Droit français et européen de la non-discrimination, vérifié le 31 juillet 2026",
+      "verifiedAt": "2026-07-31",
+      "scope": "canonical-module-scope"
+    }
+  ],
+  "essential": {
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Temps de lecture visé : 3 à 5 minutes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-1-1-question-de-depart",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. Question de départ"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Comment une organisation ordinaire peut-elle produire des effets inégaux, même sans intention explicitement hostile ?"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-2-2-reponse-synthetique",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. Réponse synthétique"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Une organisation prépare les possibilités avant même qu’une personne agisse. Un formulaire décide quelles familles peuvent être saisies sans correction ; un logiciel décide quelles informations sont visibles ; une procédure indique qui doit demander une exception ; un espace prévoit ou non une option d’intimité. Ces choix rendent certains parcours immédiats et d’autres plus coûteux en temps, en explication, en exposition ou en incertitude."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "L’effet peut donc être inégal sans qu’un professionnel prononce une insulte ou cherche consciemment à exclure. Une règle identique pour tous n’offre pas toujours le même accès réel. Inversement, observer un effet inégal ne suffit pas à qualifier juridiquement une discrimination. Le droit exige des conditions : un traitement ou désavantage, un lien avec un motif protégé, un domaine couvert, puis l’examen des comparaisons, justifications et exceptions applicables."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Mosaïque sépare des focales pour apprendre à décrire les mécanismes. Dans "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "V04"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ", l’adulte décide explicitement de refuser le prénom utilisé : le mode « Obstacles visibles » porte sur l’acte observable. Dans "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "N02"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ", personne ne formule d’hostilité ; le formulaire « père–mère » traite une configuration familiale comme modèle universel : le mode « Normes ordinaires » examine la catégorie et la procédure. Cette distinction ne classe ni la gravité ni la légalité. Elle indique où regarder."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-3-3-definition-operationnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. Définition opérationnelle"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Norme :"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " attente socialement partagée sur ce qui paraît fréquent, normal, approuvé ou requis. Une norme descriptive indique ce que les membres d’un groupe perçoivent comme fréquent ou habituel. Une norme injonctive indique ce que les membres de ce groupe pensent qu’il faut faire ou éviter."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Une "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "règle"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " formule explicitement ce qui est permis, interdit ou obligatoire. Une "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "habitude"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " est une pratique répétée, sans être forcément prescrite. Une "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "institution"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " est un ensemble durable de normes, règles, catégories et pratiques qui structure les interactions ; une "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "organisation"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " est un collectif situé, comme un établissement. Une "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "procédure"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " distribue étapes, informations, rôles et décisions. Une "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "catégorie"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " regroupe des cas et rend certains d’entre eux immédiatement reconnaissables par le système."
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Protection par conception :"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " organisation en amont des catégories, accès, options et responsabilités afin de réduire le risque, l’exposition et le travail d’exception. C’est une définition de travail Mosaïque, non une catégorie juridique autonome."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-4-4-exemple-mosaique",
+        "content": [
+          {
+            "type": "text",
+            "text": "4. Exemple Mosaïque"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Situation N02 — Le formulaire « Père — Mère »"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Pour une sortie, le document comporte seulement « signature du père » et « signature de la mère ». Sofia vit avec deux mères. Le formulaire oblige sa famille à barrer, réécrire ou expliquer. L’obstacle n’est pas une phrase hostile prononcée au moment de l’inscription : il est incorporé à l’outil."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "La catégorie produit deux effets. Elle facilite l’usage pour les familles conformes au modèle prévu ; elle transfère aux autres le travail de rendre leur situation recevable. Le levier ne consiste pas à demander à chaque professionnel d’être plus bienveillant devant le même document. Il consiste à revoir les champs, par exemple en parlant de responsables légaux et en permettant plusieurs entrées."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Cette scène "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "illustre"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " une norme familiale et un effet inégal. Elle ne prouve pas la fréquence du formulaire ni une discrimination juridiquement qualifiée. Pour cette dernière, il faudrait le contexte complet, les conséquences, le droit applicable et les justifications éventuelles."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-5-5-a-ne-pas-confondre",
+        "content": [
+          {
+            "type": "text",
+            "text": "5. À ne pas confondre"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Norme et loi ; intention et effet ; maladresse et discrimination ; analyse sociologique et qualification juridique ; neutralité déclarée et égalité réelle ; adaptation individuelle et transformation de l’organisation."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Une norme sociale peut exister sans être légale, et une règle légale peut contredire une habitude. Une maladresse peut produire un dommage sans remplir les critères juridiques d’une discrimination. À l’inverse, l’absence d’hostilité déclarée n’exclut pas une discrimination indirecte. La sociologie étudie des processus plus larges que les qualifications du droit. Enfin, aider ponctuellement une personne peut être nécessaire sans corriger la procédure qui recrée l’obstacle."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-6-6-trois-idees-a-retenir",
+        "content": [
+          {
+            "type": "text",
+            "text": "6. Trois idées à retenir"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Les catégories, défauts, espaces et circuits d’information distribuent des marges de manœuvre avant l’interaction."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "L’intention et l’effet sont deux questions distinctes ; tout effet inégal n’est cependant pas une discrimination juridique."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Une protection durable réduit le travail d’exception par conception et attribue clairement la responsabilité de la règle, de l’outil et de sa correction."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-7-7-question-de-reflexion-professionnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "7. Question de réflexion professionnelle"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans un outil ou une procédure de votre établissement, quelles informations sont réellement nécessaires, qui doit demander une exception ou corriger le cas par défaut, et quelle modification atteindrait l’objectif avec moins d’exposition et d’inégalité ?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-8-8-pour-aller-plus-loin",
+        "content": [
+          {
+            "type": "text",
+            "text": "8. Pour aller plus loin"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "La partie Approfondir distingue les normes descriptives et injonctives, le curriculum caché, les classifications, les définitions juridiques directe et indirecte, ainsi que les usages discutés d’institutionnel, structurel et systémique. Elle montre aussi comment N12 et N13 passent de l’adaptation ponctuelle à une protection préparée."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-9-sources-centrales-de-l-essentiel",
+        "content": [
+          {
+            "type": "text",
+            "text": "Sources centrales de L’essentiel"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "France, "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "loi nº 2008-496 du 27 mai 2008, art. 1 et 2"
+                    }
+                  ],
+                  "href": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000018877783/",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "France, "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "Code pénal, art. 225-1 à 225-4"
+                    }
+                  ],
+                  "href": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070719/LEGISCTA000006165298/",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Devah Pager et Hana Shepherd, "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "“The Sociology of Discrimination”"
+                    }
+                  ],
+                  "href": "https://doi.org/10.1146/annurev.soc.33.040406.131740",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", 2008."
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "deepDive": {
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "Introduction",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Temps de lecture visé : 8 à 12 minutes."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1-probleme-theorique-l-ordinaire-n-est-pas-neutre-par-definition",
+        "title": "1. Problème théorique : l’ordinaire n’est pas neutre par définition",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une organisation a besoin de simplifier. Elle classe les demandes, établit des horaires, répartit des salles, définit les accès et automatise des étapes. Sans catégories ni routines, l’action collective serait imprévisible. Mais toute simplification choisit un cas de référence. Le problème n’est pas que les catégories existent ; il est de savoir "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "quels cas elles rendent immédiats, quels cas elles effacent et qui supporte la réparation"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le langage ordinaire masque facilement ce pouvoir. On dit « le logiciel remonte l’information », « le formulaire demande », « on a toujours fait ainsi ». Ces phrases font disparaître les décisions de conception et leur maintenance. L’outil n’a pas une intention, mais il matérialise des choix humains, contractuels et institutionnels. Ses effets dépendent ensuite des usages, des droits d’accès et des ressources des personnes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une seconde difficulté vient du mot "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "discrimination"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Dans la conversation, il peut désigner toute injustice ; en sociologie, un traitement différentiel ou un processus produisant des inégalités entre groupes ; en droit, des catégories et conditions déterminées. Employer le même terme sans préciser le niveau crée deux erreurs : déclarer illégale toute scène inégalitaire, ou conclure que ce qui n’est pas juridiquement qualifié serait sans problème social."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Enfin, intention et effet ne s’opposent pas simplement. Une pratique neutre en apparence peut être consciemment adoptée sans intention de désavantager ; elle peut pourtant produire un désavantage particulier. Une personne peut aussi agir avec hostilité sans que les faits disponibles remplissent toutes les conditions d’une infraction. L’analyse commence donc par décrire : acte, règle, personnes comparées, effet, motif, domaine, justification et pouvoir de transformation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2-reperes-historiques-et-juridiques",
+        "title": "2. Repères historiques et juridiques",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-normes-et-institutions",
+            "content": [
+              {
+                "type": "text",
+                "text": "Normes et institutions"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Durkheim définissait la sociologie comme science des institutions, entendues largement comme manières collectives de penser et d’agir. Berger et Luckmann ont montré comment des actions répétées deviennent habitudes prévisibles, puis rôles et institutions. North, dans une autre tradition, distingue les institutions — règles formelles, contraintes informelles et modalités de mise en œuvre — des organisations qui agissent dans ce cadre."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ces traditions ne donnent pas une définition unique. Elles convergent sur une idée utile : une institution dure au-delà d’une interaction particulière et rend certaines conduites prévisibles. Le formulaire, le logiciel ou le vestiaire sont des matérialisations locales de catégories plus larges."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-droit-europeen-et-francais",
+            "content": [
+              {
+                "type": "text",
+                "text": "Droit européen et français"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le droit européen de la non-discrimination s’est développé par traités, directives et jurisprudence. Les directives 2000/43/CE et 2000/78/CE ont notamment systématisé des définitions de la discrimination directe et indirecte dans des champs et pour des motifs distincts. La loi française nº 2008-496 du 27 mai 2008 en transpose des éléments et définit ces deux notions."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le Code pénal suit une logique propre. Ses articles 225-1 et 225-2 énumèrent des motifs et des actes punissables ; l’article 121-3 pose le principe d’intention des crimes et délits, sauf cas prévus. Le raisonnement pénal ne doit pas être confondu avec la discrimination indirecte en matière civile, sociale ou administrative."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-institutionnel-structurel-systemique",
+            "content": [
+              {
+                "type": "text",
+                "text": "Institutionnel, structurel, systémique"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les sciences sociales ont développé plusieurs typologies. Pincus distingue individuel, institutionnel et structurel en faisant de l’intention un critère important. D’autres auteurs emploient "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "institutionnel"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " pour des routines à effets inégaux même sans intention. Reskin analyse la discrimination raciale comme système où plusieurs domaines interagissent. Le Défenseur des droits mobilise aujourd’hui la dimension systémique pour appeler des réponses collectives."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fait établi :"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " ces termes ont des usages scientifiques et institutionnels documentés. "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Absence de consensus :"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " leurs frontières ne sont pas universelles et ils ne constituent pas trois infractions générales du droit français. "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Choix éditorial :"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Mosaïque les emploie comme focales sur l’échelle de production et de reproduction de l’effet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3-concepts-et-auteurs-reellement-utiles",
+        "title": "3. Concepts et auteurs réellement utiles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-normes-descriptives-et-injonctives",
+            "content": [
+              {
+                "type": "text",
+                "text": "Normes descriptives et injonctives"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cialdini, Reno et Kallgren distinguent ce que les personnes pensent que les autres font de ce qu’elles pensent que les autres approuvent. Leurs expériences portent sur le dépôt de déchets, non sur le genre ou l’école. La distinction reste opérationnelle : « la plupart des élèves sont inscrits dans ces deux catégories » est descriptif ; « chacun doit appartenir sans ambiguïté à l’une d’elles » est injonctif."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une règle peut renforcer les deux : en n’offrant que deux options, l’outil montre ces catégories comme usuelles et oblige à les choisir. Une habitude peut avoir le même effet sans texte. Le professionnel doit donc demander si l’attente est écrite, incorporée à un défaut, portée par les pairs ou seulement supposée."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-curriculum-cache",
+            "content": [
+              {
+                "type": "text",
+                "text": "Curriculum caché"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Life in Classrooms"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", Philip Jackson décrit les apprentissages liés aux routines scolaires au-delà du programme formel. Les usages ultérieurs parlent de "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "curriculum caché"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " pour les normes, attentes et hiérarchies transmises par l’organisation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "« Caché » ne signifie pas volontairement secret. Une séance EVARS peut enseigner explicitement des connaissances et, par la séparation des groupes ou ses exemples, apprendre implicitement que les besoins dépendent automatiquement d’un genre binaire. Ce second apprentissage doit être analysé sans attribuer une intention certaine à l’équipe."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-categories-et-infrastructures",
+            "content": [
+              {
+                "type": "text",
+                "text": "Catégories et infrastructures"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Bowker et Star montrent que les classifications sont l’échafaudage des infrastructures d’information. Elles permettent la coordination, mais distribuent visibilité et résidus : ce qui n’entre pas dans la case demande du travail supplémentaire. Star et Ruhleder ajoutent qu’une infrastructure est relationnelle. Un ENT transparent pour un élève peut devenir dispositif de divulgation pour un autre selon les accès familiaux et ce qui est déjà connu."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cette approche empêche deux raccourcis : « l’outil est neutre parce qu’il traite tout le monde pareil » et « l’outil est seul responsable ». Il faut examiner conception, paramétrage, droits, usages, assistance, corrections et personnes ayant autorité pour changer le système."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-hetero-cis-allo-et-amatonormativites",
+            "content": [
+              {
+                "type": "text",
+                "text": "Hétéro-, cis-, allo- et amatonormativités"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "hétéronormativité"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " présume l’hétérosexualité comme évidente et organise les genres autour de cette attente. La "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "cisnormativité"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", employée notamment par Bauer et ses collègues pour analyser l’effacement trans en santé, présume que toutes les personnes sont ou devraient être cisgenres. La norme binaire traite filles et garçons comme deux catégories exclusives qui suffisent à organiser les espaces et contenus."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Emens analyse la "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "sexualité obligatoire"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", présomption que toute personne éprouve ou devrait éprouver une attirance sexuelle. Brake nomme "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "amatonormativité"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " la présomption qu’une relation amoureuse exclusive et centrale est l’objectif normal. Ces concepts éclairent des cartes différentes. Ils ne doivent pas être empilés comme étiquettes ni utilisés pour déduire une discrimination juridique."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-protection-par-conception-et-design-justice",
+            "content": [
+              {
+                "type": "text",
+                "text": "Protection par conception et design justice"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Costanza-Chock relie design et pouvoir : qui participe, qui bénéficie, qui supporte les charges et quelles alternatives sont rendues possibles ? Mosaïque en tire une définition de travail de la protection par conception. L’objectif est de prévoir l’option, la confidentialité et la responsabilité avant l’incident, plutôt que de laisser chaque personne négocier une faveur."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4-controverses-ou-limites",
+        "title": "4. Controverses ou limites",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-neutralite-et-justification",
+            "content": [
+              {
+                "type": "text",
+                "text": "Neutralité et justification"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une règle neutre dans sa formulation peut produire un désavantage ; une différence de traitement peut aussi être justifiée par un but légitime avec des moyens nécessaires et appropriés dans le cadre applicable. L’analyse ne doit donc ni sacraliser la neutralité déclarée ni présumer que tout écart est injustifiable. Elle documente l’objectif, l’effet, les alternatives et la proportionnalité."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-intention",
+            "content": [
+              {
+                "type": "text",
+                "text": "Intention"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dire « l’intention ne compte pas » serait faux. Elle compte moralement, professionnellement et dans certaines qualifications juridiques, notamment pénales. Dire « seule l’intention compte » serait également faux : la discrimination indirecte et l’analyse institutionnelle examinent des effets sans hostilité explicite. Le module pose deux questions séparées : que cherchait-on à faire, et qu’a produit l’organisation ?"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-termes-sociologiques-concurrents",
+            "content": [
+              {
+                "type": "text",
+                "text": "Termes sociologiques concurrents"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Institutionnel, structurel et systémique ne décrivent pas une montée automatique en gravité. Les définitions varient. Le dossier adopte : institutionnel pour les règles et routines d’une organisation ; structurel pour la configuration durable de plusieurs institutions et ressources ; systémique pour leurs interactions et effets émergents. Ces choix doivent rester annoncés comme tels."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-inference-depuis-une-carte",
+            "content": [
+              {
+                "type": "text",
+                "text": "Inférence depuis une carte"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une scène fictive ne fournit ni données de fréquence, ni comparaison complète, ni enquête sur les causes. Elle peut rendre un mécanisme visible, pas établir l’existence d’un système entier. De même, un feedback « reste » ne certifie pas le vécu intérieur du personnage."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-protection-ponctuelle-et-transformation",
+            "content": [
+              {
+                "type": "text",
+                "text": "Protection ponctuelle et transformation"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une procédure protectrice peut dépendre d’une équipe, d’un budget ou d’un logiciel fragiles. Elle améliore la scène sans nécessairement transformer les structures plus larges. L’évaluation doit vérifier sa durabilité, son accessibilité, la possibilité de recours et les effets inattendus."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5-application-precise-a-mosaique",
+        "title": "5. Application précise à Mosaïque",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-v04-et-n02-deux-lieux-de-production",
+            "content": [
+              {
+                "type": "text",
+                "text": "V04 et N02 : deux lieux de production"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans V04, le refus est prononcé après la demande. Le pouvoir de l’adulte et sa réaction sont au premier plan. Dans N02, le formulaire précède la rencontre. L’éventuel professionnel bienveillant devra composer avec une catégorie déjà inscrite. Les deux scènes peuvent réduire reconnaissance ou participation, mais elles orientent vers des leviers différents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cette différence ne recouvre pas directement discrimination directe/indirecte. « Visible » et « ordinaire » sont des modes pédagogiques ; direct et indirect sont des qualifications juridiques."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-n03-divulgation-par-defaut",
+            "content": [
+              {
+                "type": "text",
+                "text": "N03 : divulgation par défaut"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le nom du groupe « Élèves LGBT+ et alliés » apparaît automatiquement sur le compte familial. L’inscription ne prouve aucune identité, mais l’affichage peut susciter des questions. Le feedback varie selon ce que le profil indique de la connaissance familiale. Personne ne diffuse intentionnellement l’information dans la scène ; l’effet vient du paramétrage, des droits d’accès et du contexte."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le levier professionnel est concret : information générique, contrôle de visibilité, consentement, vérification des destinataires et recours. La confidentialité ne doit pas dépendre de la capacité de l’élève à anticiper le défaut."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-n06-et-n07-classement-contenu-et-intimite",
+            "content": [
+              {
+                "type": "text",
+                "text": "N06 et N07 : classement, contenu et intimité"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "N06 répartit une séance EVARS entre filles et garçons avec des interventions différentes. Sam, personnage non binaire, ne correspond à aucun groupe ; Noé peut devoir vérifier comment le dossier administratif le classe. Le mécanisme concerne aussi l’attribution des besoins éducatifs selon le genre."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "N07 utilise le même classement pour des vestiaires collectifs sans option individuelle. S’ajoutent exposition corporelle, confidentialité et hypervigilance. Les cartes distinguent les mécanismes ; elles ne déclarent pas que toute séparation a le même effet."
+              }
+            ]
+          },
+          {
+            "type": "quote",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Droit et institutions — vérifié le 31 juillet 2026"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": "   L’article 1er de la loi nº 2008-496 définit la discrimination directe et indirecte. L’article 2 couvre notamment l’éducation, mais précise aussi que les principes énoncés ne font notamment pas obstacle à l’organisation d’enseignements par regroupement des élèves selon le sexe. N06 ne peut donc être qualifiée d’illégale sur son seul texte. Une analyse juridique exige motif, domaine, effet, comparaison, justification, exceptions et autres règles applicables. Le Code pénal vise des actes déterminés aux articles 225-1 et 225-2 et comporte l’exigence générale d’intention de l’article 121-3."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-n12-et-n13-preparer-la-protection",
+            "content": [
+              {
+                "type": "text",
+                "text": "N12 et N13 : préparer la protection"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "N12 distingue données administratives, prénom utilisé et destinataires ; l’élève sait qui verra quoi. N13 propose à chaque élève un échange privé sur chambres, douches et vestiaires, sans exiger de motif public. Tous avancent."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ces scènes déplacent la charge : la personne n’attend pas un incident pour demander une exception. L’organisation prépare une possibilité ordinaire, limite les informations et attribue une responsabilité. La même règle n’est pas imposée indistinctement ; l’objectif commun — participation et sécurité — est atteint par des options."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6-ce-que-le-concept-ne-permet-pas-d-affirmer",
+        "title": "6. Ce que le concept ne permet pas d’affirmer",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Une norme sociale n’est pas automatiquement une loi ni une pratique majoritaire mesurée."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Une intention bienveillante ne prouve pas l’égalité des effets ; un effet inégal ne prouve pas une intention hostile."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Une maladresse, une inégalité ou une norme ne remplit pas automatiquement les conditions juridiques d’une discrimination."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Une carte ne suffit pas à établir une discrimination institutionnelle, structurelle ou systémique dans un établissement réel."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Un outil ne détermine pas seul l’effet : paramétrage, usages, ressources et contexte comptent."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Une adaptation ponctuelle ne prouve pas une transformation durable de l’organisation."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7-implications-professionnelles",
+        "title": "7. Implications professionnelles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-observer-les-categories-et-les-defauts",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observer les catégories et les défauts"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Faire l’inventaire des formulaires, listes, menus, espaces et logiciels qui obligent à choisir une catégorie. Pour chaque défaut, demander : quelle situation a été prise comme référence ? qui peut continuer sans intervention ? qui doit contacter un adulte ou révéler une information ? Conserver seulement les informations nécessaires et documenter leurs destinataires."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-examiner-l-egalite-reelle",
+            "content": [
+              {
+                "type": "text",
+                "text": "Examiner l’égalité réelle"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une règle uniforme simplifie la gestion, mais peut déplacer le coût. Tester la procédure avec plusieurs situations sans réduire les personnes à des identités : famille avec deux responsables de même genre, prénom de vie scolaire différent, besoin d’intimité, accès familial à l’ENT, impossibilité de choisir une case binaire. Rechercher une option qui atteint l’objectif avec moins d’exposition."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-distribuer-la-responsabilite",
+            "content": [
+              {
+                "type": "text",
+                "text": "Distribuer la responsabilité"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’enseignant peut modifier une consigne ; l’équipe peut harmoniser une réponse ; la direction peut revoir les habilitations et contrats ; le fournisseur peut devoir changer l’architecture ; l’autorité académique ou le législateur fixe d’autres règles. Ne pas faire porter à l’élève la coordination entre ces niveaux."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-concevoir-la-protection",
+            "content": [
+              {
+                "type": "text",
+                "text": "Concevoir la protection"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Prévoir une option privée proposée à tous, une collecte minimale, des accès limités, une correction simple, un responsable et un recours. Associer des personnes affectées à la conception et tester les conséquences. Vérifier que la solution à un obstacle n’en crée pas un autre — par exemple qu’un aménagement ne rende pas une identité plus visible."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-documenter-avant-de-qualifier",
+            "content": [
+              {
+                "type": "text",
+                "text": "Documenter avant de qualifier"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Face à une situation réelle, distinguer le signal professionnel de la conclusion juridique. Conserver les faits, documents, comparateurs et conséquences ; identifier le domaine et les motifs potentiels ; orienter vers les personnes ou institutions compétentes. Le module aide à poser des questions, pas à remplacer une consultation juridique."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8-questions-de-debrief",
+        "title": "8. Questions de débrief",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quel acte, outil, espace ou enchaînement produit concrètement l’effet observé ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle norme descriptive ou injonctive, quelle catégorie ou quelle règle devient visible ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Pour quelles situations l’effet changerait-il, et quelles informations faudrait-il documenter avant de conclure ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle protection par conception réduirait l’exposition, le délai ou le travail d’exception ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Que peuvent transformer l’individu, l’équipe, la direction, le fournisseur ou l’autorité publique, et qui répond de la coordination ?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9-sources-cles-commentees",
+        "title": "9. Sources clés commentées",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Source"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Type"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Apport au module"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Limite ou vigilance"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "France, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "loi nº 2008-496 du 27 mai 2008, art. 1, 2 et 4"
+                      }
+                    ],
+                    "href": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000018877783/",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Source officielle"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Définitions directe/indirecte, domaines dont éducation, justifications, regroupement par sexe et charge de la preuve."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Application dépend du motif, du domaine, du contentieux et des faits."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "France, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "Code pénal, art. 121-3 et 225-1 à 225-4"
+                      }
+                    ],
+                    "href": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070719/LEGISCTA000006165298/",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Source officielle"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Intention pénale générale, motifs et actes punissables."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne résume pas tout le droit de la non-discrimination."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Robert Cialdini, Raymond Reno & Carl Kallgren, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "“A Focus Theory of Normative Conduct”"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1037/0022-3514.58.6.1015",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 1990."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Études expérimentales"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Distinction descriptive/injonctive et rôle de la saillance."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Terrain environnemental ; transposition aux normes scolaires conceptuelle."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Devah Pager & Hana Shepherd, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "“The Sociology of Discrimination”"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1146/annurev.soc.33.040406.131740",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 2008."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Revue scientifique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Traitement différentiel, méthodes de mesure, mécanismes individuels, organisationnels et structurels."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Centrée sur la discrimination raciale aux États-Unis."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Geoffrey Bowker & Susan Leigh Star, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "emphasis",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Sorting Things Out"
+                          }
+                        ]
+                      }
+                    ],
+                    "href": "https://direct.mit.edu/books/monograph/4738/Sorting-Things-OutClassification-and-Its",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 1999."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Monographie STS"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Les classifications rendent l’infrastructure possible et distribuent visibilité et travail résiduel."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Études de cas éloignées de l’école française."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Sasha Costanza-Chock, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "emphasis",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Design Justice"
+                          }
+                        ]
+                      }
+                    ],
+                    "href": "https://designjustice.mitpress.mit.edu/",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 2020."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Monographie théorique et cas"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Relie design, pouvoir, bénéfices, charges et participation."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "« Protection par conception » est une synthèse Mosaïque, non une citation ni un standard juridique."
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10-bibliographie-complete",
+        "title": "10. Bibliographie complète",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-textes-originaux-et-sources-primaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Textes originaux et sources primaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "France, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "Code pénal, article 121-3"
+                        }
+                      ],
+                      "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417208",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", version vérifiée le 31 juillet 2026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "France, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "Code pénal, articles 225-1 à 225-4"
+                        }
+                      ],
+                      "href": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070719/LEGISCTA000006165298/",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", version au 31 juillet 2026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "France, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "loi nº 2008-496 du 27 mai 2008"
+                        }
+                      ],
+                      "href": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000018877783/",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", articles 1, 2 et 4, version vérifiée le 31 juillet 2026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "France, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "loi nº 2025-391 du 30 avril 2025, article 16"
+                        }
+                      ],
+                      "href": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000051539065",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", régime de l’action de groupe."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Union européenne, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "directive 2000/43/CE"
+                        }
+                      ],
+                      "href": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32000L0043",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": " et "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "directive 2000/78/CE"
+                        }
+                      ],
+                      "href": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32000L0078",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-recherches-scientifiques-ou-universitaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Recherches scientifiques ou universitaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Bauer, Greta R. et al., "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“‘I Don’t Think This Is Theoretical; This Is Our Lives’: How Erasure Impacts Health Care for Transgender People”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1016/j.jana.2009.07.004",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Journal of the Association of Nurses in AIDS Care"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 20(5), 2009, p. 348–361."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Berger, Peter L., & Thomas Luckmann, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "The Social Construction of Reality"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://amstudugm.wordpress.com/wp-content/uploads/2011/04/social-construction-of-reality.pdf",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 1966."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Bicchieri, Cristina, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "The Grammar of Society"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://books.google.com/books?id=4N1FDIZvcI8C",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", Cambridge University Press, 2006."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Bowker, Geoffrey C., & Susan Leigh Star, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Sorting Things Out: Classification and Its Consequences"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://direct.mit.edu/books/monograph/4738/Sorting-Things-OutClassification-and-Its",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", MIT Press, 1999."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Brake, Elizabeth, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Minimizing Marriage"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://doi.org/10.1093/acprof:oso/9780199774142.001.0001",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", Oxford University Press, 2012."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Cialdini, Robert B., Raymond R. Reno & Carl A. Kallgren, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“A Focus Theory of Normative Conduct”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1037/0022-3514.58.6.1015",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Journal of Personality and Social Psychology"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 58(6), 1990, p. 1015–1026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Costanza-Chock, Sasha, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Design Justice"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://designjustice.mitpress.mit.edu/",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", MIT Press, 2020."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Emens, Elizabeth F., "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“Compulsory Sexuality”"
+                        }
+                      ],
+                      "href": "https://www.stanfordlawreview.org/wp-content/uploads/sites/3/2014/02/66_Stan_L_Rev_303_Emens.pdf",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Stanford Law Review"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 66(2), 2014, p. 303–386."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Jackson, Philip W., "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Life in Classrooms"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://books.google.com/books/about/Life_in_Classrooms.html?id=W46Gu6wwYsQC",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", Holt, Rinehart & Winston, 1968."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "North, Douglass C., "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Institutions, Institutional Change and Economic Performance"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://www.cambridge.org/core/books/institutions-institutional-change-and-economic-performance/AAE1E27DF8996E24C5DD07EB79BBA7EE",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", Cambridge University Press, 1990."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Pager, Devah, & Hana Shepherd, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“The Sociology of Discrimination”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1146/annurev.soc.33.040406.131740",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Annual Review of Sociology"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 34, 2008, p. 181–209."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Pincus, Fred L., "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“Discrimination Comes in Many Forms”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1177/0002764296040002009",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "American Behavioral Scientist"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 40(2), 1996, p. 186–194."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Reskin, Barbara, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“The Race Discrimination System”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1146/annurev-soc-071811-145508",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Annual Review of Sociology"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 38, 2012, p. 17–35."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Star, Susan Leigh, & Karen Ruhleder, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“Steps Toward an Ecology of Infrastructure”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1287/isre.7.1.111",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Information Systems Research"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 7(1), 1996, p. 111–134."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-sources-institutionnelles-et-professionnelles",
+            "content": [
+              {
+                "type": "text",
+                "text": "Sources institutionnelles et professionnelles"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Défenseur des droits, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "« Lutter contre les discriminations : du recours individuel aux leviers systémiques »"
+                        }
+                      ],
+                      "href": "https://www.defenseurdesdroits.fr/lutter-contre-les-discriminations-du-recours-individuel-aux-leviers-systemiques-retour-sur-le-557",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 2024, consulté le 31 juillet 2026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Défenseur des droits, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "Rapport annuel d’activité 2025"
+                        }
+                      ],
+                      "href": "https://www.defenseurdesdroits.fr/sites/default/files/2026-04/ddd_rapport-annuel-2025_20260407.pdf",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", publié en 2026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Union européenne, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "normes applicables aux organismes pour l’égalité, directives 2024/1499 et 2024/1500"
+                        }
+                      ],
+                      "href": "https://eur-lex.europa.eu/FR/legal-content/summary/standards-for-equality-bodies-in-the-field-of-equal-treatment-and-equal-opportunities.html",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", état vérifié le 31 juillet 2026."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-critiques-et-retours-de-pratique",
+            "content": [
+              {
+                "type": "text",
+                "text": "Critiques et retours de pratique"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Les divergences entre définitions d’institutionnel, structurel et systémique sont présentées comme controverse scientifique. Aucun guide professionnel n’est utilisé pour les transformer en catégories juridiques."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "limite-du-modele",
+        "title": "Limite du modèle",
+        "blocks": [
+          {
+            "type": "quote",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Les scènes Mosaïque permettent d’isoler une focale afin de rendre un mécanisme discutable. Dans le réel, interaction, procédure, représentation et rapports sociaux agissent ensemble. Le découpage des modes ne doit jamais devenir une hiérarchie de gravité ni une qualification juridique automatique."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "takeaways": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les catégories, défauts, espaces et circuits d’information distribuent des marges de manœuvre avant l’interaction."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’intention et l’effet sont deux questions distinctes ; tout effet inégal n’est cependant pas une discrimination juridique."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une protection durable réduit le travail d’exception par conception et attribue clairement la responsabilité de la règle, de l’outil et de sa correction."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Dans un outil ou une procédure de votre établissement, quelles informations sont réellement nécessaires, qui doit demander une exception ou corriger le cas par défaut, et quelle modification atteindrait l’objectif avec moins d’exposition et d’inégalité ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "La partie Approfondir distingue les normes descriptives et injonctives, le curriculum caché, les classifications, les définitions juridiques directe et indirecte, ainsi que les usages discutés d’institutionnel, structurel et systémique. Elle montre aussi comment N12 et N13 passent de l’adaptation ponctuelle à une protection préparée."
+        }
+      ]
+    }
+  ],
+  "professionalQuestion": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "La partie Approfondir distingue les normes descriptives et injonctives, le curriculum caché, les classifications, les définitions juridiques directe et indirecte, ainsi que les usages discutés d’institutionnel, structurel et systémique. Elle montre aussi comment N12 et N13 passent de l’adaptation ponctuelle à une protection préparée."
+        }
+      ]
+    }
+  ],
+  "debriefQuestions": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quel acte, outil, espace ou enchaînement produit concrètement l’effet observé ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle norme descriptive ou injonctive, quelle catégorie ou quelle règle devient visible ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Pour quelles situations l’effet changerait-il, et quelles informations faudrait-il documenter avant de conclure ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle protection par conception réduirait l’exposition, le délai ou le travail d’exception ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Que peuvent transformer l’individu, l’équipe, la direction, le fournisseur ou l’autorité publique, et qui répond de la coordination ?"
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "centralSources": [
+    "S009",
+    "S010",
+    "S011",
+    "S012",
+    "S013",
+    "S014",
+    "S015",
+    "S016",
+    "S017",
+    "S018",
+    "S053",
+    "S054",
+    "S055",
+    "S056",
+    "S103",
+    "S104",
+    "S105",
+    "S106",
+    "S122",
+    "S123",
+    "S124",
+    "S125",
+    "S144",
+    "S145"
+  ],
+  "moduleBibliography": [
+    {
+      "type": "table",
+      "headers": [
+        [
+          {
+            "type": "text",
+            "text": "Source"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Type"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Apport au module"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Limite ou vigilance"
+          }
+        ]
+      ],
+      "rows": [
+        [
+          [
+            {
+              "type": "text",
+              "text": "France, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "loi nº 2008-496 du 27 mai 2008, art. 1, 2 et 4"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000018877783/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Source officielle"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Définitions directe/indirecte, domaines dont éducation, justifications, regroupement par sexe et charge de la preuve."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Application dépend du motif, du domaine, du contentieux et des faits."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "France, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Code pénal, art. 121-3 et 225-1 à 225-4"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070719/LEGISCTA000006165298/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Source officielle"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Intention pénale générale, motifs et actes punissables."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne résume pas tout le droit de la non-discrimination."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Robert Cialdini, Raymond Reno & Carl Kallgren, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "“A Focus Theory of Normative Conduct”"
+                }
+              ],
+              "href": "https://doi.org/10.1037/0022-3514.58.6.1015",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 1990."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Études expérimentales"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Distinction descriptive/injonctive et rôle de la saillance."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Terrain environnemental ; transposition aux normes scolaires conceptuelle."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Devah Pager & Hana Shepherd, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "“The Sociology of Discrimination”"
+                }
+              ],
+              "href": "https://doi.org/10.1146/annurev.soc.33.040406.131740",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 2008."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Revue scientifique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Traitement différentiel, méthodes de mesure, mécanismes individuels, organisationnels et structurels."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Centrée sur la discrimination raciale aux États-Unis."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Geoffrey Bowker & Susan Leigh Star, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sorting Things Out"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://direct.mit.edu/books/monograph/4738/Sorting-Things-OutClassification-and-Its",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 1999."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Monographie STS"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Les classifications rendent l’infrastructure possible et distribuent visibilité et travail résiduel."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Études de cas éloignées de l’école française."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Sasha Costanza-Chock, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Design Justice"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://designjustice.mitpress.mit.edu/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 2020."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Monographie théorique et cas"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Relie design, pouvoir, bénéfices, charges et participation."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "« Protection par conception » est une synthèse Mosaïque, non une citation ni un standard juridique."
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-1-textes-originaux-et-sources-primaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Textes originaux et sources primaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "France, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "Code pénal, article 121-3"
+                  }
+                ],
+                "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417208",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", version vérifiée le 31 juillet 2026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "France, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "Code pénal, articles 225-1 à 225-4"
+                  }
+                ],
+                "href": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070719/LEGISCTA000006165298/",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", version au 31 juillet 2026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "France, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "loi nº 2008-496 du 27 mai 2008"
+                  }
+                ],
+                "href": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000018877783/",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", articles 1, 2 et 4, version vérifiée le 31 juillet 2026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "France, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "loi nº 2025-391 du 30 avril 2025, article 16"
+                  }
+                ],
+                "href": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000051539065",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", régime de l’action de groupe."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Union européenne, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "directive 2000/43/CE"
+                  }
+                ],
+                "href": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32000L0043",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": " et "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "directive 2000/78/CE"
+                  }
+                ],
+                "href": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32000L0078",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-2-recherches-scientifiques-ou-universitaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Recherches scientifiques ou universitaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Bauer, Greta R. et al., "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“‘I Don’t Think This Is Theoretical; This Is Our Lives’: How Erasure Impacts Health Care for Transgender People”"
+                  }
+                ],
+                "href": "https://doi.org/10.1016/j.jana.2009.07.004",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Journal of the Association of Nurses in AIDS Care"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 20(5), 2009, p. 348–361."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Berger, Peter L., & Thomas Luckmann, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "The Social Construction of Reality"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://amstudugm.wordpress.com/wp-content/uploads/2011/04/social-construction-of-reality.pdf",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", 1966."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Bicchieri, Cristina, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "The Grammar of Society"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://books.google.com/books?id=4N1FDIZvcI8C",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", Cambridge University Press, 2006."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Bowker, Geoffrey C., & Susan Leigh Star, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Sorting Things Out: Classification and Its Consequences"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://direct.mit.edu/books/monograph/4738/Sorting-Things-OutClassification-and-Its",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", MIT Press, 1999."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Brake, Elizabeth, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Minimizing Marriage"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://doi.org/10.1093/acprof:oso/9780199774142.001.0001",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", Oxford University Press, 2012."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cialdini, Robert B., Raymond R. Reno & Carl A. Kallgren, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“A Focus Theory of Normative Conduct”"
+                  }
+                ],
+                "href": "https://doi.org/10.1037/0022-3514.58.6.1015",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Journal of Personality and Social Psychology"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 58(6), 1990, p. 1015–1026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Costanza-Chock, Sasha, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Design Justice"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://designjustice.mitpress.mit.edu/",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", MIT Press, 2020."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Emens, Elizabeth F., "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“Compulsory Sexuality”"
+                  }
+                ],
+                "href": "https://www.stanfordlawreview.org/wp-content/uploads/sites/3/2014/02/66_Stan_L_Rev_303_Emens.pdf",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stanford Law Review"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 66(2), 2014, p. 303–386."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Jackson, Philip W., "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Life in Classrooms"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://books.google.com/books/about/Life_in_Classrooms.html?id=W46Gu6wwYsQC",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", Holt, Rinehart & Winston, 1968."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "North, Douglass C., "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Institutions, Institutional Change and Economic Performance"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://www.cambridge.org/core/books/institutions-institutional-change-and-economic-performance/AAE1E27DF8996E24C5DD07EB79BBA7EE",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", Cambridge University Press, 1990."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Pager, Devah, & Hana Shepherd, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“The Sociology of Discrimination”"
+                  }
+                ],
+                "href": "https://doi.org/10.1146/annurev.soc.33.040406.131740",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Annual Review of Sociology"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 34, 2008, p. 181–209."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Pincus, Fred L., "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“Discrimination Comes in Many Forms”"
+                  }
+                ],
+                "href": "https://doi.org/10.1177/0002764296040002009",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "American Behavioral Scientist"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 40(2), 1996, p. 186–194."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Reskin, Barbara, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“The Race Discrimination System”"
+                  }
+                ],
+                "href": "https://doi.org/10.1146/annurev-soc-071811-145508",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Annual Review of Sociology"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 38, 2012, p. 17–35."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Star, Susan Leigh, & Karen Ruhleder, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“Steps Toward an Ecology of Infrastructure”"
+                  }
+                ],
+                "href": "https://doi.org/10.1287/isre.7.1.111",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Information Systems Research"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 7(1), 1996, p. 111–134."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-3-sources-institutionnelles-et-professionnelles",
+      "content": [
+        {
+          "type": "text",
+          "text": "Sources institutionnelles et professionnelles"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Défenseur des droits, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "« Lutter contre les discriminations : du recours individuel aux leviers systémiques »"
+                  }
+                ],
+                "href": "https://www.defenseurdesdroits.fr/lutter-contre-les-discriminations-du-recours-individuel-aux-leviers-systemiques-retour-sur-le-557",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", 2024, consulté le 31 juillet 2026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Défenseur des droits, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "Rapport annuel d’activité 2025"
+                  }
+                ],
+                "href": "https://www.defenseurdesdroits.fr/sites/default/files/2026-04/ddd_rapport-annuel-2025_20260407.pdf",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", publié en 2026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Union européenne, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "normes applicables aux organismes pour l’égalité, directives 2024/1499 et 2024/1500"
+                  }
+                ],
+                "href": "https://eur-lex.europa.eu/FR/legal-content/summary/standards-for-equality-bodies-in-the-field-of-equal-treatment-and-equal-opportunities.html",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", état vérifié le 31 juillet 2026."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-4-critiques-et-retours-de-pratique",
+      "content": [
+        {
+          "type": "text",
+          "text": "Critiques et retours de pratique"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les divergences entre définitions d’institutionnel, structurel et systémique sont présentées comme controverse scientifique. Aucun guide professionnel n’est utilisé pour les transformer en catégories juridiques."
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "related": {
+    "modules": [
+      "M08",
+      "M09",
+      "M10"
+    ],
+    "notions": [
+      "regle",
+      "institution",
+      "procedure"
+    ],
+    "situations": [
+      "V04",
+      "N02",
+      "N03",
+      "N06",
+      "N07",
+      "N12",
+      "N13"
+    ],
+    "modes": [
+      "Obstacles visibles",
+      "Normes ordinaires"
+    ]
+  },
+  "contentHash": "a0e83232e4292bfdae28cbbc851c2fae45d4e0297ae6a8f8698ca5910c7e2c00"
+}

@@ -1,0 +1,3120 @@
+{
+  "schemaVersion": "understand-public-v1",
+  "id": "M06",
+  "number": 6,
+  "title": "Normes ordinaires",
+  "status": "validated",
+  "pilot": false,
+  "directQuestion": "Comment une procédure apparemment ordinaire peut-elle avantager certaines personnes et imposer à d’autres un travail d’explication, de correction ou d’adaptation ?",
+  "groupId": "G2",
+  "readingTime": {
+    "essential": "3 à 5 minutes",
+    "deepDive": "8 à 12 minutes"
+  },
+  "datedContent": [
+    {
+      "label": "Non-discrimination, données, EVARS et circulaire de 2023, vérifiées le 31 juillet 2026",
+      "verifiedAt": "2026-07-31",
+      "scope": "canonical-module-scope"
+    }
+  ],
+  "essential": {
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Temps de lecture visé : 3 à 5 minutes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-1-1-question-de-depart",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. Question de départ"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Comment une procédure apparemment ordinaire peut-elle avantager certaines personnes et imposer à d’autres un travail d’explication, de correction ou d’adaptation ?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-2-2-reponse-synthetique",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. Réponse synthétique"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Une organisation ne se contente pas de réagir aux personnes : elle prépare les options qu’elles rencontreront. Un formulaire détermine les familles faciles à renseigner ; un ENT choisit les informations visibles ; un espace prévoit ou non l’intimité ; une répartition fixe les catégories disponibles. Ces choix peuvent être routiniers et produire pourtant des effets inégaux."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Le mode « Normes ordinaires » examine ce qui est présenté comme normal, neutre ou universel. Il ne cherche pas d’abord une intention hostile. Il observe qui utilise le dispositif sans y penser, qui doit corriger, expliquer ou demander une exception, et qui a le pouvoir de modifier l’outil. « Ordinaire » ne signifie ni acceptable, ni bénin, ni inconscient."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Une protection peut elle aussi être organisée. Lorsque les données sont séparées selon leur utilité, que leurs destinataires sont connus ou qu’une adaptation est proposée confidentiellement avant l’incident, la charge ne repose plus uniquement sur la personne. Cette protection reste située : elle ne résout pas tous les besoins et ne prouve pas l’inclusion générale de l’établissement."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-3-3-definition-operationnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. Définition opérationnelle"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Normes ordinaires :"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " dans ce mode, l’effet principal provient d’une catégorie, d’une habitude, d’une procédure, d’un espace ou d’une valeur par défaut présenté comme normal, neutre ou universel."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Une norme descriptive indique ce que les membres d’un groupe perçoivent comme fréquent ou habituel ; elle n’est pas une preuve statistique du comportement réel. Une norme injonctive concerne ce qui paraît approuvé ou requis. Une règle formule explicitement une obligation ; une habitude est une pratique répétée ; une valeur par défaut s’applique lorsqu’aucune autre action n’est entreprise."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-4-4-deux-exemples-mosaique",
+        "content": [
+          {
+            "type": "text",
+            "text": "4. Deux exemples Mosaïque"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-5-n02-le-formulaire-pere-mere",
+        "content": [
+          {
+            "type": "text",
+            "text": "N02 — Le formulaire « Père — Mère »"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Le document d’une sortie ne comporte que deux rubriques, l’une pour le père et l’autre pour la mère. Sofia vit avec deux mères. Sa famille doit barrer, réécrire ou expliquer. L’obstacle n’est pas une phrase hostile : il est incorporé à la conception."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Les autres personnages ne sont pas globalement privilégiés ; leur profil ne rencontre simplement pas cet obstacle précis. Leur avantage relatif est l’absence de travail correctif dans cette procédure. Le levier consiste à prévoir les responsables nécessaires sans imposer un modèle familial unique."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-6-n13-l-organisation-preparee-en-prive",
+        "content": [
+          {
+            "type": "text",
+            "text": "N13 — L’organisation préparée en privé"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Avant un séjour, un adulte présente individuellement l’organisation des chambres, douches et vestiaires. Chaque élève peut demander une adaptation sans se justifier devant la classe. La protection agit en amont : l’option est proposée à tous, la discussion reste confidentielle et l’élève n’a pas à attendre un incident."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Cette organisation ne garantit pas que toute demande pourra être satisfaite. Elle modifie toutefois la distribution du travail et de l’information : l’établissement prépare la possibilité au lieu d’exiger d’abord un dévoilement public."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-7-5-a-ne-pas-confondre",
+        "content": [
+          {
+            "type": "text",
+            "text": "5. À ne pas confondre"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ordinaire et sans conséquence ; norme sociale et fréquence statistique ; norme et loi ; neutralité déclarée et égalité réelle ; traitement identique et traitement équitable ; adaptation individuelle et conception inclusive ; norme ordinaire et discrimination indirecte juridiquement établie."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Une procédure identique peut être plus coûteuse pour certains profils. Cela justifie une enquête sur les catégories, les effets et les alternatives, pas une qualification juridique automatique. Une adaptation peut protéger une personne tout en laissant intacte la procédure qui recrée l’obstacle. Une norme sociale peut être très répandue sans être légale, et une règle peut contredire une habitude."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-8-6-trois-idees-a-retenir",
+        "content": [
+          {
+            "type": "text",
+            "text": "6. Trois idées à retenir"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Les outils, espaces et procédures distribuent des possibilités avant toute interaction hostile."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Le travail de correction indique où l’organisation a placé la charge, sans transformer un droit en privilège."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Protéger par conception consiste à prévoir l’information minimale, la confidentialité et l’ajustement avant l’incident."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-9-7-question-de-reflexion-professionnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "7. Question de réflexion professionnelle"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans une procédure de votre établissement, quelles personnes utilisent le cas prévu sans s’expliquer, lesquelles doivent corriger l’outil, et que pourrait-on modifier avant le prochain signalement ?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-10-8-pour-aller-plus-loin",
+        "content": [
+          {
+            "type": "text",
+            "text": "8. Pour aller plus loin"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Approfondir distingue normes, règles, habitudes et défauts, analyse les classifications et la charge administrative, puis examine le curriculum caché, la protection des données et les limites de la conception inclusive."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-11-sources-centrales-de-l-essentiel",
+        "content": [
+          {
+            "type": "text",
+            "text": "Sources centrales de L’essentiel"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Robert B. Cialdini, Raymond R. Reno & Carl A. Kallgren, "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "“A Focus Theory of Normative Conduct”"
+                    }
+                  ],
+                  "href": "https://doi.org/10.1037/0022-3514.58.6.1015",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", 1990."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Geoffrey C. Bowker & Susan Leigh Star, "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Sorting Things Out"
+                        }
+                      ]
+                    }
+                  ],
+                  "href": "https://mitpress.mit.edu/9780262522953/sorting-things-out/",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", 1999."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Donald Moynihan, Pamela Herd & Hope Harvey, "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "“Administrative Burden”"
+                    }
+                  ],
+                  "href": "https://doi.org/10.1093/jopart/muu009",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", 2015."
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "deepDive": {
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "Introduction",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Temps de lecture visé : 8 à 12 minutes."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1-probleme-theorique-l-ordinaire-preconfigure-l-action",
+        "title": "1. Problème théorique : l’ordinaire préconfigure l’action",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le mot « norme » est souvent employé pour désigner à la fois une loi, une moyenne, une habitude, une attente morale et une catégorie statistique. Cette confusion rend l’analyse imprécise. Une procédure peut être légalement autorisée sans être socialement neutre ; une pratique fréquente peut être désapprouvée ; une habitude professionnelle peut n’avoir aucun fondement écrit."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le mode 6 ne classe pas les personnes conformes et non conformes. Il étudie une relation entre un profil et un dispositif. Sofia ne porte pas en elle « l’obstacle du formulaire » : l’obstacle apparaît lorsque N02 ne prévoit pas sa famille. Sam n’est pas en difficulté dans toute organisation de groupe : N06 devient coûteuse parce qu’elle ne propose que deux catégories. Une position varie donc selon le contexte."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cette focale déplace aussi la responsabilité. Demander à la personne de signaler le problème reste parfois nécessaire, mais l’organisation peut anticiper : revoir les champs, limiter les données, annoncer les options, prévoir l’intimité et documenter qui décide. La bienveillance lors de l’exception ne remplace pas la conception."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2-reperes-historiques",
+        "title": "2. Repères historiques",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-normes-sociales-experimentales",
+            "content": [
+              {
+                "type": "text",
+                "text": "Normes sociales expérimentales"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cialdini, Reno et Kallgren ont distingué normes descriptives et injonctives dans des recherches sur les comportements de dépôt de déchets. Les premières concernent ce qui paraît être fait ; les secondes ce qui paraît approuvé. Leurs expériences montrent aussi l’importance de la saillance. Ce fait est établi pour les situations étudiées. L’application aux normes familiales, genrées ou scolaires est une extension théorique, non un résultat expérimental direct."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-curriculum-cache",
+            "content": [
+              {
+                "type": "text",
+                "text": "Curriculum caché"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Life in Classrooms"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " en 1968, Philip W. Jackson décrit la vie quotidienne de l’école, ses attentes, ses rôles et ses apprentissages non réduits au programme explicite. Le concept de curriculum caché a ensuite été élargi par de nombreuses traditions. Il ne possède pas une définition unique et ne doit pas devenir le nom de tout effet non prévu."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-classifications-et-infrastructures",
+            "content": [
+              {
+                "type": "text",
+                "text": "Classifications et infrastructures"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Bowker et Star ont montré à la fin du XXe siècle que classifications et standards structurent les infrastructures modernes. Leur analyse porte sur des systèmes médicaux, administratifs et politiques variés. Elle établit qu’une catégorie a des conséquences et une histoire ; elle ne permet pas de déclarer toute classification injuste."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-charge-administrative-et-design",
+            "content": [
+              {
+                "type": "text",
+                "text": "Charge administrative et design"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Moynihan, Herd et Harvey ont proposé en 2014 une distinction entre coûts d’apprentissage, de conformité et psychologiques dans les relations citoyen-État. Costanza-Chock a développé en 2020 le cadre de la design justice, attentif à la participation à la conception et à la distribution des bénéfices et des charges. Ces repères convergent sur une question : qui doit s’adapter à qui ? Ils proviennent cependant de terrains différents."
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Niveau de preuve"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Repère"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Fait établi"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Les distinctions et analyses sont attestées dans les sources et leurs terrains respectifs."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Hypothèse probable"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Elles peuvent éclairer les procédures scolaires, sous réserve d’un transfert explicite."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Attribution contestée"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Le curriculum caché n’a ni origine unique ni définition entièrement stabilisée."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Absence de preuve suffisante"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Aucun de ces travaux ne prouve qu’un outil Mosaïque est inclusif ou efficace."
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3-concepts-et-auteurs-reellement-utiles",
+        "title": "3. Concepts et auteurs réellement utiles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-cialdini-perception-de-frequence-et-attente-d-approbation",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cialdini : perception de fréquence et attente d’approbation"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une norme descriptive est une croyance sur ce qui est courant. Elle peut influencer même si elle est inexacte. Une norme injonctive porte sur l’approbation et les sanctions. N08, par exemple, peut rendre visible une attente injonctive sur le rôle des filles tout en la transformant en routine de placement. Il serait erroné d’en conclure que « les filles calment réellement les garçons » ou que la majorité approuve cette pratique."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-bowker-et-star-les-categories-rendent-certains-cas-faciles",
+            "content": [
+              {
+                "type": "text",
+                "text": "Bowker et Star : les catégories rendent certains cas faciles"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une classification facilite l’action collective : elle permet d’enregistrer, de comparer et d’orienter. Son revers est que les cas situés aux frontières doivent être traduits, corrigés ou rendus invisibles. Dans N02, le formulaire ne décrit pas seulement une famille : il distribue des cases et un travail de correction. Dans N06, le classement détermine l’accès à des contenus."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’approche invite à documenter la finalité. Une catégorie « responsables légaux » peut être plus pertinente qu’un couple père-mère pour une autorisation scolaire. Dans N12, distinguer les données administratives, les informations de vie scolaire et les accès professionnels sert au contraire une protection. Le problème n’est donc pas l’existence de catégories, mais leur adéquation et leurs effets."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-moynihan-herd-et-harvey-rendre-la-charge-observable",
+            "content": [
+              {
+                "type": "text",
+                "text": "Moynihan, Herd et Harvey : rendre la charge observable"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La charge administrative révèle des coûts souvent absents des indicateurs de procédure. Comprendre une démarche, remplir, corriger, attendre et supporter un stigmate demandent des ressources. Dans Mosaïque, la notion aide à nommer le « petit travail » que certaines personnes accomplissent à répétition."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La transposition doit rester prudente. L’article fondateur analyse des programmes publics américains et des choix politiques de burden. Une scène scolaire fictive n’autorise pas à attribuer une stratégie délibérée de découragement aux concepteurs. Elle permet de demander où se trouve la charge et comment la réduire."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-valeurs-par-defaut",
+            "content": [
+              {
+                "type": "text",
+                "text": "Valeurs par défaut"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les travaux de Johnson et Goldstein montrent, dans le domaine du don d’organes, que les choix par défaut comptent. N03 illustre un autre type de défaut : la visibilité automatique d’une activité. L’analogie porte sur la préconfiguration, pas sur la taille de l’effet. Pour savoir ce que produit réellement un ENT, il faudrait des données d’usage et une analyse technique."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-costanza-chock-concevoir-avec-les-personnes-concernees",
+            "content": [
+              {
+                "type": "text",
+                "text": "Costanza-Chock : concevoir avec les personnes concernées"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La design justice demande de ne pas définir un « utilisateur universel » à partir du groupe le mieux servi. Elle valorise la participation des groupes affectés et l’examen des rapports de pouvoir dans la conception. La participation ne dispense pas de l’arbitrage juridique, budgétaire et technique ; elle évite que l’expérience des personnes n’apparaisse qu’après l’échec du dispositif."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4-controverses-ou-limites",
+        "title": "4. Controverses ou limites",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-toute-norme-n-est-pas-une-domination",
+            "content": [
+              {
+                "type": "text",
+                "text": "Toute norme n’est pas une domination"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les normes rendent la coordination possible. Les critiquer ne signifie pas rechercher un espace sans règle ni catégorie. L’enjeu est de distinguer les normes nécessaires, les objectifs poursuivis et les coûts qu’elles distribuent."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-le-biais-inconscient-n-explique-pas-l-outil",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le biais inconscient n’explique pas l’outil"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Attribuer N02 ou N03 à un « biais inconscient » déplace l’analyse vers la psychologie d’un concepteur absent. Le formulaire et le paramétrage sont observables ; leurs effets peuvent être discutés sans connaître l’état mental de leur auteur."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-inclusion-et-adaptation",
+            "content": [
+              {
+                "type": "text",
+                "text": "Inclusion et adaptation"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une adaptation individuelle peut être indispensable et respectueuse. Elle devient une limite lorsqu’elle est la seule voie, exige un dévoilement répété ou dépend d’une appréciation discrétionnaire. Inversement, une conception dite universelle peut ignorer des besoins singuliers. Le module privilégie un socle protecteur avec des ajustements confidentiels."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-discrimination-indirecte",
+            "content": [
+              {
+                "type": "text",
+                "text": "Discrimination indirecte"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La ressemblance entre une pratique neutre en apparence et le concept juridique de discrimination indirecte ne suffit pas. Le droit demande un motif protégé, un désavantage particulier, un domaine, des preuves et l’examen d’une justification objective, nécessaire et appropriée. Les cartes fournissent un problème à examiner, pas un jugement."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5-application-precise-a-mosaique",
+        "title": "5. Application précise à Mosaïque",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-n02-modele-familial-et-travail-d-exception",
+            "content": [
+              {
+                "type": "text",
+                "text": "N02 — modèle familial et travail d’exception"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les deux rubriques traitent une configuration comme universelle. Sofia doit rendre sa famille compatible avec le document. Le module analyse ce transfert de travail sans inventer d’hostilité ni mesurer la fréquence nationale du formulaire."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-n03-visibilite-par-defaut",
+            "content": [
+              {
+                "type": "text",
+                "text": "N03 — visibilité par défaut"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’ENT partage un intitulé avec le compte familial. La situation varie selon les informations déjà connues dans le profil. Le levier consiste à examiner finalité, destinataires, nécessité et options de visibilité, non à promettre une confidentialité absolue."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-n06-et-n07-classement-et-espace",
+            "content": [
+              {
+                "type": "text",
+                "text": "N06 et N07 — classement et espace"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "N06 classe les élèves et distribue des contenus ; N07 ajoute l’exposition corporelle et l’intimité. Les deux situations ne sont pas interchangeables. Une personne peut rejoindre une catégorie dans la première et rencontrer un besoin de protection dans la seconde."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-n12-informations-separees",
+            "content": [
+              {
+                "type": "text",
+                "text": "N12 — informations séparées"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La protection repose sur la distinction des données, les habilitations et l’information de l’élève. Elle illustre la minimisation et la prévisibilité. Elle ne vaut pas audit de sécurité informatique."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-n13-adaptation-preparee-en-prive",
+            "content": [
+              {
+                "type": "text",
+                "text": "N13 — adaptation préparée en privé"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La procédure propose à tous une discussion individuelle et n’exige pas une justification publique. Elle réduit l’exposition préalable et déplace l’initiative vers l’organisation. Les ressources et l’arbitrage final restent à documenter."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-6-frontieres-entre-les-modes",
+            "content": [
+              {
+                "type": "text",
+                "text": "Frontières entre les modes"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un formulaire peut conduire un adulte à prononcer ensuite un refus visible. Sa répétition peut aussi renforcer l’idée qu’une seule famille est imaginable, foyer des effets invisibles. Le mode 6 choisit la procédure comme point d’entrée, sans nier ces prolongements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6-ce-que-le-concept-ne-permet-pas-d-affirmer",
+        "title": "6. Ce que le concept ne permet pas d’affirmer",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Qu’une norme descriptive correspond à une fréquence objectivement mesurée."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Qu’une procédure ordinaire est bénigne, acceptée ou sans intention."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Que toute catégorie, règle ou habitude produit une discrimination."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Que N02 ou N03 suffit à établir une discrimination indirecte ou une violation du RGPD."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Que tout personnage partageant une caractéristique rencontre le même coût."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Qu’une adaptation protectrice supprime tous les rapports de pouvoir."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Que Mosaïque modifie effectivement les pratiques de conception."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7-implications-professionnelles",
+        "title": "7. Implications professionnelles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-examiner-les-categories-et-les-defauts",
+            "content": [
+              {
+                "type": "text",
+                "text": "Examiner les catégories et les défauts"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Lister les champs obligatoires, groupes disponibles, valeurs présélectionnées et destinataires automatiques. Pour chacun, préciser la finalité, les conséquences et le moyen de correction. Un champ « autre » ne résout pas toujours le problème s’il marque publiquement l’exception."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-suivre-le-travail-distribue",
+            "content": [
+              {
+                "type": "text",
+                "text": "Suivre le travail distribué"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Demander qui cherche l’information, remplit deux fois, sollicite un rendez-vous, se justifie ou attend. Ce suivi évite de qualifier une procédure de simple parce qu’elle est simple pour son concepteur."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-minimiser-et-informer",
+            "content": [
+              {
+                "type": "text",
+                "text": "Minimiser et informer"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Collecter les informations nécessaires, limiter les accès et rendre la circulation intelligible. N12 rappelle que l’élève doit savoir ce qui est visible et par qui. Une promesse générale de confidentialité ne remplace pas des habilitations et des procédures."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-preparer-l-ajustement",
+            "content": [
+              {
+                "type": "text",
+                "text": "Préparer l’ajustement"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Avant un séjour, un formulaire ou une séance, proposer une voie confidentielle accessible à tous. Prévoir qui décide, quels délais et quelles ressources existent. La personne peut alors exprimer un besoin sans devoir présenter son identité comme justification publique."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-reviser-avec-les-personnes-affectees",
+            "content": [
+              {
+                "type": "text",
+                "text": "Réviser avec les personnes affectées"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Associer des usagers divers à l’examen des outils, tester les cas limites et documenter les corrections. La consultation doit pouvoir modifier la décision ; elle ne doit pas transformer les personnes minorisées en représentantes obligatoires de tout un groupe."
+              }
+            ]
+          },
+          {
+            "type": "quote",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Droit et données — vérifié le 31 juillet 2026."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " Le RGPD prévoit minimisation et protection des données dès la conception et par défaut. La loi du 27 mai 2008 définit la discrimination indirecte sous conditions. La circulaire du 20 juin 2023 traite, dans son champ, de la diversité des familles dans les formulaires administratifs. Ces références doivent être appliquées au contexte réel et revérifiées avant publication ultérieure."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8-questions-de-debrief",
+        "title": "8. Questions de débrief",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle catégorie, valeur par défaut, règle ou habitude organise la situation ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Qui accomplit le travail de correction, d’explication ou de demande d’exception ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelles informations manquent pour distinguer norme sociale, exigence technique et qualification juridique ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle protection pourrait être intégrée avant que la personne révèle sa situation ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Qui peut modifier l’outil ou la procédure, avec quels usagers et à quelle échéance ?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9-sources-cles-commentees",
+        "title": "9. Sources clés commentées",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Source"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Type"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Apport au module"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Limite ou vigilance"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Cialdini, Reno & Kallgren, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "1990"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1037/0022-3514.58.6.1015",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Études expérimentales"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Normes descriptives/injonctives et saillance."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Dépôt de déchets ; transposition scolaire analytique."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Bowker & Star, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "emphasis",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Sorting Things Out"
+                          }
+                        ]
+                      }
+                    ],
+                    "href": "https://mitpress.mit.edu/9780262522953/sorting-things-out/",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 1999."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Monographie STS"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Classifications comme infrastructures."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Études de cas différentes de l’école française."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Moynihan, Herd & Harvey, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "2015"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1093/jopart/muu009",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Article théorique et empirique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Trois coûts de la charge administrative."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Politiques publiques américaines."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Costanza-Chock, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "emphasis",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Design Justice"
+                          }
+                        ]
+                      }
+                    ],
+                    "href": "https://designjustice.mitpress.mit.edu/",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 2020."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Monographie critique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Participation et distribution des coûts."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Cadre normatif, pas certification d’inclusion."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "RGPD, art. 5 et 25"
+                      }
+                    ],
+                    "href": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32016R0679",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Source officielle primaire"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Minimisation et protection par conception/par défaut."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Application technique et juridique contextuelle."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "Programme EVARS, arrêté du 3 février 2025"
+                      }
+                    ],
+                    "href": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%206%20du%206%20f%C3%A9vrier%202025-405369.pdf",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Programme officiel"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Approche positive, progressive et inclusive."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne qualifie pas une carte isolée."
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10-bibliographie-complete",
+        "title": "10. Bibliographie complète",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-textes-originaux-et-sources-primaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Textes originaux et sources primaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Cialdini, Robert B., Raymond R. Reno & Carl A. Kallgren, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“A Focus Theory of Normative Conduct: Recycling the Concept of Norms to Reduce Littering in Public Places”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1037/0022-3514.58.6.1015",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Journal of Personality and Social Psychology"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 58(6), 1990, p. 1015–1026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Jackson, Philip W., "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Life in Classrooms"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://books.google.com/books?id=W46Gu6wwYsQC",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", New York, Holt, Rinehart and Winston, 1968."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Johnson, Eric J. & Daniel Goldstein, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“Do Defaults Save Lives?”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1126/science.1091721",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Science"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 302(5649), 2003, p. 1338–1339."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Union européenne, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "règlement (UE) 2016/679, articles 5 et 25"
+                        }
+                      ],
+                      "href": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32016R0679",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", vérifié le 31 juillet 2026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "France, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "loi nº 2008-496 du 27 mai 2008"
+                        }
+                      ],
+                      "href": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000018877783/",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", vérifiée le 31 juillet 2026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ministère de la Transformation et de la Fonction publiques, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "circulaire du 20 juin 2023"
+                        }
+                      ],
+                      "href": "https://www.legifrance.gouv.fr/circulaire/id/45452",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", vérifiée le 31 juillet 2026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ministère de l’Éducation nationale, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "programme EVARS, arrêté du 3 février 2025"
+                        }
+                      ],
+                      "href": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%206%20du%206%20f%C3%A9vrier%202025-405369.pdf",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", applicable depuis la rentrée 2025-2026."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-recherches-scientifiques-ou-universitaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Recherches scientifiques ou universitaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Bowker, Geoffrey C. & Susan Leigh Star, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Sorting Things Out: Classification and Its Consequences"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://mitpress.mit.edu/9780262522953/sorting-things-out/",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", MIT Press, 1999."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Costanza-Chock, Sasha, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Design Justice: Community-Led Practices to Build the Worlds We Need"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://designjustice.mitpress.mit.edu/",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", MIT Press, 2020."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Herd, Pamela & Donald P. Moynihan, "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Administrative Burden: Policymaking by Other Means"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", Russell Sage Foundation, 2018."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Moynihan, Donald, Pamela Herd & Hope Harvey, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“Administrative Burden: Learning, Psychological, and Compliance Costs in Citizen-State Interactions”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1093/jopart/muu009",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Journal of Public Administration Research and Theory"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 25(1), 2015, p. 43–69."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-sources-institutionnelles-et-professionnelles",
+            "content": [
+              {
+                "type": "text",
+                "text": "Sources institutionnelles et professionnelles"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Éduscol, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Prévenir les LGBTphobies en milieu scolaire"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://eduscol.education.gouv.fr/6084/prevenir-les-lgbtphobies-en-milieu-scolaire",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", février 2026, consulté le 31 juillet 2026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ministère de l’Éducation nationale, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "SDET — Kit juridique dans le cadre du déploiement d’un ENT"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": ", version 2025"
+                        }
+                      ],
+                      "href": "https://www.education.gouv.fr/sites/default/files/2025-07/kit-juridique-441540.pdf",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", consulté le 31 juillet 2026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ministère de l’Éducation nationale, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "La protection des élèves et de leurs données sur Internet"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://www.education.gouv.fr/la-protection-des-eleves-et-de-leurs-donnees-sur-internet-7073",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", ressource institutionnelle, consultée le 31 juillet 2026."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-critiques-et-retours-de-pratique",
+            "content": [
+              {
+                "type": "text",
+                "text": "Critiques et retours de pratique"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Les démarches de design inclusif ou universel constituent des cadres de conception. Elles ne doivent pas être présentées comme des preuves que toute personne pourra utiliser un dispositif sans adaptation ni conflit entre besoins."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "limite-du-modele",
+        "title": "Limite du modèle",
+        "blocks": [
+          {
+            "type": "quote",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Une carte Mosaïque rend visible un mécanisme de procédure ou de normalisation. Elle ne mesure pas sa fréquence, ne reconstitue pas l’ensemble du système d’information et ne certifie aucune qualification juridique. Le feedback propose une lecture située qui peut être discutée à partir des faits manquants."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "takeaways": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les outils, espaces et procédures distribuent des possibilités avant toute interaction hostile."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le travail de correction indique où l’organisation a placé la charge, sans transformer un droit en privilège."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Protéger par conception consiste à prévoir l’information minimale, la confidentialité et l’ajustement avant l’incident."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Dans une procédure de votre établissement, quelles personnes utilisent le cas prévu sans s’expliquer, lesquelles doivent corriger l’outil, et que pourrait-on modifier avant le prochain signalement ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Approfondir distingue normes, règles, habitudes et défauts, analyse les classifications et la charge administrative, puis examine le curriculum caché, la protection des données et les limites de la conception inclusive."
+        }
+      ]
+    }
+  ],
+  "professionalQuestion": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Approfondir distingue normes, règles, habitudes et défauts, analyse les classifications et la charge administrative, puis examine le curriculum caché, la protection des données et les limites de la conception inclusive."
+        }
+      ]
+    }
+  ],
+  "debriefQuestions": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle catégorie, valeur par défaut, règle ou habitude organise la situation ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Qui accomplit le travail de correction, d’explication ou de demande d’exception ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelles informations manquent pour distinguer norme sociale, exigence technique et qualification juridique ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle protection pourrait être intégrée avant que la personne révèle sa situation ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Qui peut modifier l’outil ou la procédure, avec quels usagers et à quelle échéance ?"
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "centralSources": [
+    "S011",
+    "S013",
+    "S014",
+    "S016",
+    "S057",
+    "S058",
+    "S059",
+    "S105",
+    "S126",
+    "S134",
+    "S135",
+    "S136",
+    "S138",
+    "S139"
+  ],
+  "moduleBibliography": [
+    {
+      "type": "table",
+      "headers": [
+        [
+          {
+            "type": "text",
+            "text": "Source"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Type"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Apport au module"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Limite ou vigilance"
+          }
+        ]
+      ],
+      "rows": [
+        [
+          [
+            {
+              "type": "text",
+              "text": "Cialdini, Reno & Kallgren, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "1990"
+                }
+              ],
+              "href": "https://doi.org/10.1037/0022-3514.58.6.1015",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Études expérimentales"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Normes descriptives/injonctives et saillance."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Dépôt de déchets ; transposition scolaire analytique."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Bowker & Star, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sorting Things Out"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://mitpress.mit.edu/9780262522953/sorting-things-out/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 1999."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Monographie STS"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Classifications comme infrastructures."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Études de cas différentes de l’école française."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Moynihan, Herd & Harvey, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "2015"
+                }
+              ],
+              "href": "https://doi.org/10.1093/jopart/muu009",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Article théorique et empirique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Trois coûts de la charge administrative."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Politiques publiques américaines."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Costanza-Chock, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Design Justice"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://designjustice.mitpress.mit.edu/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 2020."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Monographie critique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Participation et distribution des coûts."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Cadre normatif, pas certification d’inclusion."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "RGPD, art. 5 et 25"
+                }
+              ],
+              "href": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32016R0679",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Source officielle primaire"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Minimisation et protection par conception/par défaut."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Application technique et juridique contextuelle."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Programme EVARS, arrêté du 3 février 2025"
+                }
+              ],
+              "href": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%206%20du%206%20f%C3%A9vrier%202025-405369.pdf",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Programme officiel"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Approche positive, progressive et inclusive."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne qualifie pas une carte isolée."
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-1-textes-originaux-et-sources-primaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Textes originaux et sources primaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cialdini, Robert B., Raymond R. Reno & Carl A. Kallgren, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“A Focus Theory of Normative Conduct: Recycling the Concept of Norms to Reduce Littering in Public Places”"
+                  }
+                ],
+                "href": "https://doi.org/10.1037/0022-3514.58.6.1015",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Journal of Personality and Social Psychology"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 58(6), 1990, p. 1015–1026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Jackson, Philip W., "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Life in Classrooms"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://books.google.com/books?id=W46Gu6wwYsQC",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", New York, Holt, Rinehart and Winston, 1968."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Johnson, Eric J. & Daniel Goldstein, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“Do Defaults Save Lives?”"
+                  }
+                ],
+                "href": "https://doi.org/10.1126/science.1091721",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Science"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 302(5649), 2003, p. 1338–1339."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Union européenne, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "règlement (UE) 2016/679, articles 5 et 25"
+                  }
+                ],
+                "href": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32016R0679",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", vérifié le 31 juillet 2026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "France, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "loi nº 2008-496 du 27 mai 2008"
+                  }
+                ],
+                "href": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000018877783/",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", vérifiée le 31 juillet 2026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministère de la Transformation et de la Fonction publiques, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "circulaire du 20 juin 2023"
+                  }
+                ],
+                "href": "https://www.legifrance.gouv.fr/circulaire/id/45452",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", vérifiée le 31 juillet 2026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministère de l’Éducation nationale, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "programme EVARS, arrêté du 3 février 2025"
+                  }
+                ],
+                "href": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%206%20du%206%20f%C3%A9vrier%202025-405369.pdf",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", applicable depuis la rentrée 2025-2026."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-2-recherches-scientifiques-ou-universitaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Recherches scientifiques ou universitaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Bowker, Geoffrey C. & Susan Leigh Star, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Sorting Things Out: Classification and Its Consequences"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://mitpress.mit.edu/9780262522953/sorting-things-out/",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", MIT Press, 1999."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Costanza-Chock, Sasha, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Design Justice: Community-Led Practices to Build the Worlds We Need"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://designjustice.mitpress.mit.edu/",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", MIT Press, 2020."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Herd, Pamela & Donald P. Moynihan, "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Administrative Burden: Policymaking by Other Means"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", Russell Sage Foundation, 2018."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Moynihan, Donald, Pamela Herd & Hope Harvey, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“Administrative Burden: Learning, Psychological, and Compliance Costs in Citizen-State Interactions”"
+                  }
+                ],
+                "href": "https://doi.org/10.1093/jopart/muu009",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Journal of Public Administration Research and Theory"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 25(1), 2015, p. 43–69."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-3-sources-institutionnelles-et-professionnelles",
+      "content": [
+        {
+          "type": "text",
+          "text": "Sources institutionnelles et professionnelles"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Éduscol, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Prévenir les LGBTphobies en milieu scolaire"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://eduscol.education.gouv.fr/6084/prevenir-les-lgbtphobies-en-milieu-scolaire",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", février 2026, consulté le 31 juillet 2026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministère de l’Éducation nationale, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "SDET — Kit juridique dans le cadre du déploiement d’un ENT"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": ", version 2025"
+                  }
+                ],
+                "href": "https://www.education.gouv.fr/sites/default/files/2025-07/kit-juridique-441540.pdf",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", consulté le 31 juillet 2026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministère de l’Éducation nationale, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "La protection des élèves et de leurs données sur Internet"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://www.education.gouv.fr/la-protection-des-eleves-et-de-leurs-donnees-sur-internet-7073",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", ressource institutionnelle, consultée le 31 juillet 2026."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-4-critiques-et-retours-de-pratique",
+      "content": [
+        {
+          "type": "text",
+          "text": "Critiques et retours de pratique"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les démarches de design inclusif ou universel constituent des cadres de conception. Elles ne doivent pas être présentées comme des preuves que toute personne pourra utiliser un dispositif sans adaptation ni conflit entre besoins."
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "related": {
+    "modules": [
+      "M09",
+      "M10",
+      "M12"
+    ],
+    "notions": [
+      "norme-descriptive",
+      "norme-injonctive",
+      "regle",
+      "habitude",
+      "valeur-par-defaut"
+    ],
+    "situations": [
+      "N02",
+      "N03",
+      "N06",
+      "N07",
+      "N12",
+      "N13"
+    ],
+    "modes": [
+      "Normes ordinaires"
+    ]
+  },
+  "contentHash": "0d92c760b05f67fa164c4bb1376ea355b2169171f1120400764da171588fc3ea"
+}

@@ -4,6 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "understand:validate": "node scripts/editorial-v2/validate-understand-v2.mjs",
+    "understand:import": "node scripts/editorial-v2/import-understand-v2.mjs",
+    "understand:check-public": "node scripts/editorial-v2/check-understand-public-v2.mjs",
     "biographies:validate": "node scripts/editorial-v2/validate-public-biographies-v2.mjs",
     "biographies:import": "node scripts/editorial-v2/import-public-biographies-v2.mjs",
     "biographies:check-public": "node scripts/editorial-v2/check-public-biographies-v2.mjs",
@@ -13,7 +16,7 @@
     "editorial:import": "node scripts/editorial-v2/import-editorial-v2.mjs",
     "editorial:validate": "node scripts/editorial-v2/validate-editorial-v2.mjs",
     "dev": "vite",
-    "build": "npm run biographies:validate && npm run biographies:import && npm run biographies:check-public && tsc -b && vite build && npm run biographies:check-dist",
+    "build": "npm run understand:validate && npm run understand:import && npm run understand:check-public && npm run biographies:validate && npm run biographies:import && npm run biographies:check-public && tsc -b && vite build && npm run biographies:check-dist",
     "lint": "oxlint",
     "preview": "vite preview"
   },

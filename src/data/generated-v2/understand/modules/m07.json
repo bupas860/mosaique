@@ -1,0 +1,3037 @@
+{
+  "schemaVersion": "understand-public-v1",
+  "id": "M07",
+  "number": 7,
+  "title": "Effets invisibles",
+  "status": "validated",
+  "pilot": false,
+  "directQuestion": "Comment analyser les effets d’une représentation, d’un silence ou d’un cadrage sans prétendre connaître avec certitude le vécu intérieur du personnage ?",
+  "groupId": "G2",
+  "readingTime": {
+    "essential": "3 à 5 minutes",
+    "deepDive": "8 à 12 minutes"
+  },
+  "datedContent": [
+    {
+      "label": "Programmes et politiques éducatives ainsi que recherches médiatiques, vérifiés le 31 juillet 2026",
+      "verifiedAt": "2026-07-31",
+      "scope": "canonical-module-scope"
+    }
+  ],
+  "essential": {
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Temps de lecture visé : 3 à 5 minutes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-1-1-question-de-depart",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. Question de départ"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Comment analyser les effets d’une représentation, d’un silence ou d’un cadrage sans prétendre connaître avec certitude le vécu intérieur du personnage ?"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-2-2-reponse-synthetique",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. Réponse synthétique"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Un support ne montre jamais tout. Il sélectionne des thèmes, attribue des rôles, répète certains modèles et laisse d’autres expériences à l’arrière-plan. Ce "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "cadrage"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " aide à comprendre une réalité, mais il peut aussi la réduire : ne parler des personnes LGBT+ qu’à travers les violences, présenter le coming out comme une obligation, ou valoriser toujours le même modèle de garçon."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Ces effets sont dits « invisibles » parce qu’ils sont moins immédiatement repérables qu’une insulte ou un refus. Ils peuvent passer par la répétition, l’absence, la place donnée à un personnage ou l’anticipation d’une réaction. Ils ne sont ni imaginaires, ni nécessairement inconscients, ni automatiquement moins importants."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-3-3-definition-operationnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. Définition opérationnelle"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Dans Mosaïque, un "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "effet invisible"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " est un effet situé dont la focale principale porte sur un cadrage, une représentation, une absence, une répétition ou une anticipation, plutôt que sur un acte hostile directement observable ou sur une procédure organisée."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Il peut être indirect, diffus ou médié par des représentations et des anticipations. Le classement indique la question pédagogique travaillée. Il ne mesure pas la gravité, ne classe pas les personnes, ne décrit pas une chronologie et ne produit aucune qualification juridique automatique."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-4-4-deux-exemples-mosaique",
+        "content": [
+          {
+            "type": "text",
+            "text": "4. Deux exemples Mosaïque"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-5-i01-sensibiliser-par-la-peur",
+        "content": [
+          {
+            "type": "text",
+            "text": "I01 — Sensibiliser par la peur"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Une séance présente longuement le harcèlement, les agressions, les discriminations, la souffrance psychologique et le risque suicidaire, sans exemple de relation heureuse, de soutien, de réussite ou de vie ordinaire. L’intention de sensibiliser aux violences est légitime. Cependant, le cadrage exclusivement misérabiliste peut laisser entendre qu’une vie LGBT+ est nécessairement définie par la peur et l’échec."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "L’analyse ne demande donc pas de taire les violences. Elle demande quelles autres ressources narratives accompagnent leur étude."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-6-i15-une-seance-equilibree",
+        "content": [
+          {
+            "type": "text",
+            "text": "I15 — Une séance équilibrée"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Cette situation protectrice fixe aborde les discriminations et les violences, tout en présentant des relations respectueuses, différentes familles, des parcours ordinaires, des ressources, des soutiens et des possibilités d’agir. Les difficultés ne disparaissent pas ; elles cessent d’être l’unique récit disponible."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "La carte illustre un cadrage diversifié et protecteur. Elle ne prouve ni que toute personne recevra la séance de la même façon, ni que Mosaïque produit un effet mesuré."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-7-5-a-ne-pas-confondre",
+        "content": [
+          {
+            "type": "text",
+            "text": "5. À ne pas confondre"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Effet invisible et biais inconscient :"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " un effet peut être visible dans le corpus sans que l’on connaisse l’état mental de son auteur. Le module décrit le support et ses effets possibles, pas une psychologie cachée."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Absence et preuve d’exclusion :"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " une absence isolée n’a pas de sens automatique. Il faut préciser le corpus, la répétition, le contexte et les alternatives."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Présence et inclusion :"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " ajouter un personnage ne garantit pas une représentation juste. Son rôle, son autonomie et la diversité des récits comptent aussi."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Confidentialité et honte :"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " choisir ce que l’on révèle, à qui et quand peut être un droit et une protection. Le coming out n’est pas un devoir d’authenticité."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Absence de conflit et absence d’effet :"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " une scène sans opposition explicite peut encore rendre certaines possibilités plus difficiles à nommer ou à tenter."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Représentation positive et disparition du pouvoir :"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " un récit ordinaire peut protéger sans faire disparaître les inégalités, les risques ou les obligations institutionnelles."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Invisible et moins réel :"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " le mot désigne la forme de l’observation, pas le degré de sérieux."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-8-6-trois-idees-a-retenir",
+        "content": [
+          {
+            "type": "text",
+            "text": "6. Trois idées à retenir"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Observer la sélection."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Un cadrage rend certains aspects saillants et en laisse d’autres à l’arrière-plan. La question est de savoir quels parcours il rend pensables."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Regarder la série, pas seulement l’exemple."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " L’absence, le stéréotype ou le modèle restrictif se comprennent dans une répétition et une unité d’analyse annoncée."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Formuler des effets possibles."
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Une illustration argumentée n’autorise ni à prédire une réaction individuelle, ni à attribuer une intention, ni à annoncer l’efficacité de Mosaïque."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-9-7-question-de-reflexion-professionnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "7. Question de réflexion professionnelle"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Dans les supports que vous utilisez sur une période donnée, quelles personnes apparaissent comme sujets d’une histoire ordinaire, lesquelles doivent surtout expliquer leur identité, et lesquelles restent absentes ?"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-10-8-pour-aller-plus-loin",
+        "content": [
+          {
+            "type": "text",
+            "text": "8. Pour aller plus loin"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "La partie « Approfondir » revient sur les cadres, les représentations sociales, l’absence, le tokenisme, l’anticipation et les limites des recherches disponibles. Elle propose aussi des repères pour réviser un corpus sans transformer toute différence en problème ni toute représentation positive en preuve d’inclusion."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-11-sources-centrales-de-l-essentiel",
+        "content": [
+          {
+            "type": "text",
+            "text": "Sources centrales de L’essentiel"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Entman, R. M. (1993). « Framing: Toward Clarification of a Fractured Paradigm ». https://doi.org/10.1111/j.1460-2466.1993.tb01304.x"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Meyer, I. H. (2003). « Prejudice, Social Stress, and Mental Health in Lesbian, Gay, and Bisexual Populations ». https://doi.org/10.1037/0033-2909.129.5.674"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Ministère de l’Éducation nationale (2025). "
+                },
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Programme d’éducation à la vie affective et relationnelle, et à la sexualité"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ". https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%206%20du%206%20f%C3%A9vrier%202025-405369.pdf"
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "deepDive": {
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "Introduction",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Temps de lecture visé : 8 à 12 minutes."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1-probleme-theorique-analyser-ce-qui-organise-les-possibles",
+        "title": "1. Problème théorique : analyser ce qui organise les possibles",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les obstacles ne prennent pas tous la forme d’une opposition explicite. Une personne peut ne rencontrer ni insulte, ni sanction, ni refus, tout en évoluant dans un univers où certaines trajectoires sont absentes, où un groupe n’apparaît qu’en situation de crise, où la confidentialité est disqualifiée et où un seul modèle de masculinité reçoit de la valeur."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le mode « Effets invisibles » construit un objet d’observation précis : ce que des représentations, des répétitions, des absences et des anticipations rendent plus facile ou plus coûteux. Le mot « invisible » est imparfait, car le support reste observable. Il signale que l’effet ne se réduit pas à un événement ponctuel aisément attribuable à un auteur."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La difficulté est double. Il faut rendre ces mécanismes discutables sans leur prêter une causalité totale ; il faut également analyser le cadrage sans deviner l’intention ou l’inconscient des personnes qui l’ont produit. La méthode retenue part donc d’indices décrivables : thèmes sélectionnés, rôles attribués, scènes répétées, alternatives absentes, informations exigées et actions anticipées."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2-reperes-historiques",
+        "title": "2. Repères historiques",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-representations-sociales",
+            "content": [
+              {
+                "type": "text",
+                "text": "Représentations sociales"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Serge Moscovici étudie des savoirs élaborés et partagés dans la vie sociale. Une représentation sociale ne se confond pas avec une opinion isolée : elle participe à un langage commun. Pour un corpus scolaire, ce repère invite à demander quelles associations deviennent familières."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-cadres-d-experience-et-cadrage",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cadres d’expérience et cadrage"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Frame Analysis"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", Erving Goffman étudie les cadres d’interprétation. Robert Entman formalise ensuite le cadrage en communication comme sélection et saillance. Ces traditions distinctes convergent sur un point utile : le sens dépend aussi de l’organisation de ce qui est montré."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-presence-et-annihilation-symbolique",
+            "content": [
+              {
+                "type": "text",
+                "text": "Présence et annihilation symbolique"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Gaye Tuchman utilise l’« annihilation symbolique » dans l’étude des femmes dans les médias : absence, trivialisation ou condamnation. Le concept garde cette origine. Il ne doit pas devenir une étiquette automatique pour toute omission scolaire."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-visibilite-minoritaire-et-tokenisme",
+            "content": [
+              {
+                "type": "text",
+                "text": "Visibilité minoritaire et tokenisme"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Rosabeth Moss Kanter montre que des proportions organisationnelles très déséquilibrées peuvent accroître visibilité, isolement et pression de rôle. Le « tokenisme » ne signifie donc pas simplement « un seul personnage minoritaire » : il faut examiner la structure et les fonctions narratives."
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Niveau de preuve"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Repère"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Fait établi"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Les concepts cités ont un texte, un terrain et un périmètre identifiables."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Hypothèse probable"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "La répétition de cadrages peut orienter les possibles perçus, avec des variations contextuelles."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Attribution contestée"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Aucune origine unique n’est attribuée à l’étude de l’invisibilisation."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Absence de preuve suffisante"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Une représentation ne permet ni de prédire le vécu d’un élève ni de démontrer l’efficacité de Mosaïque."
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3-concepts-et-auteurs-reellement-utiles",
+        "title": "3. Concepts et auteurs réellement utiles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-selection-et-saillance",
+            "content": [
+              {
+                "type": "text",
+                "text": "Sélection et saillance"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un cadre sélectionne certains éléments et leur donne une place plus importante. I01 rend les violences très saillantes et laisse hors champ les relations, les réussites et les ressources. Cette sélection n’est pas fausse : les violences existent et doivent être enseignées. Le problème pédagogique vient de leur exclusivité et du récit général qu’elle peut produire."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cette nuance empêche une opposition simpliste entre représentation « négative » et représentation « positive ». Une séance protectrice peut parler de risques, à condition de ne pas enfermer les personnes dans ces risques et d’offrir des ressources pour comprendre et agir."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-scripts-narratifs",
+            "content": [
+              {
+                "type": "text",
+                "text": "Scripts narratifs"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "I10 répète un script dans lequel le coming out constitue le cœur de l’histoire et la preuve du courage. La personne qui conserve une information privée est présentée comme mensongère ou insuffisamment authentique. Décrire ce script ne revient pas à juger les coming outs : certains sont choisis et importants. Il s’agit de préserver la possibilité d’un dévoilement partiel, progressif, contextuel ou absent."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-stereotype-et-adhesion",
+            "content": [
+              {
+                "type": "text",
+                "text": "Stéréotype et adhésion"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Patricia Devine a distingué, dans des travaux de laboratoire sur les stéréotypes raciaux, l’activation de contenus culturels et l’adhésion personnelle. Pour ce module, la leçon est méthodologique : repérer un stéréotype dans un corpus ne permet pas d’accuser automatiquement une personne d’y adhérer. L’autre limite est tout aussi importante : ces résultats ne décrivent pas directement les expériences LGBT+ en contexte scolaire."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-anticipation-et-stress-minoritaire",
+            "content": [
+              {
+                "type": "text",
+                "text": "Anticipation et stress minoritaire"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le modèle de stress minoritaire d’Ilan Meyer décrit l’articulation entre conditions sociales hostiles, attente du rejet, dissimulation et processus internes. Il aide à penser I12, où un geste ordinaire peut demander un calcul préalable. Le modèle initial concerne les populations lesbiennes, gays et bisexuelles. Il n’autorise ni diagnostic individuel, ni généralisation indistincte à toutes les minorités, ni déduction d’un vécu à partir d’une identité seule."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4-controverses-ou-limites",
+        "title": "4. Controverses ou limites",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-quelle-unite-d-analyse",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle unité d’analyse ?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un personnage absent d’un chapitre peut être présent ailleurs ; un récit difficile peut être contrebalancé par d’autres récits. Toute analyse doit annoncer son unité : scène, séance, chapitre, année scolaire ou ensemble de supports. Sans cette précision, le mot « absence » devient trop extensible."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-representer-sans-enfermer",
+            "content": [
+              {
+                "type": "text",
+                "text": "Représenter sans enfermer"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La visibilité peut soutenir la reconnaissance, mais elle peut aussi exposer, réduire un personnage à une fonction pédagogique ou imposer la divulgation. Le but n’est pas la visibilité maximale. Il est de multiplier les rôles et les trajectoires tout en respectant la confidentialité et le contrôle de l’information."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-positif-ne-veut-pas-dire-irrealiste",
+            "content": [
+              {
+                "type": "text",
+                "text": "« Positif » ne veut pas dire irréaliste"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Éviter le misérabilisme ne consiste pas à remplacer toutes les violences par des récits heureux. Un optimisme exclusif effacerait les obstacles réels et les ressources nécessaires. I15 est protectrice parce qu’elle articule discriminations, relations respectueuses, familles, parcours ordinaires, ressources, soutiens et capacité d’agir."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-portee-des-recherches-mediatiques",
+            "content": [
+              {
+                "type": "text",
+                "text": "Portée des recherches médiatiques"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les études de Gomillion et Giuliano ou de Schiappa, Gregg et Hewes suggèrent que les figures médiatiques peuvent compter pour l’identité ou les attitudes. Leurs méthodes, populations et supports ne correspondent pas exactement à une classe française. Elles appuient une possibilité théorique, pas une promesse d’effet individuel ni une validation de Mosaïque."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-aucune-hierarchie-des-modes",
+            "content": [
+              {
+                "type": "text",
+                "text": "Aucune hiérarchie des modes"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un effet diffus n’est pas nécessairement moins sérieux qu’un acte explicite. Inversement, sa moindre visibilité n’autorise pas à lui attribuer sans preuve une profondeur ou une durée supérieure. Les modes organisent l’observation ; ils ne forment pas une échelle de violence."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5-application-precise-a-mosaique",
+        "title": "5. Application précise à Mosaïque",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-i01-cadrage-exclusivement-miserabiliste",
+            "content": [
+              {
+                "type": "text",
+                "text": "I01 — cadrage exclusivement misérabiliste"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’enseignant aborde des réalités documentées, mais la séance ne propose aucun exemple de relation heureuse, de soutien, de réussite ou de vie ordinaire. L’interprétation gelée dit que le cadrage "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "peut"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " laisser entendre qu’une vie LGBT+ est nécessairement définie par la peur, la souffrance et l’échec. Ce conditionnel doit être conservé. La scène ne permet pas d’affirmer ce que chaque personnage ressent réellement."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-i10-devoilement-erige-en-preuve-d-authenticite",
+            "content": [
+              {
+                "type": "text",
+                "text": "I10 — dévoilement érigé en preuve d’authenticité"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Plusieurs récits valorisent la révélation générale et dévalorisent le choix de garder une information privée. La protection consiste à restituer du choix : révéler ou non, à certaines personnes, à certains moments et dans certains contextes. La confidentialité ne doit pas être transformée en peur à corriger."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-i12-anticipation-dans-un-espace-ordinaire",
+            "content": [
+              {
+                "type": "text",
+                "text": "I12 — anticipation dans un espace ordinaire"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La scène ne décrit aucune interdiction ni insulte. L’obstacle tient au calcul qu’un geste affectif peut exiger lorsqu’il rend une relation visible. Les décisions gelées s’appuient sur les informations explicites des profils. L’orientation ou l’identité ne suffisent jamais à inventer une relation, une exposition ou un outing."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-i14-representation-ordinaire",
+            "content": [
+              {
+                "type": "text",
+                "text": "I14 — représentation ordinaire"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une famille avec deux mères participe à l’histoire sans être réduite à la discrimination ni devenir le sujet unique du récit. Cette présence ordinaire élargit les possibles sans obliger les personnages à se reconnaître dans la famille. La carte protectrice ne certifie pas à elle seule la qualité du corpus entier."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-i15-cadrage-protecteur",
+            "content": [
+              {
+                "type": "text",
+                "text": "I15 — cadrage protecteur"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La séance équilibrée n’efface pas les violences. Elle les replace parmi des relations, des parcours, des soutiens et des actions possibles. Son rôle fixe rappelle que la protection peut venir d’une architecture de contenu, et pas seulement d’une réaction après un incident."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-6-i16-pluraliser-la-masculinite",
+            "content": [
+              {
+                "type": "text",
+                "text": "I16 — pluraliser la masculinité"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les supports valorisent presque toujours des garçons virils, compétitifs, sportifs, sûrs d’eux et attirés par les filles. Les garçons sensibles, créatifs ou peu compétitifs sont faibles ou comiques. La carte permet à Arthur de rencontrer un obstacle réel sans lui attribuer une identité LGBT+. Elle montre que la position face à une norme n’est pas réductible à une identité de groupe."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-7-frontieres-entre-les-modes",
+            "content": [
+              {
+                "type": "text",
+                "text": "Frontières entre les modes"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "I10 relève ici des effets invisibles parce que l’objet principal est un script narratif. Une divulgation effective par un adulte pourrait relever des obstacles visibles ; un logiciel imposant la visibilité d’une information pourrait relever des normes ordinaires. La focale change, non la gravité. Aucune correspondance automatique n’est faite avec discrimination directe, discrimination indirecte ou biais inconscient."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6-ce-que-le-concept-ne-permet-pas-d-affirmer",
+        "title": "6. Ce que le concept ne permet pas d’affirmer",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le mode ne permet pas d’affirmer :"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "qu’une absence isolée prouve une exclusion ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "qu’un auteur partage consciemment ou inconsciemment tout stéréotype repéré ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "qu’une représentation produit le même effet sur toutes les personnes d’un groupe ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "qu’une personne minoritaire souhaite être visible, se dévoiler ou servir de modèle ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "qu’un récit ordinaire suffit à corriger un climat scolaire ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "qu’un effet invisible est plus profond, plus grave ou moins réel qu’un obstacle d’un autre mode ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "qu’une situation constitue automatiquement une discrimination au sens juridique ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "que l’avance d’un personnage mesure un niveau général de privilège ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "que Mosaïque modifie les attitudes ou les pratiques avec une efficacité démontrée."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le feedback reste une interprétation argumentée à partir d’un profil et d’une scène. Le joueur suit le parcours d’un personnage sans devenir ce personnage. Le désaccord demeure possible, à condition d’identifier les indices et les hypothèses qui le motivent."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7-implications-professionnelles",
+        "title": "7. Implications professionnelles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-cartographier-le-corpus",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cartographier le corpus"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Avant d’ajouter un contenu, inventorier les présences, absences, rôles, thèmes et dénouements sur une période pertinente. Une grille simple peut distinguer qui agit, qui aide, qui explique, qui souffre, qui a une vie ordinaire et qui reste sans voix. Le but n’est pas d’atteindre un quota universel, mais de rendre les répétitions discutables."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-varier-les-fonctions-narratives",
+            "content": [
+              {
+                "type": "text",
+                "text": "Varier les fonctions narratives"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Présenter des personnes minoritaires dans des rôles multiples : protagonistes ou personnages secondaires, en situation de difficulté ou non, avec des relations, des activités et des projets qui ne se réduisent pas à une caractéristique. Cette pluralité évite qu’une personne ou un personnage porte seul la charge de représenter tout un groupe."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-articuler-risques-et-capacite-d-agir",
+            "content": [
+              {
+                "type": "text",
+                "text": "Articuler risques et capacité d’agir"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les violences doivent être nommées avec des ressources, des protections, des personnes de soutien et des possibilités d’action. Une telle articulation n’édulcore pas le problème ; elle empêche le fatalisme et clarifie les réponses disponibles."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-proteger-le-controle-de-l-information",
+            "content": [
+              {
+                "type": "text",
+                "text": "Protéger le contrôle de l’information"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ne pas demander à une personne de témoigner, de révéler une identité ou de confirmer une information intime pour rendre un cours concret. Prévoir des exemples qui ne reposent pas sur l’exposition des élèves présents. La visibilité d’un groupe dans le curriculum ne crée aucune obligation de visibilité individuelle."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-examiner-l-effet-sans-attribuer-l-intention",
+            "content": [
+              {
+                "type": "text",
+                "text": "Examiner l’effet sans attribuer l’intention"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une révision professionnelle peut partir de formulations telles que : « ce support répète », « cet exemple laisse hors champ », « ce rôle est rarement proposé ». Elle ouvre une discussion sur l’effet éditorial sans transformer immédiatement l’auteur en personne coupable ou l’intention déclarée en preuve d’innocuité."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8-questions-de-debrief",
+        "title": "8. Questions de débrief",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quel aspect de la réalité la situation rend-elle saillant, et quelles alternatives laisse-t-elle hors champ ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Le mécanisme apparaît-il dans une scène isolée ou dans une répétition à l’échelle d’un corpus annoncé ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "La visibilité proposée donne-t-elle un rôle et des choix, ou impose-t-elle surtout une explication et un dévoilement ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quels effets sont réellement étayés par la scène et le profil, et lesquels seraient inventés ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle modification du cadrage préserverait l’étude des obstacles tout en ajoutant des ressources, des trajectoires ordinaires ou des possibilités d’agir ?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9-sources-cles-commentees",
+        "title": "9. Sources clés commentées",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Source"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Type"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Apport au module"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Limite ou vigilance"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Moscovici, "
+                  },
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "La psychanalyse, son image et son public"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " (1961)."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Texte original"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Représentations socialement élaborées et partagées."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne réduit pas la représentation à une image privée."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Goffman, "
+                  },
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Frame Analysis"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " (1974) ; Entman, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "1993"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1111/j.1460-2466.1993.tb01304.x",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Monographie et article théorique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Cadres, sélection et saillance."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne mesurent pas seuls l’effet d’un support scolaire."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Tuchman, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "1978"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1007/978-1-349-62397-6_9",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Chapitre de recherche"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Absence, trivialisation et condamnation des femmes dans les médias."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Extension à d’autres objets annoncée et prudente."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Kanter, "
+                  },
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Men and Women of the Corporation"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " (1977)."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Monographie organisationnelle"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Visibilité et isolement dans des configurations déséquilibrées."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Le tokenisme ne désigne pas toute présence unique."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Meyer, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "2003"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1037/0033-2909.129.5.674",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Revue théorique et empirique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Anticipation et dissimulation dans le stress minoritaire."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Modèle initial LGB ; aucun diagnostic individuel."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Schiappa, Gregg et Hewes, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "2005"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1080/0363775052000342544",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": " ; Gomillion et Giuliano, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "2011"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1080/00918369.2011.546729",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Études sur les médias"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Effets possibles sur attitudes et trajectoires perçues."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne valident ni un curriculum entier ni Mosaïque."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "UNESCO (2016) ; programme français d’EVARS (2025)."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Cadres institutionnels"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Prévention, inclusion, ressources et capacité d’agir."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne constituent pas des preuves d’efficacité de l’outil."
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10-bibliographie-complete",
+        "title": "10. Bibliographie complète",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-textes-originaux-et-sources-primaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Textes originaux et sources primaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Entman, R. M. (1993). « Framing: Toward Clarification of a Fractured Paradigm ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Journal of Communication"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 43(4), 51-58. https://doi.org/10.1111/j.1460-2466.1993.tb01304.x"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Goffman, E. (1974). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Frame Analysis: An Essay on the Organization of Experience"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Harper & Row. https://books.google.com/books/about/Frame_Analysis.html?id=7oRqAAAAMAAJ"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Kanter, R. M. (1977). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Men and Women of the Corporation"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Basic Books. https://www.hbs.edu/faculty/Pages/item.aspx?num=10807"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Moscovici, S. (1961). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "La psychanalyse, son image et son public"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Presses universitaires de France. https://classiques.uqam.ca/contemporains/moscovici_serge/psychanalyse_son_image_son_public/psychanalyse.html"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Tuchman, G. (1978). « The Symbolic Annihilation of Women by the Mass Media ». Dans G. Tuchman, A. K. Daniels et J. Benét (dir.), "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Hearth and Home: Images of Women in the Mass Media"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Oxford University Press. Réédition : https://doi.org/10.1007/978-1-349-62397-6_9"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-recherches-scientifiques-ou-universitaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Recherches scientifiques ou universitaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Devine, P. G. (1989). « Stereotypes and Prejudice: Their Automatic and Controlled Components ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Journal of Personality and Social Psychology"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 56(1), 5-18. https://doi.org/10.1037/0022-3514.56.1.5"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Gomillion, S. C. et Giuliano, T. A. (2011). « The Influence of Media Role Models on Gay, Lesbian, and Bisexual Identity ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Journal of Homosexuality"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 58(3), 330-354. https://doi.org/10.1080/00918369.2011.546729"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Meyer, I. H. (2003). « Prejudice, Social Stress, and Mental Health in Lesbian, Gay, and Bisexual Populations ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Psychological Bulletin"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 129(5), 674-697. https://doi.org/10.1037/0033-2909.129.5.674"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Schiappa, E., Gregg, P. B. et Hewes, D. E. (2005). « The Parasocial Contact Hypothesis ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Communication Monographs"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 72(1), 92-115. https://doi.org/10.1080/0363775052000342544"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-sources-institutionnelles-et-professionnelles",
+            "content": [
+              {
+                "type": "text",
+                "text": "Sources institutionnelles et professionnelles"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ministère de l’Éducation nationale (2025). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Programme d’éducation à la vie affective et relationnelle, et à la sexualité"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Bulletin officiel n° 6 du 6 février 2025. https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%206%20du%206%20f%C3%A9vrier%202025-405369.pdf"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "UNESCO (2016). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Out in the Open: Education Sector Responses to Violence Based on Sexual Orientation and Gender Identity/Expression"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". https://unesdoc.unesco.org/ark:/48223/pf0000244756"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-critiques-et-retours-de-pratique",
+            "content": [
+              {
+                "type": "text",
+                "text": "Critiques et retours de pratique"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Les limites de transfert, d’unité d’analyse, de représentativité des populations et d’inférence causale sont explicitées dans les sections 4 et 6. Aucune source disponible ne permet de présenter l’effet propre de Mosaïque comme démontré."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "limite-du-modele",
+        "title": "Limite du modèle",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ce module propose une lecture argumentée de situations construites. Il ne mesure ni un état intérieur, ni un climat scolaire, ni un effet durable. Les avances et les arrêts sont des décisions situées dans les cartes gelées, pas un score global de privilège. Les situations illustrent des mécanismes possibles ; elles ne prouvent ni une intention, ni une causalité, ni une infraction. Le dispositif reste discutable et devra être validé humainement avant publication."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "takeaways": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Observer la sélection."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Un cadrage rend certains aspects saillants et en laisse d’autres à l’arrière-plan. La question est de savoir quels parcours il rend pensables."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Regarder la série, pas seulement l’exemple."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " L’absence, le stéréotype ou le modèle restrictif se comprennent dans une répétition et une unité d’analyse annoncée."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Formuler des effets possibles."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " Une illustration argumentée n’autorise ni à prédire une réaction individuelle, ni à attribuer une intention, ni à annoncer l’efficacité de Mosaïque."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Dans les supports que vous utilisez sur une période donnée, quelles personnes apparaissent comme sujets d’une histoire ordinaire, lesquelles doivent surtout expliquer leur identité, et lesquelles restent absentes ?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "La partie « Approfondir » revient sur les cadres, les représentations sociales, l’absence, le tokenisme, l’anticipation et les limites des recherches disponibles. Elle propose aussi des repères pour réviser un corpus sans transformer toute différence en problème ni toute représentation positive en preuve d’inclusion."
+        }
+      ]
+    }
+  ],
+  "professionalQuestion": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "La partie « Approfondir » revient sur les cadres, les représentations sociales, l’absence, le tokenisme, l’anticipation et les limites des recherches disponibles. Elle propose aussi des repères pour réviser un corpus sans transformer toute différence en problème ni toute représentation positive en preuve d’inclusion."
+        }
+      ]
+    }
+  ],
+  "debriefQuestions": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quel aspect de la réalité la situation rend-elle saillant, et quelles alternatives laisse-t-elle hors champ ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le mécanisme apparaît-il dans une scène isolée ou dans une répétition à l’échelle d’un corpus annoncé ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La visibilité proposée donne-t-elle un rôle et des choix, ou impose-t-elle surtout une explication et un dévoilement ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quels effets sont réellement étayés par la scène et le profil, et lesquels seraient inventés ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle modification du cadrage préserverait l’étude des obstacles tout en ajoutant des ressources, des trajectoires ordinaires ou des possibilités d’agir ?"
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "centralSources": [
+    "S019",
+    "S020",
+    "S021",
+    "S022",
+    "S023",
+    "S065",
+    "S066",
+    "S067",
+    "S068",
+    "S135",
+    "S141"
+  ],
+  "moduleBibliography": [
+    {
+      "type": "table",
+      "headers": [
+        [
+          {
+            "type": "text",
+            "text": "Source"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Type"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Apport au module"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Limite ou vigilance"
+          }
+        ]
+      ],
+      "rows": [
+        [
+          [
+            {
+              "type": "text",
+              "text": "Moscovici, "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "La psychanalyse, son image et son public"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " (1961)."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Texte original"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Représentations socialement élaborées et partagées."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne réduit pas la représentation à une image privée."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Goffman, "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Frame Analysis"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " (1974) ; Entman, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "1993"
+                }
+              ],
+              "href": "https://doi.org/10.1111/j.1460-2466.1993.tb01304.x",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Monographie et article théorique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Cadres, sélection et saillance."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne mesurent pas seuls l’effet d’un support scolaire."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Tuchman, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "1978"
+                }
+              ],
+              "href": "https://doi.org/10.1007/978-1-349-62397-6_9",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Chapitre de recherche"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Absence, trivialisation et condamnation des femmes dans les médias."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Extension à d’autres objets annoncée et prudente."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Kanter, "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Men and Women of the Corporation"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " (1977)."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Monographie organisationnelle"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Visibilité et isolement dans des configurations déséquilibrées."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Le tokenisme ne désigne pas toute présence unique."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Meyer, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "2003"
+                }
+              ],
+              "href": "https://doi.org/10.1037/0033-2909.129.5.674",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Revue théorique et empirique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Anticipation et dissimulation dans le stress minoritaire."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Modèle initial LGB ; aucun diagnostic individuel."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Schiappa, Gregg et Hewes, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "2005"
+                }
+              ],
+              "href": "https://doi.org/10.1080/0363775052000342544",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": " ; Gomillion et Giuliano, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "2011"
+                }
+              ],
+              "href": "https://doi.org/10.1080/00918369.2011.546729",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Études sur les médias"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Effets possibles sur attitudes et trajectoires perçues."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne valident ni un curriculum entier ni Mosaïque."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "UNESCO (2016) ; programme français d’EVARS (2025)."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Cadres institutionnels"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Prévention, inclusion, ressources et capacité d’agir."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne constituent pas des preuves d’efficacité de l’outil."
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-1-textes-originaux-et-sources-primaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Textes originaux et sources primaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Entman, R. M. (1993). « Framing: Toward Clarification of a Fractured Paradigm ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Journal of Communication"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 43(4), 51-58. https://doi.org/10.1111/j.1460-2466.1993.tb01304.x"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Goffman, E. (1974). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Frame Analysis: An Essay on the Organization of Experience"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Harper & Row. https://books.google.com/books/about/Frame_Analysis.html?id=7oRqAAAAMAAJ"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Kanter, R. M. (1977). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Men and Women of the Corporation"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Basic Books. https://www.hbs.edu/faculty/Pages/item.aspx?num=10807"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Moscovici, S. (1961). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "La psychanalyse, son image et son public"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Presses universitaires de France. https://classiques.uqam.ca/contemporains/moscovici_serge/psychanalyse_son_image_son_public/psychanalyse.html"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Tuchman, G. (1978). « The Symbolic Annihilation of Women by the Mass Media ». Dans G. Tuchman, A. K. Daniels et J. Benét (dir.), "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Hearth and Home: Images of Women in the Mass Media"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Oxford University Press. Réédition : https://doi.org/10.1007/978-1-349-62397-6_9"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-2-recherches-scientifiques-ou-universitaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Recherches scientifiques ou universitaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Devine, P. G. (1989). « Stereotypes and Prejudice: Their Automatic and Controlled Components ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Journal of Personality and Social Psychology"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 56(1), 5-18. https://doi.org/10.1037/0022-3514.56.1.5"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Gomillion, S. C. et Giuliano, T. A. (2011). « The Influence of Media Role Models on Gay, Lesbian, and Bisexual Identity ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Journal of Homosexuality"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 58(3), 330-354. https://doi.org/10.1080/00918369.2011.546729"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Meyer, I. H. (2003). « Prejudice, Social Stress, and Mental Health in Lesbian, Gay, and Bisexual Populations ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Psychological Bulletin"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 129(5), 674-697. https://doi.org/10.1037/0033-2909.129.5.674"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Schiappa, E., Gregg, P. B. et Hewes, D. E. (2005). « The Parasocial Contact Hypothesis ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Communication Monographs"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 72(1), 92-115. https://doi.org/10.1080/0363775052000342544"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-3-sources-institutionnelles-et-professionnelles",
+      "content": [
+        {
+          "type": "text",
+          "text": "Sources institutionnelles et professionnelles"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministère de l’Éducation nationale (2025). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Programme d’éducation à la vie affective et relationnelle, et à la sexualité"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Bulletin officiel n° 6 du 6 février 2025. https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%206%20du%206%20f%C3%A9vrier%202025-405369.pdf"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "UNESCO (2016). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Out in the Open: Education Sector Responses to Violence Based on Sexual Orientation and Gender Identity/Expression"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". https://unesdoc.unesco.org/ark:/48223/pf0000244756"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-4-critiques-et-retours-de-pratique",
+      "content": [
+        {
+          "type": "text",
+          "text": "Critiques et retours de pratique"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les limites de transfert, d’unité d’analyse, de représentativité des populations et d’inférence causale sont explicitées dans les sections 4 et 6. Aucune source disponible ne permet de présenter l’effet propre de Mosaïque comme démontré."
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "related": {
+    "modules": [
+      "M10",
+      "M11"
+    ],
+    "notions": [
+      "representation",
+      "confidentialite"
+    ],
+    "situations": [
+      "I01",
+      "I09",
+      "I10",
+      "I12",
+      "I14",
+      "I15",
+      "I16"
+    ],
+    "modes": [
+      "Effets invisibles"
+    ]
+  },
+  "contentHash": "27ee397306cf5f40696721a93399a987f9f89d7d65eb22372bf74e0b06ab5af6"
+}

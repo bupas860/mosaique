@@ -1,0 +1,3253 @@
+{
+  "schemaVersion": "understand-public-v1",
+  "id": "M11",
+  "number": 11,
+  "title": "De la bienveillance à la pédagogie critique",
+  "status": "validated",
+  "pilot": false,
+  "directQuestion": "Pourquoi la bienveillance ne suffit-elle pas à comprendre une inégalité ou à transformer une pratique professionnelle ?",
+  "groupId": "G4",
+  "readingTime": {
+    "essential": "3 à 5 minutes",
+    "deepDive": "8 à 12 minutes"
+  },
+  "datedContent": [
+    {
+      "label": "Pas de nouveau cadre juridique daté ; sources théoriques et pédagogiques vérifiées le 31 juillet 2026",
+      "verifiedAt": "2026-07-31",
+      "scope": "canonical-module-scope"
+    }
+  ],
+  "essential": {
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Cette partie peut être lue seule. Elle propose une manière d’analyser les situations sans faire de la bonne intention, de l’émotion ou de l’accord avec le feedback une preuve suffisante."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-1-1-question-de-depart",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. Question de départ"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Pourquoi la bienveillance ne suffit-elle pas à comprendre une inégalité ou à transformer une pratique professionnelle ?"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-2-2-reponse-synthetique",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. Réponse synthétique"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "La bienveillance peut soutenir l’écoute et la prudence. Elle ne garantit ni la justesse d’une décision ni une protection effective. Une personne peut vouloir aider tout en imposant une catégorie, en exposant une information ou en laissant à autrui le travail de corriger une procédure. L’acte, l’effet, les droits, les ressources et le pouvoir doivent être examinés séparément."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "La pédagogie critique déplace alors la question. Au lieu de rechercher seulement la « bonne réaction », elle demande comment un savoir, une règle, une habitude, une institution ou un rapport de pouvoir organise la situation. Elle ne consiste ni à transmettre une opinion officielle, ni à obtenir une confession, ni à supprimer tout désaccord."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Mosaïque peut susciter de l’attention, de l’inconfort ou de l’empathie. Ces effets sont possibles, non obligatoires et non démontrés pour le dispositif. Le joueur suit le parcours d’un personnage fictif sans devenir ce personnage ni accéder avec certitude à son vécu intérieur. Le feedback propose une interprétation argumentée après la décision ; il ne constitue ni une vérité totale sur la personne, ni une sanction morale."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-3-3-definitions-operationnelles",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. Définitions opérationnelles"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "La "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "bienveillance"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " est une disposition à rechercher le bien d’autrui, accueillir sa parole ou éviter de lui nuire. Elle demande de vérifier ce que la personne souhaite, ne prouve aucune compétence et ne remplace ni droit, procédure ni vérification d’un effet."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "L’"
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "empathie"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " peut désigner une résonance affective ou un effort de compréhension du point de vue d’autrui. Elle peut soutenir l’attention, mais rester inexacte, projective ou sans suite. Un droit n’a pas à dépendre de l’émotion de l’observateur."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "La "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "pédagogie critique"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " interroge comment savoirs, normes, institutions et pouvoir organisent les expériences, afin de relier réflexion et action. Elle n’est ni méthode unique ni promesse d’émancipation."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "La "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "problématisation"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " transforme une réponse en enquête : qui sait quoi, qui décide, quelles catégories interviennent, quelles informations manquent et quelles protections sont possibles ?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "La "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "réflexivité"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " examine ses catégories, son rôle, ses marges de décision, les effets de ses pratiques, les limites des informations et sa place dans l’organisation. Elle n’est pas une confession."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "La "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "praxis"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ", chez Freire, articule réflexion et action sur le monde. Dans une formation professionnelle, elle invite à choisir une action réaliste, puis à en vérifier les effets ; elle ne garantit aucun résultat."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-4-4-exemple-mosaique-faire-du-desaccord-une-enquete",
+        "content": [
+          {
+            "type": "text",
+            "text": "4. Exemple Mosaïque : faire du désaccord une enquête"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Après "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "V04 — Le prénom refusé"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ", une personne conteste le feedback : « L’adulte veut seulement éviter une erreur administrative. » Le formateur n’a pas à vaincre cette personne ni à déclarer son intention sans importance. Il peut demander : que fait précisément l’adulte ? Qui doit surveiller la liste, demander une correction, expliquer sa situation ou supporter un risque de divulgation ? Quelle règle s’applique ? Que manque-t-il pour conclure ? Qui peut corriger l’outil ?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Le déplacement est critique parce qu’il sépare intention et effet, puis rend visibles les marges de manœuvre. Le respect de la personne et la protection contre les discriminations restent des droits ; l’avantage relatif réside dans le fait de ne pas devoir accomplir ce travail correctif ou dépendre d’une appréciation discrétionnaire."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "N12 — Les informations confidentielles"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " et "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "X13 — Une adaptation coordonnée"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " apportent un contrepoint : la protection repose sur une organisation des données, des destinataires, des décisions et des ressources. Ces situations n’en démontrent pas l’effet universel."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-5-5-a-ne-pas-confondre",
+        "content": [
+          {
+            "type": "text",
+            "text": "5. À ne pas confondre"
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "headers": [
+          [
+            {
+              "type": "text",
+              "text": "Distinction"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Repère"
+            }
+          ]
+        ],
+        "rows": [
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Bienveillance / absence d’effet négatif"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "L’intention relationnelle ne garantit pas l’effet."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Empathie / connaissance"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Ressentir ou imaginer n’est pas connaître avec certitude le vécu d’autrui."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Pédagogie critique / culpabilisation"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Analyser le pouvoir n’est pas mettre les participants en accusation."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dialogue / absence de cadre"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Le désaccord reste encadré par la dignité, les droits et les preuves."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Désaccord / relativisme"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Une interprétation se discute sans rendre toutes les affirmations équivalentes."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Neutralité / impartialité"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Examiner des arguments selon des critères n’impose pas de traiter comme équivalents un fait vérifié et une affirmation discriminatoire."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Sécurité / confort permanent"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Un cadre protecteur n’abolit ni question ni inconfort."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Participation / dévoilement"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Participer n’oblige jamais à parler de son identité ou de son histoire."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Réflexivité / confession"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Examiner sa pratique n’exige ni autobiographie ni aveu."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Action collective / responsabilité isolée"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Une action se distribue entre personne, équipe, direction et institution."
+              }
+            ]
+          ],
+          [
+            [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Savoir situé / opinion invérifiable"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Un point de vue partiel reste responsable de ses preuves."
+              }
+            ]
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-6-6-trois-idees-a-retenir",
+        "content": [
+          {
+            "type": "text",
+            "text": "6. Trois idées à retenir"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "La bienveillance et l’empathie peuvent soutenir la relation, mais les droits et les protections ne dépendent ni de l’intention ni de l’émotion."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Le désaccord devient formateur lorsqu’il ouvre une enquête sur les faits, les catégories, le pouvoir, les absences et les possibilités d’action."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "La réflexivité relie une position située à une action vérifiable ; elle ne promet ni pureté morale, ni prise de conscience automatique, ni efficacité démontrée de Mosaïque."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-7-7-question-de-reflexion-professionnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "7. Question de réflexion professionnelle"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Dans votre contexte, quelle pratique est aujourd’hui qualifiée de bienveillante sans que ses effets, ses destinataires, son cadre et le travail qu’elle impose aient été vérifiés ?"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-8-8-pour-aller-plus-loin",
+        "content": [
+          {
+            "type": "text",
+            "text": "8. Pour aller plus loin"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "« Approfondir » replace la pédagogie critique dans son histoire, examine ses critiques internes et propose des repères pour conduire un désaccord sans imposer un récit personnel ni transformer le feedback en verdict."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-9-sources-centrales-de-l-essentiel",
+        "content": [
+          {
+            "type": "text",
+            "text": "Sources centrales de L’essentiel"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Paulo Freire, "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Pedagogy of the Oppressed"
+                        }
+                      ]
+                    }
+                  ],
+                  "href": "https://www.bloomsbury.com/us/pedagogy-of-the-oppressed-9781501314162/",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", texte original publié en 1968."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "bell hooks, "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Teaching to Transgress"
+                        }
+                      ]
+                    }
+                  ],
+                  "href": "https://www.taylorfrancis.com/books/mono/10.4324/9780203700280/teaching-transgress-bell-hooks",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", 1994."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Elizabeth Ellsworth, "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "« Why Doesn’t This Feel Empowering? »"
+                    }
+                  ],
+                  "href": "https://eric.ed.gov/?id=EJ396155",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", 1989."
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "deepDive": {
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "Introduction",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cette partie précise les traditions théoriques, leurs critiques et leurs limites de transfert. Elle ne transforme pas Mosaïque en preuve de conscientisation ou d’émancipation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1-probleme-theorique-depasser-l-intention-sans-disqualifier-la-relation",
+        "title": "1. Problème théorique : dépasser l’intention sans disqualifier la relation",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une lecture morale oppose facilement l’adulte bienveillant à l’adulte malveillant. Elle personnalise ce qui peut aussi relever d’une catégorie, d’une circulation d’information, d’une répartition du travail ou d’une règle. L’analyse critique refuse que l’intention clôture l’examen de l’acte et de ses effets."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Il faut tenir plusieurs niveaux ensemble. Une personne agit avec une histoire et un rôle ; une équipe distribue des tâches ; une institution conçoit des outils ; des normes rendent certaines situations ordinaires et d’autres coûteuses à expliquer. Le pouvoir n’est donc pas seulement domination intentionnelle. Il comprend la capacité de nommer, de classer, d’accorder une ressource, de protéger une information, de corriger une procédure ou d’imposer à quelqu’un le travail de s’adapter."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La pédagogie critique est utile si elle rend ces niveaux discutables sans réduire les personnes à leur position sociale. Une position ouvre ou ferme des marges de manœuvre ; elle ne résume ni la personnalité, ni la culpabilité, ni toutes les relations d’un individu."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2-reperes-historiques-freire-hooks-et-les-deplacements-du-champ",
+        "title": "2. Repères historiques : Freire, hooks et les déplacements du champ",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-freire-problematisation-et-praxis",
+            "content": [
+              {
+                "type": "text",
+                "text": "Freire : problématisation et praxis"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Paulo Freire élabore "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Pédagogie des opprimés"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " dans le contexte de l’alphabétisation des adultes, de l’exil et des luttes politiques des années 1960. Il critique l’éducation « bancaire », où une autorité dépose un contenu chez des destinataires rendus passifs, et lui oppose une éducation problématisante : enseignants et apprenants enquêtent sur un objet médiateur."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le dialogue freirien n’est ni une conversation agréable ni un abandon de toute autorité. Il refuse le dépôt d’idées comme leur simple échange consommable. La praxis articule réflexion et action ; le verbalisme sans action et l’activisme sans réflexion en sont deux appauvrissements."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ce cadre ne se transpose pas tel quel. Une session Mosaïque en France n’est ni une campagne d’alphabétisation populaire ni un processus révolutionnaire. Le module retient une orientation : enquêter sur le monde décrit, relier l’expérience aux structures et préparer une action examinable. Il n’attribue à Freire ni protocole universel ni efficacité mesurée."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-bell-hooks-participation-et-pouvoir-professoral",
+            "content": [
+              {
+                "type": "text",
+                "text": "bell hooks : participation et pouvoir professoral"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Teaching to Transgress"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", bell hooks met Freire en dialogue avec le féminisme noir, sa trajectoire et son expérience universitaire aux États-Unis. La pédagogie engagée relie savoir, expérience, participation et responsabilité du professeur. Elle refuse que le corps et l’histoire de l’enseignant soient rendus invisibles pendant que les étudiants seraient sommés de s’exposer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "hooks n’annonce pas une classe sans conflit. Elle décrit les désaccords, les limites de l’influence enseignante et le pouvoir maintenu par l’institution. Pour Mosaïque, cela fonde un principe net : les expériences peuvent éclairer une discussion lorsqu’une personne choisit de les partager ; aucune participation ne doit devenir obligation de témoigner, de représenter un groupe ou de révéler une information sensible."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-des-pedagogies-critiques-plurielles",
+            "content": [
+              {
+                "type": "text",
+                "text": "Des pédagogies critiques plurielles"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les approches féministes, antiracistes, postcoloniales, queer et professionnelles ont déplacé ce champ. « Pédagogie critique » ne désigne donc ni une école homogène ni une technique labellisée. Megan Boler, par exemple, traite l’inconfort et les attachements émotionnels comme objets d’enquête. L’inconfort n’est pourtant ni un objectif obligatoire, ni un indicateur d’apprentissage, ni une justification de l’humiliation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3-concepts-et-auteurs-reellement-utiles",
+        "title": "3. Concepts et auteurs réellement utiles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-ellsworth-la-critique-interne-du-dialogue-emancipateur",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ellsworth : la critique interne du dialogue émancipateur"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Elizabeth Ellsworth analyse un cours antiraciste situé et montre comment les termes « dialogue », « voix », « empowerment » ou « réflexion critique » peuvent masquer les asymétries, les silences et les intérêts divergents. Son article ne prouve pas que tout dialogue serait impossible. Il rappelle que le formateur choisit la question, le temps, les relances et une partie des critères de recevabilité."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans Mosaïque, cette critique impose de nommer l’autorité, d’autoriser le silence et de distinguer deux objets : discuter l’interprétation d’une situation fictive et mettre en débat la dignité ou l’existence réelle d’un groupe. Le premier peut être ouvert ; le second ne devient pas acceptable au nom de la pluralité des opinions."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-haraway-des-connaissances-situees-et-responsables",
+            "content": [
+              {
+                "type": "text",
+                "text": "Haraway : des connaissances situées et responsables"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Donna Haraway refuse à la fois le regard prétendument désincarné et le relativisme absolu. Une connaissance est partielle, médiée et localisée ; elle reste responsable de ses preuves, de ses connexions et de ses exclusions. Une position dominée n’est pas automatiquement omnisciente ou innocente."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Pour une carte Mosaïque, situer un énoncé signifie demander : qui parle, à partir de quel rôle, avec quelles informations et quelles médiations ? Une expérience vécue, une étude, une règle de droit, une hypothèse et un choix éditorial ont des statuts différents. Reconnaître leur situation n’efface pas ces différences."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-schon-une-reflexivite-professionnelle-limitee-et-concrete",
+            "content": [
+              {
+                "type": "text",
+                "text": "Schön : une réflexivité professionnelle limitée et concrète"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Donald Schön décrit la réflexion dans et sur l’action dans plusieurs professions. Les revues ultérieures montrent toutefois des définitions et des preuves très hétérogènes. Le module retient un usage sobre : revenir sur une décision, ses catégories, ses effets attendus, les alternatives et ce qu’il faudra vérifier."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cette réflexivité ne cherche pas une identité morale parfaite. Elle peut porter sur une liste, un formulaire, une consigne ou une réunion sans recueillir de confidence. Une autoévaluation favorable ne démontre pas un changement de pratique."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4-controverses-et-limites",
+        "title": "4. Controverses et limites",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-pedagogie-critique-et-endoctrinement",
+            "content": [
+              {
+                "type": "text",
+                "text": "Pédagogie critique et endoctrinement"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Toute pédagogie sélectionne des contenus et des critères. Une approche critique devient dogmatique si elle impose la conclusion, disqualifie toute question ou dissimule sa propre position. Elle s’en distingue en rendant visibles son cadre, ses sources, ses limites et les conditions d’un désaccord argumenté. Elle n’impose aucun engagement militant personnel. Les droits et faits établis ne sont cependant pas soumis à un vote de préférence."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-dialogue-neutralite-et-impartialite",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dialogue, neutralité et impartialité"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un échange ouvert ne crée pas de symétrie réelle. L’impartialité demande d’examiner les arguments selon des critères explicites et d’indiquer les incertitudes. Une neutralité entendue comme équivalence de tous les énoncés confondrait source vérifiée, interprétation, stéréotype et attaque."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-participation-voix-et-confession",
+            "content": [
+              {
+                "type": "text",
+                "text": "Participation, voix et confession"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Inviter chacun à « parler depuis son vécu » peut renforcer les inégalités : certaines personnes risquent une exposition que d’autres ne connaissent pas. Le silence, la réponse générale ou l’analyse d’un personnage doivent rester possibles. Aucun participant n’a à certifier une situation parce qu’il est supposé appartenir au groupe représenté."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-inconfort-danger-et-securite",
+            "content": [
+              {
+                "type": "text",
+                "text": "Inconfort, danger et sécurité"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une hypothèse révisée peut créer de l’inconfort. Celui-ci ne prouve pas que l’on apprend. Menace, humiliation, harcèlement ou tentative de divulgation ne sont pas des inconforts pédagogiques à laisser « travailler ». La sécurité psychologique étudiée par Amy Edmondson vient des équipes de travail : son transfert aide à penser le risque de poser une question, mais ne garantit ni protection juridique ni absence de discrimination."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-empathie-simulation-et-projection",
+            "content": [
+              {
+                "type": "text",
+                "text": "Empathie, simulation et projection"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Suzanne Keen distingue empathie affective, prise de perspective, projection, détresse et action ; aucune chaîne générale récit-empathie-altruisme n’est démontrée. Les travaux de Nario-Redmond et de ses collègues sur des simulations brèves du handicap montrent des effets indésirables possibles sans amélioration des attitudes d’interaction. Ils ne portent pas sur Mosaïque, mais interdisent de promettre une reproduction fidèle du vécu."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-6-conscientisation-et-transformation",
+            "content": [
+              {
+                "type": "text",
+                "text": "Conscientisation et transformation"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une surprise, un mot appris, une intention, une action et un changement organisationnel ne sont pas le même résultat. Une discussion critique peut n’avoir aucune suite ; une action peut échouer ou produire un effet inattendu. Mosaïque ne dispose pas d’une preuve d’efficacité spécifique autorisant à annoncer conscientisation, émancipation ou transformation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5-application-precise-a-mosaique",
+        "title": "5. Application précise à Mosaïque",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-v04-le-prenom-refuse-enqueter-sur-le-desaccord",
+            "content": [
+              {
+                "type": "text",
+                "text": "V04 — Le prénom refusé : enquêter sur le désaccord"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "À l’objection « l’adulte veut seulement éviter une erreur », le formateur peut suivre six mouvements : revenir au texte exact ; distinguer l’intention supposée de l’acte ; identifier qui accomplit le travail correctif ; rappeler le cadre vérifié sans qualification automatique ; chercher les informations manquantes ; envisager une correction organisationnelle."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le feedback intervient après la décision et propose une lecture argumentée. Le participant peut encore contester une inférence, signaler une donnée absente ou proposer une variation. Il ne peut pas transformer ce désaccord en négation du respect dû à la personne. L’avance observée dans une situation n’est jamais un score global de privilège."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-n02-le-formulaire-pere-mere-deplacer-l-echelle",
+            "content": [
+              {
+                "type": "text",
+                "text": "N02 — Le formulaire « Père — Mère » : déplacer l’échelle"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Chercher une intention malveillante serait spéculatif. L’enquête porte sur les configurations prévues, la personne qui doit corriger, l’agent qui peut modifier le modèle et les effets d’une catégorie par défaut. Une aide ponctuelle peut être sincère sans suffire à transformer l’outil."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-n12-et-x13-concevoir-la-protection",
+            "content": [
+              {
+                "type": "text",
+                "text": "N12 et X13 : concevoir la protection"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "N12 — Les informations confidentielles"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " distingue données, usages et destinataires. "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "X13 — Une adaptation coordonnée"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " associe l’élève à un plan articulant organisation, confidentialité et ressources. Elles illustrent le passage d’une disposition individuelle à une protection préparée. Elles ne prouvent pas qu’une organisation sera protectrice pour tout le monde."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-i14-et-x14-ne-pas-reduire-l-analyse-a-l-obstacle",
+            "content": [
+              {
+                "type": "text",
+                "text": "I14 et X14 : ne pas réduire l’analyse à l’obstacle"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I14 — Une histoire ordinaire"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " rend une expérience minoritaire présente sans la réduire au problème. "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "X14 — Un accompagnement sans présupposé"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " commence par les souhaits et les soutiens disponibles. Ces protections évitent une pédagogie uniquement déficitaire ; elles ne prescrivent ni récit heureux ni solution universelle."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-frontiere-avec-le-module-12",
+            "content": [
+              {
+                "type": "text",
+                "text": "Frontière avec le module 12"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le module 11 donne le cadre conceptuel : intention, pouvoir, désaccord, réflexivité et praxis. Le module 12 organise concrètement contrat de participation, non-divulgation, incidents, débrief, formats, transfert et évaluation. Maintenir cette frontière évite de transformer ici une orientation théorique en recette d’animation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6-ce-que-le-cadre-ne-permet-pas-d-affirmer",
+        "title": "6. Ce que le cadre ne permet pas d’affirmer",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ce module ne permet pas :"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de déduire une intention, un vécu intérieur ou une culpabilité à partir d’une décision ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de prétendre qu’un joueur devient le personnage ou comprend désormais la vie d’un groupe ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de présenter l’empathie, l’inconfort, l’accord ou la participation comme preuves d’apprentissage ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de traiter une position sociale comme la totalité d’une personne ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de confondre savoir situé et opinion soustraite à la vérification ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de qualifier automatiquement une situation en droit ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de promettre qu’une prise de conscience entraîne une action, ou qu’une action réussit ;"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "de décrire Mosaïque, une situation, un feedback ou une illustration comme preuve empirique."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les personnages P et XP restent distincts même lorsqu’ils partagent un prénom. Les biographies, situations, matrices, mécanismes, illustrations et feedbacks demeurent des données gelées."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7-implications-professionnelles",
+        "title": "7. Implications professionnelles",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La réflexivité professionnelle peut être conduite par douze questions :"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle était mon intention ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quel effet est observable ou plausible ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelles informations me manquent ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle règle ou routine intervient ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Qui supporte le travail de correction ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelles ressources sont disponibles ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Qui possède le pouvoir de décider ou modifier ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Comment accueillir un désaccord sans humilier ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Qu’est-ce qui relève d’un fait, d’une interprétation ou d’une hypothèse ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle protection peut être mise en place ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle action dépend de moi, de l’équipe, de la direction ou de l’institution ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Comment vérifier ultérieurement son effet ?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le formateur permet l’analyse à la troisième personne, le passage d’une question et l’écriture. Il ne sollicite aucune révélation identitaire et n’utilise pas un témoignage comme preuve générale. Il interrompt attaque, tentative de dévoilement ou mise en cause de la dignité."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une action limitée — reformulation, correction d’une liste, procédure d’équipe — peut compter sans héroïsme. Elle précise responsable, ressources, effet attendu et date de réexamen. Attention, analyse, responsabilité et protection sont ainsi reliées à une transformation vérifiable des pratiques."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8-questions-de-debrief",
+        "title": "8. Questions de débrief",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Dans cette situation, que savons-nous du texte, que supposons-nous de l’intention et quel effet examinons-nous ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle règle, catégorie, habitude ou répartition du pouvoir transforme une difficulté individuelle en problème professionnel ou institutionnel ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Qui supporte aujourd’hui le travail de correction, d’explication ou de protection, et qui pourrait le redistribuer ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle interprétation du feedback peut raisonnablement être contestée, et quelle limite liée aux droits ou à la dignité doit rester ferme ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle action située peut être tentée sans exiger de dévoilement, et comment ses effets seront-ils vérifiés ?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9-sources-cles-commentees",
+        "title": "9. Sources clés commentées",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Source"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Type"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Apport au module"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Limite ou vigilance"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Paulo Freire, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "emphasis",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Pedagogy of the Oppressed"
+                          }
+                        ]
+                      }
+                    ],
+                    "href": "https://www.bloomsbury.com/us/pedagogy-of-the-oppressed-9781501314162/",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Texte théorique primaire"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Problématisation, dialogue, praxis et critique de l’éducation bancaire"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Contexte politique précis ; pas un protocole universel"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "bell hooks, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "emphasis",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Teaching to Transgress"
+                          }
+                        ]
+                      }
+                    ],
+                    "href": "https://www.taylorfrancis.com/books/mono/10.4324/9780203700280/teaching-transgress-bell-hooks",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Essais théoriques et réflexifs primaires"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Pédagogie engagée, participation, expérience et pouvoir professoral"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Enseignement supérieur états-unien ; pas une évaluation d’efficacité"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Elizabeth Ellsworth, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "« Why Doesn’t This Feel Empowering? »"
+                      }
+                    ],
+                    "href": "https://eric.ed.gov/?id=EJ396155",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Analyse critique située"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Asymétries du dialogue, silences et limites du vocabulaire émancipateur"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Un cours particulier ; ne condamne pas tout dialogue"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Donna Haraway, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "« Situated Knowledges »"
+                      }
+                    ],
+                    "href": "https://www.jstor.org/stable/3178066",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Texte théorique primaire"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Perspective partielle, localisation et responsabilité des savoirs"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne fournit pas une grille pédagogique prête à l’emploi"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Donald Schön, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "emphasis",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "The Reflective Practitioner"
+                          }
+                        ]
+                      }
+                    ],
+                    "href": "https://www.basicbooks.com/titles/donald-a-schon/the-reflective-practitioner/9780786725366/",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ouvrage théorique professionnel"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Réflexion dans et sur l’action"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Usages ultérieurs de « réflexivité » hétérogènes"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Suzanne Keen, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "« A Theory of Narrative Empathy »"
+                      }
+                    ],
+                    "href": "https://www.jstor.org/stable/20107388",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Théorie et synthèse sur le récit"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Distingue empathie, projection, détresse et action"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne porte pas sur Mosaïque ou la formation professionnelle"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Nario-Redmond, Gospodinov et Cobb, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "« Crip for a Day »"
+                      }
+                    ],
+                    "href": "https://pubmed.ncbi.nlm.nih.gov/28287757/",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Deux études empiriques"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Avertit des effets indésirables de certaines simulations"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Handicap, étudiants et protocole très différent de Mosaïque"
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Amy Edmondson, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "« Psychological Safety and Learning Behavior in Work Teams »"
+                      }
+                    ],
+                    "href": "https://www.jstor.org/stable/2666999",
+                    "external": true
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Étude empirique multiméthode"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Risque interpersonnel et comportements d’apprentissage"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Terrain d’équipes de travail ; ne garantit pas une sécurité totale"
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10-bibliographie",
+        "title": "10. Bibliographie",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-sources-primaires-theoriques",
+            "content": [
+              {
+                "type": "text",
+                "text": "Sources primaires théoriques"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Boler, M. (1999). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Feeling Power: Emotions and Education"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Routledge."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ellsworth, E. (1989). « Why Doesn’t This Feel Empowering? Working through the Repressive Myths of Critical Pedagogy ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Harvard Educational Review"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 59(3), 297-324."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Freire, P. (2000). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Pedagogy of the Oppressed"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 30e édition anniversaire. Continuum. Texte original publié en 1968."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Haraway, D. (1988). « Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Feminist Studies"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 14(3), 575-599."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "hooks, b. (1994). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Teaching to Transgress: Education as the Practice of Freedom"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Routledge."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Schön, D. A. (1983). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "The Reflective Practitioner: How Professionals Think in Action"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Basic Books."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-travaux-empiriques-et-syntheses",
+            "content": [
+              {
+                "type": "text",
+                "text": "Travaux empiriques et synthèses"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Edmondson, A. (1999). « Psychological Safety and Learning Behavior in Work Teams ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Administrative Science Quarterly"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 44(4), 350-383."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Keen, S. (2006). « A Theory of Narrative Empathy ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Narrative"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 14(3), 207-236."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Mann, K., Gordon, J. et MacLeod, A. (2009). « Reflection and Reflective Practice in Health Professions Education: A Systematic Review ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Advances in Health Sciences Education"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 14, 595-621."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Nario-Redmond, M. R., Gospodinov, D. et Cobb, A. (2017). « Crip for a Day: The Unintended Negative Consequences of Disability Simulations ». "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Rehabilitation Psychology"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 62(3), 324-333."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-ressource-professionnelle",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ressource professionnelle"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Conseil de l’Europe (2015). "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Teaching Controversial Issues"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Conseil de l’Europe."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-corpus-interne",
+            "content": [
+              {
+                "type": "text",
+                "text": "Corpus interne"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Mosaïque, "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Espace « Comprendre »"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", modules validés 01, 02, 08 et 09."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Mosaïque, banques, matrices, profils, biographies, illustrations, mécanismes et feedbacks gelés."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "takeaways": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La bienveillance et l’empathie peuvent soutenir la relation, mais les droits et les protections ne dépendent ni de l’intention ni de l’émotion."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le désaccord devient formateur lorsqu’il ouvre une enquête sur les faits, les catégories, le pouvoir, les absences et les possibilités d’action."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La réflexivité relie une position située à une action vérifiable ; elle ne promet ni pureté morale, ni prise de conscience automatique, ni efficacité démontrée de Mosaïque."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Dans votre contexte, quelle pratique est aujourd’hui qualifiée de bienveillante sans que ses effets, ses destinataires, son cadre et le travail qu’elle impose aient été vérifiés ?"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "« Approfondir » replace la pédagogie critique dans son histoire, examine ses critiques internes et propose des repères pour conduire un désaccord sans imposer un récit personnel ni transformer le feedback en verdict."
+        }
+      ]
+    }
+  ],
+  "professionalQuestion": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "« Approfondir » replace la pédagogie critique dans son histoire, examine ses critiques internes et propose des repères pour conduire un désaccord sans imposer un récit personnel ni transformer le feedback en verdict."
+        }
+      ]
+    }
+  ],
+  "debriefQuestions": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans cette situation, que savons-nous du texte, que supposons-nous de l’intention et quel effet examinons-nous ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle règle, catégorie, habitude ou répartition du pouvoir transforme une difficulté individuelle en problème professionnel ou institutionnel ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Qui supporte aujourd’hui le travail de correction, d’explication ou de protection, et qui pourrait le redistribuer ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle interprétation du feedback peut raisonnablement être contestée, et quelle limite liée aux droits ou à la dignité doit rester ferme ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle action située peut être tentée sans exiger de dévoilement, et comment ses effets seront-ils vérifiés ?"
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "centralSources": [
+    "S035",
+    "S036",
+    "S037",
+    "S038",
+    "S039",
+    "S040",
+    "S093",
+    "S095",
+    "S096",
+    "S097",
+    "S147"
+  ],
+  "moduleBibliography": [
+    {
+      "type": "table",
+      "headers": [
+        [
+          {
+            "type": "text",
+            "text": "Source"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Type"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Apport au module"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Limite ou vigilance"
+          }
+        ]
+      ],
+      "rows": [
+        [
+          [
+            {
+              "type": "text",
+              "text": "Paulo Freire, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Pedagogy of the Oppressed"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.bloomsbury.com/us/pedagogy-of-the-oppressed-9781501314162/",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Texte théorique primaire"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Problématisation, dialogue, praxis et critique de l’éducation bancaire"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Contexte politique précis ; pas un protocole universel"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "bell hooks, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Teaching to Transgress"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.taylorfrancis.com/books/mono/10.4324/9780203700280/teaching-transgress-bell-hooks",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Essais théoriques et réflexifs primaires"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Pédagogie engagée, participation, expérience et pouvoir professoral"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Enseignement supérieur états-unien ; pas une évaluation d’efficacité"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Elizabeth Ellsworth, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Why Doesn’t This Feel Empowering? »"
+                }
+              ],
+              "href": "https://eric.ed.gov/?id=EJ396155",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Analyse critique située"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Asymétries du dialogue, silences et limites du vocabulaire émancipateur"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Un cours particulier ; ne condamne pas tout dialogue"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Donna Haraway, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Situated Knowledges »"
+                }
+              ],
+              "href": "https://www.jstor.org/stable/3178066",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Texte théorique primaire"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Perspective partielle, localisation et responsabilité des savoirs"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne fournit pas une grille pédagogique prête à l’emploi"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Donald Schön, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "The Reflective Practitioner"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.basicbooks.com/titles/donald-a-schon/the-reflective-practitioner/9780786725366/",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ouvrage théorique professionnel"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Réflexion dans et sur l’action"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Usages ultérieurs de « réflexivité » hétérogènes"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Suzanne Keen, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« A Theory of Narrative Empathy »"
+                }
+              ],
+              "href": "https://www.jstor.org/stable/20107388",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Théorie et synthèse sur le récit"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Distingue empathie, projection, détresse et action"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne porte pas sur Mosaïque ou la formation professionnelle"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Nario-Redmond, Gospodinov et Cobb, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Crip for a Day »"
+                }
+              ],
+              "href": "https://pubmed.ncbi.nlm.nih.gov/28287757/",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Deux études empiriques"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Avertit des effets indésirables de certaines simulations"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Handicap, étudiants et protocole très différent de Mosaïque"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Amy Edmondson, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Psychological Safety and Learning Behavior in Work Teams »"
+                }
+              ],
+              "href": "https://www.jstor.org/stable/2666999",
+              "external": true
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Étude empirique multiméthode"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Risque interpersonnel et comportements d’apprentissage"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Terrain d’équipes de travail ; ne garantit pas une sécurité totale"
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-1-sources-primaires-theoriques",
+      "content": [
+        {
+          "type": "text",
+          "text": "Sources primaires théoriques"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Boler, M. (1999). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Feeling Power: Emotions and Education"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Routledge."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ellsworth, E. (1989). « Why Doesn’t This Feel Empowering? Working through the Repressive Myths of Critical Pedagogy ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Harvard Educational Review"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 59(3), 297-324."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Freire, P. (2000). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Pedagogy of the Oppressed"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 30e édition anniversaire. Continuum. Texte original publié en 1968."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Haraway, D. (1988). « Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Feminist Studies"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 14(3), 575-599."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "hooks, b. (1994). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Teaching to Transgress: Education as the Practice of Freedom"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Routledge."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Schön, D. A. (1983). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Reflective Practitioner: How Professionals Think in Action"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Basic Books."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-2-travaux-empiriques-et-syntheses",
+      "content": [
+        {
+          "type": "text",
+          "text": "Travaux empiriques et synthèses"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Edmondson, A. (1999). « Psychological Safety and Learning Behavior in Work Teams ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Administrative Science Quarterly"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 44(4), 350-383."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Keen, S. (2006). « A Theory of Narrative Empathy ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Narrative"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 14(3), 207-236."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mann, K., Gordon, J. et MacLeod, A. (2009). « Reflection and Reflective Practice in Health Professions Education: A Systematic Review ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Advances in Health Sciences Education"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 14, 595-621."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Nario-Redmond, M. R., Gospodinov, D. et Cobb, A. (2017). « Crip for a Day: The Unintended Negative Consequences of Disability Simulations ». "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Rehabilitation Psychology"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 62(3), 324-333."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-3-ressource-professionnelle",
+      "content": [
+        {
+          "type": "text",
+          "text": "Ressource professionnelle"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Conseil de l’Europe (2015). "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Teaching Controversial Issues"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Conseil de l’Europe."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-4-corpus-interne",
+      "content": [
+        {
+          "type": "text",
+          "text": "Corpus interne"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mosaïque, "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Espace « Comprendre »"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", modules validés 01, 02, 08 et 09."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mosaïque, banques, matrices, profils, biographies, illustrations, mécanismes et feedbacks gelés."
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "related": {
+    "modules": [
+      "M03",
+      "M04"
+    ],
+    "notions": [
+      "bienveillance",
+      "empathie",
+      "pedagogie-critique",
+      "problematisation",
+      "reflexivite",
+      "praxis",
+      "savoir-situe",
+      "pouvoir"
+    ],
+    "situations": [
+      "V04",
+      "N02",
+      "N12",
+      "I14",
+      "X13",
+      "X14"
+    ],
+    "modes": [
+      "Les quatre focales"
+    ]
+  },
+  "contentHash": "12c427cbefb2486b16e729e36cd8c11398f0ad32c5762092e6b36e385ad6be54"
+}

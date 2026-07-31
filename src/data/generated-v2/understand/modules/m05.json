@@ -1,0 +1,3054 @@
+{
+  "schemaVersion": "understand-public-v1",
+  "id": "M05",
+  "number": 5,
+  "title": "Obstacles visibles",
+  "status": "validated",
+  "pilot": false,
+  "directQuestion": "Comment analyser un obstacle explicite sans réduire la situation à la seule intention de son auteur ni lui attribuer automatiquement une qualification juridique ?",
+  "groupId": "G2",
+  "readingTime": {
+    "essential": "3 à 5 minutes",
+    "deepDive": "8 à 12 minutes"
+  },
+  "datedContent": [
+    {
+      "label": "Droit français, pHARe et ressources anti-harcèlement, vérifiés le 31 juillet 2026",
+      "verifiedAt": "2026-07-31",
+      "scope": "canonical-module-scope"
+    }
+  ],
+  "essential": {
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Temps de lecture visé : 3 à 5 minutes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-1-1-question-de-depart",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. Question de départ"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Comment analyser un obstacle explicite sans réduire la situation à la seule intention de son auteur ni lui attribuer automatiquement une qualification juridique ?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-2-2-reponse-synthetique",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. Réponse synthétique"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Le mode « Obstacles visibles » attire l’attention sur ce qui peut être décrit dans la scène : une parole, un refus, une menace, une exclusion, une divulgation, un harcèlement ou une intervention protectrice. Son intérêt est de partir d’un acte repérable avant de discuter ses causes, ses effets et les réponses possibles."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "« Visible » ne signifie ni plus grave, ni plus réel, ni juridiquement évident. Un refus prononcé devant un élève peut avoir des effets durables que la scène ne montre pas. Une insulte peut être grave sans que la carte suffise à établir le délit de harcèlement ou une discrimination directe. À l’inverse, une intention d’aide peut produire une divulgation dommageable. L’analyse sépare donc l’acte, l’intention, l’effet, la responsabilité et la qualification juridique."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Le mode inclut aussi les protections explicites. Un camarade peut interrompre une rumeur ; un adulte peut recadrer un propos ; une équipe peut activer une procédure. Ces actes augmentent une marge de manœuvre, mais ils ne prouvent pas que toute la situation est résolue ni que l’institution est inclusive dans son ensemble."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-3-3-definition-operationnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. Définition opérationnelle"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Obstacles visibles :"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " dans ce mode, l’acte, la parole, le refus, la menace ou l’exclusion qui réduit la marge de manœuvre du personnage est directement repérable dans la scène. Une protection peut également être visible lorsqu’un soutien, un recadrage ou une décision protectrice est clairement exprimé."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Cette synthèse éditoriale n’est pas une catégorie juridique. Le mode indique le foyer analytique principal, pas une classe exclusive de situations."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-4-4-deux-exemples-mosaique",
+        "content": [
+          {
+            "type": "text",
+            "text": "4. Deux exemples Mosaïque"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-5-v04-le-prenom-refuse",
+        "content": [
+          {
+            "type": "text",
+            "text": "V04 — Le prénom refusé"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Un élève indique le prénom utilisé au lycée. L’adulte répond qu’il emploiera celui de la liste. L’obstacle tient ici à une décision clairement formulée. La liste est présente en arrière-plan, mais elle n’impose pas mécaniquement la réponse : l’adulte exerce un pouvoir immédiat sur la reconnaissance et sur le risque de divulgation."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Le respect de la personne et la protection contre les discriminations sont des droits. Lorsque les conditions prévues par le cadre scolaire sont réunies, l’usage du prénom choisi ne doit pas être laissé à la libre appréciation des adultes. L’avantage relatif des personnages non concernés ne réside pas dans un « privilège d’être respectés », mais dans le fait de ne pas devoir surveiller la liste, demander une correction, expliquer leur situation ou dépendre de cette décision."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-6-v10-le-soutien-d-un-camarade",
+        "content": [
+          {
+            "type": "text",
+            "text": "V10 — Le soutien d’un camarade"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Des élèves commentent l’orientation, l’identité ou la famille d’une personne absente. Un camarade met fin à l’échange sans confirmer l’information et sans demander à la personne concernée de venir s’expliquer. La protection est visible : il interrompt la circulation et respecte la vie privée."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Ce soutien ne transforme pas le camarade en porte-parole et ne prouve pas que la rumeur ne reprendra pas. Il montre une intervention située, à compléter si nécessaire par un signalement, un accompagnement et une réponse institutionnelle."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-7-5-a-ne-pas-confondre",
+        "content": [
+          {
+            "type": "text",
+            "text": "5. À ne pas confondre"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Obstacle visible et discrimination directe ; acte explicite et effet entièrement prévisible ; intention hostile et responsabilité ; conflit interpersonnel et fonctionnement institutionnel ; visibilité et gravité ; soutien ponctuel et protection durable."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Une scène explicite peut relever de plusieurs cadres, ou d’aucune qualification juridique en l’absence d’éléments suffisants. La responsabilité professionnelle porte aussi sur la prévention, l’intervention et la protection, même lorsque l’intention de nuire n’est pas établie. Enfin, un conflit ne doit pas servir à symétriser artificiellement une agression, et une intervention utile ne dispense pas d’examiner la règle ou la procédure qui a rendu l’acte possible."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-8-6-trois-idees-a-retenir",
+        "content": [
+          {
+            "type": "text",
+            "text": "6. Trois idées à retenir"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Visible décrit l’acte ou la protection montré dans la scène, pas la gravité certaine ni le vécu intérieur."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Acte, intention, effet, responsabilité et qualification juridique sont cinq questions distinctes."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Protéger signifie intervenir sans exposer davantage la personne et organiser une réponse qui ne repose pas sur elle seule."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-9-7-question-de-reflexion-professionnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "7. Question de réflexion professionnelle"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Face à un acte explicite dans votre établissement, qui peut l’arrêter, quels faits doivent être recueillis, quelle information doit rester confidentielle et quelle procédure évite que l’élève porte seul la résolution ?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-10-8-pour-aller-plus-loin",
+        "content": [
+          {
+            "type": "text",
+            "text": "8. Pour aller plus loin"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Approfondir précise les différences entre conflit, violence, harcèlement et discrimination, examine les rôles des témoins et montre comment une interaction observable peut être soutenue ou limitée par une institution."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-11-sources-centrales-de-l-essentiel",
+        "content": [
+          {
+            "type": "text",
+            "text": "Sources centrales de L’essentiel"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Christina Salmivalli et al., "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "“Bullying as a Group Process”"
+                    }
+                  ],
+                  "href": "https://doi.org/10.1002/(SICI",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": "1098-2337(1996)22:1%3C1::AID-AB1%3E3.0.CO;2-T), 1996."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "France, "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "Code de l’éducation, article L. 111-6"
+                    }
+                  ],
+                  "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045289043",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", vérifié le 31 juillet 2026."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Ministère de l’Éducation nationale, "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "circulaire du 29 septembre 2021"
+                    }
+                  ],
+                  "href": "https://www.education.gouv.fr/bo/21/Hebdo36/MENE2128373C.htm",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", complétée par la décision du Conseil d’État du 29 décembre 2023."
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "deepDive": {
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "Introduction",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Temps de lecture visé : 8 à 12 minutes."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1-probleme-theorique-voir-l-acte-sans-reduire-l-analyse-a-son-auteur",
+        "title": "1. Problème théorique : voir l’acte sans réduire l’analyse à son auteur",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le vocabulaire courant invite souvent à chercher une personne fautive : qui a prononcé la phrase, publié le message ou refusé la demande ? Cette question est nécessaire mais insuffisante. Un acte se produit dans un groupe qui le renforce ou le contredit, dans une organisation qui distribue l’autorité, et au moyen d’outils qui augmentent ou limitent sa portée."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La difficulté inverse consiste à dissoudre l’action individuelle dans « le système ». V04 contient bien une décision d’adulte ; V13 contient bien un appel ; V16 contient bien une insulte. Les nommer permet d’intervenir. L’analyse structurelle n’efface pas l’acte : elle examine ce qui l’autorise, le rend répétable, le laisse sans réponse ou le transforme."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le mode adopte donc une focale intermédiaire. Il part de ce qui est observable, puis ouvre quatre enquêtes : sur les effets situés, la réaction du groupe, la responsabilité professionnelle et les conditions institutionnelles. Il refuse d’inférer une intention ou un vécu intérieur certain à partir de la seule scène."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2-reperes-historiques-et-institutionnels",
+        "title": "2. Repères historiques et institutionnels",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-du-harcelement-comme-relation-au-harcelement-comme-processus-de-groupe",
+            "content": [
+              {
+                "type": "text",
+                "text": "Du harcèlement comme relation au harcèlement comme processus de groupe"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les premiers modèles scolaires ont souvent décrit une relation entre auteur et victime. À partir des années 1990, les travaux de Salmivalli et de ses collègues ont systématisé l’analyse des rôles de pairs. Leur étude de 1996 montre que les élèves peuvent assister, renforcer, défendre ou rester en retrait. Ce repère est établi pour le terrain étudié ; il ne signifie pas que chaque groupe scolaire se répartit toujours de la même manière."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-developpement-des-interventions-de-temoins",
+            "content": [
+              {
+                "type": "text",
+                "text": "Développement des interventions de témoins"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les programmes de prévention ont ensuite davantage ciblé les témoins. La méta-analyse de Polanin, Espelage et Pigott, publiée en 2012, observe un effet moyen positif mais modeste sur l’intervention. Ce résultat soutient l’idée qu’une compétence d’intervention peut se travailler. Il ne réduit pas la prévention à l’attitude individuelle : les règles, la confiance dans les adultes et les risques de représailles comptent aussi."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-cadre-francais-recent",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cadre français récent"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La loi du 2 mars 2022 a inscrit dans le Code de l’éducation l’article L. 111-6 et créé un délit spécifique de harcèlement scolaire à l’article 222-33-2-3 du Code pénal. Le ministère présente pHARe comme obligatoire dans les écoles, collèges et lycées depuis la rentrée 2023 et l’articule au 3018 et à des équipes ressources. Ces éléments décrivent le cadre actuel ; ils ne prouvent pas que chaque signalement est traité de façon identique ni l’efficacité d’une action particulière."
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Niveau de preuve"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Repère"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Fait établi"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Les rôles de pairs sont documentés sur le terrain étudié ; les textes français cités sont en vigueur à la date de vérification."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Hypothèse probable"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Une réponse plus prévisible peut faciliter l’intervention, sans effet uniforme démontré."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Attribution contestée"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Aucune origine unique n’est attribuée aux interventions de témoins."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Absence de preuve suffisante"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Les sources ne démontrent ni un traitement identique des signalements ni l’efficacité de Mosaïque."
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3-concepts-et-auteurs-reellement-utiles",
+        "title": "3. Concepts et auteurs réellement utiles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-acte-intention-et-effet",
+            "content": [
+              {
+                "type": "text",
+                "text": "Acte, intention et effet"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un acte est descriptible ; une intention doit être établie ; un effet est observé ou raisonnablement argumenté dans un contexte. Cette distinction empêche de lire V13 comme une scène sans problème parce que l’adulte veut aider. Elle empêche aussi de transformer tout effet possible en certitude psychologique."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le droit module différemment ces dimensions selon les régimes. Le pénal demande l’examen des éléments constitutifs de l’infraction ; la discrimination directe ou indirecte répond à des définitions propres ; la responsabilité professionnelle comprend aussi des devoirs de prévention et de protection. Le mode 5 renvoie au module 4 pour ces qualifications."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-salmivalli-les-roles-dans-le-groupe",
+            "content": [
+              {
+                "type": "text",
+                "text": "Salmivalli : les rôles dans le groupe"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La typologie des rôles rend visible que le groupe n’est pas un décor. Rire, relayer, aider, défendre ou rester en retrait modifie la dynamique. Elle reste un outil d’analyse : les rôles peuvent varier d’une scène à l’autre et ne décrivent pas une personnalité stable."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "V16 illustre cette prudence. Le silence des témoins peut laisser l’insulte sans contradiction visible, mais la carte ne donne pas accès à leurs motifs. La réponse professionnelle ne consiste donc pas seulement à condamner le silence ; elle doit rendre l’intervention plus sûre, connue et accessible."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-poteat-vecho-et-l-intervention-face-aux-propos-homophobes",
+            "content": [
+              {
+                "type": "text",
+                "text": "Poteat, Vecho et l’intervention face aux propos homophobes"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Poteat et Vecho étudient des facteurs associés à l’intervention active chez des lycéens. Leur apport est de rapprocher la littérature générale sur les témoins des comportements homophobes. Leur limite est méthodologique : une association entre efficacité perçue, attitudes et intervention ne suffit pas à prouver une chaîne causale ni à prescrire une recette universelle."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-controle-de-l-information",
+            "content": [
+              {
+                "type": "text",
+                "text": "Contrôle de l’information"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "V05 et V13 portent aussi sur la capacité à choisir qui sait quoi. Une information vraie n’est pas pour autant librement partageable. La protection vise le contrôle du contexte, des destinataires et du moment. Elle n’interdit pas toute transmission professionnelle : en présence d’un danger ou d’une obligation de protection, le cadre change. La banque de V13 exclut explicitement cette situation afin de maintenir le foyer sur la divulgation automatique."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4-controverses-ou-limites",
+        "title": "4. Controverses ou limites",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-microagression",
+            "content": [
+              {
+                "type": "text",
+                "text": "« Microagression »"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le terme peut désigner des expressions brèves et quotidiennes de dévalorisation, mais ses définitions et mesures sont discutées. L’utiliser pour toute parole courte brouillerait la distinction entre une maladresse, une insulte, une répétition et une discrimination. Mosaïque nomme prioritairement l’acte précis."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-violence-symbolique",
+            "content": [
+              {
+                "type": "text",
+                "text": "« Violence symbolique »"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Chez Bourdieu, la violence symbolique ne signifie pas simplement une violence non physique ou verbale. Elle renvoie à des rapports de domination et à des catégories de perception reconnues comme légitimes. Le terme ne doit donc pas remplacer « insulte », « refus » ou « divulgation »."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-intervention-visible-et-securite",
+            "content": [
+              {
+                "type": "text",
+                "text": "Intervention visible et sécurité"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Encourager les témoins à intervenir ne signifie pas prescrire la confrontation directe en toute circonstance. Le soutien peut être différé, privé ou transmis à un adulte. Le risque, le rapport de force et le consentement de la personne concernée doivent guider le choix."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-limites-des-etudes",
+            "content": [
+              {
+                "type": "text",
+                "text": "Limites des études"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les résultats sur les témoins proviennent de pays, d’âges et de dispositifs différents. Les mesures reposent parfois sur des déclarations. Un effet moyen de programme ne permet pas de prévoir le comportement d’un élève ni l’évolution d’un établissement."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5-application-precise-a-mosaique",
+        "title": "5. Application précise à Mosaïque",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-v04-decision-explicite-et-support-administratif",
+            "content": [
+              {
+                "type": "text",
+                "text": "V04 — décision explicite et support administratif"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le refus de l’adulte est le foyer visible. Il peut être soutenu par une liste inadéquate, mais ne se réduit pas à une erreur automatique. Lorsque les conditions prévues par la circulaire de 2021 sont réunies, l’usage du prénom choisi relève d’un cadre commun et non d’une faveur discrétionnaire. Le Conseil d’État a confirmé en 2023 la légalité de cette préconisation pour la vie interne des établissements."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-v05-diffusion-et-amplification",
+            "content": [
+              {
+                "type": "text",
+                "text": "V05 — diffusion et amplification"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La publication devient une chaîne par commentaires, captures et groupes multiples. Les faits peuvent se poursuivre hors du temps scolaire. La carte illustre la perte de contrôle et l’amplification ; elle ne fournit pas les éléments d’une enquête juridique complète."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-v13-intention-d-aide-et-divulgation",
+            "content": [
+              {
+                "type": "text",
+                "text": "V13 — intention d’aide et divulgation"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’appel rend visible une décision professionnelle. La situation varie selon ce que la famille connaît déjà dans le profil, sans que cela rende la pratique générale appropriée. Le point de vigilance gelé exclut un danger immédiat ou une obligation de protection."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-v16-insulte-et-climat-de-groupe",
+            "content": [
+              {
+                "type": "text",
+                "text": "V16 — insulte et climat de groupe"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La scène montre une agression verbale et l’absence de réaction. La personne peut être visée sur la base d’une identité réelle ou supposée. La carte ne hiérarchise pas cette scène par rapport aux modes 6 et 7 et ne déduit pas une réaction psychologique identique."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-v10-protection-sans-outing-defensif",
+            "content": [
+              {
+                "type": "text",
+                "text": "V10 — protection sans outing défensif"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le camarade refuse la conversation et change de sujet. Il ne confirme aucune information. Cette intervention agit au niveau de l’échange. Elle ne remplace pas une politique de confidentialité ni un protocole de traitement."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-6-frontiere-entre-les-modes",
+            "content": [
+              {
+                "type": "text",
+                "text": "Frontière entre les modes"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un refus explicite peut être rendu probable par une norme ordinaire ; une diffusion peut produire ensuite des anticipations invisibles. Inversement, une représentation répétée peut normaliser un propos explicite. Mosaïque retient le foyer de chaque carte sans prétendre découvrir sa catégorie naturelle."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6-ce-que-le-concept-ne-permet-pas-d-affirmer",
+        "title": "6. Ce que le concept ne permet pas d’affirmer",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Qu’un obstacle visible est nécessairement plus grave qu’une procédure ou un effet représentationnel."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Qu’une situation visible constitue automatiquement une discrimination directe, un harcèlement ou une infraction."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Que l’intention de l’auteur est hostile, consciente ou connue."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Que le personnage ressent une émotion déterminée ou réagira d’une manière prévisible."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Que le silence d’un témoin prouve son accord intérieur."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Qu’une intervention protectrice ponctuelle transforme durablement l’institution."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Que Mosaïque forme efficacement les témoins ou réduit les violences."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7-implications-professionnelles",
+        "title": "7. Implications professionnelles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-decrire-et-proteger-d-abord",
+            "content": [
+              {
+                "type": "text",
+                "text": "Décrire et protéger d’abord"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Recueillir les mots, gestes, dates, canaux et personnes présentes sans demander à l’élève de démontrer immédiatement tout l’effet. Vérifier le risque de répétition ou de représailles. Décider avec prudence qui doit connaître l’information."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-interrompre-sans-exposer",
+            "content": [
+              {
+                "type": "text",
+                "text": "Interrompre sans exposer"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un recadrage peut nommer la règle sans révéler l’identité ou confirmer une rumeur. Dans une scène numérique, préserver des éléments utiles ne signifie pas faire circuler davantage les captures. L’accompagnement doit redonner du contrôle à la personne lorsque le cadre de protection le permet."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-organiser-la-reponse",
+            "content": [
+              {
+                "type": "text",
+                "text": "Organiser la réponse"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Identifier l’équipe ressource, la direction, les personnels de santé et sociaux, le référent ou le dispositif compétent. Tracer les faits de manière proportionnée, coordonner les interventions et donner un retour à la personne. L’élève n’a pas à enquêter, confronter les auteurs et réparer seul la procédure."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-transformer-ce-qui-rend-l-acte-repetable",
+            "content": [
+              {
+                "type": "text",
+                "text": "Transformer ce qui rend l’acte répétable"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Après V04, examiner les listes et la circulation du prénom. Après V05, examiner les canaux numériques et le protocole. Après V13, clarifier les règles de confidentialité et de transmission. Après V16, rendre visibles les attentes envers les témoins et les adultes. Une réponse individuelle devient durable lorsqu’elle modifie aussi l’organisation."
+              }
+            ]
+          },
+          {
+            "type": "quote",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Droit et institutions — vérifié le 31 juillet 2026."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " L’article L. 111-6 du Code de l’éducation exige des mesures de prévention, de détection et de réponse coordonnée. Le ministère présente pHARe comme le dispositif national et le 3018 comme une voie de prise en charge. Toute qualification ou procédure précise doit être adaptée aux faits et revérifiée au moment de l’usage."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8-questions-de-debrief",
+        "title": "8. Questions de débrief",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quel acte, quelle parole ou quelle décision est effectivement observable dans la scène ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelles règles, quels outils ou quelles réactions du groupe rendent cet acte possible, répétable ou contestable ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelles informations manquent pour distinguer intention, effet, harcèlement, violence et discrimination ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle intervention protégerait sans confirmer une rumeur ni exposer davantage la personne ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Que doivent faire respectivement un pair, un adulte, l’équipe et l’institution ?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9-sources-cles-commentees",
+        "title": "9. Sources clés commentées",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Source"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Type"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Apport au module"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Limite ou vigilance"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "Code de l’éducation, art. L. 111-6"
+                      }
+                    ],
+                    "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045289043",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Source officielle primaire"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Prévention, détection et réponse coordonnée au harcèlement."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne qualifie pas chaque scène fictive."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "Code pénal, art. 222-33-2-3"
+                      }
+                    ],
+                    "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045289333",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Source officielle primaire"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Délit de harcèlement scolaire."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Application factuelle et probatoire."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "Circulaire du 29 septembre 2021"
+                      }
+                    ],
+                    "href": "https://www.education.gouv.fr/bo/21/Hebdo36/MENE2128373C.htm",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": " et "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "CE, 29 décembre 2023"
+                      }
+                    ],
+                    "href": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-12-29/463697",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Instruction et jurisprudence"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Cadre du prénom choisi et validation contentieuse."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Conditions précises ; ne remplace pas l’analyse d’un cas."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Salmivalli et al., "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "1996"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1002/(SICI",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "1098-2337(1996)22:1%3C1::AID-AB1%3E3.0.CO;2-T)."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Étude empirique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Harcèlement comme processus de groupe."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Terrain finlandais et âge restreint."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Polanin, Espelage & Pigott, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "2012"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1080/02796015.2012.12087375",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Méta-analyse"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Effet moyen des programmes sur l’intervention des témoins."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Peu d’études, mesures hétérogènes."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Poteat & Vecho, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "2016"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1016/j.jsp.2015.10.002",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Étude scolaire"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Intervention face aux comportements homophobes."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Corrélation, non causalité."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "UNESCO, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "emphasis",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Out in the Open"
+                          }
+                        ]
+                      }
+                    ],
+                    "href": "https://unesdoc.unesco.org/ark:/48223/pf0000244756",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 2016."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Revue internationale"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Nécessité d’une réponse globale et inclusive."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Comparaisons internationales et données datées."
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10-bibliographie-complete",
+        "title": "10. Bibliographie complète",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-textes-originaux-et-sources-primaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Textes originaux et sources primaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "France, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "Code de l’éducation, article L. 111-6"
+                        }
+                      ],
+                      "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045289043",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", version vérifiée le 31 juillet 2026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "France, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "Code pénal, article 222-33-2-3"
+                        }
+                      ],
+                      "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045289333",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", version vérifiée le 31 juillet 2026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ministère de l’Éducation nationale, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Pour une meilleure prise en compte des questions relatives à l’identité de genre en milieu scolaire"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://www.education.gouv.fr/bo/21/Hebdo36/MENE2128373C.htm",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", circulaire du 29 septembre 2021."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Conseil d’État, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "décision nº 463697"
+                        }
+                      ],
+                      "href": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-12-29/463697",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 29 décembre 2023."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-recherches-scientifiques-ou-universitaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Recherches scientifiques ou universitaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Paluck, Elizabeth L., Hana Shepherd & Peter M. Aronow, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“Changing Climates of Conflict: A Social Network Experiment in 56 Schools”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1073/pnas.1514483113",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "PNAS"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 113(3), 2016, p. 566–571 ; voir les corrections publiées sur l’estimation."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Polanin, Joshua R., Dorothy L. Espelage & Therese D. Pigott, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“A Meta-Analysis of School-Based Bullying Prevention Programs’ Effects on Bystander Intervention Behavior”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1080/02796015.2012.12087375",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "School Psychology Review"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 41(1), 2012, p. 47–65."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Poteat, V. Paul & Olivier Vecho, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“Who Intervenes against Homophobic Behavior? Attributes That Distinguish Active Bystanders”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1016/j.jsp.2015.10.002",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Journal of School Psychology"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 54, 2016, p. 17–28."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Salmivalli, Christina, Kirsti Lagerspetz, Kaj Björkqvist, Karin Österman & Ari Kaukiainen, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“Bullying as a Group Process”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1002/(SICI",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": "1098-2337(1996)22:1%3C1::AID-AB1%3E3.0.CO;2-T), "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Aggressive Behavior"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 22(1), 1996, p. 1–15."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Salmivalli, Christina, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“Bullying and the Peer Group: A Review”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1016/j.avb.2009.08.007",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Aggression and Violent Behavior"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 15(2), 2010, p. 112–120."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-sources-institutionnelles-et-professionnelles",
+            "content": [
+              {
+                "type": "text",
+                "text": "Sources institutionnelles et professionnelles"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Éduscol, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Prévenir les LGBTphobies en milieu scolaire"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://eduscol.education.gouv.fr/6084/prevenir-les-lgbtphobies-en-milieu-scolaire",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", février 2026, consulté le 31 juillet 2026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ministère de l’Éducation nationale, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "pHARe : un dispositif de lutte contre le harcèlement à l’école"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://www.education.gouv.fr/non-au-harcelement/phare-un-dispositif-de-lutte-contre-le-harcelement-l-ecole-323435",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", consulté le 31 juillet 2026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "UNESCO, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "emphasis",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Out in the Open: Education Sector Responses to Violence Based on Sexual Orientation and Gender Identity/Expression"
+                            }
+                          ]
+                        }
+                      ],
+                      "href": "https://unesdoc.unesco.org/ark:/48223/pf0000244756",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", Paris, 2016."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-critiques-et-retours-de-pratique",
+            "content": [
+              {
+                "type": "text",
+                "text": "Critiques et retours de pratique"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Les documents professionnels sur l’intervention de témoins peuvent fournir des scénarios d’action, mais ils ne sont pas traités ici comme des preuves d’efficacité universelle. Leur adaptation doit tenir compte du risque, du consentement et des procédures locales."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "limite-du-modele",
+        "title": "Limite du modèle",
+        "blocks": [
+          {
+            "type": "quote",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Mosaïque isole un acte et propose un effet situé afin de rendre la discussion possible. Il ne reconstitue ni une enquête, ni la totalité des interactions, ni le vécu intérieur du personnage. Le désaccord sur une décision de jeu doit conduire à préciser les faits manquants et les mécanismes, non à noter moralement le joueur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "takeaways": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Visible décrit l’acte ou la protection montré dans la scène, pas la gravité certaine ni le vécu intérieur."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Acte, intention, effet, responsabilité et qualification juridique sont cinq questions distinctes."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Protéger signifie intervenir sans exposer davantage la personne et organiser une réponse qui ne repose pas sur elle seule."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Face à un acte explicite dans votre établissement, qui peut l’arrêter, quels faits doivent être recueillis, quelle information doit rester confidentielle et quelle procédure évite que l’élève porte seul la résolution ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Approfondir précise les différences entre conflit, violence, harcèlement et discrimination, examine les rôles des témoins et montre comment une interaction observable peut être soutenue ou limitée par une institution."
+        }
+      ]
+    }
+  ],
+  "professionalQuestion": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Approfondir précise les différences entre conflit, violence, harcèlement et discrimination, examine les rôles des témoins et montre comment une interaction observable peut être soutenue ou limitée par une institution."
+        }
+      ]
+    }
+  ],
+  "debriefQuestions": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quel acte, quelle parole ou quelle décision est effectivement observable dans la scène ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelles règles, quels outils ou quelles réactions du groupe rendent cet acte possible, répétable ou contestable ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelles informations manquent pour distinguer intention, effet, harcèlement, violence et discrimination ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle intervention protégerait sans confirmer une rumeur ni exposer davantage la personne ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Que doivent faire respectivement un pair, un adulte, l’équipe et l’institution ?"
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "centralSources": [
+    "S060",
+    "S061",
+    "S062",
+    "S063",
+    "S064",
+    "S107",
+    "S108",
+    "S113",
+    "S133",
+    "S136",
+    "S137",
+    "S141"
+  ],
+  "moduleBibliography": [
+    {
+      "type": "table",
+      "headers": [
+        [
+          {
+            "type": "text",
+            "text": "Source"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Type"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Apport au module"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Limite ou vigilance"
+          }
+        ]
+      ],
+      "rows": [
+        [
+          [
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Code de l’éducation, art. L. 111-6"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045289043",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Source officielle primaire"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Prévention, détection et réponse coordonnée au harcèlement."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne qualifie pas chaque scène fictive."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Code pénal, art. 222-33-2-3"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045289333",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Source officielle primaire"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Délit de harcèlement scolaire."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Application factuelle et probatoire."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Circulaire du 29 septembre 2021"
+                }
+              ],
+              "href": "https://www.education.gouv.fr/bo/21/Hebdo36/MENE2128373C.htm",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": " et "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "CE, 29 décembre 2023"
+                }
+              ],
+              "href": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-12-29/463697",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Instruction et jurisprudence"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Cadre du prénom choisi et validation contentieuse."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Conditions précises ; ne remplace pas l’analyse d’un cas."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Salmivalli et al., "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "1996"
+                }
+              ],
+              "href": "https://doi.org/10.1002/(SICI",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "1098-2337(1996)22:1%3C1::AID-AB1%3E3.0.CO;2-T)."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Étude empirique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Harcèlement comme processus de groupe."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Terrain finlandais et âge restreint."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Polanin, Espelage & Pigott, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "2012"
+                }
+              ],
+              "href": "https://doi.org/10.1080/02796015.2012.12087375",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Méta-analyse"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Effet moyen des programmes sur l’intervention des témoins."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Peu d’études, mesures hétérogènes."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Poteat & Vecho, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "2016"
+                }
+              ],
+              "href": "https://doi.org/10.1016/j.jsp.2015.10.002",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Étude scolaire"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Intervention face aux comportements homophobes."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Corrélation, non causalité."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "UNESCO, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Out in the Open"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://unesdoc.unesco.org/ark:/48223/pf0000244756",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 2016."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Revue internationale"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Nécessité d’une réponse globale et inclusive."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Comparaisons internationales et données datées."
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-1-textes-originaux-et-sources-primaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Textes originaux et sources primaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "France, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "Code de l’éducation, article L. 111-6"
+                  }
+                ],
+                "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045289043",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", version vérifiée le 31 juillet 2026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "France, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "Code pénal, article 222-33-2-3"
+                  }
+                ],
+                "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045289333",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", version vérifiée le 31 juillet 2026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministère de l’Éducation nationale, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Pour une meilleure prise en compte des questions relatives à l’identité de genre en milieu scolaire"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://www.education.gouv.fr/bo/21/Hebdo36/MENE2128373C.htm",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", circulaire du 29 septembre 2021."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Conseil d’État, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "décision nº 463697"
+                  }
+                ],
+                "href": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-12-29/463697",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", 29 décembre 2023."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-2-recherches-scientifiques-ou-universitaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Recherches scientifiques ou universitaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Paluck, Elizabeth L., Hana Shepherd & Peter M. Aronow, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“Changing Climates of Conflict: A Social Network Experiment in 56 Schools”"
+                  }
+                ],
+                "href": "https://doi.org/10.1073/pnas.1514483113",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "PNAS"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 113(3), 2016, p. 566–571 ; voir les corrections publiées sur l’estimation."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Polanin, Joshua R., Dorothy L. Espelage & Therese D. Pigott, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“A Meta-Analysis of School-Based Bullying Prevention Programs’ Effects on Bystander Intervention Behavior”"
+                  }
+                ],
+                "href": "https://doi.org/10.1080/02796015.2012.12087375",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "School Psychology Review"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 41(1), 2012, p. 47–65."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Poteat, V. Paul & Olivier Vecho, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“Who Intervenes against Homophobic Behavior? Attributes That Distinguish Active Bystanders”"
+                  }
+                ],
+                "href": "https://doi.org/10.1016/j.jsp.2015.10.002",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Journal of School Psychology"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 54, 2016, p. 17–28."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Salmivalli, Christina, Kirsti Lagerspetz, Kaj Björkqvist, Karin Österman & Ari Kaukiainen, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“Bullying as a Group Process”"
+                  }
+                ],
+                "href": "https://doi.org/10.1002/(SICI",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": "1098-2337(1996)22:1%3C1::AID-AB1%3E3.0.CO;2-T), "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Aggressive Behavior"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 22(1), 1996, p. 1–15."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Salmivalli, Christina, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“Bullying and the Peer Group: A Review”"
+                  }
+                ],
+                "href": "https://doi.org/10.1016/j.avb.2009.08.007",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Aggression and Violent Behavior"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 15(2), 2010, p. 112–120."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-3-sources-institutionnelles-et-professionnelles",
+      "content": [
+        {
+          "type": "text",
+          "text": "Sources institutionnelles et professionnelles"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Éduscol, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Prévenir les LGBTphobies en milieu scolaire"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://eduscol.education.gouv.fr/6084/prevenir-les-lgbtphobies-en-milieu-scolaire",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", février 2026, consulté le 31 juillet 2026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ministère de l’Éducation nationale, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "pHARe : un dispositif de lutte contre le harcèlement à l’école"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://www.education.gouv.fr/non-au-harcelement/phare-un-dispositif-de-lutte-contre-le-harcelement-l-ecole-323435",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", consulté le 31 juillet 2026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "UNESCO, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Out in the Open: Education Sector Responses to Violence Based on Sexual Orientation and Gender Identity/Expression"
+                      }
+                    ]
+                  }
+                ],
+                "href": "https://unesdoc.unesco.org/ark:/48223/pf0000244756",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", Paris, 2016."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-4-critiques-et-retours-de-pratique",
+      "content": [
+        {
+          "type": "text",
+          "text": "Critiques et retours de pratique"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les documents professionnels sur l’intervention de témoins peuvent fournir des scénarios d’action, mais ils ne sont pas traités ici comme des preuves d’efficacité universelle. Leur adaptation doit tenir compte du risque, du consentement et des procédures locales."
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "related": {
+    "modules": [
+      "M09",
+      "M12"
+    ],
+    "notions": [
+      "acte-observable",
+      "intention",
+      "protection"
+    ],
+    "situations": [
+      "V04",
+      "V05",
+      "V10",
+      "V13",
+      "V16"
+    ],
+    "modes": [
+      "Obstacles visibles"
+    ]
+  },
+  "contentHash": "4eafaa41c6a6417f54024ce48c2bcada3357f6c41dd31a4b5b4047d9834cb214"
+}

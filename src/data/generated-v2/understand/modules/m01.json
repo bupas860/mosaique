@@ -1,0 +1,3148 @@
+{
+  "schemaVersion": "understand-public-v1",
+  "id": "M01",
+  "number": 1,
+  "title": "Ce que Mosaïque met en jeu",
+  "status": "validated",
+  "pilot": false,
+  "directQuestion": "Que demande réellement Mosaïque au joueur, et que signifient les décisions prises pendant une partie ?",
+  "groupId": "G1",
+  "readingTime": {
+    "essential": "3 à 5 minutes",
+    "deepDive": "8 à 12 minutes"
+  },
+  "datedContent": [
+    {
+      "label": "Recherches sur simulation, fiction, débrief et transfert, vérifiées le 31 juillet 2026",
+      "verifiedAt": "2026-07-31",
+      "scope": "canonical-module-scope"
+    }
+  ],
+  "essential": {
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Temps de lecture visé : 3 à 5 minutes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-1-1-question-de-depart",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. Question de départ"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Que demande réellement Mosaïque au joueur, et que signifient les décisions prises pendant une partie ?"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-2-2-reponse-synthetique",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. Réponse synthétique"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Mosaïque demande au joueur de mener une "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "enquête située"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ". Le joueur choisit un personnage fictif dont le profil fournit des informations contextualisées, puis rencontre une série de scènes. À chaque carte, il décide si le personnage "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "avance"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " ou "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "reste sur place"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ". Cette décision ne porte pas sur la valeur de la personne, son bonheur, la difficulté globale de sa vie ou la moralité du joueur. Elle répond à une question plus limitée : "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "dans cette situation précise, les informations disponibles permettent-elles d’interpréter que la marge de manœuvre du personnage est préservée ou augmentée, ou qu’un obstacle particulier la réduit ?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Le joueur suit le parcours d’un personnage et tente d’interpréter les effets des situations qu’il rencontre. Il ne devient pas ce personnage, ne ressent pas nécessairement ce qu’il ressentirait et n’acquiert pas un accès direct à l’expérience d’une personne réelle. Les personnages et les scènes sont des constructions éditoriales. Ils rendent des mécanismes discutables en groupe : décision explicite, norme incorporée à un outil, effet anticipé, articulation de rapports sociaux ou protection."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Après le choix, Mosaïque affiche une "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "interprétation proposée"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ". Elle indique « avance » ou « reste », puis argumente à partir de la scène et du profil. Ce feedback ne constitue ni une note morale, ni un diagnostic psychologique certain. Il donne des raisons que le groupe peut examiner : quelle information a été utilisée ? quelle règle agit ? dans quelle variation de la scène l’effet changerait-il ? Un désaccord argumenté n’est donc pas un échec du jeu ; il devient une matière de débrief."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-3-3-definition-operationnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. Définition opérationnelle"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Avancer :"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " interprétation proposée selon laquelle la situation augmente ou préserve, pour ce personnage et dans ce contexte, une marge de manœuvre, une sécurité, une reconnaissance, un accès à des ressources ou une capacité d’agir. Avancer ne signifie ni être moralement meilleur, ni posséder un score global de privilège, ni avoir une vie facile, ni avoir donné la « meilleure » réponse."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Rester sur place :"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " interprétation proposée selon laquelle un obstacle, une exposition, une contrainte, une absence ou une anticipation réduit une possibilité dans cette scène. Rester ne signifie ni faiblesse, ni passivité, ni échec personnel. La décision porte sur l’effet du contexte, pas sur le caractère du personnage."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "La position finale résume les décisions de la partie sélectionnée. Elle ne mesure pas une personne réelle et ne classe pas les identités sur un axe universel."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-4-4-exemple-mosaique",
+        "content": [
+          {
+            "type": "text",
+            "text": "4. Exemple Mosaïque"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "Situation N02 — Le formulaire « Père — Mère »"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Un formulaire de sortie scolaire ne prévoit que deux signatures : celle du père et celle de la mère. Il ne contient ni insulte ni refus formulé par un adulte. Pourtant, un personnage vivant avec deux mères doit barrer une rubrique, réécrire le document ou expliquer sa famille. Pour d’autres profils, aucune difficulté spécifique n’est établie dans cette scène."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Le choix ne demande pas si le formulaire est « gentil » ou si la personne va nécessairement souffrir. Il invite à repérer une marge de manœuvre : qui peut utiliser l’outil sans correction ? qui est transformé en exception ? Après la décision, le feedback précise le mécanisme et les informations du profil. La carte illustre une norme familiale incorporée à un document ; elle ne prouve ni sa fréquence dans tous les établissements ni l’effet de tout formulaire sur toute famille."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Mosaïque inclut aussi des protections. Dans "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "I14 — Une histoire ordinaire"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": ", un roman présente une famille avec deux mères sans en faire un problème ni le sujet unique du récit. Les personnages avancent : la représentation élargit ce qui peut apparaître comme une vie ordinaire. Cette avance ne signifie pas que toutes les inégalités ont disparu ; elle identifie un contexte plus protecteur."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-5-5-a-ne-pas-confondre",
+        "content": [
+          {
+            "type": "text",
+            "text": "5. À ne pas confondre"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Interpréter un effet n’est ni juger une personne, ni prouver un vécu, ni attribuer une qualification juridique."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Une situation fictive "
+          },
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "text": "illustre"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " un mécanisme ; elle ne démontre pas que toutes les personnes partageant une caractéristique vivent le même effet. L’intention de l’auteur d’une action et l’effet possible de cette action sont deux questions distinctes. Une identité n’est pas une position sociale complète, et une position n’est pas un score fixe. Enfin, une protection n’est ni une faveur ni une transformation structurelle totale : elle modifie certaines ressources ou certains risques dans un contexte donné."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-6-6-trois-idees-a-retenir",
+        "content": [
+          {
+            "type": "text",
+            "text": "6. Trois idées à retenir"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Mosaïque propose des décisions "
+                },
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "situées"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " : « avance » et « reste » décrivent une marge de manœuvre dans une scène, jamais la valeur ou le niveau global de privilège d’une personne."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Le feedback est une "
+                },
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "interprétation argumentée après le choix"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ". Il peut être discuté sans devenir une note morale ni une certitude sur la psychologie du personnage."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Le débrief relie la scène aux normes, aux institutions, aux rapports de pouvoir et aux protections ; sans ce travail, la partie ne suffit pas à garantir un apprentissage transférable."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-7-7-question-de-reflexion-professionnelle",
+        "content": [
+          {
+            "type": "text",
+            "text": "7. Question de réflexion professionnelle"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quand un groupe hésite entre « avance » et « reste », quelles informations, règles ou ressources lui demandez-vous d’identifier avant de chercher une bonne réponse — et comment transformez-vous ensuite l’échange en question d’action professionnelle ?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "section-8-8-pour-aller-plus-loin",
+        "content": [
+          {
+            "type": "text",
+            "text": "8. Pour aller plus loin"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "La partie Approfondir examine ce que la fiction et la décision rendent possible, ce qu’elles simplifient, pourquoi le feedback doit rester discutable, et ce que la recherche permet — ou non — d’affirmer sur le débrief, l’empathie et le transfert vers les pratiques."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "section-9-sources-centrales-de-l-essentiel",
+        "content": [
+          {
+            "type": "text",
+            "text": "Sources centrales de L’essentiel"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "David Crookall, "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "“Serious Games, Debriefing, and Simulation/Gaming as a Discipline”"
+                    }
+                  ],
+                  "href": "https://doi.org/10.1177/1046878110390784",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", 2010."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Susan M. Barnett et Stephen J. Ceci, "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "“When and Where Do We Apply What We Learn? A Taxonomy for Far Transfer”"
+                    }
+                  ],
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/12081085/",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", 2002."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Traci Sitzmann, "
+                },
+                {
+                  "type": "link",
+                  "label": [
+                    {
+                      "type": "text",
+                      "text": "“A Meta-Analytic Examination of the Instructional Effectiveness of Computer-Based Simulation Games”"
+                    }
+                  ],
+                  "href": "https://doi.org/10.1111/j.1744-6570.2011.01190.x",
+                  "external": true
+                },
+                {
+                  "type": "text",
+                  "text": ", 2011."
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "deepDive": {
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "Introduction",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Temps de lecture visé : 8 à 12 minutes."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1-probleme-theorique-faire-decider-sans-faire-croire-que-le-jeu-mesure-une-vie",
+        "title": "1. Problème théorique : faire décider sans faire croire que le jeu mesure une vie",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mosaïque emploie un geste simple — avancer ou rester — pour rendre comparables des scènes différentes. Cette simplicité a une force pédagogique : elle oblige à se prononcer, rend le raisonnement visible et prépare un échange. Elle comporte aussi un risque : la décision binaire peut être interprétée comme la mesure d’une personne entière. Une succession d’avances semble alors produire un « score de privilège » ; une succession d’obstacles, un classement de souffrance."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le modèle éditorial refuse cette lecture. La décision a pour unité "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "la relation entre une scène, un profil et une marge de manœuvre"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Une personne dont le prénom correspond aux catégories administratives peut avancer dans V04 sans que la décision approuve le refus de l’adulte. Elle n’est simplement pas exposée à l’obstacle spécifique décrit. La même personne peut rester dans une autre scène portant sur sa famille, son orientation, ses ressources ou son contexte. Les décisions ne s’additionnent pas pour produire une vérité sociale globale."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le second risque concerne la fiction. Suivre un personnage peut favoriser l’attention à une perspective différente ; il peut aussi donner l’illusion de « savoir ce que cela fait ». Or le profil ne contient qu’un nombre limité d’informations sélectionnées par les auteurs. Le joueur complète inévitablement les blancs avec ses connaissances, ses présupposés et la discussion du groupe. Mosaïque est donc une médiation : elle organise une enquête sur des effets possibles, pas une reproduction du vécu d’autrui."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le troisième risque concerne l’action. Repérer correctement une norme dans une carte ne prouve pas que l’apprenant reconnaîtra ou transformera une procédure réelle. Le transfert entre une situation d’apprentissage et une pratique professionnelle dépend de la distance entre les contextes, des connaissances explicitées, des occasions d’application et du soutien institutionnel. D’où la place du débrief : il ne vient pas seulement recueillir des impressions ; il relie la décision au mécanisme et aux leviers."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2-reperes-historiques-et-epistemiques",
+        "title": "2. Repères historiques et épistémiques",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-une-parente-avec-les-simulations-et-jeux-serieux",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une parenté avec les simulations et jeux sérieux"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mosaïque appartient à une famille large de dispositifs qui font apprendre par l’action, la décision, la représentation d’un système et la discussion. Les termes "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "simulation"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "jeu sérieux"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "jeu de rôle"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " et "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "apprentissage expérientiel"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " recouvrent des pratiques très diverses. Aucun label ne prouve à lui seul l’efficacité d’un dispositif."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La marche des privilèges constitue une inspiration problématisée, traitée dans le module 2. Mosaïque en conserve une question sur les possibilités inégalement distribuées, mais transforme l’exposition autobiographique en personnages fictifs et remplace une position globale par des décisions contextualisées. Cette relation est un "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "choix de conception documenté dans le corpus"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", non une filiation historique complète."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-ce-que-la-recherche-etablit",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ce que la recherche établit"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Fait établi :"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " des recherches sur les simulations et jeux montrent des résultats d’apprentissage possibles, variables selon les dispositifs, les comparateurs, le contexte et les modalités d’accompagnement."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Fait établi :"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " le débrief est largement considéré dans le champ simulation/gaming comme un moment central de mise en sens ; Crookall en défend le caractère vital."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Fait établi :"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " le transfert est multidimensionnel et difficile à inférer d’une performance immédiate ; Barnett et Ceci distinguent notamment contenu, contexte, temporalité et fonction."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Résultat à périmètre limité :"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " la méta-analyse de Sitzmann sur 65 échantillons de formation professionnelle rapporte des avantages moyens pour certaines connaissances et l’auto-efficacité par rapport à divers comparateurs, mais identifie un biais de publication et de forts effets de contexte."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Absence de preuve suffisante :"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " aucune étude consultée n’évalue Mosaïque. On ne peut affirmer qu’il produit empathie, réduction des discriminations ou changement professionnel durable."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3-concepts-et-auteurs-reellement-utiles",
+        "title": "3. Concepts et auteurs réellement utiles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-mediation-narrative-et-personnage-situe",
+            "content": [
+              {
+                "type": "text",
+                "text": "Médiation narrative et personnage situé"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un personnage situé n’est pas un masque neutre. Il condense des informations nécessaires à l’interprétation : relations familiales, contexte scolaire, confidentialité, soutiens, tensions ou ressources. Ces éléments permettent d’éviter l’inférence automatique à partir d’une seule identité. Deux personnages partageant une caractéristique peuvent recevoir des feedbacks différents parce que leur contexte diffère."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les recherches sur la fiction montrent plusieurs voies possibles d’apprentissage social : prise de perspective, raisonnement sur les intentions, comparaison entre monde narratif et monde réel. Une revue intégrative de Gasser et ses collègues sur l’apprentissage social des enfants à partir de récits distingue cependant plusieurs modèles et souligne que les effets dépendent du contenu, des connaissances, de l’âge et de la discussion. Suzanne Keen rappelle que l’empathie narrative n’est ni universelle ni forcément exacte : un récit peut inviter à partager une perspective sans garantir la concordance entre intention de l’auteur et expérience du lecteur."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Pour Mosaïque, la conséquence est claire : le vocabulaire de « mise dans la peau » est écarté. On parle de "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "suivre"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "interpréter"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "comparer"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " et "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "enquêter"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-debrief-et-conceptualisation",
+            "content": [
+              {
+                "type": "text",
+                "text": "Débrief et conceptualisation"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Crookall définit le débrief comme un travail de revue et d’analyse après l’activité. Il peut articuler description, expression, analyse, généralisation et application. Son article est un éditorial de champ, non une méta-analyse démontrant un protocole unique. Son apport principal est néanmoins robuste pour la conception : le jeu ne produit pas seul le sens ; il faut un espace où les participants examinent le modèle et relient l’expérience à d’autres contextes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dans Mosaïque, le feedback prépare ce débrief mais ne le remplace pas. Il fournit une interprétation éditoriale proche de la situation et du profil. Le débrief ajoute la comparaison des raisonnements, les limites de la carte, les variations possibles et l’action professionnelle. Un groupe peut avoir choisi la réponse prévue pour de mauvaises raisons — stéréotype, généralisation, classement moral — ou une autre réponse à partir d’une information pertinente absente. La concordance ne suffit donc pas à évaluer l’apprentissage."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-transfert",
+            "content": [
+              {
+                "type": "text",
+                "text": "Transfert"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Barnett et Ceci montrent que « transférer » ne désigne pas un phénomène unique. Appliquer un principe à une carte proche, le reconnaître six mois plus tard dans une procédure réelle et transformer collectivement un logiciel constituent des distances différentes de contenu, de contexte, de temps et de fonction."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La question utile n’est pas « le jeu se transfère-t-il ? » mais : quel principe doit être transféré, vers quelle situation, avec quelles ressemblances rendues visibles et quelles occasions de pratique ? Le débrief peut soutenir ce passage en nommant un mécanisme général — valeur par défaut, circulation d’information, travail de correction — puis en demandant un exemple professionnel et un levier réel. Il ne garantit pas que l’action aura lieu."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4-controverses-ou-limites",
+        "title": "4. Controverses ou limites",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-la-decision-binaire-simplifie",
+            "content": [
+              {
+                "type": "text",
+                "text": "La décision binaire simplifie"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Une marge de manœuvre n’est pas naturellement binaire. Un personnage peut bénéficier d’un accès tout en anticipant un risque, ou être protégé par une intervention ponctuelle dans une institution inchangée. Mosaïque force néanmoins un choix pour rendre l’argument explicite. Le feedback et le débrief doivent restituer les nuances que l’interface compresse."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-un-profil-ne-clot-jamais-l-interpretation",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un profil ne clôt jamais l’interprétation"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les profils gelés évitent d’inventer des difficultés, mais ils ne décrivent pas toute une vie. L’absence d’information n’est pas la preuve d’absence dans le monde réel ; elle signifie seulement que le jeu ne peut utiliser cette information. Cette discipline protège contre l’essentialisation, au prix d’une simplification assumée."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-fiction-et-empathie",
+            "content": [
+              {
+                "type": "text",
+                "text": "Fiction et empathie"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Présenter l’empathie comme résultat principal déplacerait l’attention vers l’émotion du joueur et risquerait de faire d’un personnage minorisé un support de développement personnel. Une émotion peut soutenir l’attention ou l’action ; elle peut aussi être inexacte, fugace ou autocentrée. Le critère éditorial demeure la qualité du raisonnement sur la situation et les possibilités de transformation."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-feedback-et-autorite",
+            "content": [
+              {
+                "type": "text",
+                "text": "Feedback et autorité"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Parce qu’il vient « du jeu », le feedback peut être reçu comme verdict. L’expression "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "interprétation proposée"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " réduit ce risque, mais ne l’annule pas. L’animateur doit pouvoir expliquer la source : texte de la carte, informations du profil, mécanisme gelé, limites. Il doit aussi distinguer un désaccord compatible avec une autre hypothèse d’une réponse qui invente une biographie ou confond l’identité et l’effet."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-efficacite-non-etablie",
+            "content": [
+              {
+                "type": "text",
+                "text": "Efficacité non établie"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La méta-analyse de Sitzmann porte sur des jeux informatisés de formation professionnelle très différents. Ses résultats moyens, ses biais et ses modérateurs ne peuvent être appliqués à Mosaïque. De même, les travaux sur la lecture de fiction ne prouvent pas les effets d’un jeu de décisions. Une évaluation future devrait mesurer séparément compréhension des mécanismes, qualité du débrief, transfert, effets inattendus et expérience des publics concernés."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5-application-precise-a-mosaique",
+        "title": "5. Application précise à Mosaïque",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-v04-le-prenom-refuse-interaction-observable",
+            "content": [
+              {
+                "type": "text",
+                "text": "V04 — Le prénom refusé : interaction observable"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un adulte refuse d’utiliser le prénom demandé parce qu’il ne correspond pas à sa liste. Le choix « reste » pour Noé s’appuie sur deux informations gelées : certains documents portent encore un autre prénom et le refus peut révéler sa transidentité. Le jeu ne conclut pas que Noé éprouve une émotion déterminée. Il identifie une invalidation et un risque de divulgation qui réduisent sa sécurité et sa reconnaissance."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les autres personnages avancent dans la matrice parce que leur profil ne fait pas apparaître cette discordance. Cela n’approuve pas la conduite de l’adulte. La carte sépare donc le jugement général sur la scène et l’effet spécifique retenu pour le personnage."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-n02-le-formulaire-procedure-ordinaire",
+            "content": [
+              {
+                "type": "text",
+                "text": "N02 — Le formulaire : procédure ordinaire"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le document « père–mère » montre que l’effet ne vient pas toujours d’une interaction hostile. Le profil de Sofia rend l’obstacle interprétable : deux mères ne peuvent être inscrites sans correction. Le joueur apprend à chercher le cas prévu par défaut et le travail imposé au cas non prévu."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-i14-une-histoire-ordinaire-representation-protectrice",
+            "content": [
+              {
+                "type": "text",
+                "text": "I14 — Une histoire ordinaire : représentation protectrice"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La famille avec deux mères participe à un roman sans être réduite au problème ou à la discrimination. La situation augmente la possibilité de se reconnaître et élargit les vies présentées comme ordinaires. Elle évite un modèle uniquement déficitaire. Une protection représentationnelle ne prouve pas l’égalité générale ; elle modifie un cadrage."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-x13-une-adaptation-coordonnee-plusieurs-besoins-ensemble",
+            "content": [
+              {
+                "type": "text",
+                "text": "X13 — Une adaptation coordonnée : plusieurs besoins ensemble"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "L’équipe échange individuellement avec l’élève, articule accessibilité, genre, confidentialité et ressources familiales, puis associe l’élève à la décision. Tous les profils avancent. La scène montre qu’une solution peut être évaluée aussi par les obstacles qu’elle n’introduit pas. Elle ne duplique pas le module 8 : ici, elle sert à montrer ce que signifie « avancer » lorsqu’une organisation augmente réellement la capacité d’agir."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-5-les-trois-espaces",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les trois espaces"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Jouer"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " organise la décision, le feedback et le parcours."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Comprendre"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " fournit les cadres théoriques, les distinctions, les sources et les limites."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Explorer"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " donne accès à des contextes, ressources et prolongements sans surcharger la carte."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cette répartition est éditoriale. Elle n’impose pas ici une spécification d’interface. Elle indique que la partie ne doit pas porter seule toute l’explication."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6-ce-que-le-concept-ne-permet-pas-d-affirmer",
+        "title": "6. Ce que le concept ne permet pas d’affirmer",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Une réponse « avance » ne prouve pas qu’une personne est globalement privilégiée, heureuse, protégée ou moralement exemplaire."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Une réponse « reste » ne prouve ni une faiblesse personnelle, ni une réaction psychologique certaine, ni l’absence de toute ressource."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Un personnage fictif ne représente pas toutes les personnes partageant une identité et ne donne pas accès à leur vécu."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "La concordance avec le feedback ne démontre pas une compréhension structurelle ; le raisonnement doit être examiné."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Une situation protectrice ne prouve pas une transformation institutionnelle durable au-delà de la scène."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Les recherches générales sur simulation, fiction ou transfert ne démontrent pas l’efficacité de Mosaïque."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7-implications-professionnelles",
+        "title": "7. Implications professionnelles",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-pour-l-animateur-ou-l-animatrice",
+            "content": [
+              {
+                "type": "text",
+                "text": "Pour l’animateur ou l’animatrice"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Avant la partie, annoncer l’unité d’analyse : une scène, un profil, une marge de manœuvre. Préciser qu’aucun récit personnel n’est requis et que le désaccord est possible. Ne pas demander aux participants de se comparer aux personnages ni de dévoiler une identité."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Pendant le feedback, demander d’abord quelles informations ont conduit au choix. Si un raisonnement ajoute un danger ou une relation absente, revenir au profil : le jeu ne nie pas que cette variation existe dans le réel ; il refuse de l’inventer pour ce personnage. Si le groupe conteste l’interprétation proposée, qualifier le désaccord : information ambiguë, mécanisme différent, conséquence possible, ou jugement moral sur la scène."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Au débrief, passer par cinq mouvements : décrire ; nommer le mécanisme ; faire varier le contexte ; identifier une protection ; distribuer l’action. La dernière étape doit préciser l’échelle. Un adulte peut corriger une liste aujourd’hui ; une équipe peut revoir une procédure ; une direction peut paramétrer les droits d’accès ; une politique publique peut fixer des garanties."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-pour-la-conception-professionnelle",
+            "content": [
+              {
+                "type": "text",
+                "text": "Pour la conception professionnelle"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observer les marges de manœuvre plutôt que les seules intentions : qui peut participer sans expliquer, qui anticipe un risque, qui connaît les règles, qui doit demander une exception ? Chercher également les protections existantes. Une pratique inclusive n’est pas seulement l’absence d’un obstacle visible ; elle peut être une catégorie ouverte, une information limitée au nécessaire, un choix privé ou une responsabilité préparée."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-pour-l-evaluation-du-dispositif",
+            "content": [
+              {
+                "type": "text",
+                "text": "Pour l’évaluation du dispositif"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Ne pas utiliser le nombre de réponses concordantes comme seul indicateur. Évaluer la capacité à justifier sans essentialiser, distinguer effet et intention, proposer une variation, identifier une échelle et formuler un levier. Documenter aussi les incompréhensions, les effets de défensive et les situations où le feedback impose indûment son autorité."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8-questions-de-debrief",
+        "title": "8. Questions de débrief",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Qu’est-ce qui, dans la scène et le profil, a déterminé votre choix — et qu’avez-vous peut-être ajouté sans le remarquer ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle décision, norme, procédure, représentation ou articulation de rapports sociaux agit ici ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle modification du contexte ferait raisonnablement changer « avance » en « reste », ou l’inverse ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Quelle protection augmenterait sécurité, prévisibilité, reconnaissance, accès aux ressources ou capacité d’agir sans exiger une divulgation ?"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Que peut transformer une personne, une équipe, l’établissement ou une autorité plus large, et qui doit en porter la responsabilité ?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9-sources-cles-commentees",
+        "title": "9. Sources clés commentées",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              [
+                {
+                  "type": "text",
+                  "text": "Source"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Type"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Apport au module"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Limite ou vigilance"
+                }
+              ]
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "David Crookall, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "“Serious Games, Debriefing, and Simulation/Gaming as a Discipline”"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1177/1046878110390784",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Simulation & Gaming"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 41(6), 2010, p. 898–920."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Éditorial de champ"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Défend le débrief comme moment vital de la simulation et de la mise en sens."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Ne compare pas expérimentalement des protocoles et ne porte pas sur Mosaïque."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Susan M. Barnett & Stephen J. Ceci, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "“When and Where Do We Apply What We Learn?”"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1037/0033-2909.128.4.612",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Psychological Bulletin"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 128(4), 2002, p. 612–637."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Revue théorique"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Taxonomie du transfert selon contenu et contexte ; empêche d’inférer un transfert lointain d’une réussite immédiate."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Revue générale de psychologie cognitive, non étude de jeu social."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Traci Sitzmann, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "“A Meta-Analytic Examination…”"
+                      }
+                    ],
+                    "href": "https://doi.org/10.1111/j.1744-6570.2011.01190.x",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Personnel Psychology"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 64(2), 2011, p. 489–528."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Méta-analyse"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Résultats moyens possibles des jeux de simulation et rôle des caractéristiques pédagogiques ; signale le biais de publication."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Jeux de formation professionnelle hétérogènes ; aucune preuve directe pour Mosaïque."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Suzanne Keen, "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "“A Theory of Narrative Empathy”"
+                      }
+                    ],
+                    "href": "https://english.as.uky.edu/sites/default/files/zunshineTheory%20of%20Narrative%20Empathy.pdf",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", "
+                  },
+                  {
+                    "type": "emphasis",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Narrative"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 14(3), 2006, p. 207–236."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Théorie narrative"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Distingue invitations narratives, empathie du lecteur et possible inexactitude empathique."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Théorie littéraire, pas évaluation d’un jeu."
+                  }
+                ]
+              ],
+              [
+                [
+                  {
+                    "type": "text",
+                    "text": "Luciano Gasser et al., "
+                  },
+                  {
+                    "type": "link",
+                    "label": [
+                      {
+                        "type": "text",
+                        "text": "“How Do Children Socially Learn from Narrative Fiction?”"
+                      }
+                    ],
+                    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9365732/",
+                    "external": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ", 2022."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Revue intégrative"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Plusieurs mécanismes d’apprentissage social par la fiction et leurs conditions."
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Porte sur enfants et récits ; transfert au public professionnel indirect."
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10-bibliographie-complete",
+        "title": "10. Bibliographie complète",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-1-textes-originaux-et-sources-primaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Textes originaux et sources primaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Mosaïque, "
+                    },
+                    {
+                      "type": "code",
+                      "text": "000_Vision_du_projet.md"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", version du corpus transmise en 2026."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Mosaïque, "
+                    },
+                    {
+                      "type": "code",
+                      "text": "100_Mode_Obstacles_visibles_V1.md"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", banque gelée V1."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Mosaïque, "
+                    },
+                    {
+                      "type": "code",
+                      "text": "110_Mode_Normes_ordinaires_V1.md"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", banque gelée V1."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Mosaïque, "
+                    },
+                    {
+                      "type": "code",
+                      "text": "120_Mode_Effets_invisibles_V1.md"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", banque gelée V1."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Mosaïque, "
+                    },
+                    {
+                      "type": "code",
+                      "text": "130_Mode_Intersectionnalites_V1.md"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", banque gelée V1."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Mosaïque, "
+                    },
+                    {
+                      "type": "code",
+                      "text": "140_Mode_Decouverte_V1.md"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", règles du mode Découverte."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-2-recherches-scientifiques-ou-universitaires",
+            "content": [
+              {
+                "type": "text",
+                "text": "Recherches scientifiques ou universitaires"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Barnett, Susan M., & Stephen J. Ceci, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“When and Where Do We Apply What We Learn? A Taxonomy for Far Transfer”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1037/0033-2909.128.4.612",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Psychological Bulletin"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 128(4), 2002, p. 612–637."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Crookall, David, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“Serious Games, Debriefing, and Simulation/Gaming as a Discipline”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1177/1046878110390784",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Simulation & Gaming"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 41(6), 2010, p. 898–920."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Gasser, Luciano et al., "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“How Do Children Socially Learn from Narrative Fiction: Getting the Lesson, Simulating Social Worlds, or Dialogic Inquiry?”"
+                        }
+                      ],
+                      "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9365732/",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Educational Psychology Review"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 2022."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Keen, Suzanne, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“A Theory of Narrative Empathy”"
+                        }
+                      ],
+                      "href": "https://english.as.uky.edu/sites/default/files/zunshineTheory%20of%20Narrative%20Empathy.pdf",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Narrative"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 14(3), 2006, p. 207–236."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Sitzmann, Traci, "
+                    },
+                    {
+                      "type": "link",
+                      "label": [
+                        {
+                          "type": "text",
+                          "text": "“A Meta-Analytic Examination of the Instructional Effectiveness of Computer-Based Simulation Games”"
+                        }
+                      ],
+                      "href": "https://doi.org/10.1111/j.1744-6570.2011.01190.x",
+                      "external": true
+                    },
+                    {
+                      "type": "text",
+                      "text": ", "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "text": "Personnel Psychology"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", 64(2), 2011, p. 489–528."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-3-sources-institutionnelles-et-professionnelles",
+            "content": [
+              {
+                "type": "text",
+                "text": "Sources institutionnelles et professionnelles"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Aucune source institutionnelle ne permet, à la date de vérification, d’attester l’efficacité de Mosaïque. Les règles internes du corpus constituent la source des choix éditoriaux décrits."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "id": "section-4-critiques-et-retours-de-pratique",
+            "content": [
+              {
+                "type": "text",
+                "text": "Critiques et retours de pratique"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Les limites propres aux marches des privilèges, aux simulations et au dévoilement sont développées et sourcées dans le module 02. Elles ne sont pas transposées automatiquement à Mosaïque ; elles servent de points de vigilance pour la conception et l’animation."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "limite-du-modele",
+        "title": "Limite du modèle",
+        "blocks": [
+          {
+            "type": "quote",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Mosaïque compresse des situations complexes afin de rendre un raisonnement discutable. Cette compression est un choix pédagogique, pas une représentation exhaustive. Le jeu peut soutenir l’analyse s’il garde visibles ses sources, ses simplifications et ses incertitudes. Il ne remplace ni l’écoute des personnes concernées, ni l’examen juridique d’un cas, ni la transformation concrète des procédures."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "takeaways": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mosaïque propose des décisions "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "situées"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " : « avance » et « reste » décrivent une marge de manœuvre dans une scène, jamais la valeur ou le niveau global de privilège d’une personne."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le feedback est une "
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "interprétation argumentée après le choix"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Il peut être discuté sans devenir une note morale ni une certitude sur la psychologie du personnage."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Le débrief relie la scène aux normes, aux institutions, aux rapports de pouvoir et aux protections ; sans ce travail, la partie ne suffit pas à garantir un apprentissage transférable."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Quand un groupe hésite entre « avance » et « reste », quelles informations, règles ou ressources lui demandez-vous d’identifier avant de chercher une bonne réponse — et comment transformez-vous ensuite l’échange en question d’action professionnelle ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "La partie Approfondir examine ce que la fiction et la décision rendent possible, ce qu’elles simplifient, pourquoi le feedback doit rester discutable, et ce que la recherche permet — ou non — d’affirmer sur le débrief, l’empathie et le transfert vers les pratiques."
+        }
+      ]
+    }
+  ],
+  "professionalQuestion": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "La partie Approfondir examine ce que la fiction et la décision rendent possible, ce qu’elles simplifient, pourquoi le feedback doit rester discutable, et ce que la recherche permet — ou non — d’affirmer sur le débrief, l’empathie et le transfert vers les pratiques."
+        }
+      ]
+    }
+  ],
+  "debriefQuestions": [
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Qu’est-ce qui, dans la scène et le profil, a déterminé votre choix — et qu’avez-vous peut-être ajouté sans le remarquer ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle décision, norme, procédure, représentation ou articulation de rapports sociaux agit ici ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle modification du contexte ferait raisonnablement changer « avance » en « reste », ou l’inverse ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quelle protection augmenterait sécurité, prévisibilité, reconnaissance, accès aux ressources ou capacité d’agir sans exiger une divulgation ?"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Que peut transformer une personne, une équipe, l’établissement ou une autorité plus large, et qui doit en porter la responsabilité ?"
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "centralSources": [
+    "S090",
+    "S091",
+    "S092",
+    "S093",
+    "S094"
+  ],
+  "moduleBibliography": [
+    {
+      "type": "table",
+      "headers": [
+        [
+          {
+            "type": "text",
+            "text": "Source"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Type"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Apport au module"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Limite ou vigilance"
+          }
+        ]
+      ],
+      "rows": [
+        [
+          [
+            {
+              "type": "text",
+              "text": "David Crookall, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "“Serious Games, Debriefing, and Simulation/Gaming as a Discipline”"
+                }
+              ],
+              "href": "https://doi.org/10.1177/1046878110390784",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Simulation & Gaming"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 41(6), 2010, p. 898–920."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Éditorial de champ"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Défend le débrief comme moment vital de la simulation et de la mise en sens."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ne compare pas expérimentalement des protocoles et ne porte pas sur Mosaïque."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Susan M. Barnett & Stephen J. Ceci, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "“When and Where Do We Apply What We Learn?”"
+                }
+              ],
+              "href": "https://doi.org/10.1037/0033-2909.128.4.612",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Psychological Bulletin"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 128(4), 2002, p. 612–637."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Revue théorique"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Taxonomie du transfert selon contenu et contexte ; empêche d’inférer un transfert lointain d’une réussite immédiate."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Revue générale de psychologie cognitive, non étude de jeu social."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Traci Sitzmann, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "“A Meta-Analytic Examination…”"
+                }
+              ],
+              "href": "https://doi.org/10.1111/j.1744-6570.2011.01190.x",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Personnel Psychology"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 64(2), 2011, p. 489–528."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Méta-analyse"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Résultats moyens possibles des jeux de simulation et rôle des caractéristiques pédagogiques ; signale le biais de publication."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Jeux de formation professionnelle hétérogènes ; aucune preuve directe pour Mosaïque."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Suzanne Keen, "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "“A Theory of Narrative Empathy”"
+                }
+              ],
+              "href": "https://english.as.uky.edu/sites/default/files/zunshineTheory%20of%20Narrative%20Empathy.pdf",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Narrative"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 14(3), 2006, p. 207–236."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Théorie narrative"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Distingue invitations narratives, empathie du lecteur et possible inexactitude empathique."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Théorie littéraire, pas évaluation d’un jeu."
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type": "text",
+              "text": "Luciano Gasser et al., "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "“How Do Children Socially Learn from Narrative Fiction?”"
+                }
+              ],
+              "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9365732/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", 2022."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Revue intégrative"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Plusieurs mécanismes d’apprentissage social par la fiction et leurs conditions."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Porte sur enfants et récits ; transfert au public professionnel indirect."
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-1-textes-originaux-et-sources-primaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Textes originaux et sources primaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mosaïque, "
+              },
+              {
+                "type": "code",
+                "text": "000_Vision_du_projet.md"
+              },
+              {
+                "type": "text",
+                "text": ", version du corpus transmise en 2026."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mosaïque, "
+              },
+              {
+                "type": "code",
+                "text": "100_Mode_Obstacles_visibles_V1.md"
+              },
+              {
+                "type": "text",
+                "text": ", banque gelée V1."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mosaïque, "
+              },
+              {
+                "type": "code",
+                "text": "110_Mode_Normes_ordinaires_V1.md"
+              },
+              {
+                "type": "text",
+                "text": ", banque gelée V1."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mosaïque, "
+              },
+              {
+                "type": "code",
+                "text": "120_Mode_Effets_invisibles_V1.md"
+              },
+              {
+                "type": "text",
+                "text": ", banque gelée V1."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mosaïque, "
+              },
+              {
+                "type": "code",
+                "text": "130_Mode_Intersectionnalites_V1.md"
+              },
+              {
+                "type": "text",
+                "text": ", banque gelée V1."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mosaïque, "
+              },
+              {
+                "type": "code",
+                "text": "140_Mode_Decouverte_V1.md"
+              },
+              {
+                "type": "text",
+                "text": ", règles du mode Découverte."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-2-recherches-scientifiques-ou-universitaires",
+      "content": [
+        {
+          "type": "text",
+          "text": "Recherches scientifiques ou universitaires"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Barnett, Susan M., & Stephen J. Ceci, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“When and Where Do We Apply What We Learn? A Taxonomy for Far Transfer”"
+                  }
+                ],
+                "href": "https://doi.org/10.1037/0033-2909.128.4.612",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Psychological Bulletin"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 128(4), 2002, p. 612–637."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Crookall, David, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“Serious Games, Debriefing, and Simulation/Gaming as a Discipline”"
+                  }
+                ],
+                "href": "https://doi.org/10.1177/1046878110390784",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Simulation & Gaming"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 41(6), 2010, p. 898–920."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Gasser, Luciano et al., "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“How Do Children Socially Learn from Narrative Fiction: Getting the Lesson, Simulating Social Worlds, or Dialogic Inquiry?”"
+                  }
+                ],
+                "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9365732/",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Educational Psychology Review"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 2022."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Keen, Suzanne, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“A Theory of Narrative Empathy”"
+                  }
+                ],
+                "href": "https://english.as.uky.edu/sites/default/files/zunshineTheory%20of%20Narrative%20Empathy.pdf",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Narrative"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 14(3), 2006, p. 207–236."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Sitzmann, Traci, "
+              },
+              {
+                "type": "link",
+                "label": [
+                  {
+                    "type": "text",
+                    "text": "“A Meta-Analytic Examination of the Instructional Effectiveness of Computer-Based Simulation Games”"
+                  }
+                ],
+                "href": "https://doi.org/10.1111/j.1744-6570.2011.01190.x",
+                "external": true
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Personnel Psychology"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", 64(2), 2011, p. 489–528."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-3-sources-institutionnelles-et-professionnelles",
+      "content": [
+        {
+          "type": "text",
+          "text": "Sources institutionnelles et professionnelles"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Aucune source institutionnelle ne permet, à la date de vérification, d’attester l’efficacité de Mosaïque. Les règles internes du corpus constituent la source des choix éditoriaux décrits."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "section-4-critiques-et-retours-de-pratique",
+      "content": [
+        {
+          "type": "text",
+          "text": "Critiques et retours de pratique"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Les limites propres aux marches des privilèges, aux simulations et au dévoilement sont développées et sourcées dans le module 02. Elles ne sont pas transposées automatiquement à Mosaïque ; elles servent de points de vigilance pour la conception et l’animation."
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "related": {
+    "modules": [
+      "M11",
+      "M12"
+    ],
+    "notions": [
+      "avance",
+      "marge-de-man-uvre",
+      "feedback",
+      "protection",
+      "debrief"
+    ],
+    "situations": [
+      "V04",
+      "N02",
+      "I14",
+      "X13"
+    ],
+    "modes": [
+      "Les quatre focales"
+    ]
+  },
+  "contentHash": "e91d3040cc00d6f4823814ec37f29f3640a3dfe92d5ca6eff240a3d14967f1d8"
+}

@@ -1,0 +1,7371 @@
+{
+  "schemaVersion": "understand-public-v1",
+  "entries": [
+    {
+      "id": "S001",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Creighton, A., & Kivel, P. (dir.). (1992). "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Helping Teens Stop Violence: A Practical Guide for Counselors, Educators, and Parents"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ". Hunter House. Chapitre « Power Shuffle » crédité à H. Simms, H. Vasquez et R. Sherover."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02"
+      ],
+      "nature": "Ouvrage et trace historique",
+      "status": "Durable ; portée historique limitée",
+      "links": []
+    },
+    {
+      "id": "S002",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "McIntosh, P. (1988). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "White Privilege and Male Privilege: A Personal Account of Coming to See Correspondences Through Work in Women’s Studies"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.nationalseedproject.org/Key-SEED-Texts/white-privilege-and-male-privilege",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". Working Paper 189, Wellesley Centers for Women."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02",
+        "M03"
+      ],
+      "nature": "Source primaire située",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "White Privilege and Male Privilege: A Personal Account of Coming to See Correspondences Through Work in Women’s Studies",
+          "href": "https://www.nationalseedproject.org/Key-SEED-Texts/white-privilege-and-male-privilege"
+        }
+      ]
+    },
+    {
+      "id": "S003",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "McIntosh, P. (1989). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« White Privilege: Unpacking the Invisible Knapsack »"
+                }
+              ],
+              "href": "https://www.nationalseedproject.org/key-seed-texts/white-privilege-unpacking-the-invisible-knapsack",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Peace and Freedom"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02",
+        "M03"
+      ],
+      "nature": "Extrait primaire",
+      "status": "Durable ; ne pas traiter comme questionnaire universel",
+      "links": [
+        {
+          "label": "« White Privilege: Unpacking the Invisible Knapsack »",
+          "href": "https://www.nationalseedproject.org/key-seed-texts/white-privilege-unpacking-the-invisible-knapsack"
+        }
+      ]
+    },
+    {
+      "id": "S004",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Bailey, A. (1998). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Privilege: Expanding on Marilyn Frye’s “Oppression” »"
+                }
+              ],
+              "href": "https://doi.org/10.1111/j.1467-9833.1998.tb00124.x",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Journal of Social Philosophy"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 29(3), 104–119."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M03"
+      ],
+      "nature": "Philosophie sociale",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« Privilege: Expanding on Marilyn Frye’s “Oppression” »",
+          "href": "https://doi.org/10.1111/j.1467-9833.1998.tb00124.x"
+        }
+      ]
+    },
+    {
+      "id": "S005",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Bourdieu, P. (1986). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« The Forms of Capital »"
+                }
+              ],
+              "href": "https://web.stanford.edu/~eckert/PDF/Bourdieu1986.pdf",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". Dans J. G. Richardson (dir.), "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Handbook of Theory and Research for the Sociology of Education"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " (p. 241–258). Greenwood Press."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M03"
+      ],
+      "nature": "Chapitre théorique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« The Forms of Capital »",
+          "href": "https://web.stanford.edu/~eckert/PDF/Bourdieu1986.pdf"
+        }
+      ]
+    },
+    {
+      "id": "S006",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Leonardo, Z. (2004). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« The Color of Supremacy: Beyond the Discourse of “White Privilege” »"
+                }
+              ],
+              "href": "https://doi.org/10.1111/j.1469-5812.2004.00057.x",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Educational Philosophy and Theory"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 36(2), 137–152."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M03"
+      ],
+      "nature": "Article théorique critique",
+      "status": "Durable ; contexte états-unien",
+      "links": [
+        {
+          "label": "« The Color of Supremacy: Beyond the Discourse of “White Privilege” »",
+          "href": "https://doi.org/10.1111/j.1469-5812.2004.00057.x"
+        }
+      ]
+    },
+    {
+      "id": "S007",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Wildman, S. M., & Davis, A. D. (1995). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Language and Silence: Making Systems of Privilege Visible »"
+                }
+              ],
+              "href": "https://digitalcommons.law.scu.edu/lawreview/vol35/iss3/4/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Santa Clara Law Review"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 35, 881–906."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M03"
+      ],
+      "nature": "Doctrine et théorie",
+      "status": "Durable ; contexte juridique états-unien",
+      "links": [
+        {
+          "label": "« Language and Silence: Making Systems of Privilege Visible »",
+          "href": "https://digitalcommons.law.scu.edu/lawreview/vol35/iss3/4/"
+        }
+      ]
+    },
+    {
+      "id": "S008",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Lukes, S. (2005). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Power: A Radical View"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://voidnetwork.gr/wp-content/uploads/2016/09/Power-A-Radical-View-Steven-Lukes.pdf",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": " (2e éd.). Palgrave Macmillan."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M03"
+      ],
+      "nature": "Monographie théorique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "Power: A Radical View",
+          "href": "https://voidnetwork.gr/wp-content/uploads/2016/09/Power-A-Radical-View-Steven-Lukes.pdf"
+        }
+      ]
+    },
+    {
+      "id": "S009",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Berger, P. L., & Luckmann, T. (1966). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "The Social Construction of Reality"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://amstudugm.wordpress.com/wp-content/uploads/2011/04/social-construction-of-reality.pdf",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Monographie théorique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "The Social Construction of Reality",
+          "href": "https://amstudugm.wordpress.com/wp-content/uploads/2011/04/social-construction-of-reality.pdf"
+        }
+      ]
+    },
+    {
+      "id": "S010",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Bicchieri, C. (2006). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "The Grammar of Society"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://books.google.com/books?id=4N1FDIZvcI8C",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". Cambridge University Press."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Monographie théorique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "The Grammar of Society",
+          "href": "https://books.google.com/books?id=4N1FDIZvcI8C"
+        }
+      ]
+    },
+    {
+      "id": "S011",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Bowker, G. C., & Star, S. L. (1999). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sorting Things Out: Classification and Its Consequences"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://mitpress.mit.edu/9780262522953/sorting-things-out/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". MIT Press."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M06"
+      ],
+      "nature": "Monographie STS",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "Sorting Things Out: Classification and Its Consequences",
+          "href": "https://mitpress.mit.edu/9780262522953/sorting-things-out/"
+        }
+      ]
+    },
+    {
+      "id": "S012",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Brake, E. (2012). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Minimizing Marriage"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://doi.org/10.1093/acprof:oso/9780199774142.001.0001",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". Oxford University Press."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Philosophie morale et droit",
+      "status": "Durable ; contexte à expliciter",
+      "links": [
+        {
+          "label": "Minimizing Marriage",
+          "href": "https://doi.org/10.1093/acprof:oso/9780199774142.001.0001"
+        }
+      ]
+    },
+    {
+      "id": "S013",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Cialdini, R. B., Reno, R. R., & Kallgren, C. A. (1990). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« A Focus Theory of Normative Conduct »"
+                }
+              ],
+              "href": "https://doi.org/10.1037/0022-3514.58.6.1015",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Journal of Personality and Social Psychology"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 58(6), 1015–1026."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M06"
+      ],
+      "nature": "Théorie appuyée sur des expériences",
+      "status": "Durable ; terrain spécifique",
+      "links": [
+        {
+          "label": "« A Focus Theory of Normative Conduct »",
+          "href": "https://doi.org/10.1037/0022-3514.58.6.1015"
+        }
+      ]
+    },
+    {
+      "id": "S014",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Costanza-Chock, S. (2020). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Design Justice: Community-Led Practices to Build the Worlds We Need"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://designjustice.mitpress.mit.edu/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". MIT Press."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M06"
+      ],
+      "nature": "Monographie critique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "Design Justice: Community-Led Practices to Build the Worlds We Need",
+          "href": "https://designjustice.mitpress.mit.edu/"
+        }
+      ]
+    },
+    {
+      "id": "S015",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Emens, E. F. (2014). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Compulsory Sexuality »"
+                }
+              ],
+              "href": "https://www.stanfordlawreview.org/wp-content/uploads/sites/3/2014/02/66_Stan_L_Rev_303_Emens.pdf",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Stanford Law Review"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 66(2), 303–386."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Article juridique théorique",
+      "status": "Durable ; droit états-unien",
+      "links": [
+        {
+          "label": "« Compulsory Sexuality »",
+          "href": "https://www.stanfordlawreview.org/wp-content/uploads/sites/3/2014/02/66_Stan_L_Rev_303_Emens.pdf"
+        }
+      ]
+    },
+    {
+      "id": "S016",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Jackson, P. W. (1968). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Life in Classrooms"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://books.google.com/books?id=W46Gu6wwYsQC",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". Holt, Rinehart and Winston."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M06"
+      ],
+      "nature": "Monographie fondatrice",
+      "status": "Durable ; terrain historique situé",
+      "links": [
+        {
+          "label": "Life in Classrooms",
+          "href": "https://books.google.com/books?id=W46Gu6wwYsQC"
+        }
+      ]
+    },
+    {
+      "id": "S017",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "North, D. C. (1990). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Institutions, Institutional Change and Economic Performance"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.cambridge.org/core/books/institutions-institutional-change-and-economic-performance/AAE1E27DF8996E24C5DD07EB79BBA7EE",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". Cambridge University Press."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Économie institutionnelle",
+      "status": "Durable ; une tradition parmi d’autres",
+      "links": [
+        {
+          "label": "Institutions, Institutional Change and Economic Performance",
+          "href": "https://www.cambridge.org/core/books/institutions-institutional-change-and-economic-performance/AAE1E27DF8996E24C5DD07EB79BBA7EE"
+        }
+      ]
+    },
+    {
+      "id": "S018",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Star, S. L., & Ruhleder, K. (1996). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Steps Toward an Ecology of Infrastructure »"
+                }
+              ],
+              "href": "https://doi.org/10.1287/isre.7.1.111",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Information Systems Research"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 7(1), 111–134."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Étude d’infrastructure",
+      "status": "Durable ; transfert prudent",
+      "links": [
+        {
+          "label": "« Steps Toward an Ecology of Infrastructure »",
+          "href": "https://doi.org/10.1287/isre.7.1.111"
+        }
+      ]
+    },
+    {
+      "id": "S019",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Entman, R. M. (1993). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Framing: Toward Clarification of a Fractured Paradigm »"
+                }
+              ],
+              "href": "https://doi.org/10.1111/j.1460-2466.1993.tb01304.x",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Journal of Communication"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 43(4), 51–58."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M07"
+      ],
+      "nature": "Article théorique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« Framing: Toward Clarification of a Fractured Paradigm »",
+          "href": "https://doi.org/10.1111/j.1460-2466.1993.tb01304.x"
+        }
+      ]
+    },
+    {
+      "id": "S020",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Goffman, E. (1974). "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Frame Analysis: An Essay on the Organization of Experience"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ". Harper & Row."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M07"
+      ],
+      "nature": "Monographie théorique",
+      "status": "Durable",
+      "links": []
+    },
+    {
+      "id": "S021",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Kanter, R. M. (1977). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Men and Women of the Corporation"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.hbs.edu/faculty/Pages/item.aspx?num=10807",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". Basic Books."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M07"
+      ],
+      "nature": "Monographie",
+      "status": "Durable ; tokenisme à portée limitée",
+      "links": [
+        {
+          "label": "Men and Women of the Corporation",
+          "href": "https://www.hbs.edu/faculty/Pages/item.aspx?num=10807"
+        }
+      ]
+    },
+    {
+      "id": "S022",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Moscovici, S. (1961). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "La psychanalyse, son image et son public"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://classiques.uqam.ca/contemporains/moscovici_serge/psychanalyse_son_image_son_public/psychanalyse.html",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". Presses universitaires de France."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M07"
+      ],
+      "nature": "Monographie fondatrice",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "La psychanalyse, son image et son public",
+          "href": "https://classiques.uqam.ca/contemporains/moscovici_serge/psychanalyse_son_image_son_public/psychanalyse.html"
+        }
+      ]
+    },
+    {
+      "id": "S023",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Tuchman, G. (1978). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« The Symbolic Annihilation of Women by the Mass Media »"
+                }
+              ],
+              "href": "https://doi.org/10.1007/978-1-349-62397-6_9",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". Dans G. Tuchman, A. K. Daniels et J. Benét (dir.), "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Hearth and Home"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ". Oxford University Press."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M07"
+      ],
+      "nature": "Chapitre théorique",
+      "status": "Durable ; extension prudente",
+      "links": [
+        {
+          "label": "« The Symbolic Annihilation of Women by the Mass Media »",
+          "href": "https://doi.org/10.1007/978-1-349-62397-6_9"
+        }
+      ]
+    },
+    {
+      "id": "S024",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Combahee River Collective. (1977). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« The Combahee River Collective Statement »"
+                }
+              ],
+              "href": "https://americanstudies.yale.edu/sites/default/files/files/Keyword%20Coalition_Readings.pdf",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Texte politique primaire",
+      "status": "Durable ; contexte historique",
+      "links": [
+        {
+          "label": "« The Combahee River Collective Statement »",
+          "href": "https://americanstudies.yale.edu/sites/default/files/files/Keyword%20Coalition_Readings.pdf"
+        }
+      ]
+    },
+    {
+      "id": "S025",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Crenshaw, K. (1989). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Demarginalizing the Intersection of Race and Sex »"
+                }
+              ],
+              "href": "https://careprogram.ucla.edu/education/readings/Crenshaw1989",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "University of Chicago Legal Forum"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 139–167."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Article fondateur",
+      "status": "Durable ; droit états-unien",
+      "links": [
+        {
+          "label": "« Demarginalizing the Intersection of Race and Sex »",
+          "href": "https://careprogram.ucla.edu/education/readings/Crenshaw1989"
+        }
+      ]
+    },
+    {
+      "id": "S026",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Crenshaw, K. (1991). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Mapping the Margins »"
+                }
+              ],
+              "href": "https://blogs.law.columbia.edu/critique1313/files/2020/02/1229039.pdf",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Stanford Law Review"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 43(6), 1241–1299."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Article fondateur",
+      "status": "Durable ; contexte états-unien",
+      "links": [
+        {
+          "label": "« Mapping the Margins »",
+          "href": "https://blogs.law.columbia.edu/critique1313/files/2020/02/1229039.pdf"
+        }
+      ]
+    },
+    {
+      "id": "S027",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Collins, P. H. (1990/2000). "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Black Feminist Thought: Knowledge, Consciousness, and the Politics of Empowerment"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " (2e éd.). Routledge."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Monographie théorique",
+      "status": "Durable",
+      "links": []
+    },
+    {
+      "id": "S028",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Collins, P. H., & Bilge, S. (2020). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Intersectionality"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.politybooks.com/bookdetail?book_slug=intersectionality-2nd-edition--9781509539673",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": " (2e éd.). Polity."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Ouvrage de synthèse théorique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "Intersectionality",
+          "href": "https://www.politybooks.com/bookdetail?book_slug=intersectionality-2nd-edition--9781509539673"
+        }
+      ]
+    },
+    {
+      "id": "S029",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "King, D. K. (1988). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Multiple Jeopardy, Multiple Consciousness »"
+                }
+              ],
+              "href": "https://doi.org/10.1086/494491",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Signs"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 14(1), 42–72."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Article théorique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« Multiple Jeopardy, Multiple Consciousness »",
+          "href": "https://doi.org/10.1086/494491"
+        }
+      ]
+    },
+    {
+      "id": "S030",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Kergoat, D. (2011). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Comprendre les rapports sociaux »"
+                }
+              ],
+              "href": "https://doi.org/10.3406/raipr.2011.4300",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Raison présente"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 178, 11–21."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Article théorique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« Comprendre les rapports sociaux »",
+          "href": "https://doi.org/10.3406/raipr.2011.4300"
+        }
+      ]
+    },
+    {
+      "id": "S031",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Chetcuti, N. (2010/2021). "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Se dire lesbienne : vie de couple, sexualité, représentation de soi"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ". Payot."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "nature": "Recherche par récits de vie",
+      "status": "Durable ; terrain situé",
+      "links": []
+    },
+    {
+      "id": "S032",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Chetcuti, N. (2014). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Autonomination lesbienne avec les réseaux numériques »"
+                }
+              ],
+              "href": "https://shs.cairn.info/revue-hermes-la-revue-2014-2-page-39",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Hermès, La Revue"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 69, 39–41."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "nature": "Article de recherche",
+      "status": "Durable ; ne fonde pas l’origine de `coming in`",
+      "links": [
+        {
+          "label": "« Autonomination lesbienne avec les réseaux numériques »",
+          "href": "https://shs.cairn.info/revue-hermes-la-revue-2014-2-page-39"
+        }
+      ]
+    },
+    {
+      "id": "S033",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Goffman, E. (1963). "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Stigma: Notes on the Management of Spoiled Identity"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ". Prentice-Hall."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "nature": "Monographie théorique",
+      "status": "Durable ; cadre daté à critiquer",
+      "links": []
+    },
+    {
+      "id": "S034",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Papazian, P. (2005). "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Coming-in : prise de conscience d’une orientation homosexuelle : affects associés, conséquences sur la sexualité"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ". Mémoire de DIU de sexologie, 91 p. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Notice bibliographique"
+                }
+              ],
+              "href": "https://catalogue.bigtata.org/cgi-bin/koha/opac-detail.pl?biblionumber=3282",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "nature": "Mémoire non consulté intégralement",
+      "status": "Attestation bibliographique seulement",
+      "links": [
+        {
+          "label": "Notice bibliographique",
+          "href": "https://catalogue.bigtata.org/cgi-bin/koha/opac-detail.pl?biblionumber=3282"
+        }
+      ]
+    },
+    {
+      "id": "S035",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Boler, M. (1999). "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Feeling Power: Emotions and Education"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ". Routledge."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M11"
+      ],
+      "nature": "Monographie théorique",
+      "status": "Durable",
+      "links": []
+    },
+    {
+      "id": "S036",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ellsworth, E. (1989). « Why Doesn’t This Feel Empowering? Working through the Repressive Myths of Critical Pedagogy ». "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Harvard Educational Review"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 59(3), 297–324."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M11"
+      ],
+      "nature": "Article critique",
+      "status": "Durable",
+      "links": []
+    },
+    {
+      "id": "S037",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Freire, P. (1968/2000). "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Pedagogy of the Oppressed"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " (30e éd. anniversaire). Continuum."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M11"
+      ],
+      "nature": "Ouvrage primaire",
+      "status": "Durable ; contextualisation nécessaire",
+      "links": []
+    },
+    {
+      "id": "S038",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Haraway, D. (1988). « Situated Knowledges ». "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Feminist Studies"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 14(3), 575–599."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M11"
+      ],
+      "nature": "Article théorique",
+      "status": "Durable",
+      "links": []
+    },
+    {
+      "id": "S039",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "hooks, b. (1994). "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Teaching to Transgress: Education as the Practice of Freedom"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ". Routledge."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M11"
+      ],
+      "nature": "Ouvrage primaire",
+      "status": "Durable ; contextualisation nécessaire",
+      "links": []
+    },
+    {
+      "id": "S040",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Schön, D. A. (1983). "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The Reflective Practitioner: How Professionals Think in Action"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ". Basic Books."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M11"
+      ],
+      "nature": "Monographie théorique",
+      "status": "Durable",
+      "links": []
+    },
+    {
+      "id": "S041",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Kolb, D. A. (1984). "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Experiential Learning"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ". Prentice-Hall."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Modèle théorique de l’apprentissage",
+      "status": "Durable ; ne suffit pas à établir un effet",
+      "links": []
+    },
+    {
+      "id": "S042",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Acevedo, S. M., et al. (2015). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Positionality as Knowledge: From Pedagogy to Praxis »"
+                }
+              ],
+              "href": "https://integral-review.org/issues/vol_11_no_1_acevedo_et_al_positionality_as_knowledge.pdf",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Integral Review"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 11(1)."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02"
+      ],
+      "nature": "Article réflexif",
+      "status": "Durable ; portée située",
+      "links": [
+        {
+          "label": "« Positionality as Knowledge: From Pedagogy to Praxis »",
+          "href": "https://integral-review.org/issues/vol_11_no_1_acevedo_et_al_positionality_as_knowledge.pdf"
+        }
+      ]
+    },
+    {
+      "id": "S043",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Brown, E. A., Anspach, G. B., Vaught, E., Brigham, L. A., & White, B. (2024). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Educating Students about Personal Privilege through an Interactive Modified Privilege Walk »"
+                }
+              ],
+              "href": "https://scholarworks.iu.edu/journals/index.php/josotl/article/view/35597",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Journal of the Scholarship of Teaching and Learning"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 24(3)."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02"
+      ],
+      "nature": "Étude pédagogique",
+      "status": "Durable ; dispositif précis",
+      "links": [
+        {
+          "label": "« Educating Students about Personal Privilege through an Interactive Modified Privilege Walk »",
+          "href": "https://scholarworks.iu.edu/journals/index.php/josotl/article/view/35597"
+        }
+      ]
+    },
+    {
+      "id": "S044",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Dundon, A., Stoddard, E., Pfeifer, G., & Noyola, N. (2024). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« The Limits of White Privilege Pedagogy »"
+                }
+              ],
+              "href": "https://doi.org/10.14434/josotl.v24i1.34707",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Journal of the Scholarship of Teaching and Learning"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 24(1), 76–100."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02",
+        "M03"
+      ],
+      "nature": "Étude réflexive",
+      "status": "Durable ; ne vaut pas verdict général",
+      "links": [
+        {
+          "label": "« The Limits of White Privilege Pedagogy »",
+          "href": "https://doi.org/10.14434/josotl.v24i1.34707"
+        }
+      ]
+    },
+    {
+      "id": "S045",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Jacob, S. A., Palanisamy, U. D., & Chung, C. M. C. (2017). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Perception of a Privilege Walk Activity… »"
+                }
+              ],
+              "href": "https://doi.org/10.1002/jppr.1322",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Journal of Pharmacy Practice and Research"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 47(6), 449–456."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02"
+      ],
+      "nature": "Étude pilote",
+      "status": "Durable ; portée limitée",
+      "links": [
+        {
+          "label": "« Perception of a Privilege Walk Activity… »",
+          "href": "https://doi.org/10.1002/jppr.1322"
+        }
+      ]
+    },
+    {
+      "id": "S046",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Kivel, B. D., & Kivel, P. (1999). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Critical Thinking and Empathy as Necessary Components of Social Responsibility »"
+                }
+              ],
+              "href": "https://www.nrpa.org/globalassets/journals/schole/1999/schole-volume-14-pp-69-89.pdf",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Schole"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 14, 69–89."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02"
+      ],
+      "nature": "Article pédagogique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« Critical Thinking and Empathy as Necessary Components of Social Responsibility »",
+          "href": "https://www.nrpa.org/globalassets/journals/schole/1999/schole-volume-14-pp-69-89.pdf"
+        }
+      ]
+    },
+    {
+      "id": "S047",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Macedo, A. R. de, et al. (2022). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« High School Students’ Emotion and Perception on the Privilege Walk »"
+                }
+              ],
+              "href": "https://doi.org/10.1590/2175-6236108437vs02",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Educação & Realidade"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 47, e108437."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02"
+      ],
+      "nature": "Étude empirique",
+      "status": "Durable ; terrain brésilien",
+      "links": [
+        {
+          "label": "« High School Students’ Emotion and Perception on the Privilege Walk »",
+          "href": "https://doi.org/10.1590/2175-6236108437vs02"
+        }
+      ]
+    },
+    {
+      "id": "S048",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Siliman, S., & Kearns, K. (2020). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Intersectional Approaches to Teaching about Privileges »"
+                }
+              ],
+              "href": "https://doi.org/10.5195/rt.2020.695",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Radical Teacher"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 116, 47–54."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02"
+      ],
+      "nature": "Retour pédagogique argumenté",
+      "status": "Durable ; contexte situé",
+      "links": [
+        {
+          "label": "« Intersectional Approaches to Teaching about Privileges »",
+          "href": "https://doi.org/10.5195/rt.2020.695"
+        }
+      ]
+    },
+    {
+      "id": "S049",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Patel, P., & Kutac, J. (2024). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Implementation of a Privilege and Resilience Walk in Health Professions Education »"
+                }
+              ],
+              "href": "https://doi.org/10.1177/23821205241275354",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Journal of Medical Education and Curricular Development"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 11."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02"
+      ],
+      "nature": "Étude de mise en œuvre",
+      "status": "Durable ; formation en santé",
+      "links": [
+        {
+          "label": "« Implementation of a Privilege and Resilience Walk in Health Professions Education »",
+          "href": "https://doi.org/10.1177/23821205241275354"
+        }
+      ]
+    },
+    {
+      "id": "S050",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Coston, B. M., & Kimmel, M. S. (2012). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Seeing Privilege Where It Isn’t »"
+                }
+              ],
+              "href": "https://doi.org/10.1111/j.1540-4560.2011.01738.x",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Journal of Social Issues"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 68(1), 97–111."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M03"
+      ],
+      "nature": "Article théorique et revue située",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« Seeing Privilege Where It Isn’t »",
+          "href": "https://doi.org/10.1111/j.1540-4560.2011.01738.x"
+        }
+      ]
+    },
+    {
+      "id": "S051",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Iyer, A., Leach, C. W., & Crosby, F. J. (2003). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« White Guilt and Racial Compensation »"
+                }
+              ],
+              "href": "https://doi.org/10.1177/0146167202238377",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Personality and Social Psychology Bulletin"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 29(1), 117–129."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M03"
+      ],
+      "nature": "Étude empirique",
+      "status": "Durable ; contexte spécifique",
+      "links": [
+        {
+          "label": "« White Guilt and Racial Compensation »",
+          "href": "https://doi.org/10.1177/0146167202238377"
+        }
+      ]
+    },
+    {
+      "id": "S052",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Powell, A. A., Branscombe, N. R., & Schmitt, M. T. (2005). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Inequality as Ingroup Privilege or Outgroup Disadvantage »"
+                }
+              ],
+              "href": "https://doi.org/10.1177/0146167204271713",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Personality and Social Psychology Bulletin"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 31(4), 508–521."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M03"
+      ],
+      "nature": "Études expérimentales",
+      "status": "Durable ; contexte états-unien",
+      "links": [
+        {
+          "label": "« Inequality as Ingroup Privilege or Outgroup Disadvantage »",
+          "href": "https://doi.org/10.1177/0146167204271713"
+        }
+      ]
+    },
+    {
+      "id": "S053",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Bauer, G. R., et al. (2009). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« How Erasure Impacts Health Care for Transgender People »"
+                }
+              ],
+              "href": "https://doi.org/10.1016/j.jana.2009.07.004",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Journal of the Association of Nurses in AIDS Care"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 20(5), 348–361."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Article empirique et conceptuel",
+      "status": "Durable ; santé canadienne",
+      "links": [
+        {
+          "label": "« How Erasure Impacts Health Care for Transgender People »",
+          "href": "https://doi.org/10.1016/j.jana.2009.07.004"
+        }
+      ]
+    },
+    {
+      "id": "S054",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Pager, D., & Shepherd, H. (2008). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« The Sociology of Discrimination »"
+                }
+              ],
+              "href": "https://doi.org/10.1146/annurev.soc.33.040406.131740",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Annual Review of Sociology"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 34, 181–209."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Revue de littérature",
+      "status": "Durable ; centrée sur les États-Unis",
+      "links": [
+        {
+          "label": "« The Sociology of Discrimination »",
+          "href": "https://doi.org/10.1146/annurev.soc.33.040406.131740"
+        }
+      ]
+    },
+    {
+      "id": "S055",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Pincus, F. L. (1996). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Discrimination Comes in Many Forms »"
+                }
+              ],
+              "href": "https://doi.org/10.1177/0002764296040002009",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "American Behavioral Scientist"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 40(2), 186–194."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Article théorique",
+      "status": "Durable ; terminologie discutée",
+      "links": [
+        {
+          "label": "« Discrimination Comes in Many Forms »",
+          "href": "https://doi.org/10.1177/0002764296040002009"
+        }
+      ]
+    },
+    {
+      "id": "S056",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Reskin, B. (2012). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« The Race Discrimination System »"
+                }
+              ],
+              "href": "https://doi.org/10.1146/annurev-soc-071811-145508",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Annual Review of Sociology"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 38, 17–35."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Revue et modèle théorique",
+      "status": "Durable ; contexte états-unien",
+      "links": [
+        {
+          "label": "« The Race Discrimination System »",
+          "href": "https://doi.org/10.1146/annurev-soc-071811-145508"
+        }
+      ]
+    },
+    {
+      "id": "S057",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Johnson, E. J., & Goldstein, D. (2003). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Do Defaults Save Lives? »"
+                }
+              ],
+              "href": "https://doi.org/10.1126/science.1091721",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Science"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 302(5649), 1338–1339."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M06"
+      ],
+      "nature": "Étude sur les choix par défaut",
+      "status": "Durable ; transfert prudent",
+      "links": [
+        {
+          "label": "« Do Defaults Save Lives? »",
+          "href": "https://doi.org/10.1126/science.1091721"
+        }
+      ]
+    },
+    {
+      "id": "S058",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Herd, P., & Moynihan, D. P. (2018). "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Administrative Burden: Policymaking by Other Means"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ". Russell Sage Foundation."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M06"
+      ],
+      "nature": "Monographie de synthèse",
+      "status": "Durable ; politiques publiques états-uniennes",
+      "links": []
+    },
+    {
+      "id": "S059",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Moynihan, D., Herd, P., & Harvey, H. (2015). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Administrative Burden »"
+                }
+              ],
+              "href": "https://doi.org/10.1093/jopart/muu009",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Journal of Public Administration Research and Theory"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 25(1), 43–69."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M06"
+      ],
+      "nature": "Article théorique et empirique",
+      "status": "Durable ; transfert prudent",
+      "links": [
+        {
+          "label": "« Administrative Burden »",
+          "href": "https://doi.org/10.1093/jopart/muu009"
+        }
+      ]
+    },
+    {
+      "id": "S060",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Paluck, E. L., Shepherd, H., & Aronow, P. M. (2016). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Changing Climates of Conflict »"
+                }
+              ],
+              "href": "https://doi.org/10.1073/pnas.1514483113",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "PNAS"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 113(3), 566–571."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M05"
+      ],
+      "nature": "Expérience en réseau scolaire",
+      "status": "Durable ; correction publiée sur l’estimation",
+      "links": [
+        {
+          "label": "« Changing Climates of Conflict »",
+          "href": "https://doi.org/10.1073/pnas.1514483113"
+        }
+      ]
+    },
+    {
+      "id": "S061",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Polanin, J. R., Espelage, D. L., & Pigott, T. D. (2012). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« A Meta-Analysis of School-Based Bullying Prevention Programs’ Effects on Bystander Intervention Behavior »"
+                }
+              ],
+              "href": "https://doi.org/10.1080/02796015.2012.12087375",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "School Psychology Review"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 41(1), 47–65."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M05"
+      ],
+      "nature": "Méta-analyse",
+      "status": "Durable ; programmes hétérogènes",
+      "links": [
+        {
+          "label": "« A Meta-Analysis of School-Based Bullying Prevention Programs’ Effects on Bystander Intervention Behavior »",
+          "href": "https://doi.org/10.1080/02796015.2012.12087375"
+        }
+      ]
+    },
+    {
+      "id": "S062",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Poteat, V. P., & Vecho, O. (2016). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Who Intervenes against Homophobic Behavior? »"
+                }
+              ],
+              "href": "https://doi.org/10.1016/j.jsp.2015.10.002",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Journal of School Psychology"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 54, 17–28."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M05"
+      ],
+      "nature": "Étude scolaire",
+      "status": "Durable ; associations non causales",
+      "links": [
+        {
+          "label": "« Who Intervenes against Homophobic Behavior? »",
+          "href": "https://doi.org/10.1016/j.jsp.2015.10.002"
+        }
+      ]
+    },
+    {
+      "id": "S063",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Salmivalli, C., Lagerspetz, K., Björkqvist, K., Österman, K., & Kaukiainen, A. (1996). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Bullying as a Group Process »"
+                }
+              ],
+              "href": "https://doi.org/10.1002/%28SICI%291098-2337%281996%2922%3A1%3C1%3A%3AAID-AB1%3E3.0.CO%3B2-T",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Aggressive Behavior"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 22(1), 1–15."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M05"
+      ],
+      "nature": "Étude empirique",
+      "status": "Durable ; terrain finlandais",
+      "links": [
+        {
+          "label": "« Bullying as a Group Process »",
+          "href": "https://doi.org/10.1002/%28SICI%291098-2337%281996%2922%3A1%3C1%3A%3AAID-AB1%3E3.0.CO%3B2-T"
+        }
+      ]
+    },
+    {
+      "id": "S064",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Salmivalli, C. (2010). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Bullying and the Peer Group: A Review »"
+                }
+              ],
+              "href": "https://doi.org/10.1016/j.avb.2009.08.007",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Aggression and Violent Behavior"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 15(2), 112–120."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M05"
+      ],
+      "nature": "Revue de littérature",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« Bullying and the Peer Group: A Review »",
+          "href": "https://doi.org/10.1016/j.avb.2009.08.007"
+        }
+      ]
+    },
+    {
+      "id": "S065",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Devine, P. G. (1989). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Stereotypes and Prejudice: Their Automatic and Controlled Components »"
+                }
+              ],
+              "href": "https://doi.org/10.1037/0022-3514.56.1.5",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Journal of Personality and Social Psychology"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 56(1), 5–18."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M07"
+      ],
+      "nature": "Études de laboratoire",
+      "status": "Durable ; objet racial spécifique",
+      "links": [
+        {
+          "label": "« Stereotypes and Prejudice: Their Automatic and Controlled Components »",
+          "href": "https://doi.org/10.1037/0022-3514.56.1.5"
+        }
+      ]
+    },
+    {
+      "id": "S066",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Gomillion, S. C., & Giuliano, T. A. (2011). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« The Influence of Media Role Models on Gay, Lesbian, and Bisexual Identity »"
+                }
+              ],
+              "href": "https://doi.org/10.1080/00918369.2011.546729",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Journal of Homosexuality"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 58(3), 330–354."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M07"
+      ],
+      "nature": "Étude par questionnaire",
+      "status": "Durable ; population limitée",
+      "links": [
+        {
+          "label": "« The Influence of Media Role Models on Gay, Lesbian, and Bisexual Identity »",
+          "href": "https://doi.org/10.1080/00918369.2011.546729"
+        }
+      ]
+    },
+    {
+      "id": "S067",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Meyer, I. H. (2003). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Prejudice, Social Stress, and Mental Health in Lesbian, Gay, and Bisexual Populations »"
+                }
+              ],
+              "href": "https://doi.org/10.1037/0033-2909.129.5.674",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Psychological Bulletin"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 129(5), 674–697."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M07"
+      ],
+      "nature": "Revue et modèle",
+      "status": "Durable ; aucune inférence individuelle",
+      "links": [
+        {
+          "label": "« Prejudice, Social Stress, and Mental Health in Lesbian, Gay, and Bisexual Populations »",
+          "href": "https://doi.org/10.1037/0033-2909.129.5.674"
+        }
+      ]
+    },
+    {
+      "id": "S068",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Schiappa, E., Gregg, P. B., & Hewes, D. E. (2005). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« The Parasocial Contact Hypothesis »"
+                }
+              ],
+              "href": "https://doi.org/10.1080/0363775052000342544",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Communication Monographs"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 72(1), 92–115."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M07"
+      ],
+      "nature": "Études de contact parasocial",
+      "status": "Durable ; ne valide pas un curriculum",
+      "links": [
+        {
+          "label": "« The Parasocial Contact Hypothesis »",
+          "href": "https://doi.org/10.1080/0363775052000342544"
+        }
+      ]
+    },
+    {
+      "id": "S069",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Bilge, S. (2009). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Théorisations féministes de l’intersectionnalité »"
+                }
+              ],
+              "href": "https://shs.cairn.info/revue-diogene-2009-1-page-70",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Diogène"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 225, 70–88."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Article de synthèse",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« Théorisations féministes de l’intersectionnalité »",
+          "href": "https://shs.cairn.info/revue-diogene-2009-1-page-70"
+        }
+      ]
+    },
+    {
+      "id": "S070",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Bilge, S. (2013). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Intersectionality Undone »"
+                }
+              ],
+              "href": "https://doi.org/10.1017/S1742058X13000283",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Du Bois Review"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 10(2), 405–424."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Article critique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« Intersectionality Undone »",
+          "href": "https://doi.org/10.1017/S1742058X13000283"
+        }
+      ]
+    },
+    {
+      "id": "S071",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Bilge, S. (2015). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Le blanchiment de l’intersectionnalité »"
+                }
+              ],
+              "href": "https://doi.org/10.7202/1034173ar",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Recherches féministes"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 28(2), 9–32."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Article critique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« Le blanchiment de l’intersectionnalité »",
+          "href": "https://doi.org/10.7202/1034173ar"
+        }
+      ]
+    },
+    {
+      "id": "S072",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Bowleg, L. (2008). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« When Black + Lesbian + Woman ≠ Black Lesbian Woman »"
+                }
+              ],
+              "href": "https://doi.org/10.1007/s11199-008-9400-z",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Sex Roles"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 59, 312–325."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Article méthodologique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« When Black + Lesbian + Woman ≠ Black Lesbian Woman »",
+          "href": "https://doi.org/10.1007/s11199-008-9400-z"
+        }
+      ]
+    },
+    {
+      "id": "S073",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Cho, S., Crenshaw, K. W., & McCall, L. (2013). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Toward a Field of Intersectionality Studies »"
+                }
+              ],
+              "href": "https://doi.org/10.1086/669608",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Signs"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 38(4), 785–810."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Article de champ",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« Toward a Field of Intersectionality Studies »",
+          "href": "https://doi.org/10.1086/669608"
+        }
+      ]
+    },
+    {
+      "id": "S074",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Davis, K. (2008). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Intersectionality as Buzzword »"
+                }
+              ],
+              "href": "https://doi.org/10.1177/1464700108086364",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Feminist Theory"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 9(1), 67–85."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Article théorique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« Intersectionality as Buzzword »",
+          "href": "https://doi.org/10.1177/1464700108086364"
+        }
+      ]
+    },
+    {
+      "id": "S075",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Galerand, E., & Kergoat, D. (2014). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Consubstantialité vs intersectionnalité ? »"
+                }
+              ],
+              "href": "https://doi.org/10.7202/1029261ar",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Nouvelles pratiques sociales"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 26(2), 44–61."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Article théorique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« Consubstantialité vs intersectionnalité ? »",
+          "href": "https://doi.org/10.7202/1029261ar"
+        }
+      ]
+    },
+    {
+      "id": "S076",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Hancock, A.-M. (2007). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Intersectionality as a Normative and Empirical Paradigm »"
+                }
+              ],
+              "href": "https://doi.org/10.1017/S1743923X07000062",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Politics & Gender"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 3(2), 248–254."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Article théorique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« Intersectionality as a Normative and Empirical Paradigm »",
+          "href": "https://doi.org/10.1017/S1743923X07000062"
+        }
+      ]
+    },
+    {
+      "id": "S077",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Jaunait, A., & Chauvin, S. (2012). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Représenter l’intersection »"
+                }
+              ],
+              "href": "https://doi.org/10.3917/rfsp.621.0005",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Revue française de science politique"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 62(1), 5–20."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Article de sciences sociales",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« Représenter l’intersection »",
+          "href": "https://doi.org/10.3917/rfsp.621.0005"
+        }
+      ]
+    },
+    {
+      "id": "S078",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "McCall, L. (2005). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« The Complexity of Intersectionality »"
+                }
+              ],
+              "href": "https://doi.org/10.1086/426800",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Signs"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 30(3), 1771–1800."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Article méthodologique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« The Complexity of Intersectionality »",
+          "href": "https://doi.org/10.1086/426800"
+        }
+      ]
+    },
+    {
+      "id": "S079",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Chaudoir, S. R., & Fisher, J. D. (2010). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« The Disclosure Processes Model »"
+                }
+              ],
+              "href": "https://doi.org/10.1037/a0018193",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Psychological Bulletin"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 136(2), 236–256."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "nature": "Revue théorique",
+      "status": "Durable ; ne prescrit pas le dévoilement",
+      "links": [
+        {
+          "label": "« The Disclosure Processes Model »",
+          "href": "https://doi.org/10.1037/a0018193"
+        }
+      ]
+    },
+    {
+      "id": "S080",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Marwick, A. E., & boyd, d. (2011). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« I Tweet Honestly, I Tweet Passionately »"
+                }
+              ],
+              "href": "https://doi.org/10.1177/1461444810365313",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "New Media & Society"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 13(1), 114–133."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "nature": "Étude qualitative",
+      "status": "Durable ; plateforme et époque spécifiques",
+      "links": [
+        {
+          "label": "« I Tweet Honestly, I Tweet Passionately »",
+          "href": "https://doi.org/10.1177/1461444810365313"
+        }
+      ]
+    },
+    {
+      "id": "S081",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Nissenbaum, H. (2004). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Privacy as Contextual Integrity »"
+                }
+              ],
+              "href": "https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Washington Law Review"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 79(1), 119–157."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "nature": "Théorie normative",
+      "status": "Durable ; distincte du droit français",
+      "links": [
+        {
+          "label": "« Privacy as Contextual Integrity »",
+          "href": "https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/"
+        }
+      ]
+    },
+    {
+      "id": "S082",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Orne, J. (2011). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« “You Will Always Have to ‘Out’ Yourself” »"
+                }
+              ],
+              "href": "https://doi.org/10.1177/1363460711420462",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Sexualities"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 14(6), 681–703."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "nature": "Étude qualitative",
+      "status": "Durable ; contexte états-unien",
+      "links": [
+        {
+          "label": "« “You Will Always Have to ‘Out’ Yourself” »",
+          "href": "https://doi.org/10.1177/1363460711420462"
+        }
+      ]
+    },
+    {
+      "id": "S083",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Rasmussen, M. L. (2004). « The Problem of Coming Out ». "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Theory Into Practice"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 43(2), 144–150."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "nature": "Critique théorique",
+      "status": "Durable ; contexte anglophone",
+      "links": []
+    },
+    {
+      "id": "S084",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Beischel, W. J., Gauvin, S. E. M., & van Anders, S. M. (2022). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Community Understandings of Gender Euphoria »"
+                }
+              ],
+              "href": "https://doi.org/10.1080/26895269.2021.1915223",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "International Journal of Transgender Health"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 23(3), 274–294."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "nature": "Étude communautaire",
+      "status": "Durable ; notion émergente",
+      "links": [
+        {
+          "label": "« Community Understandings of Gender Euphoria »",
+          "href": "https://doi.org/10.1080/26895269.2021.1915223"
+        }
+      ]
+    },
+    {
+      "id": "S085",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Coleman, E., et al. (2022). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 »"
+                }
+              ],
+              "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9553112/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "International Journal of Transgender Health"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 23(sup. 1), S1–S259."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "nature": "Recommandations professionnelles évaluées par les pairs",
+      "status": "Daté ; portée sanitaire internationale",
+      "links": [
+        {
+          "label": "« Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 »",
+          "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9553112/"
+        }
+      ]
+    },
+    {
+      "id": "S086",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Motmans, J., Nieder, T. O., & Bouman, W. P. (2019). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Transforming the Paradigm of Nonbinary Transgender Health »"
+                }
+              ],
+              "href": "https://doi.org/10.1080/15532739.2019.1640514",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "International Journal of Transgenderism"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 20(2–3), 119–125."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "nature": "Revue critique",
+      "status": "Durable ; champ sanitaire",
+      "links": [
+        {
+          "label": "« Transforming the Paradigm of Nonbinary Transgender Health »",
+          "href": "https://doi.org/10.1080/15532739.2019.1640514"
+        }
+      ]
+    },
+    {
+      "id": "S087",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Puckett, J. A., et al. (2023). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Daily Experiences of Minority Stress and Mental Health in Transgender and Gender-Diverse Individuals »"
+                }
+              ],
+              "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10159909/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "nature": "Étude longitudinale intensive",
+      "status": "Durable ; associations situées",
+      "links": [
+        {
+          "label": "« Daily Experiences of Minority Stress and Mental Health in Transgender and Gender-Diverse Individuals »",
+          "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10159909/"
+        }
+      ]
+    },
+    {
+      "id": "S088",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Speechley, M., Stuart, J., & Modecki, K. L. (2024). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Diverse Gender Identity Development »"
+                }
+              ],
+              "href": "https://doi.org/10.1007/s11199-023-01438-x",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Sex Roles"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 90, 1–18."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "nature": "Synthèse qualitative",
+      "status": "Durable ; corpus hétérogène",
+      "links": [
+        {
+          "label": "« Diverse Gender Identity Development »",
+          "href": "https://doi.org/10.1007/s11199-023-01438-x"
+        }
+      ]
+    },
+    {
+      "id": "S089",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Tyni, K., Wurm, M., Nordström, T., & Bratt, A. S. (2024). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« A Systematic Review and Qualitative Research Synthesis… »"
+                }
+              ],
+              "href": "https://doi.org/10.1080/26895269.2023.2295379",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "International Journal of Transgender Health"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 25(3), 352–388."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "nature": "Revue systématique qualitative",
+      "status": "Durable ; terrains majoritairement étrangers",
+      "links": [
+        {
+          "label": "« A Systematic Review and Qualitative Research Synthesis… »",
+          "href": "https://doi.org/10.1080/26895269.2023.2295379"
+        }
+      ]
+    },
+    {
+      "id": "S090",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Barnett, S. M., & Ceci, S. J. (2002). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« When and Where Do We Apply What We Learn? »"
+                }
+              ],
+              "href": "https://doi.org/10.1037/0033-2909.128.4.612",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Psychological Bulletin"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 128(4), 612–637."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M01",
+        "M12"
+      ],
+      "nature": "Taxonomie du transfert",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« When and Where Do We Apply What We Learn? »",
+          "href": "https://doi.org/10.1037/0033-2909.128.4.612"
+        }
+      ]
+    },
+    {
+      "id": "S091",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Crookall, D. (2010). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Serious Games, Debriefing, and Simulation/Gaming as a Discipline »"
+                }
+              ],
+              "href": "https://doi.org/10.1177/1046878110390784",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Simulation & Gaming"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 41(6), 898–920."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M01",
+        "M12"
+      ],
+      "nature": "Article de synthèse",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« Serious Games, Debriefing, and Simulation/Gaming as a Discipline »",
+          "href": "https://doi.org/10.1177/1046878110390784"
+        }
+      ]
+    },
+    {
+      "id": "S092",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Gasser, L., et al. (2022). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« How Do Children Socially Learn from Narrative Fiction? »"
+                }
+              ],
+              "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9365732/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Educational Psychology Review"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M01"
+      ],
+      "nature": "Revue théorique",
+      "status": "Durable",
+      "links": [
+        {
+          "label": "« How Do Children Socially Learn from Narrative Fiction? »",
+          "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9365732/"
+        }
+      ]
+    },
+    {
+      "id": "S093",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Keen, S. (2006). « A Theory of Narrative Empathy ». "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Narrative"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 14(3), 207–236."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M01",
+        "M11"
+      ],
+      "nature": "Article théorique",
+      "status": "Durable ; empathie non garantie",
+      "links": []
+    },
+    {
+      "id": "S094",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Sitzmann, T. (2011). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« A Meta-Analytic Examination of the Instructional Effectiveness of Computer-Based Simulation Games »"
+                }
+              ],
+              "href": "https://doi.org/10.1111/j.1744-6570.2011.01190.x",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Personnel Psychology"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 64(2), 489–528."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M01"
+      ],
+      "nature": "Méta-analyse",
+      "status": "Durable ; ne mesure pas Mosaïque",
+      "links": [
+        {
+          "label": "« A Meta-Analytic Examination of the Instructional Effectiveness of Computer-Based Simulation Games »",
+          "href": "https://doi.org/10.1111/j.1744-6570.2011.01190.x"
+        }
+      ]
+    },
+    {
+      "id": "S095",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Edmondson, A. (1999). « Psychological Safety and Learning Behavior in Work Teams ». "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Administrative Science Quarterly"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 44(4), 350–383."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M11",
+        "M12"
+      ],
+      "nature": "Étude empirique",
+      "status": "Durable ; équipes de travail",
+      "links": []
+    },
+    {
+      "id": "S096",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Mann, K., Gordon, J., & MacLeod, A. (2009). « Reflection and Reflective Practice in Health Professions Education: A Systematic Review ». "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Advances in Health Sciences Education"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 14, 595–621."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M11"
+      ],
+      "nature": "Revue systématique",
+      "status": "Durable ; formation en santé",
+      "links": []
+    },
+    {
+      "id": "S097",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Nario-Redmond, M. R., Gospodinov, D., & Cobb, A. (2017). « Crip for a Day: The Unintended Negative Consequences of Disability Simulations ». "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Rehabilitation Psychology"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 62(3), 324–333."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M11"
+      ],
+      "nature": "Étude empirique",
+      "status": "Durable ; simulations du handicap",
+      "links": []
+    },
+    {
+      "id": "S098",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Tannenbaum, S. I., & Cerasoli, C. P. (2013). « Do Team and Individual Debriefs Enhance Performance? A Meta-Analysis ». "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Human Factors"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 55(1), 231–245."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Méta-analyse",
+      "status": "Durable ; ne prouve pas l’effet de Mosaïque",
+      "links": []
+    },
+    {
+      "id": "S099",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Alliger, G. M., & Janak, E. A. (1989). « Kirkpatrick’s Levels of Training Criteria: Thirty Years Later ». "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Personnel Psychology"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 42(2), 331–342."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Revue critique",
+      "status": "Durable",
+      "links": []
+    },
+    {
+      "id": "S100",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Baldwin, T. T., & Ford, J. K. (1988). « Transfer of Training: A Review and Directions for Future Research ». "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Personnel Psychology"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 41(1), 63–105."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Revue de littérature",
+      "status": "Durable",
+      "links": []
+    },
+    {
+      "id": "S101",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Blume, B. D., Ford, J. K., Baldwin, T. T., & Huang, J. L. (2010). « Transfer of Training: A Meta-Analytic Review ». "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Journal of Management"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 36(4), 1065–1105."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Méta-analyse",
+      "status": "Durable",
+      "links": []
+    },
+    {
+      "id": "S102",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Holton, E. F. III. (1996). « The Flawed Four-Level Evaluation Model ». "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Human Resource Development Quarterly"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", 7(1), 5–21."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Article critique",
+      "status": "Durable",
+      "links": []
+    },
+    {
+      "id": "S103",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "France. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Code pénal, article 121-3"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417208",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Code pénal, article 121-3",
+          "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417208"
+        }
+      ]
+    },
+    {
+      "id": "S104",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "France. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Code pénal, articles 225-1 à 225-4"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070719/LEGISCTA000006165298/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Code pénal, articles 225-1 à 225-4",
+          "href": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070719/LEGISCTA000006165298/"
+        }
+      ]
+    },
+    {
+      "id": "S105",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "France. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Loi n° 2008-496 du 27 mai 2008"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000018877783/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", articles 1, 2 et 4."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04",
+        "M06"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Loi n° 2008-496 du 27 mai 2008",
+          "href": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000018877783/"
+        }
+      ]
+    },
+    {
+      "id": "S106",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "France. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Loi n° 2025-391 du 30 avril 2025"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000051539065",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", article 16."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Loi n° 2025-391 du 30 avril 2025",
+          "href": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000051539065"
+        }
+      ]
+    },
+    {
+      "id": "S107",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "France. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Code de l’éducation, article L. 111-6"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045289043",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M05"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Code de l’éducation, article L. 111-6",
+          "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045289043"
+        }
+      ]
+    },
+    {
+      "id": "S108",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "France. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Code pénal, article 222-33-2-3"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045289333",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M05"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Code pénal, article 222-33-2-3",
+          "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045289333"
+        }
+      ]
+    },
+    {
+      "id": "S109",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "France. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Code de l’action sociale et des familles, article L. 411-3"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006797838",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Code de l’action sociale et des familles, article L. 411-3",
+          "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006797838"
+        }
+      ]
+    },
+    {
+      "id": "S110",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "France. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Code de la santé publique, article L. 1110-4"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043895798",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Code de la santé publique, article L. 1110-4",
+          "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043895798"
+        }
+      ]
+    },
+    {
+      "id": "S111",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "France. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Code de la santé publique, articles R. 4312-5 et R. 4312-6"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000006178629/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "nature": "Textes officiels",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Code de la santé publique, articles R. 4312-5 et R. 4312-6",
+          "href": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000006178629/"
+        }
+      ]
+    },
+    {
+      "id": "S112",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "France. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Code général de la fonction publique, articles L. 121-6 et L. 121-7"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044427903",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "nature": "Textes officiels",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Code général de la fonction publique, articles L. 121-6 et L. 121-7",
+          "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044427903"
+        }
+      ]
+    },
+    {
+      "id": "S113",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Conseil d’État. (2023, 29 décembre). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Décision n° 463697"
+                }
+              ],
+              "href": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-12-29/463697",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M05",
+        "M09",
+        "M10"
+      ],
+      "nature": "Jurisprudence administrative",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Décision n° 463697",
+          "href": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-12-29/463697"
+        }
+      ]
+    },
+    {
+      "id": "S114",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Défenseur des droits. (2025). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Décision-cadre n° 2025-112"
+                }
+              ],
+              "href": "https://juridique.defenseurdesdroits.fr/doc_num.php?explnum_id=22780",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "nature": "Décision et recommandations institutionnelles",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Décision-cadre n° 2025-112",
+          "href": "https://juridique.defenseurdesdroits.fr/doc_num.php?explnum_id=22780"
+        }
+      ]
+    },
+    {
+      "id": "S115",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "France. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Code civil, articles 61-5 à 61-8"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000033437635/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Code civil, articles 61-5 à 61-8",
+          "href": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000033437635/"
+        }
+      ]
+    },
+    {
+      "id": "S116",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Cour de cassation. (2017, 4 mai). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Arrêt n° 16-17.189"
+                }
+              ],
+              "href": "https://www.courdecassation.fr/decision/export/5fd904ea412c169c70f3f7f3/1",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "nature": "Jurisprudence",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Arrêt n° 16-17.189",
+          "href": "https://www.courdecassation.fr/decision/export/5fd904ea412c169c70f3f7f3/1"
+        }
+      ]
+    },
+    {
+      "id": "S117",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "France. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Code de procédure pénale, article 40"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006574933",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; champ professionnel à vérifier",
+      "links": [
+        {
+          "label": "Code de procédure pénale, article 40",
+          "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006574933"
+        }
+      ]
+    },
+    {
+      "id": "S118",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "France. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Code de l’action sociale et des familles, article L. 226-2-1 et suivants"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027572899",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; champ et procédure à vérifier",
+      "links": [
+        {
+          "label": "Code de l’action sociale et des familles, article L. 226-2-1 et suivants",
+          "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027572899"
+        }
+      ]
+    },
+    {
+      "id": "S119",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "France. Code pénal, articles 226-13 et "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "226-14"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049532171",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Textes officiels",
+      "status": "Daté ; statut, mission et exceptions à vérifier",
+      "links": [
+        {
+          "label": "226-14",
+          "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049532171"
+        }
+      ]
+    },
+    {
+      "id": "S120",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "France. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Code civil, article 371-1"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049164413",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Code civil, article 371-1",
+          "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049164413"
+        }
+      ]
+    },
+    {
+      "id": "S121",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "France. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Code de la santé publique, article L. 1111-4"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041721056",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Code de la santé publique, article L. 1111-4",
+          "href": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041721056"
+        }
+      ]
+    },
+    {
+      "id": "S122",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Union européenne. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Directive 2000/43/CE"
+                }
+              ],
+              "href": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32000L0043",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; champ et transposition à vérifier",
+      "links": [
+        {
+          "label": "Directive 2000/43/CE",
+          "href": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32000L0043"
+        }
+      ]
+    },
+    {
+      "id": "S123",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Union européenne. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Directive 2000/78/CE"
+                }
+              ],
+              "href": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32000L0078",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; champ et transposition à vérifier",
+      "links": [
+        {
+          "label": "Directive 2000/78/CE",
+          "href": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32000L0078"
+        }
+      ]
+    },
+    {
+      "id": "S124",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Union européenne. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Directive (UE) 2024/1499"
+                }
+              ],
+              "href": "https://eur-lex.europa.eu/FR/legal-content/summary/standards-for-equality-bodies-in-the-field-of-equal-treatment-and-equal-opportunities.html",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; transposition française exacte incertaine au 31 juillet 2026",
+      "links": [
+        {
+          "label": "Directive (UE) 2024/1499",
+          "href": "https://eur-lex.europa.eu/FR/legal-content/summary/standards-for-equality-bodies-in-the-field-of-equal-treatment-and-equal-opportunities.html"
+        }
+      ]
+    },
+    {
+      "id": "S125",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Union européenne. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Directive (UE) 2024/1500"
+                }
+              ],
+              "href": "https://eur-lex.europa.eu/FR/legal-content/summary/standards-for-equality-bodies-in-the-field-of-equal-treatment-and-equal-opportunities.html",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; transposition française exacte incertaine au 31 juillet 2026",
+      "links": [
+        {
+          "label": "Directive (UE) 2024/1500",
+          "href": "https://eur-lex.europa.eu/FR/legal-content/summary/standards-for-equality-bodies-in-the-field-of-equal-treatment-and-equal-opportunities.html"
+        }
+      ]
+    },
+    {
+      "id": "S126",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Union européenne. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Règlement (UE) 2016/679 — RGPD"
+                }
+              ],
+              "href": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32016R0679",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ", notamment articles 5, 9 et 25."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M06",
+        "M09",
+        "M12"
+      ],
+      "nature": "Texte officiel",
+      "status": "Daté ; application factuelle à vérifier",
+      "links": [
+        {
+          "label": "Règlement (UE) 2016/679 — RGPD",
+          "href": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A32016R0679"
+        }
+      ]
+    },
+    {
+      "id": "S127",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Cour européenne des droits de l’homme. (2023, 31 janvier). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Y c. France"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ", requête n° 76888/17"
+                }
+              ],
+              "href": "https://hudoc.echr.coe.int/eng?i=001-223027",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "nature": "Jurisprudence européenne",
+      "status": "Daté ; affaire située",
+      "links": [
+        {
+          "label": "Y c. France, requête n° 76888/17",
+          "href": "https://hudoc.echr.coe.int/eng?i=001-223027"
+        }
+      ]
+    },
+    {
+      "id": "S128",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Fredman, S. (2016). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Intersectional Discrimination in EU Gender Equality and Non-discrimination Law"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://op.europa.eu/en/publication-detail/-/publication/d73a9221-b7c3-40f6-8414-8a48a2157a2f/language-en",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". Commission européenne."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Rapport juridique et institutionnel",
+      "status": "Durable ; droit européen à contextualiser",
+      "links": [
+        {
+          "label": "Intersectional Discrimination in EU Gender Equality and Non-discrimination Law",
+          "href": "https://op.europa.eu/en/publication-detail/-/publication/d73a9221-b7c3-40f6-8414-8a48a2157a2f/language-en"
+        }
+      ]
+    },
+    {
+      "id": "S129",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Organisation mondiale de la santé. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "ICD-11 for Mortality and Morbidity Statistics"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": ", HA60"
+                }
+              ],
+              "href": "https://icd.who.int/browse11",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "nature": "Classification officielle",
+      "status": "Daté ; consulté le 31 juillet 2026",
+      "links": [
+        {
+          "label": "ICD-11 for Mortality and Morbidity Statistics, HA60",
+          "href": "https://icd.who.int/browse11"
+        }
+      ]
+    },
+    {
+      "id": "S130",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Organisation mondiale de la santé. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Gender Incongruence and Transgender Health in the ICD »"
+                }
+              ],
+              "href": "https://www.who.int/standards/classifications/frequently-asked-questions/gender-incongruence-and-transgender-health-in-the-icd",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "nature": "Explication institutionnelle",
+      "status": "Daté ; consulté le 31 juillet 2026",
+      "links": [
+        {
+          "label": "« Gender Incongruence and Transgender Health in the ICD »",
+          "href": "https://www.who.int/standards/classifications/frequently-asked-questions/gender-incongruence-and-transgender-health-in-the-icd"
+        }
+      ]
+    },
+    {
+      "id": "S131",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Haute Autorité de santé. (2025, 18 juillet). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Transidentité : prise en charge de l’adulte"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.has-sante.fr/jcms/p_3636735/fr/transidentite-prise-en-charge-de-l-adulte",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "nature": "Recommandation finale française",
+      "status": "Daté ; champ limité aux adultes concernés",
+      "links": [
+        {
+          "label": "Transidentité : prise en charge de l’adulte",
+          "href": "https://www.has-sante.fr/jcms/p_3636735/fr/transidentite-prise-en-charge-de-l-adulte"
+        }
+      ]
+    },
+    {
+      "id": "S132",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Haute Autorité de santé. (2026, 5 mai). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Transidentité : accompagnement du mineur et de son entourage, et soins proposés — Note de cadrage"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.has-sante.fr/jcms/p_3892586/fr/transidentite-accompagnement-du-mineur-et-de-son-entourage-et-soins-proposes-note-de-cadrage",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "nature": "Note de cadrage",
+      "status": "Daté ; ne pas présenter comme recommandation finale",
+      "links": [
+        {
+          "label": "Transidentité : accompagnement du mineur et de son entourage, et soins proposés — Note de cadrage",
+          "href": "https://www.has-sante.fr/jcms/p_3892586/fr/transidentite-accompagnement-du-mineur-et-de-son-entourage-et-soins-proposes-note-de-cadrage"
+        }
+      ]
+    },
+    {
+      "id": "S133",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ministère de l’Éducation nationale. (2021, 29 septembre). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Pour une meilleure prise en compte des questions relatives à l’identité de genre en milieu scolaire"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.education.gouv.fr/bo/21/Hebdo36/MENE2128373C.htm",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M05",
+        "M09",
+        "M10"
+      ],
+      "nature": "Circulaire administrative",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Pour une meilleure prise en compte des questions relatives à l’identité de genre en milieu scolaire",
+          "href": "https://www.education.gouv.fr/bo/21/Hebdo36/MENE2128373C.htm"
+        }
+      ]
+    },
+    {
+      "id": "S134",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ministère de la Transformation et de la Fonction publiques. (2023, 20 juin). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Circulaire relative à la diversité des familles et au respect de l’identité des personnes transgenres"
+                }
+              ],
+              "href": "https://www.legifrance.gouv.fr/circulaire/id/45452",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M06"
+      ],
+      "nature": "Circulaire administrative officielle",
+      "status": "Daté ; champ institutionnel déterminé",
+      "links": [
+        {
+          "label": "Circulaire relative à la diversité des familles et au respect de l’identité des personnes transgenres",
+          "href": "https://www.legifrance.gouv.fr/circulaire/id/45452"
+        }
+      ]
+    },
+    {
+      "id": "S135",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ministère de l’Éducation nationale. (2025, 3 février). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "Programme d’éducation à la vie affective et relationnelle, et à la sexualité"
+                }
+              ],
+              "href": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%206%20du%206%20f%C3%A9vrier%202025-405369.pdf",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M06",
+        "M07"
+      ],
+      "nature": "Programme officiel",
+      "status": "Daté ; applicable depuis 2025–2026",
+      "links": [
+        {
+          "label": "Programme d’éducation à la vie affective et relationnelle, et à la sexualité",
+          "href": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%206%20du%206%20f%C3%A9vrier%202025-405369.pdf"
+        }
+      ]
+    },
+    {
+      "id": "S136",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Éduscol. (2026). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Prévenir les LGBTphobies en milieu scolaire"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://eduscol.education.gouv.fr/6084/prevenir-les-lgbtphobies-en-milieu-scolaire",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M05",
+        "M06"
+      ],
+      "nature": "Ressource institutionnelle",
+      "status": "Daté ; consulté le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Prévenir les LGBTphobies en milieu scolaire",
+          "href": "https://eduscol.education.gouv.fr/6084/prevenir-les-lgbtphobies-en-milieu-scolaire"
+        }
+      ]
+    },
+    {
+      "id": "S137",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ministère de l’Éducation nationale. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "pHARe : un dispositif de lutte contre le harcèlement à l’école"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.education.gouv.fr/non-au-harcelement/phare-un-dispositif-de-lutte-contre-le-harcelement-l-ecole-323435",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M05",
+        "M12"
+      ],
+      "nature": "Dispositif institutionnel",
+      "status": "Daté ; consulté le 31 juillet 2026",
+      "links": [
+        {
+          "label": "pHARe : un dispositif de lutte contre le harcèlement à l’école",
+          "href": "https://www.education.gouv.fr/non-au-harcelement/phare-un-dispositif-de-lutte-contre-le-harcelement-l-ecole-323435"
+        }
+      ]
+    },
+    {
+      "id": "S138",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ministère de l’Éducation nationale. (2025). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "SDET — Kit juridique dans le cadre du déploiement d’un ENT"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.education.gouv.fr/sites/default/files/2025-07/kit-juridique-441540.pdf",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M06",
+        "M09"
+      ],
+      "nature": "Guide institutionnel",
+      "status": "Daté ; paramétrages locaux variables",
+      "links": [
+        {
+          "label": "SDET — Kit juridique dans le cadre du déploiement d’un ENT",
+          "href": "https://www.education.gouv.fr/sites/default/files/2025-07/kit-juridique-441540.pdf"
+        }
+      ]
+    },
+    {
+      "id": "S139",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ministère de l’Éducation nationale. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "La protection des élèves et de leurs données sur Internet"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.education.gouv.fr/la-protection-des-eleves-et-de-leurs-donnees-sur-internet-7073",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M06"
+      ],
+      "nature": "Ressource institutionnelle",
+      "status": "Daté ; consulté le 31 juillet 2026",
+      "links": [
+        {
+          "label": "La protection des élèves et de leurs données sur Internet",
+          "href": "https://www.education.gouv.fr/la-protection-des-eleves-et-de-leurs-donnees-sur-internet-7073"
+        }
+      ]
+    },
+    {
+      "id": "S140",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Éduscol. (2026, 11 mai). "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Enfants en danger : comment les repérer et que faire ?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Ressource professionnelle officielle",
+      "status": "Daté ; procédure locale à vérifier",
+      "links": []
+    },
+    {
+      "id": "S141",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "UNESCO. (2016). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Out in the Open: Education Sector Responses to Violence Based on Sexual Orientation and Gender Identity/Expression"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://unesdoc.unesco.org/ark:/48223/pf0000244756",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M05",
+        "M07"
+      ],
+      "nature": "Synthèse institutionnelle internationale",
+      "status": "Durable mais données datées",
+      "links": [
+        {
+          "label": "Out in the Open: Education Sector Responses to Violence Based on Sexual Orientation and Gender Identity/Expression",
+          "href": "https://unesdoc.unesco.org/ark:/48223/pf0000244756"
+        }
+      ]
+    },
+    {
+      "id": "S142",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "CNIL. (2025). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Rentrée scolaire et affichage des listes des classes : quelles sont les bonnes pratiques ? »"
+                }
+              ],
+              "href": "https://www.cnil.fr/fr/rentree-scolaire-et-affichage-des-listes-des-classes-quelles-sont-les-bonnes-pratiques",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "nature": "Recommandation de l’autorité de contrôle",
+      "status": "Daté ; consulté le 31 juillet 2026",
+      "links": [
+        {
+          "label": "« Rentrée scolaire et affichage des listes des classes : quelles sont les bonnes pratiques ? »",
+          "href": "https://www.cnil.fr/fr/rentree-scolaire-et-affichage-des-listes-des-classes-quelles-sont-les-bonnes-pratiques"
+        }
+      ]
+    },
+    {
+      "id": "S143",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "CNIL. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Les six grands principes du RGPD"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.cnil.fr/fr/les-six-grands-principes-du-rgpd",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Ressource de l’autorité de contrôle",
+      "status": "Daté ; consulté le 31 juillet 2026",
+      "links": [
+        {
+          "label": "Les six grands principes du RGPD",
+          "href": "https://www.cnil.fr/fr/les-six-grands-principes-du-rgpd"
+        }
+      ]
+    },
+    {
+      "id": "S144",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Défenseur des droits. (2024). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Lutter contre les discriminations : du recours individuel aux leviers systémiques »"
+                }
+              ],
+              "href": "https://www.defenseurdesdroits.fr/lutter-contre-les-discriminations-du-recours-individuel-aux-leviers-systemiques-retour-sur-le-557",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Ressource institutionnelle",
+      "status": "Daté ; consulté le 31 juillet 2026",
+      "links": [
+        {
+          "label": "« Lutter contre les discriminations : du recours individuel aux leviers systémiques »",
+          "href": "https://www.defenseurdesdroits.fr/lutter-contre-les-discriminations-du-recours-individuel-aux-leviers-systemiques-retour-sur-le-557"
+        }
+      ]
+    },
+    {
+      "id": "S145",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Défenseur des droits. (2026). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Rapport annuel d’activité 2025"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.defenseurdesdroits.fr/sites/default/files/2026-04/ddd_rapport-annuel-2025_20260407.pdf",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M04"
+      ],
+      "nature": "Rapport institutionnel",
+      "status": "Daté",
+      "links": [
+        {
+          "label": "Rapport annuel d’activité 2025",
+          "href": "https://www.defenseurdesdroits.fr/sites/default/files/2026-04/ddd_rapport-annuel-2025_20260407.pdf"
+        }
+      ]
+    },
+    {
+      "id": "S146",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Défenseur des droits. "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Lutter contre les discriminations et promouvoir l’égalité"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Portail professionnel",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": []
+    },
+    {
+      "id": "S147",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Conseil de l’Europe. (2015). "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Teaching Controversial Issues"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ". Conseil de l’Europe."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M11",
+        "M12"
+      ],
+      "nature": "Guide professionnel",
+      "status": "Durable ; contexte d’usage à adapter",
+      "links": []
+    },
+    {
+      "id": "S148",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Conseil de l’Europe. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Intersectionality and Multiple Discrimination »"
+                }
+              ],
+              "href": "https://www.coe.int/en/web/gender-matters/intersectionality-and-multiple-discrimination",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M08"
+      ],
+      "nature": "Ressource institutionnelle",
+      "status": "Daté ; consulté le 31 juillet 2026",
+      "links": [
+        {
+          "label": "« Intersectionality and Multiple Discrimination »",
+          "href": "https://www.coe.int/en/web/gender-matters/intersectionality-and-multiple-discrimination"
+        }
+      ]
+    },
+    {
+      "id": "S149",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Haut-Commissariat des Nations unies aux droits de l’homme. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Intersex People »"
+                }
+              ],
+              "href": "https://www.unfe.org/know-the-facts/challenges-solutions/intersex",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M10"
+      ],
+      "nature": "Ressource de droits humains",
+      "status": "Daté ; consulté le 31 juillet 2026",
+      "links": [
+        {
+          "label": "« Intersex People »",
+          "href": "https://www.unfe.org/know-the-facts/challenges-solutions/intersex"
+        }
+      ]
+    },
+    {
+      "id": "S150",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Office des Nations unies contre la drogue et le crime. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Role Play: The Power Walk »"
+                }
+              ],
+              "href": "https://www.unodc.org/e4j/fr/integrity-ethics/module-9/exercises.html",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02"
+      ],
+      "nature": "Guide de facilitation",
+      "status": "Daté ; origine historique non établie",
+      "links": [
+        {
+          "label": "« Role Play: The Power Walk »",
+          "href": "https://www.unodc.org/e4j/fr/integrity-ethics/module-9/exercises.html"
+        }
+      ]
+    },
+    {
+      "id": "S151",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "University of British Columbia. "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Privilege Walk: Variation 1"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " et "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Variation 2"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02"
+      ],
+      "nature": "Guides de facilitation",
+      "status": "Daté ; variantes institutionnelles",
+      "links": []
+    },
+    {
+      "id": "S152",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Bolger, M. (2020). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Why I Don’t Facilitate Privilege Walks Anymore and What I Do Instead »"
+                }
+              ],
+              "href": "https://medium.com/@MegB/why-i-dont-won-t-facilitate-privilege-walks-anymore-and-what-i-do-instead-380c95490e10",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02"
+      ],
+      "nature": "Retour de pratique individuel",
+      "status": "Durable comme témoignage, non généralisable",
+      "links": [
+        {
+          "label": "« Why I Don’t Facilitate Privilege Walks Anymore and What I Do Instead »",
+          "href": "https://medium.com/@MegB/why-i-dont-won-t-facilitate-privilege-walks-anymore-and-what-i-do-instead-380c95490e10"
+        }
+      ]
+    },
+    {
+      "id": "S153",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Parenti, C. (2021). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« The First Privilege Walk »"
+                }
+              ],
+              "href": "https://nonsite.org/the-first-privilege-walk/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02"
+      ],
+      "nature": "Enquête secondaire polémique",
+      "status": "Piste historique seulement",
+      "links": [
+        {
+          "label": "« The First Privilege Walk »",
+          "href": "https://nonsite.org/the-first-privilege-walk/"
+        }
+      ]
+    },
+    {
+      "id": "S154",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Service-Public.fr. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Obligation de réserve, discrétion et secret professionnels dans la fonction publique »"
+                }
+              ],
+              "href": "https://www.service-public.fr/particuliers/vosdroits/F530",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "nature": "Fiche institutionnelle",
+      "status": "Daté ; vérifié le 31 juillet 2026",
+      "links": [
+        {
+          "label": "« Obligation de réserve, discrétion et secret professionnels dans la fonction publique »",
+          "href": "https://www.service-public.fr/particuliers/vosdroits/F530"
+        }
+      ]
+    },
+    {
+      "id": "S155",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Service-Public.fr. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "119 — Enfance en danger"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.service-public.fr/particuliers/actualites/A14455",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Plateforme et numéro d’aide",
+      "status": "Daté ; vérifier avant chaque animation",
+      "links": [
+        {
+          "label": "119 — Enfance en danger",
+          "href": "https://www.service-public.fr/particuliers/actualites/A14455"
+        }
+      ]
+    },
+    {
+      "id": "S156",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Service-Public.fr. "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Numéros d’urgence : 17 et 112"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Numéros d’urgence",
+      "status": "Daté ; vérifier avant chaque animation",
+      "links": []
+    },
+    {
+      "id": "S157",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Service public 114. "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Urgence 114 par SMS, application ou site"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Service accessible d’urgence",
+      "status": "Daté ; vérifier avant chaque animation",
+      "links": []
+    },
+    {
+      "id": "S158",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ministère chargé de la Santé. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "3114 — Numéro national de prévention du suicide"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://3114.fr/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Numéro et plateforme d’aide",
+      "status": "Daté ; vérifier avant chaque animation",
+      "links": [
+        {
+          "label": "3114 — Numéro national de prévention du suicide",
+          "href": "https://3114.fr/"
+        }
+      ]
+    },
+    {
+      "id": "S159",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Service "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "3018"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://3018.fr/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Numéro et plateforme d’aide",
+      "status": "Daté ; vérifier avant chaque animation",
+      "links": [
+        {
+          "label": "3018",
+          "href": "https://3018.fr/"
+        }
+      ]
+    },
+    {
+      "id": "S160",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Défenseur des droits. "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "3928 et antidiscriminations.fr"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://www.antidiscriminations.fr/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M12"
+      ],
+      "nature": "Plateforme d’accès aux droits",
+      "status": "Daté ; vérifier avant chaque animation",
+      "links": [
+        {
+          "label": "3928 et antidiscriminations.fr",
+          "href": "https://www.antidiscriminations.fr/"
+        }
+      ]
+    },
+    {
+      "id": "S161",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Papazian, P. (2024). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "text",
+                  "text": "« Identité sexuée et orientation homosexuelle »"
+                }
+              ],
+              "href": "https://doi.org/10.3917/pres.souch.2024.03.0105",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": ". Dans L. Souche (dir.), "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "13 films pour comprendre l’identité de genre"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " (p. 105–116)."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M09"
+      ],
+      "nature": "Chapitre professionnel et clinique",
+      "status": "Durable ; ne stabilise pas l’origine de `coming in`",
+      "links": [
+        {
+          "label": "« Identité sexuée et orientation homosexuelle »",
+          "href": "https://doi.org/10.3917/pres.souch.2024.03.0105"
+        }
+      ]
+    },
+    {
+      "id": "S162",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Joint Learning Initiative on Faith & Local Communities. (2019). "
+            },
+            {
+              "type": "link",
+              "label": [
+                {
+                  "type": "emphasis",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Power Walk"
+                    }
+                  ]
+                }
+              ],
+              "href": "https://jliflc.com/wp-content/uploads/2019/06/Power-Walk.pdf",
+              "external": true
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02"
+      ],
+      "nature": "Guide associatif de facilitation",
+      "status": "Daté ; variante de pratique",
+      "links": [
+        {
+          "label": "Power Walk",
+          "href": "https://jliflc.com/wp-content/uploads/2019/06/Power-Walk.pdf"
+        }
+      ]
+    },
+    {
+      "id": "S163",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "National SEED Project. Pages documentaires consacrées aux textes de Peggy McIntosh."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02"
+      ],
+      "nature": "Ressource bibliographique experte",
+      "status": "Daté ; vérifier les liens",
+      "links": []
+    },
+    {
+      "id": "S164",
+      "reference": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Peace Learner. Ressource de facilitation « Privilege Walk »."
+            }
+          ]
+        }
+      ],
+      "moduleIds": [
+        "M02"
+      ],
+      "nature": "Ressource associative de pratique",
+      "status": "Daté ; ne fonde pas une origine unique",
+      "links": []
+    }
+  ]
+}
