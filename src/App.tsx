@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { lazy, Suspense, useEffect, useState, type ReactNode } from "react";
 import {
   createActiveGameSet,
   getActiveCharactersForMode,
@@ -16,6 +16,18 @@ import { EXPLORER_CHARACTERS_HASH, parseAppRoute, subscribeAppRoute } from "./ut
 import type { EditorialCharacterIdV2 } from "./types/editorialV2";
 import type { GameModeId } from "./types/gameMode";
 import type { RuntimeGameSetV2 } from "./types/runtimeV2";
+import UnderstandAsyncBoundary from "./components/UnderstandAsyncBoundary";
+
+const UnderstandHomePage = lazy(() => import("./pages/understand/UnderstandHomePage"));
+const UnderstandModulesPage = lazy(() => import("./pages/understand/UnderstandModulesPage"));
+const UnderstandReadingPathPage = lazy(() => import("./pages/understand/UnderstandReadingPathPage"));
+const UnderstandModulePage = lazy(() => import("./pages/understand/UnderstandModulePage"));
+const UnderstandGlossaryPage = lazy(() => import("./pages/understand/UnderstandGlossaryPage"));
+const UnderstandBibliographyPage = lazy(() => import("./pages/understand/UnderstandBibliographyPage"));
+
+function understandPage(content: ReactNode) {
+  return <UnderstandAsyncBoundary><Suspense fallback={<main className="understand-state" aria-busy="true" aria-live="polite"><p>Chargement de Comprendre…</p></main>}>{content}</Suspense></UnderstandAsyncBoundary>;
+}
 
 type Screen = "home" | "mode-selection" | "character-selection" | "game";
 export default function App() {
@@ -42,7 +54,13 @@ export default function App() {
   }
   if (route.kind === "explorer-characters") return <ExplorerCharactersPage />;
   if (route.kind === "character-biography") return <CharacterBiographyPage biography={getPublicBiographyV2(route.characterId)} />;
-  if (route.kind === "not-found") return <main className="route-not-found"><div><h1>Page introuvable</h1><p>Cette biographie ou cette page n’existe pas.</p><a href={EXPLORER_CHARACTERS_HASH}>Voir tous les personnages</a></div></main>;
+  if (route.kind === "understand-home") return understandPage(<UnderstandHomePage />);
+  if (route.kind === "understand-modules") return understandPage(<UnderstandModulesPage />);
+  if (route.kind === "understand-reading-path") return understandPage(<UnderstandReadingPathPage pathId={route.pathId} />);
+  if (route.kind === "understand-module") return understandPage(<UnderstandModulePage moduleId={route.moduleId} sectionId={route.sectionId} />);
+  if (route.kind === "understand-glossary") return understandPage(<UnderstandGlossaryPage notionId={route.notionId} />);
+  if (route.kind === "understand-bibliography") return understandPage(<UnderstandBibliographyPage sourceId={route.sourceId} />);
+  if (route.kind === "not-found") return <main className="route-not-found"><div><h1>Page introuvable</h1><p>Cette page n’existe pas.</p>{route.fragment.startsWith("#/comprendre") ? <><a href="#/comprendre">Retour à Comprendre</a> · <a href="#/comprendre/modules">Voir les modules</a></> : <a href={EXPLORER_CHARACTERS_HASH}>Voir tous les personnages</a>}</div></main>;
   if (screen === "mode-selection") return <ModeSelectionPage selectedModeId={selectedModeId} onSelect={selectMode} onContinue={() => setScreen("character-selection")} onBack={() => setScreen("home")} />;
   if (screen === "character-selection") {
     if (!isActiveGameModeId(selectedModeId)) throw new Error(`Aucune galerie jouable pour le mode ${selectedModeId}`);

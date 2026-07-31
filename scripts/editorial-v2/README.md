@@ -59,7 +59,13 @@ ainsi que les documents transversaux 080 à 083. Les documents internes 079 et
 - `understand:check-public` reconstruit les données depuis les sources, contrôle
   les relations et refuse identifiants de recherche, références S165 à S174,
   chemins locaux, HTML brut et autres contenus internes.
+- `understand:check-ui` vérifie les routes, états asynchrones, cardinalités et
+  l’absence de renvois interdits dans l’interface.
+- `understand:check-dist` identifie le bundle initial depuis `dist/index.html`,
+  contrôle les exclusions globales et mesure les chunks différés des pages,
+  modules, index, glossaire et bibliographie.
 
 Deux générations à sources identiques produisent les mêmes octets. Aucun
-Markdown n’est interprété dans le navigateur. L’interface, les routes et le
-contrôle public de `dist` seront ajoutés dans une mission distincte.
+Markdown n’est interprété dans le navigateur. L’interface charge séparément
+les pages, chaque module, le glossaire et la bibliographie ; le contrôle de
+`dist` vérifie cette séparation après chaque build.
