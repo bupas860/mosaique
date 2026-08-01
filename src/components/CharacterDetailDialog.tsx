@@ -3,10 +3,10 @@ import type { ActivePlayableCharacterV2 } from "../types/runtimeV2";
 import Button from "./Button";
 import CharacterInformation from "./CharacterInformation";
 import CharacterPortrait from "./CharacterPortrait";
+import CharacterPublicTags from "./CharacterPublicTags";
 
 interface Props {
   character: ActivePlayableCharacterV2;
-  markers: readonly string[];
   onChoose: () => void;
   onClose: () => void;
 }
@@ -22,7 +22,6 @@ const focusableSelector = [
 
 export default function CharacterDetailDialog({
   character,
-  markers,
   onChoose,
   onClose,
 }: Props) {
@@ -109,9 +108,7 @@ export default function CharacterDetailDialog({
             {character.name}
           </h2>
           <CharacterInformation character={character} className="mt-2" />
-          <ul className="character-markers mt-4" aria-label="Repères du personnage">
-            {markers.map((marker) => <li key={marker}>{marker}</li>)}
-          </ul>
+          <CharacterPublicTags characterId={character.id} className="mt-4" />
           <p
             id={`character-dialog-profile-${character.id}`}
             className="mt-5 whitespace-pre-line leading-relaxed text-slate-700"

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import AppBackground from "../components/AppBackground";
 import CharacterPortrait from "../components/CharacterPortrait";
+import CharacterPublicTags from "../components/CharacterPublicTags";
 import { publicBiographiesV2 } from "../data/v2/publicBiographiesV2";
 import { characterBiographyHash } from "../utils/appRoute";
 
@@ -35,12 +36,13 @@ export default function ExplorerCharactersPage() {
             <h2 id={`gallery-${group.id}`}>{group.title}</h2>
             <div className="explorer-gallery__grid">
               {publicBiographiesV2.filter(({ gallery }) => gallery === group.id).map((biography) => (
-                <article key={biography.id} className="explorer-character-card">
+                <article key={biography.id} className="explorer-character-card" style={{ "--character-accent": biography.gallery === "general" ? "#2563A9" : "#6D4CC3" } as React.CSSProperties}>
                   <CharacterPortrait characterId={biography.id} characterName={biography.name} image={biography.image} alt={biography.portraitAlt} accentColor={biography.gallery === "general" ? "#2563A9" : "#6D4CC3"} size="card" className="explorer-character-card__portrait" />
                   <div className="explorer-character-card__content">
                     <h3>{biography.name}</h3>
                     <p className="explorer-character-card__metadata">{biography.age} ans · {biography.schoolLevel}</p>
                     <p className="explorer-character-card__gallery">{biography.galleryLabel} · <span>{biography.id}</span></p>
+                    <CharacterPublicTags characterId={biography.id} className="explorer-character-card__tags" />
                     <p className="explorer-character-card__description">{biography.shortDescription}</p>
                     <a href={characterBiographyHash(biography.id)} onClick={rememberPosition} className="explorer-character-card__link">Découvrir son parcours<span className="sr-only"> — {biography.name}, {biography.id}</span></a>
                   </div>

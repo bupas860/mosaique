@@ -938,7 +938,6 @@ a {
   list-style: none;
 }
 
-.character-markers > span,
 .character-markers > li {
   max-width: 100%;
   border: 1px solid color-mix(in srgb, var(--character-accent) 24%, var(--ds-border));
@@ -1210,7 +1209,8 @@ a {
 .explorer-character-card__metadata { margin-top: 0.25rem; font-weight: 650; color: var(--ds-text-muted); }
 .explorer-character-card__gallery { margin-top: 0.35rem; font-size: 0.875rem; }
 .explorer-character-card__gallery span { font-weight: 800; }
-.explorer-character-card__description { margin: 1rem 0; white-space: pre-line; line-height: 1.65; }
+.explorer-character-card__tags { margin-top: 0.9rem; }
+.explorer-character-card__description { margin: 0.9rem 0 1rem; white-space: pre-line; line-height: 1.65; }
 .explorer-character-card__link { display: inline-flex; min-height: 2.75rem; align-items: center; }
 
 .biography-page__inner { max-width: 76rem; }
@@ -1225,7 +1225,8 @@ a {
 .biography-hero__metadata { margin-top: 0.75rem; color: var(--ds-text-muted); font-size: 1.125rem; font-weight: 700; }
 .biography-hero__gallery { margin-top: 0.35rem; }
 .biography-hero__gallery span { font-weight: 800; }
-.biography-hero__description { max-width: var(--ds-copy-width); margin-top: 1.25rem; white-space: pre-line; line-height: 1.7; }
+.biography-hero__tags { margin-top: 0.9rem; }
+.biography-hero__description { max-width: var(--ds-copy-width); margin-top: 1rem; white-space: pre-line; line-height: 1.7; }
 
 .biography-narrative-note,
 .biography-summary,

@@ -3,6 +3,7 @@ import AppBackground from "../components/AppBackground";
 import BiographyAccordion from "../components/BiographyAccordion";
 import BiographyContentBlocks from "../components/BiographyContentBlocks";
 import CharacterPortrait from "../components/CharacterPortrait";
+import CharacterPublicTags from "../components/CharacterPublicTags";
 import type { RuntimePublicBiography } from "../data/v2/publicBiographiesV2";
 import { EXPLORER_CHARACTERS_HASH } from "../utils/appRoute";
 
@@ -34,12 +35,13 @@ export default function CharacterBiographyPage({ biography }: Props) {
     <AppBackground as="main" className="biography-page">
       <div className="biography-page__inner">
         <a href={EXPLORER_CHARACTERS_HASH} className="app-text-link">Retour aux personnages</a>
-        <header className="biography-hero">
+        <header className="biography-hero" style={{ "--character-accent": biography.gallery === "general" ? "#2563A9" : "#6D4CC3" } as React.CSSProperties}>
           <CharacterPortrait characterId={biography.id} characterName={biography.name} image={biography.image} alt={biography.portraitAlt} accentColor={biography.gallery === "general" ? "#2563A9" : "#6D4CC3"} size="card" eager className="biography-hero__portrait" />
           <div className="biography-hero__content">
             <h1>{biography.name}</h1>
             <p className="biography-hero__metadata">{biography.age} ans · {biography.schoolLevel}</p>
             <p className="biography-hero__gallery">{biography.galleryLabel} · <span>{biography.id}</span></p>
+            <CharacterPublicTags characterId={biography.id} className="biography-hero__tags" />
             <p className="biography-hero__description">{biography.shortDescription}</p>
           </div>
         </header>
