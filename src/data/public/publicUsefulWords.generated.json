@@ -1,0 +1,540 @@
+{
+  "generatedNotice": "Fichier généré. Ne pas modifier manuellement.",
+  "words": [
+    {
+      "id": "MU-ORI",
+      "routeSegment": "mu-ori",
+      "label": "Orientation sexuelle",
+      "term": "orientation sexuelle",
+      "isJourneyWord": true,
+      "inBrief": "L’orientation sexuelle concerne la manière dont une personne peut éprouver, ou non, de l’attirance sexuelle. L’attirance amoureuse peut être vécue différemment : certaines personnes distinguent donc orientation sexuelle et orientation romantique. Une personne peut employer un mot pour parler de son expérience, plusieurs mots, ou aucun.",
+      "example": "Une élève dit qu’elle est lesbienne. Cette information parle de son orientation sexuelle, pas de son identité de genre ni de sa manière de s’habiller.",
+      "notConfuse": "L’orientation sexuelle, l’orientation romantique et l’identité de genre ne décrivent pas la même chose. L’une concerne l’attirance sexuelle, une autre l’attirance amoureuse, et l’identité de genre la manière dont la personne se définit.",
+      "remember": "L’orientation ne se déduit pas d’un visage, d’une tenue, d’une amitié ou d’une activité.",
+      "usageSpaces": [
+        "Personnages",
+        "Repères",
+        "Situations"
+      ],
+      "datedNote": "non.",
+      "publicSources": [
+        "Défenseur des droits, [*Agir contre les discriminations liées à l’orientation sexuelle et à l’identité de genre*](https://www.defenseurdesdroits.fr/sites/default/files/2023-08/ddd_guide_discriminations_orientation-sexuelle-et-identite-genre_emploi_20190506.pdf).",
+        "Haut-Commissariat des Nations unies aux droits de l’homme, [*OHCHR and the human rights of LGBTI people*](https://www.ohchr.org/en/sexual-orientation-and-gender-identity)."
+      ],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-ASE",
+      "routeSegment": "mu-ase",
+      "label": "Asexualité",
+      "term": "asexualité",
+      "isJourneyWord": true,
+      "inBrief": "L’asexualité désigne le fait d’éprouver peu ou pas d’attirance sexuelle. Les expériences asexuelles sont diverses : une personne peut ou non souhaiter une relation, une vie de couple ou une activité sexuelle.",
+      "example": "Camille peut tenir à ses amitiés et à ses projets sans souhaiter de relation sexuelle.",
+      "notConfuse": "L’asexualité n’est ni une absence d’émotions, ni une incapacité à s’attacher, ni une maladie à corriger.",
+      "remember": "Ne pas éprouver d’attirance sexuelle ne signifie pas ne rien ressentir pour les autres.",
+      "usageSpaces": [
+        "Personnages",
+        "Repères",
+        "Situations"
+      ],
+      "datedNote": "non.",
+      "publicSources": [],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-ARO",
+      "routeSegment": "mu-aro",
+      "label": "Aromantisme",
+      "term": "aromantisme",
+      "isJourneyWord": true,
+      "inBrief": "L’aromantisme désigne le fait d’éprouver peu ou pas d’attirance romantique. Les personnes aromantiques peuvent avoir des liens affectifs, familiaux ou amicaux importants et choisir des formes de vie très diverses.",
+      "example": "Camille peut construire des relations importantes sans souhaiter de relation amoureuse.",
+      "notConfuse": "L’aromantisme n’est pas une absence d’attachement ou d’émotions. Il reste distinct de l’asexualité : attirance romantique et attirance sexuelle ne vont pas toujours ensemble.",
+      "remember": "Une relation amoureuse n’est pas une étape obligatoire d’une vie accomplie.",
+      "usageSpaces": [
+        "Personnages",
+        "Repères",
+        "Situations"
+      ],
+      "datedNote": "non.",
+      "publicSources": [],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-IDG",
+      "routeSegment": "mu-idg",
+      "label": "Identité de genre",
+      "term": "identité de genre",
+      "isJourneyWord": true,
+      "inBrief": "L’identité de genre est la manière personnelle dont une personne se situe par rapport au genre. Elle peut se reconnaître comme fille ou femme, garçon ou homme, personne non binaire, ou employer d’autres mots. Cette expérience appartient à la personne.",
+      "example": "Deux élèves portent la même tenue. L’un se reconnaît comme garçon, l’autre comme fille. Leur apparence commune ne détermine pas leur identité.",
+      "notConfuse": "L’identité de genre n’est ni l’expression de genre, ni l’orientation sexuelle, ni une liste de caractéristiques corporelles.",
+      "remember": "On ne devine pas une identité de genre. On respecte les mots que la personne indique pour parler d’elle-même.",
+      "usageSpaces": [
+        "Personnages",
+        "Repères",
+        "Situations"
+      ],
+      "datedNote": "non.",
+      "publicSources": [
+        "Défenseur des droits, [décision-cadre n° 2020-136](https://juridique.defenseurdesdroits.fr/doc_num.php?explnum_id=19875).",
+        "Éduscol, [*Livret d’accompagnement du programme EVARS — lycée, classe de première*](https://eduscol.education.gouv.fr/sites/default/files/document/2026livretaccompagnementevarlyceepremierepdf-127046.pdf), 2026."
+      ],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-EXG",
+      "routeSegment": "mu-exg",
+      "label": "Expression de genre",
+      "term": "expression de genre",
+      "isJourneyWord": true,
+      "inBrief": "L’expression de genre désigne la manière dont une personne se présente : vêtements, coiffure, voix, gestes ou attitudes, par exemple. Elle peut varier selon les moments et les contextes. Elle ne constitue pas une preuve d’identité.",
+      "example": "Un garçon peut porter du vernis. Cela décrit un élément de son expression, pas son orientation sexuelle ni une autre identité supposée.",
+      "notConfuse": "L’expression est ce qui peut être montré ou perçu. L’identité de genre est la manière dont la personne se définit.",
+      "remember": "Une apparence ne permet pas de classer une personne.",
+      "usageSpaces": [
+        "Personnages",
+        "Situations",
+        "Repères"
+      ],
+      "datedNote": "non.",
+      "publicSources": [
+        "Éduscol, [*Livret d’accompagnement du programme EVARS — lycée, classe de seconde*](https://eduscol.education.gouv.fr/sites/default/files/document/2025livretaccompagnementevarlycee2depdf-123190.pdf), 2025.",
+        "Haut-Commissariat des Nations unies aux droits de l’homme, [*Reports on Gender — Summary*](https://www.ohchr.org/Documents/Issues/SexualOrientation/IESOGI/Reports_on_Gender_Final_Summary.pdf)."
+      ],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-CSX",
+      "routeSegment": "mu-csx",
+      "label": "Caractéristiques sexuées",
+      "term": "caractéristiques sexuées",
+      "isJourneyWord": true,
+      "inBrief": "Les caractéristiques sexuées sont des caractéristiques corporelles liées notamment à l’anatomie, aux organes reproductifs, aux hormones ou aux chromosomes. Elles présentent des variations naturelles. Une seule caractéristique ne résume pas tout le corps d’une personne.",
+      "example": "Un document médical peut contenir une information sur une caractéristique corporelle. Cette information ne permet pas de déduire l’identité de genre de la personne.",
+      "notConfuse": "Les caractéristiques sexuées concernent le corps. L’identité de genre concerne la manière dont une personne se situe et se nomme.",
+      "remember": "Mosaïque n’emploie pas « sexe biologique » comme une catégorie globale qui expliquerait une personne entière.",
+      "usageSpaces": [
+        "Personnages",
+        "Repères",
+        "Situations"
+      ],
+      "datedNote": "non.",
+      "publicSources": [
+        "Haut-Commissariat des Nations unies aux droits de l’homme, [*Intersex people*](https://www.ohchr.org/en/sexual-orientation-and-gender-identity/intersex-people).",
+        "Haut-Commissariat des Nations unies aux droits de l’homme, [*Human rights standards and good practices: rights of intersex people*](https://www.ohchr.org/sites/default/files/2023-11/ohchr-technical-note-rights-intersex-people.pdf), 2023."
+      ],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-SAN",
+      "routeSegment": "mu-san",
+      "label": "Sexe assigné à la naissance",
+      "term": "sexe assigné à la naissance",
+      "isJourneyWord": true,
+      "inBrief": "Le sexe assigné à la naissance est la catégorie, le plus souvent « féminin » ou « masculin », inscrite à la naissance à partir de caractéristiques observées. Cette assignation administrative ne décrit pas à elle seule l’identité ou le parcours actuel d’une personne.",
+      "example": "Une ancienne information administrative peut ne pas correspondre au prénom ou au genre qu’un élève utilise aujourd’hui.",
+      "notConfuse": "L’assignation est une catégorie enregistrée à un moment donné. Elle n’est pas la définition complète du corps, de l’identité ou de l’histoire de la personne.",
+      "remember": "Parler d’assignation aide à distinguer une catégorie reçue à la naissance de la manière dont une personne se définit.",
+      "usageSpaces": [
+        "Personnages",
+        "Repères"
+      ],
+      "datedNote": "non.",
+      "publicSources": [
+        "Haut-Commissariat des Nations unies aux droits de l’homme, [*Transgender people*](https://www.ohchr.org/en/sexual-orientation-and-gender-identity/transgender-people).",
+        "Haute Autorité de santé, [*Transidentité : prise en charge de l’adulte*](https://www.has-sante.fr/upload/docs/application/pdf/2025-07/transidentite_prise_en_charge_de_ladulte_-_recommandations.pdf), 2025."
+      ],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-PRO",
+      "routeSegment": "mu-pro",
+      "label": "Pronoms",
+      "term": "pronoms",
+      "isJourneyWord": true,
+      "inBrief": "Les pronoms sont des mots utilisés pour parler d’une personne sans répéter son prénom : « elle », « il » ou « iel », par exemple. Une personne peut indiquer les pronoms qu’elle souhaite voir employés. Les respecter permet de s’adresser à elle correctement.",
+      "example": "Noé indique qu’il utilise le pronom « il ». Cette information suffit pour parler de lui ; elle ne donne pas accès à toute son histoire.",
+      "notConfuse": "Un pronom ne permet pas de déduire l’orientation sexuelle, les caractéristiques corporelles ou les démarches d’une personne.",
+      "remember": "Utiliser le pronom indiqué n’exige pas de deviner ni d’enquêter sur l’identité de quelqu’un.",
+      "usageSpaces": [
+        "Personnages",
+        "Situations",
+        "Repères"
+      ],
+      "datedNote": "non pour la définition. La référence scolaire a été vérifiée le 1er août 2026 et devra être revérifiée avant publication.",
+      "publicSources": [
+        "Ministère de l’Éducation nationale, [circulaire du 29 septembre 2021 relative à l’accueil en milieu scolaire des élèves transgenres](https://www.education.gouv.fr/bo/21/Hebdo36/MENE2128373C.htm)."
+      ],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-CIN",
+      "routeSegment": "mu-cin",
+      "label": "Coming in",
+      "term": "coming in",
+      "isJourneyWord": true,
+      "inBrief": "Le coming in désigne un cheminement par lequel une personne reconnaît ou nomme pour elle-même un aspect de son orientation sexuelle ou de son identité de genre. Ce cheminement peut être progressif, hésitant ou très simple. Il n’oblige pas à en parler ensuite.",
+      "example": "Une élève trouve un mot qui lui correspond, mais choisit de ne le partager avec personne pour le moment.",
+      "notConfuse": "Le coming in concerne d’abord la reconnaissance pour soi. Le coming out consiste à choisir d’en parler à quelqu’un.",
+      "remember": "Il n’existe pas de calendrier obligatoire ni de parcours identique pour toutes les personnes.",
+      "usageSpaces": [
+        "Personnages",
+        "Repères"
+      ],
+      "datedNote": "non.",
+      "publicSources": [
+        "Éduscol, [*Livret d’accompagnement du programme EVARS — lycée, classe de première*](https://eduscol.education.gouv.fr/sites/default/files/document/2026livretaccompagnementevarlyceepremierepdf-127046.pdf), 2026."
+      ],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-COU",
+      "routeSegment": "mu-cou",
+      "label": "Coming out",
+      "term": "coming out",
+      "isJourneyWord": true,
+      "inBrief": "Un coming out est le fait de choisir de parler de son orientation sexuelle, de son identité de genre ou d’une autre information personnelle. Ce choix peut être fait auprès d’une personne, d’un groupe ou dans un contexte précis. Il peut donc se présenter plusieurs fois au cours d’une vie.",
+      "example": "Un lycéen parle de son orientation à une amie, mais ne souhaite pas que cette information soit connue de sa classe.",
+      "notConfuse": "Un coming out est choisi par la personne concernée. Une divulgation faite par quelqu’un d’autre sans son accord est un outing.",
+      "remember": "Faire un coming out n’est jamais une obligation, une preuve de courage ou une condition pour vivre son identité.",
+      "usageSpaces": [
+        "Personnages",
+        "Repères",
+        "Situations"
+      ],
+      "datedNote": "non.",
+      "publicSources": [
+        "Éduscol, [*Livret d’accompagnement du programme EVARS — lycée, classe de première*](https://eduscol.education.gouv.fr/sites/default/files/document/2026livretaccompagnementevarlyceepremierepdf-127046.pdf), 2026.",
+        "Défenseur des droits, [*Agir contre les discriminations liées à l’orientation sexuelle et à l’identité de genre*](https://www.defenseurdesdroits.fr/sites/default/files/2023-08/ddd_guide_discriminations_orientation-sexuelle-et-identite-genre_emploi_20190506.pdf)."
+      ],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-OUT",
+      "routeSegment": "mu-out",
+      "label": "Outing",
+      "term": "outing",
+      "isJourneyWord": true,
+      "inBrief": "L’outing est la divulgation par une autre personne d’une orientation sexuelle, d’une identité de genre ou d’une information liée, sans l’accord de la personne concernée. Il lui retire la maîtrise du moment, du contexte et des destinataires.",
+      "example": "Une camarade annonce dans un groupe de discussion qu’un élève est gay alors qu’il ne l’a pas autorisée à le dire.",
+      "notConfuse": "Répéter une information vraie ne la rend pas librement partageable. Un coming out choisi n’autorise pas une diffusion dans tous les contextes.",
+      "remember": "Une information personnelle peut être connue dans un groupe et rester confidentielle ailleurs.",
+      "usageSpaces": [
+        "Personnages",
+        "Situations",
+        "Repères"
+      ],
+      "datedNote": "oui. Toute précision juridique associée doit être revérifiée ; vérification effectuée le 1er août 2026.",
+      "publicSources": [
+        "Éduscol, [*Livret d’accompagnement du programme EVARS — lycée, classe de première*](https://eduscol.education.gouv.fr/sites/default/files/document/2026livretaccompagnementevarlyceepremierepdf-127046.pdf), 2026.",
+        "Défenseur des droits, [*La vie privée : un droit pour l’enfant*](https://juridique.defenseurdesdroits.fr/doc_num.php?explnum_id=21507), 2022."
+      ],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-TRA",
+      "routeSegment": "mu-tra",
+      "label": "Transidentité",
+      "term": "transidentité",
+      "isJourneyWord": true,
+      "inBrief": "La transidentité concerne les personnes dont l’identité de genre diffère du genre associé au sexe qui leur a été assigné à la naissance. « Trans » peut être utilisé comme un terme large. Les mots choisis et les parcours varient selon les personnes.",
+      "example": "Une fille trans peut demander qu’un prénom correspondant à son identité soit utilisé au lycée. Cette demande ne dit pas si elle souhaite une démarche médicale ou administrative.",
+      "notConfuse": "Une transidentité n’est pas une maladie. Elle n’impose ni diagnostic, ni parcours médical, ni souffrance, ni coming out général.",
+      "remember": "Il existe des parcours ordinaires, positifs, difficiles ou changeants. Aucun de ces vécus ne constitue une preuve obligatoire de transidentité.",
+      "usageSpaces": [
+        "Personnages",
+        "Repères",
+        "Situations"
+      ],
+      "datedNote": "oui. Le repère sanitaire proposé a été vérifié le 1er août 2026.",
+      "publicSources": [
+        "Haut-Commissariat des Nations unies aux droits de l’homme, [*Transgender people*](https://www.ohchr.org/en/sexual-orientation-and-gender-identity/transgender-people).",
+        "Organisation mondiale de la santé, [*Gender incongruence and transgender health in the ICD*](https://www.who.int/standards/classifications/frequently-asked-questions/gender-incongruence-and-transgender-health-in-the-icd).",
+        "Haute Autorité de santé, [*Transidentité : prise en charge de l’adulte*](https://www.has-sante.fr/upload/docs/application/pdf/2025-07/transidentite_prise_en_charge_de_ladulte_-_recommandations.pdf), 2025."
+      ],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-NBI",
+      "routeSegment": "mu-nbi",
+      "label": "Non-binarité",
+      "term": "non-binarité",
+      "isJourneyWord": true,
+      "inBrief": "La non-binarité regroupe des identités de genre qui ne sont pas exclusivement « homme » ou « femme ». Les personnes non binaires peuvent employer des mots, des pronoms et des expressions de genre variés. Certaines se disent trans ; d’autres non.",
+      "example": "Une personne non binaire peut utiliser « iel », « elle » ou « il ». Son pronom ne suffit pas à décrire toute son identité.",
+      "notConfuse": "La non-binarité n’est ni une indécision, ni une apparence androgyne, ni une transition inachevée.",
+      "remember": "Une personne est la mieux placée pour indiquer les mots qui lui correspondent.",
+      "usageSpaces": [
+        "Personnages",
+        "Repères",
+        "Situations"
+      ],
+      "datedNote": "non.",
+      "publicSources": [
+        "Haut-Commissariat des Nations unies aux droits de l’homme, [*The struggle of trans and gender-diverse persons*](https://www.ohchr.org/en/special-procedures/ie-sexual-orientation-and-gender-identity/struggle-trans-and-gender-diverse-persons).",
+        "Haute Autorité de santé, [*Transidentité : prise en charge de l’adulte*](https://www.has-sante.fr/upload/docs/application/pdf/2025-07/transidentite_prise_en_charge_de_ladulte_-_recommandations.pdf), 2025."
+      ],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-INT",
+      "routeSegment": "mu-int",
+      "label": "Intersexuation",
+      "term": "intersexuation",
+      "isJourneyWord": true,
+      "inBrief": "L’intersexuation concerne des personnes nées avec des variations de caractéristiques sexuées qui ne correspondent pas aux définitions typiques des corps féminins ou masculins. Ces variations peuvent concerner différents aspects du corps et être connues à des moments différents de la vie.",
+      "example": "Une lycéenne intersexe vit sa scolarité comme les autres élèves. Elle choisit si, quand et avec qui elle souhaite parler de ses caractéristiques sexuées.",
+      "notConfuse": "L’intersexuation concerne des caractéristiques sexuées. La transidentité concerne l’identité de genre. Une personne intersexe peut être cis, trans ou non binaire.",
+      "remember": "Une variation intersexe ne se déduit pas d’une apparence et ne doit pas être transformée en curiosité médicale.",
+      "usageSpaces": [
+        "Personnages",
+        "Repères",
+        "Situations"
+      ],
+      "datedNote": "non.",
+      "publicSources": [
+        "Haut-Commissariat des Nations unies aux droits de l’homme, [*Intersex people*](https://www.ohchr.org/en/sexual-orientation-and-gender-identity/intersex-people).",
+        "Haut-Commissariat des Nations unies aux droits de l’homme, [*Human rights standards and good practices: rights of intersex people*](https://www.ohchr.org/sites/default/files/2023-11/ohchr-technical-note-rights-intersex-people.pdf), 2023."
+      ],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-CONF",
+      "routeSegment": "mu-conf",
+      "label": "Confidentialité",
+      "term": "confidentialité",
+      "isJourneyWord": true,
+      "inBrief": "La confidentialité consiste à limiter le partage d’une information personnelle aux personnes et aux contextes qui en ont besoin. Elle permet à la personne concernée de savoir ce qui est connu, pourquoi et par qui. Une information peut être publique dans un contexte et privée dans un autre.",
+      "example": "Un élève parle de son orientation à deux amis. Cela ne signifie pas qu’il accepte que le lycée ou sa famille en soient informés.",
+      "notConfuse": "La confidentialité n’est pas toujours un secret absolu. Dans certaines situations de danger ou de protection, un adulte peut devoir transmettre une information ; il doit alors expliquer le cadre et limiter les destinataires.",
+      "remember": "Avant de partager, il faut vérifier la nécessité, l’objectif, les destinataires et, lorsque le cadre le permet, l’accord de la personne.",
+      "usageSpaces": [
+        "Personnages",
+        "Situations",
+        "Repères"
+      ],
+      "datedNote": "oui. Les règles liées aux données et aux obligations de protection doivent être vérifiées selon le contexte ; sources vérifiées le 1er août 2026.",
+      "publicSources": [
+        "CNIL, [*Les six grands principes du RGPD*](https://www.cnil.fr/fr/comprendre-le-rgpd/les-six-grands-principes-du-rgpd).",
+        "CNIL, [*Comment informer les personnes et assurer la transparence ?*](https://www.cnil.fr/fr/conformite-rgpd-information-des-personnes-et-transparence)."
+      ],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-OBS",
+      "routeSegment": "mu-obs",
+      "label": "Obstacle",
+      "term": "obstacle",
+      "isJourneyWord": false,
+      "inBrief": "Dans Mosaïque, un obstacle est un élément de la situation qui réduit la marge de manœuvre d’un personnage. Il peut venir d’une action, d’une règle, d’un outil, d’une absence de ressource ou d’un risque anticipé.",
+      "example": "Un formulaire qui ne prévoit pas la famille d’un élève lui impose une correction que d’autres n’ont pas à faire.",
+      "notConfuse": "Un obstacle n’est pas forcément une discrimination juridique. Il ne prouve pas non plus une émotion ou une faiblesse du personnage.",
+      "remember": "On identifie l’obstacle à partir d’un effet précis dans une scène.",
+      "usageSpaces": [
+        "Jouer",
+        "Situations",
+        "Repères"
+      ],
+      "datedNote": "non.",
+      "publicSources": [],
+      "relatedRepereIds": [
+        "R1",
+        "R4"
+      ]
+    },
+    {
+      "id": "MU-PROT",
+      "routeSegment": "mu-prot",
+      "label": "Protection",
+      "term": "protection",
+      "isJourneyWord": false,
+      "inBrief": "Une protection est une action, une règle, une ressource ou une organisation qui réduit un risque et augmente les possibilités d’agir. Elle peut concerner l’accès, la sécurité, la confidentialité, la reconnaissance ou le soutien.",
+      "example": "Un échange privé permet à un élève de choisir les informations utiles et les personnes à associer à une décision.",
+      "notConfuse": "Une protection n’est ni une faveur, ni une solution universelle, ni la preuve que tous les autres obstacles ont disparu.",
+      "remember": "Une protection utile augmente la marge de manœuvre sans imposer un dévoilement inutile.",
+      "usageSpaces": [
+        "Jouer",
+        "Situations",
+        "Repères"
+      ],
+      "datedNote": "non.",
+      "publicSources": [],
+      "relatedRepereIds": [
+        "R1",
+        "R5"
+      ]
+    },
+    {
+      "id": "MU-NOR",
+      "routeSegment": "mu-nor",
+      "label": "Norme",
+      "term": "norme",
+      "isJourneyWord": false,
+      "inBrief": "Une norme est une règle ou une attente qui indique ce qui paraît habituel, correct ou prévu. Elle peut être écrite ou implicite. Elle facilite certaines situations et peut en rendre d’autres moins visibles.",
+      "example": "Un document qui prévoit seulement « père » et « mère » présente cette composition familiale comme le cas attendu.",
+      "notConfuse": "Une norme n’est pas toujours une loi. Elle n’est pas automatiquement mauvaise, mais son caractère ordinaire ne la rend pas neutre.",
+      "remember": "Pour analyser une norme, on observe qui est prévu par défaut et qui doit demander une exception.",
+      "usageSpaces": [
+        "Situations",
+        "Repères",
+        "Jouer"
+      ],
+      "datedNote": "non.",
+      "publicSources": [],
+      "relatedRepereIds": [
+        "R4"
+      ]
+    },
+    {
+      "id": "MU-INST",
+      "routeSegment": "mu-inst",
+      "label": "Institution",
+      "term": "institution",
+      "isJourneyWord": false,
+      "inBrief": "Une institution est une organisation durable de règles, de rôles, de pratiques et d’outils dans un domaine de la vie collective. Un lycée, une administration ou le système de santé sont des institutions. Leur fonctionnement ne dépend pas d’une seule personne.",
+      "example": "Une information peut circuler entre un logiciel, un document et plusieurs services, même si aucun adulte n’a décidé seul de l’exposer.",
+      "notConfuse": "Une institution ne se réduit ni à un bâtiment, ni à sa direction, ni aux intentions individuelles de ses membres.",
+      "remember": "Observer une institution, c’est regarder comment les décisions et les ressources sont organisées.",
+      "usageSpaces": [
+        "Situations",
+        "Repères"
+      ],
+      "datedNote": "non.",
+      "publicSources": [],
+      "relatedRepereIds": [
+        "R4"
+      ]
+    },
+    {
+      "id": "MU-DISC",
+      "routeSegment": "mu-disc",
+      "label": "Discrimination",
+      "term": "discrimination",
+      "isJourneyWord": false,
+      "inBrief": "Dans le langage juridique français, une discrimination réunit des conditions précises : un traitement défavorable, fondé sur un critère interdit par la loi, dans un domaine prévu par la loi. Le mot peut avoir des usages plus larges dans les sciences sociales, mais Mosaïque distingue ces niveaux.",
+      "example": "Un refus d’accès lié à l’orientation sexuelle dans un domaine prévu par la loi peut relever d’une discrimination. Une difficulté décrite par une carte ne suffit pas, à elle seule, pour conclure.",
+      "notConfuse": "Toute injustice, violence, insulte ou maladresse n’est pas automatiquement une discrimination au sens juridique, même si elle peut exiger une réponse.",
+      "remember": "Une qualification juridique demande des faits et un cadre précis.",
+      "usageSpaces": [
+        "Situations",
+        "Repères"
+      ],
+      "datedNote": "oui. Définition juridique vérifiée le 1er août 2026.",
+      "publicSources": [
+        "Légifrance, [Code pénal, article 225-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045391831).",
+        "Défenseur des droits, [*Comment savoir si je suis victime de discrimination ?*](https://www.defenseurdesdroits.fr/comment-savoir-si-je-suis-victime-de-discrimination-141)."
+      ],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-PRIV",
+      "routeSegment": "mu-priv",
+      "label": "Privilège",
+      "term": "privilège",
+      "isJourneyWord": false,
+      "inBrief": "Un privilège est un avantage relatif qui facilite une situation pour certaines personnes. Il peut permettre d’utiliser une règle, un service ou un espace sans devoir se justifier, se corriger ou s’exposer. Il n’est pas toujours visible pour la personne qui en bénéficie.",
+      "example": "Pouvoir remplir un formulaire familial sans modifier les catégories prévues constitue un avantage relatif dans cette démarche.",
+      "notConfuse": "Un droit n’est pas un privilège. Être respecté et ne pas subir de discrimination doivent être garantis à tout le monde.",
+      "remember": "Un privilège dépend du contexte et ne résume pas toute la position d’une personne.",
+      "usageSpaces": [
+        "Repères",
+        "Jouer",
+        "Situations"
+      ],
+      "datedNote": "non.",
+      "publicSources": [
+        "Peggy McIntosh, [*White Privilege and Male Privilege*](https://www.nationalseedproject.org/Key-SEED-Texts/white-privilege-and-male-privilege), 1988."
+      ],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-POS",
+      "routeSegment": "mu-pos",
+      "label": "Position sociale",
+      "term": "position sociale",
+      "isJourneyWord": false,
+      "inBrief": "La position sociale décrit la place occupée par une personne dans un contexte de relations, de ressources et de règles. Elle dépend de plusieurs éléments et peut varier selon les espaces. Elle ne constitue pas une identité fixe ni un classement moral.",
+      "example": "Un élève peut être très à l’aise dans son groupe d’amis et disposer de peu de pouvoir face à une procédure administrative.",
+      "notConfuse": "Une identité ne suffit pas à connaître toute la position sociale d’une personne. Plusieurs informations ne s’additionnent pas comme des points.",
+      "remember": "Une position se comprend dans une situation et dans les rapports qui l’organisent.",
+      "usageSpaces": [
+        "Repères",
+        "Jouer",
+        "Situations"
+      ],
+      "datedNote": "non.",
+      "publicSources": [],
+      "relatedRepereIds": [
+        "R3"
+      ]
+    },
+    {
+      "id": "MU-POUV",
+      "routeSegment": "mu-pouv",
+      "label": "Pouvoir",
+      "term": "pouvoir",
+      "isJourneyWord": false,
+      "inBrief": "Le pouvoir est la capacité d’agir sur une situation, de prendre une décision ou d’influencer les règles. Il peut aussi consister à répartir des ressources, choisir des catégories, autoriser un accès ou décider qui reçoit une information.",
+      "example": "Un élève peut signaler qu’un formulaire ne convient pas. Le service qui peut modifier ce formulaire dispose d’un autre pouvoir sur la situation.",
+      "notConfuse": "Le pouvoir n’est pas seulement une autorité officielle ni une intention de dominer. Il est réparti de façon différente selon les contextes.",
+      "remember": "Chercher le pouvoir, c’est demander qui peut décider, corriger ou transformer.",
+      "usageSpaces": [
+        "Repères",
+        "Situations",
+        "Jouer"
+      ],
+      "datedNote": "non.",
+      "publicSources": [],
+      "relatedRepereIds": [
+        "R3"
+      ]
+    },
+    {
+      "id": "MU-INTER",
+      "routeSegment": "mu-inter",
+      "label": "Intersectionnalité",
+      "term": "intersectionnalité",
+      "isJourneyWord": false,
+      "inBrief": "L’intersectionnalité est une manière d’analyser comment plusieurs rapports sociaux agissent ensemble dans une situation. Elle aide à comprendre un effet qui deviendrait invisible si l’on observait séparément le genre, la classe sociale, la racialisation, le handicap ou d’autres rapports.",
+      "example": "Une solution d’hébergement peut sembler adaptée si l’on regarde seulement la chambre, mais rester inaccessible si son coût, le transport et la confidentialité sont ignorés.",
+      "notConfuse": "L’intersectionnalité n’est pas une addition d’identités, d’obstacles ou de points. Elle ne sert pas à décider qui serait « le plus discriminé ».",
+      "remember": "L’analyse porte sur la manière dont une règle et plusieurs rapports sociaux se combinent dans un contexte précis.",
+      "usageSpaces": [
+        "Jouer",
+        "Situations",
+        "Repères"
+      ],
+      "datedNote": "non.",
+      "publicSources": [
+        "Kimberlé Crenshaw, [« Demarginalizing the Intersection of Race and Sex »](https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8/), 1989.",
+        "Haut-Commissariat des Nations unies aux droits de l’homme, [*Guidance Note on Intersectionality*](https://www.ohchr.org/sites/default/files/documents/issues/minorities/30th-anniversary/2022-09-22/GuidanceNoteonIntersectionality.pdf), 2022."
+      ],
+      "relatedRepereIds": []
+    },
+    {
+      "id": "MU-MARGE",
+      "routeSegment": "mu-marge",
+      "label": "Marge de manœuvre",
+      "term": "marge de manœuvre",
+      "isJourneyWord": false,
+      "inBrief": "La marge de manœuvre est l’ensemble des choix et des actions réellement accessibles à une personne dans une situation. Elle dépend des règles, des ressources, des soutiens, des risques et du contexte. Elle peut augmenter ou diminuer sans résumer toute une vie.",
+      "example": "Si un élève peut choisir un échange privé, connaître les destinataires d’une information et participer à la solution, sa marge de manœuvre est plus grande.",
+      "notConfuse": "La marge de manœuvre n’est ni une liberté totale, ni un score de bonheur, ni la valeur d’une personne.",
+      "remember": "Dans Mosaïque, avancer représente une marge de manœuvre plus grande dans la scène observée.",
+      "usageSpaces": [
+        "Jouer",
+        "Situations",
+        "Repères"
+      ],
+      "datedNote": "non.",
+      "publicSources": [],
+      "relatedRepereIds": [
+        "R1",
+        "R3",
+        "R5"
+      ]
+    }
+  ]
+}

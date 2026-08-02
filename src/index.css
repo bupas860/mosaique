@@ -1507,12 +1507,29 @@ a {
 .journey-words-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 2rem; padding: 0; list-style: none; }
 .journey-words-list li { display: grid; gap: 0.4rem; border: 1px solid var(--ds-border); border-radius: var(--radius-panel); padding: 1rem; background: #fff; }
 .journey-word-id { color: var(--ds-text-muted); font-size: 0.85rem; font-weight: 800; }
+.reference-page { width: min(100%, 72rem); margin: 0 auto; padding: clamp(2rem, 5vw, 4rem) var(--ds-page-padding); }
+.reference-page > * + * { margin-top: 1.5rem; }
+.reference-page h1 { color: var(--color-brand-950); font-size: var(--text-page-title); font-weight: 900; line-height: 1.08; }
+.reference-page h2 { margin-top: 2rem; color: var(--color-brand-950); font-size: var(--text-section-title); font-weight: 850; }
+.reference-page h3 { font-weight: 800; }
+.reference-page p, .reference-page li { line-height: 1.65; }
+.reference-id { color: var(--ds-text-muted); font-weight: 850; }
+.reference-index { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; padding: 0; list-style: none; }
+.reference-index--five { margin-top: 2rem; }
+.reference-index article { height: 100%; border: 1px solid var(--ds-border); border-radius: var(--radius-panel); padding: 1.25rem; background: #fff; }
+.reference-index article > * + * { margin-top: 0.6rem; }
+.reference-callout { margin: 1.5rem 0; border-left: 0.3rem solid var(--color-brand-600); border-radius: var(--radius-control); padding: 1rem 1.25rem; background: var(--ds-surface-soft); }
+.reference-callout h2, .reference-callout h3 { margin-top: 0; }
+.reference-sequence { display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid var(--ds-border); padding-top: 1.5rem; }
+.reference-detail section > * + * { margin-top: 0.75rem; }
 
 @media (max-width: 47.999rem) {
   .understand-filters { grid-template-columns: 1fr; }
   .understand-table-scroll table { min-width: 30rem; }
   .journey-words-list { grid-template-columns: 1fr; }
   .biography-sequence { flex-direction: column; }
+  .reference-index { grid-template-columns: 1fr; }
+  .reference-sequence { flex-direction: column; }
   .biography-hero { grid-template-columns: 1fr; }
   .biography-hero__portrait { width: min(70vw, 16rem); margin: 0 auto; }
   .biography-hero__content { text-align: center; }

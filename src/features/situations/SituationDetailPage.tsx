@@ -21,7 +21,7 @@ export default function SituationDetailPage({ code }: { code: string }) {
       <section><h2>Pourquoi cela peut compter</h2><Paragraphs values={situation.whyItMatters} /></section>
       <section><h2>{situation.protectionHeading}</h2><Paragraphs values={situation.protectiveContent} /></section>
       {situation.otherReading.length > 0 ? <section><h2>Une autre lecture possible</h2><Paragraphs values={situation.otherReading} /></section> : null}
-      <section><h2>Mots utiles</h2><UsefulWordList words={situation.usefulWords} /></section>
+      <section><h2>Mots utiles</h2><UsefulWordList words={situation.usefulWords} situationCode={situation.code} /></section>
       <section><h2>Continuer</h2><ContinueLink destination={situation.continueTarget} /></section>
     </main>
   );

@@ -13,7 +13,7 @@ checkPublicBiographiesV2();
 const journey = buildPublicJourneyWords();
 if (readFileSync(OUTPUT, "utf8") !== generatedSource(journey)) fail("artefact Mots et parcours périmé ou non déterministe");
 if (journey.words.length !== 15 || journey.words.map(({ id }) => id).join(",") !== EXPECTED_WORD_IDS.join(",")) fail("15 mots attendus dans l’ordre de 091 V2");
-if (journey.words.some(({ status, target }) => status !== "deferred" || !target.startsWith("#/mots-utiles/"))) fail("destination future d’un mot invalide");
+if (journey.words.some(({ status, target }) => status !== "active" || !target.endsWith("?from=parcours"))) fail("destination active d’un mot invalide");
 const expectedIds = biographies.biographies.map(({ id }) => id);
 for (const biography of biographies.biographies) {
   const folder = biography.id.startsWith("XP") ? "intersectional" : "general";
@@ -55,7 +55,7 @@ for (const expected of [".biography-disclosure-map thead", ".biography-disclosur
 if (!gallery.includes("biography.age") || !gallery.includes("biography.schoolLevel") || !gallery.includes("biography.galleryLabel") || !gallery.includes("biography.id")) fail("identité visible incomplète dans la galerie");
 if (!detail.includes("biography.age") || !detail.includes("biography.schoolLevel") || !detail.includes("biography.galleryLabel") || !detail.includes("biography.id")) fail("identité visible incomplète dans la fiche");
 if (detail.includes("journeyWordIds") || detail.includes("usefulWords.filter")) fail("association biographique déduite sans table validée");
-if (wordsPage.includes("<a href={word.target}") || wordsPage.includes("En bref") || wordsPage.includes("À retenir")) fail("lien mort ou définition concurrente dans Mots et parcours");
+if (!wordsPage.includes("<a href={word.target}") || wordsPage.includes("En bref") || wordsPage.includes("À retenir")) fail("liens actifs absents ou définition concurrente dans Mots et parcours");
 if (!wordsPage.includes("publicJourneyWords.map") || !wordsPage.includes("Retour aux personnages")) fail("page Mots et parcours incomplète");
 const serialized = JSON.stringify(biographies);
 for (const forbidden of ['"number":14', '"number":15', '"number":16', '"number":17', "Volet réservé au formateur", "feedbacksByCharacter", "gamePoints"]) if (serialized.includes(forbidden)) fail(`contenu interne détecté : ${forbidden}`);

@@ -23,6 +23,9 @@ const cases = [
   ["#/situations/V01", "situation-detail"],
   ["#/personnages/p01", "character-biography"],
   ["#/personnages/mots-et-parcours", "characters-words"],
+  ["#/reperes/r1", "repere-detail"],
+  ["#/mots-utiles", "useful-words"],
+  ["#/mots-utiles/mu-ori", "useful-word-detail"],
   ["#/inconnue", "not-found"],
 ];
 for (const [hash, kind] of cases) {
@@ -51,6 +54,19 @@ if (routes.parseAppRoute("#/personnages/quiz").kind !== "not-found") throw new E
 for (const invalid of ["#/personnages/P1", "#/personnages/P001", "#/personnages/XP8", "#/personnages/Noe", "#/personnages/Jade"]) if (routes.parseAppRoute(invalid).kind !== "not-found") throw new Error(`Identifiant Personnage approximatif accepté : ${invalid}`);
 const uppercaseCharacter = routes.parseAppRoute("#/personnages/XP08");
 if (uppercaseCharacter.kind !== "redirect" || uppercaseCharacter.target !== "#/personnages/xp08") throw new Error("La normalisation d’un identifiant Personnage majuscule est invalide");
+const uppercaseRepere = routes.parseAppRoute("#/reperes/R1");
+if (uppercaseRepere.kind !== "redirect" || uppercaseRepere.target !== "#/reperes/r1") throw new Error("La normalisation d’un Repère est invalide");
+const uppercaseWord = routes.parseAppRoute("#/mots-utiles/MU-ORI");
+if (uppercaseWord.kind !== "redirect" || uppercaseWord.target !== "#/mots-utiles/mu-ori") throw new Error("La normalisation d’un Mot utile est invalide");
+for (const invalid of ["#/reperes/r0", "#/reperes/r6", "#/reperes/idee-du-jeu", "#/mots-utiles/mu", "#/mots-utiles/mu-or", "#/mots-utiles/orientation-sexuelle"]) if (routes.parseAppRoute(invalid).kind !== "not-found") throw new Error(`Route Repère ou Mot utile approximative acceptée : ${invalid}`);
+const contextualWord = routes.parseAppRoute("#/mots-utiles/mu-ori?from=situation-V01");
+if (contextualWord.kind !== "useful-word-detail" || contextualWord.context?.type !== "situation") throw new Error("Contexte Situation valide refusé");
+const unsafeContext = routes.parseAppRoute("#/mots-utiles/mu-ori?from=https-evil");
+if (unsafeContext.kind !== "redirect" || unsafeContext.target !== "#/mots-utiles/mu-ori") throw new Error("Contexte libre non neutralisé");
+for (const hash of ["#/mots-utiles/mu-ori?from=https://example.org", "#/mots-utiles/mu-ori?from=https%3A%2F%2Fexample.org", "#/mots-utiles/mu-ori?from=../reperes/r1"]) {
+  const route = routes.parseAppRoute(hash);
+  if (route.kind !== "redirect" || route.target !== "#/mots-utiles/mu-ori") throw new Error(`Contexte extérieur ou mal formé non neutralisé : ${hash}`);
+}
 
 const home = await read("src/pages/public/PublicHomePage.tsx");
 const homeOrder = ["Jouer", "Personnages", "Situations", "Repères"].map((label) => home.indexOf(`title: "${label}"`));

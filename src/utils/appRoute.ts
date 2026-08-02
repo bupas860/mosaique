@@ -11,6 +11,9 @@ export type AppRoute =
   | { readonly kind: "situations-focal"; readonly focalSlug: "obstacles-visibles" | "normes-ordinaires" | "effets-invisibles" | "intersectionnalites" }
   | { readonly kind: "situation-detail"; readonly code: string }
   | { readonly kind: "reperes" }
+  | { readonly kind: "repere-detail"; readonly repereId: string }
+  | { readonly kind: "useful-words" }
+  | { readonly kind: "useful-word-detail"; readonly wordId: string; readonly context?: UsefulWordContext }
   | { readonly kind: "redirect"; readonly target: string }
   | { readonly kind: "not-found"; readonly fragment: string };
 
@@ -27,12 +30,17 @@ const situationCodes = new Set([
 ]);
 
 const focalSlugs = new Set(["obstacles-visibles", "normes-ordinaires", "effets-invisibles", "intersectionnalites"] as const);
+const repereIds = new Set(["R1", "R2", "R3", "R4", "R5"]);
+const usefulWordIds = new Set(["MU-ORI", "MU-ASE", "MU-ARO", "MU-IDG", "MU-EXG", "MU-CSX", "MU-SAN", "MU-PRO", "MU-CIN", "MU-COU", "MU-OUT", "MU-TRA", "MU-NBI", "MU-INT", "MU-CONF", "MU-OBS", "MU-PROT", "MU-NOR", "MU-INST", "MU-DISC", "MU-PRIV", "MU-POS", "MU-POUV", "MU-INTER", "MU-MARGE"]);
+
+export type UsefulWordContext = { readonly type: "situation"; readonly code: string } | { readonly type: "journey" } | { readonly type: "repere"; readonly id: string } | { readonly type: "index" };
 
 export const HOME_HASH = "#/";
 export const GAME_HASH = "#/jouer";
 export const PERSONNAGES_HASH = "#/personnages";
 export const SITUATIONS_HASH = "#/situations";
 export const REPERES_HASH = "#/reperes";
+export const USEFUL_WORDS_HASH = "#/mots-utiles";
 export const LEGACY_EXPLORER_CHARACTERS_HASH = "#/explorer/personnages";
 export const EXPLORER_CHARACTERS_HASH = PERSONNAGES_HASH;
 export const UNDERSTAND_HASH = "#/comprendre";
@@ -45,6 +53,21 @@ export const understandBibliographyHash = (sourceId?: string) => `${UNDERSTAND_H
 
 export function characterBiographyHash(characterId: EditorialCharacterIdV2): string {
   return `${PERSONNAGES_HASH}/${characterId.toLowerCase()}`;
+}
+
+export function repereHash(id: string): string { return `${REPERES_HASH}/${id.toLowerCase()}`; }
+export function usefulWordHash(id: string, context?: UsefulWordContext): string {
+  const suffix = context?.type === "situation" ? `?from=situation-${context.code}` : context?.type === "journey" ? "?from=parcours" : context?.type === "repere" ? `?from=${context.id.toLowerCase()}` : context?.type === "index" ? "?from=index" : "";
+  return `${USEFUL_WORDS_HASH}/${id.toLowerCase()}${suffix}`;
+}
+
+function parseUsefulWordContext(value: string | undefined): UsefulWordContext | undefined {
+  if (!value) return undefined;
+  if (value === "parcours") return { type: "journey" };
+  if (value === "index") return { type: "index" };
+  const repere = value.match(/^r([1-5])$/i); if (repere) return { type: "repere", id: `R${repere[1]}` };
+  const situation = value.match(/^situation-([VNIX]\d{2})$/); if (situation && situationCodes.has(situation[1])) return { type: "situation", code: situation[1] };
+  return undefined;
 }
 
 function isLegacyUnderstandRoute(hash: string): boolean {
@@ -81,6 +104,23 @@ export function parseAppRoute(hash = window.location.hash): AppRoute {
     return { kind: "situation-detail", code };
   }
   if (hash === REPERES_HASH) return { kind: "reperes" };
+  const repereRoute = hash.match(/^#\/reperes\/(r[1-5])$/i);
+  if (repereRoute) {
+    const repereId = repereRoute[1].toUpperCase();
+    if (!repereIds.has(repereId)) return { kind: "not-found", fragment: hash };
+    if (repereRoute[1] !== repereRoute[1].toLowerCase()) return { kind: "redirect", target: repereHash(repereId) };
+    return { kind: "repere-detail", repereId };
+  }
+  if (hash === USEFUL_WORDS_HASH) return { kind: "useful-words" };
+  const wordRoute = hash.match(/^#\/mots-utiles\/(mu-[a-z]+)(?:\?from=([^#]*))?$/i);
+  if (wordRoute) {
+    const wordId = wordRoute[1].toUpperCase();
+    if (!usefulWordIds.has(wordId)) return { kind: "not-found", fragment: hash };
+    const context = parseUsefulWordContext(wordRoute[2]);
+    const canonical = usefulWordHash(wordId, context);
+    if (hash !== canonical) return { kind: "redirect", target: canonical };
+    return { kind: "useful-word-detail", wordId, context };
+  }
   if (hash === LEGACY_EXPLORER_CHARACTERS_HASH) return { kind: "redirect", target: PERSONNAGES_HASH };
   if (isLegacyUnderstandRoute(hash)) return { kind: "redirect", target: REPERES_HASH };
   const match = hash.match(/^#\/explorer\/personnages\/(P\d{2}|XP\d{2})$/);

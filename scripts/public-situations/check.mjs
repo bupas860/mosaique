@@ -20,7 +20,7 @@ for (const text of ["Toutes les focales", "Tous les rôles", "Obstacle", "Protec
 for (const heading of ["La situation présentée dans le jeu", "Ce qu’il faut observer", "La focale principale de Mosaïque", "Pourquoi cela peut compter", "Une autre lecture possible", "Mots utiles", "Continuer"]) if (!detail.includes(heading)) throw new Error(`Rubrique de fiche absente : ${heading}`);
 for (const text of ["Comment la reconnaître ?", "À ne pas confondre", "À retenir", "Voir l’ensemble des situations"]) if (!focal.includes(text)) throw new Error(`Contrat focale absent : ${text}`);
 for (const text of ['width="1000"', 'height="800"', 'loading={eager ? "eager" : "lazy"}', 'aria-label={altText}']) if (!image.includes(text)) throw new Error(`Contrat image absent : ${text}`);
-if (words.includes("<a ")) throw new Error("Les Mots utiles deviennent des liens avant 8E");
+if (!words.includes("<a href=") || !words.includes("situationCode")) throw new Error("Les 183 destinations Mots utiles ne sont pas activables avec leur contexte");
 for (const title of ["Situations — Mosaïque", "— Situations — Mosaïque", "— Mosaïque"]) if (!application.includes(title)) throw new Error(`Titre de document Situations absent : ${title}`);
 
 const filterSource = readApp("features/situations/situationFilters.ts");

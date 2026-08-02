@@ -2,12 +2,13 @@ import { lazy, Suspense, useEffect, useState, type ReactNode } from "react";
 import PublicFrame from "./components/public/PublicFrame";
 import NotFoundPage from "./pages/public/NotFoundPage";
 import PublicHomePage from "./pages/public/PublicHomePage";
-import StructuralPage from "./pages/public/StructuralPage";
 import { parseAppRoute, subscribeAppRoute, type AppRoute } from "./utils/appRoute";
 
 const GameApp = lazy(() => import("./game/GameApp"));
 const SituationsApp = lazy(() => import("./features/situations/SituationsApp"));
 const CharactersApp = lazy(() => import("./features/characters/CharactersApp"));
+const ReperesApp = lazy(() => import("./features/reperes/ReperesApp"));
+const UsefulWordsApp = lazy(() => import("./features/useful-words/UsefulWordsApp"));
 
 const routeTitles: Partial<Record<AppRoute["kind"], string>> = {
   home: "Mosaïque",
@@ -30,12 +31,21 @@ function charactersPage(route: Extract<AppRoute, { kind: "explorer-characters" |
   return <Suspense fallback={<main className="game-loading" aria-busy="true" aria-live="polite"><p>Chargement des personnages…</p></main>}><CharactersApp route={route} /></Suspense>;
 }
 
+function reperesPage(route: Extract<AppRoute, { kind: "reperes" | "repere-detail" }>) {
+  return <Suspense fallback={<main className="game-loading" aria-busy="true" aria-live="polite"><p>Chargement des repères…</p></main>}><ReperesApp route={route} /></Suspense>;
+}
+
+function usefulWordsPage(route: Extract<AppRoute, { kind: "useful-words" | "useful-word-detail" }>) {
+  return <Suspense fallback={<main className="game-loading" aria-busy="true" aria-live="polite"><p>Chargement des mots utiles…</p></main>}><UsefulWordsApp route={route} /></Suspense>;
+}
+
 function pageForRoute(route: AppRoute): ReactNode {
   if (route.kind === "home") return <PublicHomePage />;
   if (route.kind === "game") return gamePage();
   if (route.kind === "explorer-characters" || route.kind === "character-biography" || route.kind === "characters-words") return charactersPage(route);
   if (route.kind === "situations" || route.kind === "situations-focal" || route.kind === "situation-detail") return situationsPage(route);
-  if (route.kind === "reperes") return <StructuralPage title="Repères" />;
+  if (route.kind === "reperes" || route.kind === "repere-detail") return reperesPage(route);
+  if (route.kind === "useful-words" || route.kind === "useful-word-detail") return usefulWordsPage(route);
   return <NotFoundPage />;
 }
 
@@ -51,7 +61,7 @@ export default function App() {
     window.location.replace(route.target);
   }, [route]);
   useEffect(() => {
-    if (route.kind === "redirect" || route.kind === "situations" || route.kind === "situations-focal" || route.kind === "situation-detail" || route.kind === "explorer-characters" || route.kind === "character-biography" || route.kind === "characters-words") return;
+    if (route.kind === "redirect" || route.kind === "situations" || route.kind === "situations-focal" || route.kind === "situation-detail" || route.kind === "explorer-characters" || route.kind === "character-biography" || route.kind === "characters-words" || route.kind === "reperes" || route.kind === "repere-detail" || route.kind === "useful-words" || route.kind === "useful-word-detail") return;
     document.title = titleForRoute(route);
     window.requestAnimationFrame(() => {
       document.getElementById("main-content")?.focus({ preventScroll: true });

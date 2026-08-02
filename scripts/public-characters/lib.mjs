@@ -34,8 +34,8 @@ export function buildPublicJourneyWords() {
   const words = [...section.matchAll(/^## (MU-[A-Z]+) — (.+)$/gm)].map((match) => ({
     id: match[1],
     label: match[2].trim(),
-    target: `#/mots-utiles/${match[1].toLowerCase()}`,
-    status: "deferred",
+    target: `#/mots-utiles/${match[1].toLowerCase()}?from=parcours`,
+    status: "active",
   }));
   if (words.map(({ id }) => id).join(",") !== EXPECTED_WORD_IDS.join(",")) throw new Error("091 V2 : les 15 entrées Mots et parcours sont absentes ou mal ordonnées");
   for (const id of EXPECTED_WORD_IDS) {

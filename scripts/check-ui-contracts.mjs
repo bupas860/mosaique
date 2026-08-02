@@ -87,5 +87,16 @@ for (const expected of [
   "À propos de cette fiche", "Les personnes informées varient selon les espaces.",
 ]) requireText(characterBiography, expected, "Contrat biographie Personnages 8D");
 
+const reperesApp = await read("src/features/reperes/ReperesApp.tsx");
+const usefulWordsApp = await read("src/features/useful-words/UsefulWordsApp.tsx");
+const situationWordLinks = await read("src/features/situations/UsefulWordList.tsx");
+const journeyWords = await read("src/features/characters/JourneyWordsPage.tsx");
+for (const expected of ["reperes.map", "Lire ce repère", "Repère précédent", "Repère suivant", "Retour aux Repères", "Mots utiles"]) requireText(reperesApp, expected, "Contrat Repères 8E");
+for (const expected of ["words.slice(0, 15)", "words.slice(15)", "contextReturn", "Retour aux mots utiles", "Les mots utiles — Mosaïque"]) requireText(usefulWordsApp, expected, "Contrat Mots utiles 8E");
+requireText(situationWordLinks, "?from=situation-", "183 retours contextuels Situations");
+requireText(journeyWords, "<a href={word.target}", "15 liens Mots et parcours");
+const frame = await read("src/components/public/PublicFrame.tsx");
+if (frame.includes('{ label: "Mots utiles"')) throw new Error("Mots utiles devient une cinquième entrée principale");
+
 console.log(`Contrats visibles Jouer inchangés : ${unchangedVisibleFiles.length} fichiers comparés au commit HEAD.`);
 console.log("Parcours Jouer, chargement accessible, médias, routes et contrats Personnages 8D : contrôlés.");

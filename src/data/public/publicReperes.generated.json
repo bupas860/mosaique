@@ -1,0 +1,569 @@
+{
+  "generatedNotice": "Fichier généré. Ne pas modifier manuellement.",
+  "reperes": [
+    {
+      "id": "R1",
+      "routeSegment": "r1",
+      "title": "Comment fonctionne Mosaïque ?",
+      "introduction": "Mosaïque te propose d’observer les effets d’une situation sur un personnage fictif.",
+      "inBrief": "Tu suis un personnage au fil de plusieurs situations. Pour chacune, tu prends une décision. Mosaïque te présente ensuite son interprétation, puis un bilan de la partie. Il n’y a ni score moral ni classement des personnes.",
+      "sections": [
+        {
+          "title": "Une partie en quelques étapes",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Tu commences par choisir un **mode**. Certains modes se concentrent sur un obstacle visible, une norme ordinaire, un effet moins visible ou l’articulation de plusieurs rapports sociaux. Le mode Découverte combine plusieurs de ces angles dans une même partie."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tu choisis ensuite un **personnage**. La fiche affichée avant la partie te donne quelques informations utiles. Tu peux découvrir son parcours plus en détail dans l’espace **Personnages**. Tu suis cette personne fictive pendant la partie, mais tu ne deviens pas elle."
+            },
+            {
+              "type": "paragraph",
+              "text": "Une situation apparaît. Tu lis la scène et tu décides si le personnage avance ou reste sur place. La question porte uniquement sur cette scène : augmente-t-elle sa marge de manœuvre, ou crée-t-elle un obstacle ?"
+            }
+          ]
+        },
+        {
+          "title": "Une interprétation après ton choix",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Après ta réponse, le **feedback** indique la lecture retenue par Mosaïque. Il s’appuie sur la situation et sur les informations publiques du personnage. Il explique ce qui peut faciliter ou limiter son action."
+            },
+            {
+              "type": "paragraph",
+              "text": "Cette lecture est argumentée, mais elle ne prétend pas tout dire. Une même scène peut soulever plusieurs questions. Le mode indique seulement l’angle principal choisi par Mosaïque."
+            },
+            {
+              "type": "paragraph",
+              "text": "À la fin, le **bilan** compare les effets prévus par le jeu et les réponses données. Il t’aide à repérer les situations qui méritent d’être relues. Il ne mesure ni ta valeur, ni ta sensibilité, ni tes opinions."
+            }
+          ]
+        },
+        {
+          "title": "Suivre n’est pas vivre à la place de quelqu’un",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Un personnage de Mosaïque est une personne fictive. Son parcours permet de réfléchir sans demander aux joueurs de raconter leur propre vie."
+            },
+            {
+              "type": "paragraph",
+              "text": "Le jeu ne te donne pas accès à ce que ressentirait une personne réelle. Il ne te demande pas non plus d’inventer les pensées du personnage. Tu observes des informations, une règle, une action ou une organisation, puis tu examines leurs effets possibles."
+            }
+          ]
+        },
+        {
+          "title": "Exemple dans Mosaïque",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Dans **N02 — Le formulaire « Père — Mère »**, un document scolaire ne prévoit qu’une signature pour le père et une pour la mère. Pour un personnage vivant avec deux mères, utiliser ce formulaire demande de le corriger ou d’expliquer sa famille. Pour d’autres personnages, cet obstacle précis n’apparaît pas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ta décision porte sur le fonctionnement du document dans cette scène. Elle ne permet pas de juger toute la vie du personnage, toutes les familles ou tous les formulaires scolaires."
+            },
+            {
+              "type": "callout",
+              "label": "À ne pas confondre",
+              "text": "Avancer ne signifie pas « être meilleur » ou « avoir une vie facile ». Rester sur place ne signifie pas « être faible » ou « avoir échoué ». Le déplacement représente seulement un effet possible de la situation."
+            },
+            {
+              "type": "callout",
+              "label": "À retenir",
+              "text": "Mosaïque fait comparer des décisions situées, pas des personnes.\nLe feedback propose une interprétation que tu peux examiner, pas une note morale."
+            },
+            {
+              "type": "paragraph",
+              "text": "---"
+            }
+          ]
+        }
+      ],
+      "continueText": "**Pour continuer :** commence une partie dans **Jouer** ou découvre les parcours dans **Personnages**.",
+      "continueLinks": [
+        {
+          "label": "Jouer",
+          "target": "#/jouer"
+        },
+        {
+          "label": "Personnages",
+          "target": "#/personnages"
+        }
+      ],
+      "usefulWords": [
+        {
+          "id": "MU-MARGE",
+          "label": "Marge de manœuvre",
+          "target": "#/mots-utiles/mu-marge?from=r1"
+        },
+        {
+          "id": "MU-OBS",
+          "label": "Obstacle",
+          "target": "#/mots-utiles/mu-obs?from=r1"
+        },
+        {
+          "id": "MU-PROT",
+          "label": "Protection",
+          "target": "#/mots-utiles/mu-prot?from=r1"
+        }
+      ]
+    },
+    {
+      "id": "R2",
+      "routeSegment": "r2",
+      "title": "D’où vient l’idée du jeu ?",
+      "introduction": "Mosaïque s’inspire d’une famille d’activités souvent appelée « marche des privilèges ».",
+      "inBrief": "Une marche des privilèges rend visibles des possibilités inégalement réparties. Mosaïque reprend cette question, mais utilise des personnages fictifs et des situations précises. Il évite ainsi de demander aux joueurs de dévoiler leur propre histoire.",
+      "sections": [
+        {
+          "title": "Une activité qui rend les écarts visibles",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Dans une forme courante de la marche des privilèges, les participants partent d’une même ligne. Ils avancent ou reculent selon des affirmations liées à leur vie. La position finale fait apparaître des écarts qui peuvent ensuite être discutés."
+            },
+            {
+              "type": "paragraph",
+              "text": "Il existe de nombreuses variantes. Certaines utilisent un espace réel, d’autres un questionnaire ou des rôles fictifs. Elles cherchent généralement à montrer que des personnes placées dans une même société ne disposent pas toujours des mêmes ressources, protections ou possibilités."
+            }
+          ]
+        },
+        {
+          "title": "Des limites à prendre au sérieux",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Répondre avec son propre corps peut révéler une information intime. Une ligne unique peut aussi donner l’impression qu’une vie entière se résume à une place ou à un total de points. Enfin, voir un écart n’explique pas automatiquement les règles ou les institutions qui l’ont produit."
+            },
+            {
+              "type": "paragraph",
+              "text": "Une activité marquante ne garantit donc pas, à elle seule, une compréhension complète."
+            }
+          ]
+        },
+        {
+          "title": "Ce que Mosaïque transforme",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Dans Mosaïque, tu ne réponds pas à partir de ta vie. Tu suis un personnage fictif dans des scènes contextualisées. Chaque décision porte sur une situation, et non sur une quantité globale de privilège."
+            },
+            {
+              "type": "paragraph",
+              "text": "Le jeu montre aussi des protections. Dans **I14 — Une histoire ordinaire**, une famille avec deux mères apparaît dans un récit sans être réduite à un problème. Cette représentation peut élargir ce qui est présenté comme une vie ordinaire."
+            },
+            {
+              "type": "callout",
+              "label": "À retenir",
+              "text": "Mosaïque conserve la question des possibilités inégalement réparties.\nIl remplace le dévoilement personnel et la position globale par des personnages fictifs et des décisions situées."
+            }
+          ]
+        },
+        {
+          "title": "Sources principales et mise à jour",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Peggy McIntosh, [*White Privilege and Male Privilege*](https://www.nationalseedproject.org/Key-SEED-Texts/white-privilege-and-male-privilege), 1988.",
+                "University of British Columbia, [*Privilege Walk — Variation 1*](https://timeandplace.ubc.ca/user-guide/theme-ii/privilege-walk-version-1/)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "---"
+            }
+          ]
+        }
+      ],
+      "continueText": "**Pour continuer :** observe les différentes scènes dans **Situations** ou lance une partie dans **Jouer**.",
+      "continueLinks": [
+        {
+          "label": "Situations",
+          "target": "#/situations"
+        },
+        {
+          "label": "Jouer",
+          "target": "#/jouer"
+        }
+      ],
+      "usefulWords": [
+        {
+          "id": "MU-PRIV",
+          "label": "Privilège",
+          "target": "#/mots-utiles/mu-priv?from=r2"
+        },
+        {
+          "id": "MU-POS",
+          "label": "Position sociale",
+          "target": "#/mots-utiles/mu-pos?from=r2"
+        },
+        {
+          "id": "MU-PROT",
+          "label": "Protection",
+          "target": "#/mots-utiles/mu-prot?from=r2"
+        }
+      ]
+    },
+    {
+      "id": "R3",
+      "routeSegment": "r3",
+      "title": "Privilèges, positions sociales et pouvoir",
+      "introduction": "Une même situation ne demande pas le même effort à tout le monde.",
+      "inBrief": "Un privilège est un avantage relatif dans un contexte. Il peut permettre d’utiliser une règle ou un service sans devoir se justifier, se corriger ou s’exposer. Un droit, lui, doit être garanti à toutes et tous.",
+      "sections": [
+        {
+          "title": "Un droit n’est pas un privilège",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Le droit à l’éducation, le respect de la personne et la protection contre les discriminations doivent être garantis à toutes et tous. Les présenter comme des privilèges ferait croire qu’ils seraient réservés à quelques personnes chanceuses."
+            },
+            {
+              "type": "paragraph",
+              "text": "Le privilège se trouve ailleurs : certaines personnes peuvent exercer un droit plus facilement parce que les règles, les habitudes ou les outils les prévoient déjà. Elles n’ont pas forcément demandé cet avantage et ne le remarquent pas toujours."
+            }
+          ]
+        },
+        {
+          "title": "Un avantage dépend du contexte",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Une personne peut être avantagée dans une situation et rencontrer un obstacle dans une autre. Il n’existe donc pas un classement simple qui résumerait toute sa vie."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sa **position sociale** dépend de plusieurs éléments : ses ressources, la façon dont elle est perçue, les catégories utilisées par une institution, ses relations et les possibilités d’action disponibles. Ces éléments ne s’ajoutent pas comme des points fixes. Ils prennent un sens dans un contexte précis."
+            }
+          ]
+        },
+        {
+          "title": "Le pouvoir agit aussi sur les règles",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Le pouvoir ne consiste pas seulement à donner un ordre. Il comprend la possibilité de créer une catégorie, de décider qui reçoit une information, de répartir une ressource ou de modifier un formulaire."
+            },
+            {
+              "type": "paragraph",
+              "text": "Une personne peut avoir peu de pouvoir sur une procédure qu’elle subit, mais davantage de marge dans un autre groupe. Une équipe ou une institution peut aussi transformer une règle qui produit un obstacle."
+            }
+          ]
+        },
+        {
+          "title": "Exemple dans Mosaïque",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Dans **N02 — Le formulaire « Père — Mère »**, certaines familles peuvent remplir le document sans expliquer leur composition. Cet avantage n’est pas le droit d’avoir une famille reconnue : ce droit devrait être commun. Le privilège réside dans le fait que l’outil prévoit déjà leur situation."
+            },
+            {
+              "type": "paragraph",
+              "text": "Une élève vivant avec deux mères doit, elle, corriger la catégorie ou demander une modification. Le pouvoir apparaît lorsqu’on demande qui peut changer le formulaire pour que plusieurs familles puissent l’utiliser sans travail supplémentaire."
+            },
+            {
+              "type": "callout",
+              "label": "À ne pas confondre",
+              "text": "Avoir un privilège dans une scène ne signifie pas être coupable, tout contrôler ou ne jamais rencontrer d’obstacle. Ne pas bénéficier de cet avantage ne résume pas non plus toute une personne."
+            },
+            {
+              "type": "callout",
+              "label": "À retenir",
+              "text": "Un droit doit être commun ; un privilège facilite son exercice pour certaines personnes.\nObserver le pouvoir, c’est aussi demander qui peut fixer, appliquer ou modifier la règle."
+            }
+          ]
+        },
+        {
+          "title": "Sources principales et mise à jour",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Peggy McIntosh, [*White Privilege and Male Privilege*](https://www.nationalseedproject.org/Key-SEED-Texts/white-privilege-and-male-privilege), 1988."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "---"
+            }
+          ]
+        }
+      ],
+      "continueText": "**Pour continuer :** compare les effets d’une même scène dans **Jouer** ou explore les analyses dans **Situations**.",
+      "continueLinks": [
+        {
+          "label": "Jouer",
+          "target": "#/jouer"
+        },
+        {
+          "label": "Situations",
+          "target": "#/situations"
+        }
+      ],
+      "usefulWords": [
+        {
+          "id": "MU-PRIV",
+          "label": "Privilège",
+          "target": "#/mots-utiles/mu-priv?from=r3"
+        },
+        {
+          "id": "MU-POS",
+          "label": "Position sociale",
+          "target": "#/mots-utiles/mu-pos?from=r3"
+        },
+        {
+          "id": "MU-POUV",
+          "label": "Pouvoir",
+          "target": "#/mots-utiles/mu-pouv?from=r3"
+        }
+      ]
+    },
+    {
+      "id": "R4",
+      "routeSegment": "r4",
+      "title": "Normes, institutions et discriminations",
+      "introduction": "Une procédure peut sembler ordinaire et produire pourtant des effets différents.",
+      "inBrief": "Une norme indique ce qui paraît habituel ou attendu. Une institution organise des règles, des rôles et des outils. Leur fonctionnement peut créer un obstacle, même sans intention hostile. Mais toute difficulté n’est pas automatiquement une discrimination au sens juridique.",
+      "sections": [
+        {
+          "title": "Ce qui paraît normal n’est pas toujours neutre",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Une norme peut être écrite, comme un règlement, ou rester implicite, comme une façon habituelle de nommer les familles. Elle rend certaines situations faciles à prévoir. D’autres deviennent des exceptions qu’il faut expliquer."
+            },
+            {
+              "type": "paragraph",
+              "text": "Une norme n’est pas forcément mauvaise. Elle peut faciliter la vie collective. Mais il faut observer ses effets : qui peut l’utiliser sans difficulté ? Qui doit se corriger, se dévoiler ou demander une adaptation ?"
+            }
+          ]
+        },
+        {
+          "title": "Une institution ne se réduit pas à une personne",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Un lycée est une institution, mais l’institution n’est pas seulement son bâtiment ou sa direction. Elle comprend aussi des logiciels, des formulaires, des habitudes, des responsabilités et des façons de faire circuler l’information."
+            },
+            {
+              "type": "paragraph",
+              "text": "Un adulte peut agir sans hostilité et appliquer un outil mal préparé. À l’inverse, une organisation claire peut protéger les élèves sans dépendre uniquement de la bonne volonté de chacun."
+            }
+          ]
+        },
+        {
+          "title": "Le mot « discrimination » a aussi un sens juridique",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Dans la vie courante, ce mot est parfois utilisé pour toute injustice. En droit français, une discrimination répond à des conditions précises : un traitement défavorable, lié à un critère interdit par la loi, dans un domaine prévu par la loi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Une scène de Mosaïque peut donc montrer un obstacle, une norme ou un effet inégal sans permettre, à elle seule, de conclure juridiquement. Il faudrait connaître davantage de faits et le cadre applicable."
+            }
+          ]
+        },
+        {
+          "title": "Exemple dans Mosaïque",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Dans **N03 — L’activité visible sur l’ENT**, une participation apparaît sur un compte familial. Le problème ne vient pas forcément d’un message hostile. Il dépend du fonctionnement de l’outil : quelle information est affichée, à qui, et dans quel but ?"
+            },
+            {
+              "type": "paragraph",
+              "text": "La scène invite à tester la circulation de l’information. Elle ne prouve pas que tous les ENT fonctionnent ainsi ni qu’une infraction a été commise."
+            },
+            {
+              "type": "callout",
+              "label": "À ne pas confondre",
+              "text": "Absence d’intention hostile ne signifie pas absence d’effet. Mais effet négatif ne signifie pas automatiquement discrimination juridique."
+            },
+            {
+              "type": "callout",
+              "label": "À retenir",
+              "text": "Une règle ordinaire peut produire des effets différents selon les personnes.\nPour qualifier juridiquement une discrimination, il faut vérifier des conditions précises."
+            }
+          ]
+        },
+        {
+          "title": "Sources principales et mise à jour",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Sources juridiques vérifiées le **1er août 2026** :"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Légifrance, [Code pénal, article 225-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045391831).",
+                "Défenseur des droits, [*Comment savoir si je suis victime de discrimination ?*](https://www.defenseurdesdroits.fr/comment-savoir-si-je-suis-victime-de-discrimination-141)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "---"
+            }
+          ]
+        }
+      ],
+      "continueText": "**Pour continuer :** cherche les détails importants dans **Situations** ou compare les focales dans **Jouer**.",
+      "continueLinks": [
+        {
+          "label": "Situations",
+          "target": "#/situations"
+        },
+        {
+          "label": "Jouer",
+          "target": "#/jouer"
+        }
+      ],
+      "usefulWords": [
+        {
+          "id": "MU-NOR",
+          "label": "Norme",
+          "target": "#/mots-utiles/mu-nor?from=r4"
+        },
+        {
+          "id": "MU-INST",
+          "label": "Institution",
+          "target": "#/mots-utiles/mu-inst?from=r4"
+        },
+        {
+          "id": "MU-DISC",
+          "label": "Discrimination",
+          "target": "#/mots-utiles/mu-disc?from=r4"
+        }
+      ]
+    },
+    {
+      "id": "R5",
+      "routeSegment": "r5",
+      "title": "Une bonne intention ne suffit pas toujours",
+      "introduction": "Vouloir aider est important. Vérifier l’effet de son aide l’est aussi.",
+      "inBrief": "Une aide utile part des besoins de la personne et lui laisse des choix. Une action bien intentionnée peut devenir gênante si elle impose une solution, révèle une information ou décide sans écouter.",
+      "sections": [
+        {
+          "title": "Écouter avant de choisir à la place de quelqu’un",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Deux personnes rencontrant une difficulté proche ne souhaitent pas forcément la même réponse. L’une peut vouloir qu’un adulte intervienne. L’autre peut préférer d’abord comprendre qui sera informé ou choisir le moment d’agir."
+            },
+            {
+              "type": "paragraph",
+              "text": "Écouter ne signifie pas accepter n’importe quelle solution ni promettre un secret absolu. Cela signifie expliquer le cadre, poser les questions nécessaires et éviter de supposer ce que la personne ressent ou devrait vouloir."
+            }
+          ]
+        },
+        {
+          "title": "Aider sans exposer",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Pour résoudre un problème, il n’est pas toujours nécessaire de partager toute l’histoire d’une personne. Une information peut être exacte et pourtant inutile pour certains destinataires."
+            },
+            {
+              "type": "paragraph",
+              "text": "Avant de transmettre, il faut donc se demander : quelle information est nécessaire ? Pour quel objectif ? Qui a besoin de la connaître ? La personne sait-elle ce qui va se passer ?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dans certaines situations de danger ou de protection, un adulte peut ne pas pouvoir garder une information pour lui. Cette limite doit être annoncée clairement. Elle ne justifie pas une circulation plus large que nécessaire."
+            }
+          ]
+        },
+        {
+          "title": "Une protection augmente les possibilités",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Une protection n’est ni une faveur ni une solution unique. Elle doit réduire un risque ou un obstacle tout en augmentant la marge de manœuvre de la personne."
+            },
+            {
+              "type": "paragraph",
+              "text": "On peut donc évaluer une aide par ses effets : permet-elle de choisir davantage ? Réduit-elle l’exposition ? Corrige-t-elle la règle, ou demande-t-elle encore à la personne de s’adapter seule ?"
+            }
+          ]
+        },
+        {
+          "title": "Exemple dans Mosaïque",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Dans **X14 — Un accompagnement sans présupposé**, un élève organise lui-même les sujets qu’il souhaite aborder : sa demande, les personnes déjà informées, les difficultés et les soutiens disponibles. L’adulte écoute sans dossier prérempli et sans décider d’avance de la cause du problème."
+            },
+            {
+              "type": "paragraph",
+              "text": "Cette scène présente une protection parce qu’elle laisse à l’élève une place réelle dans la décision. Elle ne garantit pas que toute difficulté sera résolue. Elle montre une manière de commencer sans imposer un récit."
+            },
+            {
+              "type": "callout",
+              "label": "À ne pas confondre",
+              "text": "Protéger une information ne signifie pas avoir honte. Écouter ne signifie pas rester inactif. Aider ne signifie pas décider seul."
+            },
+            {
+              "type": "callout",
+              "label": "À retenir",
+              "text": "Une intention positive doit être confrontée aux effets de l’action.\nUne protection utile informe, écoute et augmente les choix possibles."
+            }
+          ]
+        },
+        {
+          "title": "Sources principales et mise à jour",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Principes relatifs aux données personnelles vérifiés le **1er août 2026** :"
+            },
+            {
+              "type": "list",
+              "items": [
+                "CNIL, [*Les six grands principes du RGPD*](https://www.cnil.fr/fr/comprendre-le-rgpd/les-six-grands-principes-du-rgpd).",
+                "CNIL, [*Quels sont les grands principes des règles de protection des données ?*](https://www.cnil.fr/fr/cnil-direct/question/quels-sont-les-grands-principes-des-regles-de-protection-des-donnees)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "---"
+            }
+          ]
+        }
+      ],
+      "continueText": "**Pour continuer :** repère les scènes protectrices dans **Situations** ou observe leurs effets dans **Jouer**.",
+      "continueLinks": [
+        {
+          "label": "Situations",
+          "target": "#/situations"
+        },
+        {
+          "label": "Jouer",
+          "target": "#/jouer"
+        }
+      ],
+      "usefulWords": [
+        {
+          "id": "MU-PROT",
+          "label": "Protection",
+          "target": "#/mots-utiles/mu-prot?from=r5"
+        },
+        {
+          "id": "MU-CONF",
+          "label": "Confidentialité",
+          "target": "#/mots-utiles/mu-conf?from=r5"
+        },
+        {
+          "id": "MU-MARGE",
+          "label": "Marge de manœuvre",
+          "target": "#/mots-utiles/mu-marge?from=r5"
+        }
+      ]
+    }
+  ]
+}
