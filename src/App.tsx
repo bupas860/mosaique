@@ -1,37 +1,60 @@
 import { lazy, Suspense, useEffect, useState, type ReactNode } from "react";
-import ExplorerCharactersPage from "./pages/ExplorerCharactersPage";
-import CharacterBiographyPage from "./pages/CharacterBiographyPage";
+import PublicFrame from "./components/public/PublicFrame";
 import { getPublicBiographyV2 } from "./data/v2/publicBiographiesV2";
-import { EXPLORER_CHARACTERS_HASH, parseAppRoute, subscribeAppRoute } from "./utils/appRoute";
-import UnderstandAsyncBoundary from "./components/UnderstandAsyncBoundary";
+import CharacterBiographyPage from "./pages/CharacterBiographyPage";
+import ExplorerCharactersPage from "./pages/ExplorerCharactersPage";
+import NotFoundPage from "./pages/public/NotFoundPage";
+import PublicHomePage from "./pages/public/PublicHomePage";
+import StructuralPage from "./pages/public/StructuralPage";
+import { parseAppRoute, subscribeAppRoute, type AppRoute } from "./utils/appRoute";
 
 const GameApp = lazy(() => import("./game/GameApp"));
-const UnderstandHomePage = lazy(() => import("./pages/understand/UnderstandHomePage"));
-const UnderstandModulesPage = lazy(() => import("./pages/understand/UnderstandModulesPage"));
-const UnderstandReadingPathPage = lazy(() => import("./pages/understand/UnderstandReadingPathPage"));
-const UnderstandModulePage = lazy(() => import("./pages/understand/UnderstandModulePage"));
-const UnderstandGlossaryPage = lazy(() => import("./pages/understand/UnderstandGlossaryPage"));
-const UnderstandBibliographyPage = lazy(() => import("./pages/understand/UnderstandBibliographyPage"));
 
-function understandPage(content: ReactNode) {
-  return <UnderstandAsyncBoundary><Suspense fallback={<main className="understand-state" aria-busy="true" aria-live="polite"><p>Chargement de Comprendre…</p></main>}>{content}</Suspense></UnderstandAsyncBoundary>;
-}
+const routeTitles: Partial<Record<AppRoute["kind"], string>> = {
+  home: "Mosaïque",
+  game: "Jouer — Mosaïque",
+  "explorer-characters": "Personnages — Mosaïque",
+  situations: "Situations — Mosaïque",
+  reperes: "Repères — Mosaïque",
+  "not-found": "Page introuvable — Mosaïque",
+};
 
 function gamePage() {
-  return <Suspense fallback={<main className="understand-state" aria-busy="true" aria-live="polite"><p>Chargement du jeu…</p></main>}><GameApp /></Suspense>;
+  return <Suspense fallback={<main className="game-loading" aria-busy="true" aria-live="polite"><p>Chargement du jeu…</p></main>}><GameApp /></Suspense>;
+}
+
+function pageForRoute(route: AppRoute): ReactNode {
+  if (route.kind === "home") return <PublicHomePage />;
+  if (route.kind === "game") return gamePage();
+  if (route.kind === "explorer-characters") return <ExplorerCharactersPage />;
+  if (route.kind === "character-biography") return <CharacterBiographyPage biography={getPublicBiographyV2(route.characterId)} />;
+  if (route.kind === "situations") return <StructuralPage title="Situations" description="Cet espace permet d’explorer le corpus public de situations illustrées." />;
+  if (route.kind === "reperes") return <StructuralPage title="Repères" />;
+  return <NotFoundPage />;
+}
+
+function titleForRoute(route: AppRoute): string {
+  if (route.kind === "character-biography") return `${getPublicBiographyV2(route.characterId).name} — Personnages — Mosaïque`;
+  return routeTitles[route.kind] ?? "Mosaïque";
 }
 
 export default function App() {
   const [route, setRoute] = useState(parseAppRoute);
+  const routeKey = window.location.hash || "#/";
+
   useEffect(() => subscribeAppRoute(() => setRoute(parseAppRoute())), []);
-  if (route.kind === "explorer-characters") return <ExplorerCharactersPage />;
-  if (route.kind === "character-biography") return <CharacterBiographyPage biography={getPublicBiographyV2(route.characterId)} />;
-  if (route.kind === "understand-home") return understandPage(<UnderstandHomePage />);
-  if (route.kind === "understand-modules") return understandPage(<UnderstandModulesPage />);
-  if (route.kind === "understand-reading-path") return understandPage(<UnderstandReadingPathPage pathId={route.pathId} />);
-  if (route.kind === "understand-module") return understandPage(<UnderstandModulePage moduleId={route.moduleId} sectionId={route.sectionId} />);
-  if (route.kind === "understand-glossary") return understandPage(<UnderstandGlossaryPage notionId={route.notionId} />);
-  if (route.kind === "understand-bibliography") return understandPage(<UnderstandBibliographyPage sourceId={route.sourceId} />);
-  if (route.kind === "not-found") return <main className="route-not-found"><div><h1>Page introuvable</h1><p>Cette page n’existe pas.</p>{route.fragment.startsWith("#/comprendre") ? <><a href="#/comprendre">Retour à Comprendre</a> · <a href="#/comprendre/modules">Voir les modules</a></> : <a href={EXPLORER_CHARACTERS_HASH}>Voir tous les personnages</a>}</div></main>;
-  return gamePage();
+  useEffect(() => {
+    if (route.kind !== "redirect") return;
+    window.location.replace(route.target);
+  }, [route]);
+  useEffect(() => {
+    if (route.kind === "redirect") return;
+    document.title = titleForRoute(route);
+    window.requestAnimationFrame(() => {
+      document.getElementById("main-content")?.focus({ preventScroll: true });
+    });
+  }, [route]);
+
+  if (route.kind === "redirect") return null;
+  return <PublicFrame route={route} routeKey={routeKey}>{pageForRoute(route)}</PublicFrame>;
 }

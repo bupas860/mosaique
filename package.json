@@ -20,6 +20,7 @@
     "check:data-boundaries": "node scripts/check-data-boundaries.mjs",
     "check:bundle-boundaries": "node scripts/check-bundle-boundaries.mjs",
     "check:ui-contracts": "node scripts/check-ui-contracts.mjs",
+    "check:public-navigation": "node scripts/check-public-navigation.mjs",
     "dev": "vite",
     "build": "npm run understand:validate && npm run understand:import && npm run understand:check-public && npm run understand:check-ui && npm run biographies:validate && npm run biographies:import && npm run biographies:check-public && tsc -b && vite build && npm run understand:check-dist && npm run biographies:check-dist",
     "lint": "oxlint",

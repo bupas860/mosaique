@@ -86,6 +86,8 @@ const isOperative = (filename) => operativePatterns.some((pattern) => pattern.te
 
 const publicRoots = filenames.filter((filename) => [
   /^src\/pages\/(?:ExplorerCharactersPage|CharacterBiographyPage)\.tsx$/,
+  /^src\/pages\/public\//,
+  /^src\/components\/public\//,
   /^src\/pages\/understand\//,
   /^src\/components\/understand\//,
   /^src\/data\/public\//,

@@ -31,8 +31,7 @@ export default function HomePage({ onStart }: HomePageProps) {
             </p>
             <div className="home-hero__action">
               <Button onClick={onStart}>Commencer une partie</Button>
-              <a href="#/explorer/personnages" className="home-explorer-link"><strong>Explorer</strong><span>Personnages</span></a>
-              <a href="#/comprendre" className="home-explorer-link"><strong>Comprendre</strong><span>Approfondir les mécanismes, les concepts et les usages pédagogiques de Mosaïque.</span></a>
+              <a href="#/personnages" className="home-explorer-link"><strong>Explorer</strong><span>Personnages</span></a>
             </div>
           </div>
         </section>

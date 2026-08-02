@@ -35,9 +35,9 @@ export function checkPublicBiographiesV2() {
   const publicTagsSource = readFileSync(join(ROOT, "src/data/v2/characterPublicTagsV2.ts"), "utf8");
   const publicTagsProjection = readFileSync(join(ROOT, "src/data/public/characterPublicTagsV2.ts"), "utf8");
   const publicTagsComponent = readFileSync(join(ROOT, "src/components/CharacterPublicTags.tsx"), "utf8");
-  if (!routeSource.includes('EXPLORER_CHARACTERS_HASH = "#/explorer/personnages"') || !routeSource.includes("characterBiographyHash") || !routeSource.includes('kind: "not-found"')) fail("routes galerie, biographies ou inconnue incomplètes");
+  if (!routeSource.includes('PERSONNAGES_HASH = "#/personnages"') || !routeSource.includes('LEGACY_EXPLORER_CHARACTERS_HASH = "#/explorer/personnages"') || !routeSource.includes("characterBiographyHash") || !routeSource.includes('kind: "not-found"')) fail("routes galerie, biographies ou inconnue incomplètes");
   if (generated.biographies.some(({ name }) => routeSource.includes(`/personnages/${name}`))) fail("route fondée sur un prénom");
-  if (!appSource.includes('route.kind === "explorer-characters"') || !appSource.includes('route.kind === "character-biography"') || !appSource.includes('route.kind === "not-found"')) fail("résolution des routes absente de App");
+  if (!appSource.includes('route.kind === "explorer-characters"') || !appSource.includes('route.kind === "character-biography"') || !appSource.includes("return <NotFoundPage />")) fail("résolution des routes absente de App");
   if (!gallerySource.includes("Découvrir son parcours") || gallerySource.includes("onSelect")) fail("galerie Explorer non conforme");
   const expectedIds = ["P01", "P02", "P03", "P04", "P05", "P06", "P07", "P08", "P09", "XP01", "XP02", "XP03", "XP04", "XP05", "XP06", "XP07", "XP08"];
   if (generated.biographies.map(({ id }) => id).join(",") !== expectedIds.join(",")) fail("les 17 identifiants de personnages ne sont pas disponibles dans l’ordre canonique");

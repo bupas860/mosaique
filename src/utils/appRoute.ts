@@ -2,15 +2,13 @@ import type { EditorialCharacterIdV2 } from "../types/editorialV2";
 import type { UnderstandModuleId } from "../types/understand";
 
 export type AppRoute =
+  | { readonly kind: "home" }
   | { readonly kind: "game" }
   | { readonly kind: "explorer-characters" }
   | { readonly kind: "character-biography"; readonly characterId: EditorialCharacterIdV2 }
-  | { readonly kind: "understand-home" }
-  | { readonly kind: "understand-modules" }
-  | { readonly kind: "understand-reading-path"; readonly pathId: string }
-  | { readonly kind: "understand-module"; readonly moduleId: UnderstandModuleId; readonly sectionId?: string }
-  | { readonly kind: "understand-glossary"; readonly notionId?: string }
-  | { readonly kind: "understand-bibliography"; readonly sourceId?: string }
+  | { readonly kind: "situations" }
+  | { readonly kind: "reperes" }
+  | { readonly kind: "redirect"; readonly target: string }
   | { readonly kind: "not-found"; readonly fragment: string };
 
 const characterIds = new Set<EditorialCharacterIdV2>([
@@ -18,7 +16,13 @@ const characterIds = new Set<EditorialCharacterIdV2>([
   "XP01", "XP02", "XP03", "XP04", "XP05", "XP06", "XP07", "XP08",
 ]);
 
-export const EXPLORER_CHARACTERS_HASH = "#/explorer/personnages";
+export const HOME_HASH = "#/";
+export const GAME_HASH = "#/jouer";
+export const PERSONNAGES_HASH = "#/personnages";
+export const SITUATIONS_HASH = "#/situations";
+export const REPERES_HASH = "#/reperes";
+export const LEGACY_EXPLORER_CHARACTERS_HASH = "#/explorer/personnages";
+export const EXPLORER_CHARACTERS_HASH = PERSONNAGES_HASH;
 export const UNDERSTAND_HASH = "#/comprendre";
 export const UNDERSTAND_MODULES_HASH = `${UNDERSTAND_HASH}/modules`;
 
@@ -28,22 +32,26 @@ export const understandGlossaryHash = (notionId?: string) => `${UNDERSTAND_HASH}
 export const understandBibliographyHash = (sourceId?: string) => `${UNDERSTAND_HASH}/bibliographie${sourceId ? `/${sourceId}` : ""}`;
 
 export function characterBiographyHash(characterId: EditorialCharacterIdV2): string {
-  return `${EXPLORER_CHARACTERS_HASH}/${characterId}`;
+  return `${LEGACY_EXPLORER_CHARACTERS_HASH}/${characterId}`;
+}
+
+function isLegacyUnderstandRoute(hash: string): boolean {
+  return hash === UNDERSTAND_HASH
+    || hash === UNDERSTAND_MODULES_HASH
+    || /^#\/comprendre\/parcours\/R[1-4]$/.test(hash)
+    || /^#\/comprendre\/modules\/M(?:0[1-9]|1[0-2])(?:\/section\/[a-z0-9-]+)?$/.test(hash)
+    || /^#\/comprendre\/glossaire(?:\/[a-z0-9-]+)?$/.test(hash)
+    || /^#\/comprendre\/bibliographie(?:\/S\d{3})?$/.test(hash);
 }
 
 export function parseAppRoute(hash = window.location.hash): AppRoute {
-  if (!hash || hash === "#" || hash === "#/") return { kind: "game" };
-  if (hash === EXPLORER_CHARACTERS_HASH) return { kind: "explorer-characters" };
-  if (hash === UNDERSTAND_HASH) return { kind: "understand-home" };
-  if (hash === UNDERSTAND_MODULES_HASH) return { kind: "understand-modules" };
-  const readingPath = hash.match(/^#\/comprendre\/parcours\/(R[1-4])$/);
-  if (readingPath) return { kind: "understand-reading-path", pathId: readingPath[1] };
-  const module = hash.match(/^#\/comprendre\/modules\/(M(?:0[1-9]|1[0-2]))(?:\/section\/([a-z0-9-]+))?$/);
-  if (module) return { kind: "understand-module", moduleId: module[1] as UnderstandModuleId, sectionId: module[2] };
-  const glossary = hash.match(/^#\/comprendre\/glossaire(?:\/([a-z0-9-]+))?$/);
-  if (glossary) return { kind: "understand-glossary", notionId: glossary[1] };
-  const bibliography = hash.match(/^#\/comprendre\/bibliographie(?:\/(S\d{3}))?$/);
-  if (bibliography) return { kind: "understand-bibliography", sourceId: bibliography[1] };
+  if (!hash || hash === "#" || hash === HOME_HASH) return { kind: "home" };
+  if (hash === GAME_HASH) return { kind: "game" };
+  if (hash === PERSONNAGES_HASH) return { kind: "explorer-characters" };
+  if (hash === SITUATIONS_HASH) return { kind: "situations" };
+  if (hash === REPERES_HASH) return { kind: "reperes" };
+  if (hash === LEGACY_EXPLORER_CHARACTERS_HASH) return { kind: "redirect", target: PERSONNAGES_HASH };
+  if (isLegacyUnderstandRoute(hash)) return { kind: "redirect", target: REPERES_HASH };
   const match = hash.match(/^#\/explorer\/personnages\/(P\d{2}|XP\d{2})$/);
   if (match) {
     const characterId = match[1] as EditorialCharacterIdV2;

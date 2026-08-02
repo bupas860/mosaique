@@ -10,15 +10,16 @@ const requireText = (content, expected, label) => {
 };
 
 const unchangedVisibleFiles = [
-  "src/pages/HomePage.tsx",
   "src/pages/ModeSelectionPage.tsx",
   "src/pages/CharacterSelectionPage.tsx",
   "src/pages/GamePage.tsx",
   "src/pages/FinalSummaryPage.tsx",
   "src/pages/ExplorerCharactersPage.tsx",
   "src/pages/CharacterBiographyPage.tsx",
-  "src/utils/appRoute.ts",
-  "src/index.css",
+  "src/components/SituationCard.tsx",
+  "src/components/CharacterPortrait.tsx",
+  "src/data/v2/situationIllustrationsV2.ts",
+  "src/data/v2/publicBiographiesV2.ts",
 ];
 for (const filename of unchangedVisibleFiles) {
   const current = await read(filename);
@@ -31,8 +32,9 @@ for (const expected of [
   'lazy(() => import("./game/GameApp"))',
   'route.kind === "explorer-characters"',
   'route.kind === "character-biography"',
-  'route.kind === "understand-home"',
-  'route.kind === "not-found"',
+  'route.kind === "situations"',
+  'route.kind === "reperes"',
+  "return <NotFoundPage />",
   "Chargement du jeu…",
   'aria-busy="true"',
   'aria-live="polite"',
@@ -51,11 +53,14 @@ for (const expected of [
 
 const routes = await read("src/utils/appRoute.ts");
 for (const expected of [
-  'EXPLORER_CHARACTERS_HASH = "#/explorer/personnages"',
+  'GAME_HASH = "#/jouer"',
+  'PERSONNAGES_HASH = "#/personnages"',
+  'LEGACY_EXPLORER_CHARACTERS_HASH = "#/explorer/personnages"',
   'UNDERSTAND_HASH = "#/comprendre"',
+  'kind: "redirect"',
   'window.addEventListener("hashchange"',
   'kind: "not-found"',
 ]) requireText(routes, expected, "Route historique");
 
-console.log(`Contrats visibles inchangés : ${unchangedVisibleFiles.length} fichiers comparés au commit HEAD.`);
-console.log("Parcours Jouer, chargement accessible et routes par fragments : contrôlés.");
+console.log(`Contrats visibles Jouer inchangés : ${unchangedVisibleFiles.length} fichiers comparés au commit HEAD.`);
+console.log("Parcours Jouer, chargement accessible, médias et routes par fragments : contrôlés.");
