@@ -6,23 +6,33 @@ import { parsePublicBiographiesV2 } from "./parse-public-biographies-v2.mjs";
 import { validatePublicBiographiesV2 } from "./validate-public-biographies-v2.mjs";
 
 export const PUBLIC_BIOGRAPHIES_OUTPUT = join(ROOT, "src/data/generated-v2/public-biographies.json");
+export const PUBLIC_CHARACTERS_OUTPUT = join(ROOT, "src/data/public/publicCharacters.generated.json");
+export const PUBLIC_CHARACTER_ALTS_OUTPUT = join(ROOT, "src/data/generated-v2/public-character-alts.json");
+
+function writeAtomic(output, contents) {
+  const parent = dirname(output);
+  mkdirSync(parent, { recursive: true });
+  const temporaryRoot = mkdtempSync(join(parent, ".public-biographies-"));
+  const temporaryFile = join(temporaryRoot, output.split("/").at(-1));
+  try {
+    writeFileSync(temporaryFile, contents, "utf8");
+    if (readFileSync(temporaryFile, "utf8") !== contents) throw new Error("Écriture temporaire incomplète");
+    renameSync(temporaryFile, output);
+  } finally {
+    rmSync(temporaryRoot, { recursive: true, force: true });
+  }
+}
 
 export function importPublicBiographiesV2() {
   const data = parsePublicBiographiesV2();
   validatePublicBiographiesV2(data);
   const contents = `${JSON.stringify(data, null, 2)}\n`;
   JSON.parse(contents);
-  const parent = dirname(PUBLIC_BIOGRAPHIES_OUTPUT);
-  mkdirSync(parent, { recursive: true });
-  const temporaryRoot = mkdtempSync(join(parent, ".public-biographies-"));
-  const temporaryFile = join(temporaryRoot, "public-biographies.json");
-  try {
-    writeFileSync(temporaryFile, contents, "utf8");
-    if (readFileSync(temporaryFile, "utf8") !== contents) throw new Error("Écriture temporaire incomplète");
-    renameSync(temporaryFile, PUBLIC_BIOGRAPHIES_OUTPUT);
-  } finally {
-    rmSync(temporaryRoot, { recursive: true, force: true });
-  }
+  const alternatives = `${JSON.stringify(Object.fromEntries(data.biographies.map(({ id, portraitAlt }) => [id, portraitAlt])), null, 2)}\n`;
+  const publicCharacters = `${JSON.stringify({ generatedNotice: "Fichier généré. Ne pas modifier manuellement.", biographies: data.biographies }, null, 2)}\n`;
+  writeAtomic(PUBLIC_BIOGRAPHIES_OUTPUT, contents);
+  writeAtomic(PUBLIC_CHARACTERS_OUTPUT, publicCharacters);
+  writeAtomic(PUBLIC_CHARACTER_ALTS_OUTPUT, alternatives);
   return data;
 }
 

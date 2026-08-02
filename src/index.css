@@ -1493,9 +1493,26 @@ a {
 .understand-result-count { margin-bottom: 1rem; font-weight: 750; }
 .understand-source > * + * { margin-top: 0.75rem; }
 
+.biography-journey-words,
+.biography-sequence { max-width: 62rem; margin: 2rem auto; }
+.biography-journey-words { border: 1px solid var(--ds-border); border-radius: var(--radius-panel); padding: 1.25rem; background: #fff; }
+.biography-journey-words h2 { font-size: var(--text-section-title); font-weight: 850; }
+.biography-journey-words p { margin-top: 0.75rem; }
+.biography-sequence { display: flex; justify-content: space-between; gap: 1rem; }
+.biography-sequence a { color: var(--color-brand-700); font-weight: 800; }
+.journey-words-page { width: min(100%, var(--ds-content-width)); margin: 0 auto; padding: clamp(2rem, 5vw, 4rem) var(--ds-page-padding); }
+.journey-words-page header { margin-top: 1.5rem; }
+.journey-words-page h1 { color: var(--color-brand-950); font-size: var(--text-page-title); font-weight: 900; line-height: 1.08; }
+.journey-words-page header p { margin-top: 0.75rem; font-size: var(--text-body-large); }
+.journey-words-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 2rem; padding: 0; list-style: none; }
+.journey-words-list li { display: grid; gap: 0.4rem; border: 1px solid var(--ds-border); border-radius: var(--radius-panel); padding: 1rem; background: #fff; }
+.journey-word-id { color: var(--ds-text-muted); font-size: 0.85rem; font-weight: 800; }
+
 @media (max-width: 47.999rem) {
   .understand-filters { grid-template-columns: 1fr; }
   .understand-table-scroll table { min-width: 30rem; }
+  .journey-words-list { grid-template-columns: 1fr; }
+  .biography-sequence { flex-direction: column; }
   .biography-hero { grid-template-columns: 1fr; }
   .biography-hero__portrait { width: min(70vw, 16rem); margin: 0 auto; }
   .biography-hero__content { text-align: center; }

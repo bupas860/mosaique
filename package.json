@@ -23,6 +23,8 @@
     "check:public-navigation": "node scripts/check-public-navigation.mjs",
     "situations:generate-public": "node scripts/public-situations/generate.mjs",
     "check:public-situations": "node scripts/public-situations/check.mjs",
+    "characters:generate-public": "node scripts/public-characters/generate.mjs",
+    "check:public-characters": "node scripts/public-characters/check.mjs",
     "dev": "vite",
     "build": "npm run understand:validate && npm run understand:import && npm run understand:check-public && npm run understand:check-ui && npm run biographies:validate && npm run biographies:import && npm run biographies:check-public && tsc -b && vite build && npm run understand:check-dist && npm run biographies:check-dist",
     "lint": "oxlint",

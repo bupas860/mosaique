@@ -30,6 +30,7 @@ export default function ExplorerCharactersPage() {
           <p className="explorer-eyebrow">Explorer</p>
           <h1>Personnages</h1>
           <p>Découvrez les parcours approfondis des dix-sept personnages fictifs de Mosaïque.</p>
+          <p><a href="#/personnages/mots-et-parcours" className="app-text-link">Mots et parcours</a></p>
         </header>
         {groups.map((group) => (
           <section key={group.id} className="explorer-gallery" aria-labelledby={`gallery-${group.id}`}>
@@ -44,7 +45,7 @@ export default function ExplorerCharactersPage() {
                     <p className="explorer-character-card__gallery">{biography.galleryLabel} · <span>{biography.id}</span></p>
                     <CharacterPublicTags characterId={biography.id} className="explorer-character-card__tags" />
                     <p className="explorer-character-card__description">{biography.shortDescription}</p>
-                    <a href={characterBiographyHash(biography.id)} onClick={rememberPosition} className="explorer-character-card__link">Découvrir son parcours<span className="sr-only"> — {biography.name}, {biography.id}</span></a>
+                    <a href={characterBiographyHash(biography.id)} onClick={rememberPosition} className="explorer-character-card__link">Découvrir son parcours<span className="sr-only"> — {biography.name}, {biography.galleryLabel}, {biography.id}</span></a>
                   </div>
                 </article>
               ))}

@@ -1,4 +1,4 @@
-import biographiesJson from "../generated-v2/public-biographies.json";
+import biographiesJson from "../public/publicCharacters.generated.json";
 import type { EditorialCharacterIdV2 } from "../../types/editorialV2";
 import type { PublicBiography } from "../../types/publicBiography";
 import { getCharacterPortraitV2 } from "./characterPortraitsV2";

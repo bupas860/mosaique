@@ -89,6 +89,7 @@ const publicRoots = filenames.filter((filename) => [
   /^src\/pages\/public\//,
   /^src\/components\/public\//,
   /^src\/features\/situations\//,
+  /^src\/features\/characters\//,
   /^src\/pages\/understand\//,
   /^src\/components\/understand\//,
   /^src\/data\/public\//,

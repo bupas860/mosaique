@@ -6,6 +6,7 @@ export type AppRoute =
   | { readonly kind: "game" }
   | { readonly kind: "explorer-characters" }
   | { readonly kind: "character-biography"; readonly characterId: EditorialCharacterIdV2 }
+  | { readonly kind: "characters-words" }
   | { readonly kind: "situations" }
   | { readonly kind: "situations-focal"; readonly focalSlug: "obstacles-visibles" | "normes-ordinaires" | "effets-invisibles" | "intersectionnalites" }
   | { readonly kind: "situation-detail"; readonly code: string }
@@ -43,7 +44,7 @@ export const understandGlossaryHash = (notionId?: string) => `${UNDERSTAND_HASH}
 export const understandBibliographyHash = (sourceId?: string) => `${UNDERSTAND_HASH}/bibliographie${sourceId ? `/${sourceId}` : ""}`;
 
 export function characterBiographyHash(characterId: EditorialCharacterIdV2): string {
-  return `${LEGACY_EXPLORER_CHARACTERS_HASH}/${characterId}`;
+  return `${PERSONNAGES_HASH}/${characterId.toLowerCase()}`;
 }
 
 function isLegacyUnderstandRoute(hash: string): boolean {
@@ -59,6 +60,15 @@ export function parseAppRoute(hash = window.location.hash): AppRoute {
   if (!hash || hash === "#" || hash === HOME_HASH) return { kind: "home" };
   if (hash === GAME_HASH) return { kind: "game" };
   if (hash === PERSONNAGES_HASH) return { kind: "explorer-characters" };
+  if (hash === `${PERSONNAGES_HASH}/mots-et-parcours`) return { kind: "characters-words" };
+  if (hash === `${PERSONNAGES_HASH}/quiz`) return { kind: "not-found", fragment: hash };
+  const characterRoute = hash.match(/^#\/personnages\/(p\d{2}|xp\d{2})$/i);
+  if (characterRoute) {
+    const characterId = characterRoute[1].toUpperCase() as EditorialCharacterIdV2;
+    if (!characterIds.has(characterId)) return { kind: "not-found", fragment: hash };
+    if (characterRoute[1] !== characterRoute[1].toLowerCase()) return { kind: "redirect", target: characterBiographyHash(characterId) };
+    return { kind: "character-biography", characterId };
+  }
   if (hash === SITUATIONS_HASH) return { kind: "situations" };
   const focalRoute = hash.match(/^#\/situations\/focales\/([a-z-]+)$/);
   if (focalRoute && focalSlugs.has(focalRoute[1] as never)) return { kind: "situations-focal", focalSlug: focalRoute[1] as "obstacles-visibles" | "normes-ordinaires" | "effets-invisibles" | "intersectionnalites" };
@@ -76,7 +86,7 @@ export function parseAppRoute(hash = window.location.hash): AppRoute {
   const match = hash.match(/^#\/explorer\/personnages\/(P\d{2}|XP\d{2})$/);
   if (match) {
     const characterId = match[1] as EditorialCharacterIdV2;
-    return characterIds.has(characterId) ? { kind: "character-biography", characterId } : { kind: "not-found", fragment: hash };
+    return characterIds.has(characterId) ? { kind: "redirect", target: characterBiographyHash(characterId) } : { kind: "not-found", fragment: hash };
   }
   return { kind: "not-found", fragment: hash };
 }

@@ -4,8 +4,9 @@ import BiographyAccordion from "../components/BiographyAccordion";
 import BiographyContentBlocks from "../components/BiographyContentBlocks";
 import CharacterPortrait from "../components/CharacterPortrait";
 import CharacterPublicTags from "../components/CharacterPublicTags";
-import type { RuntimePublicBiography } from "../data/v2/publicBiographiesV2";
+import { publicBiographiesV2, type RuntimePublicBiography } from "../data/v2/publicBiographiesV2";
 import { EXPLORER_CHARACTERS_HASH } from "../utils/appRoute";
+import { characterBiographyHash } from "../utils/appRoute";
 
 const groups = [
   { id: "overview", title: "Vue d’ensemble", sections: [1, 2, 11, 12] },
@@ -19,6 +20,9 @@ interface Props { biography: RuntimePublicBiography; }
 export default function CharacterBiographyPage({ biography }: Props) {
   const [openGroups, setOpenGroups] = useState<Readonly<Record<string, boolean>>>({ overview: true, journey: false, privacy: false, school: false });
   const buttonRefs = useMemo(() => Object.fromEntries(groups.map(({ id }) => [id, createRef<HTMLButtonElement>()])), []);
+  const biographyIndex = publicBiographiesV2.findIndex(({ id }) => id === biography.id);
+  const previous = biographyIndex > 0 ? publicBiographiesV2[biographyIndex - 1] : undefined;
+  const next = biographyIndex < publicBiographiesV2.length - 1 ? publicBiographiesV2[biographyIndex + 1] : undefined;
 
   function openFromSummary(id: string, event: React.MouseEvent<HTMLAnchorElement>) {
     event.preventDefault();
@@ -51,7 +55,7 @@ export default function CharacterBiographyPage({ biography }: Props) {
         </aside>
         <nav className="biography-summary" aria-label="Sommaire de la fiche">
           <h2>Sommaire de la fiche</h2>
-          <ul>{groups.map(({ id, title }) => <li key={id}><a href={`#/explorer/personnages/${biography.id}`} onClick={(event) => openFromSummary(id, event)}>{title}</a></li>)}</ul>
+          <ul>{groups.map(({ id, title }) => <li key={id}><a href={characterBiographyHash(biography.id)} onClick={(event) => openFromSummary(id, event)}>{title}</a></li>)}</ul>
         </nav>
         <div className="biography-accordions">
           {groups.map((group) => (
@@ -65,6 +69,14 @@ export default function CharacterBiographyPage({ biography }: Props) {
             </BiographyAccordion>
           ))}
         </div>
+        <section className="biography-journey-words" aria-labelledby="biography-journey-words-title">
+          <h2 id="biography-journey-words-title">Mots et parcours</h2>
+          <p><a href="#/personnages/mots-et-parcours">Comprendre les mots utilisés dans les biographies</a></p>
+        </section>
+        <nav className="biography-sequence" aria-label="Personnages précédent et suivant">
+          {previous ? <a href={characterBiographyHash(previous.id)}>Personnage précédent : {previous.name}, {previous.galleryLabel}</a> : <span />}
+          {next ? <a href={characterBiographyHash(next.id)}>Personnage suivant : {next.name}, {next.galleryLabel}</a> : null}
+        </nav>
         <a href={EXPLORER_CHARACTERS_HASH} className="app-text-link biography-back-link">Retour aux personnages</a>
       </div>
     </AppBackground>

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getCharacterPortraitAltV2 } from "../data/v2/publicBiographiesV2";
+import { getCharacterPortraitAltV2 } from "../data/public/characterPortraitAltsV2";
 import type { EditorialCharacterIdV2 } from "../types/editorialV2";
 
 export type CharacterPortraitSize = "card" | "compact" | "avatar" | "progress" | "summary";

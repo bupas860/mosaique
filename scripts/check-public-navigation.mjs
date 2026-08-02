@@ -21,7 +21,8 @@ const cases = [
   ["#/situations", "situations"], ["#/reperes", "reperes"],
   ["#/situations/focales/obstacles-visibles", "situations-focal"],
   ["#/situations/V01", "situation-detail"],
-  ["#/explorer/personnages/P01", "character-biography"],
+  ["#/personnages/p01", "character-biography"],
+  ["#/personnages/mots-et-parcours", "characters-words"],
   ["#/inconnue", "not-found"],
 ];
 for (const [hash, kind] of cases) {
@@ -30,6 +31,7 @@ for (const [hash, kind] of cases) {
 }
 const redirects = [
   ["#/explorer/personnages", "#/personnages"],
+  ["#/explorer/personnages/P01", "#/personnages/p01"],
   ["#/comprendre", "#/reperes"],
   ["#/comprendre/modules", "#/reperes"],
   ["#/comprendre/modules/M12/section/usage", "#/reperes"],
@@ -45,6 +47,10 @@ if (routes.parseAppRoute("#/situations/quiz").kind !== "not-found") throw new Er
 if (routes.parseAppRoute("#/situations/V1").kind !== "not-found" || routes.parseAppRoute("#/situations/X17").kind !== "not-found") throw new Error("Un code Situation approximatif est accepté");
 const lowercaseSituation = routes.parseAppRoute("#/situations/v01");
 if (lowercaseSituation.kind !== "redirect" || lowercaseSituation.target !== "#/situations/V01") throw new Error("La normalisation d’un code Situation minuscule est invalide");
+if (routes.parseAppRoute("#/personnages/quiz").kind !== "not-found") throw new Error("Le quiz Personnages est activé avant 8F");
+for (const invalid of ["#/personnages/P1", "#/personnages/P001", "#/personnages/XP8", "#/personnages/Noe", "#/personnages/Jade"]) if (routes.parseAppRoute(invalid).kind !== "not-found") throw new Error(`Identifiant Personnage approximatif accepté : ${invalid}`);
+const uppercaseCharacter = routes.parseAppRoute("#/personnages/XP08");
+if (uppercaseCharacter.kind !== "redirect" || uppercaseCharacter.target !== "#/personnages/xp08") throw new Error("La normalisation d’un identifiant Personnage majuscule est invalide");
 
 const home = await read("src/pages/public/PublicHomePage.tsx");
 const homeOrder = ["Jouer", "Personnages", "Situations", "Repères"].map((label) => home.indexOf(`title: "${label}"`));
@@ -69,7 +75,7 @@ for (const expected of [
   'document.title = titleForRoute(route)', 'document.getElementById("main-content")?.focus({ preventScroll: true })',
   'home: "Mosaïque"', 'game: "Jouer — Mosaïque"', '"not-found": "Page introuvable — Mosaïque"',
 ]) requireText(app, expected, "Routage public");
-if (app.includes('import("./pages/understand/') || app.includes('from "./game/GameApp"') || app.includes('from "./features/situations/SituationsApp"')) throw new Error("Chargement public non différé détecté");
+if (app.includes('import("./pages/understand/') || app.includes('from "./game/GameApp"') || app.includes('from "./features/situations/SituationsApp"') || app.includes('from "./features/characters/CharactersApp"')) throw new Error("Chargement public non différé détecté");
 
 const situations = await read("src/pages/public/StructuralPage.tsx");
 for (const forbidden of ["generated-v2", "matrix", "feedback", "understand", "139_"]) if (situations.includes(forbidden)) throw new Error(`Dépendance interdite dans la page structurelle : ${forbidden}`);

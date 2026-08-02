@@ -14,12 +14,8 @@ const unchangedVisibleFiles = [
   "src/pages/CharacterSelectionPage.tsx",
   "src/pages/GamePage.tsx",
   "src/pages/FinalSummaryPage.tsx",
-  "src/pages/ExplorerCharactersPage.tsx",
-  "src/pages/CharacterBiographyPage.tsx",
   "src/components/SituationCard.tsx",
-  "src/components/CharacterPortrait.tsx",
   "src/data/v2/situationIllustrationsV2.ts",
-  "src/data/v2/publicBiographiesV2.ts",
 ];
 for (const filename of unchangedVisibleFiles) {
   const current = await read(filename);
@@ -27,10 +23,17 @@ for (const filename of unchangedVisibleFiles) {
   if (current !== reference) throw new Error(`Contrat visible modifié hors périmètre : ${filename}`);
 }
 
+const portrait = await read("src/components/CharacterPortrait.tsx");
+const portraitReference = execFileSync("git", ["show", "HEAD:src/components/CharacterPortrait.tsx"], { cwd: root, encoding: "utf8" });
+const previousPortraitImport = 'import { getCharacterPortraitAltV2 } from "../data/v2/publicBiographiesV2";';
+const publicPortraitImport = 'import { getCharacterPortraitAltV2 } from "../data/public/characterPortraitAltsV2";';
+if (portrait.replace(publicPortraitImport, previousPortraitImport) !== portraitReference) throw new Error("Contrat visible du portrait modifié au-delà de sa source d’alternative");
+
 const app = await read("src/App.tsx");
 for (const expected of [
   'lazy(() => import("./game/GameApp"))',
   'lazy(() => import("./features/situations/SituationsApp"))',
+  'lazy(() => import("./features/characters/CharactersApp"))',
   'route.kind === "explorer-characters"',
   'route.kind === "character-biography"',
   'route.kind === "situations"',
@@ -63,5 +66,22 @@ for (const expected of [
   'kind: "not-found"',
 ]) requireText(routes, expected, "Route historique");
 
+const charactersGallery = await read("src/pages/ExplorerCharactersPage.tsx");
+const characterBiography = await read("src/pages/CharacterBiographyPage.tsx");
+const publicBiographiesFacade = await read("src/data/v2/publicBiographiesV2.ts");
+for (const expected of [
+  'import biographiesJson from "../public/publicCharacters.generated.json"',
+  "expectedIds", "catalogue incomplet ou mal ordonné", "publicBiographiesV2ById",
+]) requireText(publicBiographiesFacade, expected, "Façade publique Personnages 8D");
+for (const forbidden of ["matrix", "feedback", "decision", "game-config", "mosaic-data"]) {
+  if (publicBiographiesFacade.includes(forbidden)) throw new Error(`Dépendance opératoire dans la façade publique : ${forbidden}`);
+}
+for (const expected of ["publicBiographiesV2", "CharacterPortrait", "CharacterPublicTags", "biography.shortDescription", "Découvrir son parcours", "Mots et parcours"]) requireText(charactersGallery, expected, "Contrat galerie Personnages 8D");
+for (const expected of [
+  "BiographyAccordion", "biography.sections", "Mots et parcours", "Personnage précédent", "Personnage suivant", "Retour aux personnages",
+  "publicBiographiesV2.findIndex", "overview: true", "journey: false", "privacy: false", "school: false",
+  "À propos de cette fiche", "Les personnes informées varient selon les espaces.",
+]) requireText(characterBiography, expected, "Contrat biographie Personnages 8D");
+
 console.log(`Contrats visibles Jouer inchangés : ${unchangedVisibleFiles.length} fichiers comparés au commit HEAD.`);
-console.log("Parcours Jouer, chargement accessible, médias et routes par fragments : contrôlés.");
+console.log("Parcours Jouer, chargement accessible, médias, routes et contrats Personnages 8D : contrôlés.");

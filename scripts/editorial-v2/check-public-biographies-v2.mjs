@@ -6,6 +6,8 @@ import { parsePublicBiographiesV2 } from "./parse-public-biographies-v2.mjs";
 import { FORBIDDEN_PUBLIC_BIOGRAPHY_STRINGS, validatePublicBiographiesV2 } from "./validate-public-biographies-v2.mjs";
 
 const output = join(ROOT, "src/data/generated-v2/public-biographies.json");
+const alternativesOutput = join(ROOT, "src/data/generated-v2/public-character-alts.json");
+const publicCharactersOutput = join(ROOT, "src/data/public/publicCharacters.generated.json");
 
 function fail(message) { throw new Error(`Contrôle public des biographies — ${message}`); }
 
@@ -27,6 +29,11 @@ export function checkPublicBiographiesV2() {
     const source = expected.biographies.find(({ id }) => id === biography.id);
     if (!source || biography.shortDescription !== source.shortDescription || biography.portraitAlt !== source.portraitAlt) fail(`${biography.id} diffère de ses sources`);
   }
+  const alternatives = JSON.parse(readFileSync(alternativesOutput, "utf8"));
+  if (Object.keys(alternatives).length !== 17) fail("projection des alternatives incomplète");
+  for (const biography of generated.biographies) if (alternatives[biography.id] !== biography.portraitAlt) fail(`${biography.id} : projection alternative différente`);
+  const publicCharacters = JSON.parse(readFileSync(publicCharactersOutput, "utf8"));
+  if (publicCharacters.generatedNotice !== "Fichier généré. Ne pas modifier manuellement." || JSON.stringify(publicCharacters.biographies) !== JSON.stringify(generated.biographies)) fail("artefact navigateur Personnages incomplet ou différent");
   const routeSource = readFileSync(join(ROOT, "src/utils/appRoute.ts"), "utf8");
   const appSource = readFileSync(join(ROOT, "src/App.tsx"), "utf8");
   const gallerySource = readFileSync(join(ROOT, "src/pages/ExplorerCharactersPage.tsx"), "utf8");
