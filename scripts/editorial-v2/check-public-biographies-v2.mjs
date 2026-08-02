@@ -33,6 +33,7 @@ export function checkPublicBiographiesV2() {
   const biographySource = readFileSync(join(ROOT, "src/pages/CharacterBiographyPage.tsx"), "utf8");
   const selectionSource = readFileSync(join(ROOT, "src/pages/CharacterSelectionPage.tsx"), "utf8");
   const publicTagsSource = readFileSync(join(ROOT, "src/data/v2/characterPublicTagsV2.ts"), "utf8");
+  const publicTagsProjection = readFileSync(join(ROOT, "src/data/public/characterPublicTagsV2.ts"), "utf8");
   const publicTagsComponent = readFileSync(join(ROOT, "src/components/CharacterPublicTags.tsx"), "utf8");
   if (!routeSource.includes('EXPLORER_CHARACTERS_HASH = "#/explorer/personnages"') || !routeSource.includes("characterBiographyHash") || !routeSource.includes('kind: "not-found"')) fail("routes galerie, biographies ou inconnue incomplètes");
   if (generated.biographies.some(({ name }) => routeSource.includes(`/personnages/${name}`))) fail("route fondée sur un prénom");
@@ -46,7 +47,9 @@ export function checkPublicBiographiesV2() {
     const second = generated.biographies.find(({ id }) => id === secondId);
     if (!first || !second || first.name !== second.name) fail(`couple d’homonymes distinct absent : ${firstId}/${secondId}`);
   }
-  if (!publicTagsSource.includes("playableCharactersV2") || !publicTagsSource.includes("intersectionalCharactersV2") || !publicTagsSource.includes("sourceCharactersById.get(characterId)")) fail("source ou jointure par identifiant des étiquettes publiques absente");
+  if (!publicTagsSource.includes('from "../public/characterPublicTagsV2"') || !publicTagsSource.includes("publicCharacterTagsV2[characterId]")) fail("projection publique ou jointure par identifiant des étiquettes absente");
+  if (publicTagsSource.includes("playableCharactersV2") || publicTagsSource.includes("intersectionalCharactersV2") || publicTagsProjection.includes("feedbacksByCharacter") || publicTagsProjection.includes("gamePoints")) fail("dépendance opératoire présente dans les étiquettes publiques");
+  for (const id of expectedIds) if (!publicTagsProjection.includes(`${id}: [`)) fail(`étiquettes publiques absentes : ${id}`);
   if (publicTagsSource.includes("character.name") || publicTagsSource.includes("biography.name")) fail("jointure des étiquettes fondée sur un prénom");
   if (!publicTagsComponent.includes("getCharacterPublicTagsV2(characterId)") || !publicTagsComponent.includes("<ul") || !publicTagsComponent.includes("<li")) fail("composant sémantique partagé des étiquettes absent");
   for (const [label, source] of [["sélection", selectionSource], ["galerie Explorer", gallerySource], ["fiche biographique", biographySource]]) {
