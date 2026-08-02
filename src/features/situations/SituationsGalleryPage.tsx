@@ -17,6 +17,7 @@ export default function SituationsGalleryPage() {
         {publicSituationsIntroduction.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         <p className="public-situations-counts"><strong>61 situations</strong><span>53 obstacles</span><span>8 protections</span></p>
         <aside className="public-situations-warning"><strong>{publicSituationsIntroduction.warningTitle}</strong><p>{publicSituationsIntroduction.warning}</p></aside>
+        <p><a href="#/situations/quiz" className="app-text-link">Quiz Situations</a></p>
       </header>
       <nav className="public-focal-links" aria-label="Explorer les focales">
         {publicFocals.map((item) => <a key={item.id} href={`#/situations/focales/${item.slug}`}>{item.label}</a>)}

@@ -9,6 +9,8 @@ const SituationsApp = lazy(() => import("./features/situations/SituationsApp"));
 const CharactersApp = lazy(() => import("./features/characters/CharactersApp"));
 const ReperesApp = lazy(() => import("./features/reperes/ReperesApp"));
 const UsefulWordsApp = lazy(() => import("./features/useful-words/UsefulWordsApp"));
+const CharacterQuizApp = lazy(() => import("./features/quiz/CharacterQuizApp"));
+const SituationQuizApp = lazy(() => import("./features/quiz/SituationQuizApp"));
 
 const routeTitles: Partial<Record<AppRoute["kind"], string>> = {
   home: "Mosaïque",
@@ -39,6 +41,8 @@ function usefulWordsPage(route: Extract<AppRoute, { kind: "useful-words" | "usef
   return <Suspense fallback={<main className="game-loading" aria-busy="true" aria-live="polite"><p>Chargement des mots utiles…</p></main>}><UsefulWordsApp route={route} /></Suspense>;
 }
 
+const quizLoading = <main className="game-loading" aria-busy="true" aria-live="polite"><p>Chargement du quiz…</p></main>;
+
 function pageForRoute(route: AppRoute): ReactNode {
   if (route.kind === "home") return <PublicHomePage />;
   if (route.kind === "game") return gamePage();
@@ -46,6 +50,8 @@ function pageForRoute(route: AppRoute): ReactNode {
   if (route.kind === "situations" || route.kind === "situations-focal" || route.kind === "situation-detail") return situationsPage(route);
   if (route.kind === "reperes" || route.kind === "repere-detail") return reperesPage(route);
   if (route.kind === "useful-words" || route.kind === "useful-word-detail") return usefulWordsPage(route);
+  if (route.kind === "character-quiz") return <Suspense fallback={quizLoading}><CharacterQuizApp /></Suspense>;
+  if (route.kind === "situation-quiz") return <Suspense fallback={quizLoading}><SituationQuizApp /></Suspense>;
   return <NotFoundPage />;
 }
 
@@ -61,7 +67,7 @@ export default function App() {
     window.location.replace(route.target);
   }, [route]);
   useEffect(() => {
-    if (route.kind === "redirect" || route.kind === "situations" || route.kind === "situations-focal" || route.kind === "situation-detail" || route.kind === "explorer-characters" || route.kind === "character-biography" || route.kind === "characters-words" || route.kind === "reperes" || route.kind === "repere-detail" || route.kind === "useful-words" || route.kind === "useful-word-detail") return;
+    if (route.kind === "redirect" || route.kind === "situations" || route.kind === "situations-focal" || route.kind === "situation-detail" || route.kind === "explorer-characters" || route.kind === "character-biography" || route.kind === "characters-words" || route.kind === "reperes" || route.kind === "repere-detail" || route.kind === "useful-words" || route.kind === "useful-word-detail" || route.kind === "character-quiz" || route.kind === "situation-quiz") return;
     document.title = titleForRoute(route);
     window.requestAnimationFrame(() => {
       document.getElementById("main-content")?.focus({ preventScroll: true });

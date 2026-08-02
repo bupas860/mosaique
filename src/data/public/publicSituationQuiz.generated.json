@@ -1,0 +1,137 @@
+{
+  "generatedNotice": "Fichier généré. Ne pas modifier manuellement.",
+  "quiz": {
+    "title": "Quiz Situations",
+    "meta": "8 situations — deux réponses pour chaque situation",
+    "questions": [
+      {
+        "position": 1,
+        "code": "N02",
+        "title": "Le formulaire « Père — Mère »",
+        "illustrationFile": "n02.webp",
+        "altText": "Vu par-dessus l’épaule d’un élève, un formulaire scolaire ne prévoit que deux responsables, représentés par un homme et une femme.",
+        "canonicalText": "Pour participer à une sortie scolaire, les élèves doivent faire compléter un formulaire.\nDeux rubriques sont prévues pour les responsables de l’élève :\n• « Nom et signature du père » ;\n• « Nom et signature de la mère ».\nAucune autre possibilité n’est indiquée.",
+        "expectedFocal": "Normes ordinaires",
+        "expectedRole": "obstacle",
+        "feedback": [
+          "Focale principale : Normes ordinaires. Rôle : obstacle.",
+          "L’obstacle est incorporé au formulaire : les deux rubriques présentent un père et une mère comme la configuration prévue pour toutes les familles. Les autres configurations doivent alors corriger le document ou s’expliquer, même sans propos hostile. Le problème se trouve dans les catégories proposées, pas dans la famille qui ne leur correspond pas.",
+          "Détail central : aucune rubrique ouverte ni autre configuration n’est prévue.\nUne autre lecture possible : la scène montre aussi le pouvoir d’une institution lorsqu’elle choisit les catégories disponibles."
+        ],
+        "remember": "Une procédure apparemment ordinaire peut imposer un travail supplémentaire aux situations qu’elle n’a pas prévues."
+      },
+      {
+        "position": 2,
+        "code": "V10",
+        "title": "Le soutien d’un camarade",
+        "illustrationFile": "v10.webp",
+        "altText": "Autour d’une table, un lycéen interrompt calmement une conversation sur une personne absente, pose une main sur un téléphone et redirige le groupe vers une autre activité.",
+        "canonicalText": "Des élèves commencent à commenter l’orientation, l’identité ou la famille d’une personne absente. Un camarade répond : « Cela ne nous regarde pas. On arrête. » Il change ensuite de sujet sans demander à la personne concernée de s’expliquer.",
+        "expectedFocal": "Obstacles visibles",
+        "expectedRole": "protection",
+        "feedback": [
+          "Focale principale : Obstacles visibles. Rôle : protection.",
+          "L’intervention est directement observable : le camarade arrête la conversation, rappelle une limite et change de sujet. Il ne confirme ni ne dément l’information commentée. Cette action réduit le risque de rumeur et évite que la personne absente doive venir s’expliquer. La protection reste située : elle ne garantit pas que la conversation ne reprendra jamais.",
+          "Détail central : le camarade agit sur la conversation sans révéler l’information ni parler au nom de la personne.\nUne autre lecture possible : un pair peut protéger sans attendre l’intervention d’un adulte."
+        ],
+        "remember": "Soutenir peut consister à poser une limite sans s’approprier l’information d’une autre personne."
+      },
+      {
+        "position": 3,
+        "code": "X01",
+        "title": "La chambre accessible",
+        "illustrationFile": "x01.webp",
+        "altText": "Dans un hébergement scolaire, deux adultes consultent un plan devant la seule chambre accessible, située dans la partie signalée comme féminine.",
+        "canonicalText": "Pendant un séjour scolaire, la seule chambre accessible aux personnes utilisant un fauteuil se trouve dans la partie réservée aux filles.\nLa répartition entre les espaces « filles » et « garçons » est réalisée à partir des informations administratives.",
+        "expectedFocal": "Intersectionnalités",
+        "expectedRole": "obstacle",
+        "feedback": [
+          "Focale principale : Intersectionnalités. Rôle : obstacle.",
+          "L’obstacle vient de l’articulation de deux organisations : une seule chambre accessible et une répartition genrée fondée sur les informations administratives. La solution prévue pour l’accès physique peut ainsi imposer une catégorie inadaptée ou rendre une information plus visible. Cette configuration précise explique la focale ; elle ne concerne pas automatiquement toutes les personnes utilisant un fauteuil ni toutes les personnes trans.",
+          "Détail central : la chambre accessible unique est déjà située dans un espace genré.\nUne autre lecture possible : les catégories administratives et l’organisation matérielle exercent aussi un pouvoir sur les choix disponibles."
+        ],
+        "remember": "Deux organisations pensées séparément peuvent produire ensemble un obstacle particulier."
+      },
+      {
+        "position": 4,
+        "code": "I01",
+        "title": "Sensibiliser par la peur",
+        "illustrationFile": "i01.webp",
+        "altText": "Dans une salle de formation, un adulte présente quatre scènes montrant uniquement l’isolement, le rejet, l’exclusion et le recours à une personne de soutien.",
+        "canonicalText": "Pendant une séance d’éducation à la vie affective, relationnelle et sexuelle, l’enseignant présente les réalités vécues par les personnes LGBT+.\nIl parle longuement du harcèlement, des agressions, des discriminations, de la souffrance psychologique et du risque suicidaire.\nAucun exemple de relation heureuse, de soutien, de réussite ou de vie ordinaire n’est présenté.",
+        "expectedFocal": "Effets invisibles",
+        "expectedRole": "obstacle",
+        "feedback": [
+          "Focale principale : Effets invisibles. Rôle : obstacle.",
+          "La séance aborde des violences réelles, mais tous les exemples suivent le même cadrage. Le problème n’est pas de parler du harcèlement ou des discriminations : il vient de leur présentation comme unique récit des vies LGBT+. D’autres relations, soutiens, réussites et parcours ordinaires deviennent alors moins imaginables, sans que Mosaïque attribue une réaction identique à chaque élève.",
+          "Détail central : l’absence complète de récits ordinaires, positifs ou soutenants.\nUne autre lecture possible : une intention pédagogique légitime ne suffit pas à déterminer les effets du support."
+        ],
+        "remember": "Un cadrage peut produire un effet par ce qu’il répète et par ce qu’il laisse absent."
+      },
+      {
+        "position": 5,
+        "code": "N13",
+        "title": "L’organisation préparée en privé",
+        "illustrationFile": "n13.webp",
+        "altText": "Avant un séjour, un adulte présente individuellement à un élève plusieurs options pour les chambres, les douches et les vestiaires dans un échange confidentiel.",
+        "canonicalText": "Avant un séjour scolaire, un adulte présente individuellement aux élèves l’organisation prévue pour :\n• les chambres ;\n• les douches ;\n• les vestiaires.\nIl demande à chacun si cette organisation lui convient. Une adaptation peut être demandée sans avoir à se justifier devant la classe.",
+        "expectedFocal": "Normes ordinaires",
+        "expectedRole": "protection",
+        "feedback": [
+          "Focale principale : Normes ordinaires. Rôle : protection.",
+          "La protection se trouve dans une procédure préparée avant le séjour. L’adulte présente l’organisation individuellement, demande si elle convient et permet de solliciter une adaptation sans justification devant la classe. Cette préparation limite l’exposition d’informations personnelles et fait participer l’élève. Elle ne promet pas que toute demande sera satisfaite, mais ouvre un espace pour examiner un ajustement avant qu’un problème ne survienne.",
+          "Détail central : l’échange individuel et la possibilité ordinaire de demander une adaptation.\nUne autre lecture possible : la scène invite aussi à regarder la participation de l’élève aux décisions."
+        ],
+        "remember": "Une procédure ordinaire peut protéger lorsqu’elle anticipe les besoins sans imposer un dévoilement public."
+      },
+      {
+        "position": 6,
+        "code": "X13",
+        "title": "Une adaptation coordonnée",
+        "illustrationFile": "x13.webp",
+        "altText": "Autour d’une table ronde, un élève utilise un stylet pour désigner une solution centrale reliant les besoins de déplacement, d’organisation collective, de confidentialité, de transport et de ressources, tandis que deux adultes prennent des notes.",
+        "canonicalText": "Avant une activité, l’équipe échange individuellement avec l’élève.\nLa solution retenue prend en compte simultanément l’accessibilité, l’identité de genre, la confidentialité et les ressources de la famille. L’élève participe aux décisions et aucune information inutile n’est transmise.",
+        "expectedFocal": "Intersectionnalités",
+        "expectedRole": "protection",
+        "feedback": [
+          "Focale principale : Intersectionnalités. Rôle : protection.",
+          "La solution relie plusieurs besoins dans une même décision : accessibilité, identité de genre, confidentialité et ressources familiales. L’équipe vérifie ainsi qu’une réponse à une difficulté n’en crée pas une autre. L’élève participe au choix et les informations inutiles ne circulent pas. La scène montre une coordination protectrice, sans promettre que toutes les contraintes disparaissent.",
+          "Détail central : une solution unique est construite avec l’élève en vérifiant plusieurs dimensions ensemble.\nUne autre lecture possible : la participation de l’élève redistribue aussi le pouvoir de décision."
+        ],
+        "remember": "Une protection intersectionnelle coordonne les réponses au lieu de traiter chaque besoin isolément."
+      },
+      {
+        "position": 7,
+        "code": "V01",
+        "title": "Si tu bouges, tu es gay",
+        "illustrationFile": "v01.webp",
+        "altText": "Dans la cour du lycée, plusieurs élèves restent volontairement immobiles en riant, tandis qu’un camarade intervient calmement et qu’un autre minimise sa remarque.",
+        "canonicalText": "Dans la cour, plusieurs élèves lancent un jeu : « Si tu bouges, tu es gay. » Les élèves rient et essaient de rester immobiles. Lorsqu’une personne fait remarquer que le jeu est homophobe, on lui répond : « Mais c’est juste un jeu. »",
+        "expectedFocal": "Obstacles visibles",
+        "expectedRole": "obstacle",
+        "feedback": [
+          "Focale principale : Obstacles visibles. Rôle : obstacle.",
+          "La règle du jeu associe le fait d’être gay au résultat à éviter. Elle est prononcée devant le groupe, puis la remarque qui nomme l’homophobie est minimisée. L’obstacle est donc directement observable, même si le ton reste léger. La focale ne porte pas sur l’orientation réelle des participants et ne permet pas de prévoir le même effet pour chaque élève.",
+          "Détail central : l’homosexualité sert de sanction dans la règle, puis le problème est minimisé.\nUne autre lecture possible : le rire du groupe contribue aussi à rendre cette règle acceptable."
+        ],
+        "remember": "Le ton du jeu ne neutralise pas la règle visible qui organise la scène."
+      },
+      {
+        "position": 8,
+        "code": "I14",
+        "title": "Une histoire ordinaire",
+        "illustrationFile": "i14.webp",
+        "altText": "Dans un cours de lettres, une projection montre un enfant et ses deux mères réunis autour d’une carte, de sacs de voyage et d’une loupe pour résoudre une énigme.",
+        "canonicalText": "Le roman étudié en classe comporte un personnage qui vit avec ses deux mères.\nCette famille participe à l’histoire comme les autres personnages.\nElle n’est présentée ni comme un problème, ni comme le sujet principal du récit.",
+        "expectedFocal": "Effets invisibles",
+        "expectedRole": "protection",
+        "feedback": [
+          "Focale principale : Effets invisibles. Rôle : protection.",
+          "La famille avec deux mères est visible dans le roman sans être réduite à un problème, une exception ou un sujet unique. Elle participe à l’intrigue comme les autres personnages. Cette représentation ordinaire élargit les modèles disponibles sans demander aux élèves de parler de leur propre vie. Une scène isolée ne garantit toutefois pas tout le climat scolaire.",
+          "Détail central : la famille prend part à l’histoire au-delà de sa configuration familiale.\nUne autre lecture possible : les personnages disposent d’une fonction narrative qui ne se limite pas à représenter leur famille."
+        ],
+        "remember": "Une représentation peut protéger en rendant plusieurs vies ordinaires sans transformer chaque différence en problème."
+      }
+    ]
+  }
+}

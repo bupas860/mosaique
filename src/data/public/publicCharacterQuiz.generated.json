@@ -1,0 +1,379 @@
+{
+  "generatedNotice": "Fichier généré. Ne pas modifier manuellement.",
+  "quiz": {
+    "title": "Quiz Personnages",
+    "meta": "8 questions — environ 4 à 6 minutes",
+    "introduction": "Retrouve les distinctions utiles pour lire les biographies de Mosaïque. Une correction expliquée apparaît après chaque question. Tu peux prendre le temps de la relire, puis recommencer la même série.",
+    "questions": [
+      {
+        "id": "QP01",
+        "title": "Orientation sexuelle et identité de genre",
+        "format": "QCM à une réponse.",
+        "introduction": "Aucune.",
+        "question": "Quelle proposition distingue correctement l’orientation sexuelle de l’identité de genre ?",
+        "instruction": "Une seule réponse attendue.",
+        "responseType": "single",
+        "options": [
+          {
+            "id": "A",
+            "label": "L’orientation sexuelle concerne l’attirance sexuelle, ou son absence ; l’identité de genre concerne la manière dont une personne se définit."
+          },
+          {
+            "id": "B",
+            "label": "L’orientation sexuelle décrit les pronoms ; l’identité de genre décrit la coiffure et les vêtements."
+          },
+          {
+            "id": "C",
+            "label": "Orientation sexuelle et identité de genre sont deux noms pour la même information."
+          },
+          {
+            "id": "D",
+            "label": "L’identité de genre indique automatiquement envers qui une personne éprouve de l’attirance."
+          }
+        ],
+        "associationPrompts": [],
+        "expected": [
+          "A"
+        ],
+        "feedback": "L’orientation sexuelle concerne la manière dont une personne peut éprouver, ou non, de l’attirance sexuelle. L’identité de genre concerne la manière dont elle se définit par rapport au genre. Ces deux notions répondent à des questions différentes : connaître l’une ne permet pas de déduire l’autre.",
+        "remember": "Orientation sexuelle et identité de genre ne décrivent pas la même dimension d’une personne.",
+        "usefulWords": [
+          {
+            "id": "MU-ORI",
+            "label": "orientation sexuelle"
+          },
+          {
+            "id": "MU-IDG",
+            "label": "identité de genre"
+          }
+        ]
+      },
+      {
+        "id": "QP02",
+        "title": "Identité et expression de genre",
+        "format": "Courte situation suivie d’un QCM à une réponse.",
+        "introduction": "Un garçon dit qu’il est un garçon. Aujourd’hui, il porte du vernis.",
+        "question": "Que permet d’affirmer le fait qu’il porte du vernis ?",
+        "instruction": "Une seule réponse attendue.",
+        "responseType": "single",
+        "options": [
+          {
+            "id": "A",
+            "label": "Le vernis est un élément observable de sa manière de se présenter ; il ne prouve ni une autre identité ni une orientation sexuelle."
+          },
+          {
+            "id": "B",
+            "label": "Le vernis prouve que son identité de genre a changé."
+          },
+          {
+            "id": "C",
+            "label": "Le vernis permet de connaître son orientation sexuelle."
+          },
+          {
+            "id": "D",
+            "label": "Le vernis permet de décider à sa place s’il est vraiment un garçon."
+          }
+        ],
+        "associationPrompts": [],
+        "expected": [
+          "A"
+        ],
+        "feedback": "Le vernis appartient ici à ce que l’on peut observer dans l’expression de genre. Une apparence, une voix ou une activité ne prouve pas une identité et ne révèle pas une orientation sexuelle. Seule la personne peut indiquer les mots qu’elle emploie pour parler de son identité.",
+        "remember": "On peut décrire une expression sans deviner une identité.",
+        "usefulWords": [
+          {
+            "id": "MU-EXG",
+            "label": "expression de genre"
+          },
+          {
+            "id": "MU-IDG",
+            "label": "identité de genre"
+          }
+        ]
+      },
+      {
+        "id": "QP03",
+        "title": "Caractéristiques sexuées et identité de genre",
+        "format": "QCM à une réponse.",
+        "introduction": "Aucune.",
+        "question": "Quelle affirmation est correcte ?",
+        "instruction": "Une seule réponse attendue.",
+        "responseType": "single",
+        "options": [
+          {
+            "id": "A",
+            "label": "Les caractéristiques sexuées concernent le corps et ne déterminent pas automatiquement l’identité de genre."
+          },
+          {
+            "id": "B",
+            "label": "Les caractéristiques sexuées permettent toujours de connaître l’identité de genre."
+          },
+          {
+            "id": "C",
+            "label": "Une personne intersexe est nécessairement non binaire."
+          },
+          {
+            "id": "D",
+            "label": "L’intersexuation peut être reconnue avec certitude sur une photographie."
+          }
+        ],
+        "associationPrompts": [],
+        "expected": [
+          "A"
+        ],
+        "feedback": "Les caractéristiques sexuées concernent notamment différents aspects du corps. Elles ne déterminent pas automatiquement l’identité de genre. Une personne intersexe peut être cisgenre, trans ou non binaire. L’intersexuation ne se déduit pas d’un visage, d’une silhouette ou d’une photographie.",
+        "remember": "Les caractéristiques du corps et l’identité de genre sont deux dimensions distinctes.",
+        "usefulWords": [
+          {
+            "id": "MU-CSX",
+            "label": "caractéristiques sexuées"
+          },
+          {
+            "id": "MU-IDG",
+            "label": "identité de genre"
+          },
+          {
+            "id": "MU-INT",
+            "label": "intersexuation"
+          }
+        ]
+      },
+      {
+        "id": "QP04",
+        "title": "Pronoms",
+        "format": "QCM à plusieurs réponses.",
+        "introduction": "Noé indique qu’il utilise le pronom « il ». Toutes les informations nécessaires sont données dans cette phrase.",
+        "question": "Quelles affirmations sont correctes à partir de cette information ?",
+        "instruction": "Plusieurs réponses possibles. Sélectionne toutes les réponses exactes, puis valide.",
+        "responseType": "multiple",
+        "options": [
+          {
+            "id": "A",
+            "label": "Employer « il » pour parler de Noé."
+          },
+          {
+            "id": "B",
+            "label": "Ne pas déduire son orientation sexuelle de ce pronom."
+          },
+          {
+            "id": "C",
+            "label": "Ne pas déduire ses caractéristiques corporelles de ce pronom."
+          },
+          {
+            "id": "D",
+            "label": "Ne pas déduire ses démarches ni son parcours complet de ce pronom."
+          },
+          {
+            "id": "E",
+            "label": "En déduire que Noé est nécessairement hétérosexuel."
+          },
+          {
+            "id": "F",
+            "label": "En déduire que Noé a entrepris toutes les démarches administratives et médicales possibles."
+          }
+        ],
+        "associationPrompts": [],
+        "expected": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "feedback": "Le pronom indiqué permet de parler de Noé correctement : ici, on emploie « il ». Il ne permet pas de connaître son orientation sexuelle, ses caractéristiques corporelles, ses démarches administratives ou médicales, ni toute son histoire. Respecter un pronom n’exige pas d’enquêter sur le parcours d’une personne.",
+        "remember": "Un pronom indique comment parler d’une personne, pas tout ce qu’il y aurait à savoir sur elle.",
+        "usefulWords": [
+          {
+            "id": "MU-PRO",
+            "label": "pronoms"
+          }
+        ]
+      },
+      {
+        "id": "QP05",
+        "title": "Coming in, coming out et outing",
+        "format": "Association entre trois situations et trois termes.",
+        "introduction": "Trois moments différents sont décrits.",
+        "question": "Associe chaque situation au terme correspondant.",
+        "instruction": "Une réponse pour chaque situation. Utilise chaque terme une fois, puis valide l’ensemble.",
+        "responseType": "association",
+        "options": [
+          {
+            "id": "coming in",
+            "label": "coming in"
+          },
+          {
+            "id": "coming out",
+            "label": "coming out"
+          },
+          {
+            "id": "outing",
+            "label": "outing"
+          }
+        ],
+        "associationPrompts": [
+          {
+            "id": "1",
+            "label": "Une élève trouve un mot qui lui correspond et choisit de garder cette réflexion pour elle pour le moment."
+          },
+          {
+            "id": "2",
+            "label": "Un lycéen choisit de parler de son orientation à un ami."
+          },
+          {
+            "id": "3",
+            "label": "Une personne révèle à un groupe une information sur quelqu’un d’autre sans son accord."
+          }
+        ],
+        "expected": [
+          "1 → coming in",
+          "2 → coming out",
+          "3 → outing."
+        ],
+        "feedback": "Le coming in désigne ici une reconnaissance ou une nomination pour soi ; il peut être simple et n’oblige pas à parler ensuite. Le coming out est une annonce choisie à une personne ou dans un contexte. L’outing est une divulgation faite par quelqu’un d’autre sans l’accord de la personne concernée.",
+        "remember": "Reconnaître pour soi, choisir d’annoncer et voir une information divulguée sont trois situations différentes.",
+        "usefulWords": [
+          {
+            "id": "MU-CIN",
+            "label": "coming in"
+          },
+          {
+            "id": "MU-COU",
+            "label": "coming out"
+          },
+          {
+            "id": "MU-OUT",
+            "label": "outing"
+          }
+        ]
+      },
+      {
+        "id": "QP06",
+        "title": "Le coming out est-il obligatoire ?",
+        "format": "Vrai ou faux nuancé.",
+        "introduction": "Aucune.",
+        "question": "Vrai ou faux ? C’est à la personne concernée de choisir si, quand, dans quel contexte et à qui elle souhaite faire un coming out.",
+        "instruction": "Une seule réponse attendue : vrai ou faux.",
+        "responseType": "single",
+        "options": [
+          {
+            "id": "V",
+            "label": "Vrai"
+          },
+          {
+            "id": "F",
+            "label": "Faux"
+          }
+        ],
+        "associationPrompts": [],
+        "expected": [
+          "V"
+        ],
+        "feedback": "Une personne choisit si elle souhaite parler d’une information personnelle, ainsi que le moment, le contexte et les destinataires. Un coming out auprès d’une personne n’autorise pas une diffusion générale. Ne pas faire de coming out n’enlève aucune légitimité ; en faire un n’est ni une obligation ni une preuve de courage.",
+        "remember": "Le coming out est un choix situé, jamais une condition pour être légitime.",
+        "usefulWords": [
+          {
+            "id": "MU-COU",
+            "label": "coming out"
+          },
+          {
+            "id": "MU-CONF",
+            "label": "confidentialité"
+          }
+        ]
+      },
+      {
+        "id": "QP07",
+        "title": "Diversité des parcours trans et non binaires",
+        "format": "QCM à plusieurs réponses.",
+        "introduction": "Aucune.",
+        "question": "Quelles affirmations respectent la diversité des parcours trans et non binaires ?",
+        "instruction": "Plusieurs réponses possibles. Sélectionne toutes les réponses exactes, puis valide.",
+        "responseType": "multiple",
+        "options": [
+          {
+            "id": "A",
+            "label": "Une personne peut modifier sa présentation sociale, ou ne pas souhaiter le faire."
+          },
+          {
+            "id": "B",
+            "label": "Une personne peut entreprendre certaines démarches administratives, souhaiter certaines démarches médicales, ou ne souhaiter aucune de ces démarches."
+          },
+          {
+            "id": "C",
+            "label": "La souffrance et la dysphorie ne sont pas universelles."
+          },
+          {
+            "id": "D",
+            "label": "Un parcours peut aussi comprendre de la reconnaissance, du soulagement ou de l’euphorie de genre."
+          },
+          {
+            "id": "E",
+            "label": "Toutes les personnes trans et non binaires souhaitent exactement les mêmes démarches."
+          },
+          {
+            "id": "F",
+            "label": "Les étapes sociales, administratives et médicales doivent toujours être suivies dans le même ordre."
+          }
+        ],
+        "associationPrompts": [],
+        "expected": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "feedback": "Il n’existe pas de parcours unique. Une personne peut modifier ou non sa présentation sociale, entreprendre ou non des démarches administratives et souhaiter ou non des démarches médicales. La souffrance ou la dysphorie n’est pas universelle. Un parcours peut aussi comporter de la reconnaissance, du soulagement, des expériences ordinaires ou de l’euphorie de genre.",
+        "remember": "Une identité n’impose ni étapes, ni démarches, ni vécu émotionnel unique.",
+        "usefulWords": [
+          {
+            "id": "MU-TRA",
+            "label": "transidentité"
+          },
+          {
+            "id": "MU-NBI",
+            "label": "non-binarité"
+          }
+        ]
+      },
+      {
+        "id": "QP08",
+        "title": "Confidentialité dans l’histoire",
+        "format": "Information publique d’un personnage suivie d’un QCM à une réponse.",
+        "introduction": "Dans la galerie générale, la fiche de Jade indique qu’elle est lesbienne et en couple avec une fille d’une autre classe. Sa petite amie et trois amis sont informés. Sa famille, la majorité de la classe et les professionnels du lycée ne le sont pas.",
+        "question": "Dans une scène avec un adulte du lycée, quelle lecture respecte ces informations ?",
+        "instruction": "Une seule réponse attendue.",
+        "responseType": "single",
+        "options": [
+          {
+            "id": "A",
+            "label": "Le joueur connaît l’orientation de Jade, mais il ne suppose pas que l’adulte la connaît si la scène ne l’indique pas."
+          },
+          {
+            "id": "B",
+            "label": "Puisque l’information apparaît dans la fiche publique, tous les adultes de l’histoire la connaissent."
+          },
+          {
+            "id": "C",
+            "label": "Les amis informés peuvent transmettre l’information à la classe sans demander l’accord de Jade."
+          },
+          {
+            "id": "D",
+            "label": "L’adulte peut déduire l’orientation de Jade à partir de son apparence ou de ses activités."
+          }
+        ],
+        "associationPrompts": [],
+        "expected": [
+          "A"
+        ],
+        "feedback": "Le site donne au joueur des informations pour analyser l’histoire, mais les personnes de la scène ne connaissent que ce qui est explicitement indiqué. Une information vraie et visible dans une fiche n’est pas automatiquement publique dans l’univers du personnage. Sa circulation dépend aussi du contexte, des destinataires et de l’accord de Jade.",
+        "remember": "Ce que sait le joueur n’est pas automatiquement connu des personnes dans l’histoire.",
+        "usefulWords": [
+          {
+            "id": "MU-CONF",
+            "label": "confidentialité"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -19,15 +19,19 @@ const situationsChunk = chunks.find((chunk) => Object.keys(chunk.modules).some((
 const charactersChunk = chunks.find((chunk) => Object.keys(chunk.modules).some((id) => relative(id) === "src/features/characters/CharactersApp.tsx"));
 const reperesChunk = chunks.find((chunk) => Object.keys(chunk.modules).some((id) => relative(id) === "src/features/reperes/ReperesApp.tsx"));
 const usefulWordsChunk = chunks.find((chunk) => Object.keys(chunk.modules).some((id) => relative(id) === "src/features/useful-words/UsefulWordsApp.tsx"));
+const characterQuizChunk = chunks.find((chunk) => Object.keys(chunk.modules).some((id) => relative(id) === "src/features/quiz/CharacterQuizApp.tsx"));
+const situationQuizChunk = chunks.find((chunk) => Object.keys(chunk.modules).some((id) => relative(id) === "src/features/quiz/SituationQuizApp.tsx"));
 if (!mainChunk) throw new Error("Chunk d’entrée principal introuvable");
 if (!gameChunk) throw new Error("Chunk du point d’entrée Jouer introuvable");
 if (!situationsChunk) throw new Error("Chunk du point d’entrée Situations introuvable");
 if (!charactersChunk) throw new Error("Chunk du point d’entrée Personnages introuvable");
 if (!reperesChunk || !usefulWordsChunk) throw new Error("Chunk Repères ou Mots utiles introuvable");
+if (!characterQuizChunk || !situationQuizChunk) throw new Error("Chunk Quiz Personnages ou Quiz Situations introuvable");
 if (mainChunk.fileName === gameChunk.fileName) throw new Error("Le point d’entrée Jouer est fusionné avec le chunk principal");
 if (mainChunk.fileName === situationsChunk.fileName || gameChunk.fileName === situationsChunk.fileName) throw new Error("Le point d’entrée Situations n’est pas isolé des chunks principal et Jouer");
 if ([mainChunk.fileName, gameChunk.fileName, situationsChunk.fileName].includes(charactersChunk.fileName)) throw new Error("Le point d’entrée Personnages n’est pas isolé des autres périmètres");
 if (new Set([mainChunk, gameChunk, situationsChunk, charactersChunk, reperesChunk, usefulWordsChunk].map(({ fileName }) => fileName)).size !== 6) throw new Error("Les six points d’entrée ne produisent pas des chunks distincts");
+if ([mainChunk, gameChunk, situationsChunk, charactersChunk].some(({ fileName }) => fileName === characterQuizChunk.fileName || fileName === situationQuizChunk.fileName)) throw new Error("Un quiz est fusionné avec un espace chargé avant sa route");
 
 const operativePatterns = [
   /^src\/game\//,
@@ -79,6 +83,12 @@ if (!graphModules(usefulWordsGraph).includes("src/data/public/publicUsefulWords.
 for (const [label, graph] of [["principal", mainStatic], ["Jouer", gameGraph], ["Situations", reachable([situationsChunk.fileName], true)], ["Personnages", reachable([charactersChunk.fileName], true)], ["Repères", reperesGraph]]) {
   if (graphModules(graph).includes("src/data/public/publicUsefulWords.generated.json")) throw new Error(`Définitions Mots utiles chargées dans le graphe ${label}`);
 }
+for (const [label, chunk] of [["Quiz Personnages", characterQuizChunk], ["Quiz Situations", situationQuizChunk]]) {
+  const modules = graphModules(reachable([chunk.fileName], true));
+  const leaked = modules.filter((id) => operativePatterns.some((pattern) => pattern.test(id)));
+  if (leaked.length) throw new Error(`Module opératoire dans ${label} : ${leaked.join(", ")}`);
+  if (modules.some((id) => /publicBiographiesV2|publicSituations\.generated|understand|registre/i.test(id))) throw new Error(`Corpus complet ou registre dans ${label}`);
+}
 
 const editorialDynamicRoots = mainChunk.dynamicImports.filter((filename) => filename !== gameChunk.fileName);
 const editorialGraph = reachable(editorialDynamicRoots, true);
@@ -101,4 +111,5 @@ console.log(`Chunk Situations : ${situationsChunk.fileName} (${Object.keys(situa
 console.log(`Chunk Personnages : ${charactersChunk.fileName} (${Object.keys(charactersChunk.modules).length} modules, aucun module opératoire).`);
 console.log(`Chunk Repères : ${reperesChunk.fileName} (${Object.keys(reperesChunk.modules).length} modules, aucun module opératoire).`);
 console.log(`Chunk Mots utiles : ${usefulWordsChunk.fileName} (${Object.keys(usefulWordsChunk.modules).length} modules, aucun module opératoire).`);
+console.log(`Chunks quiz : ${characterQuizChunk.fileName} et ${situationQuizChunk.fileName} (aucun module opératoire).`);
 console.log(`Graphe éditorial différé : ${editorialGraph.size} chunk(s), aucun module opératoire.`);

@@ -17,8 +17,8 @@ const spaces = [
 
 function activeSection(route: AppRoute): string {
   if (route.kind === "game") return "game";
-  if (route.kind === "explorer-characters" || route.kind === "character-biography" || route.kind === "characters-words") return "personnages";
-  if (route.kind === "situations" || route.kind === "situations-focal" || route.kind === "situation-detail") return "situations";
+  if (route.kind === "explorer-characters" || route.kind === "character-biography" || route.kind === "characters-words" || route.kind === "character-quiz") return "personnages";
+  if (route.kind === "situations" || route.kind === "situations-focal" || route.kind === "situation-detail" || route.kind === "situation-quiz") return "situations";
   if (route.kind === "reperes" || route.kind === "repere-detail") return "reperes";
   if (route.kind === "home") return "home";
   return "";

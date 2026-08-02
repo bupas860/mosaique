@@ -7,9 +7,11 @@ export type AppRoute =
   | { readonly kind: "explorer-characters" }
   | { readonly kind: "character-biography"; readonly characterId: EditorialCharacterIdV2 }
   | { readonly kind: "characters-words" }
+  | { readonly kind: "character-quiz" }
   | { readonly kind: "situations" }
   | { readonly kind: "situations-focal"; readonly focalSlug: "obstacles-visibles" | "normes-ordinaires" | "effets-invisibles" | "intersectionnalites" }
   | { readonly kind: "situation-detail"; readonly code: string }
+  | { readonly kind: "situation-quiz" }
   | { readonly kind: "reperes" }
   | { readonly kind: "repere-detail"; readonly repereId: string }
   | { readonly kind: "useful-words" }
@@ -84,7 +86,7 @@ export function parseAppRoute(hash = window.location.hash): AppRoute {
   if (hash === GAME_HASH) return { kind: "game" };
   if (hash === PERSONNAGES_HASH) return { kind: "explorer-characters" };
   if (hash === `${PERSONNAGES_HASH}/mots-et-parcours`) return { kind: "characters-words" };
-  if (hash === `${PERSONNAGES_HASH}/quiz`) return { kind: "not-found", fragment: hash };
+  if (hash === `${PERSONNAGES_HASH}/quiz`) return { kind: "character-quiz" };
   const characterRoute = hash.match(/^#\/personnages\/(p\d{2}|xp\d{2})$/i);
   if (characterRoute) {
     const characterId = characterRoute[1].toUpperCase() as EditorialCharacterIdV2;
@@ -95,7 +97,7 @@ export function parseAppRoute(hash = window.location.hash): AppRoute {
   if (hash === SITUATIONS_HASH) return { kind: "situations" };
   const focalRoute = hash.match(/^#\/situations\/focales\/([a-z-]+)$/);
   if (focalRoute && focalSlugs.has(focalRoute[1] as never)) return { kind: "situations-focal", focalSlug: focalRoute[1] as "obstacles-visibles" | "normes-ordinaires" | "effets-invisibles" | "intersectionnalites" };
-  if (hash === "#/situations/quiz") return { kind: "not-found", fragment: hash };
+  if (hash === "#/situations/quiz") return { kind: "situation-quiz" };
   const situationRoute = hash.match(/^#\/situations\/([vnix]\d{2})$/i);
   if (situationRoute) {
     const code = situationRoute[1].toUpperCase();

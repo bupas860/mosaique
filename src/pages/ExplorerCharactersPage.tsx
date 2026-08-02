@@ -31,6 +31,7 @@ export default function ExplorerCharactersPage() {
           <h1>Personnages</h1>
           <p>Découvrez les parcours approfondis des dix-sept personnages fictifs de Mosaïque.</p>
           <p><a href="#/personnages/mots-et-parcours" className="app-text-link">Mots et parcours</a></p>
+          <p><a href="#/personnages/quiz" className="app-text-link">Quiz Personnages</a></p>
         </header>
         {groups.map((group) => (
           <section key={group.id} className="explorer-gallery" aria-labelledby={`gallery-${group.id}`}>

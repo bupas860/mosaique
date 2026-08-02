@@ -98,5 +98,16 @@ requireText(journeyWords, "<a href={word.target}", "15 liens Mots et parcours");
 const frame = await read("src/components/public/PublicFrame.tsx");
 if (frame.includes('{ label: "Mots utiles"')) throw new Error("Mots utiles devient une cinquième entrée principale");
 
+const characterQuiz = JSON.parse(await read("src/data/public/publicCharacterQuiz.generated.json")).quiz;
+const situationQuiz = JSON.parse(await read("src/data/public/publicSituationQuiz.generated.json")).quiz;
+if (characterQuiz.questions.length !== 8 || characterQuiz.questions.map(({ id }) => id).join() !== "QP01,QP02,QP03,QP04,QP05,QP06,QP07,QP08") throw new Error("Contrat Quiz Personnages invalide");
+if (situationQuiz.questions.map(({ code }) => code).join() !== "N02,V10,X01,I01,N13,X13,V01,I14") throw new Error("Contrat ordre Quiz Situations invalide");
+const characterQuizApp = await read("src/features/quiz/CharacterQuizApp.tsx");
+const situationQuizApp = await read("src/features/quiz/SituationQuizApp.tsx");
+for (const expected of ["Valider ma réponse", "Question suivante", "repères retrouvés sur 8", "Recommencer le quiz"]) requireText(characterQuizApp, expected, "Contrat Quiz Personnages 8F");
+for (const expected of ["Situation {index + 1} sur 8", "Valider mes deux réponses", "focales retrouvées sur 8", "rôles obstacle ou protection retrouvés sur 8", "Recommencer exactement la même série"]) requireText(situationQuizApp, expected, "Contrat Quiz Situations 8F");
+for (const forbidden of ["sur 16", "pourcentage", "score global", "note sur 20", "data-code", "data-focal", "data-role"]) if (situationQuizApp.includes(forbidden)) throw new Error(`Fuite ou score interdit dans Quiz Situations : ${forbidden}`);
+if (!situationQuizApp.includes('phase === "feedback" ? `${question.code} — ${question.title}` : "Quiz Situations"')) throw new Error("Masquage préalable du titre Situation non contrôlé");
+
 console.log(`Contrats visibles Jouer inchangés : ${unchangedVisibleFiles.length} fichiers comparés au commit HEAD.`);
 console.log("Parcours Jouer, chargement accessible, médias, routes et contrats Personnages 8D : contrôlés.");

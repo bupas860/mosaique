@@ -23,9 +23,11 @@ const cases = [
   ["#/situations/V01", "situation-detail"],
   ["#/personnages/p01", "character-biography"],
   ["#/personnages/mots-et-parcours", "characters-words"],
+  ["#/personnages/quiz", "character-quiz"],
   ["#/reperes/r1", "repere-detail"],
   ["#/mots-utiles", "useful-words"],
   ["#/mots-utiles/mu-ori", "useful-word-detail"],
+  ["#/situations/quiz", "situation-quiz"],
   ["#/inconnue", "not-found"],
 ];
 for (const [hash, kind] of cases) {
@@ -46,11 +48,11 @@ for (const [hash, target] of redirects) {
   if (actual.kind !== "redirect" || actual.target !== target) throw new Error(`Redirection invalide : ${hash}`);
 }
 if (routes.parseAppRoute("#/comprendre/route-invalide").kind !== "not-found") throw new Error("Une route Comprendre inconnue est redirigée par approximation");
-if (routes.parseAppRoute("#/situations/quiz").kind !== "not-found") throw new Error("Le quiz Situations est activé avant 8F");
 if (routes.parseAppRoute("#/situations/V1").kind !== "not-found" || routes.parseAppRoute("#/situations/X17").kind !== "not-found") throw new Error("Un code Situation approximatif est accepté");
 const lowercaseSituation = routes.parseAppRoute("#/situations/v01");
 if (lowercaseSituation.kind !== "redirect" || lowercaseSituation.target !== "#/situations/V01") throw new Error("La normalisation d’un code Situation minuscule est invalide");
-if (routes.parseAppRoute("#/personnages/quiz").kind !== "not-found") throw new Error("Le quiz Personnages est activé avant 8F");
+if (routes.parseAppRoute("#/personnages/quiz").kind !== "character-quiz") throw new Error("La route fixe Quiz Personnages n’est pas prioritaire");
+if (routes.parseAppRoute("#/situations/quiz").kind !== "situation-quiz") throw new Error("La route fixe Quiz Situations n’est pas prioritaire");
 for (const invalid of ["#/personnages/P1", "#/personnages/P001", "#/personnages/XP8", "#/personnages/Noe", "#/personnages/Jade"]) if (routes.parseAppRoute(invalid).kind !== "not-found") throw new Error(`Identifiant Personnage approximatif accepté : ${invalid}`);
 const uppercaseCharacter = routes.parseAppRoute("#/personnages/XP08");
 if (uppercaseCharacter.kind !== "redirect" || uppercaseCharacter.target !== "#/personnages/xp08") throw new Error("La normalisation d’un identifiant Personnage majuscule est invalide");
