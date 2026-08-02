@@ -9,6 +9,12 @@ const requireText = (content, expected, label) => {
   if (!content.includes(expected)) throw new Error(`${label} absent : ${expected}`);
 };
 
+export function assertPortraitContract(content, reference) {
+  const publicPortraitImport = 'import { getCharacterPortraitAltV2 } from "../data/public/characterPortraitAltsV2";';
+  if (!content.includes(publicPortraitImport)) throw new Error("Contrat du portrait : source publique des alternatives absente");
+  if (content !== reference) throw new Error("Contrat visible du portrait modifié par rapport à la référence 8D validée");
+}
+
 const unchangedVisibleFiles = [
   "src/pages/ModeSelectionPage.tsx",
   "src/pages/CharacterSelectionPage.tsx",
@@ -24,10 +30,8 @@ for (const filename of unchangedVisibleFiles) {
 }
 
 const portrait = await read("src/components/CharacterPortrait.tsx");
-const portraitReference = execFileSync("git", ["show", "HEAD:src/components/CharacterPortrait.tsx"], { cwd: root, encoding: "utf8" });
-const previousPortraitImport = 'import { getCharacterPortraitAltV2 } from "../data/v2/publicBiographiesV2";';
-const publicPortraitImport = 'import { getCharacterPortraitAltV2 } from "../data/public/characterPortraitAltsV2";';
-if (portrait.replace(publicPortraitImport, previousPortraitImport) !== portraitReference) throw new Error("Contrat visible du portrait modifié au-delà de sa source d’alternative");
+const portraitReference = execFileSync("git", ["show", "c63354c:src/components/CharacterPortrait.tsx"], { cwd: root, encoding: "utf8" });
+assertPortraitContract(portrait, portraitReference);
 
 const app = await read("src/App.tsx");
 for (const expected of [
