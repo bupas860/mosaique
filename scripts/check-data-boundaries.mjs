@@ -88,6 +88,7 @@ const publicRoots = filenames.filter((filename) => [
   /^src\/pages\/(?:ExplorerCharactersPage|CharacterBiographyPage)\.tsx$/,
   /^src\/pages\/public\//,
   /^src\/components\/public\//,
+  /^src\/features\/situations\//,
   /^src\/pages\/understand\//,
   /^src\/components\/understand\//,
   /^src\/data\/public\//,

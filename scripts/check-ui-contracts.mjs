@@ -30,6 +30,7 @@ for (const filename of unchangedVisibleFiles) {
 const app = await read("src/App.tsx");
 for (const expected of [
   'lazy(() => import("./game/GameApp"))',
+  'lazy(() => import("./features/situations/SituationsApp"))',
   'route.kind === "explorer-characters"',
   'route.kind === "character-biography"',
   'route.kind === "situations"',

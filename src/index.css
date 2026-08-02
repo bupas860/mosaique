@@ -154,6 +154,77 @@ body {
   .skip-link { transition: none; }
 }
 
+/* Espace public Situations. */
+.public-situations-page,
+.public-situation-detail { width: min(100%, var(--ds-content-width)); margin: 0 auto; padding: clamp(2rem, 5vw, 4rem) var(--ds-page-padding); }
+.public-situations-intro { max-width: 58rem; }
+.public-situations-intro h1,
+.public-situation-detail h1 { color: var(--color-brand-950); font-size: var(--text-page-title); font-weight: 900; line-height: 1.08; overflow-wrap: anywhere; }
+.public-situations-intro h2 { margin-top: 2rem; font-size: var(--text-section-title); font-weight: 850; }
+.public-situations-intro > p,
+.public-situations-warning p { margin-top: 0.85rem; line-height: 1.7; }
+.public-situations-counts { display: flex; flex-wrap: wrap; gap: 0.65rem; align-items: center; }
+.public-situations-counts > * { border: 1px solid var(--ds-border); border-radius: 999px; padding: 0.4rem 0.75rem; background: #fff; }
+.public-situations-warning { margin-top: 1.25rem; border-left: 0.3rem solid var(--color-brand-600); padding: 1rem 1.1rem; background: var(--color-brand-50); }
+.public-focal-links { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.75rem; margin: 2rem 0; }
+.public-focal-links a { border: 1px solid var(--ds-border); border-radius: var(--radius-card); padding: 1rem; background: #fff; color: var(--color-brand-700); font-weight: 800; text-align: center; }
+.public-situation-filters { margin: 2rem 0; border: 1px solid var(--ds-border); border-radius: var(--radius-panel); padding: clamp(1rem, 3vw, 1.5rem); background: #fff; }
+.public-situation-filters h2 { font-size: var(--text-section-title); font-weight: 850; }
+.public-situation-filters__controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)) auto; gap: 1rem; align-items: end; margin-top: 1rem; }
+.public-situation-filters label { display: grid; gap: 0.35rem; font-weight: 750; }
+.public-situation-filters select,
+.public-situation-filters button,
+.public-situations-empty button { min-height: 2.75rem; border: 1px solid var(--ds-border-strong); border-radius: var(--radius-control); padding: 0.55rem 0.75rem; background: #fff; }
+.public-situation-filters button:not(:disabled),
+.public-situations-empty button { color: var(--color-brand-700); font-weight: 800; }
+.public-situation-filters button:disabled { color: var(--ds-text-muted); opacity: 0.65; }
+.public-situation-results { margin-top: 1rem; font-weight: 800; }
+.public-situations-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1rem, 2vw, 1.5rem); }
+.public-situation-card { min-width: 0; overflow: hidden; border: 1px solid var(--ds-border); border-radius: var(--radius-panel); background: #fff; box-shadow: var(--shadow-card); }
+.public-situation-card--protection { border-top: 0.35rem solid var(--color-accent-700); }
+.public-situation-card--obstacle { border-top: 0.35rem solid var(--color-brand-600); }
+.public-situation-card__link { display: block; height: 100%; color: inherit; text-decoration: none; }
+.public-situation-card__link:focus-visible { outline: 4px solid var(--ds-focus); outline-offset: -4px; }
+.public-situation-card__body { padding: 1.1rem; }
+.public-situation-card__code,
+.public-situation-detail__code { color: var(--color-brand-700); font-weight: 900; letter-spacing: 0.06em; }
+.public-situation-card h2 { margin-top: 0.35rem; font-size: var(--text-card-title); font-weight: 850; line-height: 1.25; overflow-wrap: anywhere; }
+.public-situation-card__body > p:not([class]) { margin-top: 0.8rem; line-height: 1.55; }
+.public-situation-card__labels { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 0.75rem; }
+.public-situation-card__labels span { border: 1px solid var(--ds-border); border-radius: 999px; padding: 0.25rem 0.55rem; background: var(--ds-surface-soft); font-size: 0.85rem; font-weight: 750; }
+.public-situation-card__action { display: inline-block; margin-top: 1rem; color: var(--color-brand-700); font-weight: 850; text-decoration: underline; text-underline-offset: 0.2em; }
+.public-situation-image { display: block; width: 100%; height: auto; aspect-ratio: 5 / 4; object-fit: cover; background: var(--ds-surface-soft); }
+.public-situation-image--error { display: grid; place-items: center; padding: 1rem; color: var(--ds-text-muted); text-align: center; }
+.public-situations-empty { border: 1px dashed var(--ds-border-strong); border-radius: var(--radius-panel); padding: 2rem; text-align: center; }
+.public-situations-empty h2 { font-size: var(--text-card-title); font-weight: 850; }
+.public-situations-empty button { margin-top: 1rem; }
+.public-situations-back { margin-top: 2rem; }
+.public-situations-back a,
+.public-situation-breadcrumb a { color: var(--color-brand-700); font-weight: 800; }
+.public-situation-breadcrumb { margin-bottom: 1rem; }
+.public-situation-detail { max-width: 64rem; }
+.public-situation-detail > .public-situation-image { border: 1px solid var(--ds-border); border-radius: var(--radius-panel); }
+.public-situation-detail > header { margin-top: 1.5rem; }
+.public-situation-detail > section { margin-top: 2rem; border-top: 1px solid var(--ds-border); padding-top: 1.5rem; }
+.public-situation-detail h2 { font-size: var(--text-section-title); font-weight: 850; }
+.public-situation-detail section > p { margin-top: 0.85rem; line-height: 1.75; }
+.public-situation-canonical { white-space: pre-line; font-size: var(--text-body-large); }
+.public-useful-words { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1rem; padding: 0; list-style: none; }
+.public-useful-words li { border: 1px solid var(--ds-border); border-radius: 999px; padding: 0.45rem 0.7rem; background: var(--ds-surface-soft); }
+.public-useful-words__id { font-weight: 850; }
+.public-situation-continue a { color: var(--color-brand-700); font-weight: 850; }
+
+@media (max-width: 63.999rem) {
+  .public-situations-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .public-focal-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 39.999rem) {
+  .public-situations-grid,
+  .public-focal-links,
+  .public-situation-filters__controls { grid-template-columns: 1fr; }
+}
+
 button,
 summary,
 a {

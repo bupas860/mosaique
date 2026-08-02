@@ -15,9 +15,12 @@ const chunks = outputs.filter((item) => item.type === "chunk");
 const byFile = new Map(chunks.map((chunk) => [chunk.fileName, chunk]));
 const mainChunk = chunks.find((chunk) => chunk.isEntry);
 const gameChunk = chunks.find((chunk) => Object.keys(chunk.modules).some((id) => relative(id) === "src/game/GameApp.tsx"));
+const situationsChunk = chunks.find((chunk) => Object.keys(chunk.modules).some((id) => relative(id) === "src/features/situations/SituationsApp.tsx"));
 if (!mainChunk) throw new Error("Chunk d’entrée principal introuvable");
 if (!gameChunk) throw new Error("Chunk du point d’entrée Jouer introuvable");
+if (!situationsChunk) throw new Error("Chunk du point d’entrée Situations introuvable");
 if (mainChunk.fileName === gameChunk.fileName) throw new Error("Le point d’entrée Jouer est fusionné avec le chunk principal");
+if (mainChunk.fileName === situationsChunk.fileName || gameChunk.fileName === situationsChunk.fileName) throw new Error("Le point d’entrée Situations n’est pas isolé des chunks principal et Jouer");
 
 const operativePatterns = [
   /^src\/game\//,
@@ -73,4 +76,5 @@ for (const chunk of chunks) {
 console.log(`Chunks contrôlés sans écriture : ${chunks.length}.`);
 console.log(`Entrée principale : ${mainChunk.fileName} (${Object.keys(mainChunk.modules).length} modules, aucun module opératoire).`);
 console.log(`Graphe Jouer : ${gameGraph.size} chunk(s), ${gameOperational.length} module(s) opératoire(s).`);
+console.log(`Chunk Situations : ${situationsChunk.fileName} (${Object.keys(situationsChunk.modules).length} modules, aucun module opératoire).`);
 console.log(`Graphe éditorial différé : ${editorialGraph.size} chunk(s), aucun module opératoire.`);

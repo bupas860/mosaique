@@ -9,6 +9,7 @@ import StructuralPage from "./pages/public/StructuralPage";
 import { parseAppRoute, subscribeAppRoute, type AppRoute } from "./utils/appRoute";
 
 const GameApp = lazy(() => import("./game/GameApp"));
+const SituationsApp = lazy(() => import("./features/situations/SituationsApp"));
 
 const routeTitles: Partial<Record<AppRoute["kind"], string>> = {
   home: "Mosaïque",
@@ -23,12 +24,16 @@ function gamePage() {
   return <Suspense fallback={<main className="game-loading" aria-busy="true" aria-live="polite"><p>Chargement du jeu…</p></main>}><GameApp /></Suspense>;
 }
 
+function situationsPage(route: Extract<AppRoute, { kind: "situations" | "situations-focal" | "situation-detail" }>) {
+  return <Suspense fallback={<main className="game-loading" aria-busy="true" aria-live="polite"><p>Chargement des situations…</p></main>}><SituationsApp route={route} /></Suspense>;
+}
+
 function pageForRoute(route: AppRoute): ReactNode {
   if (route.kind === "home") return <PublicHomePage />;
   if (route.kind === "game") return gamePage();
   if (route.kind === "explorer-characters") return <ExplorerCharactersPage />;
   if (route.kind === "character-biography") return <CharacterBiographyPage biography={getPublicBiographyV2(route.characterId)} />;
-  if (route.kind === "situations") return <StructuralPage title="Situations" description="Cet espace permet d’explorer le corpus public de situations illustrées." />;
+  if (route.kind === "situations" || route.kind === "situations-focal" || route.kind === "situation-detail") return situationsPage(route);
   if (route.kind === "reperes") return <StructuralPage title="Repères" />;
   return <NotFoundPage />;
 }
@@ -48,7 +53,7 @@ export default function App() {
     window.location.replace(route.target);
   }, [route]);
   useEffect(() => {
-    if (route.kind === "redirect") return;
+    if (route.kind === "redirect" || route.kind === "situations" || route.kind === "situations-focal" || route.kind === "situation-detail") return;
     document.title = titleForRoute(route);
     window.requestAnimationFrame(() => {
       document.getElementById("main-content")?.focus({ preventScroll: true });

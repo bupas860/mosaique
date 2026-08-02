@@ -19,6 +19,8 @@ const cases = [
   ["", "home"], ["#", "home"], ["#/", "home"],
   ["#/jouer", "game"], ["#/personnages", "explorer-characters"],
   ["#/situations", "situations"], ["#/reperes", "reperes"],
+  ["#/situations/focales/obstacles-visibles", "situations-focal"],
+  ["#/situations/V01", "situation-detail"],
   ["#/explorer/personnages/P01", "character-biography"],
   ["#/inconnue", "not-found"],
 ];
@@ -39,6 +41,10 @@ for (const [hash, target] of redirects) {
   if (actual.kind !== "redirect" || actual.target !== target) throw new Error(`Redirection invalide : ${hash}`);
 }
 if (routes.parseAppRoute("#/comprendre/route-invalide").kind !== "not-found") throw new Error("Une route Comprendre inconnue est redirigée par approximation");
+if (routes.parseAppRoute("#/situations/quiz").kind !== "not-found") throw new Error("Le quiz Situations est activé avant 8F");
+if (routes.parseAppRoute("#/situations/V1").kind !== "not-found" || routes.parseAppRoute("#/situations/X17").kind !== "not-found") throw new Error("Un code Situation approximatif est accepté");
+const lowercaseSituation = routes.parseAppRoute("#/situations/v01");
+if (lowercaseSituation.kind !== "redirect" || lowercaseSituation.target !== "#/situations/V01") throw new Error("La normalisation d’un code Situation minuscule est invalide");
 
 const home = await read("src/pages/public/PublicHomePage.tsx");
 const homeOrder = ["Jouer", "Personnages", "Situations", "Repères"].map((label) => home.indexOf(`title: "${label}"`));
@@ -63,7 +69,7 @@ for (const expected of [
   'document.title = titleForRoute(route)', 'document.getElementById("main-content")?.focus({ preventScroll: true })',
   'home: "Mosaïque"', 'game: "Jouer — Mosaïque"', '"not-found": "Page introuvable — Mosaïque"',
 ]) requireText(app, expected, "Routage public");
-if (app.includes('import("./pages/understand/') || app.includes('from "./game/GameApp"')) throw new Error("Chargement public non différé détecté");
+if (app.includes('import("./pages/understand/') || app.includes('from "./game/GameApp"') || app.includes('from "./features/situations/SituationsApp"')) throw new Error("Chargement public non différé détecté");
 
 const situations = await read("src/pages/public/StructuralPage.tsx");
 for (const forbidden of ["generated-v2", "matrix", "feedback", "understand", "139_"]) if (situations.includes(forbidden)) throw new Error(`Dépendance interdite dans la page structurelle : ${forbidden}`);

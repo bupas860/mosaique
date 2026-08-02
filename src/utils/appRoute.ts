@@ -7,6 +7,8 @@ export type AppRoute =
   | { readonly kind: "explorer-characters" }
   | { readonly kind: "character-biography"; readonly characterId: EditorialCharacterIdV2 }
   | { readonly kind: "situations" }
+  | { readonly kind: "situations-focal"; readonly focalSlug: "obstacles-visibles" | "normes-ordinaires" | "effets-invisibles" | "intersectionnalites" }
+  | { readonly kind: "situation-detail"; readonly code: string }
   | { readonly kind: "reperes" }
   | { readonly kind: "redirect"; readonly target: string }
   | { readonly kind: "not-found"; readonly fragment: string };
@@ -15,6 +17,15 @@ const characterIds = new Set<EditorialCharacterIdV2>([
   "P01", "P02", "P03", "P04", "P05", "P06", "P07", "P08", "P09",
   "XP01", "XP02", "XP03", "XP04", "XP05", "XP06", "XP07", "XP08",
 ]);
+
+const situationCodes = new Set([
+  ...Array.from({ length: 16 }, (_, index) => `V${String(index + 1).padStart(2, "0")}`),
+  ...Array.from({ length: 13 }, (_, index) => `N${String(index + 1).padStart(2, "0")}`),
+  ...Array.from({ length: 16 }, (_, index) => `I${String(index + 1).padStart(2, "0")}`),
+  ...Array.from({ length: 16 }, (_, index) => `X${String(index + 1).padStart(2, "0")}`),
+]);
+
+const focalSlugs = new Set(["obstacles-visibles", "normes-ordinaires", "effets-invisibles", "intersectionnalites"] as const);
 
 export const HOME_HASH = "#/";
 export const GAME_HASH = "#/jouer";
@@ -49,6 +60,16 @@ export function parseAppRoute(hash = window.location.hash): AppRoute {
   if (hash === GAME_HASH) return { kind: "game" };
   if (hash === PERSONNAGES_HASH) return { kind: "explorer-characters" };
   if (hash === SITUATIONS_HASH) return { kind: "situations" };
+  const focalRoute = hash.match(/^#\/situations\/focales\/([a-z-]+)$/);
+  if (focalRoute && focalSlugs.has(focalRoute[1] as never)) return { kind: "situations-focal", focalSlug: focalRoute[1] as "obstacles-visibles" | "normes-ordinaires" | "effets-invisibles" | "intersectionnalites" };
+  if (hash === "#/situations/quiz") return { kind: "not-found", fragment: hash };
+  const situationRoute = hash.match(/^#\/situations\/([vnix]\d{2})$/i);
+  if (situationRoute) {
+    const code = situationRoute[1].toUpperCase();
+    if (!situationCodes.has(code)) return { kind: "not-found", fragment: hash };
+    if (situationRoute[1] !== code) return { kind: "redirect", target: `${SITUATIONS_HASH}/${code}` };
+    return { kind: "situation-detail", code };
+  }
   if (hash === REPERES_HASH) return { kind: "reperes" };
   if (hash === LEGACY_EXPLORER_CHARACTERS_HASH) return { kind: "redirect", target: PERSONNAGES_HASH };
   if (isLegacyUnderstandRoute(hash)) return { kind: "redirect", target: REPERES_HASH };
