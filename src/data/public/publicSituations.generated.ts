@@ -7,7 +7,7 @@ export const publicSituationsIntroduction = {
     "Une situation peut représenter un obstacle ou une protection. Le rôle décrit la construction générale de la scène ; il ne signifie pas que tous les personnages rencontrent le même effet."
   ],
   "warningTitle": "Avant d’explorer les fiches",
-  "warning": "Explorer les situations révèle leur analyse. Tu peux donc y trouver des indices pour de prochaines parties."
+  "warning": "Explorer les situations révèle leur analyse. Vous pouvez donc y trouver des indices pour de prochaines parties."
 } as const satisfies PublicSituationsIntroduction;
 
 export const publicFocals = [
@@ -35,7 +35,7 @@ export const publicFocals = [
     "lead": "Une organisation prévue pour tout le monde ne convient pas nécessairement à toutes les situations.",
     "inBrief": "Cette focale observe ce qu’un formulaire, un logiciel, une catégorie, une consigne, un espace ou une procédure prévoit par défaut.",
     "recognize": [
-      "Regarde les options disponibles avant même qu’une personne intervienne. Qui peut utiliser l’outil sans y penser ? Qui doit barrer une rubrique, expliquer sa situation, corriger une information ou demander une exception ? Qui peut modifier l’organisation ?",
+      "Regardez les options disponibles avant même qu’une personne intervienne. Qui peut utiliser l’outil sans y penser ? Qui doit barrer une rubrique, expliquer sa situation, corriger une information ou demander une exception ? Qui peut modifier l’organisation ?",
       "Aucune intention hostile n’est nécessaire. Un dispositif peut avoir été conçu par habitude et produire malgré tout des effets différents selon les profils. « Ordinaire » ne signifie donc ni neutre, ni sans conséquence. Une même règle peut faciliter l’action de certaines personnes et imposer à d’autres un travail supplémentaire.",
       "Une norme peut également être conçue de manière protectrice. Proposer à tous un échange confidentiel, limiter la circulation des informations ou prévoir plusieurs options permet d’agir avant qu’un incident se produise. Cette organisation ne garantit pas que chaque besoin sera satisfait, mais elle évite de faire reposer toute l’adaptation sur la personne concernée."
     ],
@@ -53,7 +53,7 @@ export const publicFocals = [
     "lead": "Ce qui n’est pas dit directement peut tout de même organiser les possibilités imaginées ou anticipées.",
     "inBrief": "Cette focale observe ce qui est montré, omis ou répété, les modèles présentés comme ordinaires et ce qu’une personne doit anticiper avant de parler ou d’agir.",
     "recognize": [
-      "Regarde le cadrage d’un support ou d’un ensemble de scènes. Quels parcours reviennent toujours ? Lesquels restent absents ? Qui apparaît seulement dans un récit de souffrance, de conflit ou d’explication ? Quels gestes une personne peut-elle hésiter à faire parce qu’elle anticipe une réaction ?",
+      "Regardez le cadrage d’un support ou d’un ensemble de scènes. Quels parcours reviennent toujours ? Lesquels restent absents ? Qui apparaît seulement dans un récit de souffrance, de conflit ou d’explication ? Quels gestes une personne peut-elle hésiter à faire parce qu’elle anticipe une réaction ?",
       "Il n’y a pas toujours d’agresseur identifiable. L’effet peut venir d’une accumulation de récits, d’une répétition, d’une absence ou d’un modèle très restrictif. « Invisible » ne signifie pas imaginaire ou moins important : le support est observable, mais son effet ne se réduit pas à un incident unique.",
       "Mosaïque ne déduit pas automatiquement le ressenti intérieur d’un élève. La fiche décrit un cadrage et explique un effet possible. Elle ne prétend pas savoir ce qu’une personne pense, ni prédire une réaction identique pour toutes. Une représentation ordinaire et diversifiée peut au contraire être protectrice en élargissant les modèles disponibles sans transformer chaque différence en problème."
     ],
@@ -131,7 +131,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "V10 — Le soutien d’un camarade",
       "suffix": ", une protection visible qui interrompt une conversation intrusive.",
       "type": "situation",
@@ -186,7 +186,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "V03 — La tenue commentée",
       "suffix": ", où un conseil de prudence déplace la responsabilité vers la personne visée.",
       "type": "situation",
@@ -241,7 +241,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "V04 — Le prénom refusé",
       "suffix": ", où une demande explicite se heurte à une décision d’adulte.",
       "type": "situation",
@@ -295,7 +295,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "V05 — Le cyberharcèlement",
       "suffix": ", où une information personnelle circule entre plusieurs groupes.",
       "type": "situation",
@@ -350,7 +350,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "V06 — Tu rencontreras la bonne personne",
       "suffix": ", où une expérience exprimée est présentée comme provisoire.",
       "type": "situation",
@@ -404,7 +404,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "V07 — Tu dois choisir",
       "suffix": ", où une orientation est interprétée comme une hésitation.",
       "type": "situation",
@@ -458,7 +458,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "V08 — Tu ne vas pas tomber amoureux de moi ?",
       "suffix": ", où l’acceptation annoncée dépend d’une demande de réassurance.",
       "type": "situation",
@@ -512,7 +512,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "V09 — Le recadrage immédiat",
       "suffix": ", une intervention protectrice visible pendant un cours.",
       "type": "situation",
@@ -566,7 +566,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "V10 — Le soutien d’un camarade",
       "suffix": ", une protection visible portée par un pair.",
       "type": "situation",
@@ -620,7 +620,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Explore la focale ",
+      "prefix": "Explorez la focale ",
       "label": "Obstacles visibles",
       "suffix": ".",
       "type": "focal",
@@ -674,7 +674,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "V12 — Mais tu es un garçon ou une fille ?",
       "suffix": ", où la curiosité devient une question publique insistante.",
       "type": "situation",
@@ -728,7 +728,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "V13 — La confidence transmise à la famille",
       "suffix": ", où une intention d’aide conduit à diffuser une information personnelle.",
       "type": "situation",
@@ -783,7 +783,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "V14 — Ils cherchent à deviner",
       "suffix": ", où des indices ordinaires sont transformés en preuves supposées.",
       "type": "situation",
@@ -837,7 +837,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "V15 — La rumeur",
       "suffix": ", où une affirmation se propage de groupe en groupe.",
       "type": "situation",
@@ -891,7 +891,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "V16 — L’insulte directe",
       "suffix": ", où une agression verbale est prononcée devant des témoins.",
       "type": "situation",
@@ -945,7 +945,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Explore la focale ",
+      "prefix": "Explorez la focale ",
       "label": "Obstacles visibles",
       "suffix": ".",
       "type": "focal",
@@ -999,7 +999,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "N03 — L’activité visible sur l’ENT",
       "suffix": ".",
       "type": "situation",
@@ -1053,7 +1053,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "N13 — L’organisation préparée en privé",
       "suffix": ", une protection organisée avant l’incident.",
       "type": "situation",
@@ -1107,7 +1107,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "N12 — Les informations confidentielles",
       "suffix": ", une organisation protectrice des accès.",
       "type": "situation",
@@ -1161,7 +1161,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "N05 — Quand vous serez en couple",
       "suffix": ".",
       "type": "situation",
@@ -1215,7 +1215,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "N04 — Le dialogue en langue vivante",
       "suffix": ".",
       "type": "situation",
@@ -1269,7 +1269,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "N07 — Les vestiaires collectifs",
       "suffix": ".",
       "type": "situation",
@@ -1323,7 +1323,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "N13 — L’organisation préparée en privé",
       "suffix": ", une protection préparée avant l’incident.",
       "type": "situation",
@@ -1377,7 +1377,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "N09 — Les filles ne doivent pas déconcentrer",
       "suffix": ".",
       "type": "situation",
@@ -1431,7 +1431,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "N10 — Une tenue adaptée à son genre",
       "suffix": ".",
       "type": "situation",
@@ -1485,7 +1485,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "N08 — Les filles calment les garçons",
       "suffix": ".",
       "type": "situation",
@@ -1539,7 +1539,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "N04 — Le dialogue en langue vivante",
       "suffix": ".",
       "type": "situation",
@@ -1593,7 +1593,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Explore la focale ",
+      "prefix": "Explorez la focale ",
       "label": "Normes ordinaires",
       "suffix": ".",
       "type": "focal",
@@ -1647,7 +1647,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Explore la focale ",
+      "prefix": "Explorez la focale ",
       "label": "Normes ordinaires",
       "suffix": ".",
       "type": "focal",
@@ -1701,7 +1701,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "I14 — Une histoire ordinaire",
       "suffix": ", une représentation protectrice intégrée à un récit.",
       "type": "situation",
@@ -1756,7 +1756,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "I03 — Des droits remis en débat",
       "suffix": ", où le cadrage d’un échange donne une place équivalente à des positions différentes.",
       "type": "situation",
@@ -1811,7 +1811,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "I04 — La séance sans elles et eux",
       "suffix": ", où l’obstacle vient de ce que l’ensemble du support laisse absent.",
       "type": "situation",
@@ -1866,7 +1866,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "I05 — Deux modèles présentés comme universels",
       "suffix": ", où une simplification est décrite comme un ensemble complet.",
       "type": "situation",
@@ -1921,7 +1921,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "I06 — Les figures effacées",
       "suffix": ", où la sélection des informations modifie le récit culturel transmis.",
       "type": "situation",
@@ -1976,7 +1976,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "I07 — La fin tragique",
       "suffix": ", où l’effet vient de la répétition d’une seule issue narrative.",
       "type": "situation",
@@ -2031,7 +2031,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "I08 — Le personnage secondaire",
       "suffix": ", où une présence visible reste placée au service des autres.",
       "type": "situation",
@@ -2086,7 +2086,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "I09 — Le personnage trans toujours en souffrance",
       "suffix": ", où un parcours entier est réduit à un seul cadrage.",
       "type": "situation",
@@ -2141,7 +2141,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "I10 — Le coming out obligatoire",
       "suffix": ", où la visibilité générale est présentée comme l’unique issue légitime.",
       "type": "situation",
@@ -2196,7 +2196,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "I11 — La famille toujours présentée comme un problème",
       "suffix": ", où une présence reste enfermée dans un seul type de récit.",
       "type": "situation",
@@ -2251,7 +2251,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "I12 — Les gestes ordinaires",
       "suffix": ", où un geste banal peut demander une anticipation différente selon la relation qu’il rend visible.",
       "type": "situation",
@@ -2306,7 +2306,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "I13 — La personne qui lui plaît",
       "suffix": ", où une question courante peut imposer un calcul avant de répondre.",
       "type": "situation",
@@ -2361,7 +2361,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "I15 — Une séance équilibrée",
       "suffix": ", une protection qui associe difficultés, ressources et possibilités d’agir.",
       "type": "situation",
@@ -2415,7 +2415,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Explore la focale ",
+      "prefix": "Explorez la focale ",
       "label": "Effets invisibles",
       "suffix": ".",
       "type": "focal",
@@ -2470,7 +2470,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "I14 — Une histoire ordinaire",
       "suffix": ", une autre protection fondée sur la place accordée dans un récit.",
       "type": "situation",
@@ -2525,7 +2525,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Explore la focale ",
+      "prefix": "Explorez la focale ",
       "label": "Effets invisibles",
       "suffix": ".",
       "type": "focal",
@@ -2580,7 +2580,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "X13 — Une adaptation coordonnée",
       "suffix": ", une protection qui articule plusieurs besoins.",
       "type": "situation",
@@ -2635,7 +2635,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "X03 — Sa famille et sa culture",
       "suffix": ".",
       "type": "situation",
@@ -2690,7 +2690,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "X10 — Gay et croyant",
       "suffix": ".",
       "type": "situation",
@@ -2745,7 +2745,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "X14 — Un accompagnement sans présupposé",
       "suffix": ".",
       "type": "situation",
@@ -2800,7 +2800,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "X09 — Le plan à trois",
       "suffix": ".",
       "type": "situation",
@@ -2855,7 +2855,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "X15 — Une famille utilisée comme vitrine",
       "suffix": ".",
       "type": "situation",
@@ -2910,7 +2910,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "X16 — Son corps devient un cas d’étude",
       "suffix": ".",
       "type": "situation",
@@ -2965,7 +2965,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "X11 — La chambre individuelle payante",
       "suffix": ".",
       "type": "situation",
@@ -3020,7 +3020,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "X02 — Sa petite amie ou son accompagnatrice ?",
       "suffix": ".",
       "type": "situation",
@@ -3075,7 +3075,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "X14 — Un accompagnement sans présupposé",
       "suffix": ".",
       "type": "situation",
@@ -3130,7 +3130,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "X13 — Une adaptation coordonnée",
       "suffix": ", une protection qui articule plusieurs besoins.",
       "type": "situation",
@@ -3185,7 +3185,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "X14 — Un accompagnement sans présupposé",
       "suffix": ".",
       "type": "situation",
@@ -3240,7 +3240,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Explore la focale ",
+      "prefix": "Explorez la focale ",
       "label": "Intersectionnalités",
       "suffix": ".",
       "type": "focal",
@@ -3295,7 +3295,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Explore la focale ",
+      "prefix": "Explorez la focale ",
       "label": "Intersectionnalités",
       "suffix": ".",
       "type": "focal",
@@ -3350,7 +3350,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "X06 — Laquelle est sa mère ?",
       "suffix": ".",
       "type": "situation",
@@ -3405,7 +3405,7 @@ export const publicSituations = [
       }
     ],
     "continueTarget": {
-      "prefix": "Découvre ",
+      "prefix": "Découvrez ",
       "label": "X07 — Le document médical",
       "suffix": ".",
       "type": "situation",

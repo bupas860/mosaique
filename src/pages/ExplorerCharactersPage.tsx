@@ -3,11 +3,12 @@ import AppBackground from "../components/AppBackground";
 import CharacterPortrait from "../components/CharacterPortrait";
 import CharacterPublicTags from "../components/CharacterPublicTags";
 import { publicBiographiesV2 } from "../data/v2/publicBiographiesV2";
-import { characterBiographyHash } from "../utils/appRoute";
+import { characterBiographyHash, isEleaContext } from "../utils/appRoute";
 
 const SCROLL_KEY = "mosaique:explorer-characters-scroll";
 
 export default function ExplorerCharactersPage() {
+  const eleaPresentation = isEleaContext();
   useEffect(() => {
     const saved = Number(sessionStorage.getItem(SCROLL_KEY));
     if (Number.isFinite(saved) && saved > 0) requestAnimationFrame(() => window.scrollTo({ top: saved, behavior: "auto" }));
@@ -25,13 +26,13 @@ export default function ExplorerCharactersPage() {
   return (
     <AppBackground as="main" className="explorer-page">
       <div className="explorer-page__inner">
-        <a href="#/" className="app-text-link">Retour à l’accueil</a>
+        {!eleaPresentation && <a href="#/" className="app-text-link">Retour à l’accueil</a>}
         <header className="explorer-header">
           <p className="explorer-eyebrow">Explorer</p>
           <h1>Personnages</h1>
           <p>Découvrez les parcours approfondis des dix-sept personnages fictifs de Mosaïque.</p>
           <p><a href="#/personnages/mots-et-parcours" className="app-text-link">Mots et parcours</a></p>
-          <p><a href="#/personnages/quiz" className="app-text-link">Quiz Personnages</a></p>
+          {!eleaPresentation && <p><a href="#/personnages/quiz" className="app-text-link">Quiz Personnages</a></p>}
         </header>
         {groups.map((group) => (
           <section key={group.id} className="explorer-gallery" aria-labelledby={`gallery-${group.id}`}>

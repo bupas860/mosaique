@@ -18,8 +18,8 @@ function docsRoot() {
 function sources() {
   const root = docsRoot();
   return {
-    characters: path.join(root, "public-lyceen/situations/096_Mosaique_Public_lyceen_Quiz_personnages_V2.md"),
-    situations: path.join(root, "public-lyceen/situations/097_Mosaique_Public_lyceen_Quiz_situations_V3.md"),
+    characters: path.join(root, "public-lyceen/situations/096_Mosaique_Public_lyceen_Quiz_personnages_V3.md"),
+    situations: path.join(root, "public-lyceen/situations/097_Mosaique_Public_lyceen_Quiz_situations_V4.md"),
     register: path.join(root, "public-lyceen/situations/098_Mosaique_Public_lyceen_Registre_quiz_et_tracabilite_V3.md"),
   };
 }
@@ -65,8 +65,8 @@ function characterQuiz(markdown) {
       expected: expectedIds(cell(block, "Réponse attendue")), feedback: cell(block, "Feedback principal"), remember: cell(block, "À retenir"), usefulWords: usefulWords(cell(block, "Renvoi")),
     };
   });
-  if (questions.length !== 8) throw new Error(`096 V2 : huit questions attendues, ${questions.length} trouvées`);
-  return { title: "Quiz Personnages", meta: "8 questions — environ 4 à 6 minutes", introduction: "Retrouve les distinctions utiles pour lire les biographies de Mosaïque. Une correction expliquée apparaît après chaque question. Tu peux prendre le temps de la relire, puis recommencer la même série.", questions };
+  if (questions.length !== 8) throw new Error(`096 V3 : huit questions attendues, ${questions.length} trouvées`);
+  return { title: "Quiz Personnages", meta: "8 questions — environ 4 à 6 minutes", introduction: "Retrouvez les distinctions utiles pour lire les biographies de Mosaïque. Une correction expliquée apparaît après chaque question. Vous pouvez prendre le temps de la relire, puis recommencer la même série.", questions };
 }
 
 function situationQuiz(markdown) {
@@ -81,7 +81,7 @@ function situationQuiz(markdown) {
     if (!altText || !canonicalText) throw new Error(`${code} : présentation publique incomplète`);
     return { position: Number(heading[1]), code, title: titleParts.join(" — "), illustrationFile: `${code.toLowerCase()}.webp`, altText, canonicalText, expectedFocal: answer[0], expectedRole: answer[1], feedback, remember: cell(block, "À retenir") };
   });
-  if (questions.map(({ code }) => code).join() !== SITUATION_ORDER.join()) throw new Error("097 V3 : ordre des huit situations invalide");
+  if (questions.map(({ code }) => code).join() !== SITUATION_ORDER.join()) throw new Error("097 V4 : ordre des huit situations invalide");
   return { title: "Quiz Situations", meta: "8 situations — deux réponses pour chaque situation", questions };
 }
 

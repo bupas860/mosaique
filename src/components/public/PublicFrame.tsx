@@ -5,6 +5,7 @@ import {
   PERSONNAGES_HASH,
   REPERES_HASH,
   SITUATIONS_HASH,
+  isEleaContext,
   type AppRoute,
 } from "../../utils/appRoute";
 
@@ -34,6 +35,7 @@ export default function PublicFrame({ route, routeKey, children }: PublicFramePr
   const [menuOpen, setMenuOpen] = useState(false);
   const menuButton = useRef<HTMLButtonElement>(null);
   const current = activeSection(route);
+  const eleaPresentation = route.kind !== "home" && isEleaContext();
 
   useEffect(() => setMenuOpen(false), [routeKey]);
   useEffect(() => {
@@ -68,8 +70,8 @@ export default function PublicFrame({ route, routeKey, children }: PublicFramePr
       <a className="skip-link" href="#main-content">Aller au contenu principal</a>
       <header className="public-header">
         <div className="public-header__inner">
-          <a className="public-brand" href={HOME_HASH} aria-current={current === "home" ? "page" : undefined}>Mosaïque</a>
-          <nav className="public-nav" aria-label="Navigation principale">
+          {eleaPresentation ? <span className="public-brand">Mosaïque</span> : <a className="public-brand" href={HOME_HASH} aria-current={current === "home" ? "page" : undefined}>Mosaïque</a>}
+          {!eleaPresentation && <nav className="public-nav" aria-label="Navigation principale">
             {links(false)}
             <button
               ref={menuButton}
@@ -85,11 +87,11 @@ export default function PublicFrame({ route, routeKey, children }: PublicFramePr
             <div id="public-mobile-menu" className="public-nav__mobile" hidden={!menuOpen}>
               {links(true)}
             </div>
-          </nav>
+          </nav>}
         </div>
       </header>
       <div id="main-content" className="public-content" tabIndex={-1}>{children}</div>
-      <footer className="public-footer"><a href={HOME_HASH}>Accueil</a></footer>
+      <footer className={`public-footer${eleaPresentation ? " public-footer--elea" : ""}`}>{eleaPresentation ? <span>Mosaïque</span> : <a href={HOME_HASH}>Accueil</a>}</footer>
     </div>
   );
 }

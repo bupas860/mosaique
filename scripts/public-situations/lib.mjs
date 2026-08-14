@@ -32,8 +32,8 @@ function documentsRoot() {
 function sourcePaths() {
   const docs = documentsRoot();
   return {
-    corpus: path.join(docs, "public-lyceen/situations/139_Mosaique_Public_lyceen_Corpus_consolide_61_situations_V2.md"),
-    register: path.join(docs, "public-lyceen/situations/140_Mosaique_Public_lyceen_Registre_consolide_61_situations_V2.md"),
+    corpus: path.join(docs, "public-lyceen/situations/139_Mosaique_Public_lyceen_Corpus_consolide_61_situations_V3.md"),
+    register: path.join(docs, "public-lyceen/situations/140_Mosaique_Public_lyceen_Registre_consolide_61_situations_V3.md"),
     words: path.join(docs, "public-lyceen/conception/091_Mosaique_Public_lyceen_Les_mots_utiles_V2.md"),
     alts: path.join(docs, "073_Cahier_textes_alternatifs_illustrations_Mosaique_V1.md"),
     banks: {
@@ -151,7 +151,7 @@ export function buildPublicSituations() {
   const paths = sourcePaths();
   const corpus = readRequired(paths.corpus);
   const presentationBlock = corpus.match(/^## Présentation\n\n([\s\S]*?)(?=\n\n---)/m)?.[1];
-  if (!presentationBlock) throw new Error("139 V2 : présentation générale absente");
+  if (!presentationBlock) throw new Error("139 V3 : présentation générale absente");
   const presentationParts = presentationBlock.split(/\n\n/);
   const introduction = {
     paragraphs: presentationParts.slice(0, 2).map(stripInlineMarkdown),
@@ -163,7 +163,7 @@ export function buildPublicSituations() {
   const altCatalog = parseAltCatalog(readRequired(paths.alts));
   const canonical = new Map([...Object.values(paths.banks).flatMap((filename) => [...parseCanonicalBank(readRequired(filename))])]);
   const codeHeadings = [...corpus.matchAll(/^#### ([VNIX]\d{2}) — (.+)$/gm)];
-  if (codeHeadings.length !== 61) throw new Error(`139 V2 : 61 fiches attendues, ${codeHeadings.length} trouvées`);
+  if (codeHeadings.length !== 61) throw new Error(`139 V3 : 61 fiches attendues, ${codeHeadings.length} trouvées`);
 
   const situations = codeHeadings.map((heading) => {
     const code = heading[1];
@@ -190,15 +190,15 @@ export function buildPublicSituations() {
     const compare = (field, observed, expected, source) => {
       if (observed !== expected) throw new Error(`${code} — ${field} — source ${source} — attendu ${JSON.stringify(expected)}, observé ${JSON.stringify(observed)}`);
     };
-    compare("titre", title, registry.title, "140 V2");
-    compare("focale", focalLabel, registry.focalLabel, "140 V2");
-    compare("rôle", role, registry.role, "140 V2");
-    compare("illustration", illustrationFile, registry.illustrationFile, "140 V2");
+    compare("titre", title, registry.title, "140 V3");
+    compare("focale", focalLabel, registry.focalLabel, "140 V3");
+    compare("rôle", role, registry.role, "140 V3");
+    compare("illustration", illustrationFile, registry.illustrationFile, "140 V3");
     compare("illustration", illustrationFile, altRegistry.illustrationFile, "073");
     compare("texte alternatif", altText, altRegistry.alt, "073");
     compare("texte joueur", canonicalText, canonicalExpected, `banque ${code[0]}00/10/20/30`);
-    compare("mots utiles", usefulWords.map(({ id }) => id).join(";"), registry.usefulWordIds.join(";"), "140 V2");
-    compare("renvoi", stripInlineMarkdown(continueRaw), stripInlineMarkdown(registry.continueText), "140 V2");
+    compare("mots utiles", usefulWords.map(({ id }) => id).join(";"), registry.usefulWordIds.join(";"), "140 V3");
+    compare("renvoi", stripInlineMarkdown(continueRaw), stripInlineMarkdown(registry.continueText), "140 V3");
     for (const word of usefulWords) {
       const catalogLabel = wordCatalog.get(word.id);
       if (!catalogLabel || word.label.toLocaleLowerCase("fr") !== catalogLabel.toLocaleLowerCase("fr")) compare(`mot utile ${word.id}`, word.label, catalogLabel, "091 V2");

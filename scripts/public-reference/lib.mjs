@@ -20,7 +20,7 @@ function documentsRoot() {
 function sourcePaths() {
   const docs = documentsRoot();
   return {
-    reperes: path.join(docs, "public-lyceen/conception/090_Mosaique_Public_lyceen_Pages_Reperes_et_microcontenus_Jouer_V2.md"),
+    reperes: path.join(docs, "public-lyceen/conception/090_Mosaique_Public_lyceen_Pages_Reperes_et_microcontenus_Jouer_V3.md"),
     words: path.join(docs, "public-lyceen/conception/091_Mosaique_Public_lyceen_Les_mots_utiles_V2.md"),
     register: path.join(docs, "public-lyceen/conception/092_Mosaique_Public_lyceen_Registre_sources_renvois_et_tracabilite_V2.md"),
   };
@@ -58,7 +58,7 @@ function wordCatalog(markdown) {
 
 function parseReperes(markdown, wordsMarkdown) {
   const headings = [...markdown.matchAll(/^# (R[1-5]) — (.+)$/gm)];
-  if (headings.length !== 5) throw new Error(`090 V2 : cinq Repères attendus, ${headings.length} trouvés`);
+  if (headings.length !== 5) throw new Error(`090 V3 : cinq Repères attendus, ${headings.length} trouvés`);
   const catalog = wordCatalog(wordsMarkdown);
   return headings.map((heading, index) => {
     const end = headings[index + 1]?.index ?? markdown.indexOf("\n# Microcontenus", heading.index);
@@ -121,7 +121,7 @@ export function buildPublicReference() {
   const register = readRequired(paths.register);
   const reperes = parseReperes(reperesSource, wordsSource);
   const words = parseWords(wordsSource);
-  if (reperes.map(({ id }) => id).join() !== EXPECTED_REPERES.join()) throw new Error("090 V2 : ordre R1–R5 invalide");
+  if (reperes.map(({ id }) => id).join() !== EXPECTED_REPERES.join()) throw new Error("090 V3 : ordre R1–R5 invalide");
   if (words.slice(0, 15).map(({ id }) => id).join() !== JOURNEY_IDS.join()) throw new Error("091 V2 : groupe Mots et parcours invalide");
   for (const id of [...EXPECTED_REPERES, ...words.map(({ id }) => id)]) if (!register.includes(id)) throw new Error(`092 V2 : identifiant de contrôle absent ${id}`);
   return { reperes, words };

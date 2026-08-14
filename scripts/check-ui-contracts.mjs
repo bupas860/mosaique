@@ -1,4 +1,4 @@
-import { execFileSync } from "node:child_process";
+import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -8,30 +8,31 @@ const read = (filename) => readFile(path.join(root, filename), "utf8");
 const requireText = (content, expected, label) => {
   if (!content.includes(expected)) throw new Error(`${label} absent : ${expected}`);
 };
+const sha256 = (content) => createHash("sha256").update(content).digest("hex");
+const portraitReferenceHash = "356c621828b60d9481dfca932bae4175229c5d10466f42a506d06bc61df3197f";
 
 export function assertPortraitContract(content, reference) {
   const publicPortraitImport = 'import { getCharacterPortraitAltV2 } from "../data/public/characterPortraitAltsV2";';
   if (!content.includes(publicPortraitImport)) throw new Error("Contrat du portrait : source publique des alternatives absente");
-  if (content !== reference) throw new Error("Contrat visible du portrait modifié par rapport à la référence 8D validée");
+  const referenceHash = reference ? (/^[a-f0-9]{64}$/.test(reference) ? reference : sha256(reference)) : portraitReferenceHash;
+  if (sha256(content) !== referenceHash) throw new Error("Contrat visible du portrait modifié par rapport à la référence 8D validée");
 }
 
-const unchangedVisibleFiles = [
-  "src/pages/ModeSelectionPage.tsx",
-  "src/pages/CharacterSelectionPage.tsx",
-  "src/pages/GamePage.tsx",
-  "src/pages/FinalSummaryPage.tsx",
-  "src/components/SituationCard.tsx",
-  "src/data/v2/situationIllustrationsV2.ts",
-];
-for (const filename of unchangedVisibleFiles) {
+const unchangedVisibleFiles = new Map([
+  ["src/pages/ModeSelectionPage.tsx", "ffceab18e25f63aab32bc25e2402cf7d607014c2b280cfd8a2f993a8cc3ea605"],
+  ["src/pages/CharacterSelectionPage.tsx", "bffd82856254e10a14201ce4a528f51d6576c670237f79ebbff6240fb4baf695"],
+  ["src/pages/GamePage.tsx", "943f6ce1ab2ac28c7a6492dbe58402f5cad409e5947f8013b97aef5a65696603"],
+  ["src/pages/FinalSummaryPage.tsx", "c95732798cd2624137e6d856627ff36f3658155e141cb8f71c051d6d8dd95579"],
+  ["src/components/SituationCard.tsx", "f9b20c8a0012fbb96a7ea980b64af97c789f6bc914bf04bc51f87e19e189d961"],
+  ["src/data/v2/situationIllustrationsV2.ts", "148d9343fc93db017f54b79c8bb307179d2ca8207c185ffab08f989bc401644a"],
+]);
+for (const [filename, referenceHash] of unchangedVisibleFiles) {
   const current = await read(filename);
-  const reference = execFileSync("git", ["show", `HEAD:${filename}`], { cwd: root, encoding: "utf8" });
-  if (current !== reference) throw new Error(`Contrat visible modifié hors périmètre : ${filename}`);
+  if (sha256(current) !== referenceHash) throw new Error(`Contrat visible modifié hors périmètre : ${filename}`);
 }
 
 const portrait = await read("src/components/CharacterPortrait.tsx");
-const portraitReference = execFileSync("git", ["show", "c63354c:src/components/CharacterPortrait.tsx"], { cwd: root, encoding: "utf8" });
-assertPortraitContract(portrait, portraitReference);
+assertPortraitContract(portrait);
 
 const app = await read("src/App.tsx");
 for (const expected of [
@@ -109,5 +110,5 @@ for (const expected of ["Situation {index + 1} sur 8", "Valider mes deux répons
 for (const forbidden of ["sur 16", "pourcentage", "score global", "note sur 20", "data-code", "data-focal", "data-role"]) if (situationQuizApp.includes(forbidden)) throw new Error(`Fuite ou score interdit dans Quiz Situations : ${forbidden}`);
 if (!situationQuizApp.includes('phase === "feedback" ? `${question.code} — ${question.title}` : "Quiz Situations"')) throw new Error("Masquage préalable du titre Situation non contrôlé");
 
-console.log(`Contrats visibles Jouer inchangés : ${unchangedVisibleFiles.length} fichiers comparés au commit HEAD.`);
+console.log(`Contrats visibles Jouer inchangés : ${unchangedVisibleFiles.size} fichiers comparés aux références validées.`);
 console.log("Parcours Jouer, chargement accessible, médias, routes et contrats Personnages 8D : contrôlés.");

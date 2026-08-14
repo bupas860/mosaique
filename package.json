@@ -31,6 +31,8 @@
     "quiz:generate-public": "node scripts/public-quiz/generate.mjs",
     "check:public-character-quiz": "node scripts/public-quiz/check.mjs",
     "check:public-situation-quiz": "node scripts/public-quiz/check.mjs",
+    "check:public-addressing": "node scripts/check-public-addressing.mjs",
+    "check:elea-context": "node scripts/check-elea-context.mjs",
     "dev": "vite",
     "build": "npm run understand:validate && npm run understand:import && npm run understand:check-public && npm run understand:check-ui && npm run biographies:validate && npm run biographies:import && npm run biographies:check-public && tsc -b && vite build && npm run understand:check-dist && npm run biographies:check-dist",
     "lint": "oxlint",

@@ -1,10 +1,10 @@
-import { execFileSync } from "node:child_process";
+import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { assertPortraitContract } from "./check-ui-contracts.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const reference = execFileSync("git", ["show", "c63354c:src/components/CharacterPortrait.tsx"], { cwd: root, encoding: "utf8" });
+const reference = await readFile(path.join(root, "src/components/CharacterPortrait.tsx"), "utf8");
 
 function mustReject(content, label) {
   try {

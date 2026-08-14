@@ -48,6 +48,10 @@ export const EXPLORER_CHARACTERS_HASH = PERSONNAGES_HASH;
 export const UNDERSTAND_HASH = "#/comprendre";
 export const UNDERSTAND_MODULES_HASH = `${UNDERSTAND_HASH}/modules`;
 
+export function isEleaContext(search = window.location.search): boolean {
+  return new URLSearchParams(search).get("context") === "elea";
+}
+
 export const understandReadingPathHash = (pathId: string) => `${UNDERSTAND_HASH}/parcours/${pathId}`;
 export const understandModuleHash = (moduleId: UnderstandModuleId, sectionId?: string) => `${UNDERSTAND_MODULES_HASH}/${moduleId}${sectionId ? `/section/${sectionId}` : ""}`;
 export const understandGlossaryHash = (notionId?: string) => `${UNDERSTAND_HASH}/glossaire${notionId ? `/${notionId}` : ""}`;

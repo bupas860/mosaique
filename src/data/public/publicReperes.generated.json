@@ -5,32 +5,32 @@
       "id": "R1",
       "routeSegment": "r1",
       "title": "Comment fonctionne Mosaïque ?",
-      "introduction": "Mosaïque te propose d’observer les effets d’une situation sur un personnage fictif.",
-      "inBrief": "Tu suis un personnage au fil de plusieurs situations. Pour chacune, tu prends une décision. Mosaïque te présente ensuite son interprétation, puis un bilan de la partie. Il n’y a ni score moral ni classement des personnes.",
+      "introduction": "Mosaïque vous propose d’observer les effets d’une situation sur un personnage fictif.",
+      "inBrief": "Vous suivez un personnage au fil de plusieurs situations. Pour chacune, vous prenez une décision. Mosaïque vous présente ensuite son interprétation, puis un bilan de la partie. Il n’y a ni score moral ni classement des personnes.",
       "sections": [
         {
           "title": "Une partie en quelques étapes",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "Tu commences par choisir un **mode**. Certains modes se concentrent sur un obstacle visible, une norme ordinaire, un effet moins visible ou l’articulation de plusieurs rapports sociaux. Le mode Découverte combine plusieurs de ces angles dans une même partie."
+              "text": "Vous commencez par choisir un **mode**. Certains modes se concentrent sur un obstacle visible, une norme ordinaire, un effet moins visible ou l’articulation de plusieurs rapports sociaux. Le mode Découverte combine plusieurs de ces angles dans une même partie."
             },
             {
               "type": "paragraph",
-              "text": "Tu choisis ensuite un **personnage**. La fiche affichée avant la partie te donne quelques informations utiles. Tu peux découvrir son parcours plus en détail dans l’espace **Personnages**. Tu suis cette personne fictive pendant la partie, mais tu ne deviens pas elle."
+              "text": "Vous choisissez ensuite un **personnage**. La fiche affichée avant la partie vous donne quelques informations utiles. Vous pouvez découvrir son parcours plus en détail dans l’espace **Personnages**. Vous suivez cette personne fictive pendant la partie, mais vous ne devenez pas elle."
             },
             {
               "type": "paragraph",
-              "text": "Une situation apparaît. Tu lis la scène et tu décides si le personnage avance ou reste sur place. La question porte uniquement sur cette scène : augmente-t-elle sa marge de manœuvre, ou crée-t-elle un obstacle ?"
+              "text": "Une situation apparaît. Vous lisez la scène et vous décidez si le personnage avance ou reste sur place. La question porte uniquement sur cette scène : augmente-t-elle sa marge de manœuvre, ou crée-t-elle un obstacle ?"
             }
           ]
         },
         {
-          "title": "Une interprétation après ton choix",
+          "title": "Une interprétation après votre choix",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "Après ta réponse, le **feedback** indique la lecture retenue par Mosaïque. Il s’appuie sur la situation et sur les informations publiques du personnage. Il explique ce qui peut faciliter ou limiter son action."
+              "text": "Après votre réponse, le **feedback** indique la lecture retenue par Mosaïque. Il s’appuie sur la situation et sur les informations publiques du personnage. Il explique ce qui peut faciliter ou limiter son action."
             },
             {
               "type": "paragraph",
@@ -38,7 +38,7 @@
             },
             {
               "type": "paragraph",
-              "text": "À la fin, le **bilan** compare les effets prévus par le jeu et les réponses données. Il t’aide à repérer les situations qui méritent d’être relues. Il ne mesure ni ta valeur, ni ta sensibilité, ni tes opinions."
+              "text": "À la fin, le **bilan** compare les effets prévus par le jeu et les réponses données. Il vous aide à repérer les situations qui méritent d’être relues. Il ne mesure ni votre valeur, ni votre sensibilité, ni vos opinions."
             }
           ]
         },
@@ -51,7 +51,7 @@
             },
             {
               "type": "paragraph",
-              "text": "Le jeu ne te donne pas accès à ce que ressentirait une personne réelle. Il ne te demande pas non plus d’inventer les pensées du personnage. Tu observes des informations, une règle, une action ou une organisation, puis tu examines leurs effets possibles."
+              "text": "Le jeu ne vous donne pas accès à ce que ressentirait une personne réelle. Il ne vous demande pas non plus d’inventer les pensées du personnage. Vous observez des informations, une règle, une action ou une organisation, puis vous examinez leurs effets possibles."
             }
           ]
         },
@@ -64,7 +64,7 @@
             },
             {
               "type": "paragraph",
-              "text": "Ta décision porte sur le fonctionnement du document dans cette scène. Elle ne permet pas de juger toute la vie du personnage, toutes les familles ou tous les formulaires scolaires."
+              "text": "Votre décision porte sur le fonctionnement du document dans cette scène. Elle ne permet pas de juger toute la vie du personnage, toutes les familles ou tous les formulaires scolaires."
             },
             {
               "type": "callout",
@@ -74,7 +74,7 @@
             {
               "type": "callout",
               "label": "À retenir",
-              "text": "Mosaïque fait comparer des décisions situées, pas des personnes.\nLe feedback propose une interprétation que tu peux examiner, pas une note morale."
+              "text": "Mosaïque fait comparer des décisions situées, pas des personnes.\nLe feedback propose une interprétation que vous pouvez examiner, pas une note morale."
             },
             {
               "type": "paragraph",
@@ -83,7 +83,7 @@
           ]
         }
       ],
-      "continueText": "**Pour continuer :** commence une partie dans **Jouer** ou découvre les parcours dans **Personnages**.",
+      "continueText": "**Pour continuer :** commencez une partie dans **Jouer** ou découvrez les parcours dans **Personnages**.",
       "continueLinks": [
         {
           "label": "Jouer",
@@ -150,7 +150,7 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "Dans Mosaïque, tu ne réponds pas à partir de ta vie. Tu suis un personnage fictif dans des scènes contextualisées. Chaque décision porte sur une situation, et non sur une quantité globale de privilège."
+              "text": "Dans Mosaïque, vous ne répondez pas à partir de votre vie. Vous suivez un personnage fictif dans des scènes contextualisées. Chaque décision porte sur une situation, et non sur une quantité globale de privilège."
             },
             {
               "type": "paragraph",
@@ -180,7 +180,7 @@
           ]
         }
       ],
-      "continueText": "**Pour continuer :** observe les différentes scènes dans **Situations** ou lance une partie dans **Jouer**.",
+      "continueText": "**Pour continuer :** observez les différentes scènes dans **Situations** ou lancez une partie dans **Jouer**.",
       "continueLinks": [
         {
           "label": "Situations",
@@ -294,7 +294,7 @@
           ]
         }
       ],
-      "continueText": "**Pour continuer :** compare les effets d’une même scène dans **Jouer** ou explore les analyses dans **Situations**.",
+      "continueText": "**Pour continuer :** comparez les effets d’une même scène dans **Jouer** ou explorez les analyses dans **Situations**.",
       "continueLinks": [
         {
           "label": "Jouer",
@@ -413,7 +413,7 @@
           ]
         }
       ],
-      "continueText": "**Pour continuer :** cherche les détails importants dans **Situations** ou compare les focales dans **Jouer**.",
+      "continueText": "**Pour continuer :** cherchez les détails importants dans **Situations** ou comparez les focales dans **Jouer**.",
       "continueLinks": [
         {
           "label": "Situations",
@@ -536,7 +536,7 @@
           ]
         }
       ],
-      "continueText": "**Pour continuer :** repère les scènes protectrices dans **Situations** ou observe leurs effets dans **Jouer**.",
+      "continueText": "**Pour continuer :** repérez les scènes protectrices dans **Situations** ou observez leurs effets dans **Jouer**.",
       "continueLinks": [
         {
           "label": "Situations",

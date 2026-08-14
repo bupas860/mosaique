@@ -3,7 +3,7 @@
   "quiz": {
     "title": "Quiz Personnages",
     "meta": "8 questions — environ 4 à 6 minutes",
-    "introduction": "Retrouve les distinctions utiles pour lire les biographies de Mosaïque. Une correction expliquée apparaît après chaque question. Tu peux prendre le temps de la relire, puis recommencer la même série.",
+    "introduction": "Retrouvez les distinctions utiles pour lire les biographies de Mosaïque. Une correction expliquée apparaît après chaque question. Vous pouvez prendre le temps de la relire, puis recommencer la même série.",
     "questions": [
       {
         "id": "QP01",
@@ -144,7 +144,7 @@
         "format": "QCM à plusieurs réponses.",
         "introduction": "Noé indique qu’il utilise le pronom « il ». Toutes les informations nécessaires sont données dans cette phrase.",
         "question": "Quelles affirmations sont correctes à partir de cette information ?",
-        "instruction": "Plusieurs réponses possibles. Sélectionne toutes les réponses exactes, puis valide.",
+        "instruction": "Plusieurs réponses possibles. Sélectionnez toutes les réponses exactes, puis validez.",
         "responseType": "multiple",
         "options": [
           {
@@ -193,8 +193,8 @@
         "title": "Coming in, coming out et outing",
         "format": "Association entre trois situations et trois termes.",
         "introduction": "Trois moments différents sont décrits.",
-        "question": "Associe chaque situation au terme correspondant.",
-        "instruction": "Une réponse pour chaque situation. Utilise chaque terme une fois, puis valide l’ensemble.",
+        "question": "Associez chaque situation au terme correspondant.",
+        "instruction": "Une réponse pour chaque situation. Utilisez chaque terme une fois, puis validez l’ensemble.",
         "responseType": "association",
         "options": [
           {
@@ -287,7 +287,7 @@
         "format": "QCM à plusieurs réponses.",
         "introduction": "Aucune.",
         "question": "Quelles affirmations respectent la diversité des parcours trans et non binaires ?",
-        "instruction": "Plusieurs réponses possibles. Sélectionne toutes les réponses exactes, puis valide.",
+        "instruction": "Plusieurs réponses possibles. Sélectionnez toutes les réponses exactes, puis validez.",
         "responseType": "multiple",
         "options": [
           {
