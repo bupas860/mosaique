@@ -1,6 +1,5 @@
-import { createRef, useMemo, useState } from "react";
+import { useRef, useState } from "react";
 import AppBackground from "../components/AppBackground";
-import BiographyAccordion from "../components/BiographyAccordion";
 import BiographyContentBlocks from "../components/BiographyContentBlocks";
 import CharacterPortrait from "../components/CharacterPortrait";
 import CharacterPublicTags from "../components/CharacterPublicTags";
@@ -18,64 +17,90 @@ const groups = [
 interface Props { biography: RuntimePublicBiography; }
 
 export default function CharacterBiographyPage({ biography }: Props) {
-  const [openGroups, setOpenGroups] = useState<Readonly<Record<string, boolean>>>({ overview: true, journey: false, privacy: false, school: false });
-  const buttonRefs = useMemo(() => Object.fromEntries(groups.map(({ id }) => [id, createRef<HTMLButtonElement>()])), []);
+  const [activeGroupId, setActiveGroupId] = useState<(typeof groups)[number]["id"]>("overview");
+  const [openSectionNumber, setOpenSectionNumber] = useState<number>(groups[0].sections[0]);
+  const tabRefs = useRef<(HTMLButtonElement | null)[]>([]);
   const biographyIndex = publicBiographiesV2.findIndex(({ id }) => id === biography.id);
   const previous = biographyIndex > 0 ? publicBiographiesV2[biographyIndex - 1] : undefined;
   const next = biographyIndex < publicBiographiesV2.length - 1 ? publicBiographiesV2[biographyIndex + 1] : undefined;
+  const activeGroupIndex = groups.findIndex(({ id }) => id === activeGroupId);
+  const activeGroup = groups[activeGroupIndex] ?? groups[0];
 
-  function openFromSummary(id: string, event: React.MouseEvent<HTMLAnchorElement>) {
-    event.preventDefault();
-    setOpenGroups((current) => ({ ...current, [id]: true }));
-    requestAnimationFrame(() => {
-      const button = buttonRefs[id].current;
-      button?.focus({ preventScroll: true });
-      const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      button?.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "start" });
-    });
+  function activateTab(index: number) {
+    const normalizedIndex = (index + groups.length) % groups.length;
+    setActiveGroupId(groups[normalizedIndex].id);
+    setOpenSectionNumber(groups[normalizedIndex].sections[0]);
+    requestAnimationFrame(() => tabRefs.current[normalizedIndex]?.focus({ preventScroll: true }));
+  }
+
+  function selectTab(index: number) {
+    setActiveGroupId(groups[index].id);
+    setOpenSectionNumber(groups[index].sections[0]);
+  }
+
+  function handleTabKeyDown(event: React.KeyboardEvent<HTMLButtonElement>, index: number) {
+    if (event.key === "ArrowLeft") { event.preventDefault(); activateTab(index - 1); }
+    if (event.key === "ArrowRight") { event.preventDefault(); activateTab(index + 1); }
+    if (event.key === "Home") { event.preventDefault(); activateTab(0); }
+    if (event.key === "End") { event.preventDefault(); activateTab(groups.length - 1); }
   }
 
   return (
     <AppBackground as="main" className="biography-page">
       <div className="biography-page__inner">
         <a href={EXPLORER_CHARACTERS_HASH} className="app-text-link">Retour aux personnages</a>
-        <header className="biography-hero" style={{ "--character-accent": biography.gallery === "general" ? "#2563A9" : "#6D4CC3" } as React.CSSProperties}>
-          <CharacterPortrait characterId={biography.id} characterName={biography.name} image={biography.image} alt={biography.portraitAlt} accentColor={biography.gallery === "general" ? "#2563A9" : "#6D4CC3"} size="card" eager className="biography-hero__portrait" />
-          <div className="biography-hero__content">
-            <h1>{biography.name}</h1>
-            <p className="biography-hero__metadata">{biography.age} ans · {biography.schoolLevel}</p>
-            <p className="biography-hero__gallery">{biography.galleryLabel} · <span>{biography.id}</span></p>
-            <CharacterPublicTags characterId={biography.id} className="biography-hero__tags" />
-            <p className="biography-hero__description">{biography.shortDescription}</p>
-          </div>
-        </header>
-        <aside className="biography-narrative-note" aria-labelledby="biography-note-title">
-          <h2 id="biography-note-title">À propos de cette fiche</h2>
-          <p>Cette fiche donne au lecteur des informations que le lycée fictif, les autres personnages ou l’entourage ne connaissent pas nécessairement. Elles ne doivent pas être utilisées comme si elles étaient publiques dans l’histoire.</p>
-        </aside>
-        <nav className="biography-summary" aria-label="Sommaire de la fiche">
-          <h2>Sommaire de la fiche</h2>
-          <ul>{groups.map(({ id, title }) => <li key={id}><a href={characterBiographyHash(biography.id)} onClick={(event) => openFromSummary(id, event)}>{title}</a></li>)}</ul>
-        </nav>
-        <div className="biography-accordions">
-          {groups.map((group) => (
-            <BiographyAccordion key={group.id} id={group.id} title={group.title} open={openGroups[group.id]} buttonRef={buttonRefs[group.id]} onToggle={() => setOpenGroups((current) => ({ ...current, [group.id]: !current[group.id] }))}>
-              {group.id === "privacy" && <p className="biography-privacy-reminder">Les personnes informées varient selon les espaces. Lire cette fiche ne rend pas ces informations publiques dans l’histoire.</p>}
-              {group.sections.map((number) => {
-                const section = biography.sections.find((candidate) => candidate.number === number);
-                if (!section) throw new Error(`Rubrique publique absente : ${biography.id}/${number}`);
-                return <section key={number} className="biography-canonical-section"><h3>{section.title}</h3><BiographyContentBlocks blocks={section.blocks} /></section>;
+        <div className="biography-layout">
+          <header className="biography-profile" style={{ "--character-accent": biography.gallery === "general" ? "#2563A9" : "#6D4CC3" } as React.CSSProperties}>
+            <CharacterPortrait characterId={biography.id} characterName={biography.name} image={biography.image} alt={biography.portraitAlt} accentColor={biography.gallery === "general" ? "#2563A9" : "#6D4CC3"} size="card" eager className="biography-profile__portrait" />
+            <div className="biography-profile__content">
+              <h1>{biography.name}</h1>
+              <p className="biography-profile__metadata">{biography.age} ans · {biography.schoolLevel}</p>
+              <CharacterPublicTags characterId={biography.id} className="biography-profile__tags" />
+              <p className="biography-profile__description">{biography.shortDescription}</p>
+              <p className="biography-profile__words"><a href="#/personnages/mots-et-parcours">Mots et parcours</a></p>
+            </div>
+          </header>
+          <section className="biography-tabs" aria-label="Biographie détaillée">
+            <div role="tablist" aria-label="Rubriques de la biographie" className="biography-tabs__list">
+              {groups.map((group, index) => {
+                const selected = group.id === activeGroupId;
+                return <button key={group.id} ref={(element) => { tabRefs.current[index] = element; }} type="button" role="tab" id={`biography-tab-${group.id}`} aria-selected={selected} aria-controls={`biography-panel-${group.id}`} tabIndex={selected ? 0 : -1} onClick={() => selectTab(index)} onKeyDown={(event) => handleTabKeyDown(event, index)}>{group.title}</button>;
               })}
-            </BiographyAccordion>
-          ))}
+            </div>
+            {groups.map((group) => (
+              <div key={group.id} role="tabpanel" id={`biography-panel-${group.id}`} aria-labelledby={`biography-tab-${group.id}`} hidden={group.id !== activeGroup.id} className="biography-tabs__panel">
+                {group.id === "privacy" && <p className="biography-privacy-reminder">Les personnes informées varient selon les espaces. Lire cette fiche ne rend pas ces informations publiques dans l’histoire.</p>}
+                <div className="biography-subsections">
+                <div className="biography-subsection-headers">
+                {group.sections.map((number) => {
+                  const section = biography.sections.find((candidate) => candidate.number === number);
+                  if (!section) throw new Error(`Rubrique publique absente : ${biography.id}/${number}`);
+                  const open = group.id === activeGroupId && number === openSectionNumber;
+                  const buttonId = `biography-section-button-${group.id}-${number}`;
+                  const panelId = `biography-section-panel-${group.id}-${number}`;
+                  return <div key={number} className={`biography-subsection${open ? " biography-subsection--open" : ""}`}>
+                    <h2><button type="button" id={buttonId} aria-expanded={open} aria-controls={panelId} onClick={() => setOpenSectionNumber(number)}><span>{section.title}</span><span aria-hidden="true">{open ? "−" : "+"}</span></button></h2>
+                  </div>;
+                })}
+                </div>
+                <div className="biography-subsection-panels">
+                {group.sections.map((number) => {
+                  const section = biography.sections.find((candidate) => candidate.number === number);
+                  if (!section) throw new Error(`Rubrique publique absente : ${biography.id}/${number}`);
+                  const open = group.id === activeGroupId && number === openSectionNumber;
+                  const buttonId = `biography-section-button-${group.id}-${number}`;
+                  const panelId = `biography-section-panel-${group.id}-${number}`;
+                  return <div key={number} role="region" id={panelId} aria-labelledby={buttonId} hidden={!open} className="biography-subsection__panel"><BiographyContentBlocks blocks={section.blocks} /></div>;
+                })}
+                </div>
+                </div>
+              </div>
+            ))}
+          </section>
         </div>
-        <section className="biography-journey-words" aria-labelledby="biography-journey-words-title">
-          <h2 id="biography-journey-words-title">Mots et parcours</h2>
-          <p><a href="#/personnages/mots-et-parcours">Comprendre les mots utilisés dans les biographies</a></p>
-        </section>
         <nav className="biography-sequence" aria-label="Personnages précédent et suivant">
-          {previous ? <a href={characterBiographyHash(previous.id)}>Personnage précédent : {previous.name}, {previous.galleryLabel}</a> : <span />}
-          {next ? <a href={characterBiographyHash(next.id)}>Personnage suivant : {next.name}, {next.galleryLabel}</a> : null}
+          {previous ? <a href={characterBiographyHash(previous.id)}>Personnage précédent : {previous.name}</a> : <span />}
+          {next ? <a href={characterBiographyHash(next.id)}>Personnage suivant : {next.name}</a> : null}
         </nav>
         <a href={EXPLORER_CHARACTERS_HASH} className="app-text-link biography-back-link">Retour aux personnages</a>
       </div>

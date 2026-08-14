@@ -14,6 +14,8 @@ export interface PublicRepere {
   readonly id: `R${number}`;
   readonly routeSegment: string;
   readonly title: string;
+  readonly publicTitle: string;
+  readonly primaryBlocks: readonly PublicTextBlock[];
   readonly introduction: string;
   readonly inBrief: string;
   readonly sections: readonly PublicRepereSection[];

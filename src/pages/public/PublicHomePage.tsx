@@ -1,36 +1,23 @@
-import { GAME_HASH, PERSONNAGES_HASH, REPERES_HASH, SITUATIONS_HASH } from "../../utils/appRoute";
-
-type HomeEntry = {
-  readonly title: string;
-  readonly href: string;
-  readonly description?: string;
-  readonly marker: string;
-  readonly primary: boolean;
-};
-
-const entries: readonly HomeEntry[] = [
-  { title: "Jouer", href: GAME_HASH, description: "Cet espace constitue l’entrée dans l’expérience de jeu.", marker: "▶", primary: true },
-  { title: "Personnages", href: PERSONNAGES_HASH, description: "Cet espace donne accès aux 17 personnages et à leurs biographies publiques validées.", marker: "17", primary: false },
-  { title: "Situations", href: SITUATIONS_HASH, description: "Cet espace permet d’explorer le corpus public de situations illustrées.", marker: "◆", primary: false },
-  { title: "Repères", href: REPERES_HASH, marker: "5", primary: false },
-];
+import { illustrations } from "../../assets/illustrations/illustrations";
+import AppBackground from "../../components/AppBackground";
 
 export default function PublicHomePage() {
-  return (
-    <main className="public-home">
-      <div className="public-home__intro">
-        <h1>Mosaïque</h1>
-        <p>Mosaïque aide le lycéen à observer comment une situation ordinaire peut modifier la marge de manœuvre d’une personne.</p>
+  return <AppBackground as="main" className="home-page public-activity-home">
+    <section className="home-hero" aria-labelledby="home-title">
+      <div className="home-hero__visual" aria-hidden="true" style={{ backgroundImage: `url("${illustrations.homeHero.active}")` }} />
+      <div className="home-hero__shade" aria-hidden="true" />
+      <div className="home-hero__content">
+        <h1 id="home-title" className="home-hero__title">La marche des privilèges</h1>
+        <div className="home-hero__paths" aria-hidden="true" />
+        <p className="home-hero__intro">Incarnez un personnage et observez comment des situations ordinaires peuvent réduire ou élargir sa marge de manœuvre.</p>
+        <div className="home-hero__action"><a className="home-primary-link" href="#/jouer">Commencer une partie</a></div>
       </div>
-      <div className="public-home__cards" aria-label="Espaces de Mosaïque">
-        {entries.map((entry) => (
-          <article className={`public-card${entry.primary ? " public-card--primary" : ""}`} key={entry.title}>
-            <span className="public-card__marker" aria-hidden="true">{entry.marker}</span>
-            <h2><a href={entry.href}>{entry.title}</a></h2>
-            {entry.description ? <p>{entry.description}</p> : null}
-          </article>
-        ))}
+    </section>
+    <aside className="home-introduction">
+      <div className="home-introduction__inner">
+        <h2 className="text-xl font-bold text-slate-900">Comment se déroule une partie&nbsp;?</h2>
+        <p className="mt-3 leading-relaxed text-slate-700">Vous parcourez 10 situations en incarnant un personnage. Après chaque choix, une comparaison présente votre lecture et une interprétation proposée, sans note ni classement.</p>
       </div>
-    </main>
-  );
+    </aside>
+  </AppBackground>;
 }

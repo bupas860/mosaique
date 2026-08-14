@@ -71,10 +71,13 @@ for (const hash of ["#/mots-utiles/mu-ori?from=https://example.org", "#/mots-uti
 }
 
 const home = await read("src/pages/public/PublicHomePage.tsx");
-const homeOrder = ["Jouer", "Personnages", "Situations", "Repères"].map((label) => home.indexOf(`title: "${label}"`));
-if (homeOrder.some((index) => index < 0) || homeOrder.some((index, position) => position > 0 && index <= homeOrder[position - 1])) throw new Error("Ordre ou cardinalité des quatre entrées d’accueil invalide");
-for (const expected of ['href: GAME_HASH', 'href: PERSONNAGES_HASH', 'href: SITUATIONS_HASH', 'href: REPERES_HASH', 'primary: true']) requireText(home, expected, "Accueil public");
-for (const forbidden of ["Comprendre", "progression", "score", "classement"]) if (home.includes(forbidden)) throw new Error(`Contenu interdit sur l’accueil : ${forbidden}`);
+for (const expected of [
+  "La marche des privilèges",
+  "Incarnez un personnage et observez comment des situations ordinaires peuvent réduire ou élargir sa marge de manœuvre.",
+  'href="#/jouer"', "Commencer une partie", "Comment se déroule une partie",
+]) requireText(home, expected, "Accueil public");
+for (const forbidden of ["public-home__cards", "Explorer Personnages", "title: \"Jouer\""]) if (home.includes(forbidden)) throw new Error(`Répétition de navigation sur l’accueil : ${forbidden}`);
+for (const forbidden of ["Comprendre", "progression", "score"]) if (home.includes(forbidden)) throw new Error(`Contenu interdit sur l’accueil : ${forbidden}`);
 
 const frame = await read("src/components/public/PublicFrame.tsx");
 for (const expected of [
@@ -82,6 +85,7 @@ for (const expected of [
   'aria-current=', 'aria-expanded={menuOpen}', 'aria-controls="public-mobile-menu"', 'event.key !== "Escape"',
   'menuButton.current?.focus()', 'hidden={!menuOpen}', 'onClick={mobile ? () => setMenuOpen(false)',
   'id="main-content"', 'tabIndex={-1}', '<footer',
+  "PUBLIC_BRAND",
 ]) requireText(frame, expected, "Cadre public accessible");
 const navigationOrder = ["Jouer", "Personnages", "Situations", "Repères"].map((label) => frame.indexOf(`label: "${label}"`));
 if (navigationOrder.some((index) => index < 0) || navigationOrder.some((index, position) => position > 0 && index <= navigationOrder[position - 1])) throw new Error("Ordre de navigation invalide");
@@ -91,7 +95,7 @@ const app = await read("src/App.tsx");
 for (const expected of [
   'lazy(() => import("./game/GameApp"))', "window.location.replace(route.target)",
   'document.title = titleForRoute(route)', 'document.getElementById("main-content")?.focus({ preventScroll: true })',
-  'home: "Mosaïque"', 'game: "Jouer — Mosaïque"', '"not-found": "Page introuvable — Mosaïque"',
+  'home: publicDocumentTitle(PUBLIC_ACTIVITY)', 'game: publicDocumentTitle(PUBLIC_ACTIVITY)', '"not-found": publicDocumentTitle("Page introuvable")',
 ]) requireText(app, expected, "Routage public");
 if (app.includes('import("./pages/understand/') || app.includes('from "./game/GameApp"') || app.includes('from "./features/situations/SituationsApp"') || app.includes('from "./features/characters/CharactersApp"')) throw new Error("Chargement public non différé détecté");
 
@@ -102,4 +106,4 @@ for (const expected of ["Page introuvable", "Cette page n’existe pas.", "Accue
 if (notFound.includes("fragment")) throw new Error("Le fragment inconnu est rendu dans la page");
 
 console.log(`Navigation publique contrôlée : ${cases.length} routes, ${redirects.length} redirections, 4 espaces principaux.`);
-console.log("Accueil, titres, focus, menu mobile, page inconnue et retrait public de Comprendre : conformes.");
+console.log("Accueil sans grille redondante, identité Parcours LGBTI+, titres, focus, menu mobile et page inconnue : conformes.");

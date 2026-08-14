@@ -25,7 +25,7 @@ function assertImperatives(values, label) {
 }
 
 const reperes = JSON.parse(await read(root, "src/data/public/publicReperes.generated.json")).reperes;
-assertAddressing(reperes.flatMap((repere) => [repere.introduction, repere.inBrief, repere.continueText, ...repere.sections.flatMap(({ title, blocks }) => [title, ...blocks.flatMap((block) => block.text ? [block.text] : block.items ?? [])])]), "Repères");
+assertAddressing(reperes.flatMap((repere) => [repere.publicTitle, repere.introduction, repere.inBrief, repere.continueText, ...repere.primaryBlocks.flatMap((block) => block.text ? [block.text] : block.items ?? []), ...repere.sections.flatMap(({ title, blocks }) => [title, ...blocks.flatMap((block) => block.text ? [block.text] : block.items ?? [])])]), "Repères");
 assertAddressing(reperes.map(({ continueText }) => continueText), "Renvois Repères", true);
 
 const characterQuiz = JSON.parse(await read(root, "src/data/public/publicCharacterQuiz.generated.json")).quiz;
@@ -41,6 +41,7 @@ const uiFiles = [
   "src/pages/HomePage.tsx",
   "src/pages/ModeSelectionPage.tsx",
   "src/pages/CharacterSelectionPage.tsx",
+  "src/pages/GamePreparationPage.tsx",
   "src/pages/GamePage.tsx",
   "src/pages/FinalSummaryPage.tsx",
 ];

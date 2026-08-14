@@ -21,9 +21,21 @@ function sourcePaths() {
   const docs = documentsRoot();
   return {
     reperes: path.join(docs, "public-lyceen/conception/090_Mosaique_Public_lyceen_Pages_Reperes_et_microcontenus_Jouer_V3.md"),
+    reperesPresentation: path.join(docs, "public-lyceen/conception/090_Mosaique_Public_lyceen_Pages_Reperes_et_microcontenus_Jouer_V5.md"),
     words: path.join(docs, "public-lyceen/conception/091_Mosaique_Public_lyceen_Les_mots_utiles_V2.md"),
     register: path.join(docs, "public-lyceen/conception/092_Mosaique_Public_lyceen_Registre_sources_renvois_et_tracabilite_V2.md"),
   };
+}
+
+function parseReperesPresentation(markdown) {
+  const headings = [...markdown.matchAll(/^## (R[1-5]) — (.+)$/gm)];
+  if (headings.length !== 5) throw new Error(`090 V5 : cinq présentations attendues, ${headings.length} trouvées`);
+  return new Map(headings.map((heading, index) => {
+    const end = headings[index + 1]?.index ?? markdown.length;
+    const blocks = parseBlocks(markdown.slice(heading.index + heading[0].length, end));
+    if (blocks.length < 2) throw new Error(`${heading[1]} : niveau principal trop court`);
+    return [heading[1], { publicTitle: heading[2].trim(), primaryBlocks: blocks }];
+  }));
 }
 
 const readRequired = (filename) => {
@@ -117,11 +129,17 @@ function parseWords(markdown) {
 export function buildPublicReference() {
   const paths = sourcePaths();
   const reperesSource = readRequired(paths.reperes);
+  const reperesPresentationSource = readRequired(paths.reperesPresentation);
   const wordsSource = readRequired(paths.words);
   const register = readRequired(paths.register);
-  const reperes = parseReperes(reperesSource, wordsSource);
+  const presentation = parseReperesPresentation(reperesPresentationSource);
+  const reperes = parseReperes(reperesSource, wordsSource).map((repere) => {
+    const projected = presentation.get(repere.id);
+    if (!projected) throw new Error(`090 V5 : présentation absente pour ${repere.id}`);
+    return { ...repere, ...projected };
+  });
   const words = parseWords(wordsSource);
-  if (reperes.map(({ id }) => id).join() !== EXPECTED_REPERES.join()) throw new Error("090 V3 : ordre R1–R5 invalide");
+  if (reperes.map(({ id }) => id).join() !== EXPECTED_REPERES.join()) throw new Error("090 V3/V5 : ordre R1–R5 invalide");
   if (words.slice(0, 15).map(({ id }) => id).join() !== JOURNEY_IDS.join()) throw new Error("091 V2 : groupe Mots et parcours invalide");
   for (const id of [...EXPECTED_REPERES, ...words.map(({ id }) => id)]) if (!register.includes(id)) throw new Error(`092 V2 : identifiant de contrôle absent ${id}`);
   return { reperes, words };

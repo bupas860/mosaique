@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useState } from "react";
 import AppBackground from "../components/AppBackground";
 import Button from "../components/Button";
 import CharacterInformation from "../components/CharacterInformation";
@@ -6,11 +6,7 @@ import CharacterPortrait from "../components/CharacterPortrait";
 import InterpretationComparison from "../components/InterpretationComparison";
 import PrivilegeMargin from "../components/PrivilegeMargin";
 import { movementDecisionToStep } from "../data/v2";
-import {
-  getRevealedSituationFamilyLabel,
-  summarizeDiscoveryChoices,
-  type ActiveGameModeIdV2,
-} from "../data/v2/activeModesRuntimeV2";
+import { getRevealedSituationFamilyLabel, summarizeDiscoveryChoices, type ActiveGameModeIdV2 } from "../data/v2/activeModesRuntimeV2";
 import type { EditorialCharacterIdV2 } from "../types/editorialV2";
 import type { ChoiceHistoryEntryV2, GameCharacterV2 } from "../types/choiceHistory";
 import type { RuntimeSituationV2 } from "../types/runtimeV2";
@@ -18,17 +14,13 @@ import { personalizePlayerText } from "../utils/personalizePlayerText";
 
 interface Props { characters: readonly GameCharacterV2[]; initialCharacters: readonly GameCharacterV2[]; playedSituations: readonly RuntimeSituationV2[]; choiceHistory: readonly ChoiceHistoryEntryV2[]; selectedCharacterId: EditorialCharacterIdV2; selectedModeId: ActiveGameModeIdV2; onRestart: () => void; onChooseAnotherCharacter: () => void; onBackHome: () => void; }
 const movement = (name: string, decision: "advance" | "stay") => `${name} ${decision === "advance" ? "avance" : "reste sur place"}`;
-const modeLabels: Readonly<Record<ActiveGameModeIdV2, string>> = {
-  discovery: "Découverte",
-  "visible-obstacles": "Obstacles visibles",
-  "ordinary-norms": "Normes ordinaires",
-  "invisible-effects": "Effets invisibles",
-  intersectionalities: "Intersectionnalités",
-};
-const modeLabel = (modeId: ActiveGameModeIdV2) => modeLabels[modeId];
+const modeLabels: Readonly<Record<ActiveGameModeIdV2, string>> = { discovery: "Découverte", "visible-obstacles": "Obstacles visibles", "ordinary-norms": "Normes ordinaires", "invisible-effects": "Effets invisibles", intersectionalities: "Intersectionnalités" };
+
 export default function FinalSummaryPage({ characters, initialCharacters, playedSituations, choiceHistory, selectedCharacterId, selectedModeId, onRestart, onChooseAnotherCharacter, onBackHome }: Props) {
-  const choicesSectionRef = useRef<HTMLElement>(null);
+  const [selectedStep, setSelectedStep] = useState(0);
+  const [openRecap, setOpenRecap] = useState<number>();
   const selectedCharacter = initialCharacters.find(({ id }) => id === selectedCharacterId);
+  const name = selectedCharacter?.name ?? "Le personnage";
   const situationById = Object.fromEntries(playedSituations.map((situation) => [situation.id, situation]));
   const proposedPositions = Object.fromEntries(initialCharacters.map((character) => [character.id, playedSituations.reduce((position, situation) => {
     const decision = situation.movements[character.id];
@@ -36,18 +28,49 @@ export default function FinalSummaryPage({ characters, initialCharacters, played
     return position + movementDecisionToStep(decision);
   }, 0)]));
   const concordanceCount = choiceHistory.filter(({ matchesProposedInterpretation }) => matchesProposedInterpretation).length;
-  const discoveryFamilySummary = summarizeDiscoveryChoices(selectedModeId, choiceHistory);
-  function reviewChoices() { choicesSectionRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }); choicesSectionRef.current?.focus(); }
-  return <AppBackground as="main" className="summary-background" style={{ "--character-accent": selectedCharacter?.accentColor } as React.CSSProperties}><div className="mx-auto w-full max-w-[82rem] space-y-8 p-4 sm:p-8 lg:space-y-10 lg:px-8 lg:py-12 xl:px-6">
-    <header className="mx-auto max-w-4xl space-y-5 text-center"><h1 className="text-3xl font-bold text-slate-950 sm:text-4xl">Bilan de votre parcours</h1><p className="text-lg text-slate-700">Ce bilan propose de revenir sur les situations rencontrées et de comparer votre lecture avec l’interprétation proposée.</p><p className="text-sm font-semibold text-slate-600">Mode : {modeLabel(selectedModeId)}</p>
-      {selectedCharacter && <div className="app-surface selected-character-card mx-auto flex w-full max-w-[34rem] items-center gap-5 rounded-2xl border p-4 pr-6 text-left"><CharacterPortrait characterId={selectedCharacter.id} characterName={selectedCharacter.name} image={selectedCharacter.image} accentColor={selectedCharacter.accentColor} size="summary" eager className="shrink-0" /><div><p className="text-lg font-bold text-slate-900">{selectedCharacter.name}</p><CharacterInformation character={selectedCharacter} compact className="mt-1" /><p className="mt-1 text-slate-700">{characters.find(({ id }) => id === selectedCharacterId)?.position ?? 0} pas effectués sur {playedSituations.length}</p></div></div>}
+  const calculatedFocalSummary = summarizeDiscoveryChoices(selectedModeId, choiceHistory);
+  const focalSummary = calculatedFocalSummary.length > 0 ? calculatedFocalSummary : [{ originMode: selectedModeId, label: modeLabels[selectedModeId], concordances: concordanceCount, total: choiceHistory.length }];
+  const selectedEntry = choiceHistory[selectedStep];
+  const selectedSituation = selectedEntry ? situationById[selectedEntry.situationId] : undefined;
+  const selectedFocal = selectedEntry && selectedSituation ? getRevealedSituationFamilyLabel(selectedModeId, selectedSituation.originMode) : undefined;
+  const positionAfterSelectedStep = choiceHistory.slice(0, selectedStep + 1).reduce((position, entry) => position + movementDecisionToStep(entry.playerDecision), 0);
+
+  useEffect(() => { requestAnimationFrame(() => { const title = document.querySelector<HTMLElement>(".game-summary h1"); title?.setAttribute("tabindex", "-1"); title?.focus({ preventScroll: true }); }); }, []);
+
+  function recapPanel(entry: ChoiceHistoryEntryV2, index: number) {
+    const situation = situationById[entry.situationId];
+    if (!situation) throw new Error(`Situation jouée introuvable : ${entry.situationId}`);
+    const feedback = situation.feedback;
+    const focal = getRevealedSituationFamilyLabel(selectedModeId, situation.originMode);
+    const open = openRecap === index;
+    const buttonId = `summary-recap-button-${index + 1}`;
+    const panelId = `summary-recap-panel-${index + 1}`;
+    return <li key={entry.situationId} className={`summary-detail${open ? " summary-detail--open" : ""}`}><h3><button type="button" id={buttonId} aria-expanded={open} aria-controls={panelId} onClick={() => setOpenRecap((current) => current === index ? undefined : index)}><span>{index + 1}. {personalizePlayerText(situation.title, name)}</span><span className={entry.matchesProposedInterpretation ? "summary-status summary-status--concordant" : "summary-status summary-status--different"}>{entry.matchesProposedInterpretation ? "Lecture concordante" : "Lecture différente"}</span></button></h3><div role="region" id={panelId} aria-labelledby={buttonId} hidden={!open} className="summary-detail__panel">
+      <section><h4>Situation</h4><p>{personalizePlayerText(situation.text, name)}</p></section>
+      <InterpretationComparison id={`comparison-${situation.id}`} isCoherent={entry.matchesProposedInterpretation} playerMovement={movement(name, entry.playerDecision)} proposedMovement={movement(name, entry.proposedDecision)} />
+      {focal && <p><strong>Focale :</strong> {focal}</p>}
+      <section><h4>Pourquoi pour {name}&nbsp;?</h4><p>{personalizePlayerText(feedback.explanation, name)}</p></section>
+      <section><h4>Mécanisme en jeu</h4><p>{personalizePlayerText(situation.mechanism, name)}</p></section>
+      {situation.interpretation && <section><h4>Interprétation pédagogique</h4><p>{personalizePlayerText(situation.interpretation, name)}</p></section>}
+      {situation.vigilance && <section><h4>Point de vigilance</h4><p>{personalizePlayerText(situation.vigilance, name)}</p></section>}
+      {situation.intersectionalTest && <section><h4>Test intersectionnel</h4><p>{personalizePlayerText(situation.intersectionalTest, name)}</p></section>}
+    </div></li>;
+  }
+
+  return <AppBackground as="main" className="summary-background game-summary" style={{ "--character-accent": selectedCharacter?.accentColor } as React.CSSProperties}><div className="game-summary__inner">
+    <header className="game-summary__header"><h1>Bilan de votre parcours</h1><p>Ce bilan propose de revenir sur les situations rencontrées et de comparer votre lecture avec l’interprétation proposée.</p><p><strong>Mode :</strong> {modeLabels[selectedModeId]}</p>
+      {selectedCharacter && <div className="app-surface selected-character-card game-summary__character"><CharacterPortrait characterId={selectedCharacter.id} characterName={selectedCharacter.name} image={selectedCharacter.image} accentColor={selectedCharacter.accentColor} size="summary" eager /><div><p><strong>{selectedCharacter.name}</strong></p><CharacterInformation character={selectedCharacter} compact /><p>{characters.find(({ id }) => id === selectedCharacterId)?.position ?? 0} pas effectués sur {playedSituations.length}</p></div></div>}
     </header>
-    <PrivilegeMargin characters={characters} selectedCharacterId={selectedCharacterId} totalExperiences={playedSituations.length} proposedPositions={proposedPositions} className="mb-0" prominent />
-    <section className="app-surface rounded-2xl border p-6 sm:p-7 lg:p-8"><h2 className="text-2xl font-bold text-slate-950">Comparaison avec l’interprétation proposée</h2><p className="mt-4 leading-relaxed text-slate-700">Votre personnage a avancé dans {characters.find(({ id }) => id === selectedCharacterId)?.position ?? 0} situations selon vos réponses, et dans {proposedPositions[selectedCharacterId]} situations selon les interprétations proposées.</p><p className="mt-3 leading-relaxed text-slate-700">Votre lecture rejoint l’interprétation proposée dans {concordanceCount} situations sur {playedSituations.length}. Ce nombre sert à comparer les lectures proposées, et ne constitue pas une note morale.</p></section>
-    {discoveryFamilySummary.length > 0 && <section className="app-surface rounded-2xl border p-6 sm:p-7 lg:p-8"><h2 className="text-2xl font-bold text-slate-950">Lecture par famille</h2><ul className="mt-4 space-y-2 text-slate-800">{discoveryFamilySummary.map((family) => <li key={family.originMode}><strong>{family.label}&nbsp;:</strong> {family.concordances} concordances sur {family.total}</li>)}</ul><p className="mt-4 leading-relaxed text-slate-700">Cette répartition montre quelles familles de situations ont le plus rejoint ou surpris votre lecture. Elle ne constitue pas une note.</p></section>}
-    <section ref={choicesSectionRef} tabIndex={-1} className="app-surface rounded-2xl border p-5 focus:outline-none focus:ring-2 focus:ring-blue-600 sm:p-7 lg:p-8"><h2 className="text-2xl font-bold">Récapitulatif de vos réponses</h2><ol className="mt-7 space-y-5">
-      {choiceHistory.map((entry, index) => { const situation = situationById[entry.situationId]; if (!situation) throw new Error(`Situation jouée introuvable : ${entry.situationId}`); const feedback = situation.feedback; const name = selectedCharacter?.name ?? "Le personnage"; const familyLabel = getRevealedSituationFamilyLabel(selectedModeId, situation.originMode); return <li key={entry.situationId}><details open={index === 0} className="summary-detail group rounded-xl border"><summary className="cursor-pointer list-none rounded-xl px-5 py-4 font-semibold marker:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"><span className="flex items-start justify-between gap-3 sm:items-center"><span>{index + 1}. {personalizePlayerText(situation.title, name)}</span><span className={`rounded-full border px-3 py-1 text-xs font-semibold ${entry.matchesProposedInterpretation ? "border-teal-200 bg-teal-50 text-teal-950" : "border-amber-200 bg-amber-50 text-amber-950"}`}>{entry.matchesProposedInterpretation ? "Lecture concordante" : "Lecture différente"}</span></span></summary><div className="space-y-6 border-t border-slate-300 px-5 py-5 text-slate-700"><section><h3 className="font-bold text-slate-900">Situation</h3><p className="mt-1">{personalizePlayerText(situation.text, name)}</p></section><InterpretationComparison id={`comparison-${situation.id}`} isCoherent={entry.matchesProposedInterpretation} playerInterpretation={`Votre réponse : ${movement(name, entry.playerDecision)}.`} playerMovement={movement(name, entry.playerDecision)} proposedInterpretation={`Interprétation proposée : ${movement(name, entry.proposedDecision)}.`} proposedMovement={movement(name, entry.proposedDecision)} />{familyLabel && <p className="rounded-lg border border-slate-300 bg-slate-50 p-4 font-semibold text-slate-800">Famille : {familyLabel}</p>}<section><h3 className="font-bold text-indigo-900">Pourquoi pour {name}&nbsp;?</h3><p className="mt-2 leading-relaxed">{personalizePlayerText(feedback.explanation, name)}</p></section><section className="rounded-lg border border-indigo-200 bg-indigo-50/70 p-4"><h3 className="font-bold text-indigo-950">Mécanisme en jeu :</h3><p className="mt-2">{personalizePlayerText(situation.mechanism, name)}</p></section>{situation.interpretation && <section><h3 className="font-bold text-slate-900">Interprétation pédagogique</h3><p className="mt-2 leading-relaxed">{personalizePlayerText(situation.interpretation, name)}</p></section>}{situation.vigilance && <section className="rounded-lg border border-amber-200 bg-amber-50/70 p-4"><h3 className="font-bold text-amber-950">Point de vigilance</h3><p className="mt-2">{personalizePlayerText(situation.vigilance, name)}</p></section>}{situation.intersectionalTest && <section className="rounded-lg border border-violet-200 bg-violet-50/70 p-4"><h3 className="font-bold text-violet-950">Test intersectionnel</h3><p className="mt-2">{personalizePlayerText(situation.intersectionalTest, name)}</p></section>}</div></details></li>; })}
-    </ol></section>
-    <div className="flex flex-col items-center justify-center gap-3 sm:flex-row sm:flex-wrap sm:gap-4"><Button onClick={onRestart}>Rejouer</Button><Button variant="secondary" onClick={reviewChoices}>Revoir mes réponses</Button><Button variant="secondary" onClick={onChooseAnotherCharacter}>Changer de personnage</Button><Button variant="ghost" onClick={onBackHome}>Retour à l’accueil</Button></div>
+    <section className="game-journey" aria-labelledby="game-journey-title"><h2 id="game-journey-title">Votre parcours dans les 10 situations</h2><div className="game-journey__steps">{choiceHistory.map((entry, index) => <button key={entry.situationId} type="button" className={entry.matchesProposedInterpretation ? "game-journey__step game-journey__step--concordant" : "game-journey__step game-journey__step--different"} aria-label={`Situation ${index + 1} — ${entry.matchesProposedInterpretation ? "lecture concordante" : "lecture différente"}`} aria-pressed={selectedStep === index} onClick={() => setSelectedStep(index)}>{index + 1}</button>)}</div></section>
+    <div className="game-summary__overview">
+      <div className="game-summary__walk"><PrivilegeMargin characters={characters} selectedCharacterId={selectedCharacterId} totalExperiences={playedSituations.length} proposedPositions={proposedPositions} className="mb-0" prominent /></div>
+      <aside className="game-summary__pedagogy" aria-labelledby="game-summary-pedagogy-title"><h2 id="game-summary-pedagogy-title">Votre bilan</h2>
+        <section><h3>Comparaison avec l’interprétation proposée</h3><p><strong>{concordanceCount} lectures concordantes</strong> sur {playedSituations.length}.</p><p>Cet indicateur n’est pas une note. Il montre simplement combien de fois votre lecture rejoint l’interprétation proposée dans l’activité.</p></section>
+        <section><h3>Lecture par focale</h3><ul>{focalSummary.map((focal) => <li key={focal.originMode}><strong>{focal.label} :</strong> {focal.concordances} concordances sur {focal.total}</li>)}</ul><p>Cette répartition montre les angles d’analyse rencontrés parmi les dix situations de votre partie.</p></section>
+        {selectedEntry && selectedSituation && <section className="game-step-detail" aria-live="polite"><h3>Situation {selectedStep + 1} — {personalizePlayerText(selectedSituation.title, name)}</h3><p><strong>Votre lecture :</strong> {movement(name, selectedEntry.playerDecision)}.</p><p><strong>Interprétation proposée :</strong> {movement(name, selectedEntry.proposedDecision)}.</p>{selectedFocal && <p><strong>Focale :</strong> {selectedFocal}.</p>}<p><strong>Position après cette situation :</strong> {positionAfterSelectedStep} pas.</p></section>}
+      </aside>
+    </div>
+    <section className="game-summary__recap" aria-labelledby="game-summary-recap-title"><h2 id="game-summary-recap-title">Récapitulatif de vos réponses</h2><ol>{choiceHistory.map(recapPanel)}</ol></section>
+    <div className="game-summary__actions"><Button onClick={onRestart}>Rejouer</Button><Button variant="secondary" onClick={onChooseAnotherCharacter}>Changer de personnage</Button><Button variant="ghost" onClick={onBackHome}>Retour à l’accueil</Button></div>
   </div></AppBackground>;
 }

@@ -1,9 +1,10 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import AppBackground from "../components/AppBackground";
 import Button from "../components/Button";
 import PrivilegeMargin from "../components/PrivilegeMargin";
 import ProgressBar from "../components/ProgressBar";
 import SituationCard from "../components/SituationCard";
+import InterpretationComparison from "../components/InterpretationComparison";
 import {
   createActiveGameSet,
   getActiveCharacter,
@@ -33,15 +34,26 @@ export default function GamePage({ initialGameSet, selectedCharacterId, selected
   const [phase, setPhase] = useState<Phase>("question");
   const [choiceHistory, setChoiceHistory] = useState<ChoiceHistoryEntryV2[]>([]);
   const [characters, setCharacters] = useState<GameCharacterV2[]>(() => initialGameCharacters(selectedModeId));
+  const [detailsOpen, setDetailsOpen] = useState(false);
   const answerLockedRef = useRef(false);
   const continueLockedRef = useRef(false);
   const selectedCharacter = getActiveCharacter(selectedModeId, selectedCharacterId);
   const situation = gameSet.situations[currentIndex];
 
+  useEffect(() => {
+    if (phase === "end") return;
+    requestAnimationFrame(() => {
+      const target = document.querySelector<HTMLElement>(phase === "feedback" ? ".game-feedback h2" : ".situation-card h2");
+      target?.setAttribute("tabindex", "-1");
+      target?.focus({ preventScroll: true });
+    });
+  }, [currentIndex, phase]);
+
   function handleDecision(playerDecision: MovementDecision) {
     if (answerLockedRef.current) return;
     answerLockedRef.current = true;
     continueLockedRef.current = false;
+    setDetailsOpen(false);
     const proposedDecision = situation.movements[selectedCharacterId];
     if (!proposedDecision) throw new Error(`Décision proposée absente : ${situation.id}/${selectedCharacterId}`);
     setCharacters((current) => current.map((character) => {
@@ -59,6 +71,7 @@ export default function GamePage({ initialGameSet, selectedCharacterId, selected
     if (currentIndex === gameSet.situations.length - 1) { setPhase("end"); return; }
     setCurrentIndex((index) => index + 1);
     answerLockedRef.current = false;
+    setDetailsOpen(false);
     setPhase("question");
   }
 
@@ -69,6 +82,7 @@ export default function GamePage({ initialGameSet, selectedCharacterId, selected
     setCharacters(initialGameCharacters(selectedModeId));
     setCurrentIndex(0);
     setChoiceHistory([]);
+    setDetailsOpen(false);
     setPhase("question");
   }
 
@@ -92,18 +106,18 @@ export default function GamePage({ initialGameSet, selectedCharacterId, selected
           <a href="#privilege-margin" className="mt-3 inline-flex min-h-11 items-center rounded-lg font-semibold text-blue-700 underline underline-offset-4 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-600 focus-visible:ring-offset-2">Voir la marche complète</a>
         </section>
         <ProgressBar current={currentIndex + 1} total={gameSet.situations.length} /><SituationCard situation={playerSituation} situationId={situation.id} characterName={selectedCharacter.name} showChoices={phase === "question"} onDecision={handleDecision} />
-        {phase === "feedback" && latest && feedback && <section aria-live="polite" aria-atomic="true" className="mt-6 space-y-4">
+        {phase === "feedback" && latest && feedback && <section aria-live="polite" aria-atomic="true" className="game-feedback mt-6">
           <h2 className="text-2xl font-bold">Retour sur votre réponse</h2>
-          <div className="rounded-xl border border-blue-200 bg-blue-50 p-4"><p className="font-bold text-blue-950">Votre réponse : {decisionLabel(selectedCharacter.name, latest.playerDecision)}.</p></div>
-          <div className="rounded-xl border border-teal-200 bg-teal-50 p-4"><p className="font-bold text-teal-950">Interprétation proposée : {decisionLabel(selectedCharacter.name, latest.proposedDecision)}.</p></div>
-          <p className={`rounded-xl border-l-4 p-4 font-semibold ${latest.matchesProposedInterpretation ? "border-violet-500 bg-violet-50 text-violet-950" : "border-amber-500 bg-amber-50 text-amber-950"}`}><span aria-hidden="true" className="mr-2">{latest.matchesProposedInterpretation ? "≈" : "↔"}</span>{latest.matchesProposedInterpretation ? "Votre lecture rejoint l’interprétation proposée." : "Votre lecture diffère de l’interprétation proposée. Voici le mécanisme retenu pour ce personnage."}</p>
-          <Button onClick={continueAfterFeedback}>{currentIndex === gameSet.situations.length - 1 ? "Voir le bilan" : "Situation suivante"}</Button>
-          {revealedFamilyLabel && <p className="rounded-xl border border-slate-300 bg-slate-50 p-4 font-semibold text-slate-800">Famille : {revealedFamilyLabel}</p>}
-          <section><h3 className="font-bold text-slate-950">Pourquoi pour {selectedCharacter.name}&nbsp;?</h3><p className="mt-2 leading-relaxed text-slate-700">{personalizePlayerText(feedback.explanation, selectedCharacter.name)}</p></section>
-          <section className="rounded-xl border border-indigo-200 bg-indigo-50/70 p-4"><h3 className="font-bold text-indigo-950">Mécanisme en jeu :</h3><p className="mt-2 leading-relaxed text-slate-700">{personalizePlayerText(situation.mechanism, selectedCharacter.name)}</p></section>
-          {situation.interpretation && <section><h3 className="font-bold text-slate-950">Interprétation pédagogique</h3><p className="mt-2 leading-relaxed text-slate-700">{personalizePlayerText(situation.interpretation, selectedCharacter.name)}</p></section>}
-          {situation.vigilance && <section className="rounded-xl border border-amber-200 bg-amber-50/70 p-4"><h3 className="font-bold text-amber-950">Point de vigilance</h3><p className="mt-2 leading-relaxed text-slate-700">{personalizePlayerText(situation.vigilance, selectedCharacter.name)}</p></section>}
-          {situation.intersectionalTest && <section className="rounded-xl border border-violet-200 bg-violet-50/70 p-4"><h3 className="font-bold text-violet-950">Test intersectionnel</h3><p className="mt-2 leading-relaxed text-slate-700">{personalizePlayerText(situation.intersectionalTest, selectedCharacter.name)}</p></section>}
+          <InterpretationComparison id={`game-comparison-${situation.id}`} isCoherent={latest.matchesProposedInterpretation} playerMovement={decisionLabel(selectedCharacter.name, latest.playerDecision)} proposedMovement={decisionLabel(selectedCharacter.name, latest.proposedDecision)} />
+          <div className="game-feedback__next"><Button onClick={continueAfterFeedback}>{currentIndex === gameSet.situations.length - 1 ? "Voir le bilan" : "Situation suivante"}</Button></div>
+          <div className="game-feedback__details"><h3><button type="button" id={`game-feedback-details-button-${situation.id}`} aria-expanded={detailsOpen} aria-controls={`game-feedback-details-${situation.id}`} onClick={() => setDetailsOpen((open) => !open)}><span>Comprendre cette situation</span><span aria-hidden="true">{detailsOpen ? "−" : "+"}</span></button></h3><div role="region" id={`game-feedback-details-${situation.id}`} aria-labelledby={`game-feedback-details-button-${situation.id}`} hidden={!detailsOpen} className="game-feedback__details-panel">
+            {revealedFamilyLabel && <p className="game-feedback__focal"><strong>Focale :</strong> {revealedFamilyLabel}</p>}
+            <section><h4>Pourquoi pour {selectedCharacter.name}&nbsp;?</h4><p>{personalizePlayerText(feedback.explanation, selectedCharacter.name)}</p></section>
+            <section><h4>Mécanisme en jeu</h4><p>{personalizePlayerText(situation.mechanism, selectedCharacter.name)}</p></section>
+            {situation.interpretation && <section><h4>Interprétation pédagogique</h4><p>{personalizePlayerText(situation.interpretation, selectedCharacter.name)}</p></section>}
+            {situation.vigilance && <section><h4>Point de vigilance</h4><p>{personalizePlayerText(situation.vigilance, selectedCharacter.name)}</p></section>}
+            {situation.intersectionalTest && <section><h4>Test intersectionnel</h4><p>{personalizePlayerText(situation.intersectionalTest, selectedCharacter.name)}</p></section>}
+          </div></div>
         </section>}
       </aside>
     </div></div>

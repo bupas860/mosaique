@@ -30,13 +30,13 @@ export default function ExplorerCharactersPage() {
         <header className="explorer-header">
           <p className="explorer-eyebrow">Explorer</p>
           <h1>Personnages</h1>
-          <p>Découvrez les parcours approfondis des dix-sept personnages fictifs de Mosaïque.</p>
+          <p>Découvrez les parcours de dix-sept personnages fictifs, dont plusieurs personnages LGBTI+, aux identités, situations et expériences variées.</p>
           <p><a href="#/personnages/mots-et-parcours" className="app-text-link">Mots et parcours</a></p>
-          {!eleaPresentation && <p><a href="#/personnages/quiz" className="app-text-link">Quiz Personnages</a></p>}
         </header>
         {groups.map((group) => (
           <section key={group.id} className="explorer-gallery" aria-labelledby={`gallery-${group.id}`}>
             <h2 id={`gallery-${group.id}`}>{group.title}</h2>
+            {group.id === "intersectional" && <p className="explorer-gallery__introduction">L’intersectionnalité permet d’observer comment plusieurs caractéristiques ou rapports sociaux peuvent se combiner dans une même situation et modifier les obstacles ou les protections rencontrés.</p>}
             <div className="explorer-gallery__grid">
               {publicBiographiesV2.filter(({ gallery }) => gallery === group.id).map((biography) => (
                 <article key={biography.id} className="explorer-character-card" style={{ "--character-accent": biography.gallery === "general" ? "#2563A9" : "#6D4CC3" } as React.CSSProperties}>
@@ -44,10 +44,9 @@ export default function ExplorerCharactersPage() {
                   <div className="explorer-character-card__content">
                     <h3>{biography.name}</h3>
                     <p className="explorer-character-card__metadata">{biography.age} ans · {biography.schoolLevel}</p>
-                    <p className="explorer-character-card__gallery">{biography.galleryLabel} · <span>{biography.id}</span></p>
                     <CharacterPublicTags characterId={biography.id} className="explorer-character-card__tags" />
                     <p className="explorer-character-card__description">{biography.shortDescription}</p>
-                    <a href={characterBiographyHash(biography.id)} onClick={rememberPosition} className="explorer-character-card__link">Découvrir son parcours<span className="sr-only"> — {biography.name}, {biography.galleryLabel}, {biography.id}</span></a>
+                    <a href={characterBiographyHash(biography.id)} onClick={rememberPosition} className="explorer-character-card__link">Découvrir son parcours<span className="sr-only"> — {biography.name}</span></a>
                   </div>
                 </article>
               ))}

@@ -8,6 +8,7 @@ import {
   isEleaContext,
   type AppRoute,
 } from "../../utils/appRoute";
+import { PUBLIC_BRAND } from "../../utils/publicIdentity";
 
 const spaces = [
   { label: "Jouer", href: GAME_HASH, section: "game" },
@@ -70,7 +71,7 @@ export default function PublicFrame({ route, routeKey, children }: PublicFramePr
       <a className="skip-link" href="#main-content">Aller au contenu principal</a>
       <header className="public-header">
         <div className="public-header__inner">
-          {eleaPresentation ? <span className="public-brand">Mosaïque</span> : <a className="public-brand" href={HOME_HASH} aria-current={current === "home" ? "page" : undefined}>Mosaïque</a>}
+          {eleaPresentation ? <span className="public-brand">{PUBLIC_BRAND}</span> : <a className="public-brand" href={HOME_HASH} aria-current={current === "home" ? "page" : undefined}>{PUBLIC_BRAND}</a>}
           {!eleaPresentation && <nav className="public-nav" aria-label="Navigation principale">
             {links(false)}
             <button
@@ -91,7 +92,7 @@ export default function PublicFrame({ route, routeKey, children }: PublicFramePr
         </div>
       </header>
       <div id="main-content" className="public-content" tabIndex={-1}>{children}</div>
-      <footer className={`public-footer${eleaPresentation ? " public-footer--elea" : ""}`}>{eleaPresentation ? <span>Mosaïque</span> : <a href={HOME_HASH}>Accueil</a>}</footer>
+      <footer className={`public-footer${eleaPresentation ? " public-footer--elea" : ""}`}>{eleaPresentation ? <span>{PUBLIC_BRAND}</span> : <a href={HOME_HASH}>Accueil</a>}</footer>
     </div>
   );
 }

@@ -31,31 +31,37 @@ const app = read("src/App.tsx");
 const charactersApp = read("src/features/characters/CharactersApp.tsx");
 const gallery = read("src/pages/ExplorerCharactersPage.tsx");
 const detail = read("src/pages/CharacterBiographyPage.tsx");
-const accordion = read("src/components/BiographyAccordion.tsx");
 const contentBlocks = read("src/components/BiographyContentBlocks.tsx");
 const disclosureMap = read("src/components/BiographyDisclosureMap.tsx");
 const styles = read("src/index.css");
 const wordsPage = read("src/features/characters/JourneyWordsPage.tsx");
 for (const expected of ["mots-et-parcours", "${PERSONNAGES_HASH}/quiz", "characterRoute", "characterBiographyHash(characterId)"]) if (!routes.includes(expected)) fail(`contrat de route absent : ${expected}`);
 if (!app.includes('lazy(() => import("./features/characters/CharactersApp"))') || app.includes('from "./data/v2/publicBiographiesV2"')) fail("chargement différé Personnages invalide");
-for (const expected of ["Personnages — Mosaïque", "Mots et parcours — Personnages — Mosaïque", "biography.galleryLabel", 'getElementById("main-content")']) if (!charactersApp.includes(expected)) fail(`contrat CharactersApp absent : ${expected}`);
+for (const expected of ['publicDocumentTitle("Personnages")', 'publicDocumentTitle("Personnages", "Mots et parcours")', 'publicDocumentTitle("Personnages", biography.name)', "CharacterBiographyPage key={biography.id}"]) if (!charactersApp.includes(expected)) fail(`contrat CharactersApp absent : ${expected}`);
 for (const expected of ["Découvrir son parcours", "biography.shortDescription", "biography.portraitAlt", "CharacterPublicTags", "Mots et parcours"]) if (!gallery.includes(expected)) fail(`contrat galerie absent : ${expected}`);
 for (const expected of [
+  "Découvrez les parcours de dix-sept personnages fictifs, dont plusieurs personnages LGBTI+, aux identités, situations et expériences variées.",
+  "L’intersectionnalité permet d’observer comment plusieurs caractéristiques ou rapports sociaux peuvent se combiner dans une même situation et modifier les obstacles ou les protections rencontrés.",
+]) if (!gallery.includes(expected)) fail(`microcontenu galerie absent : ${expected}`);
+if (gallery.includes("#/personnages/quiz")) fail("promotion publique du Quiz Personnages encore présente");
+if (gallery.includes("biography.galleryLabel")) fail("libellé technique de galerie encore visible sur les cartes");
+for (const expected of [
   "Mots et parcours", "Personnage précédent", "Personnage suivant", "Retour aux personnages",
-  "publicBiographiesV2.findIndex", "overview: true", "journey: false", "privacy: false", "school: false",
+  "publicBiographiesV2.findIndex", 'useState<(typeof groups)[number]["id"]>("overview")',
   "Vue d’ensemble", "Son parcours", "Entourage et confidentialité", "Au lycée",
-  "Cette fiche donne au lecteur des informations que le lycée fictif, les autres personnages ou l’entourage ne connaissent pas nécessairement. Elles ne doivent pas être utilisées comme si elles étaient publiques dans l’histoire.",
   "Les personnes informées varient selon les espaces. Lire cette fiche ne rend pas ces informations publiques dans l’histoire.",
 ]) if (!detail.includes(expected)) fail(`contrat fiche absent : ${expected}`);
 if ((detail.match(/id: "(?:overview|journey|privacy|school)"/g) ?? []).length !== 4) fail("quatre ensembles biographiques attendus");
-if (!accordion.includes("aria-expanded={open}") || !accordion.includes("hidden={!open}")) fail("état accessible des accordéons absent");
-if (accordion.indexOf("<button") > accordion.indexOf(`id={panelId}`)) fail("ordre DOM bouton/panneau inversé");
+for (const expected of ['role="tablist"', 'role="tab"', "aria-selected={selected}", 'role="tabpanel"', "aria-labelledby", "hidden={group.id !== activeGroup.id}", 'event.key === "ArrowLeft"', 'event.key === "ArrowRight"', 'event.key === "Home"', 'event.key === "End"']) if (!detail.includes(expected)) fail(`contrat d’onglets accessible absent : ${expected}`);
+for (const expected of ["openSectionNumber", "setOpenSectionNumber(groups[normalizedIndex].sections[0])", "aria-expanded={open}", "aria-controls={panelId}", 'role="region"', "hidden={!open}", 'aria-hidden="true"']) if (!detail.includes(expected)) fail(`contrat d’accordéons internes absent : ${expected}`);
+for (const forbidden of ["BiographyAccordion", "À propos de cette fiche", "Sommaire de la fiche", "biography.galleryLabel", "scrollIntoView", "scrollTo", "localStorage", "sessionStorage", "overflow-y"]) if (detail.includes(forbidden)) fail(`élément retiré ou comportement interdit encore présent dans la fiche : ${forbidden}`);
 if (!styles.includes(".biography-page { overflow-anchor: none; }")) fail("ancrage de défilement des biographies non neutralisé");
+for (const expected of [".biography-layout", ".biography-tabs__list", '.biography-tabs__list button[aria-selected="true"]', ".biography-tabs__panel", ".biography-subsection--open", ".biography-subsection__panel", "grid-template-columns: repeat(2", "grid-template-columns: repeat(4"]) if (!styles.includes(expected)) fail(`style d’onglets ou d’accordéons responsive absent : ${expected}`);
 if (!contentBlocks.includes('<ol key={index} className="biography-timeline">')) fail("chronologie ordonnée absente");
 for (const expected of ["Espace ou groupe", "Situation actuelle", 'data-label="Situation actuelle"']) if (!disclosureMap.includes(expected)) fail(`cartographie incomplète : ${expected}`);
 for (const expected of [".biography-disclosure-map thead", ".biography-disclosure-map tr", "display: block", "width: 100%"] ) if (!styles.includes(expected)) fail(`cartographie responsive incomplète : ${expected}`);
-if (!gallery.includes("biography.age") || !gallery.includes("biography.schoolLevel") || !gallery.includes("biography.galleryLabel") || !gallery.includes("biography.id")) fail("identité visible incomplète dans la galerie");
-if (!detail.includes("biography.age") || !detail.includes("biography.schoolLevel") || !detail.includes("biography.galleryLabel") || !detail.includes("biography.id")) fail("identité visible incomplète dans la fiche");
+if (!gallery.includes("biography.age") || !gallery.includes("biography.schoolLevel") || !gallery.includes("biography.id")) fail("identité visible ou jointure interne incomplète dans la galerie");
+if (!detail.includes("biography.age") || !detail.includes("biography.schoolLevel") || !detail.includes("biography.id")) fail("identité visible ou jointure interne incomplète dans la fiche");
 if (detail.includes("journeyWordIds") || detail.includes("usefulWords.filter")) fail("association biographique déduite sans table validée");
 if (!wordsPage.includes("<a href={word.target}") || wordsPage.includes("En bref") || wordsPage.includes("À retenir")) fail("liens actifs absents ou définition concurrente dans Mots et parcours");
 if (!wordsPage.includes("publicJourneyWords.map") || !wordsPage.includes("Retour aux personnages")) fail("page Mots et parcours incomplète");

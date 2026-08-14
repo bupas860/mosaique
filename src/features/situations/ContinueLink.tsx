@@ -10,5 +10,6 @@ function activeHref(target: PublicContinueTarget): string | undefined {
 
 export default function ContinueLink({ destination }: { destination: PublicContinueTarget }) {
   const href = activeHref(destination);
-  return <p className="public-situation-continue">{destination.prefix}{href ? <a href={href}>{destination.label}</a> : <span>{destination.label}</span>}{destination.suffix}</p>;
+  const publicLabel = destination.type === "situation" ? destination.label.replace(/^[VNIX]\d{2}\s*[—–-]\s*/, "") : destination.label;
+  return <p className="public-situation-continue">{destination.prefix}{href ? <a href={href}>{publicLabel}</a> : <span>{publicLabel}</span>}{destination.suffix}</p>;
 }

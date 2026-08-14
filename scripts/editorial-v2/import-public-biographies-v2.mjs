@@ -8,6 +8,7 @@ import { validatePublicBiographiesV2 } from "./validate-public-biographies-v2.mj
 export const PUBLIC_BIOGRAPHIES_OUTPUT = join(ROOT, "src/data/generated-v2/public-biographies.json");
 export const PUBLIC_CHARACTERS_OUTPUT = join(ROOT, "src/data/public/publicCharacters.generated.json");
 export const PUBLIC_CHARACTER_ALTS_OUTPUT = join(ROOT, "src/data/generated-v2/public-character-alts.json");
+export const PUBLIC_CHARACTER_SUMMARIES_OUTPUT = join(ROOT, "src/data/public/publicCharacterSummaries.generated.json");
 
 function writeAtomic(output, contents) {
   const parent = dirname(output);
@@ -30,9 +31,11 @@ export function importPublicBiographiesV2() {
   JSON.parse(contents);
   const alternatives = `${JSON.stringify(Object.fromEntries(data.biographies.map(({ id, portraitAlt }) => [id, portraitAlt])), null, 2)}\n`;
   const publicCharacters = `${JSON.stringify({ generatedNotice: "Fichier généré. Ne pas modifier manuellement.", biographies: data.biographies }, null, 2)}\n`;
+  const publicCharacterSummaries = `${JSON.stringify({ generatedNotice: "Fichier généré. Ne pas modifier manuellement.", summaries: data.biographies.map(({ id, shortDescription }) => ({ id, shortDescription })) }, null, 2)}\n`;
   writeAtomic(PUBLIC_BIOGRAPHIES_OUTPUT, contents);
   writeAtomic(PUBLIC_CHARACTERS_OUTPUT, publicCharacters);
   writeAtomic(PUBLIC_CHARACTER_ALTS_OUTPUT, alternatives);
+  writeAtomic(PUBLIC_CHARACTER_SUMMARIES_OUTPUT, publicCharacterSummaries);
   return data;
 }
 

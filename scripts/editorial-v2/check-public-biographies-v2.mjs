@@ -8,6 +8,7 @@ import { FORBIDDEN_PUBLIC_BIOGRAPHY_STRINGS, validatePublicBiographiesV2 } from 
 const output = join(ROOT, "src/data/generated-v2/public-biographies.json");
 const alternativesOutput = join(ROOT, "src/data/generated-v2/public-character-alts.json");
 const publicCharactersOutput = join(ROOT, "src/data/public/publicCharacters.generated.json");
+const publicCharacterSummariesOutput = join(ROOT, "src/data/public/publicCharacterSummaries.generated.json");
 
 function fail(message) { throw new Error(`Contrôle public des biographies — ${message}`); }
 
@@ -34,6 +35,9 @@ export function checkPublicBiographiesV2() {
   for (const biography of generated.biographies) if (alternatives[biography.id] !== biography.portraitAlt) fail(`${biography.id} : projection alternative différente`);
   const publicCharacters = JSON.parse(readFileSync(publicCharactersOutput, "utf8"));
   if (publicCharacters.generatedNotice !== "Fichier généré. Ne pas modifier manuellement." || JSON.stringify(publicCharacters.biographies) !== JSON.stringify(generated.biographies)) fail("artefact navigateur Personnages incomplet ou différent");
+  const publicCharacterSummaries = JSON.parse(readFileSync(publicCharacterSummariesOutput, "utf8"));
+  if (publicCharacterSummaries.generatedNotice !== "Fichier généré. Ne pas modifier manuellement." || publicCharacterSummaries.summaries.length !== 17) fail("projection des descriptions courtes incomplète");
+  for (const biography of generated.biographies) if (publicCharacterSummaries.summaries.find(({ id }) => id === biography.id)?.shortDescription !== biography.shortDescription) fail(`${biography.id} : description courte projetée différente`);
   const routeSource = readFileSync(join(ROOT, "src/utils/appRoute.ts"), "utf8");
   const appSource = readFileSync(join(ROOT, "src/App.tsx"), "utf8");
   const gallerySource = readFileSync(join(ROOT, "src/pages/ExplorerCharactersPage.tsx"), "utf8");
@@ -62,9 +66,9 @@ export function checkPublicBiographiesV2() {
   for (const [label, source] of [["sélection", selectionSource], ["galerie Explorer", gallerySource], ["fiche biographique", biographySource]]) {
     if (!source.includes("<CharacterPublicTags") || !source.includes("characterId=")) fail(`étiquettes publiques absentes de la ${label}`);
   }
-  for (const title of ["Vue d’ensemble", "Son parcours", "Entourage et confidentialité", "Au lycée"]) if (!biographySource.includes(title)) fail(`accordéon absent : ${title}`);
-  if (!biographySource.includes("overview: true, journey: false, privacy: false, school: false")) fail("état initial des accordéons incorrect");
-  if (!biographySource.includes("Retour aux personnages") || !biographySource.includes("À propos de cette fiche")) fail("retour ou note narrative absent");
+  for (const title of ["Vue d’ensemble", "Son parcours", "Entourage et confidentialité", "Au lycée"]) if (!biographySource.includes(title)) fail(`onglet absent : ${title}`);
+  if (!biographySource.includes('useState<(typeof groups)[number]["id"]>("overview")')) fail("onglet Vue d’ensemble non sélectionné initialement");
+  if (!biographySource.includes("Retour aux personnages") || biographySource.includes("À propos de cette fiche") || biographySource.includes("Sommaire de la fiche")) fail("retour ou retrait des blocs obsolètes non conforme");
   return generated.biographies.length;
 }
 

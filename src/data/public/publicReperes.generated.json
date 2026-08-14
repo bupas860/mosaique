@@ -110,6 +110,26 @@
           "label": "Protection",
           "target": "#/mots-utiles/mu-prot?from=r1"
         }
+      ],
+      "publicTitle": "Comment jouer ?",
+      "primaryBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Choisissez d’abord un mode, puis un personnage fictif. Une partie comporte 10 situations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour chacune, décidez si elle constitue un obstacle pour ce personnage. Si oui, il reste sur place ; sinon, il avance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le bilan compare votre lecture avec l’interprétation proposée dans l’activité. Il n’attribue aucune note."
+        },
+        {
+          "type": "callout",
+          "label": "À retenir",
+          "text": "La marche des privilèges compare des décisions situées, pas la valeur des personnes."
+        }
       ]
     },
     {
@@ -206,6 +226,22 @@
           "id": "MU-PROT",
           "label": "Protection",
           "target": "#/mots-utiles/mu-prot?from=r2"
+        }
+      ],
+      "publicTitle": "D’où vient la marche des privilèges ?",
+      "primaryBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Cette activité appartient à la famille des « marches des privilèges », qui rendent visibles des possibilités inégalement réparties."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans cette version, vous suivez des personnages fictifs et répondez à partir de situations précises. Aucun dévoilement personnel n’est demandé."
+        },
+        {
+          "type": "callout",
+          "label": "À retenir",
+          "text": "La position dans l’activité aide à observer des écarts ; elle ne résume pas une vie entière."
         }
       ]
     },
@@ -320,6 +356,22 @@
           "id": "MU-POUV",
           "label": "Pouvoir",
           "target": "#/mots-utiles/mu-pouv?from=r3"
+        }
+      ],
+      "publicTitle": "Privilège, droit et position sociale",
+      "primaryBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Un droit doit être garanti à toutes et tous. Ici, un privilège désigne un avantage relatif dans un contexte donné."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une même personne peut être avantagée dans une situation et rencontrer un obstacle dans une autre. Aucun classement simple ne peut résumer sa vie entière."
+        },
+        {
+          "type": "callout",
+          "label": "À retenir",
+          "text": "Un avantage ou un obstacle dépend de la situation observée."
         }
       ]
     },
@@ -439,6 +491,22 @@
           "id": "MU-DISC",
           "label": "Discrimination",
           "target": "#/mots-utiles/mu-disc?from=r4"
+        }
+      ],
+      "publicTitle": "Normes et institutions",
+      "primaryBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Une norme décrit ce qui paraît habituel ou attendu. Une institution organise des règles, des rôles, des procédures et des outils."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une règle apparemment ordinaire peut produire des effets différents selon les personnes. Toute difficulté n’est pas automatiquement une discrimination au sens juridique."
+        },
+        {
+          "type": "callout",
+          "label": "À retenir",
+          "text": "Observer un effet inégal aide à questionner une règle sans conclure trop vite sur sa qualification juridique."
         }
       ]
     },
@@ -562,6 +630,22 @@
           "id": "MU-MARGE",
           "label": "Marge de manœuvre",
           "target": "#/mots-utiles/mu-marge?from=r5"
+        }
+      ],
+      "publicTitle": "Aider sans imposer",
+      "primaryBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Aider commence par écouter avant de décider à la place de quelqu’un et par partir de ses besoins."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une information personnelle ne doit pas être exposée inutilement. Une bonne intention doit toujours être confrontée aux effets réels de l’action."
+        },
+        {
+          "type": "callout",
+          "label": "À retenir",
+          "text": "Une aide protège lorsqu’elle augmente les possibilités sans imposer ni exposer."
         }
       ]
     }

@@ -1,4 +1,5 @@
 import { useLayoutEffect } from "react";
+import { publicDocumentTitle } from "../../utils/publicIdentity";
 import wordsJson from "../../data/public/publicUsefulWords.generated.json";
 import type { PublicUsefulWord } from "../../data/public/publicReference.types";
 import type { AppRoute, UsefulWordContext } from "../../utils/appRoute";
@@ -36,6 +37,6 @@ function WordDetail({ word, context }: { word: PublicUsefulWord; context?: Usefu
 
 export default function UsefulWordsApp({ route }: { route: Route }) {
   const word = route.kind === "useful-word-detail" ? words.find(({ id }) => id === route.wordId) : undefined;
-  useLayoutEffect(() => { document.title = word ? `${word.label} — Les mots utiles — Mosaïque` : "Les mots utiles — Mosaïque"; requestAnimationFrame(() => document.getElementById("main-content")?.focus({ preventScroll: true })); }, [word]);
+  useLayoutEffect(() => { document.title = word ? publicDocumentTitle("Les mots utiles", word.label) : publicDocumentTitle("Les mots utiles"); }, [word]);
   return word ? <WordDetail word={word} context={route.kind === "useful-word-detail" ? route.context : undefined} /> : <WordsIndex />;
 }

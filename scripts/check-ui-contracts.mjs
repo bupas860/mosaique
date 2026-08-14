@@ -19,11 +19,6 @@ export function assertPortraitContract(content, reference) {
 }
 
 const unchangedVisibleFiles = new Map([
-  ["src/pages/ModeSelectionPage.tsx", "ffceab18e25f63aab32bc25e2402cf7d607014c2b280cfd8a2f993a8cc3ea605"],
-  ["src/pages/CharacterSelectionPage.tsx", "bffd82856254e10a14201ce4a528f51d6576c670237f79ebbff6240fb4baf695"],
-  ["src/pages/GamePage.tsx", "943f6ce1ab2ac28c7a6492dbe58402f5cad409e5947f8013b97aef5a65696603"],
-  ["src/pages/FinalSummaryPage.tsx", "c95732798cd2624137e6d856627ff36f3658155e141cb8f71c051d6d8dd95579"],
-  ["src/components/SituationCard.tsx", "f9b20c8a0012fbb96a7ea980b64af97c789f6bc914bf04bc51f87e19e189d961"],
   ["src/data/v2/situationIllustrationsV2.ts", "148d9343fc93db017f54b79c8bb307179d2ca8207c185ffab08f989bc401644a"],
 ]);
 for (const [filename, referenceHash] of unchangedVisibleFiles) {
@@ -50,15 +45,42 @@ for (const expected of [
 ]) requireText(app, expected, "Contrat du socle");
 
 const game = await read("src/game/GameApp.tsx");
+const preparation = await read("src/pages/GamePreparationPage.tsx");
+const gamePage = await read("src/pages/GamePage.tsx");
+const situationCard = await read("src/components/SituationCard.tsx");
+const summary = await read("src/pages/FinalSummaryPage.tsx");
 for (const expected of [
-  'type Screen = "home" | "mode-selection" | "character-selection" | "game"',
+  'type Screen = "preparation" | "game"',
   "createActiveGameSet",
   "getActiveCharactersForMode",
-  "setScreen(\"character-selection\")",
+  "setScreen(\"preparation\")",
   "setScreen(\"game\")",
-  "<FinalSummaryPage",
-  "<HomePage",
-]) requireText(`${game}\n${await read("src/pages/GamePage.tsx")}`, expected, "Parcours Jouer");
+  "<GamePreparationPage",
+  "<GamePage",
+]) requireText(game, expected, "Parcours Jouer");
+for (const expected of [
+  "Préparer votre partie", "1. Choisissez un mode", "2. Choisissez votre personnage",
+  "Recommandé pour découvrir la marche des privilèges", "Commencer la partie", "Personnage sélectionné",
+  "selectedSummary.shortDescription", "Découvrir son parcours",
+]) requireText(preparation, expected, "Préparation Jouer 8G");
+if (preparation.includes(">Disponible<")) throw new Error("Badge Disponible inutile dans la préparation Jouer");
+for (const expected of [
+  "cette situation constitue-t-elle un obstacle", 'onDecision("stay")', 'onDecision("advance")',
+  "Comprendre ce que signifie avancer ou rester sur place",
+  "Avancer signifie que cette situation ne réduit pas la marge de manœuvre du personnage. Rester sur place signifie qu’elle constitue ici un obstacle.",
+  'event.key === "Escape"', "aria-expanded={helpOpen}", "hidden={!helpOpen}",
+]) requireText(situationCard, expected, "Question Jouer 8G");
+for (const expected of [
+  "Retour sur votre réponse", "Situation suivante", "Voir le bilan", "Comprendre cette situation",
+  "aria-expanded={detailsOpen}", "hidden={!detailsOpen}", "<strong>Focale :</strong>",
+]) requireText(gamePage, expected, "Feedback Jouer 8G");
+for (const expected of [
+  "Votre parcours dans les 10 situations", "Votre bilan", "Lecture par focale",
+  "Cet indicateur n’est pas une note.", "Situation {selectedStep + 1}",
+  "Récapitulatif de vos réponses", "aria-expanded={open}", "hidden={!open}",
+  "Rejouer", "Changer de personnage", "Retour à l’accueil",
+]) requireText(summary, expected, "Bilan Jouer 8G");
+for (const forbidden of ["Revoir mes réponses", "Lecture par famille", "correct", "incorrect"]) if (summary.includes(forbidden)) throw new Error(`Vocabulaire ou action obsolète dans le bilan : ${forbidden}`);
 
 const routes = await read("src/utils/appRoute.ts");
 for (const expected of [
@@ -83,17 +105,18 @@ for (const forbidden of ["matrix", "feedback", "decision", "game-config", "mosai
 }
 for (const expected of ["publicBiographiesV2", "CharacterPortrait", "CharacterPublicTags", "biography.shortDescription", "Découvrir son parcours", "Mots et parcours"]) requireText(charactersGallery, expected, "Contrat galerie Personnages 8D");
 for (const expected of [
-  "BiographyAccordion", "biography.sections", "Mots et parcours", "Personnage précédent", "Personnage suivant", "Retour aux personnages",
-  "publicBiographiesV2.findIndex", "overview: true", "journey: false", "privacy: false", "school: false",
-  "À propos de cette fiche", "Les personnes informées varient selon les espaces.",
+  "biography.sections", "Mots et parcours", "Personnage précédent", "Personnage suivant", "Retour aux personnages",
+  "publicBiographiesV2.findIndex", 'useState<(typeof groups)[number]["id"]>("overview")',
+  'role="tablist"', 'role="tab"', 'role="tabpanel"', "aria-selected={selected}", "aria-expanded={open}", 'role="region"', "hidden={!open}", "Les personnes informées varient selon les espaces.",
 ]) requireText(characterBiography, expected, "Contrat biographie Personnages 8D");
+for (const forbidden of ["BiographyAccordion", "À propos de cette fiche", "Sommaire de la fiche", "biography.galleryLabel"]) if (characterBiography.includes(forbidden)) throw new Error(`Présentation technique ou obsolète dans la fiche Personnage : ${forbidden}`);
 
 const reperesApp = await read("src/features/reperes/ReperesApp.tsx");
 const usefulWordsApp = await read("src/features/useful-words/UsefulWordsApp.tsx");
 const situationWordLinks = await read("src/features/situations/UsefulWordList.tsx");
 const journeyWords = await read("src/features/characters/JourneyWordsPage.tsx");
-for (const expected of ["reperes.map", "Lire ce repère", "Repère précédent", "Repère suivant", "Retour aux Repères", "Mots utiles"]) requireText(reperesApp, expected, "Contrat Repères 8E");
-for (const expected of ["words.slice(0, 15)", "words.slice(15)", "contextReturn", "Retour aux mots utiles", "Les mots utiles — Mosaïque"]) requireText(usefulWordsApp, expected, "Contrat Mots utiles 8E");
+for (const expected of ["reperes.map", "reference-accordions", "Repère précédent", "Repère suivant", "Approfondir", "Sources", "Mots utiles", "aria-expanded={open}"]) requireText(reperesApp, expected, "Contrat Repères 8G");
+for (const expected of ["words.slice(0, 15)", "words.slice(15)", "contextReturn", "Retour aux mots utiles", 'publicDocumentTitle("Les mots utiles"']) requireText(usefulWordsApp, expected, "Contrat Mots utiles 8E");
 requireText(situationWordLinks, "?from=situation-", "183 retours contextuels Situations");
 requireText(journeyWords, "<a href={word.target}", "15 liens Mots et parcours");
 const frame = await read("src/components/public/PublicFrame.tsx");
@@ -109,6 +132,7 @@ for (const expected of ["Valider ma réponse", "Question suivante", "repères re
 for (const expected of ["Situation {index + 1} sur 8", "Valider mes deux réponses", "focales retrouvées sur 8", "rôles obstacle ou protection retrouvés sur 8", "Recommencer exactement la même série"]) requireText(situationQuizApp, expected, "Contrat Quiz Situations 8F");
 for (const forbidden of ["sur 16", "pourcentage", "score global", "note sur 20", "data-code", "data-focal", "data-role"]) if (situationQuizApp.includes(forbidden)) throw new Error(`Fuite ou score interdit dans Quiz Situations : ${forbidden}`);
 if (!situationQuizApp.includes('phase === "feedback" ? `${question.code} — ${question.title}` : "Quiz Situations"')) throw new Error("Masquage préalable du titre Situation non contrôlé");
+if (!situationQuizApp.includes('phase === "feedback" ? publicDocumentTitle("Quiz Situations", question.code, question.title) : publicDocumentTitle("Quiz Situations")')) throw new Error("Masquage préalable du titre de document Situation non contrôlé");
 
-console.log(`Contrats visibles Jouer inchangés : ${unchangedVisibleFiles.size} fichiers comparés aux références validées.`);
-console.log("Parcours Jouer, chargement accessible, médias, routes et contrats Personnages 8D : contrôlés.");
+console.log(`Contrat média Jouer inchangé : ${unchangedVisibleFiles.size} fichier comparé à la référence validée.`);
+console.log("Parcours Jouer 8G, moteur appelé sans duplication, chargement accessible, routes et contrats Personnages : contrôlés.");
