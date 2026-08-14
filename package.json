@@ -25,6 +25,7 @@
     "check:public-situations": "node scripts/public-situations/check.mjs",
     "characters:generate-public": "node scripts/public-characters/generate.mjs",
     "check:public-characters": "node scripts/public-characters/check.mjs",
+    "test:biography-accordions": "node scripts/public-characters/accordion-browser.test.mjs",
     "reference:generate-public": "node scripts/public-reference/generate.mjs",
     "check:public-reperes": "node scripts/public-reference/check.mjs",
     "check:public-useful-words": "node scripts/public-reference/check.mjs",

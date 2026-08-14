@@ -1271,6 +1271,7 @@ a {
   min-height: 100vh;
   padding: var(--ds-page-padding);
 }
+.biography-page { overflow-anchor: none; }
 
 .explorer-page__inner,
 .biography-page__inner {

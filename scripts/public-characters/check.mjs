@@ -49,6 +49,8 @@ for (const expected of [
 ]) if (!detail.includes(expected)) fail(`contrat fiche absent : ${expected}`);
 if ((detail.match(/id: "(?:overview|journey|privacy|school)"/g) ?? []).length !== 4) fail("quatre ensembles biographiques attendus");
 if (!accordion.includes("aria-expanded={open}") || !accordion.includes("hidden={!open}")) fail("état accessible des accordéons absent");
+if (accordion.indexOf("<button") > accordion.indexOf(`id={panelId}`)) fail("ordre DOM bouton/panneau inversé");
+if (!styles.includes(".biography-page { overflow-anchor: none; }")) fail("ancrage de défilement des biographies non neutralisé");
 if (!contentBlocks.includes('<ol key={index} className="biography-timeline">')) fail("chronologie ordonnée absente");
 for (const expected of ["Espace ou groupe", "Situation actuelle", 'data-label="Situation actuelle"']) if (!disclosureMap.includes(expected)) fail(`cartographie incomplète : ${expected}`);
 for (const expected of [".biography-disclosure-map thead", ".biography-disclosure-map tr", "display: block", "width: 100%"] ) if (!styles.includes(expected)) fail(`cartographie responsive incomplète : ${expected}`);
