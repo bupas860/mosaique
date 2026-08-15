@@ -6,24 +6,31 @@ import GamePreparationPage from "../pages/GamePreparationPage";
 import type { EditorialCharacterIdV2 } from "../types/editorialV2";
 import type { GameModeId } from "../types/gameMode";
 import type { RuntimeGameSetV2 } from "../types/runtimeV2";
+import { isEleaContext } from "../utils/appRoute";
 import { PUBLIC_ACTIVITY, publicDocumentTitle } from "../utils/publicIdentity";
+import { clearActiveGame, loadGameSession, saveGamePreparation } from "./gameSession";
 
 type Screen = "preparation" | "game";
 
 export default function GameApp() {
-  const [screen, setScreen] = useState<Screen>("preparation");
+  const [storedSession] = useState(loadGameSession);
+  const storedActive = storedSession?.active;
+  const [screen, setScreen] = useState<Screen>(storedActive ? "game" : "preparation");
   const previousScreen = useRef<Screen>(screen);
   const remembered = window.history.state?.mosaiqueGamePreparation as { modeId?: GameModeId; characterId?: EditorialCharacterIdV2 } | undefined;
-  const rememberedMode = remembered?.modeId && gameModes.some(({ id, available }) => id === remembered.modeId && available) ? remembered.modeId : DEFAULT_GAME_MODE_ID;
-  const rememberedCharacter = remembered?.characterId && isActiveGameModeId(rememberedMode) && getActiveCharactersForMode(rememberedMode).some(({ id }) => id === remembered.characterId) ? remembered.characterId : undefined;
+  const candidateMode = storedActive?.selectedModeId ?? storedSession?.preparation.modeId ?? remembered?.modeId;
+  const rememberedMode = candidateMode && gameModes.some(({ id, available }) => id === candidateMode && available) ? candidateMode : DEFAULT_GAME_MODE_ID;
+  const candidateCharacter = storedActive?.selectedCharacterId ?? storedSession?.preparation.characterId ?? remembered?.characterId;
+  const rememberedCharacter = candidateCharacter && isActiveGameModeId(rememberedMode) && getActiveCharactersForMode(rememberedMode).some(({ id }) => id === candidateCharacter) ? candidateCharacter : undefined;
   const [selectedCharacterId, setSelectedCharacterId] = useState<EditorialCharacterIdV2 | undefined>(rememberedCharacter);
   const [selectedModeId, setSelectedModeId] = useState<GameModeId>(rememberedMode);
-  const [gameSet, setGameSet] = useState<RuntimeGameSetV2>();
+  const [gameSet, setGameSet] = useState<RuntimeGameSetV2 | undefined>(storedActive?.gameSet);
 
   useEffect(() => { document.title = publicDocumentTitle(PUBLIC_ACTIVITY); }, []);
   useEffect(() => {
     if (screen !== "preparation") return;
     window.history.replaceState({ ...window.history.state, mosaiqueGamePreparation: { modeId: selectedModeId, characterId: selectedCharacterId } }, "");
+    saveGamePreparation(selectedModeId, selectedCharacterId);
   }, [screen, selectedCharacterId, selectedModeId]);
   useEffect(() => {
     if (previousScreen.current === screen) return;
@@ -48,11 +55,23 @@ export default function GameApp() {
     setScreen("game");
   }
 
-  function chooseAnotherCharacter() { setGameSet(undefined); setSelectedCharacterId(undefined); setScreen("preparation"); }
-  function returnHome() { window.location.hash = "#/"; }
+  function returnToPreparation(preserveCharacter = true) {
+    clearActiveGame();
+    setGameSet(undefined);
+    if (!preserveCharacter) setSelectedCharacterId(undefined);
+    setScreen("preparation");
+  }
+
+  function chooseAnotherCharacter() { returnToPreparation(false); }
+  function leaveSummary() {
+    clearActiveGame();
+    setGameSet(undefined);
+    if (isEleaContext()) setScreen("preparation");
+    else window.location.hash = "#/";
+  }
 
   if (screen === "game" && selectedCharacterId && gameSet && isActiveGameModeId(gameSet.modeId)) {
-    return <GamePage initialGameSet={gameSet} selectedCharacterId={selectedCharacterId} selectedModeId={gameSet.modeId} onChooseAnotherCharacter={chooseAnotherCharacter} onBackHome={returnHome} />;
+    return <GamePage initialGameSet={gameSet} initialSnapshot={storedActive} selectedCharacterId={selectedCharacterId} selectedModeId={gameSet.modeId} onQuit={() => returnToPreparation(true)} onChooseAnotherCharacter={chooseAnotherCharacter} onBackHome={leaveSummary} backHomeLabel={isEleaContext() ? "Retour à la préparation" : "Retour à l’accueil"} />;
   }
   if (!isActiveGameModeId(selectedModeId)) throw new Error(`Aucune galerie jouable pour le mode ${selectedModeId}`);
   return <GamePreparationPage selectedModeId={selectedModeId} selectedCharacterId={selectedCharacterId} characters={getActiveCharactersForMode(selectedModeId)} onSelectMode={selectMode} onSelectCharacter={setSelectedCharacterId} onStart={startGame} />;

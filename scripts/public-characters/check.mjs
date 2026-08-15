@@ -37,7 +37,7 @@ const styles = read("src/index.css");
 const wordsPage = read("src/features/characters/JourneyWordsPage.tsx");
 for (const expected of ["mots-et-parcours", "${PERSONNAGES_HASH}/quiz", "characterRoute", "characterBiographyHash(characterId)"]) if (!routes.includes(expected)) fail(`contrat de route absent : ${expected}`);
 if (!app.includes('lazy(() => import("./features/characters/CharactersApp"))') || app.includes('from "./data/v2/publicBiographiesV2"')) fail("chargement différé Personnages invalide");
-for (const expected of ['publicDocumentTitle("Personnages")', 'publicDocumentTitle("Personnages", "Mots et parcours")', 'publicDocumentTitle("Personnages", biography.name)', "CharacterBiographyPage key={biography.id}"]) if (!charactersApp.includes(expected)) fail(`contrat CharactersApp absent : ${expected}`);
+for (const expected of ['publicDocumentTitle("Personnages")', 'publicDocumentTitle("Personnages", "Mots et parcours")', 'publicDocumentTitle("Personnages", biography.name)', 'key={`${biography.id}-${route.context?.type ?? "characters"}`}', "context={route.context}"]) if (!charactersApp.includes(expected)) fail(`contrat CharactersApp absent : ${expected}`);
 for (const expected of ["Découvrir son parcours", "biography.shortDescription", "biography.portraitAlt", "CharacterPublicTags", "Mots et parcours"]) if (!gallery.includes(expected)) fail(`contrat galerie absent : ${expected}`);
 for (const expected of [
   "Découvrez les parcours de dix-sept personnages fictifs, dont plusieurs personnages LGBTI+, aux identités, situations et expériences variées.",
@@ -63,8 +63,10 @@ for (const expected of [".biography-disclosure-map thead", ".biography-disclosur
 if (!gallery.includes("biography.age") || !gallery.includes("biography.schoolLevel") || !gallery.includes("biography.id")) fail("identité visible ou jointure interne incomplète dans la galerie");
 if (!detail.includes("biography.age") || !detail.includes("biography.schoolLevel") || !detail.includes("biography.id")) fail("identité visible ou jointure interne incomplète dans la fiche");
 if (detail.includes("journeyWordIds") || detail.includes("usefulWords.filter")) fail("association biographique déduite sans table validée");
-if (!wordsPage.includes("<a href={word.target}") || wordsPage.includes("En bref") || wordsPage.includes("À retenir")) fail("liens actifs absents ou définition concurrente dans Mots et parcours");
-if (!wordsPage.includes("publicJourneyWords.map") || !wordsPage.includes("Retour aux personnages")) fail("page Mots et parcours incomplète");
+if (!wordsPage.includes('className="journey-word-card"') || !wordsPage.includes("href={word.target}") || wordsPage.includes("En bref") || wordsPage.includes("À retenir")) fail("liens actifs absents ou définition concurrente dans Mots et parcours");
+if (!wordsPage.includes("groupedWords.map") || !wordsPage.includes("Retour aux personnages")) fail("page Mots et parcours incomplète");
+for (const expected of ["Orientations et attirances", "Genre et caractéristiques sexuées", "Parcours et confidentialité", "classifiedIds", "unclassified"]) if (!wordsPage.includes(expected)) fail(`classement Mots et parcours incomplet : ${expected}`);
+if (wordsPage.includes("journey-word-id")) fail("identifiant technique visible dans Mots et parcours");
 const serialized = JSON.stringify(biographies);
 for (const forbidden of ['"number":14', '"number":15', '"number":16', '"number":17', "Volet réservé au formateur", "feedbacksByCharacter", "gamePoints"]) if (serialized.includes(forbidden)) fail(`contenu interne détecté : ${forbidden}`);
 for (const [left, right] of [["P01", "XP08"], ["P02", "XP05"], ["P05", "XP06"], ["P08", "XP07"]]) {

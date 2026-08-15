@@ -56,6 +56,12 @@ if (routes.parseAppRoute("#/situations/quiz").kind !== "situation-quiz") throw n
 for (const invalid of ["#/personnages/P1", "#/personnages/P001", "#/personnages/XP8", "#/personnages/Noe", "#/personnages/Jade"]) if (routes.parseAppRoute(invalid).kind !== "not-found") throw new Error(`Identifiant Personnage approximatif accepté : ${invalid}`);
 const uppercaseCharacter = routes.parseAppRoute("#/personnages/XP08");
 if (uppercaseCharacter.kind !== "redirect" || uppercaseCharacter.target !== "#/personnages/xp08") throw new Error("La normalisation d’un identifiant Personnage majuscule est invalide");
+for (const [hash, type] of [["#/personnages/p01?from=game-preparation", "game-preparation"], ["#/personnages/p01?from=game", "game"]]) {
+  const contextualCharacter = routes.parseAppRoute(hash);
+  if (contextualCharacter.kind !== "character-biography" || contextualCharacter.context?.type !== type) throw new Error(`Origine de fiche Personnage refusée : ${hash}`);
+}
+const unsafeCharacterContext = routes.parseAppRoute("#/personnages/p01?from=https-evil");
+if (unsafeCharacterContext.kind !== "redirect" || unsafeCharacterContext.target !== "#/personnages/p01") throw new Error("Origine libre de fiche Personnage non neutralisée");
 const uppercaseRepere = routes.parseAppRoute("#/reperes/R1");
 if (uppercaseRepere.kind !== "redirect" || uppercaseRepere.target !== "#/reperes/r1") throw new Error("La normalisation d’un Repère est invalide");
 const uppercaseWord = routes.parseAppRoute("#/mots-utiles/MU-ORI");

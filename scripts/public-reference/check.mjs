@@ -32,12 +32,17 @@ if (wordToRepereLinks !== 11) fail(`onze renvois Mots utiles vers Repères atten
 const read = (filename) => readFileSync(path.join(ROOT, filename), "utf8");
 const situationWords = read("src/features/situations/UsefulWordList.tsx");
 const journeyPage = read("src/features/characters/JourneyWordsPage.tsx");
+const usefulWordsApp = read("src/features/useful-words/UsefulWordsApp.tsx");
 const routes = read("src/utils/appRoute.ts");
 const app = read("src/App.tsx");
 const frame = read("src/components/public/PublicFrame.tsx");
 const reperesApp = read("src/features/reperes/ReperesApp.tsx");
 if (!situationWords.includes("?from=situation-") || !situationWords.includes("<a href=")) fail("liens contextuels Situations absents");
-if (!journeyPage.includes("<a href={word.target}")) fail("15 liens Mots et parcours absents");
+for (const expected of ["Orientations et attirances", "Genre et caractéristiques sexuées", "Parcours et confidentialité", 'className="journey-word-card"', "classifiedIds", "unclassified"]) if (!journeyPage.includes(expected)) fail(`présentation Mots et parcours incomplète : ${expected}`);
+for (const forbidden of ["journey-word-id", "word.inBrief"]) if (journeyPage.includes(forbidden)) fail(`contenu interdit sur les cartes Mots et parcours : ${forbidden}`);
+for (const forbidden of ['className="reference-id"', "Espaces d’utilisation", "Contenu daté", "Sources publiques"]) if (usefulWordsApp.includes(forbidden)) fail(`métadonnée publique encore rendue : ${forbidden}`);
+if (!usefulWordsApp.includes("<h2>Sources</h2>") || !usefulWordsApp.includes("word.publicSources.length > 0")) fail("présentation conditionnelle des sources absente");
+for (const expected of ['className="context-return app-text-link"', '<a className="app-text-link" href="#/mots-utiles">Voir les 25 mots utiles</a>']) if (!usefulWordsApp.includes(expected)) fail(`style de navigation Mot utile absent : ${expected}`);
 for (const expected of ["repere-detail", "useful-words", "useful-word-detail", "repereHash", "usefulWordHash"]) if (!routes.includes(expected)) fail(`route absente : ${expected}`);
 for (const expected of ['lazy(() => import("./features/reperes/ReperesApp"))', 'lazy(() => import("./features/useful-words/UsefulWordsApp"))']) if (!app.includes(expected)) fail(`chargement différé absent : ${expected}`);
 if (frame.includes('{ label: "Mots utiles"')) fail("Mots utiles ajouté à la navigation principale");

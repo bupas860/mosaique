@@ -36,7 +36,7 @@ export default function PublicFrame({ route, routeKey, children }: PublicFramePr
   const [menuOpen, setMenuOpen] = useState(false);
   const menuButton = useRef<HTMLButtonElement>(null);
   const current = activeSection(route);
-  const eleaPresentation = route.kind !== "home" && isEleaContext();
+  const eleaPresentation = isEleaContext();
 
   useEffect(() => setMenuOpen(false), [routeKey]);
   useEffect(() => {

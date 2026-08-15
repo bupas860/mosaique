@@ -22,5 +22,5 @@ export default function CharactersApp({ route }: { route: CharactersRoute }) {
   if (route.kind === "explorer-characters") return <ExplorerCharactersPage />;
   if (route.kind === "characters-words") return <JourneyWordsPage />;
   const biography = publicBiographiesV2.find(({ id }) => id === route.characterId);
-  return biography ? <CharacterBiographyPage key={biography.id} biography={biography} /> : null;
+  return biography ? <CharacterBiographyPage key={`${biography.id}-${route.context?.type ?? "characters"}`} biography={biography} context={route.context} /> : null;
 }

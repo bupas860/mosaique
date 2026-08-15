@@ -3,6 +3,7 @@ import { useState } from "react";
 import type { GameCharacterV2 } from "../types/choiceHistory";
 import CharacterInformation from "./CharacterInformation";
 import CharacterPortrait from "./CharacterPortrait";
+import { characterBiographyHash } from "../utils/appRoute";
 
 interface Props {
   characters: readonly GameCharacterV2[];
@@ -150,18 +151,7 @@ export default function PrivilegeMargin({
                       Personnage incarné
                     </span>
                   )}
-                  {isSelected && (
-                    <button
-                      type="button"
-                      className="selected-character-link text-sm font-medium underline underline-offset-2"
-                      aria-expanded={visibleProfileId === character.id}
-                      onClick={() => setOpenProfileId((current) =>
-                        current === character.id ? undefined : character.id
-                      )}
-                    >
-                      {visibleProfileId === character.id ? "Masquer le personnage" : "Voir le personnage"}
-                    </button>
-                  )}
+                  {isSelected && <a className="selected-character-link text-sm font-medium underline underline-offset-2 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-600 focus-visible:ring-offset-2" href={characterBiographyHash(character.id, { type: "game" })}>Voir le personnage</a>}
                 </div>
                 {proposedPositions ? (
                   <div className="flex flex-wrap justify-end gap-x-3 gap-y-1 text-sm text-slate-700">

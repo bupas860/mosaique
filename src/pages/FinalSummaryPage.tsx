@@ -12,11 +12,11 @@ import type { ChoiceHistoryEntryV2, GameCharacterV2 } from "../types/choiceHisto
 import type { RuntimeSituationV2 } from "../types/runtimeV2";
 import { personalizePlayerText } from "../utils/personalizePlayerText";
 
-interface Props { characters: readonly GameCharacterV2[]; initialCharacters: readonly GameCharacterV2[]; playedSituations: readonly RuntimeSituationV2[]; choiceHistory: readonly ChoiceHistoryEntryV2[]; selectedCharacterId: EditorialCharacterIdV2; selectedModeId: ActiveGameModeIdV2; onRestart: () => void; onChooseAnotherCharacter: () => void; onBackHome: () => void; }
+interface Props { characters: readonly GameCharacterV2[]; initialCharacters: readonly GameCharacterV2[]; playedSituations: readonly RuntimeSituationV2[]; choiceHistory: readonly ChoiceHistoryEntryV2[]; selectedCharacterId: EditorialCharacterIdV2; selectedModeId: ActiveGameModeIdV2; onRestart: () => void; onChooseAnotherCharacter: () => void; onBackHome: () => void; backHomeLabel: string; }
 const movement = (name: string, decision: "advance" | "stay") => `${name} ${decision === "advance" ? "avance" : "reste sur place"}`;
 const modeLabels: Readonly<Record<ActiveGameModeIdV2, string>> = { discovery: "Découverte", "visible-obstacles": "Obstacles visibles", "ordinary-norms": "Normes ordinaires", "invisible-effects": "Effets invisibles", intersectionalities: "Intersectionnalités" };
 
-export default function FinalSummaryPage({ characters, initialCharacters, playedSituations, choiceHistory, selectedCharacterId, selectedModeId, onRestart, onChooseAnotherCharacter, onBackHome }: Props) {
+export default function FinalSummaryPage({ characters, initialCharacters, playedSituations, choiceHistory, selectedCharacterId, selectedModeId, onRestart, onChooseAnotherCharacter, onBackHome, backHomeLabel }: Props) {
   const [selectedStep, setSelectedStep] = useState(0);
   const [openRecap, setOpenRecap] = useState<number>();
   const selectedCharacter = initialCharacters.find(({ id }) => id === selectedCharacterId);
@@ -71,6 +71,6 @@ export default function FinalSummaryPage({ characters, initialCharacters, played
       </aside>
     </div>
     <section className="game-summary__recap" aria-labelledby="game-summary-recap-title"><h2 id="game-summary-recap-title">Récapitulatif de vos réponses</h2><ol>{choiceHistory.map(recapPanel)}</ol></section>
-    <div className="game-summary__actions"><Button onClick={onRestart}>Rejouer</Button><Button variant="secondary" onClick={onChooseAnotherCharacter}>Changer de personnage</Button><Button variant="ghost" onClick={onBackHome}>Retour à l’accueil</Button></div>
+    <div className="game-summary__actions"><Button onClick={onRestart}>Rejouer</Button><Button variant="secondary" onClick={onChooseAnotherCharacter}>Changer de personnage</Button><Button variant="ghost" onClick={onBackHome}>{backHomeLabel}</Button></div>
   </div></AppBackground>;
 }

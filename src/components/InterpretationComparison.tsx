@@ -12,6 +12,6 @@ export default function InterpretationComparison({ id, isCoherent, playerMovemen
       <article className="interpretation-reading interpretation-reading--player"><h4>Votre lecture</h4><p>{playerMovement}.</p></article>
       <article className="interpretation-reading interpretation-reading--proposed"><h4>Interprétation proposée</h4><p>{proposedMovement}.</p></article>
     </div>
-    <p className={`interpretation-status interpretation-status--${isCoherent ? "concordant" : "different"}`}><strong>{isCoherent ? "Lecture concordante" : "Lecture différente"}</strong><span>{isCoherent ? "✓ Votre lecture rejoint l’interprétation proposée." : "Votre lecture diffère de l’interprétation proposée."}</span></p>
+    <p className={`interpretation-status interpretation-status--${isCoherent ? "concordant" : "different"}`}><strong>{isCoherent ? "Lecture concordante" : "Lecture différente"}</strong>{" "}{isCoherent && <span aria-hidden="true" className="interpretation-status__mark">✓</span>}{" "}<span className="interpretation-status__separator">—</span>{" "}<span>{isCoherent ? "Votre lecture rejoint l’interprétation proposée." : "Votre lecture diffère de l’interprétation proposée."}</span></p>
   </section>;
 }

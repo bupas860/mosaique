@@ -10,7 +10,7 @@ const words = wordsJson.words as readonly PublicUsefulWord[];
 type Route = Extract<AppRoute, { kind: "useful-words" | "useful-word-detail" }>;
 
 function WordsIndex() {
-  const group = (title: string, values: readonly PublicUsefulWord[]) => <section><h2>{title}</h2><ol className="reference-index">{values.map((word) => <li key={word.id}><article><p className="reference-id">{word.id}</p><h3>{word.label}</h3><p>{word.inBrief}</p><a href={usefulWordHash(word.id, { type: "index" })}>Lire la définition</a></article></li>)}</ol></section>;
+  const group = (title: string, values: readonly PublicUsefulWord[]) => <section><h2>{title}</h2><ol className="reference-index">{values.map((word) => <li key={word.id}><article><h3>{word.label}</h3><p>{word.inBrief}</p><a href={usefulWordHash(word.id, { type: "index" })}>Lire la définition</a></article></li>)}</ol></section>;
   return <main className="reference-page"><header><h1>Les mots utiles</h1></header>{group("Mots et parcours", words.slice(0, 15))}{group("Autres mots utiles", words.slice(15))}</main>;
 }
 
@@ -23,15 +23,13 @@ function contextReturn(context?: UsefulWordContext): { href: string; label: stri
 
 function WordDetail({ word, context }: { word: PublicUsefulWord; context?: UsefulWordContext }) {
   const back = contextReturn(context);
-  return <main className="reference-page reference-detail"><p><a className="context-return" href={back.href}>{back.label}</a></p><header><p className="reference-id">{word.id}</p><h1>{word.label}</h1><p>{word.inBrief}</p></header>
+  return <main className="reference-page reference-detail"><p><a className="context-return app-text-link" href={back.href}>{back.label}</a></p><header><h1>{word.label}</h1><p>{word.inBrief}</p></header>
     <section><h2>Exemple</h2><p>{word.example}</p></section>
     <section><h2>À ne pas confondre</h2><p>{word.notConfuse}</p></section>
     <section><h2>À retenir</h2><p>{word.remember}</p></section>
-    <section><h2>Espaces d’utilisation</h2><ul>{word.usageSpaces.map((space) => <li key={space}>{space}</li>)}</ul></section>
-    <section><h2>Contenu daté</h2><p>{word.datedNote}</p></section>
-    {word.publicSources.length > 0 ? <section><h2>Sources publiques</h2><ul>{word.publicSources.map((source) => <li key={source}><PublicInline text={source} /></li>)}</ul></section> : null}
+    {word.publicSources.length > 0 ? <section><h2>Sources</h2><ul>{word.publicSources.map((source) => <li key={source}><PublicInline text={source} /></li>)}</ul></section> : null}
     {word.relatedRepereIds.length > 0 ? <section><h2>Repères associés</h2><ul>{word.relatedRepereIds.map((id) => <li key={id}><a href={repereHash(id)}>{id}</a></li>)}</ul></section> : null}
-    <p><a href="#/mots-utiles">Voir les 25 mots utiles</a></p>
+    <p><a className="app-text-link" href="#/mots-utiles">Voir les 25 mots utiles</a></p>
   </main>;
 }
 

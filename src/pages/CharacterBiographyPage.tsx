@@ -4,8 +4,7 @@ import BiographyContentBlocks from "../components/BiographyContentBlocks";
 import CharacterPortrait from "../components/CharacterPortrait";
 import CharacterPublicTags from "../components/CharacterPublicTags";
 import { publicBiographiesV2, type RuntimePublicBiography } from "../data/v2/publicBiographiesV2";
-import { EXPLORER_CHARACTERS_HASH } from "../utils/appRoute";
-import { characterBiographyHash } from "../utils/appRoute";
+import { EXPLORER_CHARACTERS_HASH, GAME_HASH, characterBiographyHash, type CharacterBiographyContext } from "../utils/appRoute";
 
 const groups = [
   { id: "overview", title: "Vue d’ensemble", sections: [1, 2, 11, 12] },
@@ -14,9 +13,9 @@ const groups = [
   { id: "school", title: "Au lycée", sections: [10] },
 ] as const;
 
-interface Props { biography: RuntimePublicBiography; }
+interface Props { biography: RuntimePublicBiography; context?: CharacterBiographyContext; }
 
-export default function CharacterBiographyPage({ biography }: Props) {
+export default function CharacterBiographyPage({ biography, context }: Props) {
   const [activeGroupId, setActiveGroupId] = useState<(typeof groups)[number]["id"]>("overview");
   const [openSectionNumber, setOpenSectionNumber] = useState<number>(groups[0].sections[0]);
   const tabRefs = useRef<(HTMLButtonElement | null)[]>([]);
@@ -25,6 +24,11 @@ export default function CharacterBiographyPage({ biography }: Props) {
   const next = biographyIndex < publicBiographiesV2.length - 1 ? publicBiographiesV2[biographyIndex + 1] : undefined;
   const activeGroupIndex = groups.findIndex(({ id }) => id === activeGroupId);
   const activeGroup = groups[activeGroupIndex] ?? groups[0];
+  const returnLink = context?.type === "game"
+    ? { href: GAME_HASH, label: "Retour à la partie" }
+    : context?.type === "game-preparation"
+      ? { href: GAME_HASH, label: "Retour à la préparation de la partie" }
+      : { href: EXPLORER_CHARACTERS_HASH, label: "Retour aux personnages" };
 
   function activateTab(index: number) {
     const normalizedIndex = (index + groups.length) % groups.length;
@@ -48,7 +52,7 @@ export default function CharacterBiographyPage({ biography }: Props) {
   return (
     <AppBackground as="main" className="biography-page">
       <div className="biography-page__inner">
-        <a href={EXPLORER_CHARACTERS_HASH} className="app-text-link">Retour aux personnages</a>
+        <a href={returnLink.href} className="app-text-link">{returnLink.label}</a>
         <div className="biography-layout">
           <header className="biography-profile" style={{ "--character-accent": biography.gallery === "general" ? "#2563A9" : "#6D4CC3" } as React.CSSProperties}>
             <CharacterPortrait characterId={biography.id} characterName={biography.name} image={biography.image} alt={biography.portraitAlt} accentColor={biography.gallery === "general" ? "#2563A9" : "#6D4CC3"} size="card" eager className="biography-profile__portrait" />
@@ -99,10 +103,10 @@ export default function CharacterBiographyPage({ biography }: Props) {
           </section>
         </div>
         <nav className="biography-sequence" aria-label="Personnages précédent et suivant">
-          {previous ? <a href={characterBiographyHash(previous.id)}>Personnage précédent : {previous.name}</a> : <span />}
-          {next ? <a href={characterBiographyHash(next.id)}>Personnage suivant : {next.name}</a> : null}
+          {previous ? <a href={characterBiographyHash(previous.id, context)}>Personnage précédent : {previous.name}</a> : <span />}
+          {next ? <a href={characterBiographyHash(next.id, context)}>Personnage suivant : {next.name}</a> : null}
         </nav>
-        <a href={EXPLORER_CHARACTERS_HASH} className="app-text-link biography-back-link">Retour aux personnages</a>
+        <a href={returnLink.href} className="app-text-link biography-back-link">{returnLink.label}</a>
       </div>
     </AppBackground>
   );

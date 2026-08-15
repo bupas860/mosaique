@@ -5,7 +5,7 @@ export type AppRoute =
   | { readonly kind: "home" }
   | { readonly kind: "game" }
   | { readonly kind: "explorer-characters" }
-  | { readonly kind: "character-biography"; readonly characterId: EditorialCharacterIdV2 }
+  | { readonly kind: "character-biography"; readonly characterId: EditorialCharacterIdV2; readonly context?: CharacterBiographyContext }
   | { readonly kind: "characters-words" }
   | { readonly kind: "character-quiz" }
   | { readonly kind: "situations" }
@@ -36,6 +36,7 @@ const repereIds = new Set(["R1", "R2", "R3", "R4", "R5"]);
 const usefulWordIds = new Set(["MU-ORI", "MU-ASE", "MU-ARO", "MU-IDG", "MU-EXG", "MU-CSX", "MU-SAN", "MU-PRO", "MU-CIN", "MU-COU", "MU-OUT", "MU-TRA", "MU-NBI", "MU-INT", "MU-CONF", "MU-OBS", "MU-PROT", "MU-NOR", "MU-INST", "MU-DISC", "MU-PRIV", "MU-POS", "MU-POUV", "MU-INTER", "MU-MARGE"]);
 
 export type UsefulWordContext = { readonly type: "situation"; readonly code: string } | { readonly type: "journey" } | { readonly type: "repere"; readonly id: string } | { readonly type: "index" };
+export type CharacterBiographyContext = { readonly type: "game-preparation" } | { readonly type: "game" };
 
 export const HOME_HASH = "#/";
 export const GAME_HASH = "#/jouer";
@@ -57,8 +58,9 @@ export const understandModuleHash = (moduleId: UnderstandModuleId, sectionId?: s
 export const understandGlossaryHash = (notionId?: string) => `${UNDERSTAND_HASH}/glossaire${notionId ? `/${notionId}` : ""}`;
 export const understandBibliographyHash = (sourceId?: string) => `${UNDERSTAND_HASH}/bibliographie${sourceId ? `/${sourceId}` : ""}`;
 
-export function characterBiographyHash(characterId: EditorialCharacterIdV2): string {
-  return `${PERSONNAGES_HASH}/${characterId.toLowerCase()}`;
+export function characterBiographyHash(characterId: EditorialCharacterIdV2, context?: CharacterBiographyContext): string {
+  const suffix = context?.type === "game-preparation" ? "?from=game-preparation" : context?.type === "game" ? "?from=game" : "";
+  return `${PERSONNAGES_HASH}/${characterId.toLowerCase()}${suffix}`;
 }
 
 export function repereHash(id: string): string { return `${REPERES_HASH}/${id.toLowerCase()}`; }
@@ -73,6 +75,12 @@ function parseUsefulWordContext(value: string | undefined): UsefulWordContext | 
   if (value === "index") return { type: "index" };
   const repere = value.match(/^r([1-5])$/i); if (repere) return { type: "repere", id: `R${repere[1]}` };
   const situation = value.match(/^situation-([VNIX]\d{2})$/); if (situation && situationCodes.has(situation[1])) return { type: "situation", code: situation[1] };
+  return undefined;
+}
+
+function parseCharacterBiographyContext(value: string | undefined): CharacterBiographyContext | undefined {
+  if (value === "game-preparation") return { type: "game-preparation" };
+  if (value === "game") return { type: "game" };
   return undefined;
 }
 
@@ -91,12 +99,14 @@ export function parseAppRoute(hash = window.location.hash): AppRoute {
   if (hash === PERSONNAGES_HASH) return { kind: "explorer-characters" };
   if (hash === `${PERSONNAGES_HASH}/mots-et-parcours`) return { kind: "characters-words" };
   if (hash === `${PERSONNAGES_HASH}/quiz`) return { kind: "character-quiz" };
-  const characterRoute = hash.match(/^#\/personnages\/(p\d{2}|xp\d{2})$/i);
+  const characterRoute = hash.match(/^#\/personnages\/(p\d{2}|xp\d{2})(?:\?from=([^#]*))?$/i);
   if (characterRoute) {
     const characterId = characterRoute[1].toUpperCase() as EditorialCharacterIdV2;
     if (!characterIds.has(characterId)) return { kind: "not-found", fragment: hash };
-    if (characterRoute[1] !== characterRoute[1].toLowerCase()) return { kind: "redirect", target: characterBiographyHash(characterId) };
-    return { kind: "character-biography", characterId };
+    const context = parseCharacterBiographyContext(characterRoute[2]);
+    const canonical = characterBiographyHash(characterId, context);
+    if (hash !== canonical) return { kind: "redirect", target: canonical };
+    return { kind: "character-biography", characterId, context };
   }
   if (hash === SITUATIONS_HASH) return { kind: "situations" };
   const focalRoute = hash.match(/^#\/situations\/focales\/([a-z-]+)$/);

@@ -47,6 +47,8 @@ for (const expected of [
 const game = await read("src/game/GameApp.tsx");
 const preparation = await read("src/pages/GamePreparationPage.tsx");
 const gamePage = await read("src/pages/GamePage.tsx");
+const gameSession = await read("src/game/gameSession.ts");
+const quitDialog = await read("src/components/QuitGameDialog.tsx");
 const situationCard = await read("src/components/SituationCard.tsx");
 const summary = await read("src/pages/FinalSummaryPage.tsx");
 for (const expected of [
@@ -55,9 +57,10 @@ for (const expected of [
   "getActiveCharactersForMode",
   "setScreen(\"preparation\")",
   "setScreen(\"game\")",
-  "<GamePreparationPage",
+  "loadGameSession", "clearActiveGame", "saveGamePreparation", "<GamePreparationPage",
   "<GamePage",
 ]) requireText(game, expected, "Parcours Jouer");
+for (const expected of ['version: 1', 'sessionStorage.getItem(STORAGE_KEY)', 'sessionStorage.setItem(STORAGE_KEY', 'situationIds.length !== 10', 'new Set(situationIds).size !== 10', 'saveActiveGame', 'clearActiveGame']) requireText(gameSession, expected, "Session Jouer");
 for (const expected of [
   "Préparer votre partie", "1. Choisissez un mode", "2. Choisissez votre personnage",
   "Recommandé pour découvrir la marche des privilèges", "Commencer la partie", "Personnage sélectionné",
@@ -72,13 +75,14 @@ for (const expected of [
 ]) requireText(situationCard, expected, "Question Jouer 8G");
 for (const expected of [
   "Retour sur votre réponse", "Situation suivante", "Voir le bilan", "Comprendre cette situation",
-  "aria-expanded={detailsOpen}", "hidden={!detailsOpen}", "<strong>Focale :</strong>",
+  "aria-expanded={detailsOpen}", "hidden={!detailsOpen}", "<strong>Focale :</strong>", "Quitter la partie", "saveActiveGame",
 ]) requireText(gamePage, expected, "Feedback Jouer 8G");
+for (const expected of ['role="dialog"', 'aria-modal="true"', 'Quitter cette partie', 'Votre progression dans cette partie sera perdue.', 'Continuer la partie', 'event.key === "Escape"', 'cancelRef.current?.focus()']) requireText(quitDialog, expected, "Dialogue Quitter Jouer");
 for (const expected of [
   "Votre parcours dans les 10 situations", "Votre bilan", "Lecture par focale",
   "Cet indicateur n’est pas une note.", "Situation {selectedStep + 1}",
   "Récapitulatif de vos réponses", "aria-expanded={open}", "hidden={!open}",
-  "Rejouer", "Changer de personnage", "Retour à l’accueil",
+  "Rejouer", "Changer de personnage", "backHomeLabel",
 ]) requireText(summary, expected, "Bilan Jouer 8G");
 for (const forbidden of ["Revoir mes réponses", "Lecture par famille", "correct", "incorrect"]) if (summary.includes(forbidden)) throw new Error(`Vocabulaire ou action obsolète dans le bilan : ${forbidden}`);
 
@@ -116,9 +120,12 @@ const usefulWordsApp = await read("src/features/useful-words/UsefulWordsApp.tsx"
 const situationWordLinks = await read("src/features/situations/UsefulWordList.tsx");
 const journeyWords = await read("src/features/characters/JourneyWordsPage.tsx");
 for (const expected of ["reperes.map", "reference-accordions", "Repère précédent", "Repère suivant", "Approfondir", "Sources", "Mots utiles", "aria-expanded={open}"]) requireText(reperesApp, expected, "Contrat Repères 8G");
-for (const expected of ["words.slice(0, 15)", "words.slice(15)", "contextReturn", "Retour aux mots utiles", 'publicDocumentTitle("Les mots utiles"']) requireText(usefulWordsApp, expected, "Contrat Mots utiles 8E");
+for (const expected of ["words.slice(0, 15)", "words.slice(15)", "contextReturn", "Retour aux mots utiles", '<h2>Sources</h2>', "word.publicSources.length > 0", 'publicDocumentTitle("Les mots utiles"']) requireText(usefulWordsApp, expected, "Contrat Mots utiles 8E");
+for (const expected of ['className="context-return app-text-link"', '<a className="app-text-link" href="#/mots-utiles">Voir les 25 mots utiles</a>']) requireText(usefulWordsApp, expected, "Navigation visible Mots utiles");
+for (const forbidden of ['className="reference-id"', "Espaces d’utilisation", "Contenu daté", "Sources publiques"]) if (usefulWordsApp.includes(forbidden)) throw new Error(`Métadonnée technique visible dans Mots utiles : ${forbidden}`);
 requireText(situationWordLinks, "?from=situation-", "183 retours contextuels Situations");
-requireText(journeyWords, "<a href={word.target}", "15 liens Mots et parcours");
+for (const expected of ['className="journey-word-card"', "href={word.target}", "Orientations et attirances", "Genre et caractéristiques sexuées", "Parcours et confidentialité", "classifiedIds", "unclassified"]) requireText(journeyWords, expected, "Contrat Mots et parcours");
+if (journeyWords.includes("journey-word-id") || journeyWords.includes("word.inBrief")) throw new Error("Contenu technique ou définition affiché sur les cartes Mots et parcours");
 const frame = await read("src/components/public/PublicFrame.tsx");
 if (frame.includes('{ label: "Mots utiles"')) throw new Error("Mots utiles devient une cinquième entrée principale");
 

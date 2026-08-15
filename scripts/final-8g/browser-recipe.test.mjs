@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { spawn } from "node:child_process";
-import { mkdtempSync, readFileSync, rmSync } from "node:fs";
+import { mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -23,6 +23,12 @@ const FORBIDDEN_QS = [
 const biographies = JSON.parse(readFileSync(join(ROOT, "src/data/public/publicCharacters.generated.json"), "utf8")).biographies;
 const reperes = JSON.parse(readFileSync(join(ROOT, "src/data/public/publicReperes.generated.json"), "utf8")).reperes;
 const words = JSON.parse(readFileSync(join(ROOT, "src/data/public/publicUsefulWords.generated.json"), "utf8")).words;
+const journeyGroups = [
+  { title: "Orientations et attirances", ids: ["MU-ORI", "MU-ASE", "MU-ARO"] },
+  { title: "Genre et caractéristiques sexuées", ids: ["MU-IDG", "MU-EXG", "MU-CSX", "MU-SAN", "MU-PRO", "MU-TRA", "MU-NBI", "MU-INT"] },
+  { title: "Parcours et confidentialité", ids: ["MU-CIN", "MU-COU", "MU-OUT", "MU-CONF"] },
+];
+const journeyWords = journeyGroups.flatMap(({ ids }) => ids.map((id) => words.find((word) => word.id === id)));
 const situationSource = readFileSync(join(ROOT, "src/data/public/publicSituations.generated.ts"), "utf8");
 const situations = [...situationSource.matchAll(/"code": "([VNIX]\d{2})",\s+"title": "((?:[^"\\]|\\.)*)",[\s\S]*?"altText": "((?:[^"\\]|\\.)*)"/g)].map((match) => ({
   code: match[1],
@@ -34,6 +40,9 @@ assert.equal(biographies.length, 17, "17 biographies attendues");
 assert.equal(situations.length, 61, "61 situations attendues");
 assert.equal(reperes.length, 5, "5 Repères attendus");
 assert.equal(words.length, 25, "25 Mots utiles attendus");
+assert.equal(journeyWords.length, 15, "15 Mots et parcours attendus");
+assert.ok(journeyWords.every(Boolean), "chaque Mot et parcours doit exister dans le corpus public");
+assert.equal(new Set(journeyWords.map(({ id }) => id)).size, 15, "les Mots et parcours doivent être uniques");
 
 const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
 
@@ -189,8 +198,21 @@ class CdpPage {
     await wait(60);
   }
 
+  async mouseMove(selector) {
+    const point = await this.evaluate(`(() => { const element = document.querySelector(${JSON.stringify(selector)}); if (!element) return null; const rect = element.getBoundingClientRect(); return { x: rect.left + rect.width / 2, y: rect.top + rect.height / 2 }; })()`);
+    assert.ok(point, `contrôle introuvable : ${selector}`);
+    await this.call("Input.dispatchMouseEvent", { type: "mouseMoved", x: point.x, y: point.y });
+    await wait(60);
+  }
+
   async accessibilityTree() {
     return (await this.call("Accessibility.getFullAXTree")).result.nodes;
+  }
+
+  async screenshot(filename) {
+    const metrics = (await this.call("Page.getLayoutMetrics")).result.cssContentSize;
+    const response = await this.call("Page.captureScreenshot", { format: "png", captureBeyondViewport: true, clip: { x: 0, y: 0, width: metrics.width, height: metrics.height, scale: 1 } });
+    writeFileSync(filename, Buffer.from(response.result.data, "base64"));
   }
 
   close() { this.websocket.close(); }
@@ -313,9 +335,153 @@ async function navigationAndKeyboard(page, baseUrl) {
   assert.equal(await page.evaluate("document.activeElement?.hasAttribute('data-situations-route-heading')"), true, "focus au titre Situations après navigation mobile");
 }
 
+function renderedPublicInline(value) {
+  return value.replace(/\*\*([^*]+)\*\*/g, "$1").replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
+}
+
+function publicSourceLinks(value) {
+  return [...value.matchAll(/\[[^\]]+\]\(([^)]+)\)/g)].map((match) => match[1]);
+}
+
+async function journeyWordsAudit(page, baseUrl) {
+  await page.viewport(1280);
+  await page.navigate(urlFor(baseUrl, "#/personnages/mots-et-parcours"));
+  await pageAudit(page, "Mots et parcours structuré", { expectedH1: "Mots et parcours" });
+  const pageState = await page.evaluate(`(() => ({
+    text: document.querySelector("main").innerText,
+    subtitle: document.querySelector(".journey-words-page header p")?.textContent.trim(),
+    back: { text: document.querySelector(".journey-words-page > p a")?.textContent.trim(), href: document.querySelector(".journey-words-page > p a")?.getAttribute("href") },
+    headings: [...document.querySelectorAll(".journey-words-page h1,.journey-words-page h2,.journey-words-page h3")].map((heading) => ({ level: heading.tagName, text: heading.textContent.trim() })),
+    groups: [...document.querySelectorAll(".journey-word-group")].map((group) => ({
+      title: group.querySelector("h2")?.textContent.trim(),
+      cards: [...group.querySelectorAll(".journey-words-list > li")].map((item) => ({
+        children: item.children.length,
+        label: item.querySelector("a")?.textContent.replace("→", "").trim(),
+        href: item.querySelector("a")?.getAttribute("href"),
+        directLink: item.firstElementChild?.matches("a.journey-word-card"),
+      })),
+    })),
+  }))()`);
+  const expectedGroups = journeyGroups.map((group) => ({
+    title: group.title,
+    cards: group.ids.map((id) => {
+      const word = words.find((candidate) => candidate.id === id);
+      return { children: 1, label: word.label, href: `#/mots-utiles/${word.routeSegment}?from=parcours`, directLink: true };
+    }),
+  }));
+  assert.equal(pageState.subtitle, "Comprendre les mots utilisés dans les biographies", "sous-titre Mots et parcours");
+  assert.deepEqual(pageState.back, { text: "Retour aux personnages", href: "#/personnages" }, "retour aux personnages");
+  assert.deepEqual(pageState.headings, [
+    { level: "H1", text: "Mots et parcours" },
+    ...journeyGroups.map(({ title }) => ({ level: "H2", text: title })),
+  ], "hiérarchie h1/h2 Mots et parcours");
+  assert.deepEqual(pageState.groups, expectedGroups, "classement, ordre et destinations des 15 cartes");
+  assert.equal(/MU-[A-Z]+/.test(pageState.text), false, "aucun identifiant MU visible dans Mots et parcours");
+
+  await page.evaluate('document.getElementById("main-content").focus({ preventScroll: true })');
+  for (const expectedHref of ["#/personnages", ...journeyWords.map(({ routeSegment }) => `#/mots-utiles/${routeSegment}?from=parcours`)]) {
+    await page.key("Tab");
+    assert.equal(await page.evaluate("document.activeElement?.getAttribute('href')"), expectedHref, `ordre de tabulation Mots et parcours : ${expectedHref}`);
+  }
+
+  await page.mouseClick(".journey-word-card");
+  await page.waitFor(`location.hash === "#/mots-utiles/mu-ori?from=parcours" && document.querySelector(".reference-detail h1")?.textContent.trim() === "Orientation sexuelle"`, "activation souris d’une carte Mots et parcours");
+
+  for (let index = 0; index < journeyWords.length; index += 1) {
+    const word = journeyWords[index];
+    await page.navigate(urlFor(baseUrl, "#/personnages/mots-et-parcours"));
+    const focused = await page.evaluate(`(() => { const link = document.querySelectorAll(".journey-word-card")[${index}]; link?.focus(); return document.activeElement === link; })()`);
+    assert.equal(focused, true, `${word.label} : carte accessible au clavier`);
+    await page.key("Enter");
+    const target = `#/mots-utiles/${word.routeSegment}?from=parcours`;
+    await page.waitFor(`location.hash === ${JSON.stringify(target)} && document.querySelector(".reference-detail h1")?.textContent.trim() === ${JSON.stringify(word.label)}`, `${word.label} : ouverture de la fiche`);
+    const detail = await page.evaluate(`(() => {
+      const sections = [...document.querySelectorAll(".reference-detail > section")].map((section) => ({
+        heading: section.querySelector("h2")?.textContent.trim(),
+        paragraphs: [...section.querySelectorAll(":scope > p")].map((paragraph) => paragraph.textContent.trim()),
+        items: [...section.querySelectorAll(":scope > ul > li")].map((item) => item.textContent.trim()),
+        links: [...section.querySelectorAll("a")].map((link) => link.getAttribute("href")),
+      }));
+      return {
+        text: document.querySelector("main").innerText,
+        title: document.querySelector("h1")?.textContent.trim(),
+        definition: document.querySelector(".reference-detail > header p")?.textContent.trim(),
+        back: { text: document.querySelector(".context-return")?.textContent.trim(), href: document.querySelector(".context-return")?.getAttribute("href") },
+        navigationLinks: [...document.querySelectorAll(".context-return,.reference-detail > p:last-child a")].map((link) => ({ text: link.textContent.trim(), href: link.getAttribute("href"), styled: link.classList.contains("app-text-link"), color: getComputedStyle(link).color, decoration: getComputedStyle(link).textDecorationLine })),
+        sections,
+      };
+    })()`);
+    assert.equal(detail.title, word.label, `${word.id} : libellé conservé`);
+    assert.equal(detail.definition, word.inBrief, `${word.id} : définition conservée`);
+    assert.deepEqual(detail.back, { text: "Retour à Mots et parcours", href: "#/personnages/mots-et-parcours" }, `${word.id} : retour contextuel`);
+    assert.deepEqual(detail.navigationLinks.map(({ text, href, styled }) => ({ text, href, styled })), [
+      { text: "Retour à Mots et parcours", href: "#/personnages/mots-et-parcours", styled: true },
+      { text: "Voir les 25 mots utiles", href: "#/mots-utiles", styled: true },
+    ], `${word.id} : liens de navigation visibles et inchangés`);
+    assert.ok(detail.navigationLinks.every(({ color, decoration }) => color === "rgb(29, 78, 216)" && decoration.includes("underline")), `${word.id} : couleur et soulignement des liens de navigation`);
+    assert.equal(/MU-[A-Z]+/.test(detail.text), false, `${word.id} : identifiant absent du texte visible`);
+    assert.equal(detail.text.includes("Espaces d’utilisation"), false, `${word.id} : espaces masqués`);
+    assert.equal(detail.text.includes("Contenu daté"), false, `${word.id} : datation masquée`);
+    assert.deepEqual(detail.sections.find(({ heading }) => heading === "Exemple")?.paragraphs, [word.example], `${word.id} : exemple conservé`);
+    assert.deepEqual(detail.sections.find(({ heading }) => heading === "À ne pas confondre")?.paragraphs, [word.notConfuse], `${word.id} : distinction conservée`);
+    assert.deepEqual(detail.sections.find(({ heading }) => heading === "À retenir")?.paragraphs, [word.remember], `${word.id} : retenue conservée`);
+    const sources = detail.sections.find(({ heading }) => heading === "Sources");
+    assert.equal(detail.sections.some(({ heading }) => heading === "Sources publiques"), false, `${word.id} : ancien titre Sources publiques absent`);
+    if (word.publicSources.length === 0) {
+      assert.equal(sources, undefined, `${word.id} : aucune rubrique Sources vide`);
+    } else {
+      assert.deepEqual(sources?.items, word.publicSources.map(renderedPublicInline), `${word.id} : textes des sources conservés`);
+      assert.deepEqual(sources?.links, word.publicSources.flatMap(publicSourceLinks), `${word.id} : liens des sources conservés`);
+    }
+    const reperesSection = detail.sections.find(({ heading }) => heading === "Repères associés");
+    if (word.relatedRepereIds.length === 0) assert.equal(reperesSection, undefined, `${word.id} : aucun Repère associé inventé`);
+    else {
+      assert.deepEqual(reperesSection?.items, word.relatedRepereIds, `${word.id} : Repères associés conservés`);
+      assert.deepEqual(reperesSection?.links, word.relatedRepereIds.map((id) => `#/reperes/${id.toLowerCase()}`), `${word.id} : liens Repères conservés`);
+    }
+  }
+
+  await page.navigate(urlFor(baseUrl, "#/mots-utiles"));
+  const indexState = await page.evaluate(`(() => ({
+    text: document.querySelector("main").innerText,
+    labels: [...document.querySelectorAll(".reference-index h3")].map((heading) => heading.textContent.trim()),
+    links: [...document.querySelectorAll(".reference-index a")].map((link) => link.getAttribute("href")),
+  }))()`);
+  assert.equal(/MU-[A-Z]+/.test(indexState.text), false, "aucun identifiant MU visible dans l’index général");
+  assert.deepEqual(indexState.labels, words.map(({ label }) => label), "25 libellés conservés dans l’index général");
+  assert.deepEqual(indexState.links, words.map(({ routeSegment }) => `#/mots-utiles/${routeSegment}?from=index`), "25 destinations inchangées dans l’index général");
+  await page.focusAndActivate('.reference-index a[href="#/mots-utiles/mu-ori?from=index"]', "Enter");
+  await page.waitFor("Boolean(document.querySelector('.context-return'))", "fiche depuis l’index général");
+  assert.deepEqual(await page.evaluate(`(() => ({ text: document.querySelector(".context-return").textContent.trim(), href: document.querySelector(".context-return").getAttribute("href") }))()`), { text: "Retour aux mots utiles", href: "#/mots-utiles" }, "retour contextuel vers l’index général");
+  for (const selector of [".context-return", ".reference-detail > p:last-child a"]) {
+    const initialColor = await page.evaluate(`getComputedStyle(document.querySelector(${JSON.stringify(selector)})).color`);
+    await page.mouseMove(selector);
+    const hoverColor = await page.evaluate(`getComputedStyle(document.querySelector(${JSON.stringify(selector)})).color`);
+    assert.notEqual(hoverColor, initialColor, `${selector} : état hover visible`);
+  }
+
+  if (process.env.VISUAL_DIR) {
+    mkdirSync(process.env.VISUAL_DIR, { recursive: true });
+    const visualRoutes = [
+      ["journey", "#/personnages/mots-et-parcours"],
+      ["source", "#/mots-utiles/mu-ori?from=parcours"],
+      ["no-source", "#/mots-utiles/mu-ase?from=parcours"],
+      ["index", "#/mots-utiles"],
+    ];
+    for (const [viewport, width, height] of [["desktop", 1440, 1000], ["mobile", 390, 844]]) {
+      await page.viewport(width, height);
+      for (const [name, hash] of visualRoutes) {
+        await page.navigate(urlFor(baseUrl, hash));
+        await page.evaluate("scrollTo(0, 0)");
+        await page.screenshot(join(process.env.VISUAL_DIR, `${name}-${viewport}.png`));
+      }
+    }
+  }
+}
+
 async function responsiveAudit(page, baseUrl) {
   const matrix = [
-    "#/", "#/jouer", "#/personnages", "#/personnages/p01", "#/personnages/quiz",
+    "#/", "#/jouer", "#/personnages", "#/personnages/mots-et-parcours", "#/personnages/p01", "#/personnages/quiz",
     "#/situations", "#/situations/focales/obstacles-visibles", "#/situations/X01", "#/situations/quiz", "#/reperes/r4", "#/mots-utiles/mu-conf",
   ];
   let checks = 0;
@@ -331,7 +497,7 @@ async function responsiveAudit(page, baseUrl) {
 }
 
 async function zoomAudit(page, baseUrl) {
-  const routes = ["#/", "#/jouer", "#/personnages", "#/personnages/p01", "#/personnages/quiz", "#/situations", "#/situations/focales/obstacles-visibles", "#/situations/X01", "#/situations/quiz", "#/reperes/r4", "#/mots-utiles/mu-conf"];
+  const routes = ["#/", "#/jouer", "#/personnages", "#/personnages/mots-et-parcours", "#/personnages/p01", "#/personnages/quiz", "#/situations", "#/situations/focales/obstacles-visibles", "#/situations/X01", "#/situations/quiz", "#/reperes/r4", "#/mots-utiles/mu-conf"];
   const results = [];
   for (const scale of [2, 4]) {
     await page.viewport(1440, 900);
@@ -442,6 +608,7 @@ async function filtersHistoryAndContextLinksAudit(page, baseUrl) {
   await page.focusAndActivate(".public-useful-words a", "Enter");
   await page.waitFor("Boolean(document.querySelector('.context-return'))", "Mot utile depuis une Situation");
   assert.equal(await page.evaluate("document.querySelector('.context-return').getAttribute('href')"), situationHash, "retour contextuel Situation exact");
+  assert.equal(await page.evaluate("document.querySelector('.context-return').classList.contains('app-text-link')"), true, "retour Situation visuellement identifiable");
   await page.focusAndActivate(".context-return", "Enter");
   await page.waitFor(`location.hash === ${JSON.stringify(situationHash)}`, "retour à la Situation");
 
@@ -449,11 +616,13 @@ async function filtersHistoryAndContextLinksAudit(page, baseUrl) {
   await page.focusAndActivate(".journey-words-list a", "Enter");
   await page.waitFor("Boolean(document.querySelector('.context-return'))", "Mot utile depuis Mots et parcours");
   assert.equal(await page.evaluate("document.querySelector('.context-return').getAttribute('href')"), "#/personnages/mots-et-parcours", "retour contextuel Mots et parcours");
+  assert.equal(await page.evaluate("document.querySelector('.context-return').classList.contains('app-text-link')"), true, "retour Mots et parcours visuellement identifiable");
 
   await page.navigate(urlFor(baseUrl, "#/reperes/r1"));
   await page.focusAndActivate("a[href*='/mots-utiles/']", "Enter");
   await page.waitFor("Boolean(document.querySelector('.context-return'))", "Mot utile depuis un Repère");
   assert.equal(await page.evaluate("document.querySelector('.context-return').getAttribute('href')"), "#/reperes/r1", "retour contextuel Repère");
+  assert.equal(await page.evaluate("document.querySelector('.context-return').classList.contains('app-text-link')"), true, "retour Repère visuellement identifiable");
 
   await page.navigate(urlFor(baseUrl, "#/personnages"));
   await page.focusAndActivate(".explorer-character-card__link", "Enter");
@@ -779,11 +948,12 @@ async function gameAudit(page, baseUrl) {
   assert.equal(selectedProfile.heading, "Personnage sélectionné", "panneau du personnage sélectionné");
   assert.equal(selectedProfile.portrait, true, "portrait du personnage sélectionné");
   assert.ok(selectedProfile.name && selectedProfile.description && selectedProfile.tags >= 2, "informations publiques du personnage sélectionné");
-  assert.match(selectedProfile.link, /^#\/personnages\/(?:p|xp)\d{2}$/u, "lien vers la biographie complète");
+  assert.match(selectedProfile.link, /^#\/personnages\/(?:p|xp)\d{2}\?from=game-preparation$/u, "lien contextuel vers la biographie complète");
   assert.equal(selectedProfile.technical, false, "aucun identifiant technique dans le panneau");
   const selectedModeBeforeBiography = await page.evaluate("document.querySelector('input[name=game-mode]:checked').value");
   await page.focusAndActivate(".game-preparation__selected-character a", "Enter");
-  await page.waitFor("location.hash.startsWith('#/personnages/')", "biographie depuis la préparation");
+  await page.waitFor("location.hash.endsWith('?from=game-preparation') && Boolean(document.querySelector('.biography-page__inner > .app-text-link'))", "biographie depuis la préparation");
+  assert.equal(await page.evaluate("document.querySelector('.biography-page__inner > .app-text-link')?.textContent.trim()"), "Retour à la préparation de la partie", "retour explicite depuis la biographie de préparation");
   await page.evaluate("history.back()");
   await page.waitFor("location.hash === '#/jouer' && Boolean(document.querySelector('.game-preparation__selected-character'))", "retour à la préparation");
   assert.equal(await page.evaluate("document.querySelector('input[name=game-mode]:checked').value"), selectedModeBeforeBiography, "mode conservé après retour navigateur");
@@ -823,11 +993,12 @@ async function gameAudit(page, baseUrl) {
     await page.waitFor("Boolean(document.querySelector('section[aria-live=polite]'))", `feedback Jouer ${index + 1}`);
     const feedbackFocus = await page.evaluate(`(() => ({ matches: document.activeElement === document.querySelector("section[aria-live='polite'] h2"), active: document.activeElement?.outerHTML?.slice(0, 240), headings: [...document.querySelectorAll("section[aria-live='polite'] h2")].map((heading) => heading.outerHTML.slice(0, 240)) }))()`);
     assert.equal(feedbackFocus.matches, true, `focus sur le feedback Jouer ${index + 1} : ${JSON.stringify(feedbackFocus)}`);
-    const feedback = await page.evaluate(`(() => { const next = document.querySelector('.game-feedback__next button'); const details = document.querySelector('.game-feedback__details h3 button'); const status = document.querySelector('.interpretation-status strong')?.textContent.trim(); return { status, action: next?.textContent.trim(), actionBeforeDetails: Boolean(next && details && (next.compareDocumentPosition(details) & Node.DOCUMENT_POSITION_FOLLOWING)), detailsExpanded: details?.getAttribute('aria-expanded') }; })()`);
+    const feedback = await page.evaluate(`(() => { const next = document.querySelector('.game-feedback__next button'); const details = document.querySelector('.game-feedback__details h3 button'); const statusElement = document.querySelector('.interpretation-status'); const status = statusElement?.querySelector('strong')?.textContent.trim(); const pieces = [...statusElement.children].map((element) => ({ text: element.textContent.trim(), rect: element.getBoundingClientRect().toJSON() })); return { status, pieces, action: next?.textContent.trim(), actionBeforeDetails: Boolean(next && details && (next.compareDocumentPosition(details) & Node.DOCUMENT_POSITION_FOLLOWING)), detailsExpanded: details?.getAttribute('aria-expanded') }; })()`);
     statuses.add(feedback.status);
     assert.equal(feedback.action, index === 9 ? "Voir le bilan" : "Situation suivante", `action de progression ${index + 1}`);
     assert.equal(feedback.actionBeforeDetails, true, `action avant l’analyse détaillée ${index + 1}`);
     assert.equal(feedback.detailsExpanded, "false", `analyse fermée par défaut ${index + 1}`);
+    assert.ok(feedback.pieces.length >= 3 && feedback.pieces.every(({ text }) => text.length > 0), `bandeau composé d’éléments distincts ${index + 1}`);
     if (index === 0) {
       const before = await page.evaluate(`(() => { const button = document.querySelector('.game-feedback__details h3 button'); button.focus({ preventScroll: true }); const rect = button.getBoundingClientRect(); return { top: rect.top, scrollY }; })()`);
       await page.key(" ");
@@ -864,6 +1035,120 @@ async function gameAudit(page, baseUrl) {
   await page.viewport(1280);
 }
 
+async function gameNavigationAndEleaAudit(page, baseUrl) {
+  const sessionState = () => page.evaluate(`(() => { const raw = sessionStorage.getItem("mosaique.game-session.v1"); return raw ? JSON.parse(raw) : null; })()`);
+  const clearSession = () => page.evaluate(`sessionStorage.removeItem("mosaique.game-session.v1")`);
+
+  await page.navigate(urlFor(baseUrl, "#/jouer", "?context=elea"));
+  assert.equal(await page.evaluate("Boolean(document.querySelector('.public-nav'))"), false, "bilan Éléa : menu général absent");
+  assert.equal(await page.evaluate("document.querySelector('.game-summary__actions button:last-child')?.textContent.trim()"), "Retour à la préparation", "bilan Éléa : retour local");
+  await clearSession();
+
+  await page.navigate(urlFor(baseUrl, "#/", "?context=elea"));
+  assert.equal(await page.evaluate("Boolean(document.querySelector('.public-nav'))"), false, "accueil de la Marche Éléa : menu général absent");
+  assert.equal(await page.evaluate("document.querySelector('.public-brand')?.tagName"), "SPAN", "accueil Éléa : marque non navigante");
+
+  await page.navigate(urlFor(baseUrl, "#/personnages", "?context=elea"));
+  await page.focusAndActivate(".explorer-character-card__link", "Enter");
+  assert.equal(await page.evaluate("document.querySelector('.biography-page__inner > .app-text-link')?.textContent.trim()"), "Retour aux personnages", "galerie : origine Personnages conservée");
+  await page.evaluate("history.back()");
+  await page.waitFor("location.hash === '#/personnages'", "galerie ← fiche avec Précédent");
+  await page.evaluate("history.forward()");
+  await page.waitFor("location.hash.startsWith('#/personnages/')", "galerie → fiche avec Suivant");
+
+  await clearSession();
+  await page.navigate(urlFor(baseUrl, "#/jouer", "?context=elea"));
+  assert.equal(await page.evaluate("Boolean(document.querySelector('.public-nav'))"), false, "préparation Éléa : menu général absent");
+  await page.evaluate("document.querySelector('input[name=game-mode][value=ordinary-norms]').click(); document.querySelector('input[name=game-character]').click()");
+  await page.waitFor("Boolean(document.querySelector('.game-preparation__selected-character'))", "préparation contextuelle");
+  const preparationBefore = await sessionState();
+  await page.focusAndActivate(".game-preparation__selected-character a", "Enter");
+  assert.equal(await page.evaluate("location.hash.endsWith('?from=game-preparation')"), true, "origine Préparer transmise");
+  await page.waitFor("Boolean(document.querySelector('.biography-page__inner > .app-text-link'))", "rendu de la fiche depuis Préparer");
+  assert.equal(await page.evaluate("document.querySelector('.biography-page__inner > .app-text-link')?.textContent.trim()"), "Retour à la préparation de la partie", "libellé de retour Préparer");
+  assert.equal(await page.evaluate("Boolean(document.querySelector('.public-nav'))"), false, "fiche depuis Jouer Éléa : menu absent");
+  await page.evaluate("history.back()");
+  await page.waitFor("location.hash === '#/jouer' && Boolean(document.querySelector('.game-preparation__selected-character'))", "Préparer ← fiche avec Précédent");
+  assert.deepEqual((await sessionState()).preparation, preparationBefore.preparation, "préparation identique après Précédent");
+  await page.evaluate("history.forward()");
+  await page.waitFor("location.hash.endsWith('?from=game-preparation')", "Préparer → fiche avec Suivant");
+  await page.mouseClick(".biography-page__inner > .app-text-link");
+  await page.waitFor("location.hash === '#/jouer' && Boolean(document.querySelector('.game-preparation__selected-character'))", "retour explicite à Préparer");
+  assert.deepEqual((await sessionState()).preparation, preparationBefore.preparation, "mode et personnage conservés au retour explicite");
+
+  await page.focusAndActivate(".game-preparation__action button", "Enter");
+  await page.waitFor("Boolean(document.querySelector('.situation-card'))", "partie contextuelle créée");
+  assert.equal(await page.evaluate("Boolean(document.querySelector('.public-nav'))"), false, "partie Éléa : menu absent");
+  const untouchedGame = (await sessionState()).active;
+  await page.focusAndActivate(".game-active-actions button", "Enter");
+  await page.waitFor("Boolean(document.querySelector('.game-preparation'))", "abandon immédiat avant réponse");
+  assert.equal(await page.evaluate("Boolean(document.querySelector('[role=dialog]'))"), false, "aucun dialogue avant la première réponse");
+  assert.equal((await sessionState()).active, undefined, "partie vierge supprimée");
+  assert.deepEqual((await sessionState()).preparation, { modeId: untouchedGame.selectedModeId, characterId: untouchedGame.selectedCharacterId }, "choix conservés après abandon vierge");
+
+  await page.focusAndActivate(".game-preparation__action button", "Enter");
+  await page.focusAndActivate(".game-decision-options button:first-child", "Enter");
+  await page.waitFor("Boolean(document.querySelector('.game-feedback'))", "une réponse jouée");
+  const activeBeforeBiography = (await sessionState()).active;
+  for (const [width, scale] of [[390, 1], [1280, 2], [1280, 4]]) {
+    await page.viewport(width, 900);
+    await page.call("Emulation.setPageScaleFactor", { pageScaleFactor: scale });
+    const comparisonReflow = await page.evaluate(`(() => { const pieces = [...document.querySelector('.interpretation-status').children].map((element) => element.getBoundingClientRect()); return { overflow: document.documentElement.scrollWidth > document.documentElement.clientWidth + 1, overlap: pieces.some((rect, index) => index > 0 && rect.top < pieces[index - 1].bottom - 1 && rect.left < pieces[index - 1].right - 1) }; })()`);
+    assert.equal(comparisonReflow.overflow, false, `aucun débordement du feedback à ${width}px / ${scale * 100} %`);
+    assert.equal(comparisonReflow.overlap, false, `éléments du feedback non concaténés à ${width}px / ${scale * 100} %`);
+  }
+  await page.viewport(1280, 900);
+  await page.call("Emulation.setPageScaleFactor", { pageScaleFactor: 1 });
+  await page.focusAndActivate(".selected-character-link", "Enter");
+  await page.waitFor("location.hash.endsWith('?from=game')", "fiche depuis la partie");
+  await page.waitFor("Boolean(document.querySelector('.biography-page__inner > .app-text-link'))", "rendu de la fiche depuis la partie");
+  assert.equal(await page.evaluate("document.querySelector('.biography-page__inner > .app-text-link')?.textContent.trim()"), "Retour à la partie", "retour explicite à la partie");
+  await page.evaluate("history.back()");
+  await page.waitFor("location.hash === '#/jouer' && Boolean(document.querySelector('.game-feedback'))", "partie ← fiche avec Précédent");
+  assert.deepEqual((await sessionState()).active, activeBeforeBiography, "tirage, ordre, index, réponses et positions identiques après Précédent");
+  await page.evaluate("history.forward()");
+  await page.waitFor("location.hash.endsWith('?from=game')", "partie → fiche avec Suivant");
+  await page.waitFor("document.querySelector('.biography-page__inner > .app-text-link')?.textContent.trim() === 'Retour à la partie'", "fiche restaurée avec Suivant");
+  assert.equal(await page.evaluate("document.querySelector('.biography-page__inner > .app-text-link')?.getAttribute('href')"), "#/jouer", "destination explicite de retour à la partie");
+  await page.mouseClick(".biography-page__inner > .app-text-link");
+  await page.waitFor("location.hash === '#/jouer'", "destination du retour explicite à la partie");
+  await page.waitFor("Boolean(document.querySelector('.game-feedback'))", `retour explicite à la partie (${JSON.stringify(await page.evaluate("({ h1: document.querySelector('h1')?.textContent.trim(), main: document.querySelector('main')?.className })"))})`);
+  assert.deepEqual((await sessionState()).active, activeBeforeBiography, "partie strictement identique après retour explicite");
+
+  await page.focusAndActivate(".game-active-actions button", "Enter");
+  assert.equal(await page.evaluate("document.querySelector('[role=dialog] h2')?.textContent.trim()"), "Quitter cette partie ?", "confirmation après une réponse");
+  assert.equal(await page.evaluate("document.activeElement?.textContent.trim()"), "Continuer la partie", "focus initial sur la poursuite");
+  await page.viewport(360, 800);
+  const mobileDialog = await page.evaluate(`(() => { const rect = document.querySelector('.game-dialog').getBoundingClientRect(); return { overflow: document.documentElement.scrollWidth > document.documentElement.clientWidth + 1, left: rect.left, right: rect.right, viewport: innerWidth }; })()`);
+  assert.equal(mobileDialog.overflow, false, "dialogue Quitter sans débordement mobile");
+  assert.ok(mobileDialog.left >= 0 && mobileDialog.right <= mobileDialog.viewport + 1, "dialogue Quitter contenu dans le viewport mobile");
+  await page.viewport(1280, 900);
+  await page.key("Tab");
+  assert.equal(await page.evaluate("document.activeElement?.textContent.trim()"), "Quitter la partie", "tabulation vers la confirmation");
+  await page.key("Tab");
+  assert.equal(await page.evaluate("document.activeElement?.textContent.trim()"), "Continuer la partie", "focus piégé dans le dialogue");
+  await page.key("Escape");
+  assert.equal(await page.evaluate("Boolean(document.querySelector('[role=dialog]'))"), false, "dialogue fermé avec Échap");
+  assert.equal(await page.evaluate("document.activeElement === document.querySelector('.game-active-actions button')"), true, "focus rendu au bouton Quitter");
+  assert.deepEqual((await sessionState()).active, activeBeforeBiography, "aucun état perdu après annulation");
+  await page.focusAndActivate(".game-active-actions button", "Enter");
+  await page.focusAndActivate(".game-dialog__cancel", "Enter");
+  assert.equal(await page.evaluate("document.activeElement === document.querySelector('.game-active-actions button')"), true, "action Continuer rend le focus au jeu");
+  assert.deepEqual((await sessionState()).active, activeBeforeBiography, "action Continuer conserve la partie");
+  await page.focusAndActivate(".game-active-actions button", "Enter");
+  await page.focusAndActivate(".game-dialog__actions button:last-child", "Enter");
+  await page.waitFor("Boolean(document.querySelector('.game-preparation'))", "abandon confirmé vers Préparer");
+  assert.equal((await sessionState()).active, undefined, "partie supprimée après confirmation");
+  assert.deepEqual((await sessionState()).preparation, preparationBefore.preparation, "choix conservés après abandon confirmé");
+
+  await page.navigate(urlFor(baseUrl, "#/personnages/p01?from=game", "?context=elea"));
+  await page.focusAndActivate(".biography-page__inner > .app-text-link", "Enter");
+  await page.waitFor("Boolean(document.querySelector('.game-preparation'))", "URL directe sans partie revient sûrement à Préparer");
+  assert.equal((await sessionState()).active, undefined, "URL directe ne fabrique aucune partie");
+
+  await page.viewport(1280, 900);
+}
+
 async function deepLinksAndElea(page, baseUrl) {
   const normalizations = [
     ["#/personnages/P01", "#/personnages/p01"],
@@ -878,7 +1163,7 @@ async function deepLinksAndElea(page, baseUrl) {
   await page.navigate(urlFor(baseUrl, "#/inconnue"));
   await pageAudit(page, "route inconnue", { expectedH1: "Page introuvable" });
 
-  for (const hash of ["#/personnages", "#/jouer", "#/situations/X01", "#/situations/X13", "#/reperes"]) {
+  for (const hash of ["#/", "#/personnages", "#/jouer", "#/situations/X01", "#/situations/X13", "#/reperes"]) {
     await page.navigate(urlFor(baseUrl, hash, "?context=elea"));
     assert.equal(await page.evaluate("Boolean(document.querySelector('.public-nav'))"), false, `${hash} Éléa : navigation allégée`);
     assert.equal(await page.evaluate("document.querySelector('.public-footer')?.textContent.trim()"), "Parcours LGBTI+", `${hash} Éléa : footer allégé`);
@@ -900,6 +1185,9 @@ async function focusVisibilityAudit(page, baseUrl) {
     ["#/situations/V03", ".public-situation-tabs button"],
     ["#/situations/V03", ".public-disclosure-heading button"],
     ["#/reperes", ".reference-accordion > h2 button"],
+    ["#/personnages/mots-et-parcours", ".journey-word-card"],
+    ["#/mots-utiles/mu-ori?from=parcours", ".context-return"],
+    ["#/mots-utiles/mu-ori?from=parcours", ".reference-detail > p:last-child a"],
     ["#/personnages/quiz", ".quiz-page button"],
   ];
   for (const [hash, selector] of cases) {
@@ -919,8 +1207,9 @@ async function sourceRecipe(page, baseUrl) {
   if (process.env.RECIPE_SECTION === "accordions" || process.env.RECIPE_SECTION === "tabs") { await biographyTabsAudit(page, baseUrl); return { section: "tabs" }; }
   if (process.env.RECIPE_SECTION === "situations") { await situationsUiAudit(page, baseUrl); return { section: "situations" }; }
   if (process.env.RECIPE_SECTION === "reperes") { await reperesAudit(page, baseUrl); return { section: "reperes" }; }
+  if (process.env.RECIPE_SECTION === "words") { await journeyWordsAudit(page, baseUrl); await filtersHistoryAndContextLinksAudit(page, baseUrl); return { section: "words" }; }
   if (process.env.RECIPE_SECTION === "quizzes") { await characterQuizAudit(page, baseUrl); await situationQuizAudit(page, baseUrl); return { section: "quizzes" }; }
-  if (process.env.RECIPE_SECTION === "game") { await gameAudit(page, baseUrl); return { section: "game" }; }
+  if (process.env.RECIPE_SECTION === "game") { await gameAudit(page, baseUrl); await gameNavigationAndEleaAudit(page, baseUrl); return { section: "game" }; }
   const routeCount = await exhaustiveRoutes(page, baseUrl);
   console.log(`Routes publiques contrôlées : ${routeCount}`);
   await navigationAndKeyboard(page, baseUrl);
@@ -932,6 +1221,8 @@ async function sourceRecipe(page, baseUrl) {
   const contrast = await contrastAndTargetsAudit(page, baseUrl);
   console.log(`Contraste minimal échantillonné : ${contrast.minimumRatio.toFixed(2)}:1`);
   await focusVisibilityAudit(page, baseUrl);
+  await journeyWordsAudit(page, baseUrl);
+  console.log("Mots et parcours, fiches et index Mots utiles contrôlés");
   await biographyTabsAudit(page, baseUrl);
   console.log("Clavier, focus et onglets Personnages contrôlés");
   await situationsUiAudit(page, baseUrl);
@@ -942,10 +1233,11 @@ async function sourceRecipe(page, baseUrl) {
   await situationQuizAudit(page, baseUrl);
   console.log("Quiz Personnages et Situations contrôlés");
   await gameAudit(page, baseUrl);
+  await gameNavigationAndEleaAudit(page, baseUrl);
   console.log("Partie Jouer complète contrôlée");
   await deepLinksAndElea(page, baseUrl);
   await filtersHistoryAndContextLinksAudit(page, baseUrl);
-  for (const hash of ["#/", "#/personnages/p01", "#/situations/X13", "#/personnages/quiz", "#/situations/quiz"]) {
+  for (const hash of ["#/", "#/personnages/mots-et-parcours", "#/personnages/p01", "#/situations/X13", "#/personnages/quiz", "#/situations/quiz"]) {
     await page.navigate(urlFor(baseUrl, hash));
     await axAudit(page, hash);
   }
