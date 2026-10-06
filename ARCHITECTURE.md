@@ -24,7 +24,7 @@ Le parcours **LGBTI+** est actuellement le seul parcours actif.
 
 ## Routage et hébergement
 
-Le routage public repose principalement sur des routes en hash afin de rester compatible avec un hébergement statique.
+Le routage public repose principalement sur des routes en hash afin de rester compatible avec un hébergement statique. Vite utilise `base: "./"` : les assets restent relatifs et le même build peut être servi depuis GitHub Pages sous `/mosaique/`, depuis un domaine Pages Forge unique à la racine ou depuis une URL Forge avec sous-chemin.
 
 Le paramètre `?context=elea` active une présentation adaptée à l’intégration Éléa.
 
@@ -70,4 +70,4 @@ Deux pipelines sont présents pendant la transition :
 - GitHub Pages pour la publication actuelle ;
 - GitLab Pages pour préparer la Forge des communs numériques éducatifs.
 
-La configuration GitLab Pages devra être validée avec l’URL réelle du projet après import sur la Forge.
+La configuration GitLab Pages utilise le mot-clé actuel `pages.publish: dist`. Après import, l’URL réelle du projet devra encore être vérifiée, mais le build n’est plus dépendant d’un préfixe `/mosaique/` codé en dur.
