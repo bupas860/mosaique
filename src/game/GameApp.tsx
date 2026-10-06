@@ -35,11 +35,9 @@ export default function GameApp() {
   useEffect(() => {
     if (previousScreen.current === screen) return;
     previousScreen.current = screen;
-    requestAnimationFrame(() => {
-      const title = document.querySelector<HTMLElement>("main h1") ?? document.querySelector<HTMLElement>(".situation-card h2");
-      title?.setAttribute("tabindex", "-1");
-      title?.focus({ preventScroll: true });
-    });
+    const title = document.querySelector<HTMLElement>("main h1") ?? document.querySelector<HTMLElement>(".situation-card h2");
+    title?.setAttribute("tabindex", "-1");
+    title?.focus({ preventScroll: true });
   }, [screen]);
 
   function selectMode(modeId: GameModeId) {
