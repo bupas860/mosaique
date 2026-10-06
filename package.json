@@ -40,9 +40,10 @@
     "check:public-addressing": "node scripts/check-public-addressing.mjs",
     "check:elea-context": "node scripts/check-elea-context.mjs",
     "dev": "vite",
-    "build": "npm run understand:validate && npm run understand:import && npm run understand:check-public && npm run understand:check-ui && npm run biographies:validate && npm run biographies:import && npm run biographies:check-public && tsc -b && vite build && npm run understand:check-dist && npm run biographies:check-dist",
+    "build": "npm run check:parcours-contract && npm run understand:validate && npm run understand:import && npm run understand:check-public && npm run understand:check-ui && npm run biographies:validate && npm run biographies:import && npm run biographies:check-public && tsc -b && vite build && npm run understand:check-dist && npm run biographies:check-dist",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "check:parcours-contract": "node scripts/check-parcours-contract.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.2",
