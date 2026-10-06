@@ -60,5 +60,19 @@
     "typescript": "~6.0.2",
     "vite": "^8.1.1"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "description": "Application pédagogique interactive de marche des privilèges, avec un premier parcours LGBTI+ et une architecture multi-parcours.",
+  "author": "Pascal Busac",
+  "keywords": [
+    "education",
+    "pedagogy",
+    "lgbti",
+    "discrimination",
+    "privilege-walk",
+    "accessibility",
+    "elea",
+    "react",
+    "typescript",
+    "open-educational-resources"
+  ]
 }
