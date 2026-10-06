@@ -399,6 +399,7 @@ async function journeyWordsAudit(page, baseUrl) {
     await page.key("Enter");
     const target = `#/mots-utiles/${word.routeSegment}?from=parcours`;
     await page.waitFor(`location.hash === ${JSON.stringify(target)} && document.querySelector(".reference-detail h1")?.textContent.trim() === ${JSON.stringify(word.label)}`, `${word.label} : ouverture de la fiche`);
+    await page.call("Input.dispatchMouseEvent", { type: "mouseMoved", x: 0, y: 0 });
     const detail = await page.evaluate(`(() => {
       const sections = [...document.querySelectorAll(".reference-detail > section")].map((section) => ({
         heading: section.querySelector("h2")?.textContent.trim(),
