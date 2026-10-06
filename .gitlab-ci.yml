@@ -1,20 +1,18 @@
-# Préparation GitLab Pages pour la Forge des communs numériques éducatifs.
+# GitLab Pages — Forge des communs numériques éducatifs.
 #
-# Ce pipeline reprend le build de production déjà utilisé par GitHub Pages.
-# Il suppose pour l'instant un projet publié sous le chemin /mosaique/,
-# cohérent avec vite.config.ts. Ce chemin devra être vérifié après l'import
-# effectif sur la Forge avant toute bascule du site public.
+# Le build Vite produit dist/. Le mot-clé pages.publish est la syntaxe
+# GitLab Pages actuelle et évite de renommer le dossier public/ source.
+# Les chemins d'assets sont relatifs (vite.config.ts), ce qui permet au
+# même build de fonctionner avec un domaine Pages unique ou une URL à sous-chemin.
 
-pages:
+deploy-pages:
   stage: deploy
   image: node:22-alpine
   script:
     - npm ci
     - npm run build
-    - rm -rf public
-    - mv dist public
-  artifacts:
-    paths:
-      - public
+    - npm audit --audit-level=high
+  pages:
+    publish: dist
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
