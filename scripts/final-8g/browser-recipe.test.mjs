@@ -1251,6 +1251,9 @@ async function sourceRecipe(page, baseUrl) {
 }
 
 async function distRecipe(page, baseUrl) {
+  const distIndex = readFileSync(join(ROOT, "dist/index.html"), "utf8");
+  assert.ok(/(?:src|href)="\.\/(?:assets\/|favicon\.svg)/.test(distIndex), "dist : assets publiés avec des chemins relatifs");
+  assert.equal(/(?:src|href)="\/mosaique\//.test(distIndex), false, "dist : aucun préfixe /mosaique/ codé en dur");
   for (const [hash, h1] of [["#/", "La marche des privilèges"], ["#/jouer", "Préparer votre partie"], ["#/personnages/p01", "Noé"], ["#/situations/X01", "La chambre accessible"], ["#/reperes", "Repères"], ["#/reperes/r1", "Repères"], ["#/reperes/r3", "Repères"], ["#/mots-utiles/mu-ori", "Orientation sexuelle"]]) {
     await page.navigate(urlFor(baseUrl, hash));
     await pageAudit(page, `dist ${hash}`, { expectedH1: h1 });
@@ -1260,7 +1263,7 @@ async function distRecipe(page, baseUrl) {
   await page.navigate(urlFor(baseUrl, "#/reperes", "?context=elea"));
   assert.equal(await page.evaluate("Boolean(document.querySelector('.public-nav'))"), false, "dist Repères Éléa");
   const resources = await page.evaluate("performance.getEntriesByType('resource').map((entry) => entry.name)");
-  assert.ok(resources.every((resource) => resource.startsWith(baseUrl) || resource.startsWith("blob:")), "assets sous /mosaique/");
+  assert.ok(resources.every((resource) => resource.startsWith(baseUrl) || resource.startsWith("blob:")), "assets servis depuis la base courante");
   assert.ok(resources.every((resource) => !resource.includes("/home/")), "aucun chemin local dans les ressources");
   return { smokeRoutes: 9, resources: resources.length };
 }
@@ -1274,7 +1277,7 @@ let page;
 try {
   if (!DIST_MODE) await server.listen();
   const baseUrl = server.resolvedUrls.local[0];
-  assert.equal(new URL(baseUrl).pathname, "/mosaique/", "base de production /mosaique/");
+  assert.ok(new URL(baseUrl).pathname.endsWith("/"), "base locale de recette valide");
   browser = await launchChrome();
   const target = await (await fetch(`http://127.0.0.1:${browser.port}/json/new?${encodeURIComponent(baseUrl)}`, { method: "PUT" })).json();
   page = await CdpPage.open(target.webSocketDebuggerUrl);
