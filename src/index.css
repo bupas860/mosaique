@@ -128,6 +128,8 @@ body {
 .public-shell textarea:focus-visible,
 .public-shell summary:focus-visible { outline: 3px solid var(--ds-focus); outline-offset: 3px; box-shadow: 0 0 0 3px var(--ds-focus); }
 .public-footer { border-top: 1px solid var(--ds-border); padding: 1.25rem var(--ds-page-padding); background: #fff; text-align: center; }
+.public-footer__inner { display: grid; gap: 0.4rem; justify-items: center; }
+.public-footer__inner p { margin: 0; line-height: 1.55; }
 .public-footer a { color: var(--color-brand-700); font-weight: 750; }
 .public-home,
 .structural-page { width: min(100%, var(--ds-content-width)); margin: 0 auto; padding: clamp(2rem, 6vw, 5rem) var(--ds-page-padding); }
