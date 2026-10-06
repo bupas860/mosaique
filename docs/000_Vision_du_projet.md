@@ -1,12 +1,12 @@
 # Mosaïque
 
-## La Marge des privilèges
+## La marche des privilèges
 
 # Vision du projet
 
 > **Mosaïque est un projet de jeux sérieux consacré à la compréhension des mécanismes sociaux qui influencent les parcours de vie.**
 >
-> Son premier jeu, **La Marge des privilèges**, est un jeu narratif de comparaison des vécus. En plaçant le joueur dans la peau de personnages différents confrontés à des situations communes, il met en lumière la manière dont les mécanismes sociaux influencent les expériences du quotidien.
+> Son premier jeu, **La marche des privilèges**, est un jeu narratif de comparaison des vécus. En plaçant le joueur dans la peau de personnages différents confrontés à des situations communes, il met en lumière la manière dont les mécanismes sociaux influencent les expériences du quotidien.
 
 ---
 
@@ -14,7 +14,7 @@
 
 Les discriminations sont souvent abordées à travers des statistiques, des définitions ou des témoignages isolés. Si ces approches sont essentielles, elles ne permettent pas toujours de comprendre comment les mécanismes sociaux influencent concrètement la vie quotidienne.
 
-La Marge des privilèges propose une approche différente.
+La marche des privilèges propose une approche différente.
 
 Le jeu invite le joueur à vivre des situations ordinaires à travers le regard de personnages différents. Une même scène peut être vécue comme anodine par une personne et devenir une source d'inquiétude, d'exclusion ou au contraire de soutien pour une autre.
 
@@ -26,7 +26,7 @@ Le jeu cherche ainsi à développer l'empathie, favoriser la réflexion et ouvri
 
 # Une inspiration, pas une reproduction
 
-La Marge des privilèges s'inspire de l'exercice pédagogique connu sous le nom de « marche des privilèges ».
+La marche des privilèges s'inspire de l'exercice pédagogique connu sous le nom de « marche des privilèges ».
 
 Cependant, il ne s'agit pas d'une adaptation numérique de cet exercice.
 
@@ -151,7 +151,7 @@ Comprendre les discriminations implique également de comprendre ce qui protège
 
 # Ce que le jeu n'est pas
 
-La Marge des privilèges n'a pas pour objectif :
+La marche des privilèges n'a pas pour objectif :
 
 - de culpabiliser les personnes privilégiées ;
 - de distribuer des bons ou des mauvais points ;
@@ -236,7 +236,7 @@ Le projet est pensé comme une œuvre évolutive, destinée à grandir grâce au
 
 # Notre ambition
 
-La Marge des privilèges ne cherche pas à dire aux joueurs ce qu'ils doivent penser.
+La marche des privilèges ne cherche pas à dire aux joueurs ce qu'ils doivent penser.
 
 Elle leur propose de regarder le monde à travers les yeux d'autres personnes.
 
@@ -250,7 +250,7 @@ C'est cette ambition qui guide l'ensemble du projet Mosaïque.
 
 ## Le Miroir des représentations
 
-Le principal levier pédagogique de *La Marge des privilèges* est le **Miroir des représentations**.
+Le principal levier pédagogique de *La marche des privilèges* est le **Miroir des représentations**.
 
 Au cours d'une partie, le joueur découvre une série de situations vécues par un personnage.
 
@@ -270,4 +270,4 @@ L'objectif n'est pas d'évaluer le joueur.
 
 L'objectif est de faire évoluer sa compréhension du vécu d'autrui.
 
-Le Miroir des représentations constitue ainsi le cœur de l'expérience pédagogique de *La Marge des privilèges*.
+Le Miroir des représentations constitue ainsi le cœur de l'expérience pédagogique de *La marche des privilèges*.
