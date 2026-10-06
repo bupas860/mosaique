@@ -26,10 +26,10 @@ Chaque parcours possède un manifeste avec :
 - `publicLabel` : libellé court affichable ;
 - `title` : intitulé développé ;
 - `description` : description pédagogique ;
-- `status` : `draft`, `playable`, `active` ou `archived` ;
+- `status` : `planned`, `draft`, `playable`, `active` ou `archived` ;
 - `scope` : thèmes principaux et axes intersectionnels assumés.
 
-Un parcours ne doit pas être présenté comme disponible lorsque son statut n’est pas `active`.
+Un parcours ne doit pas être présenté comme disponible lorsque son statut n’est pas `active`. Le statut `planned` réserve une place dans l’architecture sans annoncer qu’un corpus existe déjà.
 
 ## 2. Identifiants et espace de noms
 
@@ -156,6 +156,10 @@ Les exigences minimales sont :
 Les masters lourds peuvent rester hors du bundle public et, à terme, être placés sous Git LFS si l’infrastructure Forge retenue le permet.
 
 ## 9. Niveaux de maturité
+
+### planned
+
+Le parcours est envisagé et réservé dans l’architecture, mais aucun corpus jouable n’est exigé.
 
 ### draft
 
