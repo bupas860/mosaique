@@ -295,6 +295,10 @@ async function exhaustiveRoutes(page, baseUrl) {
   ];
   for (const [hash, expectedH1, expectedAlt] of routes) {
     await page.navigate(urlFor(baseUrl, hash));
+    await page.waitFor(
+      `document.querySelector("h1")?.textContent.trim() === ${JSON.stringify(expectedH1)}`,
+      `${hash} : titre principal chargé`,
+    );
     await pageAudit(page, hash, { expectedH1, expectedAlt });
   }
   return routes.length;
