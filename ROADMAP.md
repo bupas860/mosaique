@@ -18,7 +18,7 @@ Cette feuille de route décrit les grandes étapes publiques du projet. Elle ne 
 ## Préparation Forge
 
 - [ ] importer le dépôt et son historique sur la Forge des communs numériques éducatifs ;
-- [ ] vérifier l’URL GitLab Pages réelle et le `base` Vite ;
+- [ ] vérifier l’URL GitLab Pages réelle après le premier déploiement ;
 - [ ] rejouer le build, la recette Chrome et les liens Éléa depuis la Forge ;
 - [ ] renseigner les métadonnées du projet sur la Forge ;
 - [ ] décider du rôle futur de GitHub : miroir, archive ou dépôt secondaire ;
