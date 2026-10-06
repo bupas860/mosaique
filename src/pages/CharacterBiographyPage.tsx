@@ -34,7 +34,7 @@ export default function CharacterBiographyPage({ biography, context }: Props) {
     const normalizedIndex = (index + groups.length) % groups.length;
     setActiveGroupId(groups[normalizedIndex].id);
     setOpenSectionNumber(groups[normalizedIndex].sections[0]);
-    requestAnimationFrame(() => tabRefs.current[normalizedIndex]?.focus({ preventScroll: true }));
+    tabRefs.current[normalizedIndex]?.focus({ preventScroll: true });
   }
 
   function selectTab(index: number) {
