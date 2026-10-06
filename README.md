@@ -1,27 +1,46 @@
 # Mosaïque — La marche des privilèges
 
-**Mosaïque** est un projet pédagogique consacré à la compréhension des mécanismes sociaux qui influencent les parcours de vie.
+**Mosaïque** est une application pédagogique interactive pour explorer la manière dont des situations ordinaires peuvent réduire ou élargir la marge de manœuvre de personnages fictifs.
 
-Son expérience principale, **La marche des privilèges**, propose d’incarner différents personnages confrontés à des situations ordinaires. Le but n’est pas de classer les personnes ni les souffrances, mais de rendre visibles des obstacles, des normes, des protections et des effets parfois difficiles à percevoir.
+L’activité principale, **La marche des privilèges**, ne cherche ni à classer les personnes ni à hiérarchiser les discriminations. Elle met en discussion des obstacles, des normes, des protections et des effets parfois difficiles à percevoir.
 
-## État actuel
+**Parcours actuellement disponible : LGBTI+.**
 
-L’application comprend actuellement :
+[Essayer la version actuellement publiée](https://bupas860.github.io/mosaique/)
 
-- 5 modes jouables : **Découverte**, **Obstacles visibles**, **Normes ordinaires**, **Effets invisibles** et **Intersectionnalités** ;
-- 17 personnages jouables : 9 personnages généraux et 8 personnages intersectionnels ;
+> La publication GitHub Pages reste la version publique actuelle pendant la préparation de la migration vers la Forge des communs numériques éducatifs.
+
+## Ce que propose la version actuelle
+
+- 5 modes : **Découverte**, **Obstacles visibles**, **Normes ordinaires**, **Effets invisibles** et **Intersectionnalités** ;
+- 17 personnages jouables ;
 - 61 situations éditoriales ;
 - des parties de 10 situations uniques ;
-- des espaces publics consacrés aux personnages, aux situations, aux repères, aux mots utiles et aux quiz ;
-- un contexte d’intégration Éléa pris en charge par le paramètre `?context=elea`.
+- des espaces publics consacrés aux personnages, situations, Repères, Mots utiles et quiz ;
+- un contexte d’intégration Éléa via `?context=elea` ;
+- une interface testée au clavier, sur plusieurs largeurs d’écran et à fort niveau de zoom.
 
-Le projet est conçu pour des usages pédagogiques en autonomie, en classe, en formation ou en accompagnement collectif.
+Le parcours LGBTI+ porte principalement sur les LGBTI-phobies, les orientations, les identités et expressions de genre, tout en intégrant leurs intersections avec d’autres rapports sociaux lorsque cela est pertinent.
 
-### Parcours thématique actuel
+## Une architecture destinée à plusieurs parcours
 
-La version actuelle correspond au **parcours LGBTI+**. Ses situations sont centrées sur les LGBTI-phobies, les orientations, les identités et expressions de genre, ainsi que sur leurs intersections avec d’autres rapports sociaux.
+**Mosaïque** désigne le projet et la plateforme.  
+**La marche des privilèges** désigne le dispositif pédagogique.  
+Un **parcours thématique** fournit ensuite son propre corpus de personnages, situations, Repères, vocabulaire et quiz.
 
-Mosaïque est conçu pour pouvoir accueillir d’autres parcours thématiques sans dupliquer le moteur de jeu, notamment autour du handicap et du validisme, de l’égalité filles-garçons et du sexisme, ou du racisme.
+Le parcours LGBTI+ est le premier parcours actif. L’architecture réserve déjà la possibilité d’accueillir ultérieurement d’autres parcours, par exemple :
+
+- handicap et validisme ;
+- égalité filles-garçons et sexisme ;
+- racisme.
+
+Ces parcours futurs sont seulement planifiés : aucun contenu n’est annoncé comme disponible tant qu’il n’a pas été produit, vérifié et activé.
+
+Voir :
+
+- [Architecture des parcours thématiques](docs/ARCHITECTURE_PARCOURS.md)
+- [Contrat de données d’un parcours](docs/CONTRAT_DONNEES_PARCOURS.md)
+- [Vision pédagogique](docs/000_Vision_du_projet.md)
 
 ## Principes pédagogiques
 
@@ -29,80 +48,101 @@ Mosaïque cherche notamment à :
 
 - partir de situations concrètes plutôt que d’identités abstraites ;
 - montrer qu’une même situation peut être vécue différemment selon les parcours ;
-- éviter les personnages réduits à une seule caractéristique ;
-- prendre en compte plusieurs mécanismes sociaux et leur articulation ;
-- montrer aussi les ressources, les soutiens et les protections ;
-- proposer des lectures argumentées plutôt qu’une vérité unique sur les personnes.
+- éviter de réduire un personnage à une seule caractéristique ;
+- faire apparaître l’articulation de plusieurs mécanismes sociaux ;
+- rendre visibles les ressources, soutiens et protections autant que les obstacles ;
+- proposer des lectures argumentées plutôt qu’une vérité unique sur les personnes ;
+- permettre un débrief pédagogique après l’activité.
 
-La vision détaillée du projet se trouve dans [`docs/000_Vision_du_projet.md`](docs/000_Vision_du_projet.md).
+Le [guide éditorial](docs/007_Guide_editorial.md) précise les principes de rédaction et de représentation.
 
-## Architecture multi-parcours
+## Vie privée et fonctionnement
 
-Mosaïque distingue le projet, l’activité **La marche des privilèges**, le **parcours thématique** et les **modes de jeu**. Cette séparation permet de faire évoluer les corpus sans transformer les cinq modes actuels en catégories de discriminations.
+Mosaïque est une application web statique :
 
-Voir [`docs/ARCHITECTURE_PARCOURS.md`](docs/ARCHITECTURE_PARCOURS.md) et [`docs/CONTRAT_DONNEES_PARCOURS.md`](docs/CONTRAT_DONNEES_PARCOURS.md).
+- aucun compte utilisateur n’est demandé ;
+- aucun serveur applicatif ou base de données distante n’est nécessaire au fonctionnement du jeu ;
+- aucun outil de mesure d’audience ou traceur publicitaire n’est intégré ;
+- l’état temporaire d’une partie et certains états de navigation utilisent uniquement `sessionStorage` dans le navigateur ;
+- les liens vers des sources externes ne sont ouverts qu’à l’initiative de l’utilisateur.
+
+Cette architecture limite fortement la collecte de données. Elle ne dispense pas de refaire une revue RGPD si de futures fonctions ajoutent des comptes, des statistiques ou un stockage distant.
+
+## Accessibilité et qualité
+
+Le dépôt contient une recette navigateur automatisée qui contrôle notamment :
+
+- navigation clavier et gestion du focus ;
+- structure des titres et noms accessibles des contrôles ;
+- responsive design ;
+- zooms 200 % et 400 % ;
+- contrastes ;
+- galeries, fiches, quiz et partie complète ;
+- contexte Éléa ;
+- version construite pour publication.
+
+La recette complète est conçue pour être exécutée avec Chrome/Chromium headless.
 
 ## Technologies
 
-Le projet utilise notamment :
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- Node.js 22 pour le build et l’intégration continue
 
-- React 19 ;
-- TypeScript ;
-- Vite ;
-- Tailwind CSS ;
-- Node.js 22 pour le build et l’intégration continue.
-
-Le routage public repose principalement sur des routes en hash, ce qui permet un hébergement statique.
+Le routage public utilise principalement des routes en hash afin de rester compatible avec un hébergement statique.
 
 ## Installation locale
 
-Prérequis : Node.js 22 et npm.
+Prérequis : **Node.js 22** et npm.
 
 ```bash
 npm ci
 npm run dev
 ```
 
-Pour construire la version de production :
+Build de production :
 
 ```bash
 npm run build
 ```
 
-Pour contrôler le code :
+Contrôles principaux :
 
 ```bash
 npm run lint
+npm run check:parcours-contract
 npm run check:data-boundaries
 npm run check:bundle-boundaries
 npm run check:ui-contracts
 npm run check:public-navigation
 npm run check:elea-context
+npm run test:final-8g
+npm run test:final-8g:dist
 ```
 
-Certains contrôles éditoriaux complets nécessitent un corpus source externe non inclus dans ce dépôt. Voir [`docs/DEVELOPPEMENT.md`](docs/DEVELOPPEMENT.md).
+Certains contrôles éditoriaux complets nécessitent un corpus source externe non inclus dans le dépôt. Voir [`docs/DEVELOPPEMENT.md`](docs/DEVELOPPEMENT.md).
 
 ## Données éditoriales
 
-Les données utilisées par l’application sont séparées du moteur et du code d’interface.
+Les données utilisées par l’application sont séparées autant que possible du moteur et du code d’interface.
 
-Une partie des données est générée à partir de sources éditoriales de travail, puis versionnée sous forme d’artefacts publics contrôlés. Les scripts de génération et de validation sont conservés dans `scripts/`.
+Le parcours LGBTI+ possède un manifeste machine contrôlé automatiquement au build :
 
-La documentation technique des données V2 se trouve dans [`src/data/v2/README.md`](src/data/v2/README.md).
+[`src/data/parcours/lgbti.manifest.json`](src/data/parcours/lgbti.manifest.json)
+
+Une partie des données est générée à partir de sources éditoriales de travail, puis versionnée sous forme d’artefacts publics contrôlés. Les scripts de génération et de validation se trouvent dans `scripts/`.
+
+Voir également [`src/data/v2/README.md`](src/data/v2/README.md).
 
 ## Transparence sur l’usage de l’IA
 
 Des outils d’IA générative ont été utilisés comme assistance pour certaines illustrations, pour la préparation ou la révision de contenus pédagogiques et éditoriaux, ainsi que pour une partie du développement et de la revue du code.
 
-Les choix pédagogiques, la sélection des contenus, les validations, les tests et la responsabilité éditoriale restent humains. Le projet adopte une mention centrale de transparence plutôt qu’un marquage répétitif de chaque fichier.
+Les choix pédagogiques, la sélection des contenus, les validations, les tests et la responsabilité éditoriale restent humains.
 
-Voir [`NOTICE-AI.md`](NOTICE-AI.md) pour la politique de provenance et de transparence.
-
-## Déploiement
-
-Le déploiement actuel est réalisé sur GitHub Pages depuis la branche `main`, via [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
-
-La branche `prep-forge` prépare une migration vers la **Forge des communs numériques éducatifs**. Tant que cette migration n’est pas validée, `main` et le déploiement GitHub Pages restent inchangés.
+Le projet adopte une **mention centrale de transparence** plutôt qu’un marquage répétitif de chaque fichier. Voir [`NOTICE-AI.md`](NOTICE-AI.md).
 
 ## Licences
 
@@ -111,15 +151,29 @@ Copyright © 2026 Pascal Busac. Voir [`LICENSE`](LICENSE).
 
 **Contenus pédagogiques, données éditoriales et illustrations : CC BY 4.0**, dans la mesure des droits effectivement détenus. Voir [`LICENSE-CONTENT.md`](LICENSE-CONTENT.md).
 
-Cette séparation permet de garder le logiciel sous une licence libre à réciprocité tout en utilisant une licence adaptée aux ressources éducatives.
+Les dépendances tierces conservent leurs propres licences.
 
-## Documentation utile
+## Contribuer
 
+Les retours pédagogiques, signalements de bugs et propositions d’amélioration sont bienvenus.
+
+Avant une contribution de code, voir [`CONTRIBUTING.md`](CONTRIBUTING.md). L’architecture multi-parcours doit être respectée : un nouveau thème de discrimination doit être ajouté comme parcours de données plutôt que par duplication du moteur.
+
+## Déploiement
+
+Le déploiement public actuel utilise GitHub Pages depuis `main`.
+
+La branche `prep-forge` prépare l’import sur la **Forge des communs numériques éducatifs** et contient également un pipeline GitLab Pages. Tant que la migration n’est pas validée, `main` et la version GitHub Pages restent la référence publique.
+
+## Documentation
+
+- [Architecture générale](ARCHITECTURE.md)
 - [Vision du projet](docs/000_Vision_du_projet.md)
 - [Architecture des parcours thématiques](docs/ARCHITECTURE_PARCOURS.md)
 - [Contrat de données d’un parcours](docs/CONTRAT_DONNEES_PARCOURS.md)
 - [Guide éditorial](docs/007_Guide_editorial.md)
 - [Développement et sources éditoriales](docs/DEVELOPPEMENT.md)
+- [Feuille de route](ROADMAP.md)
 - [Notice IA — transparence et provenance](NOTICE-AI.md)
 - [Licence du code — GPL-3.0-or-later](LICENSE)
 - [Licence des contenus — CC BY 4.0](LICENSE-CONTENT.md)
