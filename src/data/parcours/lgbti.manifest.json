@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "lgbti",
+  "slug": "lgbti",
+  "publicLabel": "LGBTI+",
+  "title": "LGBTI-phobies, orientations, identités et expressions de genre",
+  "description": "Situations scolaires liées aux LGBTI-phobies, aux normes de genre et à leurs intersections avec d’autres rapports sociaux.",
+  "status": "active",
+  "activity": "La marche des privilèges",
+  "scope": {
+    "primaryTopics": [
+      "LGBTI-phobies",
+      "orientations sexuelles et romantiques",
+      "identités et expressions de genre",
+      "caractéristiques sexuées",
+      "confidentialité et divulgation"
+    ],
+    "intersectionalAxes": [
+      "handicap et validisme",
+      "neurodivergence",
+      "ruralité et mobilité",
+      "précarité",
+      "normes de genre"
+    ]
+  },
+  "modes": {
+    "default": "discovery",
+    "available": [
+      "discovery",
+      "visible-obstacles",
+      "ordinary-norms",
+      "invisible-effects",
+      "intersectionalities"
+    ]
+  },
+  "content": {
+    "characters": {
+      "path": "src/data/public/publicCharacters.generated.json",
+      "count": 17,
+      "galleries": {
+        "general": 9,
+        "intersectional": 8
+      },
+      "portraitsRoot": "src/assets/illustrations/characters"
+    },
+    "situations": {
+      "path": "src/data/public/publicSituations.generated.ts",
+      "count": 61,
+      "focals": {
+        "V": 16,
+        "N": 13,
+        "I": 16,
+        "X": 16
+      },
+      "roles": {
+        "obstacle": 53,
+        "protection": 8
+      },
+      "illustrationsRoot": "src/assets/illustrations/situations"
+    },
+    "references": {
+      "reperesPath": "src/data/public/publicReperes.generated.json",
+      "reperesCount": 5,
+      "usefulWordsPath": "src/data/public/publicUsefulWords.generated.json",
+      "usefulWordsCount": 25,
+      "journeyWordsPath": "src/data/public/publicJourneyWords.generated.ts",
+      "journeyWordsCount": 15
+    },
+    "quizzes": {
+      "charactersPath": "src/data/public/publicCharacterQuiz.generated.json",
+      "charactersQuestions": 8,
+      "situationsPath": "src/data/public/publicSituationQuiz.generated.json",
+      "situationsQuestions": 8
+    }
+  },
+  "compatibility": {
+    "legacyPublicRoutes": true,
+    "eleaContext": true
+  },
+  "licensing": {
+    "contentLicense": "CC BY 4.0",
+    "contentLicenseFile": "LICENSE-CONTENT.md",
+    "aiNoticeFile": "NOTICE-AI.md"
+  }
+}
