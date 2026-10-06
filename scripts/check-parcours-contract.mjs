@@ -64,7 +64,7 @@ const tail = situationsSource.slice(start + marker.length);
 const end = tail.indexOf("] as const satisfies readonly PublicSituation[];");
 if (end < 0) fail("fin du tableau publicSituations introuvable");
 const situationsBlock = tail.slice(0, end);
-const codes = [...situationsBlock.matchAll(/"code": "([VNIX]\\d{2})"/g)].map((match) => match[1]);
+const codes = [...situationsBlock.matchAll(/"code": "([VNIX]\d{2})"/g)].map((match) => match[1]);
 const roles = [...situationsBlock.matchAll(/"role": "(obstacle|protection)"/g)].map((match) => match[1]);
 if (codes.length !== manifest.content.situations.count) fail(`situations : ${codes.length} au lieu de ${manifest.content.situations.count}`);
 if (new Set(codes).size !== codes.length) fail("codes Situation dupliqués");
