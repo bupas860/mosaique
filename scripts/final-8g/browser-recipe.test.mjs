@@ -1053,6 +1053,7 @@ async function gameNavigationAndEleaAudit(page, baseUrl) {
   assert.equal(await page.evaluate("document.querySelector('.public-brand')?.tagName"), "SPAN", "accueil Éléa : marque non navigante");
 
   await page.navigate(urlFor(baseUrl, "#/personnages", "?context=elea"));
+  await page.waitFor("Boolean(document.querySelector('.explorer-character-card__link'))", "galerie Personnages Éléa chargée");
   await page.focusAndActivate(".explorer-character-card__link", "Enter");
   assert.equal(await page.evaluate("document.querySelector('.biography-page__inner > .app-text-link')?.textContent.trim()"), "Retour aux personnages", "galerie : origine Personnages conservée");
   await page.evaluate("history.back()");
