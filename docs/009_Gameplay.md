@@ -1,12 +1,12 @@
 # Mosaïque
 
-## La Marge des privilèges
+## La marche des privilèges
 
 # Gameplay
 
 ## Principe général
 
-La Marge des privilèges est un jeu d'empathie.
+La marche des privilèges est un jeu d'empathie.
 
 Le joueur n'incarne pas lui-même un personnage.
 
@@ -160,7 +160,7 @@ Il constitue une opportunité d'apprentissage.
 
 # La philosophie du gameplay
 
-La Marge des privilèges ne cherche pas à tester les connaissances du joueur.
+La marche des privilèges ne cherche pas à tester les connaissances du joueur.
 
 Elle cherche à faire évoluer ses représentations.
 
@@ -171,7 +171,7 @@ Cette confrontation constitue le cœur de l'expérience pédagogique.
 
 ## Le cœur de l'expérience
 
-Le cœur de **La Marge des privilèges** n'est pas de répondre correctement à une série de questions.
+Le cœur de **La marche des privilèges** n'est pas de répondre correctement à une série de questions.
 
 Le joueur construit progressivement une représentation du personnage qu'il a choisi.
 
