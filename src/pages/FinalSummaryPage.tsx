@@ -35,7 +35,7 @@ export default function FinalSummaryPage({ characters, initialCharacters, played
   const selectedFocal = selectedEntry && selectedSituation ? getRevealedSituationFamilyLabel(selectedModeId, selectedSituation.originMode) : undefined;
   const positionAfterSelectedStep = choiceHistory.slice(0, selectedStep + 1).reduce((position, entry) => position + movementDecisionToStep(entry.playerDecision), 0);
 
-  useEffect(() => { requestAnimationFrame(() => { const title = document.querySelector<HTMLElement>(".game-summary h1"); title?.setAttribute("tabindex", "-1"); title?.focus({ preventScroll: true }); }); }, []);
+  useEffect(() => { const title = document.querySelector<HTMLElement>(".game-summary h1"); title?.setAttribute("tabindex", "-1"); title?.focus({ preventScroll: true }); }, []);
 
   function recapPanel(entry: ChoiceHistoryEntryV2, index: number) {
     const situation = situationById[entry.situationId];
