@@ -90,11 +90,13 @@ Une partie des données est générée à partir de sources éditoriales de trav
 
 La documentation technique des données V2 se trouve dans [`src/data/v2/README.md`](src/data/v2/README.md).
 
-## Médias et transparence sur l’IA
+## Transparence sur l’usage de l’IA
 
-Certaines illustrations ont été produites avec l’assistance d’outils d’IA générative, puis sélectionnées, cadrées, converties et intégrées sous direction éditoriale humaine.
+Des outils d’IA générative ont été utilisés comme assistance pour certaines illustrations, pour la préparation ou la révision de contenus pédagogiques et éditoriaux, ainsi que pour une partie du développement et de la revue du code.
 
-Le projet conserve une notice spécifique sur la provenance et les choix de transparence : [`NOTICE-AI.md`](NOTICE-AI.md).
+Les choix pédagogiques, la sélection des contenus, les validations, les tests et la responsabilité éditoriale restent humains. Le projet adopte une mention centrale de transparence plutôt qu’un marquage répétitif de chaque fichier.
+
+Voir [`NOTICE-AI.md`](NOTICE-AI.md) pour la politique de provenance et de transparence.
 
 ## Déploiement
 
@@ -104,9 +106,12 @@ La branche `prep-forge` prépare une migration vers la **Forge des communs numé
 
 ## Licences
 
-Les contenus pédagogiques, données éditoriales et illustrations originales sont placés sous **CC BY 4.0**, dans les limites des droits effectivement détenus. Voir [`LICENSE-CONTENT.md`](LICENSE-CONTENT.md).
+**Code source : GNU General Public License v3.0 ou ultérieure — `GPL-3.0-or-later`.**  
+Copyright © 2026 Pascal Busac. Voir [`LICENSE`](LICENSE).
 
-**Le code source n’a pas encore de licence logicielle explicite.** Le choix d’une licence logicielle libre reste à arrêter avant publication du projet comme commun sur la Forge. La licence CC BY 4.0 des contenus ne doit pas être appliquée automatiquement au code.
+**Contenus pédagogiques, données éditoriales et illustrations : CC BY 4.0**, dans la mesure des droits effectivement détenus. Voir [`LICENSE-CONTENT.md`](LICENSE-CONTENT.md).
+
+Cette séparation permet de garder le logiciel sous une licence libre à réciprocité tout en utilisant une licence adaptée aux ressources éducatives.
 
 ## Documentation utile
 
@@ -115,5 +120,6 @@ Les contenus pédagogiques, données éditoriales et illustrations originales so
 - [Contrat de données d’un parcours](docs/CONTRAT_DONNEES_PARCOURS.md)
 - [Guide éditorial](docs/007_Guide_editorial.md)
 - [Développement et sources éditoriales](docs/DEVELOPPEMENT.md)
-- [Notice IA et provenance des illustrations](NOTICE-AI.md)
-- [Licence des contenus](LICENSE-CONTENT.md)
+- [Notice IA — transparence et provenance](NOTICE-AI.md)
+- [Licence du code — GPL-3.0-or-later](LICENSE)
+- [Licence des contenus — CC BY 4.0](LICENSE-CONTENT.md)
