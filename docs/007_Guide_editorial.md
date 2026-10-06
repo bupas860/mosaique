@@ -1,16 +1,16 @@
 # Mosaïque
 
-## La Marge des privilèges
+## La marche des privilèges
 
 # Guide éditorial
 
-> Ce document définit les principes d'écriture de **La Marge des privilèges**. Il garantit la cohérence du projet, quels que soient les auteurs qui contribueront à son développement.
+> Ce document définit les principes d'écriture de **La marche des privilèges**. Il garantit la cohérence du projet, quels que soient les auteurs qui contribueront à son développement.
 
 ---
 
 # Notre philosophie
 
-La Marge des privilèges n'est pas un jeu qui cherche à démontrer une théorie.
+La marche des privilèges n'est pas un jeu qui cherche à démontrer une théorie.
 
 C'est un jeu qui raconte des vies.
 
@@ -261,4 +261,4 @@ Non pas parce qu'on lui a expliqué ce qu'il devait penser.
 
 Mais parce qu'il aura partagé, le temps d'une partie, le regard d'un autre être humain.
 
-C'est cette expérience qui constitue le cœur de **La Marge des privilèges**.
+C'est cette expérience qui constitue le cœur de **La marche des privilèges**.
