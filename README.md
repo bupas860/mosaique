@@ -40,7 +40,7 @@ La vision détaillée du projet se trouve dans [`docs/000_Vision_du_projet.md`](
 
 Mosaïque distingue le projet, l’activité **La marche des privilèges**, le **parcours thématique** et les **modes de jeu**. Cette séparation permet de faire évoluer les corpus sans transformer les cinq modes actuels en catégories de discriminations.
 
-Voir [`docs/ARCHITECTURE_PARCOURS.md`](docs/ARCHITECTURE_PARCOURS.md).
+Voir [`docs/ARCHITECTURE_PARCOURS.md`](docs/ARCHITECTURE_PARCOURS.md) et [`docs/CONTRAT_DONNEES_PARCOURS.md`](docs/CONTRAT_DONNEES_PARCOURS.md).
 
 ## Technologies
 
@@ -112,6 +112,7 @@ Les contenus pédagogiques, données éditoriales et illustrations originales so
 
 - [Vision du projet](docs/000_Vision_du_projet.md)
 - [Architecture des parcours thématiques](docs/ARCHITECTURE_PARCOURS.md)
+- [Contrat de données d’un parcours](docs/CONTRAT_DONNEES_PARCOURS.md)
 - [Guide éditorial](docs/007_Guide_editorial.md)
 - [Développement et sources éditoriales](docs/DEVELOPPEMENT.md)
 - [Notice IA et provenance des illustrations](NOTICE-AI.md)
