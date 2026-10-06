@@ -1,5 +1,6 @@
 import { illustrations } from "../../assets/illustrations/illustrations";
 import AppBackground from "../../components/AppBackground";
+import { PUBLIC_PARCOURS } from "../../utils/publicIdentity";
 
 export default function PublicHomePage() {
   return <AppBackground as="main" className="home-page public-activity-home">
@@ -15,7 +16,9 @@ export default function PublicHomePage() {
     </section>
     <aside className="home-introduction">
       <div className="home-introduction__inner">
-        <h2 className="text-xl font-bold text-slate-900">Comment se déroule une partie&nbsp;?</h2>
+        <p className="font-semibold text-slate-900">Parcours actuel : {PUBLIC_PARCOURS}</p>
+        <p className="mt-2 leading-relaxed text-slate-700">Cette version se concentre sur les LGBTI-phobies, les orientations, les identités et expressions de genre, ainsi que leurs intersections avec d’autres rapports sociaux. Mosaïque est conçu pour accueillir d’autres parcours thématiques.</p>
+        <h2 className="mt-6 text-xl font-bold text-slate-900">Comment se déroule une partie&nbsp;?</h2>
         <p className="mt-3 leading-relaxed text-slate-700">Vous parcourez 10 situations en incarnant un personnage. Après chaque choix, une comparaison présente votre lecture et une interprétation proposée, sans note ni classement.</p>
       </div>
     </aside>
