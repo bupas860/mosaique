@@ -45,11 +45,9 @@ export default function GamePage({ initialGameSet, initialSnapshot, selectedChar
 
   useEffect(() => {
     if (phase === "end") return;
-    requestAnimationFrame(() => {
-      const target = document.querySelector<HTMLElement>(phase === "feedback" ? ".game-feedback h2" : ".situation-card h2");
-      target?.setAttribute("tabindex", "-1");
-      target?.focus({ preventScroll: true });
-    });
+    const target = document.querySelector<HTMLElement>(phase === "feedback" ? ".game-feedback h2" : ".situation-card h2");
+    target?.setAttribute("tabindex", "-1");
+    target?.focus({ preventScroll: true });
   }, [currentIndex, phase]);
 
   useEffect(() => {
