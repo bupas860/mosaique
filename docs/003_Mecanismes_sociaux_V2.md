@@ -2,7 +2,7 @@
 
 ## Pourquoi ce document ?
 
-Les mécanismes sociaux constituent la base conceptuelle de **Mosaïque – La Marge des privilèges**.
+Les mécanismes sociaux constituent la base conceptuelle de **Mosaïque – La marche des privilèges**.
 
 Les personnages ne rencontrent pas des difficultés « parce qu'ils sont différents ». Ils évoluent dans un environnement où des normes, des règles, des pratiques et des représentations produisent, selon les situations, des privilèges, des obstacles ou des protections.
 
