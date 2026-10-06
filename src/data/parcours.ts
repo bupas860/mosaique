@@ -4,7 +4,7 @@ export type ParcoursId =
   | "egalite-filles-garcons"
   | "racisme";
 
-export type ParcoursStatus = "active" | "planned";
+export type ParcoursStatus = "planned" | "draft" | "playable" | "active" | "archived";
 
 export interface ParcoursDefinition {
   readonly id: ParcoursId;
