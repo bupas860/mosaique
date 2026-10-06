@@ -17,6 +17,12 @@ L’application comprend actuellement :
 
 Le projet est conçu pour des usages pédagogiques en autonomie, en classe, en formation ou en accompagnement collectif.
 
+### Parcours thématique actuel
+
+La version actuelle correspond au **parcours LGBTI+**. Ses situations sont centrées sur les LGBTI-phobies, les orientations, les identités et expressions de genre, ainsi que sur leurs intersections avec d’autres rapports sociaux.
+
+Mosaïque est conçu pour pouvoir accueillir d’autres parcours thématiques sans dupliquer le moteur de jeu, notamment autour du handicap et du validisme, de l’égalité filles-garçons et du sexisme, ou du racisme.
+
 ## Principes pédagogiques
 
 Mosaïque cherche notamment à :
@@ -29,6 +35,12 @@ Mosaïque cherche notamment à :
 - proposer des lectures argumentées plutôt qu’une vérité unique sur les personnes.
 
 La vision détaillée du projet se trouve dans [`docs/000_Vision_du_projet.md`](docs/000_Vision_du_projet.md).
+
+## Architecture multi-parcours
+
+Mosaïque distingue le projet, l’activité **La marche des privilèges**, le **parcours thématique** et les **modes de jeu**. Cette séparation permet de faire évoluer les corpus sans transformer les cinq modes actuels en catégories de discriminations.
+
+Voir [`docs/ARCHITECTURE_PARCOURS.md`](docs/ARCHITECTURE_PARCOURS.md).
 
 ## Technologies
 
@@ -99,6 +111,7 @@ Les contenus pédagogiques, données éditoriales et illustrations originales so
 ## Documentation utile
 
 - [Vision du projet](docs/000_Vision_du_projet.md)
+- [Architecture des parcours thématiques](docs/ARCHITECTURE_PARCOURS.md)
 - [Guide éditorial](docs/007_Guide_editorial.md)
 - [Développement et sources éditoriales](docs/DEVELOPPEMENT.md)
 - [Notice IA et provenance des illustrations](NOTICE-AI.md)
