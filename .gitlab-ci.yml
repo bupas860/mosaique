@@ -4,6 +4,9 @@
 # GitLab Pages actuelle et évite de renommer le dossier public/ source.
 # Les chemins d'assets sont relatifs (vite.config.ts), ce qui permet au
 # même build de fonctionner avec un domaine Pages unique ou une URL à sous-chemin.
+#
+# Pendant la phase de validation Forge, prep-forge peut publier Pages sans
+# modifier main. Après bascule, la branche par défaut reste également autorisée.
 
 deploy-pages:
   stage: deploy
@@ -15,4 +18,5 @@ deploy-pages:
   pages:
     publish: dist
   rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: '$CI_COMMIT_BRANCH == "prep-forge"'
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
