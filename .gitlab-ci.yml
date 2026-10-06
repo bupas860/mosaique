@@ -1,0 +1,20 @@
+# Préparation GitLab Pages pour la Forge des communs numériques éducatifs.
+#
+# Ce pipeline reprend le build de production déjà utilisé par GitHub Pages.
+# Il suppose pour l'instant un projet publié sous le chemin /mosaique/,
+# cohérent avec vite.config.ts. Ce chemin devra être vérifié après l'import
+# effectif sur la Forge avant toute bascule du site public.
+
+pages:
+  stage: deploy
+  image: node:22-alpine
+  script:
+    - npm ci
+    - npm run build
+    - rm -rf public
+    - mv dist public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
