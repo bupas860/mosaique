@@ -89,3 +89,10 @@ Le terme est utilisé comme appellation descriptive d’une méthode pédagogiqu
 Mosaïque ne revendique pas d’exclusivité sur cette appellation et ne reprend pas automatiquement les listes de questions ou scénarios publiés par d’autres organismes. Les situations du projet sont éditées comme un corpus propre.
 
 Avant un éventuel dépôt de marque, une recherche formelle d’antériorités par classes de produits et services resterait nécessaire.
+
+
+## Contrat de données
+
+Les exigences minimales d’un parcours, ses niveaux de maturité, ses règles d’identifiants, ses contenus et ses contrôles automatiques sont définis dans [`CONTRAT_DONNEES_PARCOURS.md`](CONTRAT_DONNEES_PARCOURS.md).
+
+Le parcours LGBTI+ fournit le premier manifeste machine de référence dans [`src/data/parcours/lgbti.manifest.json`](../src/data/parcours/lgbti.manifest.json).
