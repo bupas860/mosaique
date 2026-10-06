@@ -77,10 +77,8 @@ export default function App() {
     if (route.kind === "redirect") return;
     if (previousRouteKey.current === routeKey) return;
     previousRouteKey.current = routeKey;
-    window.requestAnimationFrame(() => {
-      if (route.kind === "situations" || route.kind === "situations-focal" || route.kind === "situation-detail") return;
-      document.getElementById("main-content")?.focus({ preventScroll: true });
-    });
+    if (route.kind === "situations" || route.kind === "situations-focal" || route.kind === "situation-detail") return;
+    document.getElementById("main-content")?.focus({ preventScroll: true });
   }, [route, routeKey]);
 
   if (route.kind === "redirect") return null;
