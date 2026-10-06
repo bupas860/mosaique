@@ -61,7 +61,7 @@ export default function GamePage({ initialGameSet, initialSnapshot, selectedChar
 
   function cancelQuit() {
     setQuitConfirmationOpen(false);
-    requestAnimationFrame(() => quitButtonRef.current?.focus({ preventScroll: true }));
+    quitButtonRef.current?.focus({ preventScroll: true });
   }
 
   function handleDecision(playerDecision: MovementDecision) {
