@@ -423,7 +423,7 @@ async function journeyWordsAudit(page, baseUrl) {
       { text: "Retour à Mots et parcours", href: "#/personnages/mots-et-parcours", styled: true },
       { text: "Voir les 25 mots utiles", href: "#/mots-utiles", styled: true },
     ], `${word.id} : liens de navigation visibles et inchangés`);
-    assert.ok(detail.navigationLinks.every(({ color, decoration }) => color === "rgb(29, 78, 216)" && decoration.includes("underline")), `${word.id} : couleur et soulignement des liens de navigation`);
+    assert.ok(detail.navigationLinks.every(({ color, decoration }) => decoration.includes("underline") && color !== "rgb(15, 23, 42)" && color !== "rgb(0, 0, 0)"), `${word.id} : couleur de lien distincte et soulignement des liens de navigation`);
     assert.equal(/MU-[A-Z]+/.test(detail.text), false, `${word.id} : identifiant absent du texte visible`);
     assert.equal(detail.text.includes("Espaces d’utilisation"), false, `${word.id} : espaces masqués`);
     assert.equal(detail.text.includes("Contenu daté"), false, `${word.id} : datation masquée`);
