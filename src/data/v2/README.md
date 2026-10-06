@@ -1,25 +1,51 @@
 # Accès aux données V2
 
-Les données éditoriales proviennent des JSON générés dans `src/data/generated-v2/` et ne doivent pas être éditées manuellement. Les galeries normalisées sont dans `galleries/`, les cinq modes dans `modes/` et `index.json` décrit leurs chemins.
+Les données éditoriales V2 proviennent principalement des JSON générés dans `src/data/generated-v2/` et ne doivent pas être éditées manuellement.
 
-`generatedV2Data.ts` continue de charger les fichiers historiques `characters.json` et `visible-obstacles.*.json`. Cette couche de compatibilité maintient la frontière runtime du seul mode actuellement activé.
+Les galeries normalisées sont dans `galleries/`, les cinq modes dans `modes/`, et `index.json` décrit leurs chemins.
 
-La configuration technique de présentation est séparée dans `presentationConfig.ts`. Les portraits validés sont associés explicitement aux identifiants éditoriaux par `characterPortraitsV2.ts` ; les autres images restent à `null`. Aucun portrait historique n’est importé.
+## Modes actifs
 
-`visibleObstaclesRuntimeBank` expose les personnages et situations jouables, leurs mouvements explicites `advance`/`stay`, les feedbacks et les règles. `createVisibleObstaclesGameSet()` utilise le moteur contraint existant pour produire un lot ordonné de dix situations.
+Les cinq modes sont désormais actifs dans l’application :
 
-Les autres banques sont générées et validées mais ne sont pas encore reliées aux pages React. Découverte ne contient que ses règles et des références `{ id, originMode }` vers les trois banques générales.
+- `discovery` — Découverte ;
+- `visible-obstacles` — Obstacles visibles ;
+- `ordinary-norms` — Normes ordinaires ;
+- `invisible-effects` — Effets invisibles ;
+- `intersectionalities` — Intersectionnalités.
 
-`runtimeIndexV2.ts` expose l’API commune `createGameSet()` et les générateurs
-spécialisés des cinq modes. Ce point d’entrée est séparé du barrel utilisé par
-l’application afin que les banques inactives ne soient pas encore intégrées au
-bundle joueur. Les situations communes conservent leur mode d’origine, leur
-décision proposée et leur feedback individualisé.
+La liste canonique des modes actifs est portée par `activeModesRuntimeV2.ts`.
 
-Le moteur historique `createVisibleObstaclesGameSet()` reste inchangé pour
-l’interface active. `createCommonVisibleObstaclesGameSet()` fournit en parallèle
-la représentation runtime commune.
+## Personnages
 
-La galerie générale utilise les personnages jouables P01 à P09 existants.
-Intersectionnalités expose séparément XP01 à XP08 avec leur profil canonique et
-une image explicitement associée à son identifiant lorsqu’elle existe, sinon `null`, sans enrichissement éditorial ni rapprochement par prénom.
+La galerie générale utilise les personnages P01 à P09.
+
+Le mode Intersectionnalités utilise séparément XP01 à XP08 avec leur profil canonique et leur portrait explicitement associé à l’identifiant éditorial.
+
+Les portraits de production sont associés par `characterPortraitsV2.ts`.
+
+## Runtime
+
+`activeModesRuntimeV2.ts` fournit l’API utilisée par l’interface pour les cinq modes actifs.
+
+Chaque partie doit produire un lot ordonné de dix situations uniques.
+
+`runtimeIndexV2.ts` expose en parallèle l’API runtime commune et les générateurs spécialisés des cinq modes. Cette API sert aux contrôles et aux usages qui ont besoin d’accéder aux banques normalisées sans passer par les composants d’interface.
+
+Le mode Découverte compose des situations provenant des trois familles générales : Obstacles visibles, Normes ordinaires et Effets invisibles.
+
+Le mode Intersectionnalités utilise sa propre galerie de personnages XP01 à XP08.
+
+## Compatibilité historique
+
+`generatedV2Data.ts` conserve encore certains chargements historiques nécessaires à la compatibilité du runtime et des validations.
+
+`createVisibleObstaclesGameSet()` reste utilisé comme couche historique pour le mode Obstacles visibles, tandis que la couche active normalise sa sortie avec les autres modes.
+
+Ces éléments ne signifient plus que les autres modes sont inactifs : les cinq modes sont bien raccordés au runtime actuel.
+
+## Présentation
+
+La configuration technique de présentation est séparée dans `presentationConfig.ts`.
+
+Les contenus éditoriaux et les règles de jeu doivent rester séparés autant que possible du code de présentation.
