@@ -220,15 +220,20 @@ Dans un contexte de formation, le débrief constitue une étape essentielle du d
 
 Le moteur du jeu est indépendant de son contenu.
 
-Les personnages, les situations, les mécanismes sociaux, les émotions et les contextes sont conçus comme des ressources éditoriales pouvant évoluer indépendamment du code.
+Mosaïque distingue désormais :
 
-Cette architecture permettra d'enrichir progressivement le jeu avec :
+- le projet **Mosaïque** ;
+- le dispositif commun **La marche des privilèges** ;
+- un **parcours thématique** ;
+- un **mode de jeu**.
 
-- de nouveaux personnages ;
-- de nouvelles situations ;
-- de nouveaux mécanismes sociaux ;
-- de nouveaux contextes ;
-- de nouveaux parcours pédagogiques.
+La version actuelle constitue le premier parcours : **LGBTI+**. Ses situations portent principalement sur les LGBTI-phobies, les orientations, les identités et expressions de genre, tout en intégrant des croisements avec d'autres rapports sociaux lorsque la situation l'exige.
+
+Cette architecture doit permettre d'ajouter ultérieurement d'autres parcours — par exemple autour du handicap et du validisme, de l'égalité filles-garçons et du sexisme, ou du racisme — sans dupliquer le moteur et sans mélanger tous les corpus dans une seule banque de situations.
+
+Les personnages, les situations, les mécanismes sociaux, les repères et les contextes restent des ressources éditoriales pouvant évoluer indépendamment du code.
+
+Tant qu'un seul parcours est actif, l'utilisateur entre directement dans le parcours LGBTI+. Lorsqu'au moins deux parcours seront disponibles, une étape de choix du parcours pourra être introduite tout en conservant les anciens liens comme accès directs au parcours LGBTI+.
 
 Le projet est pensé comme une œuvre évolutive, destinée à grandir grâce aux retours des joueurs, des formateurs et des partenaires.
 
