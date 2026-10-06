@@ -52,6 +52,24 @@ La page publique doit rendre visibles :
 - la licence des contenus ;
 - le parcours actif LGBTI+.
 
+## Validation Forge avant bascule
+
+L’import sur la Forge doit d’abord être validé en parallèle, sans modifier `main` ni interrompre la publication GitHub Pages actuelle.
+
+La branche de préparation est `prep-forge`. Le pipeline `.gitlab-ci.yml` autorise explicitement le job Pages sur `prep-forge` ainsi que sur la branche par défaut. GitLab Pages pouvant être piloté par les règles du pipeline, la recette Forge peut donc être réalisée depuis `prep-forge` avant toute promotion vers la branche principale.
+
+Séquence de validation recommandée après l’import :
+
+1. vérifier que `prep-forge` a bien été importée avec son historique ;
+2. lancer ou relancer un pipeline sur `prep-forge` ;
+3. vérifier que `npm ci`, le build et `npm audit --audit-level=high` réussissent ;
+4. relever l’URL Pages réellement attribuée par la Forge ;
+5. tester la page publique, les routes en hash, les ressources statiques et le contexte `?context=elea` ;
+6. rejouer la recette navigateur depuis l’hébergement Forge ;
+7. seulement après validation, décider de la promotion de `prep-forge`, de la branche par défaut et du devenir de la publication GitHub.
+
+Aucune nouvelle URL Forge ne doit être déclarée canonique avant cette validation.
+
 ## Ressourcerie
 
 Une proposition à la Ressourcerie pourra être faite une fois l’import Forge et GitLab Pages stabilisés.
