@@ -66,4 +66,4 @@ La version actuellement publique reste :
 
 https://bupas860.github.io/mosaique/
 
-Après import, vérifier l’URL GitLab Pages réelle avant de modifier `vite.config.ts`, les métadonnées de dépôt et les liens publics.
+Après import, vérifier l’URL GitLab Pages réelle avant de modifier les métadonnées de dépôt et les liens publics. `vite.config.ts` utilise désormais `base: "./"`, de sorte que les assets ne dépendent plus d’un préfixe d’URL Forge particulier.
