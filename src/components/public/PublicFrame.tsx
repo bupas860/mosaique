@@ -92,7 +92,20 @@ export default function PublicFrame({ route, routeKey, children }: PublicFramePr
         </div>
       </header>
       <div id="main-content" className="public-content" tabIndex={-1}>{children}</div>
-      <footer className={`public-footer${eleaPresentation ? " public-footer--elea" : ""}`}>{eleaPresentation ? <span>{PUBLIC_BRAND}</span> : <a href={HOME_HASH}>Accueil</a>}</footer>
+      <footer className={`public-footer${eleaPresentation ? " public-footer--elea" : ""}`}>
+        {eleaPresentation ? (
+          <span>{PUBLIC_BRAND}</span>
+        ) : (
+          <div className="public-footer__inner">
+            <p><a href={HOME_HASH}>{PUBLIC_BRAND}</a> — Pascal Busac</p>
+            <p>
+              Code <a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html">GPL-3.0-or-later</a>
+              {" · "}
+              Contenus <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+            </p>
+          </div>
+        )}
+      </footer>
     </div>
   );
 }
