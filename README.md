@@ -1,14 +1,16 @@
-# Mosaïque — La marche des privilèges
+# La marche des privilèges — Mosaïque
 
-**Mosaïque** est une application pédagogique interactive pour explorer la manière dont des situations ordinaires peuvent réduire ou élargir la marge de manœuvre de personnages fictifs.
+**La marche des privilèges** est une activité pédagogique interactive pour explorer la manière dont des situations ordinaires peuvent réduire ou élargir la marge de manœuvre de personnages fictifs.
 
-L’activité principale, **La marche des privilèges**, ne cherche ni à classer les personnes ni à hiérarchiser les discriminations. Elle met en discussion des obstacles, des normes, des protections et des effets parfois difficiles à percevoir.
+Elle ne cherche ni à classer les personnes ni à hiérarchiser les discriminations. Elle met en discussion des obstacles, des normes, des protections et des effets parfois difficiles à percevoir.
+
+**Mosaïque** désigne la plateforme et l’architecture multi-parcours qui portent cette activité.
 
 **Parcours actuellement disponible : LGBTI+.**
 
-[Essayer la version actuellement publiée](https://bupas860.github.io/mosaique/)
+[Essayer La marche des privilèges sur La Forge](https://busacpascal.forge.apps.education.fr/la-marche-des-privileges/)
 
-> La publication GitHub Pages reste la version publique actuelle pendant la préparation de la migration vers la Forge des communs numériques éducatifs.
+> La Forge héberge le dépôt public, l’intégration continue et la publication GitLab Pages du projet.
 
 ## Ce que propose la version actuelle
 
@@ -161,9 +163,9 @@ Avant une contribution de code, voir [`CONTRIBUTING.md`](CONTRIBUTING.md). L’a
 
 ## Déploiement
 
-Le déploiement public actuel utilise GitHub Pages depuis `main`.
+Le code de référence est maintenu sur GitHub. Un synchroniseur VPS répercute les branches et tags vers la **Forge des communs numériques éducatifs**, qui héberge le dépôt public, le pipeline CI/CD et GitLab Pages.
 
-La branche `prep-forge` prépare l’import sur la **Forge des communs numériques éducatifs** et contient également un pipeline GitLab Pages. Tant que la migration n’est pas validée, `main` et la version GitHub Pages restent la référence publique.
+La version publiée est accessible à l’adresse : https://busacpascal.forge.apps.education.fr/la-marche-des-privileges/
 
 ## Documentation
 
