@@ -46,7 +46,7 @@ développement**, pas comme un transfert de responsabilité éditoriale.
 ## Niveau de mention retenu
 
 La politique retenue pour Mosaïque est une **mention centrale et accessible**
-dans cette notice, relayée depuis le README et depuis le pied de page public.
+dans cette notice, relayée depuis le README et depuis le pied de page de l’accueil public.
 
 Le pied de page utilise l’**icône de base de l’Union européenne pour l’étiquetage
 des contenus liés à l’IA**, accompagnée d’un libellé explicite. Cette icône est

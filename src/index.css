@@ -131,13 +131,11 @@ body {
 .public-footer__inner { display: grid; gap: 0.4rem; justify-items: center; }
 .public-footer__inner p { margin: 0; line-height: 1.55; }
 .public-footer a { color: var(--color-brand-700); font-weight: 750; }
-.public-footer__ai { display: flex; align-items: center; justify-content: center; gap: 0.65rem; max-width: 62rem; margin: 0.9rem auto 0; color: var(--ds-text-muted); font-size: 0.875rem; line-height: 1.45; text-align: left; }
-.public-footer__ai img { width: 3.5rem; height: auto; flex: 0 0 auto; }
-.public-footer__ai strong { color: var(--ds-text); }
-.public-footer--elea .public-footer__ai { max-width: 52rem; margin-top: 0.65rem; }
+.public-footer__ai { display: flex; align-items: center; justify-content: center; gap: 0.45rem; max-width: 50rem; margin: 0.55rem auto 0; color: var(--ds-text-muted); font-size: 0.8rem; line-height: 1.35; text-align: left; }
+.public-footer__ai img { width: 2.5rem; height: auto; flex: 0 0 auto; }
 @media (max-width: 35rem) {
-  .public-footer__ai { align-items: flex-start; }
-  .public-footer__ai img { width: 3rem; }
+  .public-footer__ai { align-items: flex-start; margin-top: 0.45rem; font-size: 0.78rem; }
+  .public-footer__ai img { width: 2.2rem; }
 }
 .public-home,
 .structural-page { width: min(100%, var(--ds-content-width)); margin: 0 auto; padding: clamp(2rem, 6vw, 5rem) var(--ds-page-padding); }

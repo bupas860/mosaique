@@ -16,7 +16,7 @@ for (const [hash, kind] of [["#/personnages", "explorer-characters"], ["#/jouer"
 }
 
 const frame = await read("src/components/public/PublicFrame.tsx");
-for (const expected of ['const eleaPresentation = isEleaContext()', '!eleaPresentation && <nav', '<span className="public-brand">{PUBLIC_BRAND}</span>', 'public-footer--elea', 'IA utilisée dans la conception.', 'eu-ai-basic-black.png']) if (!frame.includes(expected)) throw new Error(`Chrome Éléa incomplet : ${expected}`);
+for (const expected of ['const eleaPresentation = isEleaContext()', '!eleaPresentation && <nav', '<span className="public-brand">{PUBLIC_BRAND}</span>', 'public-footer--elea', 'route.kind === "home" && !eleaPresentation']) if (!frame.includes(expected)) throw new Error(`Chrome Éléa incomplet : ${expected}`);
 for (const expected of ['className="skip-link"', 'href="#main-content"', 'id="main-content"', 'tabIndex={-1}', 'event.key !== "Escape"', 'menuButton.current?.focus()']) if (!frame.includes(expected)) throw new Error(`Contrat accessible absent : ${expected}`);
 const gallery = await read("src/pages/ExplorerCharactersPage.tsx");
 if (!gallery.includes('!eleaPresentation && <a href="#/"') || gallery.includes('#/personnages/quiz')) throw new Error("Allègement de la galerie Personnages ou retrait de la promotion Quiz incomplet");

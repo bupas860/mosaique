@@ -105,14 +105,15 @@ export default function PublicFrame({ route, routeKey, children }: PublicFramePr
             </p>
           </div>
         )}
-        <p className="public-footer__ai">
-          <img src={`${import.meta.env.BASE_URL}eu-ai-basic-black.png`} alt="Icône européenne indiquant l’utilisation de l’IA" />
-          <span>
-            <strong>IA utilisée dans la conception.</strong>{" "}
-            Des outils d’IA générative ont été utilisés pour certaines illustrations ainsi que comme assistance à la rédaction, à la révision et au développement. Les contenus, choix pédagogiques et validations restent sous responsabilité humaine.{" "}
-            <a href="https://forge.apps.education.fr/busacpascal/la-marche-des-privileges/-/blob/main/NOTICE-AI.md">En savoir plus</a>
-          </span>
-        </p>
+        {route.kind === "home" && !eleaPresentation && (
+          <p className="public-footer__ai">
+            <img src={`${import.meta.env.BASE_URL}eu-ai-basic-black.png`} alt="Icône européenne indiquant l’utilisation de l’IA" />
+            <span>
+              IA utilisée pour certains contenus et comme assistance à la conception. Validation humaine.{" "}
+              <a href="https://forge.apps.education.fr/busacpascal/la-marche-des-privileges/-/blob/main/NOTICE-AI.md">En savoir plus</a>
+            </span>
+          </p>
+        )}
       </footer>
     </div>
   );
