@@ -327,7 +327,7 @@ async function navigationAndKeyboard(page, baseUrl) {
   await page.key("Tab", { shift: true });
   assert.equal(await page.evaluate("document.activeElement?.classList.contains('public-nav__toggle')"), true, "navigation arrière vers le bouton avec Maj+Tab");
   await page.key("Tab", { shift: true });
-  assert.equal(await page.evaluate("document.activeElement?.textContent.trim()"), "Mosaïque", "navigation arrière vers l'accueil avec Maj+Tab");
+  assert.equal(await page.evaluate("document.activeElement?.textContent.trim()"), "La marche des privilèges", "navigation arrière vers l'accueil avec Maj+Tab");
   await page.key("Escape");
   assert.equal(await page.evaluate("document.activeElement?.classList.contains('public-nav__toggle')"), true, "focus rendu au bouton après Échap");
 
@@ -935,7 +935,7 @@ async function gameAudit(page, baseUrl) {
   await page.viewport(1280);
   await page.navigate(urlFor(baseUrl, "#/"));
   const home = await page.evaluate(`(() => ({ brand: document.querySelector('.public-brand')?.textContent.trim(), h1: document.querySelector('h1')?.textContent.trim(), action: document.querySelector('.home-primary-link')?.textContent.trim(), cards: document.querySelectorAll('.public-card').length }))()`);
-  assert.deepEqual(home, { brand: "Mosaïque", h1: "La marche des privilèges", action: "Commencer une partie", cards: 0 }, "nouvel accueil Jouer sans grille redondante");
+  assert.deepEqual(home, { brand: "La marche des privilèges", h1: "La marche des privilèges", action: "Commencer une partie", cards: 0 }, "nouvel accueil Jouer sans grille redondante");
   await page.focusAndActivate(".home-primary-link", "Enter");
   await page.waitFor("document.querySelector('h1')?.textContent.includes('Préparer votre partie')", "préparation unique");
   assert.equal(await page.evaluate("document.activeElement === document.getElementById('main-content') || document.activeElement === document.querySelector('main h1')"), true, "focus logique sur la préparation");
@@ -1172,7 +1172,7 @@ async function deepLinksAndElea(page, baseUrl) {
   for (const hash of ["#/", "#/personnages", "#/jouer", "#/situations/X01", "#/situations/X13", "#/reperes"]) {
     await page.navigate(urlFor(baseUrl, hash, "?context=elea"));
     assert.equal(await page.evaluate("Boolean(document.querySelector('.public-nav'))"), false, `${hash} Éléa : navigation allégée`);
-    assert.equal(await page.evaluate("document.querySelector('.public-footer')?.textContent.trim()"), "Mosaïque", `${hash} Éléa : footer allégé`);
+    assert.equal(await page.evaluate("document.querySelector('.public-footer')?.textContent.trim()"), "La marche des privilèges", `${hash} Éléa : footer allégé`);
   }
   for (const query of ["?context=test", "?context=ELEA"]) {
     await page.navigate(urlFor(baseUrl, "#/personnages", query));

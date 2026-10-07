@@ -113,4 +113,4 @@ for (const expected of ["Page introuvable", "Cette page n’existe pas.", "Accue
 if (notFound.includes("fragment")) throw new Error("Le fragment inconnu est rendu dans la page");
 
 console.log(`Navigation publique contrôlée : ${cases.length} routes, ${redirects.length} redirections, 4 espaces principaux.`);
-console.log("Accueil sans grille redondante, identité Mosaïque, parcours LGBTI+ explicite, titres, focus, menu mobile et page inconnue : conformes.");
+console.log("Accueil sans grille redondante, identité La marche des privilèges, parcours LGBTI+ explicite, titres, focus, menu mobile et page inconnue : conformes.");

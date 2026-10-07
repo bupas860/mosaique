@@ -1,4 +1,4 @@
-# La marche des privilèges — Mosaïque
+# La marche des privilèges
 
 **La marche des privilèges** est une activité pédagogique interactive pour explorer la manière dont des situations ordinaires peuvent réduire ou élargir la marge de manœuvre de personnages fictifs.
 
