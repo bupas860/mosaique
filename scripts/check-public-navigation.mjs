@@ -93,6 +93,7 @@ for (const expected of [
   'menuButton.current?.focus()', 'hidden={!menuOpen}', 'onClick={mobile ? () => setMenuOpen(false)',
   'id="main-content"', 'tabIndex={-1}', '<footer',
   "PUBLIC_BRAND", "Pascal Busac", "GPL-3.0-or-later", "CC BY 4.0", 'rel="license"',
+  "IA utilisée dans la conception.", "eu-ai-basic-black.png", "NOTICE-AI.md",
 ]) requireText(frame, expected, "Cadre public accessible");
 const navigationOrder = ["Jouer", "Personnages", "Situations", "Repères"].map((label) => frame.indexOf(`label: "${label}"`));
 if (navigationOrder.some((index) => index < 0) || navigationOrder.some((index, position) => position > 0 && index <= navigationOrder[position - 1])) throw new Error("Ordre de navigation invalide");
