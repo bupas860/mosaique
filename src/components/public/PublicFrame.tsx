@@ -97,7 +97,7 @@ export default function PublicFrame({ route, routeKey, children }: PublicFramePr
           <span>{PUBLIC_BRAND}</span>
         ) : (
           <div className="public-footer__inner">
-            <p><a href={HOME_HASH}>{PUBLIC_BRAND}</a> — Pascal Busac</p>
+            <p><a href="https://forge.apps.education.fr/busacpascal/la-marche-des-privileges">{PUBLIC_BRAND}</a> — Pascal Busac</p>
             <p>
               Code <a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html">GPL-3.0-or-later</a>
               {" · "}
