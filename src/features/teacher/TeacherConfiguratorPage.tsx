@@ -8,6 +8,8 @@ import {
 } from "./teacherConfig";
 import { reviewTeacherSelection } from "./pedagogicalReview";
 import { PEDAGOGICAL_PRESETS, type PedagogicalPreset } from "./pedagogicalPresets";
+import ThematicComposer from "./ThematicComposer";
+import type { ThematicMix } from "./thematicMix";
 
 const groupLabels: Readonly<Record<string, string>> = {
   "visible-obstacles": "Obstacles visibles",
@@ -36,6 +38,7 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
   const [search, setSearch] = useState("");
   const [family, setFamily] = useState("all");
   const [onlySelected, setOnlySelected] = useState(false);
+  const [mixNotice, setMixNotice] = useState<{ mix: ThematicMix; added: number } | null>(null);
 
   const characters = useMemo(() => getActiveCharactersForMode(mode), [mode]);
   const situations = useMemo(() => teacherSituationsForMode(mode), [mode]);
@@ -69,6 +72,7 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
   });
 
   function applyPreset(preset: PedagogicalPreset) {
+    setMixNotice(null);
     const proposal = preset.session;
     setMode(proposal.mode);
     setChosenCharacters([...proposal.characterIds]);
@@ -79,7 +83,44 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
     setCopied(false);
   }
 
+  function applyMix(mix: ThematicMix, complete: boolean) {
+    const selected = [...mix.situationIds];
+    const originalCount = selected.length;
+    if (complete && selected.length < 10) {
+      const first = mix.characterIds[0] ?? getActiveCharactersForMode(mix.mode)[0].id;
+      const candidates = createActiveGameSet(mix.mode, first).situationIds;
+      const byId = new Map(teacherSituationsForMode(mix.mode).map((situation) => [situation.id, situation]));
+      const already = new Set(selected);
+      // Avant de compléter, chercher deux situations protectrices quand c'est
+      // possible : elles jouent un rôle essentiel dans la progression du jeu.
+      const protectiveCount = () => selected.filter((id) => byId.get(id)?.protective).length;
+      const protections = teacherSituationsForMode(mix.mode).filter((situation) => situation.protective).map(({ id }) => id);
+      for (const id of protections) {
+        if (protectiveCount() >= 2 || selected.length === 10) break;
+        if (!already.has(id)) { selected.push(id); already.add(id); }
+      }
+      for (const id of candidates) {
+        if (selected.length === 10) break;
+        if (!already.has(id)) { selected.push(id); already.add(id); }
+      }
+      for (const situation of teacherSituationsForMode(mix.mode)) {
+        if (selected.length === 10) break;
+        if (!already.has(situation.id)) { selected.push(situation.id); already.add(situation.id); }
+      }
+    }
+    setMode(mix.mode);
+    setChosenCharacters([...mix.characterIds]);
+    setChosenSituations(selected);
+    setSearch("");
+    setFamily("all");
+    setOnlySelected(false);
+    setCopied(false);
+    setMixNotice({ mix, added: selected.length - originalCount });
+    document.getElementById("teacher-situations-heading")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
   function changeMode(nextMode: ActiveGameModeIdV2) {
+    setMixNotice(null);
     setMode(nextMode);
     setChosenCharacters(getActiveCharactersForMode(nextMode).map(({ id }) => id));
     setChosenSituations(startingSituations(nextMode));
@@ -87,11 +128,13 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
   }
 
   function toggleCharacter(id: EditorialCharacterIdV2) {
+    setMixNotice(null);
     setChosenCharacters((previous) => previous.includes(id) ? previous.filter((current) => current !== id) : [...previous, id]);
     setCopied(false);
   }
 
   function toggleSituation(id: EditorialSituationIdV2) {
+    setMixNotice(null);
     setChosenSituations((previous) => previous.includes(id)
       ? previous.filter((current) => current !== id)
       : previous.length < 10 ? [...previous, id] : previous);
@@ -147,7 +190,9 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
             </article>;
           })}
         </div>
-        <p className="mt-4 text-sm text-slate-700">Charger une proposition remplace la sélection en cours. Si vous préférez tout choisir vous-même, passez directement à l'étape suivante. La composition et l'adéquation pédagogique restent à vérifier avant de transmettre le lien.</p>
+        <p className="mt-4 text-sm text-slate-700">Charger une proposition remplace la sélection en cours. Vous pouvez aussi utiliser plusieurs thématiques dans la même séance.</p>
+        <ThematicComposer onApply={applyMix} />
+        <p className="mt-4 text-sm text-slate-700">Les propositions sont toujours modifiables. La composition et l'adéquation pédagogique restent à vérifier avant de transmettre le lien.</p>
       </section>
       <section className="rounded-2xl border border-slate-300 bg-white p-5 shadow-sm sm:p-7" aria-labelledby="teacher-mode-heading">
         <h2 id="teacher-mode-heading" className="text-2xl font-bold text-slate-950">2. Choisir un mode</h2>
@@ -182,12 +227,24 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
           <strong className="rounded-full bg-blue-100 px-4 py-2 text-blue-900" aria-live="polite">{chosenSituations.length} / 10 choisies</strong>
         </div>
         <p className="mt-3 text-slate-700">Dix situations distinctes sont nécessaires. Pour remplacer une situation, décochez-la avant d'en sélectionner une autre.</p>
+        {mixNotice && <div role="status" className="mt-4 rounded-xl border border-teal-400 bg-teal-50 p-4 text-teal-950">
+          <strong className="block">Composition de plusieurs thématiques appliquée</strong>
+          <ul className="mt-2 list-disc space-y-1 pl-5">
+            {mixNotice.mix.allocations.map((allocation) => <li key={allocation.presetId}>
+              {allocation.title} : {allocation.situationIds.length} situation{allocation.situationIds.length > 1 ? "s" : ""}
+              {" ("}{allocation.situationIds.join(", ")}{")"}
+            </li>)}
+          </ul>
+          {mixNotice.added > 0 && <p className="mt-2">{mixNotice.added} situation{mixNotice.added > 1 ? "s" : ""} complémentaire{mixNotice.added > 1 ? "s" : ""} ajoutée{mixNotice.added > 1 ? "s" : ""} automatiquement.</p>}
+          {chosenSituations.length < 10 && <p className="mt-2">Il reste {10 - chosenSituations.length} situation{chosenSituations.length < 9 ? "s" : ""} à choisir ci-dessous avant de créer le lien.</p>}
+        </div>}
         <div className="mt-4 flex flex-wrap gap-3">
           <button type="button" onClick={() => {
             const candidate = chosenCharacters[0] ?? getActiveCharactersForMode(mode)[0].id;
+            setMixNotice(null);
             setChosenSituations([...createActiveGameSet(mode, candidate).situationIds]); setCopied(false);
           }} className="min-h-11 rounded-lg border-2 border-blue-700 bg-blue-50 px-4 py-2 font-bold text-blue-900">↻ Nouvelle proposition du jeu</button>
-          <button type="button" onClick={() => { setChosenSituations([]); setCopied(false); }} className="min-h-11 rounded-lg border border-slate-500 bg-white px-4 py-2 font-semibold">Tout décocher</button>
+          <button type="button" onClick={() => { setMixNotice(null); setChosenSituations([]); setCopied(false); }} className="min-h-11 rounded-lg border border-slate-500 bg-white px-4 py-2 font-semibold">Tout décocher</button>
         </div>
         <div className="mt-4 grid gap-4 rounded-xl border border-slate-300 bg-slate-50 p-4 sm:grid-cols-2">
           <div><label htmlFor="teacher-search" className="mb-2 block font-semibold">Rechercher</label><input id="teacher-search" type="search" value={search} onChange={(e) => setSearch(e.target.value)} className="w-full rounded-lg border border-slate-400 bg-white p-3" placeholder="Titre, mot, mécanisme…" /></div>

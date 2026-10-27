@@ -81,3 +81,21 @@ Les données des propositions sont conservées dans `src/features/teacher/pedago
 - Compilation complète : réussie.
 - Vérification automatique des sept propositions dans les cinq modes : réussie.
 - Chrome headless sur une prévisualisation locale : chargement des sept propositions, dix situations, personnages cochés, absence d'avertissement d'équilibre, liens élève et de reprise, personnalisation sans être présentée comme une proposition inchangée et absence de régression dans le jeu libre : réussie.
+
+## Composer plusieurs thématiques dans une même séance — phase 4
+
+Au lieu d'appliquer une seule proposition de dix situations, l'enseignant peut maintenant définir une **répartition par intention pédagogique** : par exemple **2 situations** issues de « Comprendre les mécanismes », **1** de « Paroles, actes et réactions » et **2** de « Représentations et invisibilisation ».
+
+1. Dans **Préparer une séance → Partir d'une intention pédagogique**, ouvrir **Composer une séance avec plusieurs thématiques**.
+2. Choisir un ensemble compatible : **Obstacles visibles, normes et effets invisibles**, ou **Intersectionnalités**.
+3. Augmenter/diminuer le nombre de situations tirées dans chaque proposition (de 0 à 10, maximum 10 au total). Le compteur indique le total et les places restantes.
+4. Choisir éventuellement **Compléter automatiquement jusqu'à dix**. Sinon, seuls les quotas demandés sont appliqués, et les places libres sont à remplir dans la sélection manuelle à l'étape 4.
+5. Cliquer sur **Composer ma sélection**. Une synthèse indique les identifiants tirés de chaque proposition, et le nombre de compléments automatiques. L'enseignant reste libre de remplacer des situations et des personnages ; les liens élève et de modification sont ensuite générés pour une sélection de dix situations.
+
+**Doublons :** les propositions se recouvrent. L'algorithme sélectionne sans remise : un même identifiant ne peut être attribué à deux propositions. Les situations sont entrelacées pour éviter de juxtaposer les blocs thématiques.
+
+**Galeries :** les thèmes des familles V (obstacles visibles), N (normes ordinaires) et I (effets invisibles) sont composables entre eux en mode *Découverte*, avec les personnages P. Les propositions d'intersectionnalités se combinent entre elles dans leur propre mode avec les personnages XP. Les situations X ne sont pas mélangées directement avec V/N/I : cela nécessiterait d'adapter le modèle de données et le moteur de jeu, qui utilisent deux galeries et des modalités de feedback distinctes.
+
+**Protection pédagogique :** si le complément automatique est activé et si la sélection reste incomplète, le configurateur tente d'abord d'ajouter jusqu'à deux situations protectrices, puis complète avec le moteur de tirage habituel. Les avertissements pédagogiques restent affichés ; une composition libre n'est pas présentée comme automatiquement validée ni comme réservée à un âge ou niveau scolaire.
+
+**Contrôles réalisés :** `npm run check:teacher-mix` teste les quotas 2+1+2, le non-dédoublement de propositions qui se recouvrent, le mix 5+5 dans la galerie X et les incompatibilités de galerie. Ce test est maintenant intégré à la compilation `npm run build`. Tests Chrome/Puppeteer : mélange 2+1+2, affichage des quotas, composition partielle et lien volontairement bloqué sous dix situations, complément jusqu'à dix avec lien élève, mélange intersectionnel 5+5, jeu libre inchangé. Tous ces contrôles ont réussi sur la branche expérimentale.
