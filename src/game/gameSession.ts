@@ -36,16 +36,23 @@ const isModeId = (value: unknown): value is GameModeId => typeof value === "stri
 function isValidActiveGame(value: unknown): value is ActiveGameSnapshot {
   if (!isObject(value) || !isModeId(value.selectedModeId) || !isCharacterId(value.selectedCharacterId)) return false;
   if (value.configurationKey !== undefined && (typeof value.configurationKey !== "string" || value.configurationKey.length > 2048)) return false;
-  if (!Number.isInteger(value.currentIndex) || (value.currentIndex as number) < 0 || (value.currentIndex as number) > 9) return false;
   if (typeof value.phase !== "string" || !PHASES.has(value.phase as GamePhase) || typeof value.detailsOpen !== "boolean") return false;
   if (!isObject(value.gameSet) || value.gameSet.modeId !== value.selectedModeId || value.gameSet.characterId !== value.selectedCharacterId) return false;
   const situationIds = value.gameSet.situationIds;
   const situations = value.gameSet.situations;
-  if (!Array.isArray(situationIds) || !Array.isArray(situations) || situationIds.length !== 10 || situations.length !== 10) return false;
-  if (new Set(situationIds).size !== 10 || !situations.every((situation, index) => isObject(situation) && situation.id === situationIds[index])) return false;
+  if (!Array.isArray(situationIds) || !Array.isArray(situations)) return false;
+  const total = situationIds.length;
+  const isConfigured = typeof value.configurationKey === "string" && value.configurationKey.length > 0;
+  const maximum = value.selectedModeId === "intersectionalities" ? 16
+    : value.selectedModeId === "discovery" ? 45
+    : value.selectedModeId === "ordinary-norms" ? 13 : 16;
+  if (isConfigured ? total < 1 || total > maximum : total !== 10) return false;
+  if (situations.length !== total || new Set(situationIds).size !== total ||
+      !situations.every((situation, index) => isObject(situation) && situation.id === situationIds[index])) return false;
+  if (!Number.isInteger(value.currentIndex) || (value.currentIndex as number) < 0 || (value.currentIndex as number) >= total) return false;
   if (!Array.isArray(value.choiceHistory) || !Array.isArray(value.characters) || value.characters.length === 0) return false;
   if (!value.characters.every((character) => isObject(character) && isCharacterId(character.id) && Number.isInteger(character.position))) return false;
-  const expectedHistoryLength = value.phase === "question" ? value.currentIndex : value.phase === "feedback" ? (value.currentIndex as number) + 1 : 10;
+  const expectedHistoryLength = value.phase === "question" ? value.currentIndex : value.phase === "feedback" ? (value.currentIndex as number) + 1 : total;
   if (value.choiceHistory.length !== expectedHistoryLength) return false;
   return value.choiceHistory.every((entry, index) => isObject(entry) && entry.situationId === situationIds[index]);
 }

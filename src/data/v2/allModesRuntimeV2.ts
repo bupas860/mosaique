@@ -131,9 +131,13 @@ function createResolvedGameSet(
   modeId: RuntimeModeId,
   characterId: EditorialCharacterIdV2,
   selected: readonly NormalizedRuntimeSituationV2[],
+  configured = false,
 ): RuntimeGameSetV2 {
-  if (selected.length !== 10 || new Set(selected.map(({ id }) => id)).size !== 10) {
-    runtimeError(`mode ${modeId} — personnage ${characterId} — exactement dix situations uniques attendues`);
+  const maximum = modeId === "intersectionalities" ? 16 : modeId === "discovery" ? 45 : normalizedBanks[modeId].situations.length;
+  if (configured
+    ? (selected.length < 1 || selected.length > maximum || new Set(selected.map(({ id }) => id)).size !== selected.length)
+    : (selected.length !== 10 || new Set(selected.map(({ id }) => id)).size !== 10)) {
+    runtimeError(`mode ${modeId} — personnage ${characterId} — nombre de situations uniques incompatible`);
   }
   const situations = Object.freeze(selected.map((situation) => resolveSituation(situation, modeId, characterId)));
   return Object.freeze({
@@ -235,7 +239,7 @@ export function createConfiguredGameSet(
   const selected = situationIds.map((id) =>
     situationsById.get(id) ?? runtimeError(`Situation non autorisée pour le mode ${modeId} : ${id}`),
   );
-  return createResolvedGameSet(modeId, characterId, selected);
+  return createResolvedGameSet(modeId, characterId, selected, true);
 }
 
 export function createSeededRuntimeRandom(seed: number): RuntimeRandom {

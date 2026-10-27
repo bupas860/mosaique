@@ -32,10 +32,11 @@ export function validateTeacherSession(value: unknown): TeacherSessionV1 {
   const mode = config.mode;
   const situationIds = config.situationIds;
   const characterIds = config.characterIds;
-  if (!Array.isArray(situationIds) || situationIds.length !== 10 ||
+  const maxSituations = mode === "intersectionalities" ? 16 : mode === "discovery" ? 45 : teacherSituationsForMode(mode).length;
+  if (!Array.isArray(situationIds) || situationIds.length < 1 || situationIds.length > maxSituations ||
       !situationIds.every((id) => typeof id === "string") ||
-      new Set(situationIds).size !== 10) {
-    throw new Error("Une séance doit contenir exactement dix situations distinctes.");
+      new Set(situationIds).size !== situationIds.length) {
+    throw new Error(`Choisissez entre 1 et ${maxSituations} situations distinctes.`);
   }
   if (!Array.isArray(characterIds) || characterIds.length < 1 ||
       !characterIds.every((id) => typeof id === "string") ||

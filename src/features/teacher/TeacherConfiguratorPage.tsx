@@ -152,7 +152,7 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
   }
 
   const count = choices.situationIds.length;
-  const done = count === 10 && choices.characterIds.length >= 1;
+  const done = count >= 1 && count <= situations.length && choices.characterIds.length >= 1;
   const protectedCount = choices.situationIds.filter((id) => situations.some((s) => s.id === id && s.protective)).length;
 
   function situationRow(situation: NormalizedRuntimeSituationV2) {
@@ -225,7 +225,7 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
         <a href="#/" className="inline-block font-semibold text-blue-800 underline">← Retour à l'accueil</a>
         <p className="text-sm font-bold uppercase tracking-wide text-teal-800">Espace enseignant · Version expérimentale</p>
         <h1 className="text-3xl font-black text-slate-950 sm:text-4xl">Créer ma séance personnalisée</h1>
-        <p className="max-w-3xl text-slate-700">Choisissez librement <strong>10 situations</strong>, puis les <strong>personnages</strong> proposés aux participants. Aucun parcours ni situation n'est imposé.</p>
+        <p className="max-w-3xl text-slate-700">Choisissez librement <strong>le nombre de situations souhaité</strong>, puis les <strong>personnages</strong> proposés aux participants. Aucun parcours ni situation n'est imposé.</p>
         {opening.error && <p role="alert" className="rounded-lg border border-red-400 bg-red-50 p-3 text-red-900">Le lien de modification est invalide. Vous pouvez créer une nouvelle séance.</p>}
         {opening.loaded && <p role="status" className="rounded-lg border border-teal-300 bg-teal-50 p-3 text-teal-950">Séance retrouvée depuis votre lien de modification : ses choix sont préremplis.</p>}
       </header>
@@ -257,7 +257,7 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
           data-stage-tab={item.id}
           className={`min-h-12 rounded-xl border-2 px-3 py-3 text-left font-bold ${stage === item.id ? "border-blue-700 bg-blue-700 text-white" : "border-slate-300 bg-white text-blue-900 hover:bg-blue-50"}`}>
           {item.label}
-          {item.id === "situations" && <span className="ml-2 font-normal">({count}/10)</span>}
+          {item.id === "situations" && <span className="ml-2 font-normal">({count})</span>}
           {item.id === "characters" && <span className="ml-2 font-normal">({choices.characterIds.length}/{characters.length})</span>}
         </button>)}
       </nav>
@@ -265,11 +265,10 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
       {stage === "situations" && <section className="rounded-2xl border border-slate-300 bg-white p-4 shadow-sm sm:p-7" aria-labelledby="teacher-situations-heading">
         <div className="flex flex-wrap items-center justify-between gap-2">
           <h2 id="teacher-situations-heading" className="text-2xl font-bold text-slate-950">Choisir les situations</h2>
-          <strong className={`rounded-full px-4 py-2 ${count === 10 ? "bg-teal-100 text-teal-950" : count > 10 ? "bg-amber-100 text-amber-950" : "bg-blue-100 text-blue-950"}`} aria-live="polite" data-testid="teacher-situation-counter">{count} / 10</strong>
+          <strong className={`rounded-full px-4 py-2 ${count > 0 ? "bg-teal-100 text-teal-950" : "bg-blue-100 text-blue-950"}`} aria-live="polite" data-testid="teacher-situation-counter">{count} choisie{count > 1 ? "s" : ""}</strong>
         </div>
         <p className="mt-2 text-slate-700">Cochez la case <strong>ou cliquez sur le numéro ou le titre</strong> pour sélectionner une situation. Cliquez sur <strong>« Voir la fiche »</strong> pour lire l'énoncé complet et son explication.</p>
-        <p className="mt-2 text-sm text-slate-700">Au départ, rien n'est précoché. <strong>Une ligne verte signifie « sélectionnée ».</strong> Vous pouvez en cocher plus de dix pour comparer, puis n'en garder que dix.</p>
-        {count > 10 && <p className="mt-3 rounded-lg border border-amber-400 bg-amber-50 p-3 font-semibold text-amber-950" role="status">Vous avez choisi {count} situations : décochez-en {count - 10} pour constituer une séance de dix.</p>}
+        <p className="mt-2 text-sm text-slate-700">Au départ, rien n'est précoché. <strong>Une ligne verte signifie « sélectionnée ».</strong> Vous pouvez préparer une séance de 2, 3, 10 situations ou davantage : le choix vous appartient.</p>
         <div className="mt-5 grid gap-3 rounded-xl border border-slate-300 bg-slate-50 p-4 sm:grid-cols-2">
           <div>
             <label htmlFor="teacher-search" className="mb-1 block font-semibold">Rechercher une situation</label>
@@ -323,7 +322,7 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
           {shown.length === 0 && <p className="p-5 text-slate-700">Aucune situation ne correspond aux filtres. Modifiez votre recherche ou effacez les filtres.</p>}
         </div>
         <div className="mt-5 flex flex-wrap items-center justify-between gap-3 border-t border-slate-200 pt-5">
-          <p className="font-semibold text-slate-800">{count === 10 ? "✓ Vous avez dix situations." : `Vous avez ${count} situation${count > 1 ? "s" : ""} sélectionnée${count > 1 ? "s" : ""}.`}</p>
+          <p className="font-semibold text-slate-800">{count > 0 ? `✓ ${count} situation${count > 1 ? "s" : ""} sélectionnée${count > 1 ? "s" : ""}.` : "Cochez au moins une situation."}</p>
           <button type="button" onClick={() => changeStage("characters")} className="min-h-12 rounded-lg bg-blue-700 px-5 py-3 font-bold text-white hover:bg-blue-800">
             Suivant : choisir les personnages →
           </button>
@@ -356,7 +355,7 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
         <p className="mt-2 text-slate-700">Vérifiez les situations et les personnages choisis avant de générer le lien.</p>
         <div className="mt-5 grid gap-4 sm:grid-cols-2">
           <div className="rounded-xl border border-slate-300 bg-slate-50 p-4">
-            <h3 className="text-lg font-bold text-slate-950">Situations : {count} / 10</h3>
+            <h3 className="text-lg font-bold text-slate-950">Situations : {count} choisie{count > 1 ? "s" : ""}</h3>
             <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm text-slate-800">{choices.situationIds.map((id) => {
               const situation = situations.find((entry) => entry.id === id);
               return <li key={id}>{id} — {situation?.title ?? id}</li>;
@@ -370,9 +369,9 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
             <button type="button" className="mt-4 font-bold text-blue-900 underline" onClick={() => changeStage("characters")}>Modifier les personnages</button>
           </div>
         </div>
-        {count === 10 && <div className="mt-5 rounded-xl border border-slate-300 bg-white p-4">
+        {count > 0 && <div className="mt-5 rounded-xl border border-slate-300 bg-white p-4">
           <h3 className="font-bold text-slate-950">Repères pédagogiques <span className="font-normal text-slate-600">(facultatifs)</span></h3>
-          <p className="mt-2 text-sm text-slate-700">{protectedCount} situation{protectedCount > 1 ? "s" : ""} protectrice{protectedCount > 1 ? "s" : ""} sur dix.</p>
+          <p className="mt-2 text-sm text-slate-700">{protectedCount} situation{protectedCount > 1 ? "s" : ""} protectrice{protectedCount > 1 ? "s" : ""} sur {count}.</p>
           <details className="mt-3 text-sm">
             <summary className="cursor-pointer font-semibold text-blue-900">Voir les équilibres et points de vigilance</summary>
             <div className="mt-3 space-y-2 text-slate-800">
@@ -383,12 +382,12 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
           </details>
         </div>}
         {!done && <p className="mt-5 rounded-xl border border-amber-300 bg-amber-50 p-4 text-amber-950" role="status">
-          <strong>Séance incomplète.</strong> Il faut exactement dix situations et au moins un personnage.
+          <strong>Séance incomplète.</strong> Il faut au moins une situation et un personnage.
           Actuellement : {count} situation{count > 1 ? "s" : ""} et {choices.characterIds.length} personnage{choices.characterIds.length > 1 ? "s" : ""}. Revenez aux étapes précédentes pour compléter vos choix.
         </p>}
         {done && <div className="mt-5 rounded-xl border-2 border-teal-500 bg-teal-50 p-5">
           <h3 className="text-xl font-bold text-teal-950">✓ Votre séance est prête</h3>
-          <p className="mt-2 text-slate-700">Le lien élève lance la partie avec vos dix situations et les personnages choisis. Aucun compte n'est nécessaire.</p>
+          <p className="mt-2 text-slate-700">Le lien élève lance la partie avec vos {count} situation{count > 1 ? "s" : ""} et les personnages choisis. Aucun compte n'est nécessaire.</p>
           <label htmlFor="teacher-session-url" className="mb-1 mt-4 block font-bold text-slate-900">Lien élève</label>
           <input id="teacher-session-url" type="text" readOnly value={link} onFocus={(e) => e.currentTarget.select()} className="w-full rounded-lg border border-teal-500 bg-white p-3 text-sm text-slate-900" />
           <div className="mt-3 flex flex-wrap gap-3">

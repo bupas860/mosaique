@@ -1,3 +1,32 @@
+# Mise à jour — longueur libre des séances personnalisées (27 octobre 2026)
+
+**Une séance créée par l'enseignant n'est plus limitée à dix situations.**
+La limite de dix situations appartient au **jeu libre**, dont les règles restent
+inchangées.
+
+- **Situations générales** : choisir librement de **1 à 45** situations distinctes
+  parmi V, N et I, dans l'ordre de sélection.
+- **Intersectionnalités** : choisir librement de **1 à 16** situations X.
+- **Personnages** : choisir au moins un personnage compatible avec la galerie ;
+  il n'y a aucun nombre de personnages imposé.
+- Le tableau affiche **N situations choisies**, sans quota de dix ; le bouton
+  de partage est disponible dès qu'au moins une situation et un personnage
+  sont cochés. Par exemple, **V01 + V09 et les neuf personnages P** produisent
+  une partie de deux situations.
+- Le moteur utilise exactement la liste partagée ; la barre de progression, la
+  marche, le récapitulatif, la sauvegarde et la reprise s'adaptent à sa longueur.
+  La fin de partie intervient après la dernière situation retenue.
+- Le format des URL de séance et de reprise est **inchangé** :
+  les anciens liens à dix situations restent compatibles.
+
+**Tests réalisés dans un navigateur** : parties d'une, deux, trois et dix
+situations générales ; deux situations X ; fin et récapitulatif après la dernière
+situation ; rafraîchissement au milieu d'une partie et reprise au bon endroit ;
+redémarrage avec la même sélection ; séance de **45 V/N/I** et **16 X** ;
+jeu libre conservant ses dix situations.
+
+---
+
 # État actuel — interface simplifiée (27 octobre 2026)
 
 **La page active `#/preparer` a été entièrement simplifiée après essai utilisateur.**
@@ -26,13 +55,10 @@ quotas thématiques et le sélecteur des cinq modes ne sont plus affichés**.
    personnages, repères pédagogiques repliés par défaut, lien élève, test de
    séance et lien enseignant pour reprendre l'édition.
 
-**Règle des dix :** le formulaire autorise provisoirement plus de dix coches
-pour comparer et remplacer facilement une carte, mais n'émet un lien que
-lorsqu'il reste **exactement dix situations** et **au moins un personnage**.
-Cela évite le blocage antérieur où dix situations prédéfinies rendaient toutes
-les autres cases inactives. Les anciennes URL de séance et de modification
-restent lisibles. Les configurations en cours des deux galeries sont
-conservées séparément pendant cette session d'édition.
+**Nombre libre de situations :** l'enseignant sélectionne de **1 à 45 V/N/I**
+ou de **1 à 16 X**, sans minimum de dix. Il faut seulement au moins un
+personnage. Les anciens liens restent compatibles. Les configurations des deux
+galeries sont conservées séparément pendant la préparation.
 
 **Aucune modification du corpus éditorial, du moteur de jeu libre, de la branche
 publique `main` ou de La Forge.** Le partage depuis une URL Codespaces
