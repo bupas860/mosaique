@@ -1,3 +1,59 @@
+# État actuel — interface simplifiée (27 octobre 2026)
+
+**La page active `#/preparer` a été entièrement simplifiée après essai utilisateur.**
+Le détail des phases antérieures ci-dessous reste un historique de conception :
+**l'ancienne grille croisée, les sept cartes de parcours préparés, le mélange de
+quotas thématiques et le sélecteur des cinq modes ne sont plus affichés**.
+
+## Parcours utilisateur actuel
+
+1. **Type de séance** : deux choix clairs, **Situations générales (45 V/N/I)**
+   ou **Intersectionnalités (16 X)**. Ces deux galeries restent indépendantes.
+2. **Étape « Situations »** : **une liste unique sous forme de tableau**.
+   Aucune case n'est précochée lors d'une nouvelle séance. Le numéro, le titre
+   et la case permettent tous de sélectionner/désélectionner directement.
+   **Voir la fiche** révèle sur place l'énoncé réellement présenté aux
+   participants, la question, le mécanisme, l'interprétation et la vigilance
+   disponibles dans le corpus. La ligne verte correspond exclusivement à une
+   situation cochée, jamais à une carte « imposée » par défaut.
+3. Les seuls filtres sont la **recherche**, la **famille du jeu** (pour V/N/I),
+   les **quatre dimensions de repérage**, et l'option **« mes situations »**.
+   Ils portent sur la **liste de travail**, sans ajouter ni retirer
+   automatiquement de situations.
+4. **Étape « Personnages »** : les neuf personnages P ou les huit XP apparaissent
+   sans présélection. Choix individuel, **Tout sélectionner** ou **Tout décocher**.
+5. **Étape « Vérifier et partager »** : liste récapitulative des situations et
+   personnages, repères pédagogiques repliés par défaut, lien élève, test de
+   séance et lien enseignant pour reprendre l'édition.
+
+**Règle des dix :** le formulaire autorise provisoirement plus de dix coches
+pour comparer et remplacer facilement une carte, mais n'émet un lien que
+lorsqu'il reste **exactement dix situations** et **au moins un personnage**.
+Cela évite le blocage antérieur où dix situations prédéfinies rendaient toutes
+les autres cases inactives. Les anciennes URL de séance et de modification
+restent lisibles. Les configurations en cours des deux galeries sont
+conservées séparément pendant cette session d'édition.
+
+**Aucune modification du corpus éditorial, du moteur de jeu libre, de la branche
+publique `main` ou de La Forge.** Le partage depuis une URL Codespaces
+privée reste réservé aux essais tant que la version correspondante n'est
+pas publiée sur une adresse accessible.
+
+## Tests de non-régression et d'ergonomie
+
+- Compilation `npm run build` ; garde-fous préexistants conservés.
+- Navigateur Chrome hors Codespaces : tableau unique de 45 cartes,
+  zéro carte présélectionnée, coche V01 et V09, fiche V09 (énoncé +
+  explication), 11 choix permis puis retour à 10, zéro personnage initial,
+  deux personnages sélectionnés, liens de partage et de reprise,
+  partie réelle avec dix scènes, galerie X indépendante de seize cartes,
+  conservation des sélections pendant le changement de galerie,
+  jeu libre inchangé, absence de débordement sur écran mobile : vérifiés.
+- Le clic sur **numéro/titre** doit effectuer la même action que le clic
+  sur la case ; **Voir la fiche** n'affecte jamais la sélection.
+
+---
+
 # Configurateur de séances — version expérimentale
 
 Ce chantier n'existe que sur la branche `dev-configurateur`. Aucun déploiement sur la version publique ni sur La Forge.
