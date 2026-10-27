@@ -1,0 +1,58 @@
+[
+  {
+    "id": "comprendre-mecanismes",
+    "title": "Comprendre les mécanismes",
+    "description": "Mettre en relation paroles discriminantes, normes ordinaires et effets moins visibles.",
+    "mode": "discovery",
+    "situationIds": ["V01", "V03", "V09", "N02", "N06", "N12", "I04", "I10", "I13", "I16"],
+    "characterIds": ["P01", "P02", "P03", "P04", "P05", "P06", "P07", "P08", "P09"]
+  },
+  {
+    "id": "confidentialite-devoilement",
+    "title": "Confidentialité et dévoilement",
+    "description": "Observer les rumeurs, les confidences transmises, le numérique et le contrôle de sa vie privée.",
+    "mode": "discovery",
+    "situationIds": ["V05", "V13", "V10", "N01", "N03", "N02", "I10", "I13", "I14", "I16"],
+    "characterIds": ["P01", "P02", "P03", "P04", "P05", "P06", "P07", "P08", "P09"]
+  },
+  {
+    "id": "paroles-actes-reactions",
+    "title": "Paroles, actes et réactions",
+    "description": "Reconnaître les agressions, les injonctions et les interventions protectrices des adultes ou des pairs.",
+    "mode": "visible-obstacles",
+    "situationIds": ["V01", "V03", "V04", "V05", "V06", "V07", "V09", "V10", "V12", "V16"],
+    "characterIds": ["P01", "P02", "P03", "P04", "P05", "P06", "P07", "P08", "P09"]
+  },
+  {
+    "id": "normes-quotidiennes",
+    "title": "Normes et fonctionnement quotidien",
+    "description": "Examiner comment formulaires, consignes et organisations courantes influencent les possibilités d'agir.",
+    "mode": "ordinary-norms",
+    "situationIds": ["N01", "N02", "N03", "N04", "N06", "N07", "N08", "N10", "N12", "N13"],
+    "characterIds": ["P01", "P02", "P03", "P04", "P05", "P06", "P07", "P08", "P09"]
+  },
+  {
+    "id": "representations-invisibilisation",
+    "title": "Représentations et invisibilisation",
+    "description": "Interroger les récits dominants, les représentations répétées et la possibilité de se reconnaître dans les ressources.",
+    "mode": "invisible-effects",
+    "situationIds": ["I01", "I04", "I05", "I06", "I08", "I09", "I12", "I14", "I15", "I16"],
+    "characterIds": ["P01", "P02", "P03", "P05", "P06", "P07", "P08", "P09"]
+  },
+  {
+    "id": "identites-handicap-accessibilite",
+    "title": "Identités, handicap et accessibilité",
+    "description": "Étudier comment identité de genre, handicap, accessibilité et ressources peuvent se combiner.",
+    "mode": "intersectionalities",
+    "situationIds": ["X01", "X02", "X04", "X05", "X08", "X11", "X12", "X16", "X13", "X14"],
+    "characterIds": ["XP01", "XP02", "XP04", "XP08"]
+  },
+  {
+    "id": "familles-croyances-assignations",
+    "title": "Familles, croyances et assignations",
+    "description": "Explorer l'imbrication des stéréotypes raciaux ou religieux, de la famille, du genre et de la sexualisation.",
+    "mode": "intersectionalities",
+    "situationIds": ["X02", "X03", "X05", "X06", "X09", "X10", "X12", "X15", "X13", "X14"],
+    "characterIds": ["XP02", "XP03", "XP05", "XP06"]
+  }
+]

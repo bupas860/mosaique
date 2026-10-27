@@ -7,6 +7,7 @@ import {
   decodeTeacherSession, teacherSessionUrl, teacherSituationsForMode, validateTeacherSession, type TeacherSessionV1,
 } from "./teacherConfig";
 import { reviewTeacherSelection } from "./pedagogicalReview";
+import { PEDAGOGICAL_PRESETS, type PedagogicalPreset } from "./pedagogicalPresets";
 
 const groupLabels: Readonly<Record<string, string>> = {
   "visible-obstacles": "Obstacles visibles",
@@ -58,6 +59,26 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
     problem = error instanceof Error ? error.message : "Sélection incomplète.";
   }
 
+  const activePreset = PEDAGOGICAL_PRESETS.find((preset) => {
+    const candidate = preset.session;
+    return candidate.mode === mode &&
+      candidate.characterIds.length === chosenCharacters.length &&
+      candidate.situationIds.length === chosenSituations.length &&
+      candidate.characterIds.every((id) => chosenCharacters.includes(id)) &&
+      candidate.situationIds.every((id, index) => chosenSituations[index] === id);
+  });
+
+  function applyPreset(preset: PedagogicalPreset) {
+    const proposal = preset.session;
+    setMode(proposal.mode);
+    setChosenCharacters([...proposal.characterIds]);
+    setChosenSituations([...proposal.situationIds]);
+    setSearch("");
+    setFamily("all");
+    setOnlySelected(false);
+    setCopied(false);
+  }
+
   function changeMode(nextMode: ActiveGameModeIdV2) {
     setMode(nextMode);
     setChosenCharacters(getActiveCharactersForMode(nextMode).map(({ id }) => id));
@@ -100,8 +121,36 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
         <p className="rounded-xl border border-amber-300 bg-amber-50 p-4 text-sm leading-relaxed text-amber-950"><strong>Version d'essai :</strong> chaque partie comporte dix situations, comme dans le jeu d'origine. Les choix sont enregistrés dans le lien, et non sur un serveur. Ce lien ne masque pas le corpus public disponible ailleurs dans l'application.</p>
       </header>
 
+      <section className="rounded-2xl border border-slate-300 bg-white p-5 shadow-sm sm:p-7" aria-labelledby="teacher-presets-heading">
+        <h2 id="teacher-presets-heading" className="text-2xl font-bold text-slate-950">1. Partir d'une intention pédagogique (facultatif)</h2>
+        <p className="mt-2 text-slate-700">Ces propositions portent sur des mécanismes à travailler, et non sur l'âge ou le niveau des participants. Chaque proposition contient dix situations. Vous pourrez modifier librement le mode, les personnages et les situations après l'avoir chargée.</p>
+        <div className="mt-5 grid gap-4 lg:grid-cols-2">
+          {PEDAGOGICAL_PRESETS.map((preset) => {
+            const selected = activePreset?.id === preset.id;
+            const modeLabel = gameModes.find(({ id }) => id === preset.session.mode)?.title ?? preset.session.mode;
+            return <article key={preset.id} className={`rounded-xl border-2 p-4 ${selected ? "border-teal-600 bg-teal-50" : "border-slate-300 bg-slate-50"}`}>
+              <div className="mb-3 flex flex-wrap gap-2">
+                <span className="rounded-full bg-white px-3 py-1 text-xs font-bold text-blue-900">{modeLabel}</span>
+                <span className="rounded-full bg-white px-3 py-1 text-xs font-semibold text-slate-700">10 situations · {preset.session.characterIds.length} personnages</span>
+              </div>
+              <h3 className="text-xl font-bold text-slate-950">{preset.title}</h3>
+              <p className="mt-2 leading-relaxed text-slate-700">{preset.description}</p>
+              <details className="mt-3 text-sm text-slate-700"><summary className="cursor-pointer font-semibold text-blue-800">Voir les dix situations proposées</summary>
+                <ol className="mt-2 list-decimal space-y-1 pl-5">{preset.session.situationIds.map((id) => {
+                  const situation = teacherSituationsForMode(preset.session.mode).find((item) => item.id === id);
+                  return <li key={id}>{id} — {situation?.title ?? id}</li>;
+                })}</ol>
+              </details>
+              <button type="button" onClick={() => applyPreset(preset)} className="mt-4 min-h-11 w-full rounded-lg bg-blue-700 px-4 py-3 font-bold text-white hover:bg-blue-800" aria-label={`Charger la proposition ${preset.title} ; remplace la sélection actuelle`}>
+                {selected ? "✓ Proposition chargée — recharger" : "Utiliser cette proposition"}
+              </button>
+            </article>;
+          })}
+        </div>
+        <p className="mt-4 text-sm text-slate-700">Charger une proposition remplace la sélection en cours. Si vous préférez tout choisir vous-même, passez directement à l'étape suivante. La composition et l'adéquation pédagogique restent à vérifier avant de transmettre le lien.</p>
+      </section>
       <section className="rounded-2xl border border-slate-300 bg-white p-5 shadow-sm sm:p-7" aria-labelledby="teacher-mode-heading">
-        <h2 id="teacher-mode-heading" className="text-2xl font-bold text-slate-950">1. Choisir un mode</h2>
+        <h2 id="teacher-mode-heading" className="text-2xl font-bold text-slate-950">2. Choisir un mode</h2>
         <p className="mb-4 mt-2 text-slate-700">Un mode détermine les catégories de situations et les personnages proposés.</p>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {gameModes.filter((item) => item.available).map((item) =>
@@ -115,7 +164,7 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
 
       <section className="rounded-2xl border border-slate-300 bg-white p-5 shadow-sm sm:p-7" aria-labelledby="teacher-characters-heading">
         <div className="flex flex-wrap items-baseline justify-between gap-2">
-          <h2 id="teacher-characters-heading" className="text-2xl font-bold text-slate-950">2. Choisir les personnages</h2>
+          <h2 id="teacher-characters-heading" className="text-2xl font-bold text-slate-950">3. Choisir les personnages</h2>
           <span className="font-semibold text-blue-800">{chosenCharacters.length} / {characters.length} autorisés</span>
         </div>
         <p className="my-3 text-slate-700">Les élèves pourront choisir uniquement parmi les personnages cochés. Conservez-en au moins un.</p>
@@ -129,7 +178,7 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
 
       <section className="rounded-2xl border border-slate-300 bg-white p-5 shadow-sm sm:p-7" aria-labelledby="teacher-situations-heading">
         <div className="flex flex-wrap items-baseline justify-between gap-3">
-          <h2 id="teacher-situations-heading" className="text-2xl font-bold text-slate-950">3. Choisir les situations</h2>
+          <h2 id="teacher-situations-heading" className="text-2xl font-bold text-slate-950">4. Choisir les situations</h2>
           <strong className="rounded-full bg-blue-100 px-4 py-2 text-blue-900" aria-live="polite">{chosenSituations.length} / 10 choisies</strong>
         </div>
         <p className="mt-3 text-slate-700">Dix situations distinctes sont nécessaires. Pour remplacer une situation, décochez-la avant d'en sélectionner une autre.</p>
@@ -167,7 +216,7 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
       </section>
 
       <section className="rounded-2xl border border-slate-300 bg-white p-5 shadow-sm sm:p-7" aria-labelledby="teacher-review-heading">
-        <h2 id="teacher-review-heading" className="text-2xl font-bold text-slate-950">4. Vérifier la sélection</h2>
+        <h2 id="teacher-review-heading" className="text-2xl font-bold text-slate-950">5. Vérifier la sélection</h2>
         <p className="mt-3 text-slate-700">{review.total} situations dont {review.protectedCount} protectrices ; {chosenCharacters.length} personnages autorisés.</p>
         <div className="mt-3 flex flex-wrap gap-2">{Object.entries(review.byFamily).filter(([,count]) => count > 0).map(([id,count]) =>
           <span key={id} className="rounded-full border border-slate-300 bg-slate-50 px-3 py-2 text-sm font-semibold">{groupLabels[id]} : {count}</span>)}</div>
@@ -176,7 +225,7 @@ export default function TeacherConfiguratorPage({ initialCode }: { readonly init
         <p className="mt-3 text-sm text-slate-600">Les avertissements ne bloquent pas vos choix. Cette aide ne valide pas l'adaptation du contenu à l'âge des participants.</p>
       </section>
       <section className="rounded-2xl border-2 border-teal-600 bg-white p-5 shadow-sm sm:p-7" aria-labelledby="teacher-share-heading">
-        <h2 id="teacher-share-heading" className="text-2xl font-bold text-slate-950">5. Partager la séance</h2>
+        <h2 id="teacher-share-heading" className="text-2xl font-bold text-slate-950">6. Partager la séance</h2>
         {problem ? <p className="mt-3 rounded-xl border border-amber-300 bg-amber-50 p-3 text-amber-950" role="status">{problem}</p> : <>
           <p className="mt-3 text-slate-700">Ce lien ouvre le jeu avec uniquement vos personnages et situations sélectionnés. Il pourra être transmis aux élèves ou intégré dans Éléa lorsque cette version sera publiée sur une adresse accessible à votre public.</p>
           <p className="mt-3 rounded-lg border border-amber-300 bg-amber-50 p-3 text-sm text-amber-950"><strong>Codespaces :</strong> l'aperçu expérimental est privé et ne reste pas accessible lorsque le Codespace est arrêté. N'envoyez pas ce lien de test à une classe ; la diffusion fera l'objet d'une validation séparée.</p>
