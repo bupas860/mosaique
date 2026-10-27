@@ -3,7 +3,7 @@ import type { UnderstandModuleId } from "../types/understand";
 
 export type AppRoute =
   | { readonly kind: "home" }
-  | { readonly kind: "teacher-configurator" }
+  | { readonly kind: "teacher-configurator"; readonly sessionCode?: string }
   | { readonly kind: "game"; readonly sessionCode?: string }
   | { readonly kind: "explorer-characters" }
   | { readonly kind: "character-biography"; readonly characterId: EditorialCharacterIdV2; readonly context?: CharacterBiographyContext }
@@ -104,6 +104,12 @@ export function parseAppRoute(hash = window.location.hash): AppRoute {
     return { kind: "not-found", fragment: hash };
   }
   if (hash === "#/preparer") return { kind: "teacher-configurator" };
+  if (hash.startsWith("#/preparer?")) {
+    const params = new URLSearchParams(hash.slice("#/preparer?".length));
+    const sessionCode = params.get("config");
+    if (sessionCode !== null) return { kind: "teacher-configurator", sessionCode };
+    return { kind: "not-found", fragment: hash };
+  }
   if (hash === PERSONNAGES_HASH) return { kind: "explorer-characters" };
   if (hash === `${PERSONNAGES_HASH}/mots-et-parcours`) return { kind: "characters-words" };
   if (hash === `${PERSONNAGES_HASH}/quiz`) return { kind: "character-quiz" };

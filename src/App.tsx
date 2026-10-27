@@ -49,7 +49,7 @@ const quizLoading = <main className="game-loading" aria-busy="true" aria-live="p
 function pageForRoute(route: AppRoute, focusRoute: boolean): ReactNode {
   if (route.kind === "home") return <PublicHomePage />;
   if (route.kind === "game") return gamePage(route);
-  if (route.kind === "teacher-configurator") return <Suspense fallback={quizLoading}><TeacherConfiguratorPage /></Suspense>;
+  if (route.kind === "teacher-configurator") return <Suspense fallback={quizLoading}><TeacherConfiguratorPage key={route.sessionCode ?? "new"} initialCode={route.sessionCode} /></Suspense>;
   if (route.kind === "explorer-characters" || route.kind === "character-biography" || route.kind === "characters-words") return charactersPage(route);
   if (route.kind === "situations" || route.kind === "situations-focal" || route.kind === "situation-detail") return situationsPage(route, focusRoute);
   if (route.kind === "reperes" || route.kind === "repere-detail") return reperesPage(route);
