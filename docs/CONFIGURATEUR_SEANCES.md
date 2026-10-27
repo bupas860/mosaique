@@ -99,3 +99,35 @@ Au lieu d'appliquer une seule proposition de dix situations, l'enseignant peut m
 **Protection pédagogique :** si le complément automatique est activé et si la sélection reste incomplète, le configurateur tente d'abord d'ajouter jusqu'à deux situations protectrices, puis complète avec le moteur de tirage habituel. Les avertissements pédagogiques restent affichés ; une composition libre n'est pas présentée comme automatiquement validée ni comme réservée à un âge ou niveau scolaire.
 
 **Contrôles réalisés :** `npm run check:teacher-mix` teste les quotas 2+1+2, le non-dédoublement de propositions qui se recouvrent, le mix 5+5 dans la galerie X et les incompatibilités de galerie. Ce test est maintenant intégré à la compilation `npm run build`. Tests Chrome/Puppeteer : mélange 2+1+2, affichage des quotas, composition partielle et lien volontairement bloqué sous dix situations, complément jusqu'à dix avec lien élève, mélange intersectionnel 5+5, jeu libre inchangé. Tous ces contrôles ont réussi sur la branche expérimentale.
+
+## Vue croisée du corpus — phase 5 (27/10/2026)
+
+Le configurateur possède désormais, en première position, une **grille à double entrée de toutes les situations**, sans modifier le moteur de jeu.
+
+### Deux axes pédagogiques distincts
+
+- **Lignes :** les trois familles de mécanismes déjà constituées dans le corpus canonique : obstacles visibles (V, 16 situations), normes ordinaires (N, 13) et effets invisibles (I, 16).
+- **Colonnes :** cinq angles d'étude transversaux construits à partir du sens des situations : *Paroles et interactions* ; *Règles et organisation* ; *Représentations et modèles* ; *Confidentialité et visibilité* ; *Protections et réactions*.
+- **Cellules :** les identifiants des situations pertinentes. Un code est cliquable et affiche un aperçu du texte et du mécanisme. Un même code peut apparaître dans plusieurs cellules, mais l'application ne le joue jamais deux fois dans une même partie.
+
+Le tableau couvre **les 45 situations générales**, y compris les cartes non retenues dans les sept propositions de séances. Les familles sont celles du jeu de référence ; les angles sont **des repères éditoriaux ajoutés pour l'enseignant**, et non des modes de jeu supplémentaires.
+
+### Quatre filtres LGBTI+ indépendants
+
+L'enseignant peut faire ressortir les situations traitant explicitement d'une ou plusieurs dimensions : **orientation sexuelle et affective**, **identité de genre**, **expression de genre**, **caractéristiques sexuées (dont intersexuation)**. Les filtres sélectionnés s'appliquent comme un **OU** et ne créent aucune exclusion ou restriction d'âge. Une possibilité « situations transversales » signale les textes ne désignant pas une dimension particulière.
+
+Les étiquettes caractérisent **le mécanisme et le texte de la situation**, jamais l'identité présumée de l'élève, du personnage ou du public. L'absence d'une étiquette ne prouve pas l'absence d'impact pour un personnage. La quatrième catégorie est préférée à l'expression générique « sexe biologique » : elle permet de nommer plus précisément les caractères sexués sans présupposer un modèle corporel strictement binaire.
+
+### Intersectionnalités toujours séparées
+
+Un bloc indépendant, repliable, recense les **16 situations X**, avec les deux propositions thématiques existantes et la colonne **Autres situations intersectionnelles**, actuellement **X07 — Le document médical**. Les situations X ne figurent **jamais** dans la grille V/N/I. Le bloc partage les filtres de lecture mais **ne permet pas de mélanger** les galeries de personnages P et XP.
+
+### Classification et validation
+
+- Source canonique des situations : quatre fichiers `src/data/generated-v2/modes/*.json` ; ils ne sont pas édités pour les besoins de ce tableau.
+- **Classification éditoriale indépendante**, relisible et ajustable : `src/features/teacher/situationMatrixTaxonomy.json` (61 entrées explicites). Une entrée indique un ou plusieurs angles et zéro ou plusieurs dimensions. Le repérage doit encore faire l'objet d'une validation pédagogique humaine.
+- Affichage et filtres : `situationMatrixData.ts` et `SituationCrossMatrix.tsx`.
+- `npm run check:teacher-matrix` vérifie la couverture exacte des 61 identifiants du corpus, l'appartenance à des angles et dimensions connus, l'absence de doublons internes et l'indépendance des situations X. Cette vérification est intégrée à `npm run build`.
+- Tests navigateur locaux : 3 lignes × 5 colonnes, 45 situations générales distinctes, présence de codes dans plusieurs cellules, fiche consultable au clic, filtres et réinitialisation, 16 situations X et visibilité de X07, jeu libre sans régression. **Réussite**.
+
+Le tableau est **consultatif** : les changements de sélection se font dans l'étape « Choisir les situations » du configurateur. Les sept propositions thématiques et leur compositeur restent disponibles.

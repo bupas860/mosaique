@@ -1,0 +1,511 @@
+{
+  "V01": {
+    "approaches": [
+      "parole"
+    ],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "V02": {
+    "approaches": [
+      "parole"
+    ],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "V03": {
+    "approaches": [
+      "parole",
+      "representation"
+    ],
+    "dimensions": [
+      "expression"
+    ]
+  },
+  "V04": {
+    "approaches": [
+      "parole",
+      "organisation"
+    ],
+    "dimensions": [
+      "identite"
+    ]
+  },
+  "V05": {
+    "approaches": [
+      "confidentialite",
+      "organisation"
+    ],
+    "dimensions": [
+      "orientation",
+      "identite"
+    ]
+  },
+  "V06": {
+    "approaches": [
+      "parole",
+      "representation"
+    ],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "V07": {
+    "approaches": [
+      "parole",
+      "representation"
+    ],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "V08": {
+    "approaches": [
+      "parole"
+    ],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "V09": {
+    "approaches": [
+      "protection",
+      "parole"
+    ],
+    "dimensions": [
+      "orientation",
+      "identite"
+    ]
+  },
+  "V10": {
+    "approaches": [
+      "protection",
+      "confidentialite"
+    ],
+    "dimensions": [
+      "orientation",
+      "identite"
+    ]
+  },
+  "V11": {
+    "approaches": [
+      "representation",
+      "parole"
+    ],
+    "dimensions": [
+      "orientation",
+      "identite"
+    ]
+  },
+  "V12": {
+    "approaches": [
+      "parole",
+      "confidentialite"
+    ],
+    "dimensions": [
+      "identite",
+      "expression"
+    ]
+  },
+  "V13": {
+    "approaches": [
+      "confidentialite",
+      "organisation"
+    ],
+    "dimensions": [
+      "orientation",
+      "identite"
+    ]
+  },
+  "V14": {
+    "approaches": [
+      "confidentialite",
+      "representation"
+    ],
+    "dimensions": [
+      "orientation",
+      "identite",
+      "expression"
+    ]
+  },
+  "V15": {
+    "approaches": [
+      "confidentialite",
+      "parole"
+    ],
+    "dimensions": [
+      "orientation",
+      "identite"
+    ]
+  },
+  "V16": {
+    "approaches": [
+      "parole"
+    ],
+    "dimensions": [
+      "orientation",
+      "identite",
+      "expression"
+    ]
+  },
+  "N01": {
+    "approaches": [
+      "organisation",
+      "confidentialite"
+    ],
+    "dimensions": [
+      "identite"
+    ]
+  },
+  "N02": {
+    "approaches": [
+      "organisation",
+      "representation"
+    ],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "N03": {
+    "approaches": [
+      "organisation",
+      "confidentialite"
+    ],
+    "dimensions": [
+      "orientation",
+      "identite"
+    ]
+  },
+  "N04": {
+    "approaches": [
+      "representation",
+      "parole"
+    ],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "N05": {
+    "approaches": [
+      "representation",
+      "parole"
+    ],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "N06": {
+    "approaches": [
+      "organisation",
+      "representation"
+    ],
+    "dimensions": [
+      "identite"
+    ]
+  },
+  "N07": {
+    "approaches": [
+      "organisation",
+      "confidentialite"
+    ],
+    "dimensions": [
+      "identite"
+    ]
+  },
+  "N08": {
+    "approaches": [
+      "representation",
+      "organisation"
+    ],
+    "dimensions": [
+      "expression"
+    ]
+  },
+  "N09": {
+    "approaches": [
+      "representation",
+      "organisation"
+    ],
+    "dimensions": [
+      "expression"
+    ]
+  },
+  "N10": {
+    "approaches": [
+      "representation",
+      "organisation"
+    ],
+    "dimensions": [
+      "expression"
+    ]
+  },
+  "N11": {
+    "approaches": [
+      "organisation",
+      "representation"
+    ],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "N12": {
+    "approaches": [
+      "protection",
+      "confidentialite"
+    ],
+    "dimensions": [
+      "identite"
+    ]
+  },
+  "N13": {
+    "approaches": [
+      "protection",
+      "organisation"
+    ],
+    "dimensions": [
+      "identite"
+    ]
+  },
+  "I01": {
+    "approaches": [
+      "representation"
+    ],
+    "dimensions": [
+      "orientation",
+      "identite"
+    ]
+  },
+  "I02": {
+    "approaches": [
+      "confidentialite",
+      "parole"
+    ],
+    "dimensions": [
+      "orientation",
+      "identite"
+    ]
+  },
+  "I03": {
+    "approaches": [
+      "parole",
+      "representation"
+    ],
+    "dimensions": [
+      "orientation",
+      "identite"
+    ]
+  },
+  "I04": {
+    "approaches": [
+      "representation",
+      "organisation"
+    ],
+    "dimensions": [
+      "orientation",
+      "identite"
+    ]
+  },
+  "I05": {
+    "approaches": [
+      "representation"
+    ],
+    "dimensions": [
+      "sexe"
+    ]
+  },
+  "I06": {
+    "approaches": [
+      "representation"
+    ],
+    "dimensions": [
+      "orientation",
+      "identite"
+    ]
+  },
+  "I07": {
+    "approaches": [
+      "representation"
+    ],
+    "dimensions": [
+      "orientation",
+      "identite"
+    ]
+  },
+  "I08": {
+    "approaches": [
+      "representation"
+    ],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "I09": {
+    "approaches": [
+      "representation"
+    ],
+    "dimensions": [
+      "identite"
+    ]
+  },
+  "I10": {
+    "approaches": [
+      "confidentialite",
+      "representation"
+    ],
+    "dimensions": [
+      "orientation",
+      "identite"
+    ]
+  },
+  "I11": {
+    "approaches": [
+      "representation"
+    ],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "I12": {
+    "approaches": [
+      "confidentialite",
+      "parole"
+    ],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "I13": {
+    "approaches": [
+      "confidentialite",
+      "parole"
+    ],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "I14": {
+    "approaches": [
+      "protection",
+      "representation"
+    ],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "I15": {
+    "approaches": [
+      "protection",
+      "representation"
+    ],
+    "dimensions": [
+      "orientation",
+      "identite"
+    ]
+  },
+  "I16": {
+    "approaches": [
+      "representation"
+    ],
+    "dimensions": [
+      "expression"
+    ]
+  },
+  "X01": {
+    "approaches": [],
+    "dimensions": [
+      "identite"
+    ]
+  },
+  "X02": {
+    "approaches": [],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "X03": {
+    "approaches": [],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "X04": {
+    "approaches": [],
+    "dimensions": [
+      "identite"
+    ]
+  },
+  "X05": {
+    "approaches": [],
+    "dimensions": [
+      "orientation",
+      "expression"
+    ]
+  },
+  "X06": {
+    "approaches": [],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "X07": {
+    "approaches": [],
+    "dimensions": [
+      "sexe"
+    ]
+  },
+  "X08": {
+    "approaches": [],
+    "dimensions": [
+      "identite"
+    ]
+  },
+  "X09": {
+    "approaches": [],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "X10": {
+    "approaches": [],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "X11": {
+    "approaches": [],
+    "dimensions": [
+      "identite"
+    ]
+  },
+  "X12": {
+    "approaches": [],
+    "dimensions": [
+      "orientation",
+      "identite"
+    ]
+  },
+  "X13": {
+    "approaches": [],
+    "dimensions": [
+      "identite"
+    ]
+  },
+  "X14": {
+    "approaches": [],
+    "dimensions": []
+  },
+  "X15": {
+    "approaches": [],
+    "dimensions": [
+      "orientation"
+    ]
+  },
+  "X16": {
+    "approaches": [],
+    "dimensions": [
+      "sexe"
+    ]
+  }
+}
