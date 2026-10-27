@@ -2,14 +2,14 @@
   "name": "Mosaïque — laboratoire configurateur",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
   "postCreateCommand": "npm ci",
-  "postStartCommand": "nohup npm run dev -- --host 0.0.0.0 > /tmp/mosaique-vite.log 2>&1 < /dev/null &",
+  "postStartCommand": "bash .devcontainer/ensure-vite.sh",
   "forwardPorts": [
     5173
   ],
   "portsAttributes": {
     "5173": {
       "label": "Aperçu privé — La marche des privilèges",
-      "onAutoForward": "openPreview",
+      "onAutoForward": "notify",
       "visibility": "private"
     }
   },
@@ -19,5 +19,6 @@
         "files.autoSave": "afterDelay"
       }
     }
-  }
+  },
+  "postAttachCommand": "bash .devcontainer/ensure-vite.sh"
 }
