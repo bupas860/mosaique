@@ -7,6 +7,7 @@ export type GamePhase = "question" | "feedback" | "end";
 
 export interface ActiveGameSnapshot {
   readonly gameSet: RuntimeGameSetV2;
+  readonly configurationKey?: string;
   readonly selectedCharacterId: EditorialCharacterIdV2;
   readonly selectedModeId: GameModeId;
   readonly currentIndex: number;
@@ -34,6 +35,7 @@ const isModeId = (value: unknown): value is GameModeId => typeof value === "stri
 
 function isValidActiveGame(value: unknown): value is ActiveGameSnapshot {
   if (!isObject(value) || !isModeId(value.selectedModeId) || !isCharacterId(value.selectedCharacterId)) return false;
+  if (value.configurationKey !== undefined && (typeof value.configurationKey !== "string" || value.configurationKey.length > 2048)) return false;
   if (!Number.isInteger(value.currentIndex) || (value.currentIndex as number) < 0 || (value.currentIndex as number) > 9) return false;
   if (typeof value.phase !== "string" || !PHASES.has(value.phase as GamePhase) || typeof value.detailsOpen !== "boolean") return false;
   if (!isObject(value.gameSet) || value.gameSet.modeId !== value.selectedModeId || value.gameSet.characterId !== value.selectedCharacterId) return false;

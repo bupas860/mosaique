@@ -213,6 +213,31 @@ export function createGameSet(options: CreateGameSetOptionsV2): RuntimeGameSetV2
   return createDiscoveryGameSet(characterId as CharacterIdV2, random);
 }
 
+/**
+ * Séance entièrement choisie par l'enseignant. Conserve les décisions et les
+ * retours éditoriaux de chaque situation, sans modifier le tirage libre.
+ */
+export function createConfiguredGameSet(
+  modeId: RuntimeModeId,
+  characterId: EditorialCharacterIdV2,
+  situationIds: readonly EditorialSituationIdV2[],
+): RuntimeGameSetV2 {
+  assertMode(modeId);
+  assertCharacter(modeId, characterId);
+  const sourceModes = modeId === "discovery"
+    ? (["visible-obstacles", "ordinary-norms", "invisible-effects"] as const)
+    : ([modeId] as const);
+  const situationsById = new Map(
+    sourceModes.flatMap((sourceMode) =>
+      normalizedBanks[sourceMode].situations.map((situation) => [situation.id, situation] as const),
+    ),
+  );
+  const selected = situationIds.map((id) =>
+    situationsById.get(id) ?? runtimeError(`Situation non autorisée pour le mode ${modeId} : ${id}`),
+  );
+  return createResolvedGameSet(modeId, characterId, selected);
+}
+
 export function createSeededRuntimeRandom(seed: number): RuntimeRandom {
   if (!Number.isInteger(seed) || seed < 0 || seed > 0xffffffff) runtimeError(`graine entière non signée attendue, valeur reçue : ${String(seed)}`);
   let state = seed >>> 0;

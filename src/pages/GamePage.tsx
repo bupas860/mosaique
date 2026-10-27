@@ -20,21 +20,25 @@ import {
 import type { EditorialCharacterIdV2, MovementDecision } from "../types/editorialV2";
 import type { ChoiceHistoryEntryV2, GameCharacterV2 } from "../types/choiceHistory";
 import type { RuntimeGameSetV2 } from "../types/runtimeV2";
+import { createConfiguredGameSet } from "../data/v2/allModesRuntimeV2";
+import type { TeacherSessionV1 } from "../features/teacher/teacherConfig";
 import { personalizePlayerText } from "../utils/personalizePlayerText";
 import FinalSummaryPage from "./FinalSummaryPage";
 import { saveActiveGame, type ActiveGameSnapshot, type GamePhase } from "../game/gameSession";
 
-interface Props { initialGameSet: RuntimeGameSetV2; initialSnapshot?: ActiveGameSnapshot; selectedCharacterId: EditorialCharacterIdV2; selectedModeId: ActiveGameModeIdV2; onQuit: () => void; onChooseAnotherCharacter: () => void; onBackHome: () => void; backHomeLabel: string; }
-const initialGameCharacters = (modeId: ActiveGameModeIdV2): GameCharacterV2[] =>
-  getActiveCharactersForMode(modeId).map((character) => ({ ...character, position: 0 }));
+interface Props { initialGameSet: RuntimeGameSetV2; initialSnapshot?: ActiveGameSnapshot; selectedCharacterId: EditorialCharacterIdV2; selectedModeId: ActiveGameModeIdV2; onQuit: () => void; onChooseAnotherCharacter: () => void; onBackHome: () => void; backHomeLabel: string; configuredSession?: TeacherSessionV1; configurationKey?: string; }
+const initialGameCharacters = (modeId: ActiveGameModeIdV2, allowedIds?: readonly EditorialCharacterIdV2[]): GameCharacterV2[] =>
+  getActiveCharactersForMode(modeId)
+    .filter((character) => !allowedIds || allowedIds.includes(character.id))
+    .map((character) => ({ ...character, position: 0 }));
 const decisionLabel = (name: string, decision: MovementDecision) => `${name} ${decision === "advance" ? "avance" : "reste sur place"}`;
 
-export default function GamePage({ initialGameSet, initialSnapshot, selectedCharacterId, selectedModeId, onQuit, onChooseAnotherCharacter, onBackHome, backHomeLabel }: Props) {
+export default function GamePage({ initialGameSet, initialSnapshot, selectedCharacterId, selectedModeId, onQuit, onChooseAnotherCharacter, onBackHome, backHomeLabel, configuredSession, configurationKey }: Props) {
   const [gameSet, setGameSet] = useState(initialSnapshot?.gameSet ?? initialGameSet);
   const [currentIndex, setCurrentIndex] = useState(initialSnapshot?.currentIndex ?? 0);
   const [phase, setPhase] = useState<GamePhase>(initialSnapshot?.phase ?? "question");
   const [choiceHistory, setChoiceHistory] = useState<ChoiceHistoryEntryV2[]>(() => [...(initialSnapshot?.choiceHistory ?? [])]);
-  const [characters, setCharacters] = useState<GameCharacterV2[]>(() => [...(initialSnapshot?.characters ?? initialGameCharacters(selectedModeId))]);
+  const [characters, setCharacters] = useState<GameCharacterV2[]>(() => [...(initialSnapshot?.characters ?? initialGameCharacters(selectedModeId, configuredSession?.characterIds))]);
   const [detailsOpen, setDetailsOpen] = useState(initialSnapshot?.detailsOpen ?? false);
   const [quitConfirmationOpen, setQuitConfirmationOpen] = useState(false);
   const quitButtonRef = useRef<HTMLButtonElement>(null);
@@ -51,7 +55,7 @@ export default function GamePage({ initialGameSet, initialSnapshot, selectedChar
   }, [currentIndex, phase]);
 
   useEffect(() => {
-    saveActiveGame({ gameSet, selectedCharacterId, selectedModeId, currentIndex, phase, choiceHistory, characters, detailsOpen });
+    saveActiveGame({ gameSet, selectedCharacterId, selectedModeId, currentIndex, phase, choiceHistory, characters, detailsOpen, configurationKey });
   }, [gameSet, selectedCharacterId, selectedModeId, currentIndex, phase, choiceHistory, characters, detailsOpen]);
 
   function requestQuit() {
@@ -93,15 +97,17 @@ export default function GamePage({ initialGameSet, initialSnapshot, selectedChar
   function restart() {
     answerLockedRef.current = false;
     continueLockedRef.current = false;
-    setGameSet(createActiveGameSet(selectedModeId, selectedCharacterId));
-    setCharacters(initialGameCharacters(selectedModeId));
+    setGameSet(configuredSession
+      ? createConfiguredGameSet(configuredSession.mode, selectedCharacterId, configuredSession.situationIds)
+      : createActiveGameSet(selectedModeId, selectedCharacterId));
+    setCharacters(initialGameCharacters(selectedModeId, configuredSession?.characterIds));
     setCurrentIndex(0);
     setChoiceHistory([]);
     setDetailsOpen(false);
     setPhase("question");
   }
 
-  if (phase === "end") return <FinalSummaryPage characters={characters} initialCharacters={initialGameCharacters(selectedModeId)} playedSituations={gameSet.situations} choiceHistory={choiceHistory} selectedCharacterId={selectedCharacterId} selectedModeId={selectedModeId} onRestart={restart} onChooseAnotherCharacter={onChooseAnotherCharacter} onBackHome={onBackHome} backHomeLabel={backHomeLabel} />;
+  if (phase === "end") return <FinalSummaryPage characters={characters} initialCharacters={initialGameCharacters(selectedModeId, configuredSession?.characterIds)} playedSituations={gameSet.situations} choiceHistory={choiceHistory} selectedCharacterId={selectedCharacterId} selectedModeId={selectedModeId} onRestart={restart} onChooseAnotherCharacter={onChooseAnotherCharacter} onBackHome={onBackHome} backHomeLabel={backHomeLabel} />;
   const latest = choiceHistory.at(-1);
   const feedback = phase === "feedback" ? situation.feedback : undefined;
   const playerSituation = preparePlayerSituation(situation);

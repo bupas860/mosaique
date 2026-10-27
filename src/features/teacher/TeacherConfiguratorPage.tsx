@@ -91,7 +91,7 @@ export default function TeacherConfiguratorPage() {
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {gameModes.filter((item) => item.available).map((item) =>
             <label key={item.id} className={`flex cursor-pointer gap-3 rounded-xl border-2 p-4 ${mode === item.id ? "border-blue-600 bg-blue-50" : "border-slate-300 bg-white hover:border-blue-400"}`}>
-              <input type="radio" name="teacher-game-mode" className="mt-1 h-5 w-5 accent-blue-700" checked={mode === item.id} onChange={() => changeMode(item.id as ActiveGameModeIdV2)} />
+              <input type="radio" name="teacher-game-mode" value={item.id} className="mt-1 h-5 w-5 accent-blue-700" checked={mode === item.id} onChange={() => changeMode(item.id as ActiveGameModeIdV2)} />
               <span><strong className="block text-slate-950">{item.title}</strong><span className="mt-1 block text-sm text-slate-700">{item.description}</span></span>
             </label>,
           )}

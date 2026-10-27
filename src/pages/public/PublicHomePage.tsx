@@ -11,7 +11,7 @@ export default function PublicHomePage() {
         <h1 id="home-title" className="home-hero__title">La marche des privilèges</h1>
         <div className="home-hero__paths" aria-hidden="true" />
         <p className="home-hero__intro">Incarnez un personnage et observez comment des situations ordinaires peuvent réduire ou élargir sa marge de manœuvre.</p>
-        <div className="home-hero__action"><a className="home-primary-link" href="#/jouer">Commencer une partie</a></div>
+        <div className="home-hero__action"><a className="home-primary-link" href="#/jouer">Commencer une partie</a><a className="mt-4 inline-block rounded-lg bg-white/90 px-4 py-3 font-bold text-blue-900 underline underline-offset-4" href="#/preparer">Préparer une séance (enseignants)</a></div>
       </div>
     </section>
     <aside className="home-introduction">

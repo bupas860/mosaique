@@ -6,6 +6,7 @@ import { parseAppRoute, subscribeAppRoute, type AppRoute } from "./utils/appRout
 import { PUBLIC_ACTIVITY, PUBLIC_BRAND, publicDocumentTitle } from "./utils/publicIdentity";
 
 const GameApp = lazy(() => import("./game/GameApp"));
+const TeacherConfiguratorPage = lazy(() => import("./features/teacher/TeacherConfiguratorPage"));
 const SituationsApp = lazy(() => import("./features/situations/SituationsApp"));
 const CharactersApp = lazy(() => import("./features/characters/CharactersApp"));
 const ReperesApp = lazy(() => import("./features/reperes/ReperesApp"));
@@ -16,14 +17,15 @@ const SituationQuizApp = lazy(() => import("./features/quiz/SituationQuizApp"));
 const routeTitles: Partial<Record<AppRoute["kind"], string>> = {
   home: publicDocumentTitle(PUBLIC_ACTIVITY),
   game: publicDocumentTitle(PUBLIC_ACTIVITY),
+  "teacher-configurator": publicDocumentTitle("Préparer une séance"),
   "explorer-characters": publicDocumentTitle("Personnages"),
   situations: publicDocumentTitle("Situations"),
   reperes: publicDocumentTitle("Repères"),
   "not-found": publicDocumentTitle("Page introuvable"),
 };
 
-function gamePage() {
-  return <Suspense fallback={<main className="game-loading" aria-busy="true" aria-live="polite"><p>Chargement du jeu…</p></main>}><GameApp /></Suspense>;
+function gamePage(route: Extract<AppRoute, { kind: "game" }>) {
+  return <Suspense fallback={<main className="game-loading" aria-busy="true" aria-live="polite"><p>Chargement du jeu…</p></main>}><GameApp key={route.sessionCode ?? "libre"} sessionCode={route.sessionCode} /></Suspense>;
 }
 
 function situationsPage(route: Extract<AppRoute, { kind: "situations" | "situations-focal" | "situation-detail" }>, focusRoute: boolean) {
@@ -46,7 +48,8 @@ const quizLoading = <main className="game-loading" aria-busy="true" aria-live="p
 
 function pageForRoute(route: AppRoute, focusRoute: boolean): ReactNode {
   if (route.kind === "home") return <PublicHomePage />;
-  if (route.kind === "game") return gamePage();
+  if (route.kind === "game") return gamePage(route);
+  if (route.kind === "teacher-configurator") return <Suspense fallback={quizLoading}><TeacherConfiguratorPage /></Suspense>;
   if (route.kind === "explorer-characters" || route.kind === "character-biography" || route.kind === "characters-words") return charactersPage(route);
   if (route.kind === "situations" || route.kind === "situations-focal" || route.kind === "situation-detail") return situationsPage(route, focusRoute);
   if (route.kind === "reperes" || route.kind === "repere-detail") return reperesPage(route);

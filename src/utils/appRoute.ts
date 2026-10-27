@@ -3,7 +3,8 @@ import type { UnderstandModuleId } from "../types/understand";
 
 export type AppRoute =
   | { readonly kind: "home" }
-  | { readonly kind: "game" }
+  | { readonly kind: "teacher-configurator" }
+  | { readonly kind: "game"; readonly sessionCode?: string }
   | { readonly kind: "explorer-characters" }
   | { readonly kind: "character-biography"; readonly characterId: EditorialCharacterIdV2; readonly context?: CharacterBiographyContext }
   | { readonly kind: "characters-words" }
@@ -96,6 +97,13 @@ function isLegacyUnderstandRoute(hash: string): boolean {
 export function parseAppRoute(hash = window.location.hash): AppRoute {
   if (!hash || hash === "#" || hash === HOME_HASH) return { kind: "home" };
   if (hash === GAME_HASH) return { kind: "game" };
+  if (hash.startsWith(`${GAME_HASH}?`)) {
+    const params = new URLSearchParams(hash.slice(GAME_HASH.length + 1));
+    const sessionCode = params.get("seance");
+    if (sessionCode !== null) return { kind: "game", sessionCode };
+    return { kind: "not-found", fragment: hash };
+  }
+  if (hash === "#/preparer") return { kind: "teacher-configurator" };
   if (hash === PERSONNAGES_HASH) return { kind: "explorer-characters" };
   if (hash === `${PERSONNAGES_HASH}/mots-et-parcours`) return { kind: "characters-words" };
   if (hash === `${PERSONNAGES_HASH}/quiz`) return { kind: "character-quiz" };
