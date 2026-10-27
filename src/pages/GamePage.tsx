@@ -107,7 +107,7 @@ export default function GamePage({ initialGameSet, initialSnapshot, selectedChar
     setPhase("question");
   }
 
-  if (phase === "end") return <FinalSummaryPage characters={characters} initialCharacters={initialGameCharacters(selectedModeId, configuredSession?.characterIds)} playedSituations={gameSet.situations} choiceHistory={choiceHistory} selectedCharacterId={selectedCharacterId} selectedModeId={selectedModeId} onRestart={restart} onChooseAnotherCharacter={onChooseAnotherCharacter} onBackHome={onBackHome} backHomeLabel={backHomeLabel} />;
+  if (phase === "end") return <FinalSummaryPage teacherSession={!!configuredSession} characters={characters} initialCharacters={initialGameCharacters(selectedModeId, configuredSession?.characterIds)} playedSituations={gameSet.situations} choiceHistory={choiceHistory} selectedCharacterId={selectedCharacterId} selectedModeId={selectedModeId} onRestart={restart} onChooseAnotherCharacter={onChooseAnotherCharacter} onBackHome={onBackHome} backHomeLabel={backHomeLabel} />;
   const latest = choiceHistory.at(-1);
   const feedback = phase === "feedback" ? situation.feedback : undefined;
   const playerSituation = preparePlayerSituation(situation);
@@ -119,7 +119,7 @@ export default function GamePage({ initialGameSet, initialSnapshot, selectedChar
     : undefined;
   return <><AppBackground as="main" className="game-background" style={{ "--character-accent": selectedCharacter.accentColor } as React.CSSProperties}>
     <div className="mx-auto w-full max-w-[100rem] p-4 sm:p-8 lg:p-8 xl:p-10"><div className="grid min-w-0 items-start gap-8 lg:grid-cols-[minmax(0,3fr)_minmax(25rem,2fr)]">
-      <div id="privilege-margin" className="order-2 min-w-0 scroll-mt-4 lg:order-1"><PrivilegeMargin characters={characters} selectedCharacterId={selectedCharacterId} totalExperiences={gameSet.situations.length} currentSituation={currentIndex + 1} /></div>
+      <div id="privilege-margin" className="order-2 min-w-0 scroll-mt-4 lg:order-1"><PrivilegeMargin characters={characters} selectedCharacterId={selectedCharacterId} totalExperiences={gameSet.situations.length} currentSituation={currentIndex + 1} allowCharacterBiographyLink={!configuredSession} /></div>
       <aside className="app-surface situation-panel order-1 min-w-0 rounded-2xl border p-5 sm:p-6 lg:order-2 lg:sticky lg:top-6">
         <div className="game-active-actions"><button ref={quitButtonRef} type="button" onClick={requestQuit}>Quitter la partie</button></div>
         <section aria-label="Personnage incarné" className="mb-5 min-w-0 rounded-xl border border-slate-300 bg-white/80 p-4 lg:hidden">

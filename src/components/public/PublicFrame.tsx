@@ -37,6 +37,7 @@ export default function PublicFrame({ route, routeKey, children }: PublicFramePr
   const menuButton = useRef<HTMLButtonElement>(null);
   const current = activeSection(route);
   const eleaPresentation = isEleaContext();
+  const studentSession = route.kind === "game" && route.sessionCode !== undefined;
 
   useEffect(() => setMenuOpen(false), [routeKey]);
   useEffect(() => {
@@ -71,8 +72,10 @@ export default function PublicFrame({ route, routeKey, children }: PublicFramePr
       <a className="skip-link" href="#main-content">Aller au contenu principal</a>
       <header className="public-header">
         <div className="public-header__inner">
-          {eleaPresentation ? <span className="public-brand">{PUBLIC_BRAND}</span> : <a className="public-brand" href={HOME_HASH} aria-current={current === "home" ? "page" : undefined}>{PUBLIC_BRAND}</a>}
-          {!eleaPresentation && <nav className="public-nav" aria-label="Navigation principale">
+          {eleaPresentation || studentSession
+            ? <span className="public-brand">{PUBLIC_BRAND}</span>
+            : <a className="public-brand" href={HOME_HASH} aria-current={current === "home" ? "page" : undefined}>{PUBLIC_BRAND}</a>}
+          {!eleaPresentation && !studentSession && <nav className="public-nav" aria-label="Navigation principale">
             {links(false)}
             <button
               ref={menuButton}
@@ -92,9 +95,9 @@ export default function PublicFrame({ route, routeKey, children }: PublicFramePr
         </div>
       </header>
       <div id="main-content" className="public-content" tabIndex={-1}>{children}</div>
-      <footer className={`public-footer${eleaPresentation ? " public-footer--elea" : ""}`}>
-        {eleaPresentation ? (
-          <span>{PUBLIC_BRAND}</span>
+      <footer className={`public-footer${eleaPresentation || studentSession ? " public-footer--elea" : ""}`}>
+        {eleaPresentation || studentSession ? (
+          <span>{PUBLIC_BRAND} — Pascal Busac · Code GPL-3.0-or-later · Contenus CC BY 4.0</span>
         ) : (
           <div className="public-footer__inner">
             <p><a href="https://forge.apps.education.fr/busacpascal/la-marche-des-privileges">{PUBLIC_BRAND}</a> — Pascal Busac</p>

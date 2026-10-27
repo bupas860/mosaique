@@ -13,6 +13,7 @@ interface Props {
   proposedPositions?: Record<string, number>;
   className?: string;
   prominent?: boolean;
+  allowCharacterBiographyLink?: boolean;
 }
 
 function getMarkerPosition(steps: number, totalExperiences: number) {
@@ -35,6 +36,7 @@ export default function PrivilegeMargin({
   proposedPositions,
   className = "mb-8",
   prominent = false,
+  allowCharacterBiographyLink = true,
 }: Props) {
   const [hoveredProfileId, setHoveredProfileId] = useState<string>();
   const [openProfileId, setOpenProfileId] = useState<string>();
@@ -151,7 +153,7 @@ export default function PrivilegeMargin({
                       Personnage incarné
                     </span>
                   )}
-                  {isSelected && <a className="selected-character-link text-sm font-medium underline underline-offset-2 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-600 focus-visible:ring-offset-2" href={characterBiographyHash(character.id, { type: "game" })}>Voir le personnage</a>}
+                  {isSelected && allowCharacterBiographyLink && <a className="selected-character-link text-sm font-medium underline underline-offset-2 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-600 focus-visible:ring-offset-2" href={characterBiographyHash(character.id, { type: "game" })}>Voir le personnage</a>}
                 </div>
                 {proposedPositions ? (
                   <div className="flex flex-wrap justify-end gap-x-3 gap-y-1 text-sm text-slate-700">

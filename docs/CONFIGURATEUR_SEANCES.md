@@ -1,3 +1,22 @@
+# Mode élève — navigation limitée à la séance (27 octobre 2026)
+
+**Une séance personnalisée doit présenter exclusivement son contenu choisi, sans reproduire l'interface de configuration.**
+
+Depuis l'URL `#/jouer?seance=...` :
+- L'écran de préparation ne montre **aucun choix de mode** : le mode est déterminé par le lien de l'enseignant.
+- Le titre devient **« Choisissez votre personnage »**, sans « Séance préparée par votre enseignant » ni « Retour à l'accueil ».
+- Seuls les personnages identifiés dans la configuration du lien sont proposés, même s'il ne s'agit que d'un ou deux personnages.
+- La barre de navigation globale **Jouer / Personnages / Situations / Repères**, son menu mobile et le lien du logo vers l'accueil sont **masqués pendant l'ensemble de la séance**, y compris le bilan final. On ne donne pas accès à la liste complète depuis l'interface de l'activité.
+- Le lien **« Voir le personnage »** dans la marche est masqué durant une séance configurée. Les informations du personnage sélectionné restent présentes dans la marche.
+- Le bilan ne présente plus l'intitulé technique du mode ; l'attribution et les licences demeurent visibles en pied de page, sous forme de texte sans lien vers le catalogue.
+- L'accès habituel au jeu libre `#/jouer`, au configurateur enseignant `#/preparer` et aux rubriques publiques de l'application n'est **pas modifié**.
+
+**Portée technique :** il s'agit d'une restriction de **l'interface et du parcours élève**, **pas** d'un dispositif de confidentialité. Le corpus demeure présent dans les fichiers publics du projet et accessible par une navigation explicite vers les autres pages de l'application ou sur une autre session. Une protection effective contre l'accès direct nécessiterait une architecture de diffusion distincte côté serveur et ne doit pas être promise par un simple lien Base64URL.
+
+**Tests Chrome hors Codespaces** : lien V01 + V09 avec deux personnages autorisés, absence de choix du mode, des onglets et des liens d'exploration, marche limitée aux deux situations et aux deux personnages, bilan sans intitulé de mode ni lien vers la galerie complète, rechargement du bilan, lien X avec un seul personnage XP, interface mobile sans menu global ; non-régression du jeu libre et du configurateur enseignant. Tous ces contrôles ont réussi.
+
+---
+
 # Mise à jour — longueur libre des séances personnalisées (27 octobre 2026)
 
 **Une séance créée par l'enseignant n'est plus limitée à dix situations.**

@@ -12,11 +12,11 @@ import type { ChoiceHistoryEntryV2, GameCharacterV2 } from "../types/choiceHisto
 import type { RuntimeSituationV2 } from "../types/runtimeV2";
 import { personalizePlayerText } from "../utils/personalizePlayerText";
 
-interface Props { characters: readonly GameCharacterV2[]; initialCharacters: readonly GameCharacterV2[]; playedSituations: readonly RuntimeSituationV2[]; choiceHistory: readonly ChoiceHistoryEntryV2[]; selectedCharacterId: EditorialCharacterIdV2; selectedModeId: ActiveGameModeIdV2; onRestart: () => void; onChooseAnotherCharacter: () => void; onBackHome: () => void; backHomeLabel: string; }
+interface Props { teacherSession?: boolean; characters: readonly GameCharacterV2[]; initialCharacters: readonly GameCharacterV2[]; playedSituations: readonly RuntimeSituationV2[]; choiceHistory: readonly ChoiceHistoryEntryV2[]; selectedCharacterId: EditorialCharacterIdV2; selectedModeId: ActiveGameModeIdV2; onRestart: () => void; onChooseAnotherCharacter: () => void; onBackHome: () => void; backHomeLabel: string; }
 const movement = (name: string, decision: "advance" | "stay") => `${name} ${decision === "advance" ? "avance" : "reste sur place"}`;
 const modeLabels: Readonly<Record<ActiveGameModeIdV2, string>> = { discovery: "Découverte", "visible-obstacles": "Obstacles visibles", "ordinary-norms": "Normes ordinaires", "invisible-effects": "Effets invisibles", intersectionalities: "Intersectionnalités" };
 
-export default function FinalSummaryPage({ characters, initialCharacters, playedSituations, choiceHistory, selectedCharacterId, selectedModeId, onRestart, onChooseAnotherCharacter, onBackHome, backHomeLabel }: Props) {
+export default function FinalSummaryPage({ teacherSession = false, characters, initialCharacters, playedSituations, choiceHistory, selectedCharacterId, selectedModeId, onRestart, onChooseAnotherCharacter, onBackHome, backHomeLabel }: Props) {
   const [selectedStep, setSelectedStep] = useState(0);
   const [openRecap, setOpenRecap] = useState<number>();
   const selectedCharacter = initialCharacters.find(({ id }) => id === selectedCharacterId);
@@ -58,12 +58,12 @@ export default function FinalSummaryPage({ characters, initialCharacters, played
   }
 
   return <AppBackground as="main" className="summary-background game-summary" style={{ "--character-accent": selectedCharacter?.accentColor } as React.CSSProperties}><div className="game-summary__inner">
-    <header className="game-summary__header"><h1>Bilan de votre parcours</h1><p>Ce bilan propose de revenir sur les situations rencontrées et de comparer votre lecture avec l’interprétation proposée.</p><p><strong>Mode :</strong> {modeLabels[selectedModeId]}</p>
+    <header className="game-summary__header"><h1>Bilan de votre parcours</h1><p>Ce bilan propose de revenir sur les situations rencontrées et de comparer votre lecture avec l’interprétation proposée.</p>{!teacherSession && <p><strong>Mode :</strong> {modeLabels[selectedModeId]}</p>}
       {selectedCharacter && <div className="app-surface selected-character-card game-summary__character"><CharacterPortrait characterId={selectedCharacter.id} characterName={selectedCharacter.name} image={selectedCharacter.image} accentColor={selectedCharacter.accentColor} size="summary" eager /><div><p><strong>{selectedCharacter.name}</strong></p><CharacterInformation character={selectedCharacter} compact /><p>{characters.find(({ id }) => id === selectedCharacterId)?.position ?? 0} pas effectués sur {playedSituations.length}</p></div></div>}
     </header>
     <section className="game-journey" aria-labelledby="game-journey-title"><h2 id="game-journey-title">Votre parcours dans {playedSituations.length} situation{playedSituations.length > 1 ? "s" : ""}</h2><div className="game-journey__steps">{choiceHistory.map((entry, index) => <button key={entry.situationId} type="button" className={entry.matchesProposedInterpretation ? "game-journey__step game-journey__step--concordant" : "game-journey__step game-journey__step--different"} aria-label={`Situation ${index + 1} — ${entry.matchesProposedInterpretation ? "lecture concordante" : "lecture différente"}`} aria-pressed={selectedStep === index} onClick={() => setSelectedStep(index)}>{index + 1}</button>)}</div></section>
     <div className="game-summary__overview">
-      <div className="game-summary__walk"><PrivilegeMargin characters={characters} selectedCharacterId={selectedCharacterId} totalExperiences={playedSituations.length} proposedPositions={proposedPositions} className="mb-0" prominent /></div>
+      <div className="game-summary__walk"><PrivilegeMargin characters={characters} selectedCharacterId={selectedCharacterId} totalExperiences={playedSituations.length} proposedPositions={proposedPositions} className="mb-0" prominent allowCharacterBiographyLink={!teacherSession} /></div>
       <aside className="game-summary__pedagogy" aria-labelledby="game-summary-pedagogy-title"><h2 id="game-summary-pedagogy-title">Votre bilan</h2>
         <section><h3>Comparaison avec l’interprétation proposée</h3><p><strong>{concordanceCount} lectures concordantes</strong> sur {playedSituations.length}.</p><p>Cet indicateur n’est pas une note. Il montre simplement combien de fois votre lecture rejoint l’interprétation proposée dans l’activité.</p></section>
         <section><h3>Lecture par focale</h3><ul>{focalSummary.map((focal) => <li key={focal.originMode}><strong>{focal.label} :</strong> {focal.concordances} concordances sur {focal.total}</li>)}</ul><p>Cette répartition montre les angles d’analyse rencontrés parmi les situations de votre partie.</p></section>

@@ -24,14 +24,18 @@ export default function GamePreparationPage({ selectedModeId, selectedCharacterI
   const selectedSummary = summariesJson.summaries.find(({ id }) => id === selectedCharacterId);
   return <AppBackground as="main" className="game-preparation">
     <div className="game-preparation__inner">
-      <header><p><a href="#/" className="app-text-link">Retour à l’accueil</a></p><h1>{teacherSession ? "Séance préparée par votre enseignant" : "Préparer votre partie"}</h1></header>
-      <section aria-labelledby="game-mode-title"><h2 id="game-mode-title">1. Choisissez un mode</h2>
+      <header>
+        {!teacherSession && <p><a href="#/" className="app-text-link">Retour à l’accueil</a></p>}
+        <h1>{teacherSession ? "Choisissez votre personnage" : "Préparer votre partie"}</h1>
+        {teacherSession && <p>Incarnez l’un des personnages proposés pour commencer.</p>}
+      </header>
+      {!teacherSession && <section aria-labelledby="game-mode-title"><h2 id="game-mode-title">1. Choisissez un mode</h2>
         <fieldset><legend className="sr-only">Mode de jeu</legend><div className="game-preparation__modes">{gameModes.filter((mode) => !teacherSession || mode.id === selectedModeId).map((mode) => {
           const selected = mode.id === selectedModeId;
           return <label key={mode.id} className={`game-preparation__mode${selected ? " game-preparation__mode--selected" : ""}${mode.available ? "" : " game-preparation__mode--unavailable"}`}><input type="radio" name="game-mode" value={mode.id} checked={selected} disabled={!mode.available || teacherSession} onChange={() => onSelectMode(mode.id)} /><span><strong>{mode.title}</strong><small>{mode.description}</small>{mode.recommended ? <em>★ Recommandé pour découvrir la marche des privilèges</em> : null}{selected ? <b>✓ Sélectionné</b> : null}{!mode.available ? <b>Indisponible</b> : null}</span></label>;
         })}</div></fieldset>
-      </section>
-      <section aria-labelledby="game-character-title"><h2 id="game-character-title">2. Choisissez votre personnage</h2><p>Choisissez le personnage dont vous vivrez le parcours et les situations.</p>
+      </section>}
+      <section aria-labelledby="game-character-title"><h2 id="game-character-title">{teacherSession ? "Les personnages proposés" : "2. Choisissez votre personnage"}</h2><p>Choisissez le personnage dont vous vivrez le parcours et les situations.</p>
         <div className="game-preparation__character-layout"><fieldset><legend className="sr-only">Personnage incarné</legend><div className="game-preparation__characters">{characters.map((character) => {
           const selected = character.id === selectedCharacterId;
           return <label key={character.id} className={`game-preparation__character${selected ? " game-preparation__character--selected" : ""}`} style={{ "--character-accent": character.accentColor } as React.CSSProperties}><input type="radio" name="game-character" value={character.id} checked={selected} onChange={() => onSelectCharacter(character.id)} /><CharacterPortrait characterId={character.id} characterName={character.name} image={character.image} accentColor={character.accentColor} size="card" decorative /><span><strong>{character.name}</strong><small>{character.age} ans · {character.schoolLevel}</small><CharacterPublicTags characterId={character.id} /><b>{selected ? "✓ Personnage sélectionné" : "Sélectionner"}</b></span></label>;
